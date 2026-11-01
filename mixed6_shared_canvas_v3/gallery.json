@@ -25,6 +25,12 @@
       "sha256": "14c74037dddc6eb191263fae53be42e5400e0bf016aa0c1c9355b815fcb86bb0",
       "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/training_runs/mixed_185185_formal_185185_ltx6_lr2e4_20261101_segment50/checkpoints/lora_weights_step_00050.safetensors",
       "checkpoint_sha256": "43c163a433033647eaa9bd6ea3c1d34d2b4315d2f09f8f6fb476eb8e269f446c"
+    },
+    "step256": {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/formal_185185_ltx6_lr2e4_20261101/quality/step256/comparison.json",
+      "sha256": "e43d32adbcb218b5451501683528d1bb4841f06befcba772612a53f08c7797cd",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/training_runs/mixed_185185_formal_185185_ltx6_lr2e4_20261101_segment256/checkpoints/lora_weights_step_00256.safetensors",
+      "checkpoint_sha256": "13582d39becffe59d0200393751455fd4d64090c2e6e7d1e06f59f3d293b6918"
     }
   },
   "status": "page_built",
@@ -44,12 +50,12 @@
   ],
   "completed_slots": [
     "base",
-    "step50"
+    "step50",
+    "step256"
   ],
   "pending_slots": [
-    "step256",
     "final"
   ],
   "original_files_verified": 35,
-  "html_sha256": "3ec931950e18d56ed6cc548756d51df7875d62bd7624c7db73fdf754100037d9"
+  "html_sha256": "f18eec05f569e2b4728e51a160b3396b585fa44603ba865815829c2c9f8e725e"
 }
