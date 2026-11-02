@@ -1,0 +1,66 @@
+{
+  "schema": "datamake_fixed_case_gallery_v1",
+  "bundle_sha256": "203bbd71427ad6e2547f9b6118cc97f23d89c640b3f39841b4aac68011734269",
+  "cases_sha256": "1c0b3cbdf7aafc7e146b554cc4f877652839796822816b13cd7f162cc7cf57cc",
+  "development_manifests": {
+    "ue": {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/data_prep/mixed_768_v1/ue/development.jsonl",
+      "sha256": "b65e66f7c761e1213026d5eaab07cb468d588d262e9676cc319b3a8f024c0d74"
+    },
+    "coinve": {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/data_prep/mixed_768_v1/coinve/development.jsonl",
+      "sha256": "1654b4228c6196f9dd443f21feed3ccf90840406ca1d22adf5ede12bbd21f4ac"
+    }
+  },
+  "final_step": 682,
+  "comparisons": {
+    "base": {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/shared_canvas_185185_v3/quality/base/comparison.json",
+      "sha256": "03b01eb43c0426aec3e4ce7feb2d52c6fb5a91f0ccb69fb33a2f714a9694adbd",
+      "checkpoint": null,
+      "checkpoint_sha256": null
+    },
+    "step50": {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/formal_185185_ltx6_lr2e4_20261101/quality/step50/comparison.json",
+      "sha256": "14c74037dddc6eb191263fae53be42e5400e0bf016aa0c1c9355b815fcb86bb0",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/training_runs/mixed_185185_formal_185185_ltx6_lr2e4_20261101_segment50/checkpoints/lora_weights_step_00050.safetensors",
+      "checkpoint_sha256": "43c163a433033647eaa9bd6ea3c1d34d2b4315d2f09f8f6fb476eb8e269f446c"
+    },
+    "step256": {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/formal_185185_ltx6_lr2e4_20261101/quality/step256/comparison.json",
+      "sha256": "e43d32adbcb218b5451501683528d1bb4841f06befcba772612a53f08c7797cd",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/training_runs/mixed_185185_formal_185185_ltx6_lr2e4_20261101_segment256/checkpoints/lora_weights_step_00256.safetensors",
+      "checkpoint_sha256": "13582d39becffe59d0200393751455fd4d64090c2e6e7d1e06f59f3d293b6918"
+    },
+    "final": {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/formal_185185_ltx6_lr2e4_20261101/quality/final/comparison.json",
+      "sha256": "ea227e44f69f8493ff683ad3f363629d1a04b2089dc43e3fd0556c70b252a3c9",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/outputs/training_runs/mixed_185185_formal_185185_ltx6_lr2e4_20261101_segment682/checkpoints/lora_weights_step_00682.safetensors",
+      "checkpoint_sha256": "3e159b8077e72b6d161c9d82c525267b9abb2ad11c27816be1c901251518c333"
+    }
+  },
+  "status": "page_built",
+  "sample_uids": [
+    "ue:26804",
+    "ue:31236",
+    "ue:26800",
+    "ue:26837",
+    "ue:26849",
+    "ue:26872",
+    "ue:26889",
+    "ue:31242",
+    "coinve:7230",
+    "coinve:13509",
+    "coinve:21727",
+    "coinve:16567"
+  ],
+  "completed_slots": [
+    "base",
+    "step50",
+    "step256",
+    "final"
+  ],
+  "pending_slots": [],
+  "original_files_verified": 35,
+  "html_sha256": "e171c16e149505967dada1a25ce5c92989971d6b030c5c85f4773292a1aed6ff"
+}
