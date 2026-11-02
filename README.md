@@ -2,6 +2,8 @@
 
 ## 当前展示结果
 
+- [step682 推理引导对比](inference_guidance_20261102/index.html)：下载后打开该目录的 index.html 查看，视频已随页面保存。
+
 完整目录：[quality_checks](quality_checks/)。媒体已复制为真实文件，下载仓库后可在本地打开页面。
 
 - [mixed6_shared_canvas_v3](quality_checks/mixed6_shared_canvas_v3/index.html)：当前训练对比页面，包含 base、step50、step256 和 final（step682）。
