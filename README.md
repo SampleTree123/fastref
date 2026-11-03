@@ -2,6 +2,8 @@
 
 ## 当前展示结果
 
+- [10个正面近景的 VAE 还原检查](run_20261103_front_closeup10/display/index.html)：原始视频、训练尺寸输入与VAE还原对比，附无损截图；下载后打开 display/index.html。
+
 - [新26例 step512 对比](run_20261103_diverse26_step512/display/index.html)：21个合成案例、5个真实案例，两组模型共52条输出；下载后打开 display/index.html。
 
 - [step150／450 检查点四列对比](run_20261103_step450/display/index.html)：原部件多图、套装正背两种方案的第150与450步结果；下载后打开 display/index.html。

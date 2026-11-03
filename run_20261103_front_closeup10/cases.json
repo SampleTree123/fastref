@@ -1,0 +1,421 @@
+{
+  "selection": "uniform random without replacement over unique videos with camera_id=10 (front_head), held-out test manifest, source and target both eligible",
+  "seed": 42,
+  "eligible_unique_videos": 96,
+  "cases": [
+    {
+      "media": {
+        "path": "nodes/nodes/node_6164.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6164.mp4",
+        "bytes": 14695056,
+        "sha256": "f446e33b66624b1dbafed57ae4b270cd3a2583166df063ae35bcab87662cb813",
+        "media_key": "sha256:f446e33b66624b1dbafed57ae4b270cd3a2583166df063ae35bcab87662cb813",
+        "node_id": 6164,
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 20,
+          "hair_id": 18,
+          "hair_color_id": 1,
+          "scene_id": 6,
+          "aspect_id": 1,
+          "action_id": 15,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 32,
+            "group_id": 40,
+            "shirts": {
+              "clothing_id": 289,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 288,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 292,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 27278,
+      "role": "target",
+      "split": "test"
+    },
+    {
+      "media": {
+        "path": "nodes/nodes/node_6139.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6139.mp4",
+        "bytes": 15806065,
+        "sha256": "9cc6f66425bc4bb054277a9db69662255ce202855239a812095326cd1cce14a6",
+        "media_key": "sha256:9cc6f66425bc4bb054277a9db69662255ce202855239a812095326cd1cce14a6",
+        "node_id": 6139,
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 17,
+          "hair_id": 4,
+          "hair_color_id": 5,
+          "scene_id": 6,
+          "aspect_id": 1,
+          "action_id": 15,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 32,
+            "group_id": 40,
+            "shirts": {
+              "clothing_id": 289,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 288,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 292,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 27175,
+      "role": "target",
+      "split": "test"
+    },
+    {
+      "media": {
+        "path": "nodes/nodes/node_6512.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6512.mp4",
+        "bytes": 19388485,
+        "sha256": "f98683c3ddb198fb4ed84d7f0c1e5183ca82460116d057b4f947548d0cc06770",
+        "media_key": "sha256:f98683c3ddb198fb4ed84d7f0c1e5183ca82460116d057b4f947548d0cc06770",
+        "node_id": 6512,
+        "attributes": {
+          "sex_id": 1,
+          "identity_id": 12,
+          "hair_id": 8,
+          "hair_color_id": 2,
+          "scene_id": 10,
+          "aspect_id": 1,
+          "action_id": 16,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 8,
+            "group_id": 12,
+            "shirts": {
+              "clothing_id": 110,
+              "slot": "shirts"
+            },
+            "skirts": {
+              "clothing_id": 108,
+              "slot": "skirts"
+            },
+            "shared_shoes": {
+              "clothing_id": 1,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 30765,
+      "role": "target",
+      "split": "test"
+    },
+    {
+      "media": {
+        "path": "nodes/nodes/node_6188.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6188.mp4",
+        "bytes": 16315423,
+        "sha256": "34c3aa3fd59d48af8f990606870b934d741eb8c2a29ec308ea0c695f1b194098",
+        "media_key": "sha256:34c3aa3fd59d48af8f990606870b934d741eb8c2a29ec308ea0c695f1b194098",
+        "node_id": 6188,
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 19,
+          "hair_id": 8,
+          "hair_color_id": 2,
+          "scene_id": 6,
+          "aspect_id": 1,
+          "action_id": 14,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 32,
+            "group_id": 40,
+            "shirts": {
+              "clothing_id": 289,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 288,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 292,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 27422,
+      "role": "target",
+      "split": "test"
+    },
+    {
+      "media": {
+        "path": "nodes/nodes/node_6184.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6184.mp4",
+        "bytes": 15063567,
+        "sha256": "669884467e6dcaac7db65ad226051dd03078b490cd1791adf81c56ac3af8751c",
+        "media_key": "sha256:669884467e6dcaac7db65ad226051dd03078b490cd1791adf81c56ac3af8751c",
+        "node_id": 6184,
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 18,
+          "hair_id": 4,
+          "hair_color_id": 1,
+          "scene_id": 6,
+          "aspect_id": 1,
+          "action_id": 15,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 32,
+            "group_id": 40,
+            "shirts": {
+              "clothing_id": 289,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 288,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 292,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 27372,
+      "role": "target",
+      "split": "test"
+    },
+    {
+      "media": {
+        "path": "nodes/nodes/node_6167.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6167.mp4",
+        "bytes": 15605437,
+        "sha256": "f2a764f12ef3219f41324e0303c28a62845e2e6f7c35ab3dde692679d3508c42",
+        "media_key": "sha256:f2a764f12ef3219f41324e0303c28a62845e2e6f7c35ab3dde692679d3508c42",
+        "node_id": 6167,
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 20,
+          "hair_id": 4,
+          "hair_color_id": 5,
+          "scene_id": 6,
+          "aspect_id": 1,
+          "action_id": 15,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 32,
+            "group_id": 40,
+            "shirts": {
+              "clothing_id": 289,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 288,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 292,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 27283,
+      "role": "target",
+      "split": "test"
+    },
+    {
+      "media": {
+        "path": "nodes/nodes/node_6163.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6163.mp4",
+        "bytes": 14898037,
+        "sha256": "a1d66ae14cfe905d10525d9507a229becbc890151f4dc656bef6f2ee4437cd1b",
+        "media_key": "sha256:a1d66ae14cfe905d10525d9507a229becbc890151f4dc656bef6f2ee4437cd1b",
+        "node_id": 6163,
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 19,
+          "hair_id": 18,
+          "hair_color_id": 1,
+          "scene_id": 6,
+          "aspect_id": 1,
+          "action_id": 15,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 32,
+            "group_id": 40,
+            "shirts": {
+              "clothing_id": 289,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 288,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 292,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 27277,
+      "role": "target",
+      "split": "test"
+    },
+    {
+      "media": {
+        "path": "nodes/nodes/node_6141.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6141.mp4",
+        "bytes": 14829556,
+        "sha256": "3965eb3746699a67bf121cf2b56e2b3073f8a58ab464f111631a52a5c7f3537f",
+        "media_key": "sha256:3965eb3746699a67bf121cf2b56e2b3073f8a58ab464f111631a52a5c7f3537f",
+        "node_id": 6141,
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 20,
+          "hair_id": 18,
+          "hair_color_id": 5,
+          "scene_id": 6,
+          "aspect_id": 1,
+          "action_id": 15,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 32,
+            "group_id": 40,
+            "shirts": {
+              "clothing_id": 289,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 288,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 292,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 27177,
+      "role": "target",
+      "split": "test"
+    },
+    {
+      "media": {
+        "path": "nodes/nodes/node_6523.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6523.mp4",
+        "bytes": 14896058,
+        "sha256": "11ed4423fb073e3fd3d44d4e12cffdfc38948bc26198b53a49a0f15732071524",
+        "media_key": "sha256:11ed4423fb073e3fd3d44d4e12cffdfc38948bc26198b53a49a0f15732071524",
+        "node_id": 6523,
+        "attributes": {
+          "sex_id": 1,
+          "identity_id": 14,
+          "hair_id": 8,
+          "hair_color_id": 3,
+          "scene_id": 10,
+          "aspect_id": 1,
+          "action_id": 17,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 8,
+            "group_id": 12,
+            "shirts": {
+              "clothing_id": 110,
+              "slot": "shirts"
+            },
+            "skirts": {
+              "clothing_id": 108,
+              "slot": "skirts"
+            },
+            "shared_shoes": {
+              "clothing_id": 1,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 30784,
+      "role": "target",
+      "split": "test"
+    },
+    {
+      "media": {
+        "path": "nodes/nodes/node_6177.mp4",
+        "absolute_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6177.mp4",
+        "bytes": 16676467,
+        "sha256": "06bbabe618a0b153410c69c533f8d0bccb8535ff642448623487b2331277b00b",
+        "media_key": "sha256:06bbabe618a0b153410c69c533f8d0bccb8535ff642448623487b2331277b00b",
+        "node_id": 6177,
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 19,
+          "hair_id": 8,
+          "hair_color_id": 5,
+          "scene_id": 6,
+          "aspect_id": 1,
+          "action_id": 14,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 32,
+            "group_id": 40,
+            "shirts": {
+              "clothing_id": 289,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 288,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 292,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      "sample_id": 27337,
+      "role": "target",
+      "split": "test"
+    }
+  ],
+  "visual_screen": {
+    "excluded_node_ids": [
+      6866,
+      6871,
+      6879
+    ],
+    "reason": "camera_id=10 but first/middle frames show side/back rather than frontal face",
+    "replacement_seed": 43,
+    "replacement_node_ids": [
+      6141,
+      6523,
+      6177
+    ]
+  }
+}
