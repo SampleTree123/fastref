@@ -2,6 +2,8 @@
 
 ## 当前展示结果
 
+- [两组 step150 检查点推理对比](run_20261103_step150/display/index.html)：原部件多图与套装正背分开两组，各16例；下载后打开 display/index.html。
+
 - [step682 推理引导对比](inference_guidance_20261102/index.html)：下载后打开该目录的 index.html 查看，视频已随页面保存。
 
 完整目录：[quality_checks](quality_checks/)。媒体已复制为真实文件，下载仓库后可在本地打开页面。
