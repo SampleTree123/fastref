@@ -1,0 +1,58 @@
+{
+  "description": "同一案例依次比较原部件多图150/450步、套装正背分开150/450步。第150步复用之前已生成的结果，第450步按相同参数重新生成。15例来自验证集，跨种族身份例为标注的训练集示例。",
+  "allocation": 189814,
+  "cases": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/cases.json",
+  "inference_config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/inference.json",
+  "guidance": {
+    "cfg_scale": 3.0,
+    "stg_scale": 1.0,
+    "guidance_rescale": 0.7,
+    "stg_blocks": [
+      28
+    ],
+    "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+    "guidance_batch_size": 1,
+    "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+    "audio_guidance": false,
+    "rescale_scope": "official_full_packed_latent",
+    "references": "same_clean_source_and_references_in_all_passes"
+  },
+  "runs": [
+    {
+      "name": "original_step150",
+      "label": "原部件多图 · 第150步",
+      "step": 150,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/original_images_sequential_time/job_187940/checkpoints/lora_weights_step_00150.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/original_images/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step150/original_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step150/original/comparison.json"
+    },
+    {
+      "name": "original_step450",
+      "label": "原部件多图 · 第450步",
+      "step": 450,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/original_images_sequential_time/job_187940/checkpoints/lora_weights_step_00450.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/original_images/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/original_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/original/comparison.json"
+    },
+    {
+      "name": "outfit_step150",
+      "label": "套装正背分开 · 第150步",
+      "step": 150,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_images_sequential_time/job_187943/checkpoints/lora_weights_step_00150.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_images/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step150/outfit_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step150/outfit/comparison.json"
+    },
+    {
+      "name": "outfit_step450",
+      "label": "套装正背分开 · 第450步",
+      "step": 450,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_images_sequential_time/job_187943/checkpoints/lora_weights_step_00450.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_images/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/outfit_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/outfit/comparison.json"
+    }
+  ]
+}

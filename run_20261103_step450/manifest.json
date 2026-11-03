@@ -1,0 +1,40 @@
+{
+  "description": "两组均使用本次选定的最新完整第450步检查点，复用第150步的16例和全部推理参数；不更换样本或随机种子。",
+  "allocation": 189814,
+  "cases": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/cases.json",
+  "inference_config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/inference.json",
+  "guidance": {
+    "cfg_scale": 3.0,
+    "stg_scale": 1.0,
+    "guidance_rescale": 0.7,
+    "stg_blocks": [
+      28
+    ],
+    "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+    "guidance_batch_size": 1,
+    "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+    "audio_guidance": false,
+    "rescale_scope": "official_full_packed_latent",
+    "references": "same_clean_source_and_references_in_all_passes"
+  },
+  "runs": [
+    {
+      "name": "original",
+      "label": "原部件多图 · 第450步",
+      "step": 450,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/original_images_sequential_time/job_187940/checkpoints/lora_weights_step_00450.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/original_images/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/original_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/original/comparison.json"
+    },
+    {
+      "name": "outfit",
+      "label": "套装正背分开 · 第450步",
+      "step": 450,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_images_sequential_time/job_187943/checkpoints/lora_weights_step_00450.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_images/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/outfit_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_step450/outfit/comparison.json"
+    }
+  ]
+}

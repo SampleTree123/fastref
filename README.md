@@ -2,6 +2,8 @@
 
 ## 当前展示结果
 
+- [step150／450 检查点四列对比](run_20261103_step450/display/index.html)：原部件多图、套装正背两种方案的第150与450步结果；下载后打开 display/index.html。
+
 - [两组 step150 检查点推理对比](run_20261103_step150/display/index.html)：原部件多图与套装正背分开两组，各16例；下载后打开 display/index.html。
 
 - [step682 推理引导对比](inference_guidance_20261102/index.html)：下载后打开该目录的 index.html 查看，视频已随页面保存。

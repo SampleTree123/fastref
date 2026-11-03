@@ -1,0 +1,178 @@
+[
+  {
+    "uid": "ue:26804",
+    "source": "ue",
+    "sample_id": 26804,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "整套换装：原部件多图对比完整套装正背图",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:31236",
+    "source": "ue",
+    "sample_id": 31236,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "动作替换（竖屏）",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:26800",
+    "source": "ue",
+    "sample_id": 26800,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "场景替换",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:26837",
+    "source": "ue",
+    "sample_id": 26837,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "人物身份替换",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:26849",
+    "source": "ue",
+    "sample_id": 26849,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "镜头改为前侧45度",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:26872",
+    "source": "ue",
+    "sample_id": 26872,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "动作替换（横屏）",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:26889",
+    "source": "ue",
+    "sample_id": 26889,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "发型替换",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:31242",
+    "source": "ue",
+    "sample_id": 31242,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "镜头改为正面上半身",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "coinve:7230",
+    "source": "coinve",
+    "sample_id": 7230,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "真实视频编辑：coinve:7230",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "coinve:13509",
+    "source": "coinve",
+    "sample_id": 13509,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "真实视频编辑：coinve:13509",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "coinve:21727",
+    "source": "coinve",
+    "sample_id": 21727,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "真实视频编辑：coinve:21727",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "coinve:16567",
+    "source": "coinve",
+    "sample_id": 16567,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "真实视频编辑：coinve:16567",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:31329",
+    "source": "ue",
+    "sample_id": 31329,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "白发改红发",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:31420",
+    "source": "ue",
+    "sample_id": 31420,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "红发改白发",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  },
+  {
+    "uid": "ue:9422",
+    "source": "ue",
+    "sample_id": 9422,
+    "split": "train",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "跨种族身份替换：CFD40_WF_002 → CFD40_BF_003",
+    "evaluation_note": "训练集示例，仅检查是否学会，不作为独立验证。"
+  },
+  {
+    "uid": "ue:31374",
+    "source": "ue",
+    "sample_id": 31374,
+    "split": "development",
+    "seed": 42,
+    "num_inference_steps": 40,
+    "cfg_scale": 3,
+    "label": "镜头从上半身逐渐拉远到全身",
+    "evaluation_note": "验证集固定展示案例，不属于独立测试集评测。"
+  }
+]

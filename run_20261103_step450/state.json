@@ -1,0 +1,57 @@
+{
+  "status": "completed",
+  "allocation": 189814,
+  "started_unix": 1793690822.7672844,
+  "stages": [
+    {
+      "name": "pin_checkpoints",
+      "status": "completed",
+      "started_unix": 1793690822.7673895,
+      "exit_code": 0,
+      "seconds": 7.686725616455078
+    },
+    {
+      "name": "initial_page",
+      "status": "completed",
+      "started_unix": 1793690830.473876,
+      "exit_code": 0,
+      "seconds": 5.3608033657073975
+    },
+    {
+      "name": "original",
+      "status": "completed",
+      "started_unix": 1793690835.836869,
+      "exit_code": 0,
+      "seconds": 1919.332389831543
+    },
+    {
+      "name": "page_after_original",
+      "status": "completed",
+      "started_unix": 1793692755.1756763,
+      "exit_code": 0,
+      "seconds": 5.818532466888428
+    },
+    {
+      "name": "outfit",
+      "status": "completed",
+      "started_unix": 1793692761.001463,
+      "exit_code": 0,
+      "seconds": 1838.547530412674
+    },
+    {
+      "name": "page_after_outfit",
+      "status": "completed",
+      "started_unix": 1793694599.5511332,
+      "exit_code": 0,
+      "seconds": 5.429112195968628
+    },
+    {
+      "name": "export",
+      "status": "completed",
+      "started_unix": 1793694604.9817715,
+      "exit_code": 0,
+      "seconds": 1.8180186748504639
+    }
+  ],
+  "finished_unix": 1793694606.8013813
+}
