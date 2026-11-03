@@ -1,0 +1,642 @@
+{
+  "status": "passed",
+  "cpu_only": true,
+  "runs": [
+    {
+      "name": "original",
+      "loaded_cases": 26,
+      "cases": [
+        {
+          "uid": "ue:29829",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30872",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30051",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30247",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:27720",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29004",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30522",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:26754",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:28170",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:28215",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29188",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:27118",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:27599",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:27897",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:26652",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:28537",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:31550",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29259",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30129",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29043",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29758",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:151368",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:197535",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:83632",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:57742",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:193307",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "outfit",
+      "loaded_cases": 26,
+      "cases": [
+        {
+          "uid": "ue:29829",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30872",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30051",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30247",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:27720",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29004",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30522",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:26754",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:28170",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:28215",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29188",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:27118",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:27599",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:27897",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:26652",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:28537",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:31550",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29259",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:30129",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29043",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "ue:29758",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:151368",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:197535",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:83632",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:57742",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        },
+        {
+          "uid": "coinve:193307",
+          "keys": [
+            "conditions",
+            "references",
+            "sample_id",
+            "sample_uid",
+            "source",
+            "source_name",
+            "video_latents"
+          ]
+        }
+      ]
+    }
+  ]
+}
