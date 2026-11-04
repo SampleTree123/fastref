@@ -1,0 +1,63 @@
+{
+  "description": "同一批26例比较四个实验。首轮682步沿用缩放补边；原多图512步与套装512步复用昨天结果；拼图选择启动推理时最新完整检查点。各组训练步数和图片处理不同，页面用于查看最终效果，不作为仅改变单个因素的对照。",
+  "cases": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261104_four_experiments_26/cases.json",
+  "inference_config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261104_four_experiments_26/inference.json",
+  "guidance": {
+    "cfg_scale": 3.0,
+    "stg_scale": 1.0,
+    "guidance_rescale": 0.7,
+    "stg_blocks": [
+      28
+    ],
+    "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+    "guidance_batch_size": 1,
+    "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+    "audio_guidance": false,
+    "rescale_scope": "official_full_packed_latent",
+    "references": "same_clean_source_and_references_in_all_passes"
+  },
+  "runs": [
+    {
+      "name": "legacy",
+      "label": "首次实验 · 原多图＋补边＋时间从0 · 682步",
+      "step": 682,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/original_images_original_time/run_20261101/checkpoints/lora_weights_step_00682.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/original_images/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261104_four_experiments_26/legacy_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261104_four_experiments_26/legacy/comparison.json",
+      "legacy_reference_cache": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261104_four_experiments_26/legacy_reference_cache"
+    },
+    {
+      "name": "original",
+      "label": "原部件多图＋连续时间 · 512步",
+      "step": 512,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/original_images_sequential_time/job_187940/checkpoints/lora_weights_step_00512.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/original_images/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_diverse26_step512/original_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_diverse26_step512/original/comparison.json",
+      "reuse_completed": true
+    },
+    {
+      "name": "outfit",
+      "label": "套装正背分开＋连续时间 · 512步",
+      "step": 512,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_images_sequential_time/job_187943/checkpoints/lora_weights_step_00512.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_images/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_diverse26_step512/outfit_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261103_diverse26_step512/outfit/comparison.json",
+      "reuse_completed": true
+    },
+    {
+      "name": "contact",
+      "label": "拼图＋连续时间 · 768步",
+      "step": 768,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/contact_sheet_sequential_time_768/job_190610/checkpoints/lora_weights_step_00768.safetensors",
+      "checkpoint_directory": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/contact_sheet_sequential_time_768/job_190610/checkpoints",
+      "select_latest_at_launch": true,
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/contact_sheet/sources.json",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261104_four_experiments_26/contact_config.yaml",
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261104_four_experiments_26/contact/comparison.json"
+    }
+  ],
+  "gpu_count": 4
+}

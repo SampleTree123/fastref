@@ -1,0 +1,39 @@
+{
+  "status": "completed",
+  "completed_experiments": [
+    "legacy",
+    "original",
+    "outfit",
+    "contact"
+  ],
+  "manifest": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/checkpoint_comparison/run_20261104_four_experiments_26/manifest.json",
+  "html_sha256": "4538691123a942849d2050714d1810a6d7c141f78783f9a3fd22c6dc66224c20",
+  "sample_uids": [
+    "ue:29829",
+    "ue:30872",
+    "ue:30051",
+    "ue:30247",
+    "ue:27720",
+    "ue:29004",
+    "ue:30522",
+    "ue:26754",
+    "ue:28170",
+    "ue:28215",
+    "ue:29188",
+    "ue:27118",
+    "ue:27599",
+    "ue:27897",
+    "ue:26652",
+    "ue:28537",
+    "ue:31550",
+    "ue:29259",
+    "ue:30129",
+    "ue:29043",
+    "ue:29758",
+    "coinve:151368",
+    "coinve:197535",
+    "coinve:83632",
+    "coinve:57742",
+    "coinve:193307"
+  ]
+}

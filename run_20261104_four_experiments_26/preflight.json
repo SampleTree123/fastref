@@ -1,0 +1,88 @@
+{
+  "case_count": 26,
+  "case_list_unchanged": true,
+  "runs": [
+    {
+      "name": "legacy",
+      "step": 682,
+      "protocol": "reference_positions_v3_shared_canvas",
+      "samples": 26,
+      "reuse": false
+    },
+    {
+      "name": "original",
+      "step": 512,
+      "protocol": "reference_positions_v7_refs_source_target",
+      "samples": 26,
+      "reuse": true
+    },
+    {
+      "name": "outfit",
+      "step": 512,
+      "protocol": "reference_positions_v7_refs_source_target",
+      "samples": 26,
+      "reuse": true
+    },
+    {
+      "name": "contact",
+      "step": 700,
+      "protocol": "reference_positions_v7_refs_source_target",
+      "samples": 26,
+      "reuse": false
+    }
+  ],
+  "legacy_image_uses": 24,
+  "legacy_unique_image_contents": 22,
+  "legacy_pixel_geometry_checked": true,
+  "gpu_generation": "running_four_workers",
+  "launch_dry_runs": [
+    {
+      "name": "legacy",
+      "case_counts": [
+        7,
+        7,
+        6,
+        6
+      ],
+      "legacy_option_present": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "contact",
+      "case_counts": [
+        7,
+        7,
+        6,
+        6
+      ],
+      "legacy_option_present": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "existing_guidance_cpu_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "preview": {
+    "media_files": 139,
+    "all_regular_files": true,
+    "completed_experiments": [
+      "original",
+      "outfit"
+    ]
+  },
+  "legacy_reference_gpu_encoding": {
+    "status": "passed",
+    "image_uses": 24,
+    "allocation": 191814,
+    "workers": 4
+  }
+}

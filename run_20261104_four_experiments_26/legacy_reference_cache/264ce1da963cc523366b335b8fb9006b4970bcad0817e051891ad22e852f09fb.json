@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "image_sha256": "37744576c322d300619ae3bc8cd69be4476d781eacbec1f03b6c272a54e0e44b",
+    "canvas_wh": [
+      448,
+      768
+    ],
+    "weights_signature": "5d3286c4b944bdeab2ed13227ca689a27cab96de90ff36db84d2b2d5fd012e66",
+    "method": "source_canvas_contain_black_padding_before_vae_v1"
+  },
+  "geometry": {
+    "resized_width": 448,
+    "resized_height": 448,
+    "padding_ltrb": [
+      0,
+      160,
+      0,
+      160
+    ]
+  },
+  "sha256": "4aced9adce217fb92ff4965ed47b62d3e9aaa324a6ee5592f2075dbf5c18b6c3"
+}

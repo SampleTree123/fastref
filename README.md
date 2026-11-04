@@ -2,6 +2,8 @@
 
 ## 当前展示结果
 
+- [四个实验的26例完整对比](run_20261104_four_experiments_26/display/index.html)：最终四组推理已完成；下载后打开 display/index.html，preview 为较早的预览版。
+
 - [10个正面近景的 VAE 还原检查](run_20261103_front_closeup10/display/index.html)：原始视频、训练尺寸输入与VAE还原对比，附无损截图；下载后打开 display/index.html。
 
 - [新26例 step512 对比](run_20261103_diverse26_step512/display/index.html)：21个合成案例、5个真实案例，两组模型共52条输出；下载后打开 display/index.html。

@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "allocation": "191814",
+  "started_unix": 1793796240.0272043,
+  "stages": [
+    {
+      "name": "gallery",
+      "exit_code": 0,
+      "finished_unix": 1793796252.1912851
+    },
+    {
+      "name": "legacy",
+      "exit_code": 0,
+      "finished_unix": 1793797114.4763806
+    },
+    {
+      "name": "gallery",
+      "exit_code": 0,
+      "finished_unix": 1793797122.1697593
+    },
+    {
+      "name": "contact",
+      "exit_code": 0,
+      "finished_unix": 1793798018.3861291
+    },
+    {
+      "name": "gallery",
+      "exit_code": 0,
+      "finished_unix": 1793798026.2056255
+    },
+    {
+      "name": "export",
+      "exit_code": 0,
+      "finished_unix": 1793798028.8919024
+    }
+  ],
+  "finished_unix": 1793798028.8919091
+}
