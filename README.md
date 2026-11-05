@@ -2,6 +2,8 @@
 
 ## 当前展示结果
 
+- [八组实验的26例完整对比](run_20261105_all_experiments_26/display/index.html)：208条输出，包含参考CFG对比；下载后打开 display/index.html。
+
 - [四个实验的26例完整对比](run_20261104_four_experiments_26/display/index.html)：最终四组推理已完成；下载后打开 display/index.html，preview 为较早的预览版。
 
 - [10个正面近景的 VAE 还原检查](run_20261103_front_closeup10/display/index.html)：原始视频、训练尺寸输入与VAE还原对比，附无损截图；下载后打开 display/index.html。

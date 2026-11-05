@@ -1,0 +1,58 @@
+{
+  "status": "completed",
+  "allocation": "193061",
+  "started_unix": 1793880866.126683,
+  "stages": [
+    {
+      "name": "gallery",
+      "exit_code": 0,
+      "finished_unix": 1793880878.6254025
+    },
+    {
+      "name": "outfit_original_time",
+      "exit_code": 0,
+      "finished_unix": 1793881391.2879434
+    },
+    {
+      "name": "gallery",
+      "exit_code": 0,
+      "finished_unix": 1793881400.0012832
+    },
+    {
+      "name": "outfit_refcfg1",
+      "exit_code": 0,
+      "finished_unix": 1793881888.5756912
+    },
+    {
+      "name": "gallery",
+      "exit_code": 0,
+      "finished_unix": 1793881897.3195558
+    },
+    {
+      "name": "outfit_refcfg3",
+      "exit_code": 0,
+      "finished_unix": 1793882505.5803852
+    },
+    {
+      "name": "gallery",
+      "exit_code": 0,
+      "finished_unix": 1793882514.534981
+    },
+    {
+      "name": "camera",
+      "exit_code": 0,
+      "finished_unix": 1793883014.760201
+    },
+    {
+      "name": "gallery",
+      "exit_code": 0,
+      "finished_unix": 1793883023.9137776
+    },
+    {
+      "name": "export",
+      "exit_code": 0,
+      "finished_unix": 1793883027.4375694
+    }
+  ],
+  "finished_unix": 1793883027.4375782
+}

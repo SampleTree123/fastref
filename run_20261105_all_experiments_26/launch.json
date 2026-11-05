@@ -1,0 +1,10 @@
+{
+  "pid": 1203707,
+  "allocation": 193061,
+  "gpu_count": 8,
+  "started_unix": 1793880865.1251233,
+  "planned_new_outputs": 104,
+  "reuse_outputs": 104,
+  "release_allocation_on_finish": false,
+  "resume_training_on_finish": false
+}
