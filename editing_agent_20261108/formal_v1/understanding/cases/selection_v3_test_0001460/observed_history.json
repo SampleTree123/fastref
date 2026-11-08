@@ -1,0 +1,69 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6275.mp4",
+    "observed": {
+      "identity": "A slender woman with a low back, seen from behind, with a small tattoo visible on her upper back.",
+      "hairstyle": "Short reddish-brown hair tied up in a small topknot with loose strands at the nape.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A blue and white patterned dress with an open back and short sleeves.",
+      "action": "She stands with her back to the camera, then raises her right arm to brush her hair back before lowering it.",
+      "camera": "A static medium shot from behind the subject at eye level.",
+      "scene": "An outdoor amusement park or boardwalk at dusk, featuring a carousel, a red food cart, and a large marquee with string lights."
+    },
+    "uncertain": [],
+    "observation_identity": "a6b16e6b19c0285ca4b678e8597a8cfa8d933f6a1211b3bc92cf752b57842e80"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hair color to blue.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6293.mp4",
+    "observed": {
+      "identity": "A slender female character with a low back, shown from behind.",
+      "hairstyle": "Hair is pulled up into a high bun with loose strands at the nape.",
+      "hair_color": "Deep blue.",
+      "clothing": "A blue and white patterned dress with an open back and short sleeves.",
+      "action": "The character stands with her back to the camera, then raises her right arm to brush her hair back before lowering it.",
+      "camera": "A static, medium shot from behind the character at eye level.",
+      "scene": "An outdoor amusement park or boardwalk with a carousel, a red food cart, and a large marquee with lights in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "1c7d71517ddbe6f5fc0fe4b7f84283591024a2ca884fd253fdc9e33776e4500d"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_81.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_4.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6256.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind, with a low bun hairstyle.",
+      "hairstyle": "Hair is pulled back into a low bun at the nape of the neck.",
+      "hair_color": "Dark reddish-brown.",
+      "clothing": "She wears a blue and white patterned dress with an open back and short sleeves.",
+      "action": "The woman stands with her back to the camera, then raises her right arm to brush her hair back before lowering it.",
+      "camera": "The camera is static, positioned behind the woman at a medium distance, capturing her from the waist up.",
+      "scene": "The setting is an outdoor amusement park or fairground at dusk, featuring a carousel with a striped roof and a large structure with marquee lights to the left."
+    },
+    "uncertain": [],
+    "observation_identity": "b27a38f4eedf7a0fd9571d998d3dccb5fd5020e191cd9e91e10259e1366277e0"
+  }
+]

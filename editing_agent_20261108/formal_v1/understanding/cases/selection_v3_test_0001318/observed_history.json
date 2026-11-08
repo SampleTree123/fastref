@@ -1,0 +1,69 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6236.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build, light skin, and a small face, shown in full body.",
+      "hairstyle": "Blonde hair pulled up into two small buns on top of her head with loose strands framing her face.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a long-sleeved pink sweater, a short pink pleated skirt, and black lace-up ankle boots.",
+      "action": "She stands facing forward, then turns to her right, raises one hand to brush her hair back, and turns back to face forward.",
+      "camera": "Static full-body shot at a slight low angle, keeping the character centered in frame.",
+      "scene": "An outdoor rooftop or plaza with tiled and pebbled ground, large gray metal structures, and a city skyline with cranes and buildings in the background under a soft sunset sky."
+    },
+    "uncertain": [],
+    "observation_identity": "d6ca9dc779dce3cd2288cb6795cb90d4ff11cf9122365efe39283a7c12d809cd"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: The person currently has chestnut brown hair; please change it to blonde.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6223.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build, light skin, and a small face.",
+      "hairstyle": "Short blonde hair with two small buns on top of her head.",
+      "hair_color": "Blonde.",
+      "clothing": "A long-sleeved pink sweater, a short pink pleated skirt, and black lace-up boots.",
+      "action": "She stands on a rooftop, turns her body to the side, raises her hand to her head, and then turns back to face forward.",
+      "camera": "A static, full-body shot from a slightly low angle.",
+      "scene": "An outdoor rooftop at dusk with a tiled floor, large metal structures, and a city skyline with cranes in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "933cc0b66049df152958911e7e335c9d2b16f5148e1088b191a56a6ddbfd5d0b"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_18.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_111.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6243.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build and light skin, shown in full body.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail with loose strands framing the face.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a long-sleeved pink sweater, a short pink pleated skirt, and black lace-up boots.",
+      "action": "She stands on a rooftop, turns her head and body, raises one arm to brush her hair back, then places her hands on her hips before returning to a standing pose.",
+      "camera": "Static full-body shot from a low angle, keeping the character centered in frame.",
+      "scene": "A stylized city rooftop at dusk with tiled and pebbled flooring, large gray utility structures, and distant buildings with cranes and neon signs."
+    },
+    "uncertain": [],
+    "observation_identity": "6d4c11a2a9de1e07a9cfef02a223f5ecf86ae14b60c667319b33f43b60e4d012"
+  }
+]

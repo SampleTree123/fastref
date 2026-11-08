@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5996.mp4",
+  "observed": {
+    "identity": "A person with a medium build, seen from behind, with a small tattoo visible on the upper right arm.",
+    "hairstyle": "Short hair with a small topknot bun at the crown.",
+    "hair_color": "White.",
+    "clothing": "A sleeveless tank top with a pink, white, and yellow tie-dye pattern, and pink shorts.",
+    "action": "The person stands with their back to the camera, raises their right hand to touch and adjust their hair, then lowers it and turns their head slightly to the right.",
+    "camera": "A static, medium shot from behind the subject at roughly eye level.",
+    "scene": "An outdoor cobblestone street in front of a dark, ornate storefront with signs reading 'SOAP', 'COCOA POWDER', and 'APOTHECARY'."
+  },
+  "uncertain": [],
+  "observation_identity": "fd46609d2c95d16e8f7ae0ccd771164472a67f64d5dc5e44c58d1fa8d54ce2db"
+}

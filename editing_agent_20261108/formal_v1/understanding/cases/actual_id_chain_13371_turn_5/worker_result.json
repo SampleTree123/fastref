@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "id": "actual_id_chain_13371_turn_5",
+  "dataset_index": 239,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 27.36969092488289,
+  "result": {
+    "source_video_id": 4,
+    "prompt": "Change the person's action in the source video to match the action demonstrated in the motion reference. Transfer only the demonstrated action; do not adopt the reference person's appearance, the reference scene, or the reference camera setup. Preserve all other aspects of the current video, including the person's identity, appearance, scene, lighting, and camera framing.",
+    "reference_ids": [
+      "ref_1"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6401.mp4",
+  "observed": {
+    "identity": "A slender adult with fair skin, visible from head to toe, standing in the center of the road.",
+    "hairstyle": "Blonde hair pulled back into a high bun.",
+    "hair_color": "Blonde.",
+    "clothing": "Light blue cable-knit sweater, dark gray cropped trousers, and brown lace-up shoes with light socks.",
+    "action": "The person stands facing forward, then turns to their left, raises a hand to their mouth, and turns back to face the camera.",
+    "camera": "Static, low-angle full-body shot from across the road.",
+    "scene": "An empty asphalt road under a concrete overpass, with metal guardrails, trees, and orange-and-white roadwork barriers in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "a2e015f9b1ef381adcfda53d3865c1c4bfe3508c23d3fcf9f0b91fbdcdb03ea4"
+}

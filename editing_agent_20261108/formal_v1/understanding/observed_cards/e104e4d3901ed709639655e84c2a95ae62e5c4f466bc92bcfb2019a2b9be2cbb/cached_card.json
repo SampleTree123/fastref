@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6329.mp4",
+  "observed": {
+    "identity": "A Black man with a slim build and short facial hair.",
+    "hairstyle": "Short hair gathered into a small top bun.",
+    "hair_color": "Bright blue.",
+    "clothing": "A tan cable-knit sweater and dark trousers.",
+    "action": "He stands on the street, turns his head, and raises one hand to touch his chin and neck while the other arm crosses his torso.",
+    "camera": "A static medium shot from the waist up at eye level.",
+    "scene": "A cobblestone street in front of old stone and brick buildings with shopfronts, posters, and black lamp posts."
+  },
+  "uncertain": [],
+  "observation_identity": "c6d118219a54d94bd093383b4a164cd177a418e291ca2a7143f282f40911c4bd"
+}

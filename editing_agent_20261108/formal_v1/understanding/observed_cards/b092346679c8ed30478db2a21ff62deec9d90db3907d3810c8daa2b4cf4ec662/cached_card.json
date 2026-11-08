@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7150.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build, light skin, and visible facial features including dark eyes and pink lips.",
+    "hairstyle": "Short, choppy silver hair with bangs, styled in a tousled bob.",
+    "hair_color": "Silver-white.",
+    "clothing": "A black and gold floral romper with a black corset-style bodice, white crisscross lacing, and puffy off-the-shoulder sleeves, paired with light blue sneakers.",
+    "action": "She stands facing the camera, then turns her body and head to the side while raising one hand to touch her hair and face, posing with the other hand on her hip before turning back to face forward.",
+    "camera": "A static, eye-level full-body shot that remains centered on the subject throughout the clip.",
+    "scene": "An outdoor cobblestone street lined with historic stone buildings, black lampposts, and a hanging Union Jack flag, with a sign reading 'WORLD'S FINEST SALON' visible on the right."
+  },
+  "uncertain": [],
+  "observation_identity": "59dc305489339d8d73c43e9c1ef361f57230df25b5b93a2c6069f29f6690aa6a"
+}

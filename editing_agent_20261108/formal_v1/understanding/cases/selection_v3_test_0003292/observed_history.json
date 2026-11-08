@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6747.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark complexion, short facial hair, and a stocky build.",
+      "hairstyle": "Short, flat-top style hair.",
+      "hair_color": "White.",
+      "clothing": "A white, horizontally striped, long-sleeved button-up shirt with black suspenders, a black bow tie, and brown-and-white checkered trousers.",
+      "action": "The character stands still for a moment, then begins to walk slowly forward and to the right across the paved surface.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+      "scene": "An outdoor paved area, possibly a road or plaza, with a concrete overpass, metal railings, green trees, and a construction crane in the background under a bright, sunny sky."
+    },
+    "uncertain": [],
+    "observation_identity": "85f0e1bbe4e4b98c04cf820389b1730b634d59c34c526d31fbe6c4c72a17b37f"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_462.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_157.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's one-piece garment with the item shown in the reference images. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6761.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male character with a light brown complexion and a short, stocky build.",
+      "hairstyle": "Short, cropped hair covering the top of the head.",
+      "hair_color": "White.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled-up sleeves, brown leather suspenders, dark gray plaid trousers, and dark brown shoes.",
+      "action": "The character stands still for a moment, then begins walking slowly forward and to the right across the paved surface.",
+      "camera": "A static, low-angle full-body shot that keeps the character centered in the frame.",
+      "scene": "An outdoor paved road or plaza during the day, with a concrete overpass, metal railings, green trees, and a construction crane visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "68f36e687224a717881f0944c964f881d31d17637efa84972abafa1ee3cf4163"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_c5ed9b71a38ef6a0c7d2d48be96b25b63e68ad07b7ba3614e54960c55ddeaa1c.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from the side. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6771.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a medium build, shown in profile and three-quarter views.",
+      "hairstyle": "Short, swept-back hair with closely cropped sides.",
+      "hair_color": "White.",
+      "clothing": "Light blue-and-white plaid button-up shirt with rolled sleeves, brown leather suspenders, and dark plaid trousers.",
+      "action": "The man stands and then walks slowly forward, swinging his arms naturally as he moves.",
+      "camera": "Medium shot at roughly chest height, tracking the subject from the side as he moves across the frame.",
+      "scene": "An outdoor paved road or parking area bordered by a metal guardrail, with a rocky hillside, green trees, and a partly cloudy sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "5505d2c82ba785a117b54919877abda036884fc270f403ea2151fc1414f314bc"
+  }
+]

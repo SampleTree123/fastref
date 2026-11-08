@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6266.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build and light skin.",
+    "hairstyle": "Short pink hair with straight bangs and a small low bun at the back.",
+    "hair_color": "Pink.",
+    "clothing": "A short, colorful patterned dress with cut-out shoulders and pink slip-on shoes.",
+    "action": "The character stands mostly still, then briefly raises her right hand to her face before lowering it.",
+    "camera": "A static, high-angle full-body shot from the front-left.",
+    "scene": "An outdoor paved area with a long shadow cast to the left and a small vehicle in the upper right background."
+  },
+  "uncertain": [],
+  "observation_identity": "e504ed7fee850d613b30b4f1204a8be0891cfb44f49b9b90c64e7aa74b50b708"
+}

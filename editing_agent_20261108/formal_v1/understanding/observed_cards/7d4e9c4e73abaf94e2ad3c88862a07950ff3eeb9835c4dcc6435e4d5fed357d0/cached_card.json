@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6029.mp4",
+  "observed": {
+    "identity": "A young adult man with a slim build and light brown skin, shown in profile and three-quarter views.",
+    "hairstyle": "Short black hair swept upward and back into a pompadour-style quiff.",
+    "hair_color": "Black.",
+    "clothing": "A light blue-and-white plaid button-up shirt with rolled sleeves, brown leather suspenders, and dark gray trousers.",
+    "action": "He stands on a sidewalk, then raises his right hand to scratch his nose and mouth area before lowering his arm and standing still again.",
+    "camera": "A static medium shot at roughly waist-to-head height, framing the man from the side against the storefront.",
+    "scene": "An old-fashioned city street with a dark storefront window displaying gold lettering for 'SOAP' and 'COCOA POWDER,' a stone sidewalk, and a black lamppost."
+  },
+  "uncertain": [],
+  "observation_identity": "1480fce906a6bb8fe7f4747d111db8c3c28fa057d143c9a6cf6aba5ac4fbdfb9"
+}

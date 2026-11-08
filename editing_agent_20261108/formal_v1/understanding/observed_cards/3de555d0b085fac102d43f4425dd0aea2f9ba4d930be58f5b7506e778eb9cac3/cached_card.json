@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6002.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a dark, muscular build, shown from behind.",
+    "hairstyle": "Short, curly hair with a small top-knot or bun on the crown of the head.",
+    "hair_color": "Light lavender or pale purple.",
+    "clothing": "A white sleeveless tank top with a pink and yellow tie-dye pattern, matching pink shorts, and red sneakers with white soles.",
+    "action": "The character stands with his back to the camera, then raises his right arm to touch his head and ear area while turning his body slightly to the right.",
+    "camera": "A static, low-angle medium shot from behind the character, keeping him centered in the frame.",
+    "scene": "A futuristic, sci-fi environment with large, dark domed buildings featuring glowing cyan and pink neon rings, a wet reflective concrete ground, and a purple vehicle in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "ef6765c231b655e1e7ed340142a9828a4b900e5cfb59abfa6f0d5850ec5b7f34"
+}

@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6115.mp4",
+  "observed": {
+    "identity": "A young Black man with a slim build and short facial stubble.",
+    "hairstyle": "Short, dark hair with a slightly raised, textured top.",
+    "hair_color": "Black.",
+    "clothing": "A white sleeveless tank top with a large pink and purple graphic of palm trees and the text 'Los Angeles' on the front, paired with light blue jeans.",
+    "action": "The man stands facing forward, then turns his head and body to his left, raising his right hand to touch his neck and shoulder area. He then crosses his arms in front of his chest before uncrossing them and turning back to face the camera.",
+    "camera": "A static, medium shot from the waist up, keeping the subject centered in the frame.",
+    "scene": "A futuristic, neon-lit urban environment at night, featuring a large glass building with a glowing cyan ring structure and pink ambient lighting reflecting on the wet pavement."
+  },
+  "uncertain": [],
+  "observation_identity": "90fdcb65022f8f3e38939a6fc72d1aceacb6af35610293131069dde46fc40919"
+}

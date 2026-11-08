@@ -1,0 +1,104 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7135.mp4",
+    "observed": {
+      "identity": "A slim young woman with fair skin, shown in profile and from behind.",
+      "hairstyle": "Her hair is pulled up into a high bun with loose strands framing her face.",
+      "hair_color": "Bright red.",
+      "clothing": "She wears a white romper with a colorful floral print and pink slip-on shoes.",
+      "action": "She stands on a cobblestone street, turning her body and posing with one hand on her hip and the other raised near her head.",
+      "camera": "The camera is at a low angle, starting as a medium shot and slowly pulling back to a full-body view.",
+      "scene": "The setting is a European-style street with cobblestones, historic buildings, hanging shop signs, and a Union Jack flag."
+    },
+    "uncertain": [],
+    "observation_identity": "fbd779f70a887839928fed5c3559bb40226a32a36ac9a56e0cf79541972426f3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_a81841e01a9d103822ba9b671512b1ef306b25223dfa858bd2413c6689b481a6.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7136.mp4",
+    "observed": {
+      "identity": "A slender woman with fair skin, shown mostly in profile and from behind.",
+      "hairstyle": "Her hair is pulled up into a high bun with loose strands framing her face.",
+      "hair_color": "Red.",
+      "clothing": "She wears a white, short-sleeved dress with a floral print of pink, yellow, and blue flowers and cut-out shoulder details.",
+      "action": "She stands and slowly turns, first showing her profile, then her back, and finally facing forward while adjusting her hair and posing with a hand on her hip.",
+      "camera": "A static, medium shot at eye level that keeps the subject centered against the street background.",
+      "scene": "The setting is a cobblestone street lined with historic stone buildings, black lampposts, and hanging signs, including a Union Jack flag on the left."
+    },
+    "uncertain": [],
+    "observation_identity": "78d32b5d323988777390e2de6f7292851a59e98bd462da6e0627093092f73355"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_759.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_760.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the skirt, the top, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7138.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build, shown mostly from the side and back; her face is partially visible in profile.",
+      "hairstyle": "Her hair is pulled up into a high bun with loose bangs framing her face.",
+      "hair_color": "Bright red.",
+      "clothing": "She wears a black corset-style top with white polka dots, white lace-up front, and floral embroidery, paired with puffy black off-the-shoulder sleeves and a black skirt with a gold rose pattern.",
+      "action": "She stands in the street, turning her body and head, raising one arm to touch her hair, and posing with her hand on her hip.",
+      "camera": "A medium shot at roughly waist-to-head height, mostly static with slight reframing as she moves.",
+      "scene": "An old European-style cobblestone street with brick and stone buildings, hanging shop signs, black lamp posts, and a Union Jack flag in the background."
+    },
+    "uncertain": [
+      "Exact facial features are partly hidden by her hair and profile angle.",
+      "Whether the setting is a real location or a themed set is unclear."
+    ],
+    "observation_identity": "ada396c6821a6cbbdbeb6cece0c534bf6e9edaf5c59fcca95b469295eda30264"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_49d6b291f04819f5b6c2325a19bb4a16d4bd73700b8265a4b7c361a3c3cdcfbe.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body orbit shot that starts in front and moves through a side view toward the rear over a 120-degree arc. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7125.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin, shown mostly from the side and back.",
+      "hairstyle": "Red hair pulled up into a high bun with a small red flower accessory.",
+      "hair_color": "Red.",
+      "clothing": "She wears a black corset-style top with a small white dot pattern, puffed short sleeves, and a black mini skirt with a gold floral print, paired with light blue slip-on sneakers.",
+      "action": "She stands on a cobblestone street, slowly turning and posing with one hand on her hip and the other raised near her head.",
+      "camera": "Full-body shot at eye level; the camera slowly orbits around her from her left side to her back.",
+      "scene": "An old European-style street with cobblestone paving, ornate stone buildings, hanging shop signs, and vintage street lamps."
+    },
+    "uncertain": [],
+    "observation_identity": "6534bba1fd1b0cbc0a7664334653b94c17321cdb2a58763015c48aea26488ad6"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6710.mp4",
+  "observed": {
+    "identity": "A person with a medium-dark complexion is seen from behind, with their face not visible until the final frames.",
+    "hairstyle": "The person's hair is pulled back into a high ponytail.",
+    "hair_color": "The hair is dark brown or black.",
+    "clothing": "The person is wearing a long-sleeved, plaid jacket or coat in shades of orange, brown, and black, with a white shirt cuff visible at the wrist.",
+    "action": "The person stands with their back to the camera, looking out over the water, and then slowly turns their head to the left to look back over their shoulder.",
+    "camera": "The camera is positioned behind the person at a medium distance, remaining mostly static with a slight shift as the person turns.",
+    "scene": "The setting is outdoors on a sunny day, on a rocky shoreline next to a large body of water under a clear blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "bb7d39dc9fec73ab6cabf7e640c7e73dc8f7988de18ccd8004009aa5628038cb"
+}

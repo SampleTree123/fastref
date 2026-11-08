@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6225.mp4",
+  "observed": {
+    "identity": "A slim young woman with light skin, shown in a 3D-rendered style.",
+    "hairstyle": "Blonde hair pulled back into a high ponytail.",
+    "hair_color": "Bright blonde.",
+    "clothing": "She wears a long-sleeved hot-pink top, a matching pink pleated mini skirt, and black lace-up boots.",
+    "action": "She stands in the middle of the road, turns her body, raises one arm to brush her hair back, then lowers it and shifts her stance.",
+    "camera": "A static, low-angle full-body shot from across the road.",
+    "scene": "An empty asphalt road under a concrete overpass, with orange-and-white construction barriers, a blue directional sign, guardrails, trees, and a construction crane in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "88a886412f4c0acddddb122888e1105ccce53a343e6ca254b27ce7543148408d"
+}

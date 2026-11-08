@@ -1,0 +1,73 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6611.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male figure with a slim build, seen mostly from behind in a futuristic setting.",
+      "hairstyle": "Short, swept-back hair.",
+      "hair_color": "White.",
+      "clothing": "Dark long-sleeved top with a torn back panel, dark track pants with a white side stripe, and dark shoes.",
+      "action": "The figure stands in an open plaza, shifting his stance and turning his head and upper body slightly to the side over the course of the clip.",
+      "camera": "Static medium-long shot from behind the figure at roughly waist height, keeping him centered.",
+      "scene": "A wet, reflective concrete plaza in front of a large domed building with glowing teal ring lights and a tall white tower with blue-lit windows, lit by pink and blue neon accents."
+    },
+    "uncertain": [
+      "The figure's face is not visible, so facial features and exact age are unclear.",
+      "The torn back panel of the top may be a design detail or damage; its intent is unclear."
+    ],
+    "observation_identity": "e72f9e87710ccd2d38eb63d8f5193b6262f3fe8684a2412b9ab52bdab1757394"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_e08c6933c49f586eec720e8b07658965a7497b0eda673566e56d9d6b4f80ea36.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body orbit shot that starts in front, circles the person through 360 degrees, and returns to the front view. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6609.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male figure with a pale face, short hair, and a slim build.",
+      "hairstyle": "Short, swept-back hair.",
+      "hair_color": "White.",
+      "clothing": "A dark, double-breasted military-style jacket with gold buttons and shoulder epaulettes, matching dark trousers with a thin white side stripe, and black shoes.",
+      "action": "The figure stands in an open plaza, turning slowly in place to face different directions while keeping his arms crossed or at his sides.",
+      "camera": "A medium full shot that orbits around the standing figure, keeping him centered while the background rotates.",
+      "scene": "A futuristic city plaza with a glossy reflective floor, large glass buildings with glowing cyan and pink neon rings, and tall skyscrapers in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "b7319039409c32398d4a7c1f0abee2e18002033cde87292b2edcb3bea0b3bb83"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_504.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: change the person's current action to lowering their head and resting one hand on their forehead, following the demonstration in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6619.mp4",
+    "observed": {
+      "identity": "A slender, adult male figure with a slim build, seen mostly from behind and in profile.",
+      "hairstyle": "Short, swept-back hair with a longer section hanging down the back of the neck.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A dark, long-sleeved jacket or tunic with a light-colored emblem on the back, dark trousers with a thin light stripe down the side, and dark shoes.",
+      "action": "The figure stands in the center of the frame, initially still, then raises his right arm to touch or adjust the back of his head before lowering it and shifting his weight slightly.",
+      "camera": "A static, medium-long shot from a slightly low angle, keeping the figure centered against the background.",
+      "scene": "A futuristic, open-air plaza with a wet, reflective concrete floor, featuring a large domed building with glowing teal lights on the left and a multi-story structure with illuminated windows on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "a3520214d01f46efb0bea40e4c4427a668a80e142364b1ce72ff8343373fb18a"
+  }
+]

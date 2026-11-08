@@ -1,0 +1,78 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6206.mp4",
+    "observed": {
+      "identity": "A slender young woman with a slim build and light skin, shown in a 3D-rendered style.",
+      "hairstyle": "Blonde hair pulled up into a high bun with a few loose strands framing the face.",
+      "hair_color": "Bright blonde.",
+      "clothing": "A long-sleeved hot-pink top, a short pink pleated skirt, and black lace-up ankle boots.",
+      "action": "She stands in the middle of the road, turns her body and head, raises one arm to touch her hair, then lowers it and shifts her stance.",
+      "camera": "A static, low-angle full-body shot from the front-left, keeping the subject centered.",
+      "scene": "An outdoor paved road under a concrete overpass, with orange-and-white construction barriers, traffic signs, a metal guardrail, trees, and a construction crane in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "db556b64e0159e6d82fed355d100e51a39fb58f07fa658346c57aea7c8ac697c"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_5b3f81ec0c91b5b3bd69e50d295011475c6f945dff337ca3c8f9d6909dc1395e.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6221.mp4",
+    "observed": {
+      "identity": "A female-presenting 3D animated character with a slim build, seen from behind.",
+      "hairstyle": "Blonde hair is styled into two small buns on top of the head.",
+      "hair_color": "Bright blonde.",
+      "clothing": "She wears a long-sleeved coral-pink collared top and a light pink pleated skirt.",
+      "action": "The character stands in the middle of a road, swaying her hips and arms in a slow dance-like motion while facing away from the camera.",
+      "camera": "A static, medium shot from behind the character at roughly waist height.",
+      "scene": "An outdoor paved road with white lane markings, bordered by a metal guardrail, trees with green and yellow leaves, a concrete wall, and a construction crane in the distance under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "8c59425eaac2f7a52ec7f3cd9e1c63e509e20c4329e84785c0789eb0e6d04807"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the skirt, the top, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_571.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_572.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the skirt, the top, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6203.mp4",
+    "observed": {
+      "identity": "A female-presenting 3D character with a slim build, shown from behind.",
+      "hairstyle": "Blonde hair styled into two small buns on top of the head.",
+      "hair_color": "Bright yellow-blonde.",
+      "clothing": "A dark green sleeveless top with white polka dots and white trim, paired with a white and black skirt or wrap.",
+      "action": "The character stands in the middle of a road, turning her head and shifting her arms and hips in a slow, posed manner.",
+      "camera": "A static, eye-level medium shot from directly behind the character.",
+      "scene": "An outdoor paved road with white lane markings, bordered by a metal guardrail, trees with yellow and green leaves, a concrete wall, and a construction crane in the distance under a blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e650087ec56bb1091ed3b7c97c389fbbb35454aef01ba72458a020f3cfc8fae6"
+  }
+]

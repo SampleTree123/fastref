@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5987.mp4",
+  "observed": {
+    "identity": "A 3D-rendered young man with a dark complexion, slim build, and short white hair stands in the center of the frame.",
+    "hairstyle": "Short, cropped white hair.",
+    "hair_color": "White.",
+    "clothing": "He wears a light gray and white plaid button-up shirt with a dark bow tie, brown leather suspenders, dark plaid trousers, and dark shoes.",
+    "action": "The man stands facing the camera, then briefly raises his right hand to touch his neck and shoulder area before lowering it and standing still again.",
+    "camera": "The camera is at a low angle, initially framing the man from the waist up and then pulling back to a full-body shot as he moves.",
+    "scene": "The setting is a cobblestone street in a city with European-style architecture, including stone buildings, black lampposts, and a large Union Jack flag hanging in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "963f4c83da723d95e4641da7fd32c53e7a93bc8cd273403a5be216fe3ee38991"
+}

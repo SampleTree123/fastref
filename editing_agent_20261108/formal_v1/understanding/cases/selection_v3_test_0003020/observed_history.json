@@ -1,0 +1,66 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6667.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind, with her face not visible.",
+      "hairstyle": "Blonde hair is pulled back into two low buns at the nape of her neck.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a black-and-white houndstooth dress with a low open back, a cutout at one shoulder, and three-quarter sleeves.",
+      "action": "The woman stands facing the water, turning her head slightly and shifting her weight as she looks out over the sea.",
+      "camera": "A medium shot from behind the subject, with the camera slowly panning and tilting to follow her slight movements.",
+      "scene": "An outdoor coastal setting with a stone or concrete platform, a low railing, and a calm sea stretching to the horizon under a clear, pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e9455f036ae60215c9e15af02950b72ea044a02b3a0471b3aeb32a125d749bf4"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_373.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6676.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, shown from behind with her face not visible.",
+      "hairstyle": "Blonde hair is styled in a low, sculpted updo with two small rolled buns at the nape of the neck.",
+      "hair_color": "Bright golden blonde.",
+      "clothing": "She wears a black-and-white houndstooth dress with a low open back, cut-out shoulders, and elbow-length sleeves.",
+      "action": "The character walks slowly forward and slightly turns, swinging her arms naturally as she moves down the road.",
+      "camera": "A medium shot from behind at roughly head height, following the character with slight movement as she advances.",
+      "scene": "An outdoor paved road on a sunny day, bordered by a metal guardrail, green trees, a street lamp, and a blank billboard in the distance under a blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "d56059f3af7fa58bb3e870bfb9f33465b45c02bbda8a0c6ddd8bdc1cc444def3"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Let's change the person's hair color to blue.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6651.mp4",
+    "observed": {
+      "identity": "A slender woman with a tanned complexion, seen from behind with her face mostly turned away.",
+      "hairstyle": "Her hair is pulled back into two small low buns at the nape of her neck.",
+      "hair_color": "Vivid blue.",
+      "clothing": "She wears a black-and-white houndstooth dress with a low open back, a cutout at one shoulder, and elbow-length sleeves.",
+      "action": "She stands and slowly turns her body and head toward the water, with slight shifts in posture over the clip.",
+      "camera": "A medium shot from behind at roughly head height, with a slow subtle drift/pan as the subject turns.",
+      "scene": "An outdoor stone terrace or platform beside a calm body of water under a clear pale blue sky."
+    },
+    "uncertain": [
+      "The exact location and whether the setting is real or rendered/CGI is unclear.",
+      "Her facial features are not visible since she is shown from behind."
+    ],
+    "observation_identity": "2705610eb8f3d7ecbd4bbfa261f9e1d80c78c94ddf9e8f5130ada9cccd95a5b3"
+  }
+]

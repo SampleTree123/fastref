@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6381.mp4",
+  "observed": {
+    "identity": "A young man with a slim build and dark skin stands centered in the frame.",
+    "hairstyle": "He has short, textured hair with a slightly spiky top.",
+    "hair_color": "His hair is dyed a bright green color.",
+    "clothing": "He wears a long-sleeved yellow button-up shirt with a white floral pattern, maroon trousers, and a dark brown belt.",
+    "action": "The man begins standing still, then raises both arms overhead and moves them in a rhythmic, dance-like motion before returning to a stationary pose.",
+    "camera": "The camera maintains a static, medium-shot framing from the waist up, keeping the subject centered throughout the clip.",
+    "scene": "The setting is a stylized, animated city street with tall buildings, Japanese signage, and construction cranes in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "b021108740a5a199627423fdce82f8a518d92874f60cdb5b3c58db22dea25d86"
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6808.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build, shown mostly from behind and in profile.",
+      "hairstyle": "Her hair is pulled up into a high bun with loose strands framing her face.",
+      "hair_color": "Her hair appears brown with lighter, blonde-toned highlights.",
+      "clothing": "She wears a short, form-fitting dress with a blue and white patterned print and a low open back.",
+      "action": "She turns and poses, raising one arm to touch her hair and hip while shifting her body orientation.",
+      "camera": "The camera holds a medium shot from behind at a slight angle, remaining mostly static as she moves.",
+      "scene": "She stands on a reflective floor in front of a large glass dome structure with glowing pink and teal neon rings and a dark, futuristic interior."
+    },
+    "uncertain": [],
+    "observation_identity": "3827ad1fc67ba5c7efafc82165ae3325e6cee697230dd680c033200b7376c9ab"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_435.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they lower their head and rest one hand on their forehead, as shown in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6804.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a medium-dark complexion, visible facial features, and a slim build.",
+      "hairstyle": "Her hair is styled into two high buns on top of her head with loose strands framing her face.",
+      "hair_color": "Her hair appears brown with lighter blonde highlights.",
+      "clothing": "She wears a short-sleeved, V-neck dress with a purple and pink patterned design and cut-out shoulders.",
+      "action": "She stands facing the camera, then turns her head to the side and raises her hand to brush her hair back before turning back to face forward.",
+      "camera": "The camera maintains a static medium shot from the waist up, keeping the subject centered.",
+      "scene": "The setting is a futuristic environment at night, featuring a large glass dome structure with glowing pink and teal neon rings and a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "76ac5c8fed71e2ec834bc100f6ee05f6ba8b97650f070a1a10d4a3ccfa04cf90"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_18.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_111.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6821.mp4",
+    "observed": {
+      "identity": "A woman with a medium-dark complexion and a slim build, shown from the thighs up.",
+      "hairstyle": "Her hair is swept up into a loose, textured updo with a few strands framing her face.",
+      "hair_color": "Her hair appears dark brown with lighter, blonde-toned highlights.",
+      "clothing": "She wears a fitted, cold-shoulder dress with a purple and white ikat-style pattern and three-quarter sleeves.",
+      "action": "She stands facing the camera, then turns her head and body to the side while raising one hand to brush her hair back, before turning back to face forward.",
+      "camera": "The camera holds a static, medium shot at roughly eye level, keeping the subject centered.",
+      "scene": "She stands on a reflective gray floor in front of a large glass building with pink framing, a black dome roof, and glowing teal circular light rings inside."
+    },
+    "uncertain": [],
+    "observation_identity": "a31c3e432d91539e50e68cb63a8eaa5eeb8c15b1908cf7eb172494bf9014d9ac"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to blonde.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6844.mp4",
+    "observed": {
+      "identity": "A woman with a medium-dark complexion and a slim build, shown from the thighs up.",
+      "hairstyle": "Short, layered blonde hair with darker roots, styled with volume at the crown.",
+      "hair_color": "Blonde with dark brown roots.",
+      "clothing": "A fitted, cold-shoulder dress with a purple and white ikat-style pattern and three-quarter sleeves.",
+      "action": "She stands facing the camera, then turns her head and body to the side while raising one hand to brush her hair back, before turning back to face forward.",
+      "camera": "A static, medium shot at eye level, keeping the subject centered in the frame.",
+      "scene": "A futuristic, neon-lit environment at night, featuring a large glass dome structure with pink and teal glowing rings and a wet, reflective ground."
+    },
+    "uncertain": [],
+    "observation_identity": "b318a7dc88ae0ba2c2eec546d01d9a89f4c52fde11928639a8da34d58ec7bbd1"
+  }
+]

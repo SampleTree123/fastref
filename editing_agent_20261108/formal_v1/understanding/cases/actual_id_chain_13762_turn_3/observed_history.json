@@ -1,0 +1,87 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7001.mp4",
+    "observed": {
+      "identity": "A slender young woman with a slim build, shown mostly from the back and side.",
+      "hairstyle": "Bright blue hair styled into two small buns on top of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A short dress with a pink-and-white gingham bodice, white off-the-shoulder puff sleeves, and a white-and-black color-blocked skirt, paired with light blue slip-on sneakers.",
+      "action": "She stands on a cobblestone street, raises both hands to adjust her hair, then turns and shifts her weight while posing with one hand on her hip.",
+      "camera": "A static, full-body shot from a slightly low angle that keeps the subject centered against the street background.",
+      "scene": "An old-fashioned city street with cobblestone paving, vintage storefronts, hanging signs, and black lampposts."
+    },
+    "uncertain": [],
+    "observation_identity": "ff3ca4c849b5292146328e394c4132114307ea802c77ab76d479d814228bf8aa"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_781.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_782.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7016.mp4",
+    "observed": {
+      "identity": "A slender woman with light skin, shown mostly from the side and back, with her face only briefly and partially visible.",
+      "hairstyle": "Her hair is styled into two small buns on top of her head.",
+      "hair_color": "Her hair is a vivid blue.",
+      "clothing": "She wears a short, form-fitting blue-and-white patterned dress with three-quarter sleeves and an open back, along with light pink slip-on shoes.",
+      "action": "She stands on a cobblestone street, raises both hands to adjust her hair, then lowers them and turns slightly while posing.",
+      "camera": "The camera holds a static, eye-level full-body shot from a side-rear angle.",
+      "scene": "The setting is a rendered old-town street with brick and stone buildings, vintage shop signs, black lampposts, and a cobblestone road."
+    },
+    "uncertain": [
+      "The woman's face is mostly turned away, so facial features are unclear.",
+      "The scene appears to be a 3D-rendered or game environment rather than a real location, but this is not certain."
+    ],
+    "observation_identity": "4f86a48f62ceb8295193d1e97dd37873416c2eb263ea194c73d92703fd1cec37"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_9.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_61.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Please go back to the video from before the first clothing change was made, then use that video as the starting point for the following change: Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7013.mp4",
+    "observed": {
+      "identity": "A slender female character with a fair complexion, shown in a 3D rendered style.",
+      "hairstyle": "Short, voluminous blue hair styled in a bob with a small bun or twist at the nape.",
+      "hair_color": "Bright blue.",
+      "clothing": "A form-fitting dress with a pink and white gingham bodice, white off-the-shoulder puff sleeves, and a two-toned skirt that is white on one side and black on the other, paired with light blue slip-on sneakers.",
+      "action": "The character stands on a cobblestone street, initially facing left, then raises her arms to adjust her hair before turning her back to the camera and posing with one hand on her hip.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+      "scene": "A vintage-style city street with cobblestone paving, brick and stone buildings, and hanging signs with text such as 'MERCHANT' and 'COCOA POWDER'."
+    },
+    "uncertain": [],
+    "observation_identity": "1f60e114701a088f70c563b11611bc3277a7e18f391fc8eddccd1166255fdb55"
+  }
+]

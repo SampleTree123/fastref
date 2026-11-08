@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6089.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and tanned skin.",
+      "hairstyle": "Red hair styled in a high bun with loose strands framing the face.",
+      "hair_color": "Red.",
+      "clothing": "A pink and white gingham corset-style top with white off-the-shoulder sleeves, a long white skirt or duster, a black mini-skirt, and blue sneakers.",
+      "action": "The character stands in profile, then turns toward the camera while raising one hand to touch her hair and posing with the other hand on her hip.",
+      "camera": "A static, low-angle full-body shot that keeps the character centered against the city background.",
+      "scene": "An elevated outdoor city walkway at dusk, featuring wet reflective pavement, tall buildings with Japanese signage, and construction cranes in the distance."
+    },
+    "uncertain": [],
+    "observation_identity": "8c4a86bad1d35a7f7abeef0ff5896e71a28ff0ad6400c4604bc871204f3376d0"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to chestnut brown.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6095.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and tanned skin.",
+      "hairstyle": "Light brown hair pulled up into a high bun with loose strands framing the face.",
+      "hair_color": "Light brown.",
+      "clothing": "A pink and white gingham corset-style top with white off-the-shoulder sleeves, a long white skirt or drape, a black mini-skirt, and blue sneakers.",
+      "action": "The character stands in profile, then turns to face the camera while posing with one hand on her hip and the other raised near her head.",
+      "camera": "A static, low-angle medium shot that keeps the character centered against the city background.",
+      "scene": "An outdoor urban rooftop or elevated walkway at dusk, featuring tall buildings, neon signs with Japanese text, and construction cranes in the distance."
+    },
+    "uncertain": [],
+    "observation_identity": "a1c8be35aeb6b3c3ec951f2286a32cbbf1485ead8550a73cd0b5373a0d1d5cec"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_25.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6076.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build and tanned skin.",
+      "hairstyle": "Red hair tied up in a high, messy bun with loose strands framing the face.",
+      "hair_color": "Bright red.",
+      "clothing": "A pink-and-white gingham corset-style top with white puffed sleeves, a black mini skirt, and light blue sneakers.",
+      "action": "She stands in profile, then turns and dances, swinging her arms, lifting one leg, and running a hand through her hair.",
+      "camera": "Medium full-body shot at eye level; the camera slowly pushes in and tracks slightly as she moves.",
+      "scene": "An outdoor amusement park at dusk with a Ferris wheel, a roller coaster, and a striped ticket booth in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "a7b6de932072ac4cd843957e4aed1dde1dc689cbf26d6148a6e4cc0645088a6d"
+  }
+]

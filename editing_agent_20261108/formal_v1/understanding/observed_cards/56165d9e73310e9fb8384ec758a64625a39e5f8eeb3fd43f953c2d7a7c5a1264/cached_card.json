@@ -1,0 +1,18 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6037.mp4",
+  "observed": {
+    "identity": "A young Black woman with a slim build and medium-brown skin stands centered in the frame.",
+    "hairstyle": "Her hair is pulled up into a high bun or topknot.",
+    "hair_color": "Her hair is a vivid red color.",
+    "clothing": "She wears a white off-the-shoulder top with puffed sleeves over a pink-and-white gingham corset-style bodice, paired with black-and-gold patterned shorts and light blue sneakers.",
+    "action": "She stands facing forward, then raises her right hand to brush her hair back and touch the side of her head while placing her left hand on her hip, before lowering her arm and turning her head to the side.",
+    "camera": "The camera is at a low, wide angle and slowly dollies in from a full-body shot to a medium shot of her torso and head.",
+    "scene": "She stands on a flat paved plaza in front of a colorful amusement park with a large Ferris wheel, a roller coaster, and a red 'Tickets' booth under a warm sunset sky."
+  },
+  "uncertain": [
+    "The exact style of the hair (bun vs. topknot) is partly obscured by the hand motion.",
+    "The character appears to be a 3D rendered/animated figure rather than a live-action person."
+  ],
+  "observation_identity": "81036ddd1fc5a36bfb94db3205dc69d77b2e1f17ce1b1f7a8c2500c6531e29b3"
+}

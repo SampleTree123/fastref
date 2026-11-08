@@ -1,0 +1,101 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6549.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult man with a dark complexion, slim build, and short facial hair.",
+      "hairstyle": "Short hair on the sides with a small top-knot or bun at the back of the head.",
+      "hair_color": "Dark brown.",
+      "clothing": "A yellow long-sleeved shirt with a white paisley pattern, red trousers, a dark belt, and dark shoes.",
+      "action": "The man stands in profile, then turns toward the camera, raises his hands to his face, and lowers them as he turns back to the side.",
+      "camera": "A static, eye-level medium shot that keeps the man centered in the frame.",
+      "scene": "An outdoor amusement park area at dusk, featuring a red and blue train car, a striped awning, and a large covered structure with rows of white lights."
+    },
+    "uncertain": [],
+    "observation_identity": "f5bac64023549b61d45271b1e4ad7f4ac6187657a0263eb4f69c99a5b5d79d62"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_dca4be1305d29bef75263247aa4a1c84afc610b16d4c79ddeecd5fadc328c9c9.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from a front three-quarter angle. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6552.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a dark complexion, slim build, and a short beard.",
+      "hairstyle": "Short hair with a small top-knot bun at the crown.",
+      "hair_color": "Light brown.",
+      "clothing": "A long-sleeved yellow shirt with a white circular pattern, red pants, and a brown belt.",
+      "action": "The man stands facing slightly right, then turns to face the camera, gestures with his hands, and briefly turns his back before facing forward again.",
+      "camera": "A static medium shot from the waist up, keeping the man centered in the frame.",
+      "scene": "An outdoor amusement park at dusk, featuring a swing ride on the left and a carousel-like structure with lights on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "03c9f8a1f83a7697966ab919d7e940bff58dd6a88b0c2c2d27c10ea94003d6bb"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_91.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_33.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change only the person's top to match the reference images. Leave the rest of the outfit and everything else in the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6568.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a dark complexion, short facial hair, and a slim build.",
+      "hairstyle": "Short hair with a small top-knot bun at the crown and a side part.",
+      "hair_color": "Light brown or dark blonde.",
+      "clothing": "A white long-sleeved collared shirt under a black vest, red pants, and a brown belt with a silver buckle.",
+      "action": "The man stands facing slightly right, then turns to face the camera, gestures with his hands, and briefly touches his chest and collar before turning back to the side.",
+      "camera": "Static medium shot from the waist up, at eye level.",
+      "scene": "An outdoor amusement park at dusk, with a swing ride on the left, a carousel structure with lights on the right, and a striped awning in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "8f44e5ccf2343e67668ea6eb9cd1a2851f7b0acfbb9fb3415820acff7b27243e"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_768.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they lower their head and rest one hand on their forehead, as shown in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6563.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a medium-brown complexion, a short beard, and a small top-knot bun.",
+      "hairstyle": "Short hair on the sides with a small bun or top-knot on top of the head.",
+      "hair_color": "Light brown.",
+      "clothing": "A long-sleeved yellow shirt with a white floral pattern, red pants, and a dark brown belt.",
+      "action": "The man stands facing slightly right, then raises his right hand to cover his face in a facepalm gesture, holds it briefly, and lowers his hand to look down.",
+      "camera": "A static medium shot from the waist up, positioned at a slight angle to the subject.",
+      "scene": "An outdoor amusement park at dusk, featuring a swing ride on the left, a carousel with lights on the right, and a striped awning in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "82be0836463de71f6162c45754edaf62ca46b8255843806ad71530016d00f2b2"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6176.mp4",
+  "observed": {
+    "identity": "A young Black woman with a slim build and visible facial features, shown from the chest up.",
+    "hairstyle": "Short, layered hair with bangs that fall across her forehead, appearing slightly tousled.",
+    "hair_color": "Dark brown with pink and purple highlights from the ambient lighting.",
+    "clothing": "A white sleeveless tank top with a deep V-neckline.",
+    "action": "She stands facing forward, then turns her head to the side and looks down, briefly touching her chest with her hand before returning to face the camera.",
+    "camera": "A static, medium close-up shot at eye level, keeping the subject centered in the frame.",
+    "scene": "A futuristic indoor space at night, featuring large glass windows with pink neon grid lines, a glowing green chevron pattern overhead, and a partial neon sign reading 'TRA' in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "b92710b07ad6e4f12c9e1016f3916b627c8b33a1ad8d21275d689447280f8512"
+}

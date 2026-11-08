@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6198.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and light skin, shown in a 3D-rendered style.",
+      "hairstyle": "Blonde hair pulled up into a high bun with straight bangs across the forehead.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a bright pink long-sleeved top, a matching pink pleated mini skirt, and black lace-up boots.",
+      "action": "She stands in the middle of a road, then raises both arms overhead and turns her body in a slow spin before returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot from across the road.",
+      "scene": "An outdoor paved road under a concrete overpass, with orange-and-white construction barriers, traffic signs, a metal guardrail, and trees in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "1c6740f2c2b90d4e228de281d3e43a81300ae8d59cdc0c4a6066141e4da717d5"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_477ecc97fc35503663a5eba070aa5139263ad1e28a13aa6be18a66a215853597.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body orbit shot that starts in front and moves through a side view toward the rear over a 120-degree arc. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6202.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and light skin, shown in full body.",
+      "hairstyle": "Blonde hair styled in two high space buns.",
+      "hair_color": "Bright blonde.",
+      "clothing": "She wears a long-sleeved hot pink top, a light pink pleated mini skirt, and black lace-up boots.",
+      "action": "She begins standing facing the camera, then turns and performs a slow dance, raising her arms overhead and extending one arm to the side before standing still in profile.",
+      "camera": "Full-body shot at a low angle; the camera pans right to follow her as she turns and moves across the road.",
+      "scene": "An empty paved road under a concrete overpass, with metal guardrails, orange construction signs, street lamps, and trees on a rocky hillside in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "4d317915d12b2eea7cc927463d9e274e69213b4e346d154aca0113fa89587fae"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_4017690a72486f8773187a5ac3fe7e650339d65e3ae4cce5737085801aa67423.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6208.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, seen from behind.",
+      "hairstyle": "Blonde hair styled in two buns on top of the head with a center part.",
+      "hair_color": "Bright yellow-blonde.",
+      "clothing": "A long-sleeved coral-pink collared top and a light pink pleated skirt.",
+      "action": "The character stands on the road, then raises both arms overhead and swings them in a dance-like motion before lowering them back to her sides.",
+      "camera": "A static, eye-level medium shot from directly behind the character.",
+      "scene": "An outdoor paved road with white lane markings, bordered by a metal guardrail, trees with green and yellow leaves, a concrete wall, and a construction crane in the distance under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "12bc307388bf0d42d3dceeaa1487d42d62a0db11381bb239913af39ea26fb018"
+  }
+]

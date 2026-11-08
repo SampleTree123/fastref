@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7175.mp4",
+    "observed": {
+      "identity": "A slender woman with dark skin, shown in profile and then from behind as she turns.",
+      "hairstyle": "Short, swept-back hair gathered into a small low bun at the nape.",
+      "hair_color": "White / silver.",
+      "clothing": "A white one-piece romper with a colorful floral print, three-quarter sleeves, and pink lace-up sneakers.",
+      "action": "She begins in profile, then turns her back to the camera, raises one arm to touch her hair, and slowly rotates to face forward while posing with a hand on her hip.",
+      "camera": "Static full-body shot at a slight low angle, keeping the figure centered on the street.",
+      "scene": "A cobblestone street lined with old European-style buildings, black lampposts, a Union Jack flag, and hanging shop signs."
+    },
+    "uncertain": [],
+    "observation_identity": "b54eff0b30c3d1caf937d7ed730a4037f0376fdf1fa4370d94e761c9abe06d13"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_100.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_87.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7170.mp4",
+    "observed": {
+      "identity": "A woman with a medium build and dark skin, shown in profile and from behind.",
+      "hairstyle": "Short, light-colored hair with a small topknot bun at the crown.",
+      "hair_color": "Platinum white or very light gray.",
+      "clothing": "A white romper with a colorful floral print in pink, yellow, and blue, featuring a low open back and three-quarter sleeves, paired with pink lace-up sneakers.",
+      "action": "She stands on a cobblestone street, turning from a side profile to face away from the camera, posing with one hand on her hip and the other raised near her head.",
+      "camera": "A static, full-body shot at eye level that captures the subject and the street behind her.",
+      "scene": "An outdoor cobblestone street lined with historic stone and brick buildings, including a Union Jack flag and hanging shop signs."
+    },
+    "uncertain": [],
+    "observation_identity": "31b3f413b684af29a7bc3fabe9bf79267705094e3b469d475e0dc4f11d62fd03"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_68.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's identity to match the person in the reference photo. Match the reference person's facial features and adjust the body's skin tone accordingly. Do not copy the hairstyle, hair color, or expression from the reference photo. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7169.mp4",
+    "observed": {
+      "identity": "A slim woman with light skin, shown in profile and then from behind as she turns.",
+      "hairstyle": "Short, swept-back hair with a small white pom-pom or bun accent at the nape.",
+      "hair_color": "Silver-white.",
+      "clothing": "A white, floral-print romper with pink, blue, and yellow flowers, three-quarter sleeves, and a low open back, paired with pink lace-up sneakers.",
+      "action": "She begins in profile, then turns to show her back, raises one arm to touch her hair, and shifts her weight while posing on the street.",
+      "camera": "A static, full-body shot at a slight low angle that keeps the figure centered against the street.",
+      "scene": "A cobblestone street lined with old European-style buildings, black lampposts, a Union Jack flag, and hanging shop signs."
+    },
+    "uncertain": [],
+    "observation_identity": "e85692342b8278f33dbe4cc1c16f16dd79d86fd2973df853704bd062e5534d61"
+  }
+]

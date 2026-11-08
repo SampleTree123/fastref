@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6082.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a visible face in profile and three-quarter views.",
+      "hairstyle": "Hair is pulled back into a high ponytail with a few loose strands at the nape.",
+      "hair_color": "Bright reddish-orange.",
+      "clothing": "She wears a sleeveless, cropped top with a black-and-white geometric pattern, high-waisted olive-green wide-leg trousers, and open-toed sandals.",
+      "action": "The character stands on a tiled rooftop, first facing left, then raises one arm to brush her hair back, turns her body, and finally faces away from the camera with one hand on her hip.",
+      "camera": "A low-angle, medium full shot that slowly orbits around the character from her left side to behind her.",
+      "scene": "A stylized city rooftop at daytime, with a wet paved area, low railings, and a dense background of blocky high-rise buildings, cranes, and a red billboard."
+    },
+    "uncertain": [],
+    "observation_identity": "618b69b8d4a803674e76f306ec821bfc0d827e4b25598669c8c90b70eb38c1fb"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current red hair color with chestnut brown.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6091.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a visible face in profile and three-quarter views.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail.",
+      "hair_color": "Blonde.",
+      "clothing": "A sleeveless, cropped top with a black-and-white geometric pattern and a dark choker, paired with high-waisted olive-green wide-leg trousers and open-toed sandals.",
+      "action": "The character stands on a tiled rooftop, initially facing left, then raises her right arm to adjust her ponytail while turning her body and head, ending with her back partly toward the camera.",
+      "camera": "A low-angle, medium full shot that slowly orbits and pushes in around the character from her left side toward her back.",
+      "scene": "A stylized, low-poly city rooftop at daytime, with a tiled floor, a shallow water feature, concrete barriers, and a backdrop of blocky buildings, a satellite dish, and construction cranes under a pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "c01449f241211748f9b4cc477854b06e06a377e99d48640fc1dd4fe623c2cc45"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_338.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6083.mp4",
+    "observed": {
+      "identity": "A slender woman with a slim build, shown in profile and then from behind.",
+      "hairstyle": "Her hair is pulled back into a high ponytail.",
+      "hair_color": "Reddish-brown hair.",
+      "clothing": "She wears a sleeveless white top with a black geometric pattern, a black choker, and dark green high-waisted wide-leg trousers.",
+      "action": "She stands in the open plaza, raises one hand to touch her ponytail, places the other hand on her hip, and slowly turns her body so her back faces the camera.",
+      "camera": "A low-angle, full-body shot that slowly dollies in and tracks around her as she turns.",
+      "scene": "An outdoor amusement park or fairground with a carousel on the left, a wooden building and a circular ride structure on the right, and a hazy sky above a wide paved area."
+    },
+    "uncertain": [],
+    "observation_identity": "0647ec9826e200cb8736e43e408e4b9cc7ba30a955a64808c18c901894ee2ae6"
+  }
+]

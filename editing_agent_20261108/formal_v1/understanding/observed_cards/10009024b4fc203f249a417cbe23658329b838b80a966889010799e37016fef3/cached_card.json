@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7194.mp4",
+  "observed": {
+    "identity": "A young adult with a slim build and tanned skin, shown in profile facing right.",
+    "hairstyle": "Short, faded sides with a long, bright blue ponytail tied at the back of the head.",
+    "hair_color": "Vivid blue.",
+    "clothing": "A light gray and white plaid button-up shirt with rolled sleeves, dark plaid pants, and a brown leather strap across the chest.",
+    "action": "The person stands still, then raises their right arm to brush their hair back before lowering it and returning to a standing pose.",
+    "camera": "A static, medium shot from the side at eye level.",
+    "scene": "An outdoor paved area with a metal guardrail, a rocky hillside, green trees, and a bright sky in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "d110b966e152e31bb2a0bdafdcf9bdcb6650bcea7c6022ba345c8507f9854292"
+}

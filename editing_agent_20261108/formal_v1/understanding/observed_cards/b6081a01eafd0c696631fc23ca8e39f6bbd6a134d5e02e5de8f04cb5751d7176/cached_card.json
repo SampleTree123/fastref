@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6640.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build, light brown skin, and a small mole on her left cheek.",
+    "hairstyle": "Short, straight blue hair with bangs, tied back into a small low ponytail.",
+    "hair_color": "Bright blue.",
+    "clothing": "A sleeveless, brown patterned crop top, high-waisted teal-green wide-leg pants, and brown strappy sandals.",
+    "action": "The character stands still, then begins to walk slowly forward and to the right, turning her head to look around.",
+    "camera": "A medium full shot from a slightly elevated angle, remaining mostly static as the character moves.",
+    "scene": "An outdoor, industrial-looking area with cracked concrete ground, a pile of wooden pallets, and rusty metal pipes in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "9c2862d2fd6aac90bf207fc9fd8f4f2df16d8f33a3674e53737cf9802cc81b62"
+}

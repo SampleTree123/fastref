@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7074.mp4",
+  "observed": {
+    "identity": "A 3D-rendered adult woman with a medium-brown complexion and a slim build.",
+    "hairstyle": "Dark hair pulled back into a low ponytail.",
+    "hair_color": "Black.",
+    "clothing": "Light blue-and-white plaid button-up shirt with sleeves rolled to the elbows, brown leather suspenders, dark gray plaid trousers, and black shoes.",
+    "action": "She stands on the asphalt, then begins walking slowly forward and to the right while looking up toward the sky.",
+    "camera": "Low-angle full-body shot that remains mostly static as the character moves through the frame.",
+    "scene": "An outdoor paved road beneath a concrete overpass, with red-and-yellow striped construction barriers, metal railings, green foliage, and a blue sky with light clouds."
+  },
+  "uncertain": [],
+  "observation_identity": "575c5513b301ce97fc6befe30238db96bc6cbeba61a281a50146b7b8d94ca3f5"
+}

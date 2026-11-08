@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6938.mp4",
+  "observed": {
+    "identity": "A young man with a short beard and a neutral expression.",
+    "hairstyle": "Short, dark hair with a slightly textured top.",
+    "hair_color": "Dark brown or black.",
+    "clothing": "A chunky, orange cable-knit sweater, black pants, and brown lace-up boots.",
+    "action": "The man starts standing still, then raises both arms and begins to dance with energetic arm movements and steps before returning to a standing pose.",
+    "camera": "A static, medium-full shot that frames the subject from the shins up against the background.",
+    "scene": "A futuristic, sci-fi style environment featuring a large glass dome with pink structural lines, glowing teal rings, and a reflective floor illuminated by red and blue lights."
+  },
+  "uncertain": [],
+  "observation_identity": "8bc2602947c165235e28230854b449fa11898371ac2c3a275e8c43ce9dd85042"
+}

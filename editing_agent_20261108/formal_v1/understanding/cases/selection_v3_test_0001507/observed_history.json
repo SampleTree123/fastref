@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6298.mp4",
+    "observed": {
+      "identity": "A slender young woman with a slim build and light skin.",
+      "hairstyle": "Short, tousled hair with a small bun or ponytail at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a brown patterned sleeveless crop top, light gray wide-leg pants, and open-toed sandals.",
+      "action": "She stands mostly still, then raises her right hand to touch her face and hair before lowering it again.",
+      "camera": "A high-angle, full-body shot from a fixed position.",
+      "scene": "An outdoor paved area with a long shadow cast to the left, a red cart, and a colorful striped wall in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "fce51e4a7e9e2f5b5e731b00862a2a6c6a74147d68fbf930f627d0e42e96a83e"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_81.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_4.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6289.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and light skin.",
+      "hairstyle": "Hair is pulled back into a low bun with straight bangs across the forehead.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a brown patterned sleeveless crop top, light gray wide-leg trousers, and dark open-toed sandals.",
+      "action": "The character stands mostly still, then raises her right hand to cover her mouth and nose before lowering it again.",
+      "camera": "A high-angle, full-body shot remains static throughout the clip.",
+      "scene": "The character stands on a flat, sandy or dirt ground with a long shadow cast to the left, and a red cart with colorful stripes is partially visible in the upper right background."
+    },
+    "uncertain": [],
+    "observation_identity": "e11326a68c7f7ca7132cc4ffe1e7e9e3c961a33ca86fb9be3742bf51c90611d8"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_141.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: change the scene to the setting shown in the reference image, placing the person in that environment. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6300.mp4",
+    "observed": {
+      "identity": "A slender 3D-rendered female character with fair skin and a slim build.",
+      "hairstyle": "Short hair tied into a small high bun with loose strands framing the face.",
+      "hair_color": "Bright blue.",
+      "clothing": "A sleeveless gold patterned crop top, light gray wide-leg trousers, and open-toed sandals.",
+      "action": "The character stands still, then raises her right hand to touch her face and hair before lowering it again.",
+      "camera": "A static, high-angle full-body shot from the front-left.",
+      "scene": "An outdoor area with a glowing orange tiled walkway on the left and a gray pebbled ground on the right, bordered by large white cylindrical structures."
+    },
+    "uncertain": [],
+    "observation_identity": "f0fea21af75f5510b1f08701fb7a78667ae7fb6ea8cf0db093a6ad35f17fbb09"
+  }
+]

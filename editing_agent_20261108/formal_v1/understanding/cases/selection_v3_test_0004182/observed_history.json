@@ -1,0 +1,125 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6936.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble.",
+      "hairstyle": "Short dark hair with a small top-knot or bun at the back.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A pink-and-white checkered button-up shirt with a black bow tie, black suspenders, matching checkered trousers, and black shoes.",
+      "action": "He stands facing the camera, then turns his head and body to the side while raising one hand to touch his neck and collar, crossing his arms briefly before returning to a front-facing stance.",
+      "camera": "A static medium-to-full shot that gradually pulls back to reveal his full body and the surrounding floor.",
+      "scene": "A futuristic interior with a large glass dome ceiling, glowing teal circular light rings, pink structural beams, and a reflective gray floor."
+    },
+    "uncertain": [],
+    "observation_identity": "0f1cb475fa7797443e97a2c412640f1caeda84c70f3af24f37ceeaebf5b8b7df"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_709.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_710.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6950.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble.",
+      "hairstyle": "Short, dark hair with a small top-knot or bun at the crown.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A chunky, cable-knit orange sweater, black slim trousers, and brown lace-up boots with red socks.",
+      "action": "The man stands facing forward, then turns his head and body to the side while touching his neck, crosses his arms, and finally returns to a front-facing stance with arms at his sides.",
+      "camera": "A static, full-body shot that remains centered on the subject throughout the clip.",
+      "scene": "A futuristic, sci-fi environment featuring a large glass dome with pink structural lines, glowing teal circular light rings, and a reflective concrete floor under blue and pink ambient lighting."
+    },
+    "uncertain": [],
+    "observation_identity": "131b5db2a772906ef2d62ab34212e8e4b8c931444997cfb054a9b37ce240f11e"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_8.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_66.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6975.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial hair.",
+      "hairstyle": "Short dark hair with a small top-knot or bun at the crown.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A chunky orange cable-knit sweater, black slim pants, and brown lace-up boots with red socks.",
+      "action": "He stands facing the camera, then turns his body to the side and back while briefly touching his neck and crossing his arms.",
+      "camera": "A static medium-to-full shot that gradually pulls back to reveal his full body and the surrounding floor.",
+      "scene": "A futuristic indoor space with a large glass dome ceiling, glowing teal circular light rings, and pink structural beams under a dark sky."
+    },
+    "uncertain": [],
+    "observation_identity": "63edd505b73ca4913786f5a2fa328d4128a4f1b2dc2cc015100c0df7c7271eff"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to pink.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6988.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and a short beard is the central subject.",
+      "hairstyle": "His hair is pulled back into a small top ponytail or bun.",
+      "hair_color": "His hair appears dark brown or black under the lighting.",
+      "clothing": "He wears a thick, orange cable-knit sweater, black pants, and brown lace-up boots.",
+      "action": "He begins facing forward, then turns his body to the side while raising one hand to his neck, crosses his arms, and finally returns to a front-facing stance with his arms at his sides.",
+      "camera": "The camera starts as a medium shot and slowly pulls back to a full-body shot while remaining at a static eye-level angle.",
+      "scene": "The setting is a futuristic interior with a large glass dome ceiling, glowing teal circular light rings, and pink structural beams over a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "4f511a2b406e88a422e38320cb80fda53d4a4a3129c255036aebf9075d5c9acd"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_2597bc2757cff1d7675497ea9f00a038d9ebf7b288a3fe5138239630d948311e.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6949.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and a neutral facial expression.",
+      "hairstyle": "Short, dark hair styled upward in a small top-knot or bun.",
+      "hair_color": "Black.",
+      "clothing": "A pink and white checkered button-up shirt with rolled sleeves, black suspenders, a black bow tie, and red and black plaid trousers with a black belt.",
+      "action": "The man stands facing forward, then turns his head and body to the side while raising one hand to touch his bow tie and chest area, before turning back to face the camera.",
+      "camera": "Medium shot, static camera at eye level.",
+      "scene": "A futuristic, sci-fi environment featuring a large glass dome structure with glowing pink and teal neon rings and a dark, reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "e4293184dee41768d92653d19b0ddd6ed1da4c0ae3ab9170f48d4197bee0e672"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6659.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with dark skin, a slim build, and a neutral facial expression.",
+    "hairstyle": "Bright blue hair styled in a short bob with straight bangs and two small low buns at the back.",
+    "hair_color": "Bright blue.",
+    "clothing": "A short, white dress with a pink and green floral pattern, featuring a V-neckline and cold-shoulder cutouts, paired with pink slip-on sneakers.",
+    "action": "The character stands still, then raises both arms overhead in a stretching or cheering pose while turning her body, before lowering her arms and returning to a standing position.",
+    "camera": "A full-body shot that begins with a front view, pans around the character to show her side and back, and returns to a front view.",
+    "scene": "An outdoor, sunlit stone plaza with cracked paving, scattered rocks, and a body of water in the background, surrounded by weathered stone buildings and industrial pipes."
+  },
+  "uncertain": [],
+  "observation_identity": "49ea37446c574f5ceb42b9a908cc65ef1b63762a87dc56e069f8b081048b0efd"
+}

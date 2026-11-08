@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6927.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build, shown in profile and then from behind.",
+      "hairstyle": "Red hair with straight bangs, tied back into a low bun at the nape of the neck.",
+      "hair_color": "Bright red.",
+      "clothing": "A short, off-the-shoulder dress with a busy multicolored pattern of purple, pink, yellow, and blue shapes, plus dark flat shoes.",
+      "action": "She stands in profile, then walks slowly forward and to the right, turning so her back faces the camera by the end.",
+      "camera": "A medium full-body side view that slowly pulls back and pans right to follow her as she walks.",
+      "scene": "An outdoor rooftop or plaza with a gray metal container, a beige multi-story building, and a paved ground under bright daylight."
+    },
+    "uncertain": [],
+    "observation_identity": "28d912e822a5cddaf24bbb2ecee76c22b0508059ca1424812ff629707b7ef4e5"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6932.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, shown in profile and then from behind.",
+      "hairstyle": "Red hair tied in a high ponytail with a straight fringe across the forehead.",
+      "hair_color": "Bright red.",
+      "clothing": "A short, fitted dress with a busy purple, pink, yellow, and blue psychedelic pattern, featuring cut-out shoulders and thin straps, plus dark flat shoes.",
+      "action": "The character stands in profile, then walks slowly forward and to the right, turning her back to the camera as she moves.",
+      "camera": "A medium full-body shot at eye level that slowly pulls back and pans right to follow the character's movement.",
+      "scene": "An outdoor rooftop or plaza with a gray metal container, a beige multi-story building, and a paved ground under bright daylight."
+    },
+    "uncertain": [],
+    "observation_identity": "bbb07f021bc681ceddc1d4ffcdf25150637677a71bfb175ddd853dc823815062"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_124.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6929.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and tanned skin, shown in profile.",
+      "hairstyle": "Red hair pulled back into a ponytail with loose strands framing the face.",
+      "hair_color": "Red.",
+      "clothing": "A short, colorful one-piece dress with a busy purple, orange, and blue pattern, plus pink slip-on shoes.",
+      "action": "The character stands in profile, then walks forward along the dock edge and stops near the water.",
+      "camera": "A medium full-body side view that slowly pulls back and pans to follow the character's movement.",
+      "scene": "An outdoor dock beside calm water, with a large concrete tank, rusty railings, wooden pilings, and a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "c40bddaf6b32b5e4932aaddbfaa13e3755452f65c236b70b520c81f301d34f92"
+  }
+]

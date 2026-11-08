@@ -1,0 +1,88 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6959.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial hair.",
+      "hairstyle": "Short hair with a small top-knot or bun at the crown.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A red and cream cable-knit sweater, black slim pants, and brown lace-up boots.",
+      "action": "The man stands facing forward, then turns his body in a slow circle while briefly touching his chin and crossing his arms.",
+      "camera": "A static, full-body shot that remains centered on the subject throughout the clip.",
+      "scene": "A futuristic setting with a large glass dome structure, glowing pink and teal neon rings, and a reflective floor under a twilight sky."
+    },
+    "uncertain": [],
+    "observation_identity": "564c073daf0841690ec155d7c9b36566b8a810d11b00e510213fe3c3ea57baf8"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_6c6f8ece30e9a5d733446bbb006d5b130346ce56463a8e9151e9cdf992d1e363.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a front-view dolly-out shot that moves from upper-body to full-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6950.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble.",
+      "hairstyle": "Short, dark hair with a small top-knot or bun at the crown.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A chunky, cable-knit orange sweater, black slim trousers, and brown lace-up boots with red socks.",
+      "action": "The man stands facing forward, then turns his head and body to the side while touching his neck, crosses his arms, and finally returns to a front-facing stance with arms at his sides.",
+      "camera": "A static, full-body shot that remains centered on the subject throughout the clip.",
+      "scene": "A futuristic, sci-fi environment featuring a large glass dome with pink structural lines, glowing teal circular light rings, and a reflective concrete floor under blue and pink ambient lighting."
+    },
+    "uncertain": [],
+    "observation_identity": "131b5db2a772906ef2d62ab34212e8e4b8c931444997cfb054a9b37ce240f11e"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_329.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6973.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial hair.",
+      "hairstyle": "Short hair with a red headband or bandana tied around the head.",
+      "hair_color": "Red",
+      "clothing": "A mustard-yellow cable-knit sweater, dark gray or black slim pants, light-colored socks, and brown lace-up shoes.",
+      "action": "The man stands facing the camera, then turns his head and body to the side, briefly touches his chin, and crosses his arms while shifting his stance.",
+      "camera": "A medium full shot that starts at chest level and slowly pulls back to reveal the full body and feet.",
+      "scene": "An outdoor paved area under a concrete overpass, with road construction barriers, signs, and a bright sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "e694a2899ba4b83e376476b89a4ce64b0a1424e52cffd30af6f25d7e1e0f835c"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to pink?",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6986.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and a neutral expression.",
+      "hairstyle": "Her hair is pulled up into a high bun or topknot.",
+      "hair_color": "Her hair is a reddish-brown or auburn color.",
+      "clothing": "She wears a mustard-yellow cable-knit sweater, dark grey or black slim trousers, light-colored socks, and brown lace-up shoes.",
+      "action": "The woman stands still, initially facing forward, then turns her head and body to the side while briefly touching her collar before crossing her arms.",
+      "camera": "The camera starts with a medium shot from the waist up and slowly pulls back to a full-body shot, remaining at a low angle.",
+      "scene": "The setting is an outdoor paved area under a concrete overpass, with road construction barriers, signs, and a bright sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "a6be248a46022324aaf29292cafc19b1ca8c351b77ddc92c996e6bced992f382"
+  }
+]

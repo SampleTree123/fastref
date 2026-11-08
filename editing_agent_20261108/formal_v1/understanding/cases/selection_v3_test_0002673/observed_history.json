@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6568.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a dark complexion, short facial hair, and a slim build.",
+      "hairstyle": "Short hair with a small top-knot bun at the crown and a side part.",
+      "hair_color": "Light brown or dark blonde.",
+      "clothing": "A white long-sleeved collared shirt under a black vest, red pants, and a brown belt with a silver buckle.",
+      "action": "The man stands facing slightly right, then turns to face the camera, gestures with his hands, and briefly touches his chest and collar before turning back to the side.",
+      "camera": "Static medium shot from the waist up, at eye level.",
+      "scene": "An outdoor amusement park at dusk, with a swing ride on the left, a carousel structure with lights on the right, and a striped awning in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "8f44e5ccf2343e67668ea6eb9cd1a2851f7b0acfbb9fb3415820acff7b27243e"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_d1dd61ca5e7d2974eb4b943c5097ce0d4862fcd21100e6a9a1b2cb1bcd84c337.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a side-view dolly-in shot that moves from full-body to upper-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6553.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with a dark complexion, a short beard, and a stocky build.",
+      "hairstyle": "Short hair on the sides with a small top-knot or bun at the back of the head.",
+      "hair_color": "Dark brown.",
+      "clothing": "A white long-sleeved shirt under a dark green vest, red trousers, and dark shoes.",
+      "action": "The man stands in profile, then bends forward to adjust his vest and belt area before straightening up and turning his head slightly.",
+      "camera": "A static, eye-level medium shot from the side, keeping the man centered in the frame.",
+      "scene": "An outdoor amusement park or fairground at dusk, featuring a red and blue striped train car and a large pavilion with rows of white lights in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "2433c761cdddd8f8e672421fbc7f6d9be1e5043d46dc1653fb712b8e0a00b82a"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_8f7e8b9503b233a73a8985e388ebeda930c83614e59ad5ca2a6f580d11a39551.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a high-angle full-body shot looking down from a front three-quarter view. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6560.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male character with a medium-brown complexion, a short beard, and a slim build.",
+      "hairstyle": "Light brown hair is pulled back into a small top-knot or bun.",
+      "hair_color": "Light brown.",
+      "clothing": "He wears a white long-sleeved collared shirt under a black vest, red flared trousers with a brown belt, and black shoes.",
+      "action": "The character stands in place, turns his head to look around, and briefly raises his right hand to touch his chest and collar before lowering it.",
+      "camera": "A static, high-angle full-body shot keeps the character centered in the frame.",
+      "scene": "The character stands on a flat, sandy or dirt ground in bright daylight, casting a long shadow to the left, with a building edge and a small red vehicle visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "07a86beaabce15e9f26915f48d4dc27d239a2d9a519d90358f5d6580185fe2fc"
+  }
+]

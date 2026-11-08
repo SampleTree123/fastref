@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6340.mp4",
+  "observed": {
+    "identity": "A 3D-rendered adult male with a slim build, dark skin, and a short beard.",
+    "hairstyle": "Short hair with a small top-knot or bun at the back of the head.",
+    "hair_color": "Red.",
+    "clothing": "A bright yellow long-sleeved shirt with a white floral pattern, dark plaid trousers, and dark shoes.",
+    "action": "The man stands in profile, then raises both arms overhead and leans back in a stretching or dancing motion before returning to an upright standing pose.",
+    "camera": "A static, medium-long side view at roughly waist height, keeping the character centered in the frame.",
+    "scene": "An outdoor amusement park or fairground at dusk, featuring a large covered structure with rows of light bulbs, a red and yellow striped food cart, and a roller coaster track in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "8a8523ec9213833183297987ed2f0b24285ede4b99962482f3491d4e3c7be569"
+}

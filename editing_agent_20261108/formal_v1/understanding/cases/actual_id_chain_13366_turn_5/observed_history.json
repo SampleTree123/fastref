@@ -1,0 +1,123 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6229.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and light skin, shown in profile and then from behind.",
+      "hairstyle": "Bright yellow hair is pulled up into a high bun with short bangs across the forehead.",
+      "hair_color": "Bright yellow.",
+      "clothing": "She wears a black-and-white dirndl-style dress with a laced bodice, puffed short sleeves, and a black skirt patterned with gold roses.",
+      "action": "The character stands on the road, raises one hand to touch her hair, and slowly turns from a side profile to face away from the camera.",
+      "camera": "A medium shot at roughly waist height, with the camera remaining mostly stationary as the character rotates in place.",
+      "scene": "An outdoor paved road or bridge with white lane markings, bordered by a metal guardrail, trees with green and yellow leaves, street lamps, and a construction crane in the distance under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "2530451ddb2430179c1da4b718cac5537060605eb612057194b3504abb29fe81"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a slightly low-angle full-body shot from a front three-quarter view. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_c3dc25874ae817f2417402cdb274c1107ee7031b839c8ccbc936a10e0d63546f.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a slightly low-angle full-body shot from a front three-quarter view. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6212.mp4",
+    "observed": {
+      "identity": "A slender woman with dark skin, seen mostly from behind and in profile.",
+      "hairstyle": "Bright yellow hair styled in two high buns.",
+      "hair_color": "Yellow.",
+      "clothing": "She wears a black-and-white patterned sleeveless top, a short black skirt with a yellow floral print, dark elbow-length gloves, and light blue sneakers.",
+      "action": "She stands in the middle of the road, turns, raises one arm to touch her hair, and shifts her weight while posing.",
+      "camera": "A static, low-angle full-body shot from behind the subject.",
+      "scene": "An empty paved road under a concrete overpass, with orange-and-white construction barriers, a blue traffic sign, streetlights, and green trees in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "983e43ecaf51df0c275f4299a3f981a2607a0115c676c79fa8a051c4dd1e4a88"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to raising both hands in celebration, then thrusting one hand upward, following the demonstration in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_189.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to raising both hands in celebration, then thrusting one hand upward, following the demonstration in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6196.mp4",
+    "observed": {
+      "identity": "A slender woman with a fair complexion and a small face, shown in full body from head to toe.",
+      "hairstyle": "Blonde hair pulled up into a high bun with straight bangs across the forehead.",
+      "hair_color": "Bright blonde.",
+      "clothing": "A short black dress with a yellow floral pattern, a white lace-up bodice, and black puffed elbow-length sleeves, paired with light blue sneakers.",
+      "action": "She stands still, then raises both arms overhead and shifts her weight while stepping and turning slightly, before lowering her arms and returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot that keeps the woman centered in the frame.",
+      "scene": "An outdoor paved road under a concrete overpass, with red-and-white construction barriers, a blue directional sign, metal guardrails, trees, and a construction crane in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "d27c6e4566a0736ad44d021aa307d7319a76ab4f3d255726db00330226a9d6d0"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change only the person's skirt to match the reference images. Leave the rest of the outfit and everything else in the video unchanged.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_15.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_150.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change only the person's skirt to match the reference images. Leave the rest of the outfit and everything else in the video unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6189.mp4",
+    "observed": {
+      "identity": "A slender young woman with a fair complexion and a small mole on her left cheek.",
+      "hairstyle": "Her hair is styled in a high bun with straight bangs across her forehead.",
+      "hair_color": "Bright yellow-blonde.",
+      "clothing": "She wears a short black dress with a white lace-up bodice, black puffy sleeves, and light blue sneakers.",
+      "action": "The woman stands in the middle of a road, then raises her arms overhead and performs a short dance sequence before returning to a standing pose.",
+      "camera": "The camera remains static in a medium-long shot, capturing the subject from head to toe at a slight low angle.",
+      "scene": "The setting is an outdoor paved road under a concrete overpass, with construction barriers, traffic signs, and green trees visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "39fa6aa25485e31522a8ad317de9942b617a738e10ae9230866cdca1194b6283"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from blonde to chestnut brown.",
+    "parent_id": 3,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from blonde to chestnut brown.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6194.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and light skin, shown in a full-body view.",
+      "hairstyle": "Her hair is pulled up into a high bun on top of her head.",
+      "hair_color": "Her hair is reddish-brown.",
+      "clothing": "She wears a short black dress with a white lace-up bodice, puffed off-the-shoulder sleeves, and a white panel at the side, paired with light blue sneakers.",
+      "action": "She stands still, then raises both arms overhead and performs a short dance with arm and leg movements before returning to a standing pose.",
+      "camera": "The camera is static at a low, full-body angle, keeping the subject centered in the frame.",
+      "scene": "She is on an empty asphalt road under a concrete overpass, with orange-and-white construction barriers, a blue directional sign, a metal guardrail, and green trees in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "ec0d2a1a9bac8dbe81f2ac4b9ccab9bc64fb35e037435b7210d46e39a025a7f5"
+  }
+]

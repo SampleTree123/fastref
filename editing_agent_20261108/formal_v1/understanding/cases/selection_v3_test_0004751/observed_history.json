@@ -1,0 +1,41 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7053.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen mostly from behind and in profile.",
+      "hairstyle": "Her hair is pulled back into a low, loose bun at the nape of her neck.",
+      "hair_color": "Her hair is a reddish-brown or auburn color.",
+      "clothing": "She wears a short, open-back dress with three-quarter sleeves, featuring a dense, colorful paisley and floral pattern in purple, blue, orange, and yellow on a dark background.",
+      "action": "The woman stands facing the water, then slowly turns her head and upper body to her right, briefly raising her hand toward her shoulder before turning back to face away from the camera.",
+      "camera": "The camera is static, framing the woman from the mid-thigh up in a medium shot from behind.",
+      "scene": "She stands on a weathered concrete or stone pier or platform next to a large, calm body of water under a clear, pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "bd56106e70723ca42b0a4963e1b16395674a83d08108085ada80238a6315958a"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current chestnut brown hair color with blue.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7047.mp4",
+    "observed": {
+      "identity": "A woman with a medium build, seen mostly from behind and in profile.",
+      "hairstyle": "Short hair with two small low buns or twists at the nape of the neck.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A short, dark dress with a busy multicolored paisley and floral print and an open back with thin straps.",
+      "action": "She stands facing the water, then turns her head and upper body to the right, briefly raises her right arm, and returns to a rear-facing stance.",
+      "camera": "A static medium shot from behind at roughly waist-to-head height.",
+      "scene": "An outdoor stone or concrete platform beside a calm body of water under a pale, hazy sky."
+    },
+    "uncertain": [
+      "The woman's face is mostly turned away, so facial features are unclear.",
+      "The exact garment length and whether it is a dress or top-and-bottom set is unclear."
+    ],
+    "observation_identity": "eb8bbd26a8f08e4546bd1fe926cc8935bc443cea978a8d9d548c9b13d1616f2a"
+  }
+]

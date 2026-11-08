@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6524.mp4",
+  "observed": {
+    "identity": "A female video game character with dark skin and a slim build, shown from the waist up.",
+    "hairstyle": "Blonde hair pulled back into a high ponytail with a short fringe.",
+    "hair_color": "Platinum blonde.",
+    "clothing": "A white dress with pink, yellow, and blue floral print, featuring a V-neck, three-quarter sleeves, and an open back.",
+    "action": "The character stands in profile, raises her left hand to touch her ponytail, then turns her back to the camera while keeping one hand on her hip.",
+    "camera": "A static medium shot at eye level, framing the character from the waist up against the background.",
+    "scene": "A sunny outdoor fairground with a striped carousel on the left, a wooden building and a circular ride structure on the right, and metal crowd-control barriers lining a paved walkway."
+  },
+  "uncertain": [],
+  "observation_identity": "f5396ff4f4cb5e967e948daacb2a6c9500f9eaa0188f8f7c213e5744f5354312"
+}

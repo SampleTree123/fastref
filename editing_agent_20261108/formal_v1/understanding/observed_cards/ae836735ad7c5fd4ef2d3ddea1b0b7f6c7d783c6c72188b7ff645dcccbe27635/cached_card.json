@@ -1,0 +1,17 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6806.mp4",
+  "observed": {
+    "identity": "A slender young woman with a slim build and light skin, shown in a full-body 3D-rendered style.",
+    "hairstyle": "Her hair is styled in two high buns on top of her head with loose strands framing her face.",
+    "hair_color": "Her hair appears reddish-brown, though the strong pink lighting makes the exact color hard to confirm.",
+    "clothing": "She wears a bright pink long-sleeved off-the-shoulder top, a matching pink flared mini skirt, and black lace-up combat boots.",
+    "action": "She stands facing the camera, then turns to her side, raises one hand to brush her hair back, and places the other hand on her hip before turning back to face forward.",
+    "camera": "The camera remains static in a full-body, eye-level shot with the subject centered in the frame.",
+    "scene": "She stands on a glossy, reflective floor in front of a large glass structure with a dark dome roof, illuminated by pink and cyan neon lights and glowing circular rings."
+  },
+  "uncertain": [
+    "hair_color"
+  ],
+  "observation_identity": "747c661e3dc5afd7d78747c273052f3e9fa4bc546345cfc2c7263ea347fa4437"
+}

@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6708.mp4",
+  "observed": {
+    "identity": "A slim, dark-skinned man with a short beard and mustache.",
+    "hairstyle": "Short hair on the sides with longer hair pulled back into a small ponytail at the back of the head.",
+    "hair_color": "Black.",
+    "clothing": "White sleeveless tank top with a pink and purple palm-tree graphic, light turquoise shorts with white trim, and pink slip-on sneakers.",
+    "action": "The man stands facing the camera, then turns and walks slowly to his left across the platform, ending with his back to the camera looking toward the water.",
+    "camera": "Full-body shot at eye level; the camera pans and arcs to the right, tracking the man as he turns and walks away.",
+    "scene": "A sunlit outdoor stone dock or pier beside calm water, with weathered buildings, wooden crates, barrels, and a large cylindrical tank in the background under a clear blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "800ee81c9d325d660b98cab4e5151802b3d2f32c5a5cc872fed3cce19da8a715"
+}

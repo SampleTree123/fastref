@@ -1,0 +1,69 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6097.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a short blonde bob.",
+      "hairstyle": "Short blonde bob with a small bun or topknot on top of the head.",
+      "hair_color": "Blonde.",
+      "clothing": "A sleeveless, cropped top with a black-and-white geometric pattern, high-waisted olive-green wide-leg trousers, and strappy sandals.",
+      "action": "The character stands on a rooftop, initially facing left, then turns her body and head to the right while raising her right arm to adjust her hair.",
+      "camera": "Medium shot from a slightly low angle, remaining mostly static while the character moves within the frame.",
+      "scene": "A sunny, stylized city rooftop with a tiled floor, a low wall, and a background of blocky, colorful buildings and construction cranes."
+    },
+    "uncertain": [],
+    "observation_identity": "09633106c068f54645c6b1a882a94861f314d3396eab53dd324439728fe4b6cc"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_8.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_66.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6091.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a visible face in profile and three-quarter views.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail.",
+      "hair_color": "Blonde.",
+      "clothing": "A sleeveless, cropped top with a black-and-white geometric pattern and a dark choker, paired with high-waisted olive-green wide-leg trousers and open-toed sandals.",
+      "action": "The character stands on a tiled rooftop, initially facing left, then raises her right arm to adjust her ponytail while turning her body and head, ending with her back partly toward the camera.",
+      "camera": "A low-angle, medium full shot that slowly orbits and pushes in around the character from her left side toward her back.",
+      "scene": "A stylized, low-poly city rooftop at daytime, with a tiled floor, a shallow water feature, concrete barriers, and a backdrop of blocky buildings, a satellite dish, and construction cranes under a pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "c01449f241211748f9b4cc477854b06e06a377e99d48640fc1dd4fe623c2cc45"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current chestnut brown hair color with red.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6082.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a visible face in profile and three-quarter views.",
+      "hairstyle": "Hair is pulled back into a high ponytail with a few loose strands at the nape.",
+      "hair_color": "Bright reddish-orange.",
+      "clothing": "She wears a sleeveless, cropped top with a black-and-white geometric pattern, high-waisted olive-green wide-leg trousers, and open-toed sandals.",
+      "action": "The character stands on a tiled rooftop, first facing left, then raises one arm to brush her hair back, turns her body, and finally faces away from the camera with one hand on her hip.",
+      "camera": "A low-angle, medium full shot that slowly orbits around the character from her left side to behind her.",
+      "scene": "A stylized city rooftop at daytime, with a wet paved area, low railings, and a dense background of blocky high-rise buildings, cranes, and a red billboard."
+    },
+    "uncertain": [],
+    "observation_identity": "618b69b8d4a803674e76f306ec821bfc0d827e4b25598669c8c90b70eb38c1fb"
+  }
+]

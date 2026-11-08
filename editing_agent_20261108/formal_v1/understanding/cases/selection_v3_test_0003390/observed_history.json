@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6764.mp4",
+    "observed": {
+      "identity": "A Black man with a lean, muscular build and a short beard.",
+      "hairstyle": "Short, cropped hair.",
+      "hair_color": "White.",
+      "clothing": "A cream tank top with a pink and purple palm tree graphic and 'Los Angeles' text, pink shorts with white trim, and pink slip-on shoes.",
+      "action": "The man stands on an asphalt road, initially facing forward, then turns his body to the side and raises his hand to his chin in a thoughtful pose before turning back to face forward.",
+      "camera": "A static, full-body shot from a slightly low angle.",
+      "scene": "An outdoor urban setting on a paved road under a concrete overpass, with a metal guardrail, green foliage, and a construction crane visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "42de2922d39bacd39dd3ffcf77654b6d49d37b80baa90fba2db298aa76976958"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_68.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6749.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned young man with a short face and visible ears.",
+      "hairstyle": "Short, cropped hair with a flat top.",
+      "hair_color": "Platinum blonde.",
+      "clothing": "White sleeveless tank top with a pink palm-tree graphic and 'Los Angeles' text, pink shorts with white trim, and pink slip-on shoes.",
+      "action": "He stands still, then raises both arms overhead and sways his body side to side before returning to a standing pose.",
+      "camera": "Static full-body shot from a low angle, keeping the subject centered.",
+      "scene": "An outdoor paved road under a concrete overpass, with a metal guardrail, green foliage, and a construction crane in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "6426f7b0b5383295614b22a27ae446cd77305a0313f7584c956bf2853079e108"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_104.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_11.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6780.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned man with a short beard, shown in full body.",
+      "hairstyle": "Short, curly hair tied into a small top bun.",
+      "hair_color": "White.",
+      "clothing": "Cream sleeveless tank top with a palm-tree graphic and pink shorts with white trim, plus pink slip-on shoes.",
+      "action": "He stands on the road, turns his head and body, and raises his hands to touch his chin and chest before lowering them.",
+      "camera": "Static full-body shot from a low angle, with the subject centered.",
+      "scene": "An outdoor paved road beside a concrete overpass, with a metal guardrail, greenery, and a construction crane in the background under a partly cloudy sky."
+    },
+    "uncertain": [],
+    "observation_identity": "3e707e1eb461ae28b2573d4318e818bccc3e3bcbcad1e2d8869886bd5b8cf1e4"
+  }
+]

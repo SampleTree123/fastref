@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6521.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a round face, and a slight smile.",
+      "hairstyle": "Short, spiky blonde hair with a small bun on top.",
+      "hair_color": "Bright yellow-blonde.",
+      "clothing": "A bright pink, long-sleeved, off-the-shoulder top with purple straps and a dark, sword-like object strapped across her back.",
+      "action": "The woman stands facing the camera, then raises both arms with clenched fists, tilts her head back, and lowers her arms back to a resting position.",
+      "camera": "Static, medium close-up shot at eye level.",
+      "scene": "An outdoor, sunlit area with a concrete floor, scattered wooden planks, an overturned wooden boat, and industrial-style buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "ab4fe5c48fe149648e1ae14e411c5ac648ef084d3bfc64281a0c96d9d7de2671"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair black.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6536.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with brown skin, a round face, and a slight smile.",
+      "hairstyle": "Short, dark hair styled in a bob with a side part.",
+      "hair_color": "Black with prominent gray streaks.",
+      "clothing": "A bright pink, long-sleeved, off-the-shoulder top with purple ribbon ties at the shoulders.",
+      "action": "The woman stands facing the camera, then raises both arms with clenched fists, tilts her head back, and lowers her arms back to a resting position.",
+      "camera": "A static, medium close-up shot from a slightly low angle.",
+      "scene": "An outdoor, sunlit area with a concrete floor, featuring a wooden boat on the left and a pile of wooden planks on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "e0a8c80600dccfe02528b3358cf64ecac602b6feba5a2f674e7aee93062d9eb1"
+  }
+]

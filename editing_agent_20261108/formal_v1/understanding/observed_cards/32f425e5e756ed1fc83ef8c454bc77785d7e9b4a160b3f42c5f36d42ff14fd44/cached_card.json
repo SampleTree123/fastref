@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6856.mp4",
+  "observed": {
+    "identity": "A slender female video-game character with a slim build and light skin, shown from behind and in profile.",
+    "hairstyle": "Blonde hair pulled up into two small space buns on top of the head.",
+    "hair_color": "Bright blonde.",
+    "clothing": "A long-sleeved hot-pink off-the-shoulder top with a dark patterned trim, a short white pleated skirt, and dark lace-up ankle boots.",
+    "action": "The character stands and slowly turns in place, raising one arm to touch or adjust her hair while shifting her weight and pivoting from a back view to a side profile.",
+    "camera": "A static, low-angle full-body shot that keeps the character centered in the frame.",
+    "scene": "An outdoor urban plaza with a large metallic container or wall behind the character, tiled pavement underfoot, and a tan building with a red-and-yellow sign in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "219181b798f1502f1a69ab4eeb9a00fc902ba16cc19aeda68dc6748623853af4"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0000808",
+  "dataset_index": 226,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 7.133926535956562,
+  "result": {
+    "source_video_id": 0,
+    "prompt": "Change the person's hairstyle to match the reference images, using the front and back hair references to define the hairstyle shape. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "reference_ids": [
+      "ref_1",
+      "ref_2"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

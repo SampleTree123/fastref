@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6939.mp4",
+    "observed": {
+      "identity": "A young man with a short beard and a neutral expression.",
+      "hairstyle": "Short, dark hair with a slightly textured top.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A purple cable-knit sweater, black pants, and brown lace-up shoes.",
+      "action": "The man stands still, then raises both arms overhead and begins to dance with rhythmic arm and leg movements before returning to a standing pose.",
+      "camera": "A static, medium-full shot that frames the man from the shins up against the background.",
+      "scene": "A futuristic, sci-fi environment featuring a large glass dome with pink structural lines, glowing teal circular light rings, and a reflective floor under blue and pink lighting."
+    },
+    "uncertain": [],
+    "observation_identity": "23b85091767a73b96037dc4356cbd24f63c414f1bb635c8675e27c764a13ad9c"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: The person currently has red hair; please change it to pink.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6953.mp4",
+    "observed": {
+      "identity": "A young man with a light-to-medium complexion, short dark hair, and a clean-shaven face.",
+      "hairstyle": "Short, dark hair, neatly trimmed.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A purple cable-knit sweater, black pants, and brown boots.",
+      "action": "The man begins standing still, then raises both arms overhead, and proceeds to dance by swinging his arms and shifting his weight before returning to a standing position.",
+      "camera": "The camera starts with a medium shot of the upper body and gradually zooms out to a full-body shot, remaining static otherwise.",
+      "scene": "A futuristic indoor setting with a large glass dome ceiling, glowing pink and blue neon lights, and a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "a0d17185d217991f823f7478b15fd1dd0b7be3045d5a15a3fa101cff16fb342b"
+  }
+]

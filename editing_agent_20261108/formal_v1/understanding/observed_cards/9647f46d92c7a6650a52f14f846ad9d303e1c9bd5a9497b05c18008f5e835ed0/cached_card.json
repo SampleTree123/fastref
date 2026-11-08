@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6052.mp4",
+  "observed": {
+    "identity": "A young Black woman with a slim build, shown in a 3D animated style.",
+    "hairstyle": "Red hair pulled back into a high ponytail with a white hair tie.",
+    "hair_color": "Red.",
+    "clothing": "She wears a pink-and-white gingham corset-style top with white off-the-shoulder puff sleeves, a black mini skirt, and light blue sneakers.",
+    "action": "She begins standing in profile, then turns toward the camera while posing, placing a hand on her hip and raising the other arm to touch her hair and face.",
+    "camera": "A medium full-body shot at eye level that slowly pushes in and pans slightly to follow her as she turns.",
+    "scene": "An outdoor amusement park at dusk, with a large Ferris wheel, a roller coaster, and a red 'Tickets' booth in the background under a warm orange sky."
+  },
+  "uncertain": [],
+  "observation_identity": "204bae679c5eb14e90b310469063b067101adcde6ba25d8a6ae335419328fed3"
+}

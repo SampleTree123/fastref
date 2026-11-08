@@ -1,0 +1,82 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5981.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young Black man with a slim build, short beard, and neutral expression.",
+      "hairstyle": "Short, cropped hair with a slightly textured top.",
+      "hair_color": "Platinum white.",
+      "clothing": "White tank top with a pink and yellow palm-tree graphic reading \"LOS ANGELES\", pink shorts with white trim, and pink slip-on shoes.",
+      "action": "The character stands facing the camera, then raises his right hand to touch his face and head before lowering it and standing still.",
+      "camera": "Static, eye-level medium shot that slowly zooms out to a full-body view.",
+      "scene": "A cobblestone street in a European-style city with stone buildings, black lampposts, and a large Union Jack flag hanging in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "8d9080f1547ef9b953d2d93fd127ce3f45af185e95c3fd4cbc08ff3d267074c2"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_809.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_810.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the one-piece garment and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5986.mp4",
+    "observed": {
+      "identity": "A Black man with a short beard and mustache stands centered in the frame.",
+      "hairstyle": "Short, cropped hair.",
+      "hair_color": "White.",
+      "clothing": "He wears a brown plaid three-piece suit with a white shirt, dark tie, and dark shoes.",
+      "action": "He stands facing forward, then raises his right hand to touch his face and head before lowering it and standing still.",
+      "camera": "The camera starts at a medium shot and slowly pulls back to a full-body view.",
+      "scene": "A cobblestone street lined with classical buildings, black lampposts, and a Union Jack flag hanging in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "b3542ebfe73bbe2ec26d5bd77b5994876cbda853e7ecacd0a5c5ce12a1faee1f"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_755.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_756.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5985.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble stands centered in the frame.",
+      "hairstyle": "He has a short, flat-top style haircut.",
+      "hair_color": "His hair is bleached white.",
+      "clothing": "He wears a white tank top with a pink palm-tree graphic and \"Los Angeles\" text, pink shorts with white trim, and pink slip-on shoes.",
+      "action": "He stands facing the camera, then raises his right hand to touch his face and nose before lowering it and standing still.",
+      "camera": "The camera is at a low angle, initially framing him from the waist up and then pulling back to a full-body shot.",
+      "scene": "The setting is a cobblestone street in a European-style city, with brick and stone buildings, black lampposts, and a large Union Jack flag hanging in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "35d0f4623be90765d30d227aaf1f32b0d4dd4bff2dde20041a4cbd8acd39256b"
+  }
+]

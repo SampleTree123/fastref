@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6815.mp4",
+  "observed": {
+    "identity": "A 3D-rendered woman with dark skin, shown from behind, with a slim build and long legs.",
+    "hairstyle": "Her hair is styled into two small buns on top of her head.",
+    "hair_color": "Her hair appears reddish-brown.",
+    "clothing": "She wears a short, colorful dress with a busy neon pattern of blue, pink, orange, and purple shapes, along with red sneakers with white soles.",
+    "action": "She stands with her back to the camera, then turns her body to the side while raising one arm to touch her head, and shifts her weight and feet in a slow, posed manner.",
+    "camera": "The camera is static at a low, full-body angle, keeping the woman centered against the background.",
+    "scene": "The setting is a futuristic outdoor plaza with a wet, reflective ground, large domed buildings with glowing teal lights, a tall tower, and a purple bus in the distance under a cloudy sky."
+  },
+  "uncertain": [],
+  "observation_identity": "02bc0f712fbe89d43167eca6f3a3c5cf9ba8bcbd663b81ba41a961bc20200496"
+}

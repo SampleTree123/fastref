@@ -1,0 +1,78 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6777.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a stocky build, shown in profile and then from behind.",
+      "hairstyle": "Short hair with a small topknot bun at the back of the head.",
+      "hair_color": "White.",
+      "clothing": "Light gray plaid long-sleeve shirt with sleeves rolled to the elbows, brown suspenders, dark plaid trousers, and dark shoes.",
+      "action": "The man stands still in profile, then begins walking forward and turns so his back faces the camera.",
+      "camera": "Medium full-body shot at eye level that slowly pushes in and tracks the man as he walks and turns.",
+      "scene": "An outdoor paved road with a white lane line, bordered by a metal guardrail, fence, trees, and a rocky hillside under a partly cloudy sky."
+    },
+    "uncertain": [
+      "Exact facial features are partly obscured by the profile angle and rendering style."
+    ],
+    "observation_identity": "08b8b1892cf5c54a6e5b8b46870d8229e65179dd9ec469d2a68ed3221d39f8d3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_37.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6785.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with a dark complexion, stocky build, and a small goatee.",
+      "hairstyle": "White hair swept back and tied into a small top-knot bun.",
+      "hair_color": "White.",
+      "clothing": "A light blue-and-white plaid button-up shirt with rolled sleeves, brown leather suspenders, dark plaid trousers, and black shoes.",
+      "action": "The man stands in profile, then begins walking forward and to the right, swinging his arms naturally as he moves.",
+      "camera": "A medium full shot that tracks the man from the side, panning right and tilting slightly upward as he walks.",
+      "scene": "A cobblestone street in front of a dark wooden storefront with signs reading 'APOTHECARY,' 'SOAP,' and 'MERCHANT.'"
+    },
+    "uncertain": [],
+    "observation_identity": "79a1f7b565ea2c1723d75ce01c0a9ae72e4d2af9920b8fd8e7bb586ab2168f5e"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_37.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_84.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6775.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult man with a dark complexion, stocky build, and a short beard.",
+      "hairstyle": "Short, cropped hair covering the top and sides of the head.",
+      "hair_color": "White.",
+      "clothing": "A light gray and white plaid button-up shirt with rolled sleeves, brown leather suspenders, dark plaid trousers, and black shoes.",
+      "action": "The man stands in profile, then begins walking forward and to the right, swinging his arms naturally.",
+      "camera": "A medium full shot that tracks the man from the side as he moves, gradually zooming in slightly.",
+      "scene": "A cobblestone street in front of a dark wooden storefront with signs reading 'APOTHECARY' and 'SOAP OF EVERY DESCRIPTION SOLD HERE'."
+    },
+    "uncertain": [],
+    "observation_identity": "5925ce76416af0b0ba803198a34540f9028186a538d52b4d30d4f69b7ac3cc8a"
+  }
+]

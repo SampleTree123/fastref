@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6657.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with dark skin, a slim build, and a neutral facial expression.",
+      "hairstyle": "Bright blue hair styled with straight bangs and two small low pigtails or buns at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "A short, light-colored dress with a pink and yellow floral pattern, three-quarter sleeves, and a V-neckline, paired with pink slip-on shoes.",
+      "action": "The character stands still on a stone platform while the camera orbits around her, showing her front, side, and back.",
+      "camera": "A full-body shot that slowly rotates around the character, starting from a front view and moving to the side and back.",
+      "scene": "An outdoor, sunlit environment with cracked stone paving, large rocks, wooden posts, and a body of water in the background, with a large stone building behind the character."
+    },
+    "uncertain": [],
+    "observation_identity": "1a67bddb2b7d71e45ec6a0f14a829072aabed7a6a0561bd1205be40f758d18d9"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_494.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6645.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, brown skin, and a neutral face.",
+      "hairstyle": "Short blue hair with bangs and two small low pigtails tied at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "A short white dress with a pink and yellow floral pattern, three-quarter sleeves, and a V-neckline, paired with pink sneakers.",
+      "action": "The character stands still, then turns and walks in a slow circle on a stone platform, showing her front, side, and back.",
+      "camera": "A full-body shot that orbits around the character at a low angle, keeping her centered in the frame.",
+      "scene": "A sunny outdoor area with cracked stone paving, weathered buildings, wooden crates, and a body of water with wooden pilings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "6c3af549d685fd558d7a420d39ada8c19de08ba78fa9045ff038daa58ae3ed30"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_321.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they raise both hands in celebration, then thrust one hand upward, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6659.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with dark skin, a slim build, and a neutral facial expression.",
+      "hairstyle": "Bright blue hair styled in a short bob with straight bangs and two small low buns at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "A short, white dress with a pink and green floral pattern, featuring a V-neckline and cold-shoulder cutouts, paired with pink slip-on sneakers.",
+      "action": "The character stands still, then raises both arms overhead in a stretching or cheering pose while turning her body, before lowering her arms and returning to a standing position.",
+      "camera": "A full-body shot that begins with a front view, pans around the character to show her side and back, and returns to a front view.",
+      "scene": "An outdoor, sunlit stone plaza with cracked paving, scattered rocks, and a body of water in the background, surrounded by weathered stone buildings and industrial pipes."
+    },
+    "uncertain": [],
+    "observation_identity": "49ea37446c574f5ceb42b9a908cc65ef1b63762a87dc56e069f8b081048b0efd"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6339.mp4",
+  "observed": {
+    "identity": "A 3D-rendered character with a slim build, seen from behind, with no visible face.",
+    "hairstyle": "Hair is pulled up into a high, spiky ponytail or bun.",
+    "hair_color": "Bright red.",
+    "clothing": "A cream-colored cable-knit sweater, dark gray or black slim pants, and brown lace-up shoes.",
+    "action": "The character stands still, then begins to walk forward down the street, moving away from the camera.",
+    "camera": "A static, eye-level shot from directly behind the character.",
+    "scene": "A foggy, cobblestone street in a European-style town with brick buildings, shop awnings, and a Union Jack flag hanging overhead."
+  },
+  "uncertain": [],
+  "observation_identity": "042a8ac13d9de3b1cb3918eb1ae2fd9f3c5c8cfca73e8ceb4169f22aef245079"
+}

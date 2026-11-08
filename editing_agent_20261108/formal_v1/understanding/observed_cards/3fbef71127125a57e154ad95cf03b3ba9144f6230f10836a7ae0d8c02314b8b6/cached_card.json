@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6025.mp4",
+  "observed": {
+    "identity": "A man with a medium build, seen from behind, with a short beard visible at the side of his head.",
+    "hairstyle": "Short dark hair with a small top-knot or bun at the back of the head.",
+    "hair_color": "Dark brown to black.",
+    "clothing": "A long, single-breasted coat with a tan, brown, and orange plaid pattern and a white shirt cuff visible at the wrist.",
+    "action": "The man stands with his back to the camera, raises his right hand to scratch and adjust his hair, then lowers it and places his hands on his hips.",
+    "camera": "A static, medium shot from behind the subject at roughly eye level.",
+    "scene": "An outdoor cobblestone street in front of a dark, ornate storefront with vintage signage reading 'SOAP' and 'COCOA POWDER FROM THE COLONIES AVAILABLE NOW'."
+  },
+  "uncertain": [],
+  "observation_identity": "d48733bf41f2d747de8f4be57049be82b3f79a281eca02f3448e71510c271ae3"
+}

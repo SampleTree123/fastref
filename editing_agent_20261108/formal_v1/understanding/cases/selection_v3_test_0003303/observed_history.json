@@ -1,0 +1,82 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6748.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a light-skinned face, short cropped hair, and a stocky build.",
+      "hairstyle": "Short, cropped hair covering the top and sides of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A light-colored, long-sleeved plaid shirt with rolled-up sleeves, brown leather suspenders, dark gray plaid trousers, and black shoes.",
+      "action": "The character stands still, then raises both arms overhead in a stretching or dancing motion, swings his arms down and across his body, and finally returns to a standing pose.",
+      "camera": "A static, low-angle full-body shot that keeps the character centered in the frame.",
+      "scene": "An outdoor paved road or parking area under a concrete overpass, with a metal railing, green foliage, and a construction crane visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "1f9f046529aec0db8aeaa702e1cd98eb1e0f1d47e537341e5332a6dfe61a9e4a"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_409.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_449.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change only the person's one-piece garment to match the reference images. Leave the rest of the outfit and everything else in the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6738.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a light-skinned face, short cropped hair, and a neutral expression.",
+      "hairstyle": "Short, cropped hair covering the top of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A white, long-sleeved button-up shirt with thin horizontal stripes, black suspenders, a black bow tie, brown and white checkered trousers, and black shoes.",
+      "action": "The character stands still, then raises both arms overhead in a stretching or dancing motion, swings them down and across the body, and finally returns to a standing pose.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+      "scene": "An outdoor paved area, possibly a road or plaza, located beneath a concrete overpass or bridge structure with a metal railing, green foliage, and a construction crane visible in the background under a blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "7155ddf2d2517ec6efdc829789c93c5bfbe1646abd27f1399ee07281246a7424"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_923.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_924.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the top, the bottoms, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6750.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned young man with a short beard and mustache.",
+      "hairstyle": "Short, cropped hair.",
+      "hair_color": "Platinum blonde.",
+      "clothing": "A white tank top with a pink and yellow palm-tree graphic, pink shorts with white trim, and pink slip-on shoes.",
+      "action": "The man stands still, then raises both arms overhead and performs a brief, rhythmic dance move before returning to a standing pose.",
+      "camera": "A static, full-body shot from a slightly low angle.",
+      "scene": "An outdoor paved area under a concrete overpass, with a metal railing, green foliage, and a construction crane in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "3e293aba78fd142ad89d11c6a9f7e183400344c1e00d1733e2159568c0984b06"
+  }
+]

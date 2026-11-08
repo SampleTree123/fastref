@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7181.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a muscular build, shown from behind with a tanned face and neck.",
+      "hairstyle": "Hair is pulled back into a top ponytail.",
+      "hair_color": "Bright blue.",
+      "clothing": "A dark navy long-sleeved jacket and matching trousers with white side stripes, a black belt, and black shoes, with tan skin showing through torn patches.",
+      "action": "The character stands in place, slowly turning his body and head to the left and then back toward the rear view.",
+      "camera": "A static medium-full shot from behind the character at roughly waist-to-head height.",
+      "scene": "An outdoor paved road or parking area with white lane markings, a metal guardrail, green and yellow autumn trees, a street lamp, and a blue sky with light clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "0c0dab81e12baca2a6107a9de26d4dfa7d934f0aae89e5f57a194eb9d44c91d3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_6252e0b35f9225b05ac0066165587e281caf6df884451572f3dfb244d5706d52.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the side. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7188.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a medium-brown complexion, shown in profile and from behind.",
+      "hairstyle": "Bright blue hair pulled back into a high ponytail with a shaved or closely cropped side.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A dark, textured long-sleeved tunic with a high collar, a wide black belt, and tan patches on the sleeves and back.",
+      "action": "The character stands and slowly turns in place, rotating from a side profile to a back view and then back toward the side.",
+      "camera": "A static medium shot at roughly chest height, keeping the character centered against the background.",
+      "scene": "An outdoor paved area with a metal guardrail, a wire fence, large rocks, green trees, and a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "14658cfebf4ea5541e0f256bf6d64e5386bbc056694776be27cf692a91753d7f"
+  }
+]

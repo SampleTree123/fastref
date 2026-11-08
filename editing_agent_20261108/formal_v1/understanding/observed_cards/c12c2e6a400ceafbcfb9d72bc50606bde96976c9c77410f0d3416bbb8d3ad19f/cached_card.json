@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6617.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a slim build, seen from behind.",
+    "hairstyle": "Short hair, closely cropped on the sides and back.",
+    "hair_color": "Dark brown.",
+    "clothing": "White short-sleeved button-up shirt with black suspenders, black-and-white checkered trousers, and black shoes.",
+    "action": "The character stands still, then raises his right arm to scratch the back of his head before lowering it and standing again.",
+    "camera": "Static medium-long shot from behind and slightly to the side of the character.",
+    "scene": "A futuristic outdoor plaza with a large domed glass building, glowing teal and pink neon lights, and a reflective concrete ground."
+  },
+  "uncertain": [],
+  "observation_identity": "b0e6ab9a9e09dbc7b7b9590a5067afd1698e110c25f66bfc748f82c54923f438"
+}

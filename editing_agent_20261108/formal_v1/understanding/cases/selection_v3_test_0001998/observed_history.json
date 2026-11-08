@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6416.mp4",
+    "observed": {
+      "identity": "A slender female 3D character with a slim build, seen mostly from behind and in profile.",
+      "hairstyle": "Short, tousled hair that is flipped up at the back.",
+      "hair_color": "White.",
+      "clothing": "A sleeveless brown patterned top, a brown belt, light gray wide-leg pants, and open-toed heeled sandals.",
+      "action": "The character stands with her back to the camera, then raises her right hand to her head and turns her body into a side profile while keeping her left hand on her hip.",
+      "camera": "A static, eye-level full-body shot from behind the character.",
+      "scene": "An outdoor amusement park at dusk, featuring a red and white swing ride on the left and a carousel with string lights on the right, under a cloudy orange sky."
+    },
+    "uncertain": [],
+    "observation_identity": "7bdb219f940039c217680b4a9f2a60ec8408acf31ec997f2f0bcc217d691bc65"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_696.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6427.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build and tanned skin stands in the center of the frame.",
+      "hairstyle": "Her hair is pulled back into a short, low bun or updo at the back of her head.",
+      "hair_color": "Her hair is white or platinum blonde.",
+      "clothing": "She wears a sleeveless, patterned brown and gold top, high-waisted light gray wide-leg trousers, and black strappy high-heeled sandals.",
+      "action": "She begins standing still, then takes a few slow steps forward and to her left before stopping and turning her head to look upward.",
+      "camera": "The camera is static at a low, full-body angle, keeping the character centered throughout the clip.",
+      "scene": "The setting is an outdoor amusement park at dusk, featuring a large Ferris wheel on the left and a carousel with string lights on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "0d8a3099179c3a4f0bac8a223ee0d3ec0cc4328b4d9d8ff01e17c1eec386788c"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_439.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6430.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a small mole on her left cheek.",
+      "hairstyle": "Short, tousled hair swept back from the face.",
+      "hair_color": "White.",
+      "clothing": "She wears a brown patterned sleeveless crop top, light gray wide-leg trousers with a side slit, and brown strappy sandals.",
+      "action": "The character stands in profile, then turns slightly toward the camera, raises her right hand to her face, and lowers it again while shifting her weight.",
+      "camera": "Static full-body shot at a low angle, keeping the character centered in the frame.",
+      "scene": "An outdoor amusement park at dusk, with a Ferris wheel on the left, a carousel pavilion with lights on the right, and a popcorn stand in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "c959a169ad5c4c175cd6c35add40c67a357f238ad157dfe4ea40db38b6850ee8"
+  }
+]

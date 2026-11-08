@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6790.mp4",
+  "observed": {
+    "identity": "A muscular Black man with a short buzz cut and a red topknot, shown in a 3D video-game style render.",
+    "hairstyle": "Short cropped hair with a small red topknot tied at the back of the head.",
+    "hair_color": "Red.",
+    "clothing": "A white tank top with a pink and yellow palm-tree graphic, pink shorts with white trim, and pink slip-on shoes.",
+    "action": "He stands still, then raises both arms overhead in a flexing pose, lowers them, and returns to a standing position.",
+    "camera": "A static full-body shot from a slightly low angle, keeping the character centered in frame.",
+    "scene": "A cobblestone street in front of old European-style buildings with arched windows and a sign reading 'CARTER & CO.'"
+  },
+  "uncertain": [],
+  "observation_identity": "73aa8ce70905c83ec6ec75c6c039c3bfbed62190bba975d3424b046aa6ca24cc"
+}

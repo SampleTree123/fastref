@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6047.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and dark skin, seen from behind.",
+      "hairstyle": "Red hair pulled up into a high ponytail.",
+      "hair_color": "Red.",
+      "clothing": "Pink-and-white gingham sleeveless top with white off-the-shoulder puff sleeves, black shorts with a gold floral pattern, and blue sneakers.",
+      "action": "The character stands with her back to the camera, then raises both arms overhead and swings them in a dance-like motion before lowering them and standing still.",
+      "camera": "Static medium-long shot from behind the character at roughly waist height, keeping her centered in frame.",
+      "scene": "A sunny outdoor fairground or amusement park plaza with a striped carousel on the left, a wooden building and a circular elevated ride on the right, metal crowd-control barriers, and a pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "4d9d874bfc2376d59323f9a86fdf9b875dfcca08908adb0c9c85b8bd2ba613e7"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_15.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_150.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's skirt with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6064.mp4",
+    "observed": {
+      "identity": "A slim female video-game character with dark skin, seen from behind.",
+      "hairstyle": "Hair is pulled up into a high ponytail.",
+      "hair_color": "Red.",
+      "clothing": "She wears a pink-and-white gingham top with white puffed off-the-shoulder sleeves, a white and black skirt, and blue sneakers.",
+      "action": "The character stands with her back to the camera, then raises both arms overhead and turns her body in a dance-like motion before returning to a standing pose.",
+      "camera": "A static medium-long shot from behind the character at roughly waist height.",
+      "scene": "An outdoor fairground or amusement park with a striped carousel on the left, a wooden building and metal barriers on the right, and a pale sky."
+    },
+    "uncertain": [],
+    "observation_identity": "6aea87720cf91bd8b15c081e73997dd6e663f57779a80af5b499762bd9fe80a9"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_37e651467b910dfe89d90c556d7ac0d9187560955e42ee7ed3faaf1b8055aaa4.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a front-view dolly-in shot that moves from full-body to upper-body framing. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6060.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and a neutral facial expression.",
+      "hairstyle": "Her hair is cut very short and close to the scalp.",
+      "hair_color": "Her hair is dyed a bright red color.",
+      "clothing": "She wears a pink and white gingham corset-style top with white ruffled off-the-shoulder sleeves, a black and white asymmetrical skirt, and light blue sneakers.",
+      "action": "She begins standing still, then raises her arms and begins to dance, moving her arms and torso rhythmically before returning to a standing pose.",
+      "camera": "The camera is at a low angle, framing her from the knees up, and slowly zooms in as she dances.",
+      "scene": "She stands in an open paved area in front of a colorful amusement park with a large swing ride and a ticket booth visible in the background under a sunset sky."
+    },
+    "uncertain": [],
+    "observation_identity": "38204a07a6f01c0b0a89b98ae91ce5a4da32ded49622bf62da5972a73afcc748"
+  }
+]

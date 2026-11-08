@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6773.mp4",
+  "observed": {
+    "identity": "A 3D-rendered person with a slim, athletic build and brown skin, shown in profile.",
+    "hairstyle": "Short, swept-back hair with a faded side.",
+    "hair_color": "White.",
+    "clothing": "A pink and yellow tie-dye tank top with a palm tree graphic and pink shorts.",
+    "action": "The person stands in profile, then begins to walk forward with a relaxed arm swing.",
+    "camera": "A medium shot from the side, with the camera slowly panning to follow the subject's movement.",
+    "scene": "An outdoor paved area next to a metal guardrail, with a rocky hillside, green trees, and a bright sky in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "375fe15b527acd33576eaa2d6f8aa2c6676c6dd2010be8094968a436b24e75dd"
+}

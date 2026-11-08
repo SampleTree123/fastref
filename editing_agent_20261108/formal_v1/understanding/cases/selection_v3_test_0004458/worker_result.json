@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0004458",
+  "dataset_index": 787,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 9.03066516853869,
+  "result": {
+    "source_video_id": 1,
+    "prompt": "Replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "reference_ids": [
+      "ref_1"
+    ],
+    "inspected_video_ids": [
+      0,
+      1
+    ],
+    "selection_model_calls": 2,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

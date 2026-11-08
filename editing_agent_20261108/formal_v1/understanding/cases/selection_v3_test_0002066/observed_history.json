@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6429.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build, brown skin, and a neutral expression.",
+      "hairstyle": "Short, wavy hair pulled back slightly at the nape.",
+      "hair_color": "White.",
+      "clothing": "A short, black-and-white checkered dress with off-the-shoulder sleeves and red flat shoes.",
+      "action": "She stands still, then walks slowly forward and to the right, pausing briefly before continuing.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the subject centered.",
+      "scene": "An outdoor amusement park at dusk, featuring a Ferris wheel, a carousel, and a popcorn stand under a cloudy sky."
+    },
+    "uncertain": [],
+    "observation_identity": "79e4135c9b8670b4a1face506083ad90d9e05d4b6f64eace5a63acc72e9f1c45"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_1c2d1e764e26d3f1fc2e08c395bf6cacb3c28722212c17d6456b5ccc88bb618b.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the side. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6445.mp4",
+    "observed": {
+      "identity": "A slender woman with fair skin, shown in profile and then from behind.",
+      "hairstyle": "Her hair is pulled back into a high ponytail with a short fringe.",
+      "hair_color": "White or platinum blonde.",
+      "clothing": "She wears a black-and-white houndstooth dress with an open back and elbow-length sleeves.",
+      "action": "She walks slowly from left to right, turning her head slightly upward and then away from the camera.",
+      "camera": "A medium shot at eye level tracks her movement from a side profile to a rear view.",
+      "scene": "An outdoor amusement park area at dusk, featuring a red carousel structure with string lights and a striped awning in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "c2860eaf210664e9326c60e17184fcee768794f68add4804519d5fabe936584b"
+  }
+]

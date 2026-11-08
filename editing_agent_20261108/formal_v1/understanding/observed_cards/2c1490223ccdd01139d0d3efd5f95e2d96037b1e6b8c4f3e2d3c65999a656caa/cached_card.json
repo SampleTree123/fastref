@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6890.mp4",
+  "observed": {
+    "identity": "A slim young woman seen from behind, with a tanned complexion and a small mole on her lower back.",
+    "hairstyle": "Dark hair pulled back into two low pigtails tied with light-colored bands.",
+    "hair_color": "Dark brown to black.",
+    "clothing": "A bright coral-red long-sleeve cropped sweater, a short white pleated skirt, and black ankle boots.",
+    "action": "She stands facing the water, then turns slightly and places her hands on her hips before lowering them and shifting her stance.",
+    "camera": "A medium full shot from behind at a low angle, with the camera slowly pulling back to reveal more of her legs and the ground.",
+    "scene": "An outdoor stone terrace beside a calm body of water under a clear blue sky, with rocks and a wooden post visible at the water's edge."
+  },
+  "uncertain": [],
+  "observation_identity": "bc32dac413283a4c509e283d6cd22227aac9ec92a462d0dbecd564d36986ab90"
+}

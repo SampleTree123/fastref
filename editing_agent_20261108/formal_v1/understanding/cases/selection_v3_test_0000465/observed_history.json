@@ -1,0 +1,82 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6055.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and short face is shown from the thighs up.",
+      "hairstyle": "Her hair is pulled back into a small ponytail at the back of her head.",
+      "hair_color": "Her hair is a vivid red color.",
+      "clothing": "She wears a pink-and-white gingham sleeveless top with white ruffled off-shoulder sleeves and a black skirt with a gold floral pattern.",
+      "action": "She stands facing slightly right, then raises both arms overhead and swings them in a dance-like motion before lowering them and returning to a standing pose.",
+      "camera": "The camera holds a static medium shot at roughly eye level, keeping the woman centered in frame.",
+      "scene": "The setting is an outdoor amusement park at dusk, with a swing ride on the left, a popcorn cart behind her, and a striped carousel-style structure with lights on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "5ac71b1d93efa4250b13c375291f54171ce64deda206af73a7865f2c8581fca3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_713.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_714.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6077.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with dark skin, a slim build, and a short face with a neutral expression.",
+      "hairstyle": "Short hair swept up and back from the face, with the sides closely cropped.",
+      "hair_color": "Bright red.",
+      "clothing": "She wears a sleeveless cropped top with a black-and-white geometric pattern, a black choker, and green high-waisted pants.",
+      "action": "She stands facing slightly right, then raises both arms overhead and tilts her head back before lowering her arms and returning to her starting pose.",
+      "camera": "A static medium shot from the waist up, with the subject centered in the frame.",
+      "scene": "An outdoor amusement park at dusk, with a swing ride on the left, a carousel-style structure with lights on the right, and a striped food cart in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "0cc4ccf6add8953073f57d7d2707f0bc31fa671d73b0bb97fd396261ab505bfb"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_573.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_574.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6078.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build, dark skin, and a short face with a neutral expression.",
+      "hairstyle": "Her hair is pulled back into a high ponytail with a small section of bangs across her forehead.",
+      "hair_color": "Her hair is a vivid red color.",
+      "clothing": "She wears a sleeveless, high-necked crop top with a brown and gold patterned texture, paired with high-waisted green pants.",
+      "action": "The woman stands facing slightly to the right, then raises both arms overhead in a stretching or dancing motion before lowering them back to her sides.",
+      "camera": "The camera maintains a static, medium shot from the waist up, positioned at a slight angle to the subject.",
+      "scene": "The setting is an outdoor amusement park at dusk, featuring a swing ride on the left, a carousel structure with lights on the right, and a popcorn cart in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "c2a14c69a85608286df654088606acb0603fa3c9af3fe04b661bf71cbcb27a80"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6685.mp4",
+    "observed": {
+      "identity": "A muscular person with a broad back and shoulders, seen mostly from behind.",
+      "hairstyle": "Dark hair pulled up into a high ponytail.",
+      "hair_color": "Black.",
+      "clothing": "White sleeveless tank top with a green graphic along the lower hem, light green shorts, and pink sneakers.",
+      "action": "The person stands facing the water, then slowly turns their body and head to the side and back again.",
+      "camera": "Medium full shot from behind at a low angle, with a slow push-in toward the subject.",
+      "scene": "An outdoor stone-paved terrace overlooking a calm sea under a clear blue sky, with rocks and wooden posts at the water's edge."
+    },
+    "uncertain": [
+      "The person's face is mostly turned away, so facial features and exact age are unclear.",
+      "The green graphic on the tank top is partially obscured and its exact design is unclear."
+    ],
+    "observation_identity": "5bc6160c14ac547bba431880e3b9630bd3bac42c88db5e3eb8fc5e3371a62b29"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_4255b37d5321ee7be1e1eb9de96e858607d1632b5ec2718685419f9e5d0e36fd.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from behind. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6687.mp4",
+    "observed": {
+      "identity": "A person with a broad, muscular build and dark skin is shown from behind, with their face mostly turned away from the camera.",
+      "hairstyle": "Their hair is pulled back into a high ponytail.",
+      "hair_color": "The hair is black.",
+      "clothing": "They wear a white sleeveless tank top with a green graphic print along the bottom hem and light green shorts.",
+      "action": "The person stands facing the water, then slowly turns their head and upper body to the left and right, looking around the scene.",
+      "camera": "The camera is static at a medium distance, capturing the person from the waist up against the background.",
+      "scene": "The setting is an outdoor stone patio or deck overlooking a calm body of water under a clear blue sky, with a wooden post visible in the water to the right."
+    },
+    "uncertain": [],
+    "observation_identity": "00239b61b795b5f24a344db2ad47ffb03839f7ee0c856729c99702350d7a7ec1"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_135.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6698.mp4",
+    "observed": {
+      "identity": "A person with a dark, muscular build is seen from behind, with their face not visible until the final frames.",
+      "hairstyle": "Their hair is pulled back into a high ponytail.",
+      "hair_color": "The hair is dark brown or black.",
+      "clothing": "They are wearing a white sleeveless tank top with a green graphic on the lower back and light green shorts.",
+      "action": "The person stands still, facing away from the camera toward the ocean, and then slowly turns their head to the left at the end of the clip.",
+      "camera": "The camera is positioned behind the person at a medium distance, remaining mostly static with a slight handheld wobble.",
+      "scene": "The setting is a sunny, outdoor location by the sea, with a calm blue ocean and rocky shoreline in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "3ca935c71c06c3871240ad3581398e71b33a8581361bef61f6199f4e39710745"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_e223be33306f875eb72f9107dbdeebd59080127e5bb73f4c4fd113dd8a03e22c.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body orbit shot that starts in front and moves through a side view toward the rear over a 120-degree arc. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6708.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned man with a short beard and mustache.",
+      "hairstyle": "Short hair on the sides with longer hair pulled back into a small ponytail at the back of the head.",
+      "hair_color": "Black.",
+      "clothing": "White sleeveless tank top with a pink and purple palm-tree graphic, light turquoise shorts with white trim, and pink slip-on sneakers.",
+      "action": "The man stands facing the camera, then turns and walks slowly to his left across the platform, ending with his back to the camera looking toward the water.",
+      "camera": "Full-body shot at eye level; the camera pans and arcs to the right, tracking the man as he turns and walks away.",
+      "scene": "A sunlit outdoor stone dock or pier beside calm water, with weathered buildings, wooden crates, barrels, and a large cylindrical tank in the background under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "800ee81c9d325d660b98cab4e5151802b3d2f32c5a5cc872fed3cce19da8a715"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7065.mp4",
+  "observed": {
+    "identity": "A 3D-rendered adult male with a medium-brown complexion, a short beard, and a slim build.",
+    "hairstyle": "Short dark hair on the sides with a longer top tied back into a small ponytail.",
+    "hair_color": "Dark brown to black.",
+    "clothing": "A dark blue, double-breasted military-style jacket with gold buttons and shoulder patches, matching dark blue trousers with a white side stripe, a black belt with a gold buckle, and black shoes.",
+    "action": "The character stands still facing the camera, then turns and walks in a slow circle, showing his profile and back before returning to a front-facing stance.",
+    "camera": "A low-angle, full-body shot that remains at a consistent distance while panning horizontally to track the character's rotation.",
+    "scene": "An outdoor paved area under a concrete overpass, with construction barriers, road signs, trees, and a bright sky in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "f77d9608745ba7266dbee68e7d99d60e57e97ef12f179482aa30d8d080c15a60"
+}

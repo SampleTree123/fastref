@@ -1,0 +1,81 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7046.mp4",
+    "observed": {
+      "identity": "A slender woman with a slim build, seen mostly from behind and in profile.",
+      "hairstyle": "Her hair is styled into two small buns on top of her head.",
+      "hair_color": "Her hair is reddish-brown.",
+      "clothing": "She wears a short, loose-fitting dress with a dark background covered in a colorful paisley and floral pattern in purple, blue, orange, and yellow.",
+      "action": "She stands facing the water, then turns her head and upper body to the side, briefly raising her arm before returning to a standing pose.",
+      "camera": "The camera is at a medium distance, framing her from the thighs up, and remains mostly static with slight shifts as she moves.",
+      "scene": "She stands on a weathered concrete or stone platform beside a calm body of water under a clear, pale blue sky."
+    },
+    "uncertain": [
+      "The exact location is unclear, though it appears to be a pier or waterfront platform.",
+      "Her facial features are mostly obscured by the angle and lighting."
+    ],
+    "observation_identity": "efb72ac0b679548bf322029e1d1747a726b4caf00ecf5ee87857c4c047eb97d1"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_458.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7037.mp4",
+    "observed": {
+      "identity": "A slender female character with fair skin, shown mostly from behind with her face not visible.",
+      "hairstyle": "Light brown hair styled into two small buns on top of the head with loose strands at the nape.",
+      "hair_color": "Light brown / strawberry blonde.",
+      "clothing": "A short, fitted one-piece dress with a dark navy base covered in a colorful paisley and floral pattern in pink, purple, blue, and yellow, featuring an open back and cold-shoulder sleeves.",
+      "action": "The character stands with her back to the camera, then turns her head and upper body to the right, briefly raising an arm before returning to a rear-facing pose.",
+      "camera": "A static medium shot from behind at roughly waist-to-head height, keeping the character centered against the street.",
+      "scene": "A cobblestone city street lined with old-style shopfronts, including a dark storefront with a 'MERCHANT' sign and 'COCOA POWDER FROM THE COLONIES' text, plus a black lamppost and striped awnings."
+    },
+    "uncertain": [
+      "The character's face and front of the body are not visible, so facial features and the front design of the dress are unclear."
+    ],
+    "observation_identity": "8912e2d43f6ea3a97f6f81cf624a511f2aa90ffe39fd9f0f1c2d29b713446821"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_81.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_4.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7048.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen mostly from behind, with fair skin.",
+      "hairstyle": "Light brown hair is pulled back into a low, braided updo with two small buns at the nape.",
+      "hair_color": "Light brown.",
+      "clothing": "She wears a short, fitted dress with a dark navy base covered in a colorful paisley and floral pattern in pink, purple, blue, and orange, featuring an open back and cold-shoulder sleeves.",
+      "action": "The woman stands with her back to the camera, then turns her head and upper body to the right, briefly raising her right arm before turning back to face away.",
+      "camera": "A static, medium shot from behind at roughly waist-to-head height, keeping the subject centered.",
+      "scene": "An outdoor cobblestone street lined with old-style buildings, including a dark storefront with a 'MERCHANT' sign and a window reading 'COCOA POWDER FROM THE COLONIES', plus a black lamppost."
+    },
+    "uncertain": [],
+    "observation_identity": "09041a43530feaf88c1206e2443258ef6cd65635e61fcc33b80724a1481f7ab3"
+  }
+]

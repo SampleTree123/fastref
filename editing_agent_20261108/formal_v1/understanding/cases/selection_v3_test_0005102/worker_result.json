@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0005102",
+  "dataset_index": 350,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 18.837872702628374,
+  "result": {
+    "source_video_id": 0,
+    "prompt": "Restyle the person's hair to match the hairstyle shown in the reference images. Transfer only the hairstyle shape and structure from the references; do not adopt the reference person's facial features, hair color, or clothing. Preserve the person's original hair color, identity, and all other elements of the current video, including the front dolly-out shot moving from upper-body to full-body framing.",
+    "reference_ids": [
+      "ref_1",
+      "ref_2"
+    ],
+    "inspected_video_ids": [
+      0,
+      1
+    ],
+    "selection_model_calls": 2,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

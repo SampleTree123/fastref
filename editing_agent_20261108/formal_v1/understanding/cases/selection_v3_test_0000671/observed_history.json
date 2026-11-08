@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6110.mp4",
+    "observed": {
+      "identity": "A Black man with a short beard and mustache stands facing the camera.",
+      "hairstyle": "Short, dark hair styled upward and swept back.",
+      "hair_color": "Black.",
+      "clothing": "He wears a red-and-black plaid three-piece suit with a matching vest, a white dress shirt, and a black necktie.",
+      "action": "He stands mostly still, then briefly raises his right hand to adjust his tie and collar before lowering it and standing upright again.",
+      "camera": "A static, eye-level medium shot frames him from the thighs up, centered in the frame.",
+      "scene": "He stands on a wet, reflective pavement in front of a large glass building with a glowing teal circular neon sign and pink ambient lighting; a city skyline is visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "8fefbe6a81d3e9767f47423fd49e9c73998cc196520525830d33d2d733450eee"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_2cd538860343833bd183fc78dd04756d00b7931df3fd081b38b09a8a1bd654f0.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a full-body shot from a rear three-quarter angle. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6101.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male figure with a slim build, seen mostly from behind and in profile.",
+      "hairstyle": "Short, neatly styled hair swept back from the face.",
+      "hair_color": "Dark brown.",
+      "clothing": "A tan plaid two-piece suit with a white shirt cuff visible at the wrist and dark shoes.",
+      "action": "The figure stands still, then turns slightly, raises his right arm, and brings both hands up to his face in a brief gesture before lowering his arms and standing still again.",
+      "camera": "A static, low-angle full-body shot from behind and to the side of the figure.",
+      "scene": "A futuristic outdoor plaza with a glossy reflective floor, a large domed glass building with glowing teal rings on the left, and a white building with rows of lit windows on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "1f52c8a9b2f72a24014276bfe83fa416c72c2355e1ea931c79dcbb1788b2f806"
+  }
+]

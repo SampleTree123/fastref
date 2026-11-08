@@ -1,0 +1,88 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6066.mp4",
+    "observed": {
+      "identity": "A slim woman with a bare back, seen from behind, with a visible tattoo on her upper back.",
+      "hairstyle": "Her hair is pulled up into a high ponytail or bun.",
+      "hair_color": "Her hair is bright red.",
+      "clothing": "She wears a sleeveless, patterned brown top and dark teal wide-leg trousers.",
+      "action": "She stands with her back to the camera, then raises both arms overhead and swings them in a dance-like motion before lowering them and turning slightly.",
+      "camera": "The camera is at a low angle behind the subject, slowly moving closer and tilting upward as she raises her arms.",
+      "scene": "An outdoor amusement park or fairground with a carousel on the left, a wooden building on the right, and a wide sandy plaza under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "a30430e4b043385ab4612ffd1833eed3b2353fa1491dae2a02a8e3453a4faf76"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_542.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6050.mp4",
+    "observed": {
+      "identity": "A female-presenting 3D character with a slim build, seen from behind.",
+      "hairstyle": "Hair is pulled up into a high bun.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "She wears a sleeveless, patterned brown top and dark teal wide-leg trousers.",
+      "action": "The character stands in the center of a paved area, initially with arms at her sides, then raises her right hand to touch her hair before placing her hand on her hip and shifting her weight.",
+      "camera": "The camera is positioned behind the character at a low angle, slowly moving closer and slightly panning to the right.",
+      "scene": "The setting is a sunny, outdoor amusement park or fairground with a carousel on the left, a large ride structure on the right, and metal crowd-control barriers lining the walkway."
+    },
+    "uncertain": [],
+    "observation_identity": "3435cdf75f4c936912a446e05cb2b5da6d8710481b64a45b60a345cbc97037aa"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_125.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6068.mp4",
+    "observed": {
+      "identity": "A slim female character with a bare back, seen from behind.",
+      "hairstyle": "Short hair with a tall, spiky red mohawk.",
+      "hair_color": "Red.",
+      "clothing": "A sleeveless, textured tan top and high-waisted, loose-fitting green trousers.",
+      "action": "The character stands on a rooftop, slowly turning and shifting her weight while her arms move slightly.",
+      "camera": "A medium shot from behind the character, remaining mostly static with slight movement.",
+      "scene": "A stylized, low-poly city rooftop with blocky buildings, a large speaker, and a pale sky."
+    },
+    "uncertain": [],
+    "observation_identity": "f23579b20eaa82e30979fdd8f26f9623a4bc697e7691708e53bdc967cf24445e"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to chestnut brown?",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6085.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, seen from behind.",
+      "hairstyle": "Blonde hair pulled up into a high, spiky ponytail or bun.",
+      "hair_color": "Blonde.",
+      "clothing": "A sleeveless, textured orange-brown top and high-waisted, wide-leg green trousers.",
+      "action": "The character stands on a rooftop, initially facing away, then turns her head and upper body to look over her left shoulder before turning back to face forward.",
+      "camera": "A medium shot from behind the character at a slightly low angle, with the camera slowly moving closer and panning slightly to the right.",
+      "scene": "A stylized, low-poly city rooftop with blocky buildings, a large satellite dish, and construction cranes in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "2395715b4ca3335554ef5a5f98ccb0b932ca01a970322f0bc5189fb078246903"
+  }
+]

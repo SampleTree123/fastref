@@ -1,0 +1,81 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6994.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and a neutral expression.",
+      "hairstyle": "Her hair is pulled back into a high ponytail.",
+      "hair_color": "Her hair is dyed a bright pink or magenta color.",
+      "clothing": "She wears a mustard-yellow cable-knit sweater, dark grey or black slim trousers, light-colored socks, and reddish-brown lace-up shoes.",
+      "action": "The character stands still, then turns her body and head to look over her shoulder, briefly touches her neck, and finally faces forward again with her arms at her sides.",
+      "camera": "The camera starts with a medium shot from the waist up and slowly pulls back to a full-body shot, remaining at a low angle throughout.",
+      "scene": "The setting is an outdoor paved area under a concrete overpass, with road construction barriers, signs, and trees visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "9ed051c7778e57fb86f5266d96bd5d7f57123f3cd6add6de7e86b6cba8750b77"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_129.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6988.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and a short beard is the central subject.",
+      "hairstyle": "His hair is pulled back into a small top ponytail or bun.",
+      "hair_color": "His hair appears dark brown or black under the lighting.",
+      "clothing": "He wears a thick, orange cable-knit sweater, black pants, and brown lace-up boots.",
+      "action": "He begins facing forward, then turns his body to the side while raising one hand to his neck, crosses his arms, and finally returns to a front-facing stance with his arms at his sides.",
+      "camera": "The camera starts as a medium shot and slowly pulls back to a full-body shot while remaining at a static eye-level angle.",
+      "scene": "The setting is a futuristic interior with a large glass dome ceiling, glowing teal circular light rings, and pink structural beams over a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "4f511a2b406e88a422e38320cb80fda53d4a4a3129c255036aebf9075d5c9acd"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current pink hair color with red.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6975.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial hair.",
+      "hairstyle": "Short dark hair with a small top-knot or bun at the crown.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A chunky orange cable-knit sweater, black slim pants, and brown lace-up boots with red socks.",
+      "action": "He stands facing the camera, then turns his body to the side and back while briefly touching his neck and crossing his arms.",
+      "camera": "A static medium-to-full shot that gradually pulls back to reveal his full body and the surrounding floor.",
+      "scene": "A futuristic indoor space with a large glass dome ceiling, glowing teal circular light rings, and pink structural beams under a dark sky."
+    },
+    "uncertain": [],
+    "observation_identity": "63edd505b73ca4913786f5a2fa328d4128a4f1b2dc2cc015100c0df7c7271eff"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Let's change the person's hair color to red.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6987.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial hair.",
+      "hairstyle": "Short hair with a red headband and a small red ponytail at the back.",
+      "hair_color": "Red",
+      "clothing": "A yellow cable-knit sweater, dark pants, light-colored socks, and brown shoes.",
+      "action": "The man stands facing the camera, then turns his head and body to the side while raising a hand to his neck, and finally faces forward again with arms at his sides.",
+      "camera": "A low-angle, full-body shot that remains mostly static while the subject moves.",
+      "scene": "An outdoor paved area under a concrete overpass, with road signs, barriers, and trees in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "0a55d903bac81455a252c2b9ac96959dba6d580fc3f9d57ec659935f9c5f8074"
+  }
+]

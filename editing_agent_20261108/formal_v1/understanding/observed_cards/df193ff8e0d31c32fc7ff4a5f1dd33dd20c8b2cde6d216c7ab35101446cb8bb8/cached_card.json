@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6560.mp4",
+  "observed": {
+    "identity": "A 3D-rendered adult male character with a medium-brown complexion, a short beard, and a slim build.",
+    "hairstyle": "Light brown hair is pulled back into a small top-knot or bun.",
+    "hair_color": "Light brown.",
+    "clothing": "He wears a white long-sleeved collared shirt under a black vest, red flared trousers with a brown belt, and black shoes.",
+    "action": "The character stands in place, turns his head to look around, and briefly raises his right hand to touch his chest and collar before lowering it.",
+    "camera": "A static, high-angle full-body shot keeps the character centered in the frame.",
+    "scene": "The character stands on a flat, sandy or dirt ground in bright daylight, casting a long shadow to the left, with a building edge and a small red vehicle visible in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "07a86beaabce15e9f26915f48d4dc27d239a2d9a519d90358f5d6580185fe2fc"
+}

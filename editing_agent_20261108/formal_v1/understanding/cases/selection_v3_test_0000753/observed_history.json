@@ -1,0 +1,95 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6119.mp4",
+    "observed": {
+      "identity": "A dark-skinned person with a slim build, seen from behind with their face not visible.",
+      "hairstyle": "Short, dark hair.",
+      "hair_color": "Black.",
+      "clothing": "A white sleeveless tank top with a pink and yellow palm tree graphic on the back, light blue shorts with white trim, and pink sneakers.",
+      "action": "The person stands still and then walks slowly forward, away from the camera, across the open plaza.",
+      "camera": "A static, medium-long shot from behind the subject at a slightly low angle.",
+      "scene": "A futuristic city plaza with a wet, reflective ground, glowing red and blue light strips, and tall modern buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "1e680719ba14c9e03ce81bcfb8fdfd6cfbd7c1cc6ebd0ea260098e23e89fc976"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_630.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they stand in a thoughtful pose, as shown in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6108.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned male figure with a short buzz cut, seen from behind.",
+      "hairstyle": "Short, dark buzz cut.",
+      "hair_color": "Black.",
+      "clothing": "A white sleeveless tank top with a pink and yellow palm tree graphic on the back, light blue shorts with white trim, and reddish-brown slip-on shoes.",
+      "action": "The figure stands in the center of a wet plaza, slowly turning his body to the left and then back to face forward.",
+      "camera": "A static, medium-full shot from behind the character at a slightly low angle.",
+      "scene": "A futuristic city plaza with wet, reflective pavement, featuring modern buildings with glowing cyan and pink lights in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "57b733c4dc1dd683e35009d16b3e17247a31588e977898f7dd3f8f7bf69a5892"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_290998f4da26b43233da43891708ed9b0b90c7e580ebc7ccc44463fe1e0eded3.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body shot from a rear three-quarter angle. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6104.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim, athletic build and dark skin, seen mostly from behind.",
+      "hairstyle": "Short, dark hair with a slightly textured top.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A white sleeveless tank top with a pink and yellow palm-tree graphic on the back, light blue shorts with white trim, and red sneakers.",
+      "action": "The character stands in the center of the frame, shifting his weight and turning his head and upper body slightly to the left and right.",
+      "camera": "A static, medium-full shot from behind the character at a slightly low angle.",
+      "scene": "A futuristic outdoor plaza with a wet, reflective concrete floor, a large domed building with glowing teal lights on the left, and a modern white building with blue windows on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "807a070b0993d8f158b40259447598e70033b2010fb11212fda78fa9f82aa05b"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_214.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6121.mp4",
+    "observed": {
+      "identity": "A muscular, dark-skinned male figure is seen from behind, with no visible face.",
+      "hairstyle": "The figure has short, dark hair.",
+      "hair_color": "Black.",
+      "clothing": "He wears a white sleeveless tank top with a pink and yellow palm tree graphic, light blue shorts with white trim, and red sneakers.",
+      "action": "The figure stands mostly still, then briefly raises his right arm to touch the back of his head before lowering it again.",
+      "camera": "The camera is static, positioned at a low angle behind the figure, capturing a full-body view.",
+      "scene": "The setting is a wet, reflective outdoor plaza in a futuristic city with tall buildings, glowing pink and cyan lights, and a hazy sky."
+    },
+    "uncertain": [],
+    "observation_identity": "8f578c8671fb99901dfeda9f07978baa96d79c9206745af91445e00d024d3d26"
+  }
+]

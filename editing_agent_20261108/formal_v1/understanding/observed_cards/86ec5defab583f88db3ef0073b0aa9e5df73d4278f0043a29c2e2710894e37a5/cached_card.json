@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6396.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a slim build, shown in profile and three-quarter views.",
+    "hairstyle": "Short, neatly styled hair with a side part.",
+    "hair_color": "Purple.",
+    "clothing": "A black vest over a white long-sleeved shirt, red trousers, and black shoes.",
+    "action": "The character stands on an asphalt surface, turning his body and head to look around, then raises his right hand toward his face before lowering it and returning to a standing pose.",
+    "camera": "A static, medium-long side view at roughly waist height, keeping the character centered in frame.",
+    "scene": "An outdoor paved area in daylight, with a metal guardrail, greenery, trees, and a rocky hillside in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "dd80dc9e1b1025583bf471d621ee0ba420d4d0f48a9bd3f49f239b7b2eed8dc6"
+}

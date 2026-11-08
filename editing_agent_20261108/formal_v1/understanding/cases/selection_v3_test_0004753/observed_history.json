@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7054.mp4",
+    "observed": {
+      "identity": "A woman with a medium build, seen mostly from behind and in profile.",
+      "hairstyle": "Her hair is pulled back into a low bun at the nape of her neck.",
+      "hair_color": "Her hair is a medium brown color.",
+      "clothing": "She wears a short, blue and white patterned dress with three-quarter sleeves and an open back.",
+      "action": "The woman stands and slowly turns her body, raising one arm to touch the back of her head and hair.",
+      "camera": "The camera is at a medium distance, framing her from the thighs up, and remains relatively static as she moves.",
+      "scene": "She is standing on a stone-paved terrace or balcony overlooking a large body of water under a clear, pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "732a1ceca843b6505ff089734965b0a3502114ae647f0f57e8dd4a45b76d4cdb"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to blue?",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7050.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a dark brown complexion, shown from the back and side.",
+      "hairstyle": "Hair is pulled back into a low bun with two small, rounded buns or pigtails at the nape of the neck.",
+      "hair_color": "Vibrant blue.",
+      "clothing": "A short, form-fitting dress with a blue and white patterned print, featuring an open back and cold-shoulder cutouts.",
+      "action": "The character stands facing the water, then raises her right arm to touch and adjust her hair, turning her head slightly to the side.",
+      "camera": "A static, medium shot from behind and to the left of the character, keeping her centered in the frame.",
+      "scene": "An outdoor, stone-paved terrace or balcony overlooking a calm body of water under a clear, pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "ad0ef028abc5d44c1803629b9f9aeac5339ca1c4a0b9352dd675e685b835dd40"
+  }
+]

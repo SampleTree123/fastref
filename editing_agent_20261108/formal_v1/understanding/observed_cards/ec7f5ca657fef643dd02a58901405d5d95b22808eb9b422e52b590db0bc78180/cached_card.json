@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6722.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a slim, athletic build and dark skin.",
+    "hairstyle": "Short hair on the sides with a small ponytail or bun at the back of the head.",
+    "hair_color": "Light brown or dark blonde.",
+    "clothing": "A white tank top with a pink and yellow tie-dye pattern and the word 'LOS ANGELES' on the chest, light blue shorts with white trim, and pink sneakers with white soles.",
+    "action": "The character stands still, then slowly turns his body to the right, ending in a profile view facing the water.",
+    "camera": "A full-body shot that remains at a consistent distance while the character rotates, keeping him centered in the frame.",
+    "scene": "An outdoor, sunlit area with cracked concrete ground, wooden pallets, and old industrial buildings with pipes in the background, next to a body of water."
+  },
+  "uncertain": [],
+  "observation_identity": "177eafa99efbba2d633bf110f128c746b736580d6f1069729d0be1db38e04253"
+}

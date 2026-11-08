@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6468.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build stands centered in the frame.",
+      "hairstyle": "Her hair is pulled back into a high bun.",
+      "hair_color": "Her hair is bright yellow.",
+      "clothing": "She wears a short, black-and-white gingham dress with three-quarter sleeves and pink slip-on shoes.",
+      "action": "She begins standing still, then raises both arms overhead and performs a brief dance, turning and stepping before returning to a standing pose.",
+      "camera": "The camera holds a static, low-angle full-body shot from the front.",
+      "scene": "The setting is a sunlit, weathered stone alley with large rusted pipes, wooden crates, a small boat, and scattered planks behind her."
+    },
+    "uncertain": [],
+    "observation_identity": "6d87b520e70b791591cc8222423e232ac022eccc8e482d95e10710d78e76620d"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_a8ea84e80e535ea0e902efae0676634b3bebd4916ca3b55914c543ce29405ebe.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6479.mp4",
+    "observed": {
+      "identity": "A woman with a slim build is seen from behind, with her face not visible.",
+      "hairstyle": "Her hair is short and styled in a slightly tousled, wavy cut.",
+      "hair_color": "Her hair is blonde.",
+      "clothing": "She wears a black-and-white houndstooth dress with three-quarter sleeves and a low, open back.",
+      "action": "She stands still, then raises both arms overhead in a stretching or dancing motion before lowering them and turning slightly.",
+      "camera": "The camera is static in a medium shot from behind the subject.",
+      "scene": "She stands on a stone-tiled platform at the edge of a calm body of water, with weathered wooden posts rising from the water and a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "c3019863176a3614be92e643f9b878459ee2e1cc43f2123666cc4e54406aa8c9"
+  }
+]

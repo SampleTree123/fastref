@@ -1,0 +1,15 @@
+{
+  "video_id": 4,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6251.mp4",
+  "observed": {
+    "identity": "A slender woman with a slim build and fair skin.",
+    "hairstyle": "Short, cropped hair with a side part.",
+    "hair_color": "Pink.",
+    "clothing": "A dark, patterned sleeveless crop top, high-waisted light gray wide-leg pants, a brown belt, and dark strappy sandals.",
+    "action": "The woman stands in the center of an open paved area, slowly turning her body and head while raising one hand to touch her hair.",
+    "camera": "A medium full shot that orbits around the woman, keeping her centered in the frame.",
+    "scene": "An outdoor amusement park or fairground at dusk, featuring a large Ferris wheel, a carousel, and various colorful stalls and signs."
+  },
+  "uncertain": [],
+  "observation_identity": "559a270b375c9ffb1dcefabd4ed9100eb383d0cd99d48fcd45b0fd51393eed41"
+}

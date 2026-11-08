@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6292.mp4",
+    "observed": {
+      "identity": "A slender female character with a low back and narrow shoulders, seen from behind.",
+      "hairstyle": "Short hair gathered into a small, slightly messy top bun with loose strands at the nape.",
+      "hair_color": "Pinkish-red.",
+      "clothing": "A blue and white patterned dress with a deep open back and short sleeves.",
+      "action": "The character stands with her back to the camera, briefly raises her right hand to touch the back of her head, then lowers it and shifts her weight slightly.",
+      "camera": "A static, medium shot from behind and slightly to the left of the character at eye level.",
+      "scene": "An outdoor concrete rooftop or industrial yard with gray buildings, vents, and a satellite dish under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "a7059d1d51acddd045b36204ef1792875f9bb2bf07092de4a8742d769ee051fd"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to blue.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6299.mp4",
+    "observed": {
+      "identity": "A slender female character with a slim build, seen from behind.",
+      "hairstyle": "Hair is tied up in a high, slightly messy bun with loose strands framing the neck.",
+      "hair_color": "Vibrant blue.",
+      "clothing": "A purple and white patterned dress with a low open back and short sleeves.",
+      "action": "The character stands with her back to the camera, then raises her right hand to brush her hair and neck before lowering it.",
+      "camera": "A static, medium shot from behind the character at eye level.",
+      "scene": "An outdoor urban rooftop or alleyway with concrete buildings, a satellite dish, and a gravel ground under bright daylight."
+    },
+    "uncertain": [],
+    "observation_identity": "45bfaaefe4bac49a81518bf48f000f8592450ba80c83307ed12cd74b72d52b8b"
+  }
+]

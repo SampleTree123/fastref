@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6082.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build, light skin, and a visible face in profile and three-quarter views.",
+    "hairstyle": "Hair is pulled back into a high ponytail with a few loose strands at the nape.",
+    "hair_color": "Bright reddish-orange.",
+    "clothing": "She wears a sleeveless, cropped top with a black-and-white geometric pattern, high-waisted olive-green wide-leg trousers, and open-toed sandals.",
+    "action": "The character stands on a tiled rooftop, first facing left, then raises one arm to brush her hair back, turns her body, and finally faces away from the camera with one hand on her hip.",
+    "camera": "A low-angle, medium full shot that slowly orbits around the character from her left side to behind her.",
+    "scene": "A stylized city rooftop at daytime, with a wet paved area, low railings, and a dense background of blocky high-rise buildings, cranes, and a red billboard."
+  },
+  "uncertain": [],
+  "observation_identity": "618b69b8d4a803674e76f306ec821bfc0d827e4b25598669c8c90b70eb38c1fb"
+}

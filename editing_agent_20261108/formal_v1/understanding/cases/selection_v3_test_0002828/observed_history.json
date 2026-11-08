@@ -1,0 +1,79 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6616.mp4",
+    "observed": {
+      "identity": "A man with a slim build, seen mostly from behind, with a short beard visible when he turns his head.",
+      "hairstyle": "Short, swept-back hair.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A cream long-sleeved shirt with a small red star on the back, dark suspenders, brown-and-white checkered trousers, and black shoes.",
+      "action": "The man stands on a concrete platform facing the water, then raises his right hand to his head and rubs his scalp before lowering his arm and standing still.",
+      "camera": "A static, medium-long shot from behind and slightly to the side of the man.",
+      "scene": "A sunlit concrete pier or dock beside a calm body of water, with weathered wooden posts in the water to the left and a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "b3c0879d4f62ceb700584bb55dfbea0e6cdb00f8ff4302e3f53586a3c3e94b56"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_366.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6610.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind and in profile.",
+      "hairstyle": "Short, swept-back hair.",
+      "hair_color": "Pink.",
+      "clothing": "White short-sleeved shirt with black suspenders, black-and-white checkered trousers, and black shoes.",
+      "action": "The character stands still, then raises his right arm to touch the back of his head before lowering it again.",
+      "camera": "Static medium-long shot from behind and slightly to the side of the character.",
+      "scene": "A futuristic outdoor plaza with a large domed building featuring glowing teal rings, a tall building with lit windows, and a reflective concrete ground with red neon lines."
+    },
+    "uncertain": [],
+    "observation_identity": "37284acd0a45151cfed049c8eb2a7f6cb87fa69b64c0eb91441fd87f3c262fa3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6626.mp4",
+    "observed": {
+      "identity": "A person with a slim build, seen mostly from behind, with a small reddish mark on the upper back of the shirt.",
+      "hairstyle": "Short, tousled hair that appears to be tied or gathered at the back of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A cream long-sleeved shirt with thin horizontal stripes, dark suspenders, brown-and-white checkered trousers, and black heeled shoes.",
+      "action": "The person stands facing the water, then turns their head and raises a hand to the back of the head before lowering the arm and shifting their stance slightly.",
+      "camera": "A static, medium-long shot from behind at roughly eye level, keeping the figure centered against the horizon.",
+      "scene": "A weathered concrete pier or platform beside a calm body of water under a clear, bright sky, with wooden posts and a low structure on the left."
+    },
+    "uncertain": [
+      "The person's face is mostly turned away, so facial features and exact age are unclear.",
+      "Whether the hair is tied in a small bun or simply short and tousled is unclear."
+    ],
+    "observation_identity": "2f6acf6b37285f7d844308e37ad8688e152b2ab8b71a1e5b16134f702d77910a"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7163.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin, large eyes, and a small face.",
+      "hairstyle": "Short, straight hair with bangs, styled with two small buns on top of her head.",
+      "hair_color": "Light silver or platinum blonde.",
+      "clothing": "A black romper with a gold rose pattern, featuring a corset-style bodice with white lacing, puffy short sleeves, and a scalloped neckline.",
+      "action": "The woman stands facing the camera, then turns her head to the side, raises her hand to her face, and shifts her weight while posing.",
+      "camera": "A medium full shot from a slightly low angle, remaining mostly static as the subject moves.",
+      "scene": "An outdoor urban plaza at dusk, with tall buildings, construction cranes, and a parking structure with Japanese signage in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "c395ab5121ba3d34faef29d176ae34c20b3f0817f3f7142b09aeb340d6bebb80"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_9.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_61.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7172.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin and a neutral expression.",
+      "hairstyle": "Short, straight silver hair with blunt bangs covering the forehead.",
+      "hair_color": "Silver-white.",
+      "clothing": "A black romper with a gold rose pattern, featuring a corset-style lace-up bodice, ruffled off-the-shoulder sleeves, and blue sneakers.",
+      "action": "She stands facing the camera, then tilts her head, raises her right hand to cover her face, and shifts her weight while placing her left hand on her hip.",
+      "camera": "A medium full shot that starts at chest level and slowly zooms out to reveal her full body and the surrounding environment.",
+      "scene": "An outdoor urban plaza at dusk, with a tall construction crane, high-rise buildings, and a parking structure with illuminated windows in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "071f7dde0bb975a86c73695fffe700192c6fe4ccfb9661951e6fe474f9c708a2"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_105.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7165.mp4",
+    "observed": {
+      "identity": "A slim young woman with pale skin and a neutral expression, shown from the chest up at first and then full body.",
+      "hairstyle": "Short, straight silver hair with blunt bangs covering the forehead.",
+      "hair_color": "Silver / platinum gray.",
+      "clothing": "A black corset-style romper with white lace-up front, puffed off-shoulder sleeves, and a gold floral pattern on the shorts, paired with light blue slip-on shoes.",
+      "action": "She stands facing the camera, then lowers her head, raises one hand to brush her hair back, places a hand on her hip, and shifts her stance while posing.",
+      "camera": "Static medium-to-full shot at eye level, centered on the subject on a cobblestone street.",
+      "scene": "An old European-style street with cobblestones, brick and stone buildings, black lampposts, a Union Jack flag, and a hanging sign reading 'WORLD'S FINEST SALON'."
+    },
+    "uncertain": [],
+    "observation_identity": "6508491c8edad9a7eeae94b08ec11546300193b4365bbfd1b871715e4d6928d3"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from white to red.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7151.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and fair skin stands facing the camera.",
+      "hairstyle": "Her hair is cut into a short bob with straight bangs and two small pigtails tied at the sides.",
+      "hair_color": "Her hair is a vivid, solid red.",
+      "clothing": "She wears a black, off-the-shoulder romper with a corset-style bodice, white crisscross lacing, and a gold floral pattern on the shorts.",
+      "action": "She begins standing still, then raises her right hand to cover her face, turns her body to the side, and finally turns back to face forward with a slight smile.",
+      "camera": "The camera is static, starting with a medium shot of her upper body and then pulling back to a full-body shot.",
+      "scene": "She is standing on a cobblestone street in a European-style town, with brick buildings, a Union Jack flag, and vintage street lamps in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "de6dd08d689398cfc5837593c740c186eb187b901fb649587fae84020fcbb5dd"
+  }
+]

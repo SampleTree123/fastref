@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6360.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a slim build, light skin, and a short beard.",
+    "hairstyle": "Short, cropped hair.",
+    "hair_color": "Bright green.",
+    "clothing": "A light blue, patterned knit sweater, dark grey trousers, and brown boots.",
+    "action": "The character stands facing the camera, then raises his right hand to touch his neck and shoulder area before lowering it back to his side.",
+    "camera": "A static, full-body, eye-level shot.",
+    "scene": "A stylized, futuristic city street with tall buildings, Japanese signage, and a wet, reflective pavement."
+  },
+  "uncertain": [],
+  "observation_identity": "82ba4edac98ad47187761d212b6d42709ce5914c627736a2d2a8ef45e37d3566"
+}

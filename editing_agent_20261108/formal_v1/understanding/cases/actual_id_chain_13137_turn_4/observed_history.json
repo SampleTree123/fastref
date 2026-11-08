@@ -1,0 +1,104 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6317.mp4",
+    "observed": {
+      "identity": "A 3D-rendered Black man with a slim build, shown in profile and then full body.",
+      "hairstyle": "Hair is pulled back into a high ponytail.",
+      "hair_color": "Bright blue.",
+      "clothing": "White long-sleeve shirt under a black vest, dark plaid trousers, and dark shoes.",
+      "action": "He stands in profile, then turns slightly, raises his arms to his face, and lowers them back to his sides.",
+      "camera": "Static medium-wide side view that gradually reframes to a full-body shot as the character moves.",
+      "scene": "An outdoor fairground or amusement area at dusk, with a red food cart, striped awning, and a large marquee structure with rows of lights behind him."
+    },
+    "uncertain": [],
+    "observation_identity": "a532b3142679a671c0ad2fc6d5833ce85d0f16cbfc7672c3e6a322f98c8c4c5c"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_90.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_6.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6304.mp4",
+    "observed": {
+      "identity": "A 3D-rendered Black man with a slim build, shown in profile and then full body.",
+      "hairstyle": "Short hair with a small top-knot bun at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "White long-sleeve shirt under a dark green vest, dark plaid trousers, and dark shoes.",
+      "action": "He stands in profile, then turns slightly, raises both arms overhead, and brings his hands down to his face before lowering his arms and standing still.",
+      "camera": "Static medium-wide side view at roughly waist-to-head height, pulling back slightly to show the full body.",
+      "scene": "An outdoor fairground or amusement park at dusk, with a marquee of round lights, a red-and-white striped food cart, a red train car, and a roller-coaster track in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "e4ab08a921a1250e1200b5803d3ce7a98f680b20795e346907c877ea2d144d8d"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_572.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6301.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build and dark skin stands in profile on a cobblestone street.",
+      "hairstyle": "Short hair with a small top-knot bun at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "White long-sleeve shirt under a dark brown vest, red-and-brown plaid trousers, and dark shoes.",
+      "action": "The character stands mostly still, then raises his right arm to touch his face and head before lowering it again.",
+      "camera": "Static medium-full shot from the side, keeping the character centered against the storefront.",
+      "scene": "A Victorian-style street with a dark storefront window displaying gold text reading 'SOAP OF EVERY DESCRIPTION SOLD HERE' and 'COCOA POWDER FROM THE COLONIES AVAILABLE NOW'."
+    },
+    "uncertain": [],
+    "observation_identity": "abbb272a1afc66114928e6d66a5ccae0a050d2357256c3d5ce5e74edceeddf30"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a front three-quarter angle. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_e5dcba546e8c40475282eba0bcd5f61b239cfa79ca4e43cbdf24c9439f775a01.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a front three-quarter angle. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6303.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with dark skin and a slim build, shown from the thighs up.",
+      "hairstyle": "Short hair on the sides with a small top-knot bun tied at the crown.",
+      "hair_color": "Bright blue.",
+      "clothing": "A white long-sleeved collared shirt under a black sleeveless vest, with a thin necklace and red plaid trousers with a black belt.",
+      "action": "He stands facing slightly right, turns his head, then bends forward and raises his right hand to his mouth before straightening up and turning his head again.",
+      "camera": "Static medium shot at roughly chest height, framing the character from the thighs up.",
+      "scene": "A cobblestone street in front of old stone and brick buildings with arched windows, a black lamppost, and posters on a wall."
+    },
+    "uncertain": [],
+    "observation_identity": "cd235e4a7f03b7688f3777efcc101ec4f7d0367f8495d8095c745eeec3e3c311"
+  }
+]

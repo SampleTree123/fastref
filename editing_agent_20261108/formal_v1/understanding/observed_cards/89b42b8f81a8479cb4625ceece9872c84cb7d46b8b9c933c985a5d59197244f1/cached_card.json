@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6071.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build, seen mostly from behind and in profile.",
+    "hairstyle": "Hair is pulled back into a high ponytail.",
+    "hair_color": "Bright red hair.",
+    "clothing": "She wears a sleeveless black-and-white patterned crop top and high-waisted green pants.",
+    "action": "The character stands with her back to the camera, raises one hand to touch her ponytail, then turns her head to the side to reveal her profile.",
+    "camera": "Static medium shot from behind the character at roughly waist height.",
+    "scene": "An outdoor amusement park at dusk, with a Ferris wheel on the left and a carousel with lit bulbs on the right."
+  },
+  "uncertain": [],
+  "observation_identity": "c3682debb7017453794253b2a044d65dfe66ca81e913b32d301ef794d0c09e51"
+}

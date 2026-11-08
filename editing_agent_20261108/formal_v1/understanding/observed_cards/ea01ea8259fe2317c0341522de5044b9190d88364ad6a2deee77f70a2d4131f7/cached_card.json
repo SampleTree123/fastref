@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6267.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build and light skin.",
+    "hairstyle": "Hair is styled in a low bun with straight bangs across the forehead.",
+    "hair_color": "Pink hair with darker reddish-brown tones at the back.",
+    "clothing": "She wears a brown lace crop top, light gray wide-leg pants, and black strappy sandals.",
+    "action": "The character stands mostly still, then briefly raises her right hand to her face before lowering it.",
+    "camera": "A static high-angle full-body shot keeps the character centered in the frame.",
+    "scene": "The character stands on a flat, sandy ground with a long shadow cast to the left, and a small red vehicle is visible in the upper right background."
+  },
+  "uncertain": [],
+  "observation_identity": "b00be3b7960c11787a644cedd5ceec28ec4540b946601833b8edfc124ebef44b"
+}

@@ -1,0 +1,120 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6610.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind and in profile.",
+      "hairstyle": "Short, swept-back hair.",
+      "hair_color": "Pink.",
+      "clothing": "White short-sleeved shirt with black suspenders, black-and-white checkered trousers, and black shoes.",
+      "action": "The character stands still, then raises his right arm to touch the back of his head before lowering it again.",
+      "camera": "Static medium-long shot from behind and slightly to the side of the character.",
+      "scene": "A futuristic outdoor plaza with a large domed building featuring glowing teal rings, a tall building with lit windows, and a reflective concrete ground with red neon lines."
+    },
+    "uncertain": [],
+    "observation_identity": "37284acd0a45151cfed049c8eb2a7f6cb87fa69b64c0eb91441fd87f3c262fa3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_b634e2b4a9f6d235aa6f08b756e1bf81affde28de024980286819b91b3ee96f3.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body orbit shot that starts in front, circles the person through 360 degrees, and returns to the front view. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6608.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark face, broad shoulders, and a stocky build.",
+      "hairstyle": "Short, flat-topped hair.",
+      "hair_color": "White.",
+      "clothing": "White short-sleeved button-up shirt with a black bow tie, black suspenders, red-and-white checkered trousers, and black shoes.",
+      "action": "The character stands in a plaza, turns his body, raises his right hand to his head, and then lowers it while shifting his stance.",
+      "camera": "Full-body shot at eye level that slowly orbits around the character, changing from a front view to a side and then a rear view.",
+      "scene": "A futuristic city plaza with a reflective gray floor, glass buildings, glowing cyan circular light patterns, and pink ambient lighting."
+    },
+    "uncertain": [],
+    "observation_identity": "ec43a6d8c2212436d1459423f1bc97a5c658ac6bd3e7f239f4b7179ee048db7a"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_743.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6605.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark face, white hair, and a white bow tie.",
+      "hairstyle": "Short, spiky white hair.",
+      "hair_color": "White.",
+      "clothing": "A white short-sleeved button-up shirt with black suspenders, red-and-white checkered trousers, and black shoes.",
+      "action": "The character stands in a wide open area, turning his body and head to look around the environment.",
+      "camera": "A medium-wide shot that orbits around the character, showing him from the front, side, and back.",
+      "scene": "A futuristic city plaza with a reflective floor, large glass buildings with glowing cyan and pink neon lights, and a hazy sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e13d753086632e13ccd42bd5c01b159e83e0e80d022a1976dda1c86c47383e5a"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_653.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to sneezing, following the demonstration in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6607.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark face, broad shoulders, and a stocky build.",
+      "hairstyle": "Short, flat-topped hair.",
+      "hair_color": "White.",
+      "clothing": "White short-sleeved button-up shirt with a black bow tie, black suspenders, red-and-white checkered trousers, and black shoes.",
+      "action": "The character stands in place while the camera orbits around him, showing his front, side, and back.",
+      "camera": "Full-body shot at roughly waist-to-head height, orbiting horizontally around the stationary character.",
+      "scene": "A futuristic city plaza with a glossy reflective floor, glowing cyan neon rings, pink-lit pillars, and tall buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "44f1b26929dafa2411f7578d8aad0114246d8bf639d87565ac95cc862ac9c80f"
+  },
+  {
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_ba9d63214ba1b5f03e1799e3a8202440dffcf8372715439daeabc857b638a4ee.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6612.mp4",
+    "observed": {
+      "identity": "A dark-skinned person seen from behind, with a short, cropped head and visible ears.",
+      "hairstyle": "Very short, cropped hair with a small tuft sticking up at the crown.",
+      "hair_color": "White or platinum with a pinkish tint.",
+      "clothing": "A light plaid button-up shirt with rolled sleeves, black Y-back suspenders, and a dark plaid skirt or shorts.",
+      "action": "The person stands facing away, then turns their head and upper body to the right before turning back to face forward.",
+      "camera": "Static medium shot from behind the subject at roughly waist height.",
+      "scene": "A futuristic city plaza with a wet reflective floor, glowing red and cyan light strips, and tall buildings with blue and pink lighting in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "3fb18158adcb452ce787a695909b9a596967050a1cb6535e3784738d28867b97"
+  }
+]

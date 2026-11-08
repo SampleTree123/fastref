@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6236.mp4",
+  "observed": {
+    "identity": "A 3D-rendered young woman with a slim build, light skin, and a small face, shown in full body.",
+    "hairstyle": "Blonde hair pulled up into two small buns on top of her head with loose strands framing her face.",
+    "hair_color": "Blonde.",
+    "clothing": "She wears a long-sleeved pink sweater, a short pink pleated skirt, and black lace-up ankle boots.",
+    "action": "She stands facing forward, then turns to her right, raises one hand to brush her hair back, and turns back to face forward.",
+    "camera": "Static full-body shot at a slight low angle, keeping the character centered in frame.",
+    "scene": "An outdoor rooftop or plaza with tiled and pebbled ground, large gray metal structures, and a city skyline with cranes and buildings in the background under a soft sunset sky."
+  },
+  "uncertain": [],
+  "observation_identity": "d6ca9dc779dce3cd2288cb6795cb90d4ff11cf9122365efe39283a7c12d809cd"
+}

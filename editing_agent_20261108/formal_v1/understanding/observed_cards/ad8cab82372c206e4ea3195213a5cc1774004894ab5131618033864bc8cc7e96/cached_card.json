@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6746.mp4",
+  "observed": {
+    "identity": "A muscular person with a dark complexion and short, platinum-blonde hair.",
+    "hairstyle": "Short, platinum-blonde hair, styled with a slight quiff at the front.",
+    "hair_color": "Platinum blonde.",
+    "clothing": "A pink and yellow tie-dye tank top with a palm tree pattern, matching pink shorts, and pink slip-on shoes.",
+    "action": "The person stands in profile, then raises both arms overhead and leans back slightly before lowering their arms and turning their head.",
+    "camera": "The camera starts with a full-body side view and gradually zooms in to a medium shot of the upper body.",
+    "scene": "An outdoor paved area, possibly a road or parking lot, with a metal guardrail, rocks, and green trees in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "f8ac2b6c817afd58beaab47a46b0ce6ff36063544368a97a9df96fe4e070a6d3"
+}

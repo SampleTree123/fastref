@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "id": "actual_id_chain_12983_turn_4",
+  "dataset_index": 770,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 8.389511828310788,
+  "result": {
+    "source_video_id": 3,
+    "prompt": "Change the video's camera setup to an upper-body shot from the side. Use the provided camera reference image to determine the viewing direction, subject placement, and framing at the start of the edited video, then follow the described side upper-body camera setup and movement. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged, and preserve the timing and progression of the action in the source video.",
+    "reference_ids": [
+      "ref_1"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

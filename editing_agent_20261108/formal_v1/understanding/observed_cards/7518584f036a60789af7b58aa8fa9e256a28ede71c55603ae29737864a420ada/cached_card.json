@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6826.mp4",
+  "observed": {
+    "identity": "A female-presenting 3D character with a slim build, seen mostly from behind and in profile.",
+    "hairstyle": "Hair is pulled up into a high bun with loose strands framing the face.",
+    "hair_color": "Light brown to blonde hair with darker roots.",
+    "clothing": "She wears a bright pink long-sleeved off-shoulder top and a matching flared pink skirt, with black lace-up detailing on the shoulders.",
+    "action": "The character turns and poses, raising one arm and placing the other hand on her hip while swaying slightly.",
+    "camera": "A medium shot from behind at roughly waist height, with the camera slowly orbiting around the character.",
+    "scene": "The setting is a futuristic plaza at night with a large glass dome, glowing teal ring lights, and pink neon accents on a wet reflective ground."
+  },
+  "uncertain": [],
+  "observation_identity": "2bb698191aa5418eb61bf900be6b912e4987e494f7823ebd571761f71d47667e"
+}

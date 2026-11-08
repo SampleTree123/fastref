@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6083.mp4",
+  "observed": {
+    "identity": "A slender woman with a slim build, shown in profile and then from behind.",
+    "hairstyle": "Her hair is pulled back into a high ponytail.",
+    "hair_color": "Reddish-brown hair.",
+    "clothing": "She wears a sleeveless white top with a black geometric pattern, a black choker, and dark green high-waisted wide-leg trousers.",
+    "action": "She stands in the open plaza, raises one hand to touch her ponytail, places the other hand on her hip, and slowly turns her body so her back faces the camera.",
+    "camera": "A low-angle, full-body shot that slowly dollies in and tracks around her as she turns.",
+    "scene": "An outdoor amusement park or fairground with a carousel on the left, a wooden building and a circular ride structure on the right, and a hazy sky above a wide paved area."
+  },
+  "uncertain": [],
+  "observation_identity": "0647ec9826e200cb8736e43e408e4b9cc7ba30a955a64808c18c901894ee2ae6"
+}

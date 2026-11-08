@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0001697",
+  "dataset_index": 509,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 6.709374964237213,
+  "result": {
+    "source_video_id": 0,
+    "prompt": "Change the scene to the setting shown in the reference image, placing the person in that environment. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "reference_ids": [
+      "ref_1"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

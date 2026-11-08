@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6320.mp4",
+  "observed": {
+    "identity": "A 3D-rendered person with a medium build, seen from behind, with no visible face.",
+    "hairstyle": "Hair is pulled up into a high bun or topknot.",
+    "hair_color": "Bright blue.",
+    "clothing": "A yellow cable-knit sweater, light blue jeans, and brown shoes.",
+    "action": "The person stands in the middle of the street, turns their head to the right, and shifts their weight slightly.",
+    "camera": "A static, eye-level medium shot from behind the subject.",
+    "scene": "A foggy, cobblestone street in a European-style town with brick buildings, shop awnings, street lamps, and a Union Jack flag."
+  },
+  "uncertain": [],
+  "observation_identity": "50aaf08c48548a67072e6d9b00ac7c53e3b134e3facc973692efcf9fc3c3c1fa"
+}

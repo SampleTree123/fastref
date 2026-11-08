@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7178.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a slim build, shown from behind.",
+    "hairstyle": "Hair is pulled up into a high ponytail.",
+    "hair_color": "Bright blue.",
+    "clothing": "A dark, textured long-sleeved jacket and matching trousers with a black belt and white side stripes, with tan patches on the back and legs.",
+    "action": "The character stands on the road, then turns and walks forward while the camera follows from behind.",
+    "camera": "A third-person rear view that tracks the character as they move, gradually getting closer.",
+    "scene": "An outdoor paved road under a blue sky, with a street lamp, guardrail, and autumn-colored trees in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "faceba920920b1e5a87ee4dc3a58978a68f1144d2458877a19a0ec103b8eed84"
+}

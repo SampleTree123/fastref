@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7057.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a slim build, light skin, and a short beard.",
+      "hairstyle": "Dark hair is pulled back into a small topknot or bun at the crown of his head.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "He wears a dark blue military-style uniform with a high collar, gold buttons, a gold belt, and matching dark trousers and black shoes.",
+      "action": "The man stands on an asphalt road, initially looking up, then turns his body and raises his hands to adjust his collar and chest area before lowering his arms and standing still.",
+      "camera": "A static, low-angle full-body shot captures the character from the front-left, with the camera positioned near ground level.",
+      "scene": "The setting is an outdoor paved area beneath a large concrete overpass or bridge structure, with a metal railing, red-and-yellow striped bollards, and a bright blue sky with light clouds visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "948ffd70436a6c6cb6de428456eca1e6276362143ccaa3e0a130800eb3a259e5"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_202.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7055.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a light-to-medium complexion, short dark hair, and a thin mustache.",
+      "hairstyle": "Short, dark hair, neatly combed back.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A dark blue military-style uniform jacket with gold buttons, a gold star-shaped badge on the left chest, and a black belt with a gold buckle, paired with matching dark blue trousers and black shoes.",
+      "action": "The man stands on an asphalt road, initially looking to his left. He then turns his head forward, raises his right hand to touch his chest and collar area, and finally turns his head back to his left.",
+      "camera": "A static, low-angle full-body shot from a slightly low perspective, looking up at the subject.",
+      "scene": "An outdoor urban environment on a sunny day, featuring a paved road with white lane markings, a concrete overpass or bridge structure in the background, and red-and-yellow striped traffic bollards."
+    },
+    "uncertain": [],
+    "observation_identity": "9e02bf7a993091c5e43f8b1a7c6c74ba5ae8e52f2d8409b7ac03d3c526fc4f9e"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_292.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they walk forward, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7058.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult woman with a medium-brown complexion, visible in a full-body view.",
+      "hairstyle": "Dark hair pulled back into a low ponytail.",
+      "hair_color": "Black.",
+      "clothing": "A dark navy military-style uniform with a high collar, gold buttons, gold shoulder insignia, a black belt with a gold buckle, matching navy trousers, and black shoes.",
+      "action": "She stands still, then begins walking forward and slightly to the left across the road, pausing at the end to look upward.",
+      "camera": "A low-angle, full-body shot that remains mostly static while the subject moves through the frame.",
+      "scene": "An outdoor paved road beneath a concrete overpass, with red-and-yellow striped construction barriers, metal railings, green foliage, and a blue sky with light clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "b08e6b13d32efa91c2afe0c314190784546316db2fed1f4359e447278ff68698"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 4,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6305.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a dark complexion and a short beard.",
+    "hairstyle": "Red hair is slicked back and gathered into a small topknot bun.",
+    "hair_color": "Bright red.",
+    "clothing": "He wears a white long-sleeved shirt under a dark brown vest, paired with brown and red plaid trousers and dark shoes.",
+    "action": "The character stands in profile, then turns slightly and raises his right hand to touch his face and mouth before lowering it.",
+    "camera": "The camera is at a medium distance, initially framing the character from the waist up and then pulling back to a full-body shot as he moves.",
+    "scene": "The setting is a cobblestone street in front of a dark, ornate storefront with large windows displaying gold text for 'SOAP' and 'COCOA POWDER'."
+  },
+  "uncertain": [],
+  "observation_identity": "99f4f3365986ce7e2da38c58426fbe69def3315fbf444f1e85b4fbe872c27fa4"
+}

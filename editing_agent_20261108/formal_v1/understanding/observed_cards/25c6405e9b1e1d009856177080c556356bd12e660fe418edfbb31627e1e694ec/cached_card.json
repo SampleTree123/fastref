@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6368.mp4",
+  "observed": {
+    "identity": "A slim, light-skinned 3D-rendered male figure with a short, neat face and visible jawline.",
+    "hairstyle": "Short, swept-back hair with a side part.",
+    "hair_color": "Light blond.",
+    "clothing": "White long-sleeved shirt under a dark brown vest, reddish-orange trousers, and dark slip-on shoes.",
+    "action": "The figure stands in profile, then slowly turns to face away, raises a hand to the chest, and turns back to the original profile stance.",
+    "camera": "Static, eye-level full-body side view with the subject centered.",
+    "scene": "An outdoor urban plaza with a large gray metal utility box behind the subject, tiled and cobblestone ground, and buildings with yellow scaffolding in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "cc14646447af681f2e8dc45e1a42ee076015f5676bbd35795f71f84ddaeab6b0"
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6269.mp4",
+    "observed": {
+      "identity": "A slender 3D-rendered female character with a slim build, shown mostly from behind and in profile.",
+      "hairstyle": "Short hair with a side-swept fringe and a small low bun or twist at the back of the head.",
+      "hair_color": "Pinkish-purple (mauve) hair.",
+      "clothing": "A short, open-back mini dress with a busy multicolored abstract pattern in purple, blue, orange, and green, plus flat sandals.",
+      "action": "The character stands on a tiled floor, raises one arm to brush her hair back, then turns to face the camera and waves her hand near her face.",
+      "camera": "A static, slightly elevated three-quarter view from behind the character, keeping her centered in frame.",
+      "scene": "An outdoor or open paved area with large glossy square tiles on the left and a rougher textured ground on the right, with pale concrete structures in the background under warm sunlight."
+    },
+    "uncertain": [
+      "Exact facial features are not clearly visible since the character is mostly seen from behind or in profile."
+    ],
+    "observation_identity": "a9c1b7e630de54415ae24b12cacbfee56d7a8142c1bdab561c404c23c48c2f81"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_208.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6253.mp4",
+    "observed": {
+      "identity": "A slender female 3D character with a slim build, seen mostly from behind and in profile.",
+      "hairstyle": "Short hair with a small low ponytail or bun at the nape.",
+      "hair_color": "Pink.",
+      "clothing": "A short, form-fitting dress with a colorful abstract pattern in purple, blue, yellow, and pink, plus pink flat shoes.",
+      "action": "The character stands, raises one hand to her head, turns slightly, and shifts her weight while posing.",
+      "camera": "A high-angle, medium full-body shot that stays nearly static with slight reframing as the character moves.",
+      "scene": "An outdoor paved area in warm sunlight, with a long cast shadow and a partial red vehicle visible in the upper right."
+    },
+    "uncertain": [],
+    "observation_identity": "7d1edb415369c7e81d2b649e259876b0849761c2f903c0388b7aa967916d9208"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_18.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_111.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6286.mp4",
+    "observed": {
+      "identity": "A slender 3D-rendered female character with a slim build, shown mostly from behind.",
+      "hairstyle": "Short hair tied into a small high ponytail with loose strands at the nape.",
+      "hair_color": "Purple with lighter pinkish highlights.",
+      "clothing": "A short, backless mini dress with a busy multicolored pattern of blue, purple, pink, and yellow shapes, plus flat sandals.",
+      "action": "The character stands on a tiled floor, raises one arm to touch her hair, then lowers it and turns slightly to the side while shifting her weight.",
+      "camera": "A static high-angle, medium-long shot from behind the character, keeping her centered in frame.",
+      "scene": "An outdoor or rooftop area with a glossy tiled floor on the left, a darker textured ground on the right, and large pale cylindrical structures in the background under warm sunlight."
+    },
+    "uncertain": [
+      "The character's face is mostly turned away, so facial features are unclear.",
+      "The exact location (rooftop vs. plaza) is unclear."
+    ],
+    "observation_identity": "ba589ee79c5b1b248a5b7d7510f8bba5199b879f55f09a2df22365894d5f15a8"
+  }
+]

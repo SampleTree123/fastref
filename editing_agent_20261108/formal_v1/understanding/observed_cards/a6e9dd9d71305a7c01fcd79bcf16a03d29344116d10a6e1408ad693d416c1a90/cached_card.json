@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7088.mp4",
+  "observed": {
+    "identity": "A young Black person with a slim build and a youthful face, shown from the waist up.",
+    "hairstyle": "Black hair is pulled back into a high ponytail with a few loose strands at the sides.",
+    "hair_color": "Black.",
+    "clothing": "A bright yellow long-sleeved button-up shirt with a white and orange floral pattern, worn over dark plaid trousers with a black belt.",
+    "action": "The person stands in profile, then turns their head and body toward the camera while raising a hand to their chin and crossing their arms.",
+    "camera": "A medium shot at eye level with a slight handheld wobble, keeping the subject centered against the background.",
+    "scene": "An outdoor paved area beneath a concrete overpass, with a metal railing, green trees, and a construction crane visible in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "055ebad8f5503f726cceb4f33be4b90fd2e4e3ea38c74e3f8d1629c4daf4ecf1"
+}

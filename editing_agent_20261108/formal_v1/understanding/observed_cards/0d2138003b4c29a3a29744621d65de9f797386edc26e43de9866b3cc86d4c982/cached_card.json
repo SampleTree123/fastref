@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6587.mp4",
+  "observed": {
+    "identity": "A young Black man with a slim build and short facial stubble.",
+    "hairstyle": "Short hair on the sides with the top gathered into a small bun.",
+    "hair_color": "Light brown.",
+    "clothing": "A mustard-yellow cable-knit sweater and blue jeans.",
+    "action": "He stands in place, turning his head and body to look around, then raises one hand to touch his chin and chest while crossing his other arm.",
+    "camera": "A static medium shot from the waist up, keeping the subject centered.",
+    "scene": "An outdoor amusement park at dusk, with a swing ride, a roller coaster, and a striped carousel structure in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "ecc927ef80cbc7bfbea2818b23e5d5d1c5367ae91bf824346165f4fc15b1deee"
+}

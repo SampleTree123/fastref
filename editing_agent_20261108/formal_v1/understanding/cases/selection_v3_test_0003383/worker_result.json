@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0003383",
+  "dataset_index": 992,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 25.712323100306094,
+  "result": {
+    "source_video_id": 1,
+    "prompt": "Change the person's action so that they raise both hands in celebration, then thrust one hand upward, as shown in the motion reference. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "reference_ids": [
+      "ref_1"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

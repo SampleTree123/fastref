@@ -1,0 +1,73 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7125.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin, shown mostly from the side and back.",
+      "hairstyle": "Red hair pulled up into a high bun with a small red flower accessory.",
+      "hair_color": "Red.",
+      "clothing": "She wears a black corset-style top with a small white dot pattern, puffed short sleeves, and a black mini skirt with a gold floral print, paired with light blue slip-on sneakers.",
+      "action": "She stands on a cobblestone street, slowly turning and posing with one hand on her hip and the other raised near her head.",
+      "camera": "Full-body shot at eye level; the camera slowly orbits around her from her left side to her back.",
+      "scene": "An old European-style street with cobblestone paving, ornate stone buildings, hanging shop signs, and vintage street lamps."
+    },
+    "uncertain": [],
+    "observation_identity": "6534bba1fd1b0cbc0a7664334653b94c17321cdb2a58763015c48aea26488ad6"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_414.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to match the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7130.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin and a small face, shown in full body.",
+      "hairstyle": "Red hair styled into two high buns with loose strands framing the face.",
+      "hair_color": "Red.",
+      "clothing": "A black corset-style top with white lacing and puffed off-shoulder sleeves, paired with a short black skirt patterned with gold roses, and light blue lace-up sneakers.",
+      "action": "She stands facing the camera, then turns to her left and walks a few steps while raising one hand to her head.",
+      "camera": "Full-body shot at a low angle; the camera pans right to follow her as she turns and walks.",
+      "scene": "A cobblestone street lined with old stone buildings, vintage shop signs, a Union Jack flag, and black lampposts under an overcast sky."
+    },
+    "uncertain": [],
+    "observation_identity": "3289ee41092365f9c1b2ab14a6ca87969a3a5af850b64e93d0781218313306cb"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_c86945b85e09dcac657fe6305881bcd8309054d376f4e199689242c73d03335b.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: change the video's camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7138.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build, shown mostly from the side and back; her face is partially visible in profile.",
+      "hairstyle": "Her hair is pulled up into a high bun with loose bangs framing her face.",
+      "hair_color": "Bright red.",
+      "clothing": "She wears a black corset-style top with white polka dots, white lace-up front, and floral embroidery, paired with puffy black off-the-shoulder sleeves and a black skirt with a gold rose pattern.",
+      "action": "She stands in the street, turning her body and head, raising one arm to touch her hair, and posing with her hand on her hip.",
+      "camera": "A medium shot at roughly waist-to-head height, mostly static with slight reframing as she moves.",
+      "scene": "An old European-style cobblestone street with brick and stone buildings, hanging shop signs, black lamp posts, and a Union Jack flag in the background."
+    },
+    "uncertain": [
+      "Exact facial features are partly hidden by her hair and profile angle.",
+      "Whether the setting is a real location or a themed set is unclear."
+    ],
+    "observation_identity": "ada396c6821a6cbbdbeb6cece0c534bf6e9edaf5c59fcca95b469295eda30264"
+  }
+]

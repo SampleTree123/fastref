@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6597.mp4",
+  "observed": {
+    "identity": "A young adult male with a slim build and light skin, shown in profile and three-quarter views.",
+    "hairstyle": "Short, dark hair with a slightly longer, swept top.",
+    "hair_color": "Dark brown.",
+    "clothing": "A blue and pink patterned knit sweater, dark blue pants, and brown shoes.",
+    "action": "The man stands still, then raises his right hand to rub his forehead and eyes before lowering it and looking down.",
+    "camera": "A static, medium full shot at eye level that keeps the man centered in the frame.",
+    "scene": "A futuristic outdoor plaza with large, dark domed buildings featuring glowing cyan and pink neon rings, a wet reflective concrete ground, and a purple vehicle in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "a0f46baf28f2949dd83e00b8d116fd09f70d27f57e76021932e03d32555b3ecd"
+}

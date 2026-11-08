@@ -1,0 +1,39 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6679.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and dark skin tone.",
+      "hairstyle": "Short blonde bob with straight bangs and two small buns or puffs at the back of the head.",
+      "hair_color": "Bright yellow-blonde.",
+      "clothing": "A short, white mini-dress with a pink, green, and yellow floral pattern, featuring cold-shoulder cutouts and a V-neckline, paired with reddish-brown flat shoes.",
+      "action": "The character stands facing forward, then turns to her left and raises her right arm high in a stretching or dancing motion before lowering it and turning back to face the camera.",
+      "camera": "The camera orbits around the character at a low angle, starting from a front view, moving to a side profile, then to a rear view, and finally returning to the front.",
+      "scene": "An outdoor paved area, possibly a parking lot or road, under a concrete overpass or bridge structure, with trees, guardrails, and traffic signs visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "886bef884b79306e52020f3f4a75b2c523500b00fbba00266d3b143e985095b8"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair blue.",
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair blue.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6670.mp4",
+    "observed": {
+      "identity": "A slender, dark-skinned woman with a slim build and long legs.",
+      "hairstyle": "Hair is fully covered by a bright blue bonnet with two small puffs at the back.",
+      "hair_color": "Blue (from the bonnet covering the hair).",
+      "clothing": "She wears a short, white dress with a pink and green floral pattern, featuring cold-shoulder cutouts and a low open back, paired with reddish-brown flat shoes.",
+      "action": "The woman stands still, then raises her right arm and spins in a circle before returning to a standing pose.",
+      "camera": "The camera is at a low angle, capturing a full-body shot, and orbits around the subject as she spins.",
+      "scene": "The setting is an outdoor paved area, possibly a parking lot or road, under a concrete overpass with trees and a guardrail in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "83ebd499fac2a6cf0de82ef8458a14b7169c71731a19a4006d279b169299dab8"
+  }
+]

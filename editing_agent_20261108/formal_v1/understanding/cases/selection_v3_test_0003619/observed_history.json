@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6813.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build, dark skin, and a neutral-to-smiling expression.",
+      "hairstyle": "Short brown hair with straight bangs and two small buns on top of her head.",
+      "hair_color": "Brown.",
+      "clothing": "A bright pink long-sleeved off-the-shoulder crop top and a light pink pleated skirt.",
+      "action": "She stands facing the camera, swaying slightly and shifting her weight, then turns her head to look over her left shoulder at the end.",
+      "camera": "A static, medium shot from the waist up, keeping the subject centered in the frame.",
+      "scene": "A futuristic, neon-lit environment at night, featuring a large glass dome structure with glowing teal rings and pink accents in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "893ac4359c363ca0c1fbce24b1e856efc4fafc40998fac3fa103256089988403"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_ce5762b0d35cbf88a2c6fdc4750d1c77f105b5f4ac696646c60819f897e193e3.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body shot from the side. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6803.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build, shown in profile and three-quarter views.",
+      "hairstyle": "Her hair is pulled up into a high bun with loose strands framing the face.",
+      "hair_color": "Reddish-brown hair.",
+      "clothing": "She wears a bright pink long-sleeve top with a dark patterned panel on the shoulder, a short white pleated skirt, and black lace-up platform boots.",
+      "action": "She stands still in profile, then begins walking forward with a steady stride, swinging her arms naturally.",
+      "camera": "A static full-body side view at a low angle, keeping the figure centered against the background.",
+      "scene": "A futuristic outdoor plaza with a glossy reflective floor, large dark domed buildings with glowing cyan and pink light strips, a tall tower, and a purple tram-like vehicle in the distance under a cloudy blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "4431fdb65e7c6cd7b27960bf896331379b6ee7e39a13ab252565290b3de718de"
+  }
+]

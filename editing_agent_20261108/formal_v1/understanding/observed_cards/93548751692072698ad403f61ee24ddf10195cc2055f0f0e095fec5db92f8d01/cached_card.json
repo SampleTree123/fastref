@@ -1,0 +1,15 @@
+{
+  "video_id": 4,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7152.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build, shown in profile and then from behind.",
+    "hairstyle": "Red hair tied up in a high bun with loose strands framing the face.",
+    "hair_color": "Red.",
+    "clothing": "A white one-piece romper with a floral print of purple, blue, and yellow flowers, three-quarter sleeves, and brown platform shoes.",
+    "action": "The character stands on a rooftop, turning from a side profile to face away from the camera, raising one arm to touch her hair, and shifting her weight.",
+    "camera": "A medium full shot from a slightly low angle that remains mostly static while the character rotates.",
+    "scene": "An outdoor city rooftop at dusk with tall buildings, construction cranes, and a neon sign in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "9020b74de5e19af572c654a0cea319d18b240c777587c409d533a6b39f372e18"
+}

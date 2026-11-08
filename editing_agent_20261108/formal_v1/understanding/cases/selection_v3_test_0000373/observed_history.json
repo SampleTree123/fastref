@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6046.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build, light brown skin, and a neutral facial expression.",
+      "hairstyle": "Short, spiky red hair styled upward.",
+      "hair_color": "Red.",
+      "clothing": "A sleeveless, patterned brown crop top and high-waisted, wide-leg green pants with a textured, leather-like appearance, paired with simple sandals.",
+      "action": "The woman stands facing the camera, then raises her right hand to touch her face and hair while placing her left hand on her hip, before lowering her arm and looking slightly to the side.",
+      "camera": "A static, medium-full shot from a slightly low angle, keeping the subject centered in the frame.",
+      "scene": "An outdoor amusement park setting at dusk, featuring a large Ferris wheel, a roller coaster, and a ticket booth with a pink and green color scheme in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "a517ebffbaa9b508cf0999fd0b8a857da2b3046c2faed9286e9a6b9ab2663a38"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_7cbea6c8d9ba558952c0710564fd76de714bea24a6a2012dcafcb1b50fbb69c6.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a rear-view dolly-in shot that moves from full-body to upper-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6050.mp4",
+    "observed": {
+      "identity": "A female-presenting 3D character with a slim build, seen from behind.",
+      "hairstyle": "Hair is pulled up into a high bun.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "She wears a sleeveless, patterned brown top and dark teal wide-leg trousers.",
+      "action": "The character stands in the center of a paved area, initially with arms at her sides, then raises her right hand to touch her hair before placing her hand on her hip and shifting her weight.",
+      "camera": "The camera is positioned behind the character at a low angle, slowly moving closer and slightly panning to the right.",
+      "scene": "The setting is a sunny, outdoor amusement park or fairground with a carousel on the left, a large ride structure on the right, and metal crowd-control barriers lining the walkway."
+    },
+    "uncertain": [],
+    "observation_identity": "3435cdf75f4c936912a446e05cb2b5da6d8710481b64a45b60a345cbc97037aa"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_6d9588cc349d7fdaaeb8fcb0fbc2cdaa65c9929412cabf3ef005b05167b0a79e.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from a front three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6056.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and light brown skin, shown from the thighs up.",
+      "hairstyle": "Red hair pulled back into a high ponytail with loose strands at the nape.",
+      "hair_color": "Red.",
+      "clothing": "A sleeveless, high-necked brown patterned crop top and green high-waisted trousers.",
+      "action": "She stands facing slightly right, then raises her right hand to her forehead and face, briefly covering her eyes, before lowering her arm and turning her head to look forward.",
+      "camera": "Static medium shot at roughly chest height, framing the subject from the thighs up.",
+      "scene": "An outdoor amusement park at dusk, with a swing ride and roller coaster on the left, a popcorn stand behind her, and a striped carousel with lights on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "157d80cf599c92066351e775072c176309b677b61109f57d5d489aecb999863c"
+  }
+]

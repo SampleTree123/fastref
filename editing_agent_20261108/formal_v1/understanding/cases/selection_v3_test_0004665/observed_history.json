@@ -1,0 +1,78 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7025.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, shown mostly from behind and in profile.",
+      "hairstyle": "Hair is styled into two high buns on top of the head with short bangs across the forehead.",
+      "hair_color": "Bright blue.",
+      "clothing": "A short, form-fitting blue-and-white patterned dress with three-quarter sleeves and an open back.",
+      "action": "The character stands on a street, turns her head and body, and repeatedly raises her arms to touch and adjust her hair buns.",
+      "camera": "Medium shot at roughly waist-to-head height, positioned behind and to the side of the character, with slight reframing as she moves.",
+      "scene": "A cobblestone city street lined with old-style brick and stone buildings, shop signs, awnings, and black lampposts."
+    },
+    "uncertain": [],
+    "observation_identity": "a282bca8900b7b0116ef937f38864639f419627568493840956a9584847d94d3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_113.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_4.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change only the person's one-piece garment to match the reference images. Leave the rest of the outfit and everything else in the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7024.mp4",
+    "observed": {
+      "identity": "A slender female character with light skin, shown mostly from behind and in profile.",
+      "hairstyle": "Hair is styled into two small buns on top of the head with a short fringe.",
+      "hair_color": "Bright blue.",
+      "clothing": "A short, form-fitting dress with a dark base covered in a colorful paisley and floral pattern in purple, pink, blue, and yellow.",
+      "action": "The character stands on a street, turning her body and raising her arms to adjust her hair buns.",
+      "camera": "Medium shot from behind at roughly waist-to-head height, with slight panning to follow the character's movement.",
+      "scene": "A cobblestone street lined with old-style brick and stone buildings, shop signs, and a black lamppost."
+    },
+    "uncertain": [],
+    "observation_identity": "888857dd325c4d540c71891aecac0fc35c98c0691a232de12ca6adb94f1e420f"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_651.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7039.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a medium build, shown mostly from behind and in profile.",
+      "hairstyle": "Hair is styled into two small buns on top of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "She wears a short, fitted dress with a blue-and-white ikat-style pattern, three-quarter sleeves, and an open back.",
+      "action": "The character stands and slowly turns, raising one arm to touch or adjust her hair while her other arm rests at her side or on her hip.",
+      "camera": "A medium shot from behind at roughly waist-to-head height, with the camera remaining mostly static as the subject rotates.",
+      "scene": "An outdoor stone terrace or rooftop beside a calm body of water under a clear, pale blue sky."
+    },
+    "uncertain": [
+      "The character's face is mostly turned away, so facial features are unclear."
+    ],
+    "observation_identity": "7b70e3b9253d701dc8523dda634756739f702df9f2c93c3fdc79b6f6aba0a3eb"
+  }
+]

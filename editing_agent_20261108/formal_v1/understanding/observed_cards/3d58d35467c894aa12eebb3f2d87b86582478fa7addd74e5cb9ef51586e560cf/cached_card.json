@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6141.mp4",
+  "observed": {
+    "identity": "A young Black man with a slim build and short facial hair is centered in the frame.",
+    "hairstyle": "His short hair is styled upward and swept back into a textured quiff.",
+    "hair_color": "His hair appears dark brown to black under the scene lighting.",
+    "clothing": "He wears a white ribbed tank top with wide shoulder straps.",
+    "action": "He looks around, turns his head to the side, and repeatedly brings his hand up to touch his chin and neck.",
+    "camera": "The camera holds a static medium close-up at eye level, keeping the subject centered.",
+    "scene": "He stands in a dark, futuristic interior with large glass windows, pink and blue neon lighting, and a glowing \"TRA\" sign in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "2f86c346fd7d34ad126edbcfb2d699e14136ce09de9f801a159366287f2bd722"
+}

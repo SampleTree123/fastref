@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6544.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a slender build, and a neutral-to-smiling expression.",
+      "hairstyle": "Bright blue hair with straight bangs and two low buns on either side of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A bright pink off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+      "action": "She faces the camera, then lowers her head and raises her right hand to brush her hair back, turning her back to the camera before turning to face forward again.",
+      "camera": "A static, eye-level medium close-up shot from the front.",
+      "scene": "An outdoor, sunlit industrial or dockyard area with weathered concrete ground, stacked wooden planks, a wooden boat hull, and stone buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "8e3351f66715b29a1a809fffaf2a7b82131e26b86c4233467043b4b1a295209f"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6532.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin and a slender build, shown from the chest up.",
+      "hairstyle": "Vivid blue hair styled in a high bun with loose strands framing the face.",
+      "hair_color": "Bright blue.",
+      "clothing": "A bright pink off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+      "action": "She looks forward, then lowers her head, raises her right hand to cover her face, turns her back to the camera, and finally turns back to face forward with a slight smile.",
+      "camera": "Static medium close-up at eye level, centered on the subject.",
+      "scene": "An outdoor industrial dock area with weathered concrete ground, stacked wooden planks, an overturned wooden boat, and rusty metal structures in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "70730b6f1e3918b17dd1811f085166e79697a8f951d7828e5d3a4d4300ef0d25"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_56.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6533.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with light skin, dark eyes, and a small mole on her left cheek.",
+      "hairstyle": "Vivid blue hair styled in a high, loose bun with wispy strands framing the face.",
+      "hair_color": "Bright blue.",
+      "clothing": "A bright pink, off-the-shoulder long-sleeved top with dark purple ribbon ties at the shoulders.",
+      "action": "She looks at the camera, then lowers her head, raises her right hand to brush her hair and face, turns her back to the camera, and finally turns back to face forward with a slight smile.",
+      "camera": "A static, eye-level medium close-up shot from the front.",
+      "scene": "An outdoor, sunlit industrial or dockyard area with weathered stone walls, wooden crates, planks, and an overturned wooden boat in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "d250de936b1945917093a787284db3f0441cf95f6a3e6150513155eb514d1caf"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to white?",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6515.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with light brown skin, dark eyes, and a small mole on her left cheek.",
+      "hairstyle": "White hair styled in a high, messy bun secured with a brown band.",
+      "hair_color": "White.",
+      "clothing": "A bright pink, long-sleeved off-the-shoulder top with dark purple ribbon ties at the shoulders.",
+      "action": "The woman looks at the camera, then lowers her head and raises her right hand to touch her face and neck before turning her head away and back.",
+      "camera": "A static, medium close-up shot at eye level.",
+      "scene": "An outdoor, sunlit area with stone paving, scattered wooden planks, and a large wooden boat hull in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "a9680662e3e4e2ebd390b3016f52e28f295ba4a16dda7a4b832bc0aeddc1aa46"
+  }
+]

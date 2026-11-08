@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6901.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind, with tanned skin.",
+      "hairstyle": "Her hair is pulled up into a loose, messy bun at the back of her head.",
+      "hair_color": "Her hair is light brown.",
+      "clothing": "She wears a short, white romper with a floral pattern of pink and yellow flowers and green leaves, featuring a low open back and three-quarter sleeves, along with pink flat sandals.",
+      "action": "The woman stands with her back to the camera, initially with arms at her sides, then places her hands on her hips and shifts her weight, before lowering her arms again.",
+      "camera": "The camera is positioned behind the subject at a medium-long distance, remaining mostly static with slight movement as the subject shifts.",
+      "scene": "The setting is an outdoor urban rooftop or plaza with a paved surface, a metal structure with a loudspeaker on the left, and tall city buildings with signage in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "a0d24301e5b1bf47763183f7d357360877a93c5a3dfb8514a6e7ea07b0bdd41b"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Let's change the person's hair color to red.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6917.mp4",
+    "observed": {
+      "identity": "A slim female character with a tanned complexion, shown from behind.",
+      "hairstyle": "Short, tousled hair that is flipped up at the back.",
+      "hair_color": "Bright orange-red.",
+      "clothing": "A short, white romper with a floral print of pink and yellow flowers and green leaves, featuring a low open back and three-quarter sleeves, paired with pink flat sandals.",
+      "action": "The character stands with her back to the camera, then turns her head to the right and places both hands on her hips in a pose before relaxing her arms.",
+      "camera": "A medium full shot from behind the character, with the camera slowly pulling back to reveal more of the legs and the surrounding area.",
+      "scene": "An outdoor urban rooftop or plaza at dusk, featuring a metal tower structure with a loudspeaker on the left and tall city buildings with illuminated signs in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "3e060fe9de3a64a3b5794f4e453a8f4f59d2ac90ad0719f61bb7382fb0f52939"
+  }
+]

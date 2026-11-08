@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6060.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and a neutral facial expression.",
+      "hairstyle": "Her hair is cut very short and close to the scalp.",
+      "hair_color": "Her hair is dyed a bright red color.",
+      "clothing": "She wears a pink and white gingham corset-style top with white ruffled off-the-shoulder sleeves, a black and white asymmetrical skirt, and light blue sneakers.",
+      "action": "She begins standing still, then raises her arms and begins to dance, moving her arms and torso rhythmically before returning to a standing pose.",
+      "camera": "The camera is at a low angle, framing her from the knees up, and slowly zooms in as she dances.",
+      "scene": "She stands in an open paved area in front of a colorful amusement park with a large swing ride and a ticket booth visible in the background under a sunset sky."
+    },
+    "uncertain": [],
+    "observation_identity": "38204a07a6f01c0b0a89b98ae91ce5a4da32ded49622bf62da5972a73afcc748"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_b1eee045c78e4a3269394d56f307e03696ae94fdf666023d1b5355222174283d.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to an upper-body shot from a front three-quarter angle. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6080.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with dark skin and a slim build, shown from the thighs up.",
+      "hairstyle": "Short hair with a high ponytail tied at the back of the head.",
+      "hair_color": "Bright red.",
+      "clothing": "A pink-and-white gingham sleeveless top with white ruffled off-shoulder sleeves and a black skirt.",
+      "action": "She stands facing slightly right, then raises both arms overhead and swings them in a dance-like motion before lowering them and returning to a standing pose.",
+      "camera": "Static medium shot at roughly chest height, framing the subject centered with the background visible on both sides.",
+      "scene": "An outdoor amusement park at dusk, with a swing ride and roller coaster on the left, a popcorn cart behind her, and a striped carousel-style structure with lights on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "033b3bb792d28622f098b84e48faade0e11d723ea48fd52e7df5bf1bac505ff3"
+  }
+]

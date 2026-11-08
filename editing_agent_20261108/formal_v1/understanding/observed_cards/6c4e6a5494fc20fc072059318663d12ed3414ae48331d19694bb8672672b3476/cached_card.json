@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6406.mp4",
+  "observed": {
+    "identity": "A slender female 3D character with a slim build, seen mostly from behind and in profile.",
+    "hairstyle": "Short, tousled hair that is swept up and away from the face.",
+    "hair_color": "White.",
+    "clothing": "A sleeveless dark patterned crop top, a brown patterned belt, loose light-gray wide-leg pants, and open-toed heeled sandals.",
+    "action": "The character stands with her back to the camera, raises one hand to her head, places the other on her hip, then turns slightly to a side profile while keeping a hand near her hair.",
+    "camera": "A static, low-angle full-body shot from behind the character.",
+    "scene": "An outdoor amusement park at sunset, with a red swing ride on the left, a carousel structure with lights on the right, and a small popcorn stand in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "907aaf5c047262481d2b2c70db71c7ad08df05887c03f8c476fad17b11f7565f"
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5998.mp4",
+    "observed": {
+      "identity": "A 3D-rendered Black man with a slim build, shown in profile and then from behind and front as he turns.",
+      "hairstyle": "Short, curly hair styled in a small topknot or bun at the back of the head.",
+      "hair_color": "White or platinum blonde.",
+      "clothing": "White sleeveless tank top with a pink graphic print on the front, pink-and-white striped shorts, and pink slip-on shoes.",
+      "action": "The man stands in the street, raises one arm to scratch or touch his head, places the other hand on his hip, then turns to face the camera while continuing to touch his head.",
+      "camera": "Medium full shot at roughly eye level, mostly static with a slight pull-back to reveal more of the lower body and street.",
+      "scene": "A cobblestone city street lined with old stone and brick buildings, black lamp posts, bollards, a hanging Union Jack flag, and a sign reading 'A. GORDON WOMEN'S FASHION SALON'."
+    },
+    "uncertain": [],
+    "observation_identity": "9f02f84b3b248bb015b5ff872d9dce531365ed8e7a7645e2e9cc47a667981334"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_f813e9fa04f99e1e7529b1f69196611ef978537821268f2a7a37b54eb69c9d87.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a side-view dolly-in shot that moves from full-body to upper-body framing. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6005.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned person with a narrow build, seen mostly from behind.",
+      "hairstyle": "Hair is pulled up into a small topknot bun at the crown of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A white sleeveless tank top with a pink graphic on the lower back, pink shorts, and pink slip-on shoes.",
+      "action": "The person stands on a cobblestone street, then raises one arm to touch and adjust the hair at the back of the head while the other hand rests on the hip, turning slightly.",
+      "camera": "A medium full-body shot from behind at roughly eye level, with a slow push-in toward the subject.",
+      "scene": "An old European-style street with a cobblestone road and a dark storefront facade bearing gold lettering such as 'SOAP' and 'COCOA POWDER'."
+    },
+    "uncertain": [
+      "The person's face is not visible, so facial features and gender are unclear.",
+      "The exact graphic on the back of the tank top is unclear."
+    ],
+    "observation_identity": "3359b1c2a09eb64109b06a87bb5f64e53eb1a3d4a17566da07ad296e8fbadb90"
+  }
+]

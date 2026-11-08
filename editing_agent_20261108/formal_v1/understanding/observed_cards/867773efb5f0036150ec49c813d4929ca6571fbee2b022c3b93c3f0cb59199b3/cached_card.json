@@ -1,0 +1,15 @@
+{
+  "video_id": 4,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6759.mp4",
+  "observed": {
+    "identity": "A Black person with a slim build, shown in profile facing right.",
+    "hairstyle": "Short hair with a small bun at the back of the head.",
+    "hair_color": "Bright red.",
+    "clothing": "White plaid button-up shirt with sleeves rolled to the elbows, black suspenders, and tan-and-black plaid trousers with black shoes.",
+    "action": "The person stands still, then raises both arms overhead and swings them down in a stretching or dancing motion before returning to a standing pose.",
+    "camera": "Full-body side view at a low angle; the camera slowly pushes in to a medium shot of the upper body.",
+    "scene": "An outdoor paved road with a white lane line, a metal guardrail, and a rocky hillside with green trees and shrubs under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "fc3d4176d698107fbfdc7bb66181cb87ab3d36a33f7d7af578522f606262dd98"
+}

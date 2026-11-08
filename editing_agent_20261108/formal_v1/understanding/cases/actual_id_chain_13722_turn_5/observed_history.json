@@ -1,0 +1,129 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6282.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, shown from behind and in profile.",
+      "hairstyle": "Short, straight hair with a small ponytail or bun at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "A sleeveless, patterned crop top with a wide brown belt, light gray high-waisted pants, and dark brown boots.",
+      "action": "The character stands on a tiled rooftop, slowly turning in a circle while raising one hand to touch her hair.",
+      "camera": "A medium full shot that orbits around the character, keeping her centered in the frame.",
+      "scene": "A stylized, futuristic city rooftop with large buildings, neon signs with Japanese text, and a bright, sunny sky."
+    },
+    "uncertain": [],
+    "observation_identity": "39b4cc22b80e6d4be515723294f6db270d96367a36d8b8d989e61fff007692a3"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to pink.",
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to pink.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6263.mp4",
+    "observed": {
+      "identity": "A slender 3D-rendered female character with a stylized anime-like face and visible earpiece.",
+      "hairstyle": "Short, straight hair with a blunt bangs and side-swept fringe.",
+      "hair_color": "Pink with purple/violet tones.",
+      "clothing": "A sleeveless, patterned halter crop top with a wide brown belt, light gray high-waisted trousers, and dark brown boots.",
+      "action": "The character stands on a tiled rooftop, slowly turning in a circle while holding one hand to her head and the other on her hip.",
+      "camera": "A medium full shot that orbits around the character at a low angle, keeping her centered in the frame.",
+      "scene": "A futuristic city rooftop with large industrial structures, metal railings, and distant skyscrapers featuring Japanese signage."
+    },
+    "uncertain": [],
+    "observation_identity": "e95a42a0f6bb4967bcd51e14bc20e388ee808175f91e0c5965592470ffc9fc04"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6283.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, shown in profile and from behind.",
+      "hairstyle": "Short hair with a small bun or ponytail at the back of the head.",
+      "hair_color": "Reddish-pink with darker purple tones.",
+      "clothing": "A sleeveless patterned crop top, light gray high-waisted pants, and dark brown boots.",
+      "action": "The character stands on a tiled rooftop, slowly turning in place while raising one hand to her head and resting the other on her hip.",
+      "camera": "A medium full-body shot that orbits around the character at a low angle.",
+      "scene": "A stylized city rooftop with tiled flooring, surrounded by buildings, cranes, and Japanese signage under warm sunlight."
+    },
+    "uncertain": [],
+    "observation_identity": "d87478662ffae48925917378cef8320455858f51d5b9c6f4f3ed2793e12e699d"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_488.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6265.mp4",
+    "observed": {
+      "identity": "A slender female character with a stylized, cartoon-like appearance.",
+      "hairstyle": "Short, spiky hair tied back in a small ponytail.",
+      "hair_color": "Pink.",
+      "clothing": "A dark, patterned sleeveless crop top, light gray wide-leg pants, a brown belt, and dark strappy sandals.",
+      "action": "The character stands in the center of an open area, slowly turning her body and head to look around the surroundings.",
+      "camera": "A medium full shot that orbits around the character, keeping her centered while the background shifts.",
+      "scene": "An outdoor amusement park or fairground at dusk, featuring a large Ferris wheel, a carousel, and various colorful stalls and signs."
+    },
+    "uncertain": [],
+    "observation_identity": "1e3a1de57bc0fd11181ab8c26e7a39dafd9ae678586797df5afab9a2d40541a3"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_9.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_61.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6251.mp4",
+    "observed": {
+      "identity": "A slender woman with a slim build and fair skin.",
+      "hairstyle": "Short, cropped hair with a side part.",
+      "hair_color": "Pink.",
+      "clothing": "A dark, patterned sleeveless crop top, high-waisted light gray wide-leg pants, a brown belt, and dark strappy sandals.",
+      "action": "The woman stands in the center of an open paved area, slowly turning her body and head while raising one hand to touch her hair.",
+      "camera": "A medium full shot that orbits around the woman, keeping her centered in the frame.",
+      "scene": "An outdoor amusement park or fairground at dusk, featuring a large Ferris wheel, a carousel, and various colorful stalls and signs."
+    },
+    "uncertain": [],
+    "observation_identity": "559a270b375c9ffb1dcefabd4ed9100eb383d0cd99d48fcd45b0fd51393eed41"
+  }
+]

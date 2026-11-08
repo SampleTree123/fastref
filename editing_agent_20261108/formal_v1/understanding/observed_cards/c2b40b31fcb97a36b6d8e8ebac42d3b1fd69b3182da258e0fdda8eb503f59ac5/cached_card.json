@@ -1,0 +1,18 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6600.mp4",
+  "observed": {
+    "identity": "A slender adult with a short beard, shown in a 3D-rendered style.",
+    "hairstyle": "Hair is pulled up into a small topknot bun at the crown of the head.",
+    "hair_color": "Dark, appearing black or very dark brown under the lighting.",
+    "clothing": "Wears a long-sleeved orange sweater with a cream diamond lattice pattern, purple cropped pants, and brown lace-up shoes.",
+    "action": "The person stands in place, slowly turning from facing forward to a side profile and back, briefly raising a hand toward the face and then crossing the arms.",
+    "camera": "Static high-angle full-body shot from above and slightly in front, keeping the figure centered.",
+    "scene": "A large, glossy reflective floor with blue and pink ambient lighting, with a raised tiled platform edge visible in the upper left."
+  },
+  "uncertain": [
+    "Exact hair color is hard to confirm due to strong colored lighting",
+    "Whether the setting is a real location or a virtual environment is unclear, though the rendering style suggests 3D"
+  ],
+  "observation_identity": "eefc1bb0d0335ff1f72fb90e825007ab2cc9ff6f748e42b8e25cbdc382849e0e"
+}

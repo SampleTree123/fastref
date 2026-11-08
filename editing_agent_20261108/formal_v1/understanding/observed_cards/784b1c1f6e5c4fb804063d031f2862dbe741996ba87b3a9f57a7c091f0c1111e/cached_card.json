@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7162.mp4",
+  "observed": {
+    "identity": "A slender 3D-rendered female character with a pale complexion and a small, neutral face.",
+    "hairstyle": "A short, straight white bob with blunt bangs covering the forehead.",
+    "hair_color": "White.",
+    "clothing": "A short, black-and-white houndstooth-patterned dress with a V-neck, elbow-length sleeves, and a low back, paired with reddish-brown flat shoes.",
+    "action": "The character stands still, then slowly turns her body to the right while raising her right hand to touch her head, ending in a side profile.",
+    "camera": "A full-body shot at a low angle that slowly orbits around the character from the front to her right side.",
+    "scene": "An outdoor, futuristic city plaza with tiled and gravel ground, surrounded by industrial buildings, metal towers, and neon signs under a clear blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "1084cacfaf789a5474167b8df926d03d24cd512479d2b8a9b23a51dd92c68878"
+}

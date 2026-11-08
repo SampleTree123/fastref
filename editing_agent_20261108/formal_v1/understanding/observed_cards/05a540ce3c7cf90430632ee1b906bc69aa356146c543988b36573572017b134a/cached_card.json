@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6965.mp4",
+  "observed": {
+    "identity": "A Black man with a short beard and mustache, shown from the thighs up.",
+    "hairstyle": "Short, dark hair with a slightly raised, textured top.",
+    "hair_color": "Black.",
+    "clothing": "A red-and-black checkered three-piece suit (jacket, waistcoat, trousers) over a white dress shirt with a black necktie.",
+    "action": "He stands facing the camera, then slowly turns his head to his left to look off-screen.",
+    "camera": "A static, medium shot at roughly eye level framing the subject from the thighs up.",
+    "scene": "A futuristic setting with a large glass dome, glowing teal ring lights, and pink structural framing under a blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "641a6eb38dc47543ae1a54e8b02bb0d1fa9ba00b55b083a5e1d8b4b238eb5890"
+}

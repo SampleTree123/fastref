@@ -1,0 +1,101 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7194.mp4",
+    "observed": {
+      "identity": "A young adult with a slim build and tanned skin, shown in profile facing right.",
+      "hairstyle": "Short, faded sides with a long, bright blue ponytail tied at the back of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A light gray and white plaid button-up shirt with rolled sleeves, dark plaid pants, and a brown leather strap across the chest.",
+      "action": "The person stands still, then raises their right arm to brush their hair back before lowering it and returning to a standing pose.",
+      "camera": "A static, medium shot from the side at eye level.",
+      "scene": "An outdoor paved area with a metal guardrail, a rocky hillside, green trees, and a bright sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "d110b966e152e31bb2a0bdafdcf9bdcb6650bcea7c6022ba345c8507f9854292"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_478.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_370.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7186.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a tanned complexion, shown in profile and three-quarter views.",
+      "hairstyle": "Short on the sides with a long, thick ponytail tied at the back of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A dark, textured long-sleeved jacket with a high collar, white trim, and tan patches, worn over dark pants with a wide belt.",
+      "action": "The character stands mostly still, then raises a hand to touch the face and neck area before lowering the arm again.",
+      "camera": "A static medium shot from the side, keeping the character centered against the background.",
+      "scene": "An outdoor paved area with a metal guardrail, rocks, green trees, and a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "b61c5e0c7739731aee1594093485d0e87bc75e270243eb9d1dbe5afca39faa9a"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_9285c2e8c41dc2dd82d63aeb0225135b3d08de22b3eab16850db584574d12139.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a rear-view dolly-in shot that moves from full-body to upper-body framing. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7178.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, shown from behind.",
+      "hairstyle": "Hair is pulled up into a high ponytail.",
+      "hair_color": "Bright blue.",
+      "clothing": "A dark, textured long-sleeved jacket and matching trousers with a black belt and white side stripes, with tan patches on the back and legs.",
+      "action": "The character stands on the road, then turns and walks forward while the camera follows from behind.",
+      "camera": "A third-person rear view that tracks the character as they move, gradually getting closer.",
+      "scene": "An outdoor paved road under a blue sky, with a street lamp, guardrail, and autumn-colored trees in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "faceba920920b1e5a87ee4dc3a58978a68f1144d2458877a19a0ec103b8eed84"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_732.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7188.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a medium-brown complexion, shown in profile and from behind.",
+      "hairstyle": "Bright blue hair pulled back into a high ponytail with a shaved or closely cropped side.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A dark, textured long-sleeved tunic with a high collar, a wide black belt, and tan patches on the sleeves and back.",
+      "action": "The character stands and slowly turns in place, rotating from a side profile to a back view and then back toward the side.",
+      "camera": "A static medium shot at roughly chest height, keeping the character centered against the background.",
+      "scene": "An outdoor paved area with a metal guardrail, a wire fence, large rocks, green trees, and a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "14658cfebf4ea5541e0f256bf6d64e5386bbc056694776be27cf692a91753d7f"
+  }
+]

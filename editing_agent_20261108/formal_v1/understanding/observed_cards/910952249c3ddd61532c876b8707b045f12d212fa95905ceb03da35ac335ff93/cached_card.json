@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6161.mp4",
+  "observed": {
+    "identity": "A 3D-rendered person with a slim build, seen mostly from behind and the side.",
+    "hairstyle": "Short dark hair, slightly tousled at the back of the head.",
+    "hair_color": "Black.",
+    "clothing": "White short-sleeved button-up shirt with dark suspenders, black-and-white checkered trousers, and dark shoes.",
+    "action": "The person stands still, then walks slowly forward and slightly to the right across the open floor.",
+    "camera": "A static, low-angle full-body shot keeps the character centered in the frame.",
+    "scene": "A futuristic outdoor plaza with a glossy reflective floor, a large domed building with glowing teal rings on the left, and a tall white building with blue-lit windows on the right."
+  },
+  "uncertain": [],
+  "observation_identity": "05db6cfca5ce4b7e71dc645644d47fb7a0bb4e474fa34d9c5186e4345e1062fa"
+}

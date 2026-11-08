@@ -1,0 +1,88 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6555.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult woman with a medium build and brown skin, shown in profile.",
+      "hairstyle": "Her hair is pulled back into a high bun.",
+      "hair_color": "Her hair is reddish-brown.",
+      "clothing": "She wears a light blue patterned knit sweater, dark blue jeans, and brown lace-up shoes.",
+      "action": "She stands in profile, then turns toward the camera, raises both hands to her face, and lowers them again.",
+      "camera": "A static medium full shot at eye level keeps the woman centered in the frame.",
+      "scene": "She stands on a paved plaza in front of a covered amusement-park structure with rows of white lights, a red and yellow striped train, and a striped awning, under a warm sunset sky."
+    },
+    "uncertain": [],
+    "observation_identity": "5d497ecd555ee77763eb924cc476b7ae1ac1c74a3e14f98847601418f90a0b5f"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_8b910fe64dc7b97b32ab0f867f917583c6bffb0168dd1079d39347b1a34f9eae.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a high-angle full-body shot looking down from a front three-quarter view. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6562.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult woman with a medium build and light brown skin stands in the center of the frame.",
+      "hairstyle": "Her hair is pulled up into a small top-knot bun.",
+      "hair_color": "Her hair is light brown.",
+      "clothing": "She wears a light blue cable-knit sweater, gray pants, and brown lace-up shoes with light socks.",
+      "action": "She stands mostly still, then briefly raises her right hand to her chest and face before lowering it and returning to a relaxed standing pose.",
+      "camera": "The camera holds a static high-angle full-body shot from the front-left, with the character's long shadow cast to the left.",
+      "scene": "The setting is an open sandy or dirt ground with a building edge and a red cart visible in the upper background under warm sunlight."
+    },
+    "uncertain": [],
+    "observation_identity": "5e42bba126ad5fe67b7990685986ad7d22a88d224b8080ed762a19034646a7ba"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_285.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to lowering their head and resting one hand on their forehead, following the demonstration in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6566.mp4",
+    "observed": {
+      "identity": "A young adult woman with a slim build and light skin, shown in profile and three-quarter views.",
+      "hairstyle": "Her hair is pulled up into a small topknot or bun at the crown of her head.",
+      "hair_color": "Her hair is reddish-brown.",
+      "clothing": "She wears a light blue cable-knit sweater, dark blue jeans, and brown lace-up boots.",
+      "action": "She stands still, then raises both hands to her head and rubs her temples and hair before lowering her arms and looking down.",
+      "camera": "The camera is at a low angle, framing her from the shins up, and slowly pushes in to a medium shot as she moves.",
+      "scene": "She stands on a paved area in front of a red and blue amusement park carousel with a striped canopy and rows of lights, under a warm sunset sky."
+    },
+    "uncertain": [],
+    "observation_identity": "3e3b68e83c31564dc3705baf9f9e383b3f05a0b0e5b7c7aa960186735badca2a"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to pink?",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6584.mp4",
+    "observed": {
+      "identity": "A slim adult figure with a light skin tone, shown in profile and three-quarter views.",
+      "hairstyle": "Short hair with a small topknot or bun at the crown.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A light blue and white patterned knit sweater, dark blue jeans, and brown lace-up boots.",
+      "action": "The figure stands still, then raises both hands to the head and rubs the scalp and face before lowering the arms and standing again.",
+      "camera": "A static, low-angle full-body shot that slowly pushes in to a medium shot of the upper body.",
+      "scene": "An outdoor amusement park or boardwalk at dusk, with a red and blue carousel train, a striped awning, and a covered pavilion with rows of lights in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "f2129ea3e6e649df652a9d99a2bdbd9435494b1da4761a77ebbfd0503303b1fc"
+  }
+]

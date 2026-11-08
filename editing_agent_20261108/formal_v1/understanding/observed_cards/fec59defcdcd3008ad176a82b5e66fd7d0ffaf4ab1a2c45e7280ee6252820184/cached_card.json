@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6293.mp4",
+  "observed": {
+    "identity": "A slender female character with a low back, shown from behind.",
+    "hairstyle": "Hair is pulled up into a high bun with loose strands at the nape.",
+    "hair_color": "Deep blue.",
+    "clothing": "A blue and white patterned dress with an open back and short sleeves.",
+    "action": "The character stands with her back to the camera, then raises her right arm to brush her hair back before lowering it.",
+    "camera": "A static, medium shot from behind the character at eye level.",
+    "scene": "An outdoor amusement park or boardwalk with a carousel, a red food cart, and a large marquee with lights in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "1c7d71517ddbe6f5fc0fe4b7f84283591024a2ca884fd253fdc9e33776e4500d"
+}

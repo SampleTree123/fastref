@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6049.mp4",
+    "observed": {
+      "identity": "A female-presenting 3D character with a slim build, seen from behind.",
+      "hairstyle": "Hair is pulled up into a high bun.",
+      "hair_color": "Reddish-brown hair.",
+      "clothing": "She wears a sleeveless black-and-white patterned top and dark teal high-waisted wide-leg pants.",
+      "action": "The character stands in the center of a plaza, then turns her head and body slightly while placing a hand on her hip.",
+      "camera": "A static, low-angle medium shot from behind the character.",
+      "scene": "A sunny outdoor amusement park or fairground with a carousel on the left, a wooden building on the right, and metal crowd-control barriers lining the paved area."
+    },
+    "uncertain": [],
+    "observation_identity": "83f4912cd485ffe8de42e11e2e0919dd1435eb140874b2b9071b34167bcfe9ea"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_363.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to posing for a photo, following the demonstration in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6067.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, shown in profile and then from behind.",
+      "hairstyle": "Hair is pulled back into a high ponytail with a few loose strands at the nape.",
+      "hair_color": "Bright red.",
+      "clothing": "She wears a sleeveless white top with a black geometric pattern, a black choker, and dark green high-waisted wide-leg trousers.",
+      "action": "The character stands in an open plaza, raises one hand to touch her ponytail, then turns her body so her back faces the camera.",
+      "camera": "A low-angle, medium full shot that slowly moves closer and slightly orbits around the character.",
+      "scene": "A sunny outdoor fairground or amusement park with a carousel on the left, a wooden building on the right, and a large circular ride in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "4fa9ee20a4164ac69208c9209146b4ddb024024b1343c0725b30a8c808d98d33"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_445.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_204.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's top with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6050.mp4",
+    "observed": {
+      "identity": "A female-presenting 3D character with a slim build, seen from behind.",
+      "hairstyle": "Hair is pulled up into a high bun.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "She wears a sleeveless, patterned brown top and dark teal wide-leg trousers.",
+      "action": "The character stands in the center of a paved area, initially with arms at her sides, then raises her right hand to touch her hair before placing her hand on her hip and shifting her weight.",
+      "camera": "The camera is positioned behind the character at a low angle, slowly moving closer and slightly panning to the right.",
+      "scene": "The setting is a sunny, outdoor amusement park or fairground with a carousel on the left, a large ride structure on the right, and metal crowd-control barriers lining the walkway."
+    },
+    "uncertain": [],
+    "observation_identity": "3435cdf75f4c936912a446e05cb2b5da6d8710481b64a45b60a345cbc97037aa"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: The person currently has red hair; please change it to chestnut brown.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6069.mp4",
+    "observed": {
+      "identity": "A slender woman with a slim build, seen from behind in a 3D-rendered video game scene.",
+      "hairstyle": "Her hair is pulled up into a high, slightly messy bun.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a sleeveless, patterned brown and orange top and dark teal wide-leg trousers.",
+      "action": "The woman stands in the center of a wide paved area, initially facing away, then turns her head and upper body to the left before turning back to face forward.",
+      "camera": "The camera is positioned behind the woman at a medium distance, remaining mostly static with slight movement as she turns.",
+      "scene": "The setting is a sunny outdoor amusement park or fairground with a carousel on the left, a large circular ride on the right, and various stalls and fences in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "ce93af9a00176fd31adfa2b2ce499cfc646c31ed54ca1231164ddb2302470d93"
+  }
+]

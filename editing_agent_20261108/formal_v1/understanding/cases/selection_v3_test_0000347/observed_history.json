@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6044.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned woman with a youthful face stands centered in the frame.",
+      "hairstyle": "Her hair is pulled up into a high, spiky red topknot with a few loose strands at the nape.",
+      "hair_color": "Bright red.",
+      "clothing": "She wears a white off-the-shoulder top with puffed sleeves, a pink-and-white gingham corset-style bodice, a split black-and-white skirt, and light blue sneakers.",
+      "action": "She begins standing still, then turns and poses, raising one hand to her face and hip while shifting her stance.",
+      "camera": "A medium full-body shot at eye level; the camera slowly pushes in and tilts slightly as she moves.",
+      "scene": "An outdoor amusement park at dusk with a large red-and-white swing ride, a 'Tickets' booth, and a 'Rollercoaster' sign in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "8329e9c80f5aa0b32346b1737b174402681d348625e6aa422357fe0f97106663"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_152.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to posing for a photo, as demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6052.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build, shown in a 3D animated style.",
+      "hairstyle": "Red hair pulled back into a high ponytail with a white hair tie.",
+      "hair_color": "Red.",
+      "clothing": "She wears a pink-and-white gingham corset-style top with white off-the-shoulder puff sleeves, a black mini skirt, and light blue sneakers.",
+      "action": "She begins standing in profile, then turns toward the camera while posing, placing a hand on her hip and raising the other arm to touch her hair and face.",
+      "camera": "A medium full-body shot at eye level that slowly pushes in and pans slightly to follow her as she turns.",
+      "scene": "An outdoor amusement park at dusk, with a large Ferris wheel, a roller coaster, and a red 'Tickets' booth in the background under a warm orange sky."
+    },
+    "uncertain": [],
+    "observation_identity": "204bae679c5eb14e90b310469063b067101adcde6ba25d8a6ae335419328fed3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_223.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6060.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and a neutral facial expression.",
+      "hairstyle": "Her hair is cut very short and close to the scalp.",
+      "hair_color": "Her hair is dyed a bright red color.",
+      "clothing": "She wears a pink and white gingham corset-style top with white ruffled off-the-shoulder sleeves, a black and white asymmetrical skirt, and light blue sneakers.",
+      "action": "She begins standing still, then raises her arms and begins to dance, moving her arms and torso rhythmically before returning to a standing pose.",
+      "camera": "The camera is at a low angle, framing her from the knees up, and slowly zooms in as she dances.",
+      "scene": "She stands in an open paved area in front of a colorful amusement park with a large swing ride and a ticket booth visible in the background under a sunset sky."
+    },
+    "uncertain": [],
+    "observation_identity": "38204a07a6f01c0b0a89b98ae91ce5a4da32ded49622bf62da5972a73afcc748"
+  }
+]

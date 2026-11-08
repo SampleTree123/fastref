@@ -1,0 +1,100 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6651.mp4",
+    "observed": {
+      "identity": "A slender woman with a tanned complexion, seen from behind with her face mostly turned away.",
+      "hairstyle": "Her hair is pulled back into two small low buns at the nape of her neck.",
+      "hair_color": "Vivid blue.",
+      "clothing": "She wears a black-and-white houndstooth dress with a low open back, a cutout at one shoulder, and elbow-length sleeves.",
+      "action": "She stands and slowly turns her body and head toward the water, with slight shifts in posture over the clip.",
+      "camera": "A medium shot from behind at roughly head height, with a slow subtle drift/pan as the subject turns.",
+      "scene": "An outdoor stone terrace or platform beside a calm body of water under a clear pale blue sky."
+    },
+    "uncertain": [
+      "The exact location and whether the setting is real or rendered/CGI is unclear.",
+      "Her facial features are not visible since she is shown from behind."
+    ],
+    "observation_identity": "2705610eb8f3d7ecbd4bbfa261f9e1d80c78c94ddf9e8f5130ada9cccd95a5b3"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to blonde.",
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to blonde.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6667.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind, with her face not visible.",
+      "hairstyle": "Blonde hair is pulled back into two low buns at the nape of her neck.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a black-and-white houndstooth dress with a low open back, a cutout at one shoulder, and three-quarter sleeves.",
+      "action": "The woman stands facing the water, turning her head slightly and shifting her weight as she looks out over the sea.",
+      "camera": "A medium shot from behind the subject, with the camera slowly panning and tilting to follow her slight movements.",
+      "scene": "An outdoor coastal setting with a stone or concrete platform, a low railing, and a calm sea stretching to the horizon under a clear, pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e9455f036ae60215c9e15af02950b72ea044a02b3a0471b3aeb32a125d749bf4"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6678.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind and in profile, with tanned skin.",
+      "hairstyle": "Her hair is pulled back into a loose, slightly messy ponytail with wispy strands at the nape.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a black-and-white houndstooth dress with a low open back, a cutout at the shoulder, and three-quarter sleeves.",
+      "action": "She stands facing the water, then slowly turns her head and upper body to the right, looking out toward the horizon.",
+      "camera": "A medium shot from behind at roughly eye level, with a slow, subtle pan that follows her slight turn.",
+      "scene": "An outdoor coastal setting with a calm sea and clear sky, on a stone or concrete platform with a low railing and rocks at the water's edge."
+    },
+    "uncertain": [],
+    "observation_identity": "fcd11b5d27ac6a11e31fe3589ece93d88ef22741c3f1e72a87a34a89d46db3f5"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_373.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6683.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind, with fair skin on her back and arms.",
+      "hairstyle": "Blonde hair gathered into a high, slightly messy ponytail with loose strands at the nape.",
+      "hair_color": "Bright yellow-blonde.",
+      "clothing": "A black-and-white houndstooth dress with a low open back, cut-out shoulders, and elbow-length sleeves.",
+      "action": "She walks slowly forward and slightly turns her body, swinging her arms naturally as she moves.",
+      "camera": "A medium shot from behind at roughly head height, tracking closely as she advances down the road.",
+      "scene": "An outdoor paved road on a sunny day, bordered by a metal guardrail, green trees, a street lamp, and a blank billboard in the distance under a blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "83941a0a09fee8e06d0c80dc42fb1440fc94113b95b206a51a9cc6c63397ae8b"
+  }
+]

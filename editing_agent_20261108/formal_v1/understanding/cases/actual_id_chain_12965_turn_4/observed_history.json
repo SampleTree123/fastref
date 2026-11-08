@@ -1,0 +1,110 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7177.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind.",
+      "hairstyle": "A blue ponytail tied at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A dark, tattered suit jacket and matching trousers with a black belt and black shoes.",
+      "action": "The character stands still, then raises both arms in a cheering or dancing motion before returning to a standing pose.",
+      "camera": "A static, medium-full shot from behind the character at a slightly low angle.",
+      "scene": "An outdoor paved road or parking area with a guardrail, trees with yellow and green leaves, and a blue sky with clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "dda0e74d6bbc01490e08eb02cb004414168b62ab707903e8980886785f76550f"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from the side. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_6baa2e29f4b1055473614ebca7575cb1e1e7309411551fbdf45e86d14bcda5fe.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from the side. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7179.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark complexion and a short beard, shown in profile and three-quarter views.",
+      "hairstyle": "Bright blue hair is shaved on the sides and gathered into a high ponytail at the back of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "He wears a dark, textured long-sleeved jacket with a high collar, white trim, and a wide black belt, with tan patches where the fabric appears torn.",
+      "action": "The character stands on an asphalt road, then raises both arms overhead and tilts his head back before lowering his arms and turning his body.",
+      "camera": "A medium shot from the side at roughly waist height, with the camera remaining mostly stationary as the character moves.",
+      "scene": "An outdoor roadside setting with a metal guardrail, a chain-link fence, large rocks, green trees, and a bright sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "31e0b3b63c03593bf125d82a3ec5481101308761d730ee4572a3e2b6ce84ff73"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_462.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_157.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7189.mp4",
+    "observed": {
+      "identity": "A young person with a tanned complexion, shown in profile and three-quarter views.",
+      "hairstyle": "Hair is shaved on the sides and back, with the top pulled into a high ponytail.",
+      "hair_color": "Bright blue.",
+      "clothing": "A light gray and white plaid button-up shirt with rolled sleeves, dark plaid pants, and brown leather suspenders.",
+      "action": "The person stands still, then raises both arms overhead in a stretching motion before lowering them back to their sides.",
+      "camera": "A static, medium shot from the side at eye level.",
+      "scene": "An outdoor paved area, likely a road or parking lot, with a metal guardrail, rocks, trees, and a utility pole in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "d42bd571e6942bfb7772f51da0fd8e76358bfada7598b80b3bde37b960e4f3b9"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_37.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_84.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7198.mp4",
+    "observed": {
+      "identity": "A young man with a slim build and tanned skin, shown in profile and three-quarter views.",
+      "hairstyle": "Short, neatly styled hair with a side part and faded sides.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A light gray and white plaid button-up shirt with rolled sleeves, dark plaid trousers, and brown leather suspenders.",
+      "action": "The man stands still, then raises both arms overhead in a stretching motion before lowering them back to his sides.",
+      "camera": "A static, medium shot from the side at roughly waist-to-head height.",
+      "scene": "An outdoor paved area, likely a road or parking lot, with a metal guardrail, rocky hillside, green trees, and a bright sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "e8d8d7c7a37fced3b8c4f07afa282bda6dcd2bbf4f68d48486732f11695020c2"
+  }
+]

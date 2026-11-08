@@ -1,0 +1,17 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6404.mp4",
+  "observed": {
+    "identity": "A slender adult with a slim build and light skin, shown in full body from head to toe.",
+    "hairstyle": "Hair is pulled back into a high ponytail or bun with a visible pink hair tie.",
+    "hair_color": "Pink",
+    "clothing": "Light blue cable-knit sweater, dark gray cropped trousers, light-colored socks, and brown lace-up shoes.",
+    "action": "The person stands in the middle of the road, then turns their body and head to the side while raising one hand toward their chest and face, before turning back to face forward.",
+    "camera": "Static, low-angle full-body shot centered on the person, with the road leading toward the horizon.",
+    "scene": "An empty paved road under a concrete overpass, with metal guardrails, yellow-leafed trees, and orange-and-white roadwork barriers and signs in the background under a bright sky."
+  },
+  "uncertain": [
+    "Exact facial features are small and partly obscured by distance and angle, so finer identity details are unclear."
+  ],
+  "observation_identity": "afa20618cd0deba3f9dfa33a2ed2ee49b2e2f14f4e36149a7a92f2ba0adeae45"
+}

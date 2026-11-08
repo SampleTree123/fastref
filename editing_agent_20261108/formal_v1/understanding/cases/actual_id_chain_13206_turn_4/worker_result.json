@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "id": "actual_id_chain_13206_turn_4",
+  "dataset_index": 645,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 6.337269153445959,
+  "result": {
+    "source_video_id": 3,
+    "prompt": "Change the person's action to walking forward, following the movement shown in the motion reference video. Retain the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "reference_ids": [
+      "ref_1"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

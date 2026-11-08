@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6405.mp4",
+  "observed": {
+    "identity": "A slender female 3D character with a slim build and fair skin.",
+    "hairstyle": "Blonde hair pulled back into a high ponytail.",
+    "hair_color": "Blonde.",
+    "clothing": "A dark, patterned sleeveless crop top, light gray wide-leg trousers, a brown belt, and dark shoes.",
+    "action": "The character stands in the center of the frame, initially facing left, then turns to face the camera while posing with one hand on her hip and the other raised to her head.",
+    "camera": "Static, eye-level medium-full shot from a slightly low angle.",
+    "scene": "An outdoor amusement park or fairground setting with a carousel on the left, a large ride structure on the right, and a paved open area in the foreground under a bright, hazy sky."
+  },
+  "uncertain": [],
+  "observation_identity": "e9dca8e14f8f80807699ccd76001269c2cb1fedc3d720b9db47e7f38c7b06862"
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6405.mp4",
+    "observed": {
+      "identity": "A slender female 3D character with a slim build and fair skin.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail.",
+      "hair_color": "Blonde.",
+      "clothing": "A dark, patterned sleeveless crop top, light gray wide-leg trousers, a brown belt, and dark shoes.",
+      "action": "The character stands in the center of the frame, initially facing left, then turns to face the camera while posing with one hand on her hip and the other raised to her head.",
+      "camera": "Static, eye-level medium-full shot from a slightly low angle.",
+      "scene": "An outdoor amusement park or fairground setting with a carousel on the left, a large ride structure on the right, and a paved open area in the foreground under a bright, hazy sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e9dca8e14f8f80807699ccd76001269c2cb1fedc3d720b9db47e7f38c7b06862"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_445.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_204.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's top with the item shown in the reference images. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6411.mp4",
+    "observed": {
+      "identity": "A slender female 3D character with a slim build and light skin.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a sleeveless brown patterned crop top, light gray wide-leg trousers, a brown belt, and dark shoes.",
+      "action": "The character stands in profile, then raises one hand to touch her hair while placing the other on her hip, and finally lowers her arm and turns slightly.",
+      "camera": "A static, low-angle full-body shot from the side.",
+      "scene": "An outdoor amusement park or fairground plaza with a carousel on the left, a Ferris wheel on the right, and a paved open area in the center under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "750dc0934b6342e1a0c386e6e44a45bfbeb0a2b765ad2fab193074a476dec8cf"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_395.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to lowering their head and resting one hand on their forehead, as demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6420.mp4",
+    "observed": {
+      "identity": "A slender female character with a slim build, seen from behind.",
+      "hairstyle": "Short, tousled hair that appears to be swept back.",
+      "hair_color": "White or platinum blonde.",
+      "clothing": "A sleeveless, dark reddish-brown patterned top and light beige or off-white wide-leg trousers with dark boots.",
+      "action": "The character stands in the center of a wide paved area, initially with arms at her sides, then raises her right hand to touch her hair before placing her hand on her hip.",
+      "camera": "A static, medium-long shot from behind the character at a slightly low angle.",
+      "scene": "An outdoor amusement park or fairground setting with a carousel on the left, a large wooden building on the right, and a hazy sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "1364be989b99721db4819e8524be6e2c0c9b0d349120f6907a8f88f6f489a2a5"
+  }
+]

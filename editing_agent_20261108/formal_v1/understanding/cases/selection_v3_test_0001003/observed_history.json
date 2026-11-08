@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6167.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, visible facial features including a mustache and goatee.",
+      "hairstyle": "Short hair on the sides with a longer top styled into a high ponytail or bun.",
+      "hair_color": "Dark brown or black, appearing purplish under the pink lighting.",
+      "clothing": "A white sleeveless tank top with a deep V-neckline.",
+      "action": "The man stands facing forward, then turns his head to the side and brings his right hand up to touch his chin and neck area before returning to face forward.",
+      "camera": "A static medium close-up shot at eye level, keeping the subject centered in the frame.",
+      "scene": "A futuristic indoor setting at night with large glass windows, pink and blue neon lighting, and a glowing 'TRA' sign visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "18ecf43185f279d6f11d57b7ad0a49ced790bc9f57ffb21479b0f4def3f4ad00"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_12.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's identity to match the person in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6168.mp4",
+    "observed": {
+      "identity": "A Black man with a lean build and short facial stubble is centered in the frame.",
+      "hairstyle": "His hair is styled in a high top-knot or bun with the sides closely shaved.",
+      "hair_color": "His hair appears dark brown to black under the scene lighting.",
+      "clothing": "He wears a white sleeveless tank top with a deep V neckline.",
+      "action": "He begins facing forward, then turns his head to the side while raising a hand to touch his neck and collarbone area, and finally returns to face the camera with a slight smile.",
+      "camera": "The camera holds a static medium close-up at eye level, keeping the subject centered throughout.",
+      "scene": "The setting is a dark, futuristic interior with large glass windows, glowing pink and teal neon lines, and a partial neon sign reading 'TRA' in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "147a615768efe1414de8c37c5d3001d6d1df1596cb8a8906901244707b2679ac"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: The person currently has pink hair; please change it to black.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6183.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial hair is centered in the frame.",
+      "hairstyle": "His hair is pulled up into a high top-knot bun with the sides closely cropped.",
+      "hair_color": "His hair is black.",
+      "clothing": "He wears a white sleeveless tank top with a deep V neckline.",
+      "action": "He looks around the room, turning his head side to side and raising one hand to touch his chin and neck.",
+      "camera": "The camera holds a static medium close-up at eye level, keeping the man centered.",
+      "scene": "He stands in a dark, futuristic interior with large glass windows, glowing pink and teal neon strips, and a partial pink \"TRA\" sign in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "2e9f614622636fc1363bd84fae9c63826bf2a6476bed8fffcc1ee0a0c8a2bf28"
+  }
+]

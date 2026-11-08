@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6093.mp4",
+    "observed": {
+      "identity": "A slender woman with a slim build, shown in profile and then from behind.",
+      "hairstyle": "Her hair is pulled up into two small buns on top of her head.",
+      "hair_color": "Her hair is reddish-brown.",
+      "clothing": "She wears a sleeveless, patterned crop top and high-waisted dark green wide-leg trousers.",
+      "action": "She stands in the center of the frame, then raises one arm to touch her hair while placing the other hand on her hip, and slowly turns her body to face away from the camera.",
+      "camera": "The camera is at a low angle, framing the subject from the knees up, and remains mostly static as she moves.",
+      "scene": "The setting is a sunlit outdoor amusement park or fairground with a carousel on the left, a large ride structure on the right, and a paved open area in the foreground."
+    },
+    "uncertain": [],
+    "observation_identity": "707e50762d3f5a0cef0b385d934ce24ccb24fe49efe5a228df87c6f8fb7b680b"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_770.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6097.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a short blonde bob.",
+      "hairstyle": "Short blonde bob with a small bun or topknot on top of the head.",
+      "hair_color": "Blonde.",
+      "clothing": "A sleeveless, cropped top with a black-and-white geometric pattern, high-waisted olive-green wide-leg trousers, and strappy sandals.",
+      "action": "The character stands on a rooftop, initially facing left, then turns her body and head to the right while raising her right arm to adjust her hair.",
+      "camera": "Medium shot from a slightly low angle, remaining mostly static while the character moves within the frame.",
+      "scene": "A sunny, stylized city rooftop with a tiled floor, a low wall, and a background of blocky, colorful buildings and construction cranes."
+    },
+    "uncertain": [],
+    "observation_identity": "09633106c068f54645c6b1a882a94861f314d3396eab53dd324439728fe4b6cc"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to red.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6092.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a visible face in profile and from behind.",
+      "hairstyle": "Red hair styled in a high bun with a few loose strands at the nape.",
+      "hair_color": "Bright red.",
+      "clothing": "A sleeveless white top with a black geometric pattern, high-waisted olive-green wide-leg trousers, and strappy sandals.",
+      "action": "The character stands on a tiled rooftop, raising one arm to touch her hair, then turns her body and head to look over her shoulder.",
+      "camera": "Medium full shot at eye level; the camera slowly arcs around the character from her left side to behind her.",
+      "scene": "A stylized city rooftop with a tiled floor, a low railing, and a dense background of beige and gray high-rise buildings, a large circular speaker, and construction cranes under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "1e5e57940737d4c2e2984247740bb7ef2a71575fef3b890c3607e724363a1d52"
+  }
+]

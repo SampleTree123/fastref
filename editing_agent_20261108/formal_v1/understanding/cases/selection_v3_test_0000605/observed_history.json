@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6093.mp4",
+    "observed": {
+      "identity": "A slender woman with a slim build, shown in profile and then from behind.",
+      "hairstyle": "Her hair is pulled up into two small buns on top of her head.",
+      "hair_color": "Her hair is reddish-brown.",
+      "clothing": "She wears a sleeveless, patterned crop top and high-waisted dark green wide-leg trousers.",
+      "action": "She stands in the center of the frame, then raises one arm to touch her hair while placing the other hand on her hip, and slowly turns her body to face away from the camera.",
+      "camera": "The camera is at a low angle, framing the subject from the knees up, and remains mostly static as she moves.",
+      "scene": "The setting is a sunlit outdoor amusement park or fairground with a carousel on the left, a large ride structure on the right, and a paved open area in the foreground."
+    },
+    "uncertain": [],
+    "observation_identity": "707e50762d3f5a0cef0b385d934ce24ccb24fe49efe5a228df87c6f8fb7b680b"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hair color to red.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6084.mp4",
+    "observed": {
+      "identity": "A slim female character with a stylized, rendered appearance, shown in profile and then from behind.",
+      "hairstyle": "Red hair pulled up into two small buns on top of the head.",
+      "hair_color": "Red.",
+      "clothing": "A sleeveless white top with a black geometric pattern and dark green high-waisted wide-leg trousers.",
+      "action": "The character stands in the center of the plaza, raises one arm to touch her hair, and slowly turns her body from a side profile to face away from the camera.",
+      "camera": "A low-angle, full-body shot that remains mostly static while the character rotates in place.",
+      "scene": "A sunny outdoor amusement park plaza with a carousel on the left, a Ferris wheel and wooden buildings on the right, and metal barriers lining the walkway."
+    },
+    "uncertain": [],
+    "observation_identity": "c11a0bc7fbbb2b9d1fa668ea455cfb15d456fee0f2054a955c25c5349cde2230"
+  }
+]

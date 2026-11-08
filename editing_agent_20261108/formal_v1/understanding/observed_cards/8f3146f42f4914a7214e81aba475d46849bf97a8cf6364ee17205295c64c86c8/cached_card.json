@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6955.mp4",
+  "observed": {
+    "identity": "A Black man with a slim build and short facial hair stands facing the camera.",
+    "hairstyle": "His hair is pulled up into a small topknot bun.",
+    "hair_color": "His hair is dyed a vivid red.",
+    "clothing": "He wears a white button-up shirt with a faint blue grid pattern, a black bow tie, black suspenders, brown-and-white plaid trousers, and black shoes.",
+    "action": "He begins standing still, then turns his body and head to the side while raising one hand to adjust his bow tie and collar, and finally returns to face the camera with his arms lowered.",
+    "camera": "The camera is at a low angle, framing him from the shins up, and slowly pushes in to a medium shot of his torso and head.",
+    "scene": "He stands on an asphalt road beneath a concrete overpass, with a guardrail, trees, and orange-and-white roadwork signs visible in the bright daylight background."
+  },
+  "uncertain": [],
+  "observation_identity": "e539d57e8099cc3081a875fc973eb0521991c6be7b98fa6a1ab6ab93498f8b86"
+}

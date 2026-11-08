@@ -1,0 +1,119 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6842.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build, brown skin, and a neutral facial expression.",
+      "hairstyle": "Her hair is styled in two high buns on top of her head, with bangs covering her forehead.",
+      "hair_color": "Bright yellow-green.",
+      "clothing": "She wears a blue and white patterned dress with a V-neckline and short sleeves.",
+      "action": "The woman stands facing the camera, then turns her head to the side and raises her right hand to touch her hair and face.",
+      "camera": "The camera is at a medium shot, framing the woman from the waist up, and remains relatively static.",
+      "scene": "The setting is an outdoor urban environment with tall buildings, construction cranes, and a paved area in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "a5eef531e23f7f8faee1d67062c9c50a55c370c06805ccec10fa9d935a288a48"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hair color to chestnut brown.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6819.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build, light brown skin, and a slender face with full lips.",
+      "hairstyle": "Her hair is styled in two high buns, one on each side of her head, with straight bangs covering her forehead.",
+      "hair_color": "Light brown or dark blonde.",
+      "clothing": "She wears a blue and white patterned dress with a V-neckline, cold-shoulder cutouts, and three-quarter length sleeves.",
+      "action": "The woman stands facing the camera, then turns her head to the side, raises her right hand to touch her hair, and finally turns her back to the camera.",
+      "camera": "The camera maintains a medium shot, framing the woman from the waist up, and remains relatively static throughout the sequence.",
+      "scene": "The setting is an outdoor urban rooftop or construction site at dusk, featuring tall buildings, construction cranes, and a paved ground."
+    },
+    "uncertain": [],
+    "observation_identity": "13aeec5260990ec44dba4123ed8b5a0c869b84ad81704b92e90f4e2141914290"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6843.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a medium-dark complexion, blue eyes, and a neutral expression.",
+      "hairstyle": "Short, light-brown hair swept to one side, later gathered into a small bun at the back of her head.",
+      "hair_color": "Light brown with darker roots.",
+      "clothing": "A blue and white patterned dress with a V-neckline, cold-shoulder cutouts, and elbow-length sleeves.",
+      "action": "She stands facing the camera, then turns her head and body to the side while raising her right hand to brush her hair back into a bun.",
+      "camera": "A static, medium shot from the waist up, keeping the subject centered in the frame.",
+      "scene": "An outdoor urban rooftop or plaza at dusk, featuring tall buildings, construction cranes, and a sign with Japanese characters in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "dbf95b873debdb1707cfbf94d7289a8679829d427b2aa3603a0c47fea0bc2724"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_115.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6821.mp4",
+    "observed": {
+      "identity": "A woman with a medium-dark complexion and a slim build, shown from the thighs up.",
+      "hairstyle": "Her hair is swept up into a loose, textured updo with a few strands framing her face.",
+      "hair_color": "Her hair appears dark brown with lighter, blonde-toned highlights.",
+      "clothing": "She wears a fitted, cold-shoulder dress with a purple and white ikat-style pattern and three-quarter sleeves.",
+      "action": "She stands facing the camera, then turns her head and body to the side while raising one hand to brush her hair back, before turning back to face forward.",
+      "camera": "The camera holds a static, medium shot at roughly eye level, keeping the subject centered.",
+      "scene": "She stands on a reflective gray floor in front of a large glass building with pink framing, a black dome roof, and glowing teal circular light rings inside."
+    },
+    "uncertain": [],
+    "observation_identity": "a31c3e432d91539e50e68cb63a8eaa5eeb8c15b1908cf7eb172494bf9014d9ac"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_115.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6804.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a medium-dark complexion, visible facial features, and a slim build.",
+      "hairstyle": "Her hair is styled into two high buns on top of her head with loose strands framing her face.",
+      "hair_color": "Her hair appears brown with lighter blonde highlights.",
+      "clothing": "She wears a short-sleeved, V-neck dress with a purple and pink patterned design and cut-out shoulders.",
+      "action": "She stands facing the camera, then turns her head to the side and raises her hand to brush her hair back before turning back to face forward.",
+      "camera": "The camera maintains a static medium shot from the waist up, keeping the subject centered.",
+      "scene": "The setting is a futuristic environment at night, featuring a large glass dome structure with glowing pink and teal neon rings and a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "76ac5c8fed71e2ec834bc100f6ee05f6ba8b97650f070a1a10d4a3ccfa04cf90"
+  }
+]

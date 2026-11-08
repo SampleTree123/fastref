@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6849.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slender build, dark skin, and a neutral-to-smiling expression.",
+      "hairstyle": "Blonde hair with straight bangs and two low side buns.",
+      "hair_color": "Blonde.",
+      "clothing": "A bright pink off-the-shoulder top with black straps or bows at the shoulders.",
+      "action": "She stands facing forward, blinks, smiles, and turns her head to her left near the end.",
+      "camera": "A static medium close-up from the chest up, centered on the subject.",
+      "scene": "A futuristic setting with a large glass-domed building, glowing teal rings, pink structural lines, and a reflective floor under a blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "2add80c50b55303caa5af0ec9d714d713169b96ee345ca2d7e55ed3ffc976a13"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_67.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Match the reference person's facial features and adjust the body's skin tone accordingly. Do not copy the hairstyle, hair color, or expression from the reference photo. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6861.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a round face, and full lips, shown from the chest up.",
+      "hairstyle": "Straight-cut bangs across the forehead with the rest of the hair pulled back into two low side buns.",
+      "hair_color": "Golden blonde.",
+      "clothing": "A bright pink off-the-shoulder top with small dark bows at the shoulders.",
+      "action": "She stands facing the camera with subtle head and facial movements, then turns her head to her left near the end.",
+      "camera": "A steady medium close-up, front-facing shot that remains largely static throughout.",
+      "scene": "A futuristic setting with a large glass-domed building, glowing teal ring lights, pink structural framing, and a reflective floor under a blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "3ace47f3c7737cccb3a42a9d0e477b5be1ff307090fcdb71a814469967193470"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_35.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_16.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6850.mp4",
+    "observed": {
+      "identity": "A young woman with a medium-brown complexion, visible in a medium close-up from the chest up.",
+      "hairstyle": "Her hair is styled in two high buns on top of her head with straight bangs across her forehead.",
+      "hair_color": "Her hair is a golden-brown or light auburn color.",
+      "clothing": "She wears a bright pink, off-the-shoulder top with small dark bows on the shoulders.",
+      "action": "She stands facing the camera, blinks, and makes subtle facial movements before turning her head to her left to look off-screen.",
+      "camera": "The camera holds a static, eye-level medium close-up shot of the subject.",
+      "scene": "She is outdoors at night in front of a large, futuristic glass building with a domed roof, illuminated by pink and teal neon lights."
+    },
+    "uncertain": [],
+    "observation_identity": "9de83bfd30295ad60bc803ef72ff11573768e45f8855eb64e3e5ff048592b833"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hair color to chestnut brown.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6836.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a rounded face, and full lips, shown from the chest up.",
+      "hairstyle": "Short brown hair with straight bangs and two small buns on top of her head.",
+      "hair_color": "Brown with lighter reddish-brown highlights.",
+      "clothing": "A bright pink off-the-shoulder top with small dark bows at the shoulders.",
+      "action": "She stands facing the camera, blinks, smiles faintly, and near the end turns her head to her left in profile.",
+      "camera": "A steady medium close-up, front-facing, with the subject centered and the camera slowly pulling back slightly.",
+      "scene": "A futuristic setting at dusk with a large glass-domed building, glowing teal ring lights, pink neon framing, and a reflective wet ground."
+    },
+    "uncertain": [],
+    "observation_identity": "58628849f84fbee7d9c893e6e9bf1c3607854b8a94e53a6a7a4b3cd70d00bb32"
+  }
+]

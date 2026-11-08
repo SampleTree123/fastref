@@ -1,0 +1,79 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7001.mp4",
+    "observed": {
+      "identity": "A slender young woman with a slim build, shown mostly from the back and side.",
+      "hairstyle": "Bright blue hair styled into two small buns on top of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A short dress with a pink-and-white gingham bodice, white off-the-shoulder puff sleeves, and a white-and-black color-blocked skirt, paired with light blue slip-on sneakers.",
+      "action": "She stands on a cobblestone street, raises both hands to adjust her hair, then turns and shifts her weight while posing with one hand on her hip.",
+      "camera": "A static, full-body shot from a slightly low angle that keeps the subject centered against the street background.",
+      "scene": "An old-fashioned city street with cobblestone paving, vintage storefronts, hanging signs, and black lampposts."
+    },
+    "uncertain": [],
+    "observation_identity": "ff3ca4c849b5292146328e394c4132114307ea802c77ab76d479d814228bf8aa"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_8c857578cd89e8de1062a609b4a296853d0f7d14356dc6c7f4815bf1eb882b6b.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from a rear three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7010.mp4",
+    "observed": {
+      "identity": "A slender female character with a slim build, shown mostly from behind and in profile.",
+      "hairstyle": "Bright blue hair styled into two high buns on top of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A white dress with a pink gingham bodice, white lace trim, and puffy off-the-shoulder sleeves, with a black panel on the side of the skirt.",
+      "action": "The character stands on a cobblestone street, raises her hand to touch and adjust her hair, then lowers her arm and shifts her weight while turning slightly.",
+      "camera": "A medium shot from behind at roughly waist-to-head height, with a slight handheld-style wobble and minor reframing as the character moves.",
+      "scene": "A video-game city street with cobblestone pavement, brick and stone buildings, shop signs, awnings, and a black lamppost."
+    },
+    "uncertain": [
+      "The character's face is mostly turned away, so facial features are unclear.",
+      "The exact nature of the black side panel on the dress (separate garment vs. part of the dress) is unclear."
+    ],
+    "observation_identity": "f6f17a97fc306291f5c8ddb101265e9cdc600f0d7f2c8313c2a32c9fc74e90fe"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_9.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_61.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7013.mp4",
+    "observed": {
+      "identity": "A slender female character with a fair complexion, shown in a 3D rendered style.",
+      "hairstyle": "Short, voluminous blue hair styled in a bob with a small bun or twist at the nape.",
+      "hair_color": "Bright blue.",
+      "clothing": "A form-fitting dress with a pink and white gingham bodice, white off-the-shoulder puff sleeves, and a two-toned skirt that is white on one side and black on the other, paired with light blue slip-on sneakers.",
+      "action": "The character stands on a cobblestone street, initially facing left, then raises her arms to adjust her hair before turning her back to the camera and posing with one hand on her hip.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+      "scene": "A vintage-style city street with cobblestone paving, brick and stone buildings, and hanging signs with text such as 'MERCHANT' and 'COCOA POWDER'."
+    },
+    "uncertain": [],
+    "observation_identity": "1f60e114701a088f70c563b11611bc3277a7e18f391fc8eddccd1166255fdb55"
+  }
+]

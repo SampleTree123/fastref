@@ -1,0 +1,524 @@
+[ERROR] `min_frames` is part of Qwen3VLVideoProcessorInitKwargs, but not documented. Make sure to add it to the docstring of the function in /scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/envs/qwen/lib/python3.12/site-packages/transformers/models/qwen3_vl/video_processing_qwen3_vl.py.
+[ERROR] `max_frames` is part of Qwen3VLVideoProcessorInitKwargs, but not documented. Make sure to add it to the docstring of the function in /scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/envs/qwen/lib/python3.12/site-packages/transformers/models/qwen3_vl/video_processing_qwen3_vl.py.
+Loading weights:   0%|          | 0/1184 [00:00<?, ?it/s]Loading weights:   0%|          | 1/1184 [00:00<12:32,  1.57it/s]Loading weights:   1%|▏         | 15/1184 [00:00<00:44, 26.12it/s]Loading weights:   2%|▏         | 26/1184 [00:00<00:27, 42.71it/s]Loading weights:   3%|▎         | 41/1184 [00:00<00:17, 63.69it/s]Loading weights:   4%|▍         | 52/1184 [00:01<00:17, 66.07it/s]Loading weights:   5%|▌         | 62/1184 [00:01<00:15, 71.35it/s]Loading weights:   6%|▋         | 75/1184 [00:01<00:13, 84.59it/s]Loading weights:   7%|▋         | 86/1184 [00:01<00:12, 86.11it/s]Loading weights:   8%|▊         | 96/1184 [00:01<00:12, 86.46it/s]Loading weights:   9%|▉         | 106/1184 [00:01<00:12, 85.50it/s]Loading weights:  10%|█         | 119/1184 [00:01<00:11, 96.29it/s]Loading weights:  11%|█         | 133/1184 [00:01<00:10, 102.06it/s]Loading weights:  12%|█▏        | 147/1184 [00:02<00:09, 104.41it/s]Loading weights:  13%|█▎        | 158/1184 [00:02<00:10, 101.04it/s]Loading weights:  15%|█▍        | 173/1184 [00:02<00:09, 107.92it/s]Loading weights:  16%|█▌        | 187/1184 [00:02<00:09, 109.38it/s]Loading weights:  17%|█▋        | 199/1184 [00:02<00:09, 102.38it/s]Loading weights:  18%|█▊        | 210/1184 [00:02<00:10, 94.33it/s] Loading weights:  19%|█▉        | 226/1184 [00:02<00:09, 105.37it/s]Loading weights:  20%|██        | 239/1184 [00:02<00:08, 109.18it/s]Loading weights:  21%|██▏       | 253/1184 [00:03<00:08, 109.73it/s]Loading weights:  22%|██▏       | 265/1184 [00:03<00:09, 97.56it/s] Loading weights:  24%|██▎       | 280/1184 [00:03<00:08, 102.75it/s]Loading weights:  25%|██▍       | 294/1184 [00:03<00:08, 105.72it/s]Loading weights:  26%|██▌       | 308/1184 [00:03<00:08, 109.27it/s]Loading weights:  27%|██▋       | 320/1184 [00:03<00:07, 108.80it/s]Loading weights:  28%|██▊       | 333/1184 [00:03<00:07, 106.55it/s]Loading weights:  29%|██▉       | 347/1184 [00:03<00:07, 109.35it/s]Loading weights:  30%|███       | 361/1184 [00:04<00:07, 112.48it/s]Loading weights:  32%|███▏      | 373/1184 [00:04<00:07, 108.86it/s]Loading weights:  33%|███▎      | 385/1184 [00:04<00:07, 106.44it/s]Loading weights:  34%|███▎      | 399/1184 [00:04<00:06, 114.70it/s]Loading weights:  35%|███▍      | 412/1184 [00:04<00:06, 111.17it/s]Loading weights:  36%|███▌      | 424/1184 [00:04<00:07, 107.31it/s]Loading weights:  37%|███▋      | 438/1184 [00:04<00:07, 102.93it/s]Loading weights:  38%|███▊      | 453/1184 [00:04<00:06, 107.79it/s]Loading weights:  39%|███▉      | 466/1184 [00:05<00:06, 109.37it/s]Loading weights:  40%|████      | 478/1184 [00:05<00:06, 109.97it/s]Loading weights:  42%|████▏     | 492/1184 [00:05<00:06, 112.81it/s]Loading weights:  43%|████▎     | 506/1184 [00:05<00:05, 113.58it/s]Loading weights:  44%|████▍     | 520/1184 [00:05<00:05, 114.61it/s]Loading weights:  45%|████▍     | 532/1184 [00:05<00:05, 112.43it/s]Loading weights:  46%|████▌     | 544/1184 [00:05<00:05, 107.66it/s]Loading weights:  47%|████▋     | 559/1184 [00:05<00:05, 113.45it/s]Loading weights:  48%|████▊     | 572/1184 [00:06<00:05, 106.98it/s]Loading weights:  49%|████▉     | 584/1184 [00:06<00:05, 107.73it/s]Loading weights:  51%|█████     | 598/1184 [00:06<00:05, 112.34it/s]Loading weights:  52%|█████▏    | 612/1184 [00:06<00:05, 113.90it/s]Loading weights:  53%|█████▎    | 625/1184 [00:06<00:05, 108.81it/s]Loading weights:  54%|█████▎    | 636/1184 [00:06<00:05, 108.03it/s]Loading weights:  55%|█████▍    | 651/1184 [00:06<00:04, 115.58it/s]Loading weights:  56%|█████▌    | 663/1184 [00:06<00:04, 113.57it/s]Loading weights:  57%|█████▋    | 678/1184 [00:06<00:04, 117.47it/s]Loading weights:  58%|█████▊    | 690/1184 [00:07<00:04, 116.37it/s]Loading weights:  59%|█████▉    | 704/1184 [00:07<00:04, 118.19it/s]Loading weights:  61%|██████    | 718/1184 [00:07<00:03, 118.49it/s]Loading weights:  62%|██████▏   | 732/1184 [00:07<00:03, 114.61it/s]Loading weights:  63%|██████▎   | 744/1184 [00:07<00:03, 110.79it/s]Loading weights:  64%|██████▍   | 757/1184 [00:07<00:03, 110.79it/s]Loading weights:  65%|██████▌   | 771/1184 [00:07<00:03, 114.98it/s]Loading weights:  66%|██████▌   | 784/1184 [00:07<00:03, 112.11it/s]Loading weights:  67%|██████▋   | 796/1184 [00:07<00:03, 108.13it/s]Loading weights:  68%|██████▊   | 809/1184 [00:08<00:03, 107.32it/s]Loading weights:  70%|██████▉   | 824/1184 [00:08<00:03, 113.40it/s]Loading weights:  71%|███████   | 838/1184 [00:08<00:02, 116.91it/s]Loading weights:  72%|███████▏  | 850/1184 [00:08<00:03, 110.29it/s]Loading weights:  91%|█████████▏| 1082/1184 [00:08<00:00, 691.01it/s]Loading weights: 100%|██████████| 1184/1184 [00:08<00:00, 137.40it/s]
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/envs/qwen/lib/python3.12/site-packages/kernels/layer/layer.py:423: UserWarning: 
+No kernel mapping found for layer `GeluTanh`. Check if the layer name matches one of the kernels in the mapping or add the kernel you want to use to the mapping. Defaulting to original forward implementation.
+  warnings.warn(
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/envs/qwen/lib/python3.12/site-packages/kernels/layer/layer.py:97: UserWarning: Skipping publisher trust check for 'kernels-community/fla' because Hugging Face Hub is in offline mode.
+  kernel = get_kernel(
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/envs/qwen/lib/python3.12/site-packages/kernels/layer/layer.py:423: UserWarning: 
+No kernel mapping found for layer `causal_conv1d_fn`. Check if the layer name matches one of the kernels in the mapping or add the kernel you want to use to the mapping. Defaulting to original forward implementation.
+  warnings.warn(
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/envs/qwen/lib/python3.12/site-packages/kernels/layer/layer.py:423: UserWarning: 
+No kernel mapping found for layer `causal_conv1d_update`. Check if the layer name matches one of the kernels in the mapping or add the kernel you want to use to the mapping. Defaulting to original forward implementation.
+  warnings.warn(
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/envs/qwen/lib/python3.12/site-packages/kernels/layer/layer.py:423: UserWarning: 
+No kernel mapping found for layer `Qwen3_5GatedDeltaNet`. Check if the layer name matches one of the kernels in the mapping or add the kernel you want to use to the mapping. Defaulting to original forward implementation.
+  warnings.warn(
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/envs/qwen/lib/python3.12/site-packages/kernels/layer/layer.py:423: UserWarning: 
+No kernel mapping found for layer `RMSNormGated`. Check if the layer name matches one of the kernels in the mapping or add the kernel you want to use to the mapping. Defaulting to original forward implementation.
+  warnings.warn(
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/envs/qwen/lib/python3.12/site-packages/kernels/layer/layer.py:423: UserWarning: 
+No kernel mapping found for layer `SiLU`. Check if the layer name matches one of the kernels in the mapping or add the kernel you want to use to the mapping. Defaulting to original forward implementation.
+  warnings.warn(
+{"event": "qwen_backend_loaded", "seconds": 10.818139750510454, "gpu": "NVIDIA H200", "identity": "f5755252615e2602119b462037c0e9d5f5b4d399441f3d5abd580c4a829054a0"}
+{"event": "case_start", "id": "selection_v3_test_0005044", "mode": "understanding"}
+{"id": "selection_v3_test_0005044", "status": "ok", "seconds": 43.466809085570276}
+{"event": "case_start", "id": "selection_v3_test_0002115", "mode": "understanding"}
+{"id": "selection_v3_test_0002115", "status": "ok", "seconds": 35.64134840667248}
+{"event": "case_start", "id": "selection_v3_test_0005152", "mode": "understanding"}
+{"id": "selection_v3_test_0005152", "status": "ok", "seconds": 20.92752919252962}
+{"event": "case_start", "id": "selection_v3_test_0002118", "mode": "understanding"}
+{"id": "selection_v3_test_0002118", "status": "ok", "seconds": 26.498257947154343}
+{"event": "case_start", "id": "selection_v3_test_0002556", "mode": "understanding"}
+{"id": "selection_v3_test_0002556", "status": "ok", "seconds": 39.1325954971835}
+{"event": "case_start", "id": "selection_v3_test_0003594", "mode": "understanding"}
+{"id": "selection_v3_test_0003594", "status": "ok", "seconds": 51.06474272161722}
+{"event": "case_start", "id": "selection_v3_test_0003013", "mode": "understanding"}
+{"id": "selection_v3_test_0003013", "status": "ok", "seconds": 27.903569830581546}
+{"event": "case_start", "id": "selection_v3_test_0003148", "mode": "understanding"}
+{"id": "selection_v3_test_0003148", "status": "ok", "seconds": 40.2179512931034}
+{"event": "case_start", "id": "selection_v3_test_0000678", "mode": "understanding"}
+{"id": "selection_v3_test_0000678", "status": "ok", "seconds": 30.338650420308113}
+{"event": "case_start", "id": "selection_v3_test_0002136", "mode": "understanding"}
+{"id": "selection_v3_test_0002136", "status": "ok", "seconds": 36.62761657591909}
+{"event": "case_start", "id": "selection_v3_test_0003524", "mode": "understanding"}
+{"id": "selection_v3_test_0003524", "status": "ok", "seconds": 27.894941504113376}
+{"event": "case_start", "id": "selection_v3_test_0003303", "mode": "understanding"}
+{"id": "selection_v3_test_0003303", "status": "ok", "seconds": 29.700940722599626}
+{"event": "case_start", "id": "selection_v3_test_0000282", "mode": "understanding"}
+{"id": "selection_v3_test_0000282", "status": "ok", "seconds": 6.640993964858353}
+{"event": "case_start", "id": "selection_v3_test_0002619", "mode": "understanding"}
+{"id": "selection_v3_test_0002619", "status": "ok", "seconds": 58.016115970909595}
+{"event": "case_start", "id": "selection_v3_test_0002890", "mode": "understanding"}
+{"id": "selection_v3_test_0002890", "status": "ok", "seconds": 28.73121242597699}
+{"event": "case_start", "id": "selection_v3_test_0003353", "mode": "understanding"}
+{"id": "selection_v3_test_0003353", "status": "ok", "seconds": 40.2401316203177}
+{"event": "case_start", "id": "selection_v3_test_0003015", "mode": "understanding"}
+{"id": "selection_v3_test_0003015", "status": "ok", "seconds": 18.321119284257293}
+{"event": "case_start", "id": "selection_v3_test_0003880", "mode": "understanding"}
+{"id": "selection_v3_test_0003880", "status": "ok", "seconds": 61.32949518132955}
+{"event": "case_start", "id": "selection_v3_test_0004713", "mode": "understanding"}
+{"id": "selection_v3_test_0004713", "status": "ok", "seconds": 39.60387357044965}
+{"event": "case_start", "id": "selection_v3_test_0002704", "mode": "understanding"}
+{"id": "selection_v3_test_0002704", "status": "ok", "seconds": 16.80665098503232}
+{"event": "case_start", "id": "selection_v3_test_0001025", "mode": "understanding"}
+{"id": "selection_v3_test_0001025", "status": "ok", "seconds": 17.257158804684877}
+{"event": "case_start", "id": "selection_v3_test_0004325", "mode": "understanding"}
+{"id": "selection_v3_test_0004325", "status": "ok", "seconds": 38.872750014066696}
+{"event": "case_start", "id": "selection_v3_test_0004610", "mode": "understanding"}
+{"id": "selection_v3_test_0004610", "status": "ok", "seconds": 41.90102536790073}
+{"event": "case_start", "id": "selection_v3_test_0003352", "mode": "understanding"}
+{"id": "selection_v3_test_0003352", "status": "ok", "seconds": 29.372679736465216}
+{"event": "case_start", "id": "selection_v3_test_0002073", "mode": "understanding"}
+{"id": "selection_v3_test_0002073", "status": "ok", "seconds": 8.1374645922333}
+{"event": "case_start", "id": "selection_v3_test_0002882", "mode": "understanding"}
+{"id": "selection_v3_test_0002882", "status": "ok", "seconds": 41.75914173480123}
+{"event": "case_start", "id": "selection_v3_test_0002100", "mode": "understanding"}
+{"id": "selection_v3_test_0002100", "status": "ok", "seconds": 37.75692221336067}
+{"event": "case_start", "id": "selection_v3_test_0002247", "mode": "understanding"}
+{"id": "selection_v3_test_0002247", "status": "ok", "seconds": 15.77575069759041}
+{"event": "case_start", "id": "selection_v3_test_0001694", "mode": "understanding"}
+{"id": "selection_v3_test_0001694", "status": "ok", "seconds": 16.53775693755597}
+{"event": "case_start", "id": "selection_v3_test_0003062", "mode": "understanding"}
+{"id": "selection_v3_test_0003062", "status": "ok", "seconds": 28.545044489204884}
+{"event": "case_start", "id": "selection_v3_test_0004755", "mode": "understanding"}
+{"id": "selection_v3_test_0004755", "status": "ok", "seconds": 28.840904832817614}
+{"event": "case_start", "id": "selection_v3_test_0004144", "mode": "understanding"}
+{"id": "selection_v3_test_0004144", "status": "ok", "seconds": 39.28155434783548}
+{"event": "case_start", "id": "actual_id_chain_14274_turn_5", "mode": "understanding"}
+{"id": "actual_id_chain_14274_turn_5", "status": "ok", "seconds": 26.96143958158791}
+{"event": "case_start", "id": "selection_v3_test_0004318", "mode": "understanding"}
+{"id": "selection_v3_test_0004318", "status": "ok", "seconds": 60.8545928588137}
+{"event": "case_start", "id": "selection_v3_test_0000581", "mode": "understanding"}
+{"id": "selection_v3_test_0000581", "status": "ok", "seconds": 7.253226894885302}
+{"event": "case_start", "id": "selection_v3_test_0003138", "mode": "understanding"}
+{"id": "selection_v3_test_0003138", "status": "ok", "seconds": 18.388367247767746}
+{"event": "case_start", "id": "selection_v3_test_0004349", "mode": "understanding"}
+{"id": "selection_v3_test_0004349", "status": "ok", "seconds": 25.733411487191916}
+{"event": "case_start", "id": "selection_v3_test_0002279", "mode": "understanding"}
+{"id": "selection_v3_test_0002279", "status": "ok", "seconds": 27.421649831347167}
+{"event": "case_start", "id": "selection_v3_test_0003982", "mode": "understanding"}
+{"id": "selection_v3_test_0003982", "status": "ok", "seconds": 7.921643200330436}
+{"event": "case_start", "id": "selection_v3_test_0003790", "mode": "understanding"}
+{"id": "selection_v3_test_0003790", "status": "ok", "seconds": 7.168702069669962}
+{"event": "case_start", "id": "selection_v3_test_0001387", "mode": "understanding"}
+{"id": "selection_v3_test_0001387", "status": "ok", "seconds": 39.43940322753042}
+{"event": "case_start", "id": "selection_v3_test_0000347", "mode": "understanding"}
+{"id": "selection_v3_test_0000347", "status": "ok", "seconds": 29.70164797641337}
+{"event": "case_start", "id": "selection_v3_test_0004109", "mode": "understanding"}
+{"id": "selection_v3_test_0004109", "status": "ok", "seconds": 36.31605914235115}
+{"event": "case_start", "id": "selection_v3_test_0005110", "mode": "understanding"}
+{"id": "selection_v3_test_0005110", "status": "ok", "seconds": 38.56509147863835}
+{"event": "case_start", "id": "selection_v3_test_0004104", "mode": "understanding"}
+{"id": "selection_v3_test_0004104", "status": "ok", "seconds": 18.296599028632045}
+{"event": "case_start", "id": "selection_v3_test_0002759", "mode": "understanding"}
+{"id": "selection_v3_test_0002759", "status": "ok", "seconds": 27.11600038409233}
+{"event": "case_start", "id": "selection_v3_test_0002505", "mode": "understanding"}
+{"id": "selection_v3_test_0002505", "status": "ok", "seconds": 18.331583228893578}
+{"event": "case_start", "id": "actual_id_chain_14375_turn_5", "mode": "understanding"}
+{"id": "actual_id_chain_14375_turn_5", "status": "ok", "seconds": 38.67423878517002}
+{"event": "case_start", "id": "selection_v3_test_0000229", "mode": "understanding"}
+{"id": "selection_v3_test_0000229", "status": "ok", "seconds": 46.894237760454416}
+{"event": "case_start", "id": "selection_v3_test_0005252", "mode": "understanding"}
+{"id": "selection_v3_test_0005252", "status": "ok", "seconds": 7.314750929363072}
+{"event": "case_start", "id": "selection_v3_test_0003885", "mode": "understanding"}
+{"id": "selection_v3_test_0003885", "status": "ok", "seconds": 40.59093249961734}
+{"event": "case_start", "id": "selection_v3_test_0001442", "mode": "understanding"}
+{"id": "selection_v3_test_0001442", "status": "ok", "seconds": 51.45448549557477}
+{"event": "case_start", "id": "selection_v3_test_0000349", "mode": "understanding"}
+{"id": "selection_v3_test_0000349", "status": "ok", "seconds": 7.1446880754083395}
+{"event": "case_start", "id": "selection_v3_test_0004888", "mode": "understanding"}
+{"id": "selection_v3_test_0004888", "status": "ok", "seconds": 40.082187194377184}
+{"event": "case_start", "id": "selection_v3_test_0001248", "mode": "understanding"}
+{"id": "selection_v3_test_0001248", "status": "ok", "seconds": 6.991637038998306}
+{"event": "case_start", "id": "selection_v3_test_0002610", "mode": "understanding"}
+{"id": "selection_v3_test_0002610", "status": "ok", "seconds": 7.3100893488153815}
+{"event": "case_start", "id": "selection_v3_test_0000532", "mode": "understanding"}
+{"id": "selection_v3_test_0000532", "status": "ok", "seconds": 28.75326616037637}
+{"event": "case_start", "id": "selection_v3_test_0004105", "mode": "understanding"}
+{"id": "selection_v3_test_0004105", "status": "ok", "seconds": 17.537850490771234}
+{"event": "case_start", "id": "selection_v3_test_0005112", "mode": "understanding"}
+{"id": "selection_v3_test_0005112", "status": "ok", "seconds": 7.3335049375891685}
+{"event": "case_start", "id": "selection_v3_test_0004947", "mode": "understanding"}
+{"id": "selection_v3_test_0004947", "status": "ok", "seconds": 37.85946120042354}
+{"event": "case_start", "id": "selection_v3_test_0000223", "mode": "understanding"}
+{"id": "selection_v3_test_0000223", "status": "ok", "seconds": 6.549978408031166}
+{"event": "case_start", "id": "selection_v3_test_0005054", "mode": "understanding"}
+{"id": "selection_v3_test_0005054", "status": "ok", "seconds": 28.447009997442365}
+{"event": "case_start", "id": "selection_v3_test_0003417", "mode": "understanding"}
+{"id": "selection_v3_test_0003417", "status": "ok", "seconds": 5.310492408461869}
+{"event": "case_start", "id": "selection_v3_test_0000623", "mode": "understanding"}
+{"id": "selection_v3_test_0000623", "status": "ok", "seconds": 42.41569506935775}
+{"event": "case_start", "id": "selection_v3_test_0005192", "mode": "understanding"}
+{"id": "selection_v3_test_0005192", "status": "ok", "seconds": 7.751402722671628}
+{"event": "case_start", "id": "selection_v3_test_0004435", "mode": "understanding"}
+{"id": "selection_v3_test_0004435", "status": "ok", "seconds": 16.608116379007697}
+{"event": "case_start", "id": "selection_v3_test_0003040", "mode": "understanding"}
+{"id": "selection_v3_test_0003040", "status": "ok", "seconds": 26.563832374289632}
+{"event": "case_start", "id": "selection_v3_test_0003828", "mode": "understanding"}
+{"id": "selection_v3_test_0003828", "status": "ok", "seconds": 7.235587106086314}
+{"event": "case_start", "id": "selection_v3_test_0003836", "mode": "understanding"}
+{"id": "selection_v3_test_0003836", "status": "ok", "seconds": 17.8464727550745}
+{"event": "case_start", "id": "selection_v3_test_0002631", "mode": "understanding"}
+{"id": "selection_v3_test_0002631", "status": "ok", "seconds": 8.620679153129458}
+{"event": "case_start", "id": "selection_v3_test_0004484", "mode": "understanding"}
+{"id": "selection_v3_test_0004484", "status": "ok", "seconds": 32.86567547824234}
+{"event": "case_start", "id": "selection_v3_test_0005182", "mode": "understanding"}
+{"id": "selection_v3_test_0005182", "status": "ok", "seconds": 38.310589210130274}
+{"event": "case_start", "id": "selection_v3_test_0001304", "mode": "understanding"}
+{"id": "selection_v3_test_0001304", "status": "ok", "seconds": 6.810329442843795}
+{"event": "case_start", "id": "actual_id_chain_12231_turn_5", "mode": "understanding"}
+{"id": "actual_id_chain_12231_turn_5", "status": "ok", "seconds": 27.810237520374358}
+{"event": "case_start", "id": "selection_v3_test_0003745", "mode": "understanding"}
+{"id": "selection_v3_test_0003745", "status": "ok", "seconds": 7.567006167024374}
+{"event": "case_start", "id": "selection_v3_test_0004710", "mode": "understanding"}
+{"id": "selection_v3_test_0004710", "status": "ok", "seconds": 16.163209819234908}
+{"event": "case_start", "id": "selection_v3_test_0003117", "mode": "understanding"}
+{"id": "selection_v3_test_0003117", "status": "ok", "seconds": 8.021927835419774}
+{"event": "case_start", "id": "selection_v3_test_0004009", "mode": "understanding"}
+{"id": "selection_v3_test_0004009", "status": "ok", "seconds": 6.517550781369209}
+{"event": "case_start", "id": "selection_v3_test_0003432", "mode": "understanding"}
+{"id": "selection_v3_test_0003432", "status": "ok", "seconds": 6.596266106702387}
+{"event": "case_start", "id": "selection_v3_test_0004939", "mode": "understanding"}
+{"id": "selection_v3_test_0004939", "status": "ok", "seconds": 39.17929007485509}
+{"event": "case_start", "id": "selection_v3_test_0000098", "mode": "understanding"}
+{"id": "selection_v3_test_0000098", "status": "ok", "seconds": 19.24678677227348}
+{"event": "case_start", "id": "selection_v3_test_0002613", "mode": "understanding"}
+{"id": "selection_v3_test_0002613", "status": "ok", "seconds": 7.958299716934562}
+{"event": "case_start", "id": "selection_v3_test_0001500", "mode": "understanding"}
+{"id": "selection_v3_test_0001500", "status": "ok", "seconds": 6.593830585479736}
+{"event": "case_start", "id": "actual_id_chain_14230_turn_5", "mode": "understanding"}
+{"id": "actual_id_chain_14230_turn_5", "status": "ok", "seconds": 36.88439546432346}
+{"event": "case_start", "id": "actual_id_chain_12726_turn_4", "mode": "understanding"}
+{"id": "actual_id_chain_12726_turn_4", "status": "ok", "seconds": 7.241109469905496}
+{"event": "case_start", "id": "selection_v3_test_0000559", "mode": "understanding"}
+{"id": "selection_v3_test_0000559", "status": "ok", "seconds": 16.47345658391714}
+{"event": "case_start", "id": "selection_v3_test_0004512", "mode": "understanding"}
+{"id": "selection_v3_test_0004512", "status": "ok", "seconds": 11.76789203286171}
+{"event": "case_start", "id": "selection_v3_test_0001515", "mode": "understanding"}
+{"id": "selection_v3_test_0001515", "status": "ok", "seconds": 7.093486427329481}
+{"event": "case_start", "id": "actual_id_chain_13722_turn_5", "mode": "understanding"}
+{"id": "actual_id_chain_13722_turn_5", "status": "ok", "seconds": 18.527648309245706}
+{"event": "case_start", "id": "selection_v3_test_0001696", "mode": "understanding"}
+{"id": "selection_v3_test_0001696", "status": "ok", "seconds": 7.778986547142267}
+{"event": "case_start", "id": "selection_v3_test_0000278", "mode": "understanding"}
+{"id": "selection_v3_test_0000278", "status": "ok", "seconds": 17.53771041147411}
+{"event": "case_start", "id": "selection_v3_test_0004354", "mode": "understanding"}
+{"id": "selection_v3_test_0004354", "status": "ok", "seconds": 19.813780520111322}
+{"event": "case_start", "id": "selection_v3_test_0004675", "mode": "understanding"}
+{"id": "selection_v3_test_0004675", "status": "ok", "seconds": 17.408869956620038}
+{"event": "case_start", "id": "actual_id_chain_13536_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13536_turn_3", "status": "ok", "seconds": 20.772029620595276}
+{"event": "case_start", "id": "selection_v3_test_0002998", "mode": "understanding"}
+{"id": "selection_v3_test_0002998", "status": "ok", "seconds": 30.906026563607156}
+{"event": "case_start", "id": "selection_v3_test_0001847", "mode": "understanding"}
+{"id": "selection_v3_test_0001847", "status": "ok", "seconds": 18.531309999525547}
+{"event": "case_start", "id": "selection_v3_test_0001315", "mode": "understanding"}
+{"id": "selection_v3_test_0001315", "status": "ok", "seconds": 5.314687479287386}
+{"event": "case_start", "id": "selection_v3_test_0004518", "mode": "understanding"}
+{"id": "selection_v3_test_0004518", "status": "ok", "seconds": 16.50941958092153}
+{"event": "case_start", "id": "actual_id_chain_13787_turn_5", "mode": "understanding"}
+{"id": "actual_id_chain_13787_turn_5", "status": "ok", "seconds": 18.638489230535924}
+{"event": "case_start", "id": "selection_v3_test_0002416", "mode": "understanding"}
+{"id": "selection_v3_test_0002416", "status": "ok", "seconds": 27.307256130501628}
+{"event": "case_start", "id": "selection_v3_test_0003721", "mode": "understanding"}
+{"id": "selection_v3_test_0003721", "status": "ok", "seconds": 16.954570369794965}
+{"event": "case_start", "id": "selection_v3_test_0000526", "mode": "understanding"}
+{"id": "selection_v3_test_0000526", "status": "ok", "seconds": 28.137996012344956}
+{"event": "case_start", "id": "selection_v3_test_0005319", "mode": "understanding"}
+{"id": "selection_v3_test_0005319", "status": "ok", "seconds": 28.177229274064302}
+{"event": "case_start", "id": "selection_v3_test_0005141", "mode": "understanding"}
+{"id": "selection_v3_test_0005141", "status": "ok", "seconds": 38.35357049386948}
+{"event": "case_start", "id": "selection_v3_test_0000099", "mode": "understanding"}
+{"id": "selection_v3_test_0000099", "status": "ok", "seconds": 8.046543582342565}
+{"event": "case_start", "id": "actual_id_chain_13123_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13123_turn_3", "status": "ok", "seconds": 14.941512688994408}
+{"event": "case_start", "id": "selection_v3_test_0001594", "mode": "understanding"}
+{"id": "selection_v3_test_0001594", "status": "ok", "seconds": 38.936962123028934}
+{"event": "case_start", "id": "selection_v3_test_0002841", "mode": "understanding"}
+{"id": "selection_v3_test_0002841", "status": "ok", "seconds": 7.294298239983618}
+{"event": "case_start", "id": "selection_v3_test_0002889", "mode": "understanding"}
+{"id": "selection_v3_test_0002889", "status": "ok", "seconds": 6.758863183669746}
+{"event": "case_start", "id": "selection_v3_test_0001411", "mode": "understanding"}
+{"id": "selection_v3_test_0001411", "status": "ok", "seconds": 6.8971722442656755}
+{"event": "case_start", "id": "selection_v3_test_0002637", "mode": "understanding"}
+{"id": "selection_v3_test_0002637", "status": "ok", "seconds": 28.043945621699095}
+{"event": "case_start", "id": "selection_v3_test_0002227", "mode": "understanding"}
+{"id": "selection_v3_test_0002227", "status": "ok", "seconds": 34.96002761181444}
+{"event": "case_start", "id": "selection_v3_test_0002249", "mode": "understanding"}
+{"id": "selection_v3_test_0002249", "status": "ok", "seconds": 6.0464654406532645}
+{"event": "case_start", "id": "selection_v3_test_0005160", "mode": "understanding"}
+{"id": "selection_v3_test_0005160", "status": "ok", "seconds": 6.913568866439164}
+{"event": "case_start", "id": "selection_v3_test_0004507", "mode": "understanding"}
+{"id": "selection_v3_test_0004507", "status": "ok", "seconds": 16.81423634570092}
+{"event": "case_start", "id": "actual_id_chain_14318_turn_4", "mode": "understanding"}
+{"id": "actual_id_chain_14318_turn_4", "status": "ok", "seconds": 29.240147188305855}
+{"event": "case_start", "id": "selection_v3_test_0002910", "mode": "understanding"}
+{"id": "selection_v3_test_0002910", "status": "ok", "seconds": 17.13011280540377}
+{"event": "case_start", "id": "selection_v3_test_0003995", "mode": "understanding"}
+{"id": "selection_v3_test_0003995", "status": "ok", "seconds": 6.101083896122873}
+{"event": "case_start", "id": "selection_v3_test_0000715", "mode": "understanding"}
+{"id": "selection_v3_test_0000715", "status": "ok", "seconds": 7.126542871817946}
+{"event": "case_start", "id": "selection_v3_test_0002752", "mode": "understanding"}
+{"id": "selection_v3_test_0002752", "status": "ok", "seconds": 7.264527878724039}
+{"event": "case_start", "id": "selection_v3_test_0005327", "mode": "understanding"}
+{"id": "selection_v3_test_0005327", "status": "ok", "seconds": 6.711312672123313}
+{"event": "case_start", "id": "selection_v3_test_0005243", "mode": "understanding"}
+{"id": "selection_v3_test_0005243", "status": "ok", "seconds": 17.898382523097098}
+{"event": "case_start", "id": "selection_v3_test_0002465", "mode": "understanding"}
+{"id": "selection_v3_test_0002465", "status": "ok", "seconds": 6.859861535951495}
+{"event": "case_start", "id": "selection_v3_test_0004476", "mode": "understanding"}
+{"id": "selection_v3_test_0004476", "status": "ok", "seconds": 28.025992713868618}
+{"event": "case_start", "id": "selection_v3_test_0000019", "mode": "understanding"}
+{"id": "selection_v3_test_0000019", "status": "ok", "seconds": 15.70917433872819}
+{"event": "case_start", "id": "selection_v3_test_0001413", "mode": "understanding"}
+{"id": "selection_v3_test_0001413", "status": "ok", "seconds": 29.896852950565517}
+{"event": "case_start", "id": "selection_v3_test_0001882", "mode": "understanding"}
+{"id": "selection_v3_test_0001882", "status": "ok", "seconds": 35.091914623975754}
+{"event": "case_start", "id": "selection_v3_test_0001697", "mode": "understanding"}
+{"id": "selection_v3_test_0001697", "status": "ok", "seconds": 6.709374964237213}
+{"event": "case_start", "id": "selection_v3_test_0005315", "mode": "understanding"}
+{"id": "selection_v3_test_0005315", "status": "ok", "seconds": 7.420835257507861}
+{"event": "case_start", "id": "selection_v3_test_0004732", "mode": "understanding"}
+{"id": "selection_v3_test_0004732", "status": "ok", "seconds": 20.353817043825984}
+{"event": "case_start", "id": "selection_v3_test_0004624", "mode": "understanding"}
+{"id": "selection_v3_test_0004624", "status": "ok", "seconds": 9.866373387165368}
+{"event": "case_start", "id": "actual_id_chain_13366_turn_5", "mode": "understanding"}
+{"id": "actual_id_chain_13366_turn_5", "status": "ok", "seconds": 18.18309478275478}
+{"event": "case_start", "id": "selection_v3_test_0001417", "mode": "understanding"}
+{"id": "selection_v3_test_0001417", "status": "ok", "seconds": 6.1011615032330155}
+{"event": "case_start", "id": "selection_v3_test_0005099", "mode": "understanding"}
+{"id": "selection_v3_test_0005099", "status": "ok", "seconds": 11.102960741147399}
+{"event": "case_start", "id": "selection_v3_test_0002817", "mode": "understanding"}
+{"id": "selection_v3_test_0002817", "status": "ok", "seconds": 16.969826663844287}
+{"event": "case_start", "id": "selection_v3_test_0000017", "mode": "understanding"}
+{"id": "selection_v3_test_0000017", "status": "ok", "seconds": 5.300051205791533}
+{"event": "case_start", "id": "selection_v3_test_0004117", "mode": "understanding"}
+{"id": "selection_v3_test_0004117", "status": "ok", "seconds": 7.0852108700200915}
+{"event": "case_start", "id": "selection_v3_test_0000091", "mode": "understanding"}
+{"id": "selection_v3_test_0000091", "status": "ok", "seconds": 6.654348256997764}
+{"event": "case_start", "id": "selection_v3_test_0003125", "mode": "understanding"}
+{"id": "selection_v3_test_0003125", "status": "ok", "seconds": 6.583993470296264}
+{"event": "case_start", "id": "selection_v3_test_0004779", "mode": "understanding"}
+{"id": "selection_v3_test_0004779", "status": "ok", "seconds": 19.03447716962546}
+{"event": "case_start", "id": "selection_v3_test_0002307", "mode": "understanding"}
+{"id": "selection_v3_test_0002307", "status": "ok", "seconds": 38.84062990732491}
+{"event": "case_start", "id": "selection_v3_test_0003649", "mode": "understanding"}
+{"id": "selection_v3_test_0003649", "status": "ok", "seconds": 17.874076636508107}
+{"event": "case_start", "id": "selection_v3_test_0003964", "mode": "understanding"}
+{"id": "selection_v3_test_0003964", "status": "ok", "seconds": 7.324092716909945}
+{"event": "case_start", "id": "selection_v3_test_0002756", "mode": "understanding"}
+{"id": "selection_v3_test_0002756", "status": "ok", "seconds": 5.2802647007629275}
+{"event": "case_start", "id": "selection_v3_test_0002253", "mode": "understanding"}
+{"id": "selection_v3_test_0002253", "status": "ok", "seconds": 6.051972766406834}
+{"event": "case_start", "id": "selection_v3_test_0005097", "mode": "understanding"}
+{"id": "selection_v3_test_0005097", "status": "ok", "seconds": 7.518628587946296}
+{"event": "case_start", "id": "selection_v3_test_0004860", "mode": "understanding"}
+{"id": "selection_v3_test_0004860", "status": "ok", "seconds": 7.770843473263085}
+{"event": "case_start", "id": "selection_v3_test_0000039", "mode": "understanding"}
+{"id": "selection_v3_test_0000039", "status": "ok", "seconds": 8.099800130352378}
+{"event": "case_start", "id": "selection_v3_test_0002973", "mode": "understanding"}
+{"id": "selection_v3_test_0002973", "status": "ok", "seconds": 5.443256793543696}
+{"event": "case_start", "id": "actual_id_chain_14318_turn_5", "mode": "understanding"}
+{"id": "actual_id_chain_14318_turn_5", "status": "ok", "seconds": 5.382427427917719}
+{"event": "case_start", "id": "selection_v3_test_0002726", "mode": "understanding"}
+{"id": "selection_v3_test_0002726", "status": "ok", "seconds": 49.23646076582372}
+{"event": "case_start", "id": "selection_v3_test_0000614", "mode": "understanding"}
+{"id": "selection_v3_test_0000614", "status": "ok", "seconds": 6.73053745739162}
+{"event": "case_start", "id": "selection_v3_test_0000557", "mode": "understanding"}
+{"id": "selection_v3_test_0000557", "status": "ok", "seconds": 7.096774945035577}
+{"event": "case_start", "id": "selection_v3_test_0003442", "mode": "understanding"}
+{"id": "selection_v3_test_0003442", "status": "ok", "seconds": 5.50085561349988}
+{"event": "case_start", "id": "selection_v3_test_0003973", "mode": "understanding"}
+{"id": "selection_v3_test_0003973", "status": "ok", "seconds": 29.6758790044114}
+{"event": "case_start", "id": "selection_v3_test_0001972", "mode": "understanding"}
+{"id": "selection_v3_test_0001972", "status": "ok", "seconds": 27.56651979777962}
+{"event": "case_start", "id": "selection_v3_test_0003920", "mode": "understanding"}
+{"id": "selection_v3_test_0003920", "status": "ok", "seconds": 18.304547329433262}
+{"event": "case_start", "id": "selection_v3_test_0001372", "mode": "understanding"}
+{"id": "selection_v3_test_0001372", "status": "ok", "seconds": 5.748814344406128}
+{"event": "case_start", "id": "selection_v3_test_0005181", "mode": "understanding"}
+{"id": "selection_v3_test_0005181", "status": "ok", "seconds": 6.719818525016308}
+{"event": "case_start", "id": "selection_v3_test_0004847", "mode": "understanding"}
+{"id": "selection_v3_test_0004847", "status": "ok", "seconds": 6.5144517961889505}
+{"event": "case_start", "id": "selection_v3_test_0003339", "mode": "understanding"}
+{"id": "selection_v3_test_0003339", "status": "ok", "seconds": 8.062660438939929}
+{"event": "case_start", "id": "actual_id_chain_13206_turn_4", "mode": "understanding"}
+{"id": "actual_id_chain_13206_turn_4", "status": "ok", "seconds": 6.337269153445959}
+{"event": "case_start", "id": "selection_v3_test_0003004", "mode": "understanding"}
+{"id": "selection_v3_test_0003004", "status": "ok", "seconds": 5.886787250638008}
+{"event": "case_start", "id": "selection_v3_test_0000812", "mode": "understanding"}
+{"id": "selection_v3_test_0000812", "status": "ok", "seconds": 7.177107413299382}
+{"event": "case_start", "id": "selection_v3_test_0003203", "mode": "understanding"}
+{"id": "selection_v3_test_0003203", "status": "ok", "seconds": 19.443000567145646}
+{"event": "case_start", "id": "selection_v3_test_0004550", "mode": "understanding"}
+{"id": "selection_v3_test_0004550", "status": "ok", "seconds": 6.858666564337909}
+{"event": "case_start", "id": "selection_v3_test_0004247", "mode": "understanding"}
+{"id": "selection_v3_test_0004247", "status": "ok", "seconds": 6.557147368788719}
+{"event": "case_start", "id": "selection_v3_test_0001202", "mode": "understanding"}
+{"id": "selection_v3_test_0001202", "status": "ok", "seconds": 27.304297124035656}
+{"event": "case_start", "id": "selection_v3_test_0000996", "mode": "understanding"}
+{"id": "selection_v3_test_0000996", "status": "ok", "seconds": 6.6297559244558215}
+{"event": "case_start", "id": "selection_v3_test_0004733", "mode": "understanding"}
+{"id": "selection_v3_test_0004733", "status": "ok", "seconds": 6.5901100523769855}
+{"event": "case_start", "id": "selection_v3_test_0005090", "mode": "understanding"}
+{"id": "selection_v3_test_0005090", "status": "ok", "seconds": 6.670438854023814}
+{"event": "case_start", "id": "selection_v3_test_0000726", "mode": "understanding"}
+{"id": "selection_v3_test_0000726", "status": "ok", "seconds": 15.994698853231966}
+{"event": "case_start", "id": "selection_v3_test_0003114", "mode": "understanding"}
+{"id": "selection_v3_test_0003114", "status": "ok", "seconds": 8.313350971788168}
+{"event": "case_start", "id": "selection_v3_test_0002898", "mode": "understanding"}
+{"id": "selection_v3_test_0002898", "status": "ok", "seconds": 7.503907810896635}
+{"event": "case_start", "id": "selection_v3_test_0004708", "mode": "understanding"}
+{"id": "selection_v3_test_0004708", "status": "ok", "seconds": 7.606405144557357}
+{"event": "case_start", "id": "selection_v3_test_0002567", "mode": "understanding"}
+{"id": "selection_v3_test_0002567", "status": "ok", "seconds": 7.095485394820571}
+{"event": "case_start", "id": "actual_id_chain_14304_turn_4", "mode": "understanding"}
+{"id": "actual_id_chain_14304_turn_4", "status": "ok", "seconds": 7.281190386973321}
+{"event": "case_start", "id": "selection_v3_test_0000221", "mode": "understanding"}
+{"id": "selection_v3_test_0000221", "status": "ok", "seconds": 6.4935696590691805}
+{"event": "case_start", "id": "selection_v3_test_0003725", "mode": "understanding"}
+{"id": "selection_v3_test_0003725", "status": "ok", "seconds": 17.24213945120573}
+{"event": "case_start", "id": "selection_v3_test_0002612", "mode": "understanding"}
+{"id": "selection_v3_test_0002612", "status": "ok", "seconds": 7.668846905231476}
+{"event": "case_start", "id": "selection_v3_test_0004611", "mode": "understanding"}
+{"id": "selection_v3_test_0004611", "status": "ok", "seconds": 17.677076146006584}
+{"event": "case_start", "id": "selection_v3_test_0001812", "mode": "understanding"}
+{"id": "selection_v3_test_0001812", "status": "ok", "seconds": 26.53900604043156}
+{"event": "case_start", "id": "selection_v3_test_0004031", "mode": "understanding"}
+{"id": "selection_v3_test_0004031", "status": "ok", "seconds": 7.2990428963676095}
+{"event": "case_start", "id": "selection_v3_test_0004124", "mode": "understanding"}
+{"id": "selection_v3_test_0004124", "status": "ok", "seconds": 17.410681483335793}
+{"event": "case_start", "id": "selection_v3_test_0004195", "mode": "understanding"}
+{"id": "selection_v3_test_0004195", "status": "ok", "seconds": 7.958571964874864}
+{"event": "case_start", "id": "selection_v3_test_0001842", "mode": "understanding"}
+{"id": "selection_v3_test_0001842", "status": "ok", "seconds": 8.074426501058042}
+{"event": "case_start", "id": "selection_v3_test_0004764", "mode": "understanding"}
+{"id": "selection_v3_test_0004764", "status": "ok", "seconds": 8.327967788092792}
+{"event": "case_start", "id": "selection_v3_test_0000234", "mode": "understanding"}
+{"id": "selection_v3_test_0000234", "status": "ok", "seconds": 6.778860102407634}
+{"event": "case_start", "id": "selection_v3_test_0003733", "mode": "understanding"}
+{"id": "selection_v3_test_0003733", "status": "ok", "seconds": 7.313271524384618}
+{"event": "case_start", "id": "selection_v3_test_0005299", "mode": "understanding"}
+{"id": "selection_v3_test_0005299", "status": "ok", "seconds": 7.2607926009222865}
+{"event": "case_start", "id": "selection_v3_test_0003081", "mode": "understanding"}
+{"id": "selection_v3_test_0003081", "status": "ok", "seconds": 18.850773788057268}
+{"event": "case_start", "id": "selection_v3_test_0004097", "mode": "understanding"}
+{"id": "selection_v3_test_0004097", "status": "ok", "seconds": 8.105378911830485}
+{"event": "case_start", "id": "selection_v3_test_0002509", "mode": "understanding"}
+{"id": "selection_v3_test_0002509", "status": "ok", "seconds": 17.43411064427346}
+{"event": "case_start", "id": "actual_id_chain_13709_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13709_turn_3", "status": "ok", "seconds": 7.469234691932797}
+{"event": "case_start", "id": "selection_v3_test_0001204", "mode": "understanding"}
+{"id": "selection_v3_test_0001204", "status": "ok", "seconds": 7.550682625733316}
+{"event": "case_start", "id": "selection_v3_test_0003196", "mode": "understanding"}
+{"id": "selection_v3_test_0003196", "status": "ok", "seconds": 5.335659337230027}
+{"event": "case_start", "id": "selection_v3_test_0002231", "mode": "understanding"}
+{"id": "selection_v3_test_0002231", "status": "ok", "seconds": 7.728219675831497}
+{"event": "case_start", "id": "selection_v3_test_0001551", "mode": "understanding"}
+{"id": "selection_v3_test_0001551", "status": "ok", "seconds": 8.027607887983322}
+{"event": "case_start", "id": "selection_v3_test_0001240", "mode": "understanding"}
+{"id": "selection_v3_test_0001240", "status": "ok", "seconds": 26.920914738439023}
+{"event": "case_start", "id": "selection_v3_test_0001606", "mode": "understanding"}
+{"id": "selection_v3_test_0001606", "status": "ok", "seconds": 7.169488060288131}
+{"event": "case_start", "id": "selection_v3_test_0000153", "mode": "understanding"}
+{"id": "selection_v3_test_0000153", "status": "ok", "seconds": 6.463641922920942}
+{"event": "case_start", "id": "actual_id_chain_13023_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13023_turn_3", "status": "ok", "seconds": 6.993760949000716}
+{"event": "case_start", "id": "selection_v3_test_0002625", "mode": "understanding"}
+{"id": "selection_v3_test_0002625", "status": "ok", "seconds": 27.61282306537032}
+{"event": "case_start", "id": "selection_v3_test_0002673", "mode": "understanding"}
+{"id": "selection_v3_test_0002673", "status": "ok", "seconds": 7.894065925851464}
+{"event": "case_start", "id": "actual_id_chain_14210_turn_4", "mode": "understanding"}
+{"id": "actual_id_chain_14210_turn_4", "status": "ok", "seconds": 16.648981034755707}
+{"event": "case_start", "id": "selection_v3_test_0002769", "mode": "understanding"}
+{"id": "selection_v3_test_0002769", "status": "ok", "seconds": 7.036030890420079}
+{"event": "case_start", "id": "selection_v3_test_0002949", "mode": "understanding"}
+{"id": "selection_v3_test_0002949", "status": "ok", "seconds": 7.738546317443252}
+{"event": "case_start", "id": "selection_v3_test_0004093", "mode": "understanding"}
+{"id": "selection_v3_test_0004093", "status": "ok", "seconds": 6.457588460296392}
+{"event": "case_start", "id": "selection_v3_test_0001988", "mode": "understanding"}
+{"id": "selection_v3_test_0001988", "status": "ok", "seconds": 19.20337243564427}
+{"event": "case_start", "id": "actual_id_chain_13817_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13817_turn_3", "status": "ok", "seconds": 6.698709127493203}
+{"event": "case_start", "id": "selection_v3_test_0002466", "mode": "understanding"}
+{"id": "selection_v3_test_0002466", "status": "ok", "seconds": 6.937928897328675}
+{"event": "case_start", "id": "selection_v3_test_0002208", "mode": "understanding"}
+{"id": "selection_v3_test_0002208", "status": "ok", "seconds": 7.402549146674573}
+{"event": "case_start", "id": "selection_v3_test_0003187", "mode": "understanding"}
+{"id": "selection_v3_test_0003187", "status": "ok", "seconds": 5.487904589623213}
+{"event": "case_start", "id": "actual_id_chain_13079_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13079_turn_3", "status": "ok", "seconds": 7.28343518730253}
+{"event": "case_start", "id": "actual_id_chain_12737_turn_5", "mode": "understanding"}
+{"id": "actual_id_chain_12737_turn_5", "status": "ok", "seconds": 39.82433458045125}
+{"event": "case_start", "id": "selection_v3_test_0005245", "mode": "understanding"}
+{"id": "selection_v3_test_0005245", "status": "ok", "seconds": 6.450140058994293}
+{"event": "case_start", "id": "selection_v3_test_0002794", "mode": "understanding"}
+{"id": "selection_v3_test_0002794", "status": "ok", "seconds": 6.081616329960525}
+{"event": "case_start", "id": "actual_id_chain_13762_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13762_turn_3", "status": "ok", "seconds": 6.758919325657189}
+{"event": "case_start", "id": "selection_v3_test_0000983", "mode": "understanding"}
+{"id": "selection_v3_test_0000983", "status": "ok", "seconds": 7.287788172252476}
+{"event": "case_start", "id": "selection_v3_test_0002178", "mode": "understanding"}
+{"id": "selection_v3_test_0002178", "status": "ok", "seconds": 27.878862569108605}
+{"event": "case_start", "id": "actual_id_chain_12815_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_12815_turn_3", "status": "ok", "seconds": 26.48518004734069}
+{"event": "case_start", "id": "selection_v3_test_0000656", "mode": "understanding"}
+{"id": "selection_v3_test_0000656", "status": "ok", "seconds": 6.465047177858651}
+{"event": "case_start", "id": "selection_v3_test_0004217", "mode": "understanding"}
+{"id": "selection_v3_test_0004217", "status": "ok", "seconds": 6.9588032234460115}
+{"event": "case_start", "id": "actual_id_chain_13098_turn_2", "mode": "understanding"}
+{"id": "actual_id_chain_13098_turn_2", "status": "ok", "seconds": 5.430802837014198}
+{"event": "case_start", "id": "selection_v3_test_0005322", "mode": "understanding"}
+{"id": "selection_v3_test_0005322", "status": "ok", "seconds": 6.787067168392241}
+{"event": "case_start", "id": "selection_v3_test_0003347", "mode": "understanding"}
+{"id": "selection_v3_test_0003347", "status": "ok", "seconds": 6.300706942565739}
+{"event": "case_start", "id": "actual_id_chain_13704_turn_2", "mode": "understanding"}
+{"id": "actual_id_chain_13704_turn_2", "status": "ok", "seconds": 7.466939958743751}
+{"event": "case_start", "id": "actual_id_chain_12492_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_12492_turn_3", "status": "ok", "seconds": 5.360204203054309}
+{"event": "case_start", "id": "actual_id_chain_14169_turn_2", "mode": "understanding"}
+{"id": "actual_id_chain_14169_turn_2", "status": "ok", "seconds": 28.835955280810595}
+{"event": "case_start", "id": "selection_v3_test_0001680", "mode": "understanding"}
+{"id": "selection_v3_test_0001680", "status": "ok", "seconds": 6.684643680229783}
+{"event": "case_start", "id": "selection_v3_test_0001572", "mode": "understanding"}
+{"id": "selection_v3_test_0001572", "status": "ok", "seconds": 7.865395473316312}
+{"event": "case_start", "id": "selection_v3_test_0003619", "mode": "understanding"}
+{"id": "selection_v3_test_0003619", "status": "ok", "seconds": 6.004668609239161}
+{"event": "case_start", "id": "selection_v3_test_0004262", "mode": "understanding"}
+{"id": "selection_v3_test_0004262", "status": "ok", "seconds": 10.431728057563305}
+{"event": "case_start", "id": "selection_v3_test_0000688", "mode": "understanding"}
+{"id": "selection_v3_test_0000688", "status": "ok", "seconds": 6.89371570572257}
+{"event": "case_start", "id": "actual_id_chain_13775_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13775_turn_3", "status": "ok", "seconds": 7.438843018375337}
+{"event": "case_start", "id": "selection_v3_test_0005302", "mode": "understanding"}
+{"id": "selection_v3_test_0005302", "status": "ok", "seconds": 8.517955345101655}
+{"event": "case_start", "id": "actual_id_chain_13286_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13286_turn_3", "status": "ok", "seconds": 6.777368914335966}
+{"event": "case_start", "id": "selection_v3_test_0002440", "mode": "understanding"}
+{"id": "selection_v3_test_0002440", "status": "ok", "seconds": 7.216212627477944}
+{"event": "case_start", "id": "selection_v3_test_0002850", "mode": "understanding"}
+{"id": "selection_v3_test_0002850", "status": "ok", "seconds": 6.346643895842135}
+{"event": "case_start", "id": "actual_id_chain_12488_turn_4", "mode": "understanding"}
+{"id": "actual_id_chain_12488_turn_4", "status": "ok", "seconds": 15.820603083819151}
+{"event": "case_start", "id": "actual_id_chain_13581_turn_3", "mode": "understanding"}
+{"id": "actual_id_chain_13581_turn_3", "status": "ok", "seconds": 6.329100047238171}
+{"event": "case_start", "id": "selection_v3_test_0005007", "mode": "understanding"}
+{"id": "selection_v3_test_0005007", "status": "ok", "seconds": 7.528977240435779}
+{"event": "case_start", "id": "selection_v3_test_0002848", "mode": "understanding"}
+{"id": "selection_v3_test_0002848", "status": "ok", "seconds": 6.722326006740332}
+{"event": "case_start", "id": "selection_v3_test_0003399", "mode": "understanding"}
+{"id": "selection_v3_test_0003399", "status": "ok", "seconds": 6.246896479278803}
+{"event": "case_start", "id": "selection_v3_test_0003266", "mode": "understanding"}
+{"id": "selection_v3_test_0003266", "status": "ok", "seconds": 8.147284095175564}
+{"event": "case_start", "id": "actual_id_chain_12473_turn_4", "mode": "understanding"}
+{"id": "actual_id_chain_12473_turn_4", "status": "ok", "seconds": 6.861062704585493}
+{"event": "case_start", "id": "actual_id_chain_12430_turn_2", "mode": "understanding"}
+{"id": "actual_id_chain_12430_turn_2", "status": "ok", "seconds": 6.778356692753732}
+{"event": "case_start", "id": "selection_v3_test_0005298", "mode": "understanding"}
+{"id": "selection_v3_test_0005298", "status": "ok", "seconds": 7.32971996627748}
+{"event": "case_start", "id": "actual_id_chain_13000_turn_4", "mode": "understanding"}
+{"id": "actual_id_chain_13000_turn_4", "status": "ok", "seconds": 37.67362655792385}
+{"event": "case_start", "id": "selection_v3_test_0003023", "mode": "understanding"}
+{"id": "selection_v3_test_0003023", "status": "ok", "seconds": 7.507968253456056}

@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6770.mp4",
+  "observed": {
+    "identity": "A muscular adult male with a tanned complexion, shown in profile and three-quarter views.",
+    "hairstyle": "Short, swept-back hair with a textured, slightly spiky top.",
+    "hair_color": "Platinum white.",
+    "clothing": "A sleeveless tank top with a pink, white, and yellow tie-dye pattern featuring palm tree graphics, paired with pink shorts.",
+    "action": "The man stands and slowly rotates his body, turning from a side profile to face away from the camera and then back toward the side.",
+    "camera": "A static, medium shot at eye level that keeps the subject centered in the frame.",
+    "scene": "An outdoor paved area, likely a parking lot or road, with a metal guardrail, large rocks, green trees, and a bright sky in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "e2dc498dbe203b334af2cb73e5a74cd8f68b9e11880b272a4d0ebf488c191a9a"
+}

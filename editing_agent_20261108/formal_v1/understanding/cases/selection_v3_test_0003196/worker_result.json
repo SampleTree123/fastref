@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0003196",
+  "dataset_index": 781,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 5.335659337230027,
+  "result": {
+    "source_video_id": 2,
+    "prompt": "Change the person's hair color to black. Preserve the person's identity, hairstyle, and all other visual details and motion in the video.",
+    "reference_ids": [],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6362.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a slim build, brown skin, and a short beard.",
+    "hairstyle": "Short, cropped hair with a distinct greenish-yellow tint.",
+    "hair_color": "Greenish-yellow.",
+    "clothing": "A bright yellow long-sleeved button-up shirt with a white pattern, red flared trousers, a brown belt, and dark shoes.",
+    "action": "The character stands facing the camera, then performs a short dance move by swinging his arms and head before returning to a standing pose.",
+    "camera": "A static, low-angle full-body shot from a slightly frontal perspective.",
+    "scene": "An outdoor urban plaza with tiled and pebbled ground, surrounded by tall buildings, construction cranes, and illuminated signs with Japanese text."
+  },
+  "uncertain": [],
+  "observation_identity": "9f3ecd9169cd8fa19bcaf043edd3efc70b6d21006cdeb0b595b5a641d670a64b"
+}

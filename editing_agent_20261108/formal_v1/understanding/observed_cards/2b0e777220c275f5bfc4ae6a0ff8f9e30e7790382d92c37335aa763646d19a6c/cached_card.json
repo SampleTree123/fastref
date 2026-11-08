@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6240.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build, dark skin, and a ponytail, shown mostly from behind.",
+    "hairstyle": "Blonde hair pulled back into a high ponytail.",
+    "hair_color": "Bright yellow-blonde.",
+    "clothing": "A short, backless dress with a black-and-white checkered bodice and a black skirt with a yellow floral pattern, plus light blue sneakers.",
+    "action": "The character stands on a tiled platform, raises one arm to touch her hair, then turns slightly to the side while keeping a hand near her head.",
+    "camera": "A static, low-angle full-body shot from behind the character.",
+    "scene": "A stylized urban rooftop or plaza at sunset, with a multi-story building, neon signs, construction cranes, and a pale sky in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "2e27dfa65499a78b865cde05b1cfdf1a2eb8130e662583d8f9956e19968506e6"
+}

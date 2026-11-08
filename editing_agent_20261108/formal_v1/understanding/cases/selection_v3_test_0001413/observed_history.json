@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6262.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build, light skin, and a neutral facial expression.",
+      "hairstyle": "Short, straight hair with bangs, tucked behind her ears.",
+      "hair_color": "Pinkish-red.",
+      "clothing": "A short, short-sleeved dress with a colorful abstract pattern in blue, purple, orange, and green, paired with pink sneakers.",
+      "action": "The woman stands in the center of an open paved area and slowly rotates a full 360 degrees, starting facing forward, turning to her left, then to her back, and returning to face forward.",
+      "camera": "A static, full-body shot at eye level that keeps the woman centered in the frame throughout the rotation.",
+      "scene": "An outdoor amusement park setting during the day, featuring a large Ferris wheel, a carousel, a 'General Store' building, and various carnival rides and stalls in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "f56f515c79852aa67db2be8f9ef8f9e08a07a4fef06d7baa78d7c85201825193"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_769.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6249.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin, shown in a 3D-rendered style.",
+      "hairstyle": "Short, chin-length bob with a side part.",
+      "hair_color": "Reddish-brown / auburn.",
+      "clothing": "Short one-piece dress with a purple base and a colorful floral pattern, plus reddish-brown flat shoes.",
+      "action": "She stands in the open plaza, slowly turning in place while posing with one hand on her hip and the other raised near her head.",
+      "camera": "Full-body shot at roughly eye level that orbits around her, keeping her centered as the background changes.",
+      "scene": "An outdoor fairground at warm daylight, with a large swing ride, a carousel, a 'General Store' sign, and a 'Game' sign visible around a paved open area."
+    },
+    "uncertain": [],
+    "observation_identity": "e25830f3f93f35bf90a8e0887ca7fcb1166ece7f44fc1be0f143d461cbcee4c0"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_744.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to lowering their head and resting one hand on their forehead, as demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6257.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin and a neutral expression.",
+      "hairstyle": "Her hair is pulled back into a low bun at the nape of her neck.",
+      "hair_color": "Her hair is a reddish-brown or auburn color.",
+      "clothing": "She wears a short, short-sleeved dress with a vibrant, abstract pattern in purple, blue, orange, and pink, along with pink sneakers.",
+      "action": "The woman stands in the center of a paved area, slowly turning her body in a full circle while occasionally raising her hand to her head or hip.",
+      "camera": "The camera maintains a medium-full shot, orbiting around the woman at a steady pace to capture her from all angles.",
+      "scene": "The setting is an outdoor amusement park or fairground during the day, featuring a large Ferris wheel, a carousel, a general store, and various game booths in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "5910d219eae8675eb7b5c3d7b17e318843144e97228f693695df39e73c539c58"
+  }
+]

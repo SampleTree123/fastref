@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6766.mp4",
+  "observed": {
+    "identity": "A slim, muscular Black man with a short beard, shown in full body.",
+    "hairstyle": "Short, neatly trimmed hair with a defined side part.",
+    "hair_color": "Red.",
+    "clothing": "A white tank top with a pink and yellow palm-tree graphic, pink shorts with white trim, and pink slip-on shoes.",
+    "action": "He stands still, then raises both arms overhead and dances with small steps and arm movements before returning to a standing pose.",
+    "camera": "A static, low-angle full-body shot from the front-left.",
+    "scene": "An outdoor paved area under a concrete overpass, with a metal railing, greenery, and a construction crane in the background under a partly cloudy sky."
+  },
+  "uncertain": [],
+  "observation_identity": "1c9856e3941a6244e86822d6e84e137dea70bd527505488a65dcb32037b63894"
+}

@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6057.mp4",
+  "observed": {
+    "identity": "A 3D-rendered young woman with a slim build, light skin, and a neutral face.",
+    "hairstyle": "Her hair is pulled up into a high bun.",
+    "hair_color": "Light brown.",
+    "clothing": "She wears a white off-the-shoulder top with a pink gingham bodice, dark floral high-waisted shorts, and light blue sneakers.",
+    "action": "She walks forward toward the camera, then stops and raises her right hand to cover her face while placing her left hand on her hip.",
+    "camera": "A static, low-angle full-body shot that frames the character from head to toe.",
+    "scene": "A wet, paved city street at dusk, lined with tall buildings, construction cranes, and illuminated Japanese signs."
+  },
+  "uncertain": [],
+  "observation_identity": "b5006e5df5664ee4ea5eedb7326e8c4eb836f4fc1300ec384d8f9edbdcabd41b"
+}

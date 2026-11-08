@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6713.mp4",
+  "observed": {
+    "identity": "A person with a slim build is seen from behind, with their face mostly hidden in shadow.",
+    "hairstyle": "The person has their hair pulled back into a high ponytail.",
+    "hair_color": "The hair appears light brown or blonde in the sunlight.",
+    "clothing": "They are wearing a dark, long-sleeved top and matching pants that have large, irregular holes revealing skin underneath.",
+    "action": "The person stands still, then slowly turns their head and upper body to the left, and then back to the right.",
+    "camera": "The camera maintains a static, medium shot from behind the subject at eye level.",
+    "scene": "The setting is an outdoor stone platform overlooking a calm body of water under a clear blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "cb043a123f3fa37a1133a7ac923f44ca95a7374f95f0a755eb08ec3629c8fb5e"
+}

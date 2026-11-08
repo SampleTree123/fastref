@@ -1,0 +1,119 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6138.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble is centered in the frame.",
+      "hairstyle": "He has short, dark hair styled upward and slightly tousled at the crown.",
+      "hair_color": "His hair is black.",
+      "clothing": "He wears a white sleeveless tank top with a deep V neckline.",
+      "action": "He looks around, turns his head to the side, and repeatedly brings his right hand up to touch his chin and neck area.",
+      "camera": "The camera holds a static, eye-level medium close-up shot of the subject from the chest up.",
+      "scene": "The background is a dark, futuristic interior with large glass windows, pink and teal neon lighting, and a glowing sign reading 'TRA'."
+    },
+    "uncertain": [],
+    "observation_identity": "5d99d66799cb1ae2143aeb801f6f25294ed0b69e7c65e56f9bc70caf3b286eb7"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to pink.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6117.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble is centered in the frame.",
+      "hairstyle": "His short hair is swept upward and back into a textured, spiky style.",
+      "hair_color": "His hair appears dark brown, tinged with red and pink from the surrounding lights.",
+      "clothing": "He wears a white ribbed tank top with a deep V neckline.",
+      "action": "He looks around, turns his head to the side, and repeatedly brings his right hand up to touch his chin and neck.",
+      "camera": "The camera holds a static medium close-up at eye level, keeping the man centered.",
+      "scene": "He stands in a dark, futuristic interior with large glass windows, glowing pink and teal neon strips, and a partial neon sign reading \"TRA\" in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "708a02945f9233e9bcedccb13476d0f6025039defd7d5c5bf10149d5086f54f0"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_105.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_75.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6139.mp4",
+    "observed": {
+      "identity": "A Black man with a lean build, visible facial stubble, and a small earring in his left ear.",
+      "hairstyle": "Short hair on the sides with the top pulled up into a high, textured ponytail or bun.",
+      "hair_color": "Dark brown or black, appearing purplish under the ambient lighting.",
+      "clothing": "A white sleeveless tank top with a deep V-neckline.",
+      "action": "The man stands facing forward, then turns his head to look over his right shoulder, raises his right hand to touch his neck and collarbone area, and finally turns back to face the camera with a slight smile.",
+      "camera": "A static, medium close-up shot at eye level, keeping the subject centered in the frame.",
+      "scene": "A futuristic, dimly lit interior with large glass windows, pink and blue neon lighting, and a glowing sign reading 'TRA' in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "b2179fd1ef6c2e64cc306473c574c455c3436c115b9f1ff90f5ed43722edf1be"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_57.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Match the reference person's facial features and adjust the body's skin tone accordingly. Do not copy the hairstyle, hair color, or expression from the reference photo. Preserve all other aspects of the current video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6167.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, visible facial features including a mustache and goatee.",
+      "hairstyle": "Short hair on the sides with a longer top styled into a high ponytail or bun.",
+      "hair_color": "Dark brown or black, appearing purplish under the pink lighting.",
+      "clothing": "A white sleeveless tank top with a deep V-neckline.",
+      "action": "The man stands facing forward, then turns his head to the side and brings his right hand up to touch his chin and neck area before returning to face forward.",
+      "camera": "A static medium close-up shot at eye level, keeping the subject centered in the frame.",
+      "scene": "A futuristic indoor setting at night with large glass windows, pink and blue neon lighting, and a glowing 'TRA' sign visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "18ecf43185f279d6f11d57b7ad0a49ced790bc9f57ffb21479b0f4def3f4ad00"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_63.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6140.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble is centered in the frame.",
+      "hairstyle": "His short hair is styled upward and swept to one side.",
+      "hair_color": "His hair appears dark brown under the scene lighting.",
+      "clothing": "He wears a white sleeveless tank top with a deep V neckline.",
+      "action": "He looks around, turns his head to the side, and repeatedly brings his hand up to touch his chin and neck.",
+      "camera": "The camera holds a static medium close-up at eye level.",
+      "scene": "He stands in a dark, futuristic interior with large glass windows, pink and blue neon lighting, and a glowing sign reading \"TRA\" in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "a281763c91c240619232b9840a2543fcc2978cffba2e25adb2b472d2e8d925de"
+  }
+]

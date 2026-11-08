@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6735.mp4",
+    "observed": {
+      "identity": "A male-presenting 3D character with a stocky build, seen from behind.",
+      "hairstyle": "Short, faded hair on the sides with a small top-knot or bun at the crown.",
+      "hair_color": "Light brown.",
+      "clothing": "A tan and orange plaid two-piece suit with a white shirt cuff visible at the wrists and dark shoes.",
+      "action": "The character walks slowly forward down the street, then stops and turns his head to the left.",
+      "camera": "A third-person view from behind the character that gradually dollies in closer as he moves.",
+      "scene": "A cobblestone street in a foggy, old European-style town with brick buildings, shop signs, and a Union Jack flag on the left."
+    },
+    "uncertain": [],
+    "observation_identity": "b2d0fb6aee17fa94d858a5fda897f363f90b6c9108f8ca2d450835fce66ca0a1"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to black.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6729.mp4",
+    "observed": {
+      "identity": "A person with a medium build, seen from behind, with dark skin visible on the neck and hands.",
+      "hairstyle": "Short dark hair on the sides with a small top-knot bun at the back of the head.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A tan and orange checkered two-piece suit with a white shirt cuff visible at the wrists and dark shoes.",
+      "action": "The person walks slowly away from the camera down the street, then stops and turns their head to the left.",
+      "camera": "A third-person view from behind the subject that gradually moves closer and tilts slightly upward as the person walks.",
+      "scene": "A wet cobblestone street in a foggy, old-style town with red brick buildings, shop signs, and a Union Jack flag on the left."
+    },
+    "uncertain": [],
+    "observation_identity": "03bf7e990081bb82a36a8aaad285fee5be0edd791c757d0bb0dbce9031576d3f"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_644.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6730.mp4",
+    "observed": {
+      "identity": "A person with a medium-brown complexion, seen from behind, with a slim build.",
+      "hairstyle": "Hair is pulled back into a small top-knot or bun at the crown of the head.",
+      "hair_color": "Light brown or dark blonde.",
+      "clothing": "A matching two-piece suit in a brown, orange, and black plaid pattern, with a white shirt cuff visible at the left wrist and dark shoes.",
+      "action": "The person stands with their back to the camera, then slowly turns their head to the left to look toward the water.",
+      "camera": "The camera starts at a medium-full shot from behind and slowly dollies in and tilts up, ending in a medium shot of the person's head and shoulders.",
+      "scene": "An outdoor stone patio or terrace overlooking a calm body of water under a clear, bright blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "bfb63ad6842b9b88a689bdb645dbee78f3d85591ea5d6a2ff0f2c5a966490aff"
+  }
+]

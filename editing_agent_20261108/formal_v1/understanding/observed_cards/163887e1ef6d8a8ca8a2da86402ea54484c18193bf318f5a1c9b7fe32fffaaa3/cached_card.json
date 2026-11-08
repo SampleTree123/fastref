@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6480.mp4",
+  "observed": {
+    "identity": "A person seen from behind, with a slim build and fair skin on the neck and arms.",
+    "hairstyle": "Short, tousled hair gathered into a small, loose bun at the back of the head.",
+    "hair_color": "Blonde.",
+    "clothing": "A bright coral-pink long-sleeved collared shirt tucked into a light beige or cream skirt, with a thin brown belt at the waist.",
+    "action": "The person stands facing the water, then briefly raises a hand to the back of their head before placing a hand on their hip and shifting their weight slightly.",
+    "camera": "A static, medium shot from behind the subject at roughly waist height, keeping the person centered in the frame.",
+    "scene": "An outdoor coastal setting with a calm sea, a pale blue sky, and a stone-tiled platform in the foreground. Several weathered wooden posts of varying heights stand in the shallow water to the right, with rocky outcrops nearby."
+  },
+  "uncertain": [],
+  "observation_identity": "57db8acf29c3093688aaacd1a9ca406e0d04e9615a0b1099c0e1d4872217fb01"
+}

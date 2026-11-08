@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6648.mp4",
+    "observed": {
+      "identity": "A slender young woman with a slim build and light brown skin.",
+      "hairstyle": "Short blue hair with straight bangs and a small low ponytail at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a sleeveless brown patterned crop top, high-waisted teal wide-leg pants, and open-toed sandals.",
+      "action": "She stands facing forward, then raises both arms overhead in a stretch, lowers them, and returns to a standing pose.",
+      "camera": "A static full-body shot from a slightly elevated angle keeps the character centered.",
+      "scene": "An outdoor industrial area with cracked concrete ground, stacked wooden pallets, a rusty pipe, and stone structures in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "e2d55b5dca24ac550ace372a3d6e6b03b35bd3a2cb586ec85db601157ec38808"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_406.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they walk forward, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6640.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light brown skin, and a small mole on her left cheek.",
+      "hairstyle": "Short, straight blue hair with bangs, tied back into a small low ponytail.",
+      "hair_color": "Bright blue.",
+      "clothing": "A sleeveless, brown patterned crop top, high-waisted teal-green wide-leg pants, and brown strappy sandals.",
+      "action": "The character stands still, then begins to walk slowly forward and to the right, turning her head to look around.",
+      "camera": "A medium full shot from a slightly elevated angle, remaining mostly static as the character moves.",
+      "scene": "An outdoor, industrial-looking area with cracked concrete ground, a pile of wooden pallets, and rusty metal pipes in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "9c2862d2fd6aac90bf207fc9fd8f4f2df16d8f33a3674e53737cf9802cc81b62"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_63.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to standing in a thoughtful pose, following the demonstration in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6655.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build, dark skin, and a small mole on her left cheek.",
+      "hairstyle": "Vivid blue hair styled in a short bob with bangs and a small low ponytail at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "A sleeveless, patterned brown-and-gold crop top, high-waisted teal-green trousers, and open-toed sandals with red straps.",
+      "action": "She stands in place, turning her head and upper body to look around, briefly raising one hand toward her chest and then lowering it.",
+      "camera": "A static, slightly high-angle full-body shot that keeps the character centered in the frame.",
+      "scene": "An outdoor industrial area with cracked concrete paving, a pile of wooden planks, rusted pipes, and stone structures in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "88d3431491673509fd1fe4b02cf25b47a8bb3aee0e5dee5fe37e94f72fb382a9"
+  }
+]

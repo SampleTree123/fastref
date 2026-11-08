@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6594.mp4",
+  "observed": {
+    "identity": "A 3D-rendered young adult with a slim build and light brown skin, shown in full body.",
+    "hairstyle": "Short, neatly styled hair swept back from the forehead.",
+    "hair_color": "Light brown.",
+    "clothing": "A mustard-yellow cable-knit sweater, blue jeans, and brown lace-up shoes with light socks.",
+    "action": "The character stands in place, slowly turning the body and head while raising one hand to the chin and chest in a thoughtful gesture, then lowers the arms to the sides.",
+    "camera": "A static high-angle full-body shot from the front-left, with the character centered in frame.",
+    "scene": "An outdoor paved area in warm low-angle sunlight, casting a long shadow to the left, with a building edge and a small red cart visible in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "33b96f62ffd8374a565e9d2761b59bb163cf0f5bf1f70e9e493b48738b51748f"
+}

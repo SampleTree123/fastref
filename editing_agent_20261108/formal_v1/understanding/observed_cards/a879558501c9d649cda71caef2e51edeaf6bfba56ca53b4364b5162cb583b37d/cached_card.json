@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6527.mp4",
+  "observed": {
+    "identity": "A 3D-rendered woman with dark skin and a neutral facial expression.",
+    "hairstyle": "Bright blue hair with straight bangs and two small buns on the sides of her head.",
+    "hair_color": "Bright blue.",
+    "clothing": "A bright pink off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+    "action": "She faces the camera, then turns her head to the side and raises her hand to touch and smooth the back of her hair before turning back to face forward.",
+    "camera": "A static, eye-level medium close-up shot centered on the subject.",
+    "scene": "An outdoor, sunlit industrial or dockyard area with weathered concrete ground, wooden crates, planks, and a large wooden boat hull in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "9e55320ca84283c6a1ff654aeb2327f30431f5130c7fd0e781c75f7bed524c8b"
+}

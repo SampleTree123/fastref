@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6154.mp4",
+  "observed": {
+    "identity": "A young Black woman with a slim build and a calm, slightly smiling expression.",
+    "hairstyle": "Short, layered hair with bangs that is later tied up into a high bun.",
+    "hair_color": "Dark brown with pink and purple highlights.",
+    "clothing": "A white ribbed tank top with a dark graphic on the chest.",
+    "action": "She stands facing the camera, then turns her head to the side, lowers her head, and briefly touches her chest with her right hand before returning to face forward.",
+    "camera": "A static, medium close-up shot at eye level.",
+    "scene": "A dark, futuristic interior with large glass windows, pink and blue neon lighting, and a partial neon sign reading 'TRA' in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "03053627b02c31f4e777a87f139cca43c63dc1222029f7edd9a96535e0b5810a"
+}

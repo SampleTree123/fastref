@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6369.mp4",
+  "observed": {
+    "identity": "A young Black man with a slim build and short facial stubble stands facing the camera.",
+    "hairstyle": "Short, cropped hair with a slightly textured top.",
+    "hair_color": "Bright green.",
+    "clothing": "A long-sleeved yellow button-up shirt with a white floral pattern, tucked into maroon pants with a brown belt.",
+    "action": "He stands mostly still, then briefly raises his right hand to touch his face and chest before lowering it.",
+    "camera": "A static, eye-level medium shot framing the subject from the thighs up.",
+    "scene": "A stylized, 3D-rendered city street at dusk, featuring tall buildings, Japanese signage, construction cranes, and a wet paved walkway."
+  },
+  "uncertain": [],
+  "observation_identity": "ba36de7dae40fd151b2fa55f37a4c77e4514ff2dc4e219a2bc8d8561563e8b52"
+}

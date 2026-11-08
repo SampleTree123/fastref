@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6838.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a medium-dark complexion, visible facial features, and a slight smile that shifts to a neutral expression.",
+      "hairstyle": "Light brown hair with straight bangs, styled into two small buns on top of the head.",
+      "hair_color": "Light brown with blonde highlights.",
+      "clothing": "A bright pink off-the-shoulder top with small dark bows at the shoulders.",
+      "action": "She stands facing the camera, blinks, and turns her head to her left near the end of the clip.",
+      "camera": "A steady, centered medium close-up shot at eye level with no noticeable camera movement.",
+      "scene": "A futuristic nighttime plaza with a large glass-domed building, glowing teal ring lights, and pink neon accents behind her."
+    },
+    "uncertain": [],
+    "observation_identity": "e9551dbcd39ef25d45626ec5e0a7e5c280f8d467ed4c49355716526ad7bd7cab"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Let's change the person's hair color to blonde.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6852.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a small mole on her left cheek, and a neutral-to-slightly-smiling expression.",
+      "hairstyle": "Blonde hair with straight bangs and two small buns on top of her head.",
+      "hair_color": "Blonde with darker brown roots and inner shading.",
+      "clothing": "A bright pink off-the-shoulder top with small dark bows at the shoulders.",
+      "action": "She stands facing the camera, blinks, and slowly turns her head to her left toward the end.",
+      "camera": "A steady, centered medium close-up at eye level with no noticeable camera movement.",
+      "scene": "A futuristic setting with a large glass-domed building, glowing teal ring lights, pink neon framing, and a reflective wet ground under a dusk sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e499b7fe504d35c12f811f97f8d526d6d3a3943740c7ac51cbc8030533ae8b6f"
+  }
+]

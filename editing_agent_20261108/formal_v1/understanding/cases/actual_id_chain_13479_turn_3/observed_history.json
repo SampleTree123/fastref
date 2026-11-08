@@ -1,0 +1,72 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6649.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, dark skin, and a neutral facial expression.",
+      "hairstyle": "Short blue hair with straight bangs and a small low ponytail at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "A short, white dress with a floral pattern of pink, yellow, and green, featuring cold-shoulder cutouts and three-quarter sleeves, paired with pink slip-on shoes.",
+      "action": "The character stands still, then raises both arms overhead and jumps, before landing and returning to a standing pose.",
+      "camera": "A static, full-body shot from a slightly elevated angle, keeping the character centered in the frame.",
+      "scene": "An outdoor, industrial-looking area with cracked concrete ground, scattered rocks, wooden pallets, and rusty metal pipes in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "e10d3fb5d82792e1c1627f40c5c939e5ab7d66906b8d863c0fbaebfa9cd7d8db"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a rear three-quarter angle. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_65eb1fbc867ebe9c27c4033e745eb5257bc0110b100cbc9a672f6420fcb05ccc.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a rear three-quarter angle. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6661.mp4",
+    "observed": {
+      "identity": "A person with a medium build is shown from behind, with their face not visible.",
+      "hairstyle": "The hair is styled into two low buns at the back of the head.",
+      "hair_color": "The hair is a vivid blue color.",
+      "clothing": "The person wears a cream-colored dress with a floral pattern of pink, yellow, and blue flowers, featuring an open back and cold-shoulder cutouts.",
+      "action": "The person stands facing the water, then raises both arms upward in a stretching or celebratory motion before lowering them back down.",
+      "camera": "The camera maintains a static medium shot from behind the subject, framing them from the waist up against the horizon.",
+      "scene": "The setting is an outdoor stone platform or pier overlooking a calm body of water under a clear, bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "58387fb19e246816a203aeab36647fa179ee09c497ab2002e435e0f63955bb15"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_406.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Please go back to the video from before the first camera change was made, then use that video as the starting point for the following change: Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6641.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build, shown in a 3D video-game style render.",
+      "hairstyle": "Short blue hair with straight bangs and small low pigtails tied at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "A white short dress with a floral print of pink, yellow, and green flowers, cold-shoulder cutouts, and three-quarter sleeves, paired with pink lace-up sneakers.",
+      "action": "She stands facing the camera, then turns and walks slowly forward and to the side, pausing and looking around.",
+      "camera": "A full-body shot from a slightly elevated angle that follows her as she moves across the frame.",
+      "scene": "An outdoor industrial area with cracked concrete ground, stacked wooden pallets, a rusted pipe, stone blocks, and a dark doorway in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "fc1174d5865ba2e229364cf11829ee0eeeb166ec2823d50a9a620baf86831016"
+  }
+]

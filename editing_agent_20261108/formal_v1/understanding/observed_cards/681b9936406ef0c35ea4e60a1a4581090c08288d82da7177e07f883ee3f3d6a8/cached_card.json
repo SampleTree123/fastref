@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6824.mp4",
+  "observed": {
+    "identity": "A 3D-rendered woman with a slim build, dark skin, and a neutral facial expression.",
+    "hairstyle": "Her hair is styled in two high buns on top of her head with straight bangs across her forehead.",
+    "hair_color": "Her hair is a light brown or dark blonde color.",
+    "clothing": "She wears a bright pink, long-sleeved, off-the-shoulder crop top with black geometric patterns on the sleeves, paired with a light pink pleated skirt.",
+    "action": "The woman stands facing forward, then turns her head to the side and raises her right hand to touch her hair and face before turning back to face the camera.",
+    "camera": "The camera maintains a static, medium shot from the waist up, keeping the subject centered in the frame.",
+    "scene": "The setting is a futuristic, neon-lit environment at night, featuring a large glass dome structure with glowing blue and pink lights and a reflective floor."
+  },
+  "uncertain": [],
+  "observation_identity": "6d1156bd26b58250fb22491ba941fa5e4860f9457cad70d7c1e26f56e792344e"
+}

@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5999.mp4",
+  "observed": {
+    "identity": "A young Black man with a slim build and short facial hair.",
+    "hairstyle": "Short, cropped hair.",
+    "hair_color": "White or platinum blonde.",
+    "clothing": "White sleeveless tank top with a palm-tree graphic and 'Los Angeles' text, pink shorts, and pink sneakers.",
+    "action": "The man stands facing the camera, then raises his right hand to touch his head before lowering it and standing still.",
+    "camera": "Static, eye-level medium shot that gradually zooms out to a full-body view.",
+    "scene": "A futuristic urban plaza with a large glass building, a glowing teal circular neon sign, and pink ambient lighting reflecting on the wet pavement."
+  },
+  "uncertain": [],
+  "observation_identity": "0dbf024917b4d71ddd7cc43bfe7e392f930302a050fe07f3ed2d78c39de02e19"
+}

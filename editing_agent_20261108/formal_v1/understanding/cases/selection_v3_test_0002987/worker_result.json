@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0002987",
+  "dataset_index": 732,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 6.727913815528154,
+  "result": {
+    "source_video_id": 0,
+    "prompt": "Change only the person's one-piece garment to match the reference images (front and back views). Preserve the garment's design, color, pattern, and details from the references. Leave the rest of the outfit and everything else in the video unchanged.",
+    "reference_ids": [
+      "ref_1",
+      "ref_2"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

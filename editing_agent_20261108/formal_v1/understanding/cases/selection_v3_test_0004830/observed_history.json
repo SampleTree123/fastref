@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7071.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a medium-brown complexion, short dark hair, and a short beard.",
+      "hairstyle": "Short, dark hair with a small light-colored clip or accessory visible on the side in some frames.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "He wears a white long-sleeved collared shirt under a black sleeveless vest, brown plaid trousers with a brown belt, and black shoes.",
+      "action": "The man stands on an asphalt road, initially looking up and to the side, then turns his body and head, briefly touching his chin and crossing his arms before returning to a standing pose.",
+      "camera": "A low-angle, full-body shot from the front-left, with the camera remaining mostly static while the character moves.",
+      "scene": "An outdoor urban setting on a paved road beneath a large concrete overpass or bridge structure, with a metal railing, red-and-yellow striped bollards, and a blue sky with light clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "42d87e27b750de082201d288c981e9613206ea098f7ce81d51edc300256515cf"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to pink.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7090.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned person with a youthful face, shown in a 3D video-game style render.",
+      "hairstyle": "Short hair with a small ponytail or topknot at the back, secured with a light-colored clip.",
+      "hair_color": "Pink/magenta.",
+      "clothing": "White long-sleeve collared shirt under a black sleeveless vest, brown plaid trousers with a brown belt, and black shoes.",
+      "action": "The person stands on the road, turns from facing forward to a side profile, raises a hand to the mouth, then crosses the arms before returning to a relaxed standing pose.",
+      "camera": "Low-angle full-body shot from the front-left, with the camera remaining mostly static while the subject rotates in place.",
+      "scene": "An outdoor paved road beneath a concrete overpass, with a metal guardrail, red-and-yellow striped posts, greenery, and a blue sky with light clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "1ab947c6956658bbc846d4915a1036e58384fc234ca7be7504e9238273847d77"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_90.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7102.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male character with a medium build and dark skin.",
+      "hairstyle": "Short hair with a small ponytail at the back.",
+      "hair_color": "Pink and purple.",
+      "clothing": "White long-sleeved collared shirt, dark gray vest, gray plaid trousers, and dark shoes.",
+      "action": "The character stands on a rooftop, turning his head and body to look around, then crosses his arms and touches his chin before returning to a standing pose.",
+      "camera": "Full-body shot from a low angle, with the camera remaining mostly static.",
+      "scene": "An outdoor rooftop at dusk, featuring a tiled floor, a low wall, and a cityscape with buildings and communication towers in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "870e60634037b818d8ce1de4429b21fe9adbd817f501540fa6007ba756efca9e"
+  }
+]

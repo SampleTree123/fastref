@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7103.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young man with a medium-brown complexion, short dark hair, and a slim build.",
+      "hairstyle": "Short, dark hair with a side part.",
+      "hair_color": "Black.",
+      "clothing": "He wears a white long-sleeved collared shirt under a dark gray vest, paired with gray plaid trousers, a dark belt, and black shoes.",
+      "action": "The man stands on a rooftop, initially looking up and to the side, then turns his body and head while raising his hand to his chin in a thoughtful pose before returning to a standing position.",
+      "camera": "The camera maintains a static, low-angle full-body shot of the character throughout the sequence.",
+      "scene": "The setting is a city rooftop with a tiled floor, a low concrete wall, and a background of buildings, communication towers, and a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "16824f01a20657ecd36fb39a83a3915e93982002e22227831ad019eda5b0b65d"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to pink.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7109.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young man with a slim build, dark skin, and a short beard.",
+      "hairstyle": "Short, side-swept hair.",
+      "hair_color": "Dark reddish-brown.",
+      "clothing": "White long-sleeved collared shirt, dark grey vest, grey plaid trousers, black belt, and black shoes.",
+      "action": "The man stands on a rooftop, initially facing forward, then turns to his left and raises his right hand to his chin in a thoughtful pose before turning back to face forward.",
+      "camera": "Static, low-angle full-body shot.",
+      "scene": "An outdoor rooftop at dusk with a tiled floor, a low concrete wall, and a background of city buildings and communication towers under a pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "62f60947e821a04a71efa82b259c423dc9e1ac8ab8869a2532bfd191a9f59b45"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_838.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7091.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned man with a short beard and mustache, shown in a 3D-rendered style.",
+      "hairstyle": "Short dark hair with a small top-knot or bun at the back of the head.",
+      "hair_color": "Black.",
+      "clothing": "White long-sleeve collared shirt under a black vest, brown plaid trousers with a brown belt, and black lace-up shoes.",
+      "action": "He stands on the road, turns from facing forward to a side profile, raises one hand to his chin, then crosses his arms before returning to a relaxed standing pose.",
+      "camera": "Low-angle full-body shot from the front-left, with the camera remaining mostly static while the subject shifts position.",
+      "scene": "An outdoor paved road beside a concrete overpass with metal railings, red-and-yellow striped posts, a guardrail, and a partly cloudy blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "5ebb29d760f5a35445bc57b6df1c64f73eef9824267585b6074312e28d7089ed"
+  }
+]

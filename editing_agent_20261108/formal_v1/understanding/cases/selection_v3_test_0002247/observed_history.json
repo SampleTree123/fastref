@@ -1,0 +1,82 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6480.mp4",
+    "observed": {
+      "identity": "A person seen from behind, with a slim build and fair skin on the neck and arms.",
+      "hairstyle": "Short, tousled hair gathered into a small, loose bun at the back of the head.",
+      "hair_color": "Blonde.",
+      "clothing": "A bright coral-pink long-sleeved collared shirt tucked into a light beige or cream skirt, with a thin brown belt at the waist.",
+      "action": "The person stands facing the water, then briefly raises a hand to the back of their head before placing a hand on their hip and shifting their weight slightly.",
+      "camera": "A static, medium shot from behind the subject at roughly waist height, keeping the person centered in the frame.",
+      "scene": "An outdoor coastal setting with a calm sea, a pale blue sky, and a stone-tiled platform in the foreground. Several weathered wooden posts of varying heights stand in the shallow water to the right, with rocky outcrops nearby."
+    },
+    "uncertain": [],
+    "observation_identity": "57db8acf29c3093688aaacd1a9ca406e0d04e9615a0b1099c0e1d4872217fb01"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_921.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_922.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6464.mp4",
+    "observed": {
+      "identity": "A woman seen from behind, with a slim build and bare upper back.",
+      "hairstyle": "Blonde hair gathered into a loose, slightly messy top bun.",
+      "hair_color": "Blonde.",
+      "clothing": "A black-and-white houndstooth dress with three-quarter sleeves and a low open back.",
+      "action": "She stands facing the sea, briefly raises her right hand to touch her hair, then places her hand on her hip before lowering it.",
+      "camera": "A static medium shot from behind the subject at roughly eye level.",
+      "scene": "A stone-tiled platform or dock beside a calm sea, with weathered wooden posts rising from the water and a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "8a0b220b4267e06be3cc4422054bbb7408681073876c5653f57cbc4bdd72ff81"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_455.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_555.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's top with the item shown in the reference images. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6481.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind, with fair skin on her neck and shoulders.",
+      "hairstyle": "Her hair is pulled up into a loose, messy bun at the back of her head.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a bright pink, long-sleeved, off-the-shoulder top with small dark bows on the shoulders, paired with a light-colored, high-waisted skirt.",
+      "action": "The woman stands with her back to the camera, then raises her right hand to touch the back of her head before lowering it and placing her hands on her hips.",
+      "camera": "A static, medium shot from behind the subject at eye level.",
+      "scene": "She stands on a stone-tiled platform at the edge of a calm body of water under a clear, bright sky, with several weathered wooden posts rising from the water to the right."
+    },
+    "uncertain": [],
+    "observation_identity": "833996f70ee1d837e12a42986f819c4152166647bd9f5bd548c260deabb06aa2"
+  }
+]

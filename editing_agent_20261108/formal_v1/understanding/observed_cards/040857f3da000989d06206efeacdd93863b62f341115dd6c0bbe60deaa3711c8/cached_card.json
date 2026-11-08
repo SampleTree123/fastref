@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6450.mp4",
+  "observed": {
+    "identity": "A slender female 3D character with a slim build, shown from behind and in profile.",
+    "hairstyle": "Short, cropped hair with a small bun or topknot at the back of the head.",
+    "hair_color": "Light pink.",
+    "clothing": "A short, open-back mini dress with a blue, purple, and white geometric pattern, and red flat shoes.",
+    "action": "The character stands on a wet plaza, raising one arm to touch her head and hip, then turns her body and head to the side in a slow posing motion.",
+    "camera": "A static, low-angle full-body shot from behind the character, keeping her centered in the frame.",
+    "scene": "A futuristic city plaza with a glossy, wet reflective ground, large glass buildings with glowing teal and pink neon accents, and a purple vehicle parked in the background under an overcast sky."
+  },
+  "uncertain": [],
+  "observation_identity": "dd8e34610029105c16d84a54efb1c2f36d2f4b31624e62e6b82f11736f723384"
+}

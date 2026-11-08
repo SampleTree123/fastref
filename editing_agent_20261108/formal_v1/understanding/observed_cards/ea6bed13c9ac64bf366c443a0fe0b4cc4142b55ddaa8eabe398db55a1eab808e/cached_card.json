@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6203.mp4",
+  "observed": {
+    "identity": "A female-presenting 3D character with a slim build, shown from behind.",
+    "hairstyle": "Blonde hair styled into two small buns on top of the head.",
+    "hair_color": "Bright yellow-blonde.",
+    "clothing": "A dark green sleeveless top with white polka dots and white trim, paired with a white and black skirt or wrap.",
+    "action": "The character stands in the middle of a road, turning her head and shifting her arms and hips in a slow, posed manner.",
+    "camera": "A static, eye-level medium shot from directly behind the character.",
+    "scene": "An outdoor paved road with white lane markings, bordered by a metal guardrail, trees with yellow and green leaves, a concrete wall, and a construction crane in the distance under a blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "e650087ec56bb1091ed3b7c97c389fbbb35454aef01ba72458a020f3cfc8fae6"
+}

@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6415.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build, light skin, and visible tattoos on her arms and torso.",
+    "hairstyle": "Short, tousled hair with a small bun or twist at the back of the head.",
+    "hair_color": "White.",
+    "clothing": "She wears a dark, patterned sleeveless crop top, light gray wide-leg trousers with a side slit, and open-toed sandals.",
+    "action": "The character stands in place, initially facing right, then turns her head and body slightly to the left while raising her hand to her face, before returning to a standing pose.",
+    "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+    "scene": "An outdoor amusement park setting at dusk, featuring a Ferris wheel on the left, a carousel structure with lights on the right, and a popcorn stand in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "00ed01cb9d5b5a0954095297d7763a65f511eb7ee1c0f7d7a5678f6899eef2ef"
+}

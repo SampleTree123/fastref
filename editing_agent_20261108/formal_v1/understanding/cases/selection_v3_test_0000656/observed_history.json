@@ -1,0 +1,84 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6107.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark complexion, seen from behind.",
+      "hairstyle": "Short, dark hair.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A white long-sleeved shirt with a faint grid pattern, black Y-back suspenders, and black-and-white checkered trousers.",
+      "action": "The character stands in the center of the frame, shifting his weight and turning his upper body slightly to the left and right.",
+      "camera": "A static, medium-full shot from behind the character at eye level.",
+      "scene": "A futuristic, open-air plaza with a wet, reflective floor, surrounded by modern buildings with glowing blue and pink lights."
+    },
+    "uncertain": [],
+    "observation_identity": "d9e424a787b4580c49b88b529476c4f1e19393521ee1330172b33ad8c6427c99"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_134.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_10.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6100.mp4",
+    "observed": {
+      "identity": "A male-presenting 3D-rendered figure with a stocky build, seen from behind with his face never visible.",
+      "hairstyle": "Short, closely cropped hair.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A tan plaid two-piece suit with a jacket and matching trousers, plus dark shoes.",
+      "action": "The figure stands in the center of an open plaza, shifting his weight and turning his upper body slightly from side to side while his arms bend at the elbows.",
+      "camera": "Static medium-long shot from behind the figure at roughly waist height, keeping him centered in frame.",
+      "scene": "A stylized futuristic city plaza with a wet reflective ground, glowing red and cyan light strips, and tall buildings with blue and pink-lit windows in the background."
+    },
+    "uncertain": [
+      "The figure's face and exact identity are not visible, so facial features are unclear."
+    ],
+    "observation_identity": "1db70c7fd422c3e3ce01fa2763ccd498c4110dd365c0b23feb249811f619a3fb"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_593.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_594.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the top, the bottoms, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6109.mp4",
+    "observed": {
+      "identity": "A dark-skinned, muscular man with a stocky build, seen from behind.",
+      "hairstyle": "Short, dark hair.",
+      "hair_color": "Black.",
+      "clothing": "A white sleeveless tank top, light blue shorts with a white graphic on the back, and reddish-brown slip-on shoes.",
+      "action": "The man stands in the center of the frame, initially facing away, then slowly turns his body to his left to look over his shoulder before turning back to face forward.",
+      "camera": "A static, medium-full shot from behind the subject at a low angle.",
+      "scene": "A futuristic, open-air city plaza with a wet, reflective dark floor, surrounded by modern buildings with glowing blue and pink lights."
+    },
+    "uncertain": [],
+    "observation_identity": "8fd779d937d8e8b2ae75c39a509505fa4bf7c8e12ba883f12b2782ae0dfba5ed"
+  }
+]

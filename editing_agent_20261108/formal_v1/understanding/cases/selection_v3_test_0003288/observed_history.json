@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6747.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark complexion, short facial hair, and a stocky build.",
+      "hairstyle": "Short, flat-top style hair.",
+      "hair_color": "White.",
+      "clothing": "A white, horizontally striped, long-sleeved button-up shirt with black suspenders, a black bow tie, and brown-and-white checkered trousers.",
+      "action": "The character stands still for a moment, then begins to walk slowly forward and to the right across the paved surface.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+      "scene": "An outdoor paved area, possibly a road or plaza, with a concrete overpass, metal railings, green trees, and a construction crane in the background under a bright, sunny sky."
+    },
+    "uncertain": [],
+    "observation_identity": "85f0e1bbe4e4b98c04cf820389b1730b634d59c34c526d31fbe6c4c72a17b37f"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_68.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to raising both hands in celebration, then thrusting one hand upward, as demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6738.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a light-skinned face, short cropped hair, and a neutral expression.",
+      "hairstyle": "Short, cropped hair covering the top of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A white, long-sleeved button-up shirt with thin horizontal stripes, black suspenders, a black bow tie, brown and white checkered trousers, and black shoes.",
+      "action": "The character stands still, then raises both arms overhead in a stretching or dancing motion, swings them down and across the body, and finally returns to a standing pose.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+      "scene": "An outdoor paved area, possibly a road or plaza, located beneath a concrete overpass or bridge structure with a metal railing, green foliage, and a construction crane visible in the background under a blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "7155ddf2d2517ec6efdc829789c93c5bfbe1646abd27f1399ee07281246a7424"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_6e13eb492e123672925cb25a4fedb0eded54bc24194898d8d5ddac8182382954.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a side-view dolly-in shot that moves from full-body to upper-body framing. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6737.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with dark skin and a short, neat white hairstyle, shown in profile.",
+      "hairstyle": "Short, swept-back white hair with closely cropped sides.",
+      "hair_color": "White.",
+      "clothing": "A white long-sleeved shirt with a faint blue grid pattern, black suspenders, brown-and-white checkered trousers, and dark shoes.",
+      "action": "The man stands in profile, then raises both arms overhead in a stretching motion before lowering them and standing still.",
+      "camera": "A static, eye-level medium shot that slowly zooms in toward the man's upper body.",
+      "scene": "An outdoor paved road with a white lane line, bordered by a metal guardrail, green trees, and a rocky embankment under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "73438aa5fb97a68b4ff24e3bb95f8503d855b77bda74303414d8749d76e105a5"
+  }
+]

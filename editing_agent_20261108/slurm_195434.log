@@ -1,0 +1,237 @@
+Frozen code, configurations and input lists match.
+{"status": "handoff_ready", "stopped_step": "194849.5", "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1", "source_allocation_cancelled": false}
+Frozen code, configurations and input lists match.
+Frozen code, configurations and input lists match.
+{
+  "expected_cases": 1000,
+  "cases_ok": 1000,
+  "cases_error": 0,
+  "cases_pending": 0,
+  "route_correct": 984,
+  "route_attempted": 1000,
+  "route_total_expected": 1000,
+  "format_calls": 3040,
+  "format_invalid_calls": 8,
+  "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+  "groups": {
+    "explicit_latest": {
+      "total": 42,
+      "attempted": 42,
+      "correct": 42
+    },
+    "content_description_match": {
+      "total": 500,
+      "attempted": 500,
+      "correct": 484
+    },
+    "event_after": {
+      "total": 150,
+      "attempted": 150,
+      "correct": 150
+    },
+    "event_before": {
+      "total": 150,
+      "attempted": 150,
+      "correct": 150
+    },
+    "normal_continue": {
+      "total": 42,
+      "attempted": 42,
+      "correct": 42
+    },
+    "explicit_id": {
+      "total": 116,
+      "attempted": 116,
+      "correct": 116
+    }
+  },
+  "accuracy_over_all_expected": 0.984,
+  "agreement_over_attempted": 0.984,
+  "all_cases_finished": true,
+  "all_cases_succeeded": true,
+  "route_metric": "source_id_accuracy"
+}
+Frozen code, configurations and input lists match.
+{"mode": "closed_loop", "job": "195434", "started_unix": 1794084547.8869836, "status": "finished_workers", "dataset": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0030_32c79325e74b69fd.jsonl", "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "gpus": 8, "limit": 21, "children": [{"kind": "ltx", "rank": 0, "device": "1", "pid": 2325923, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_0", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 1, "device": "3", "pid": 2325924, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_1", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 2, "device": "5", "pid": 2325927, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_2", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 3, "device": "7", "pid": 2325932, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_3", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "qwen", "rank": 0, "device": "0", "pid": 2325936, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0030_32c79325e74b69fd.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "0", "--world-size", "4", "--limit", "21", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_0"]}, {"kind": "qwen", "rank": 1, "device": "2", "pid": 2325939, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0030_32c79325e74b69fd.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "1", "--world-size", "4", "--limit", "21", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_1"]}, {"kind": "qwen", "rank": 2, "device": "4", "pid": 2325945, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0030_32c79325e74b69fd.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "2", "--world-size", "4", "--limit", "21", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_2"]}, {"kind": "qwen", "rank": 3, "device": "6", "pid": 2325949, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0030_32c79325e74b69fd.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "3", "--world-size", "4", "--limit", "21", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_3"]}], "qwen_exit_codes": [0, 0, 0, 0], "case_counts": {"selected": 21, "ok": 21, "errors": 0}, "ended_unix": 1794088908.8102968}
+{
+  "expected_cases": 30,
+  "cases_ok": 30,
+  "cases_error": 0,
+  "cases_pending": 0,
+  "route_correct": 127,
+  "route_attempted": 127,
+  "route_total_expected": 127,
+  "format_calls": 540,
+  "format_invalid_calls": 1,
+  "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+  "groups": {
+    "normal_continue": {
+      "total": 104,
+      "attempted": 104,
+      "correct": 104
+    },
+    "content_description_match": {
+      "total": 7,
+      "attempted": 7,
+      "correct": 7
+    },
+    "explicit_id": {
+      "total": 5,
+      "attempted": 5,
+      "correct": 5
+    },
+    "event_after": {
+      "total": 5,
+      "attempted": 5,
+      "correct": 5
+    },
+    "event_before": {
+      "total": 6,
+      "attempted": 6,
+      "correct": 6
+    }
+  },
+  "accuracy_over_all_expected": 1.0,
+  "agreement_over_attempted": 1.0,
+  "all_cases_finished": true,
+  "all_cases_succeeded": true,
+  "route_metric": "planned_route_agreement"
+}
+Frozen code, configurations and input lists match.
+{"mode": "closed_loop", "job": "195434", "started_unix": 1794088910.1576931, "status": "finished_workers", "dataset": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0060_f059726bdd79dbc7.jsonl", "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "gpus": 8, "limit": 30, "children": [{"kind": "ltx", "rank": 0, "device": "1", "pid": 2415999, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_0", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 1, "device": "3", "pid": 2416000, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_1", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 2, "device": "5", "pid": 2416003, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_2", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 3, "device": "7", "pid": 2416006, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_3", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "qwen", "rank": 0, "device": "0", "pid": 2416009, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0060_f059726bdd79dbc7.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "0", "--world-size", "4", "--limit", "30", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_0"]}, {"kind": "qwen", "rank": 1, "device": "2", "pid": 2416014, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0060_f059726bdd79dbc7.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "1", "--world-size", "4", "--limit", "30", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_1"]}, {"kind": "qwen", "rank": 2, "device": "4", "pid": 2416018, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0060_f059726bdd79dbc7.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "2", "--world-size", "4", "--limit", "30", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_2"]}, {"kind": "qwen", "rank": 3, "device": "6", "pid": 2416024, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0060_f059726bdd79dbc7.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "3", "--world-size", "4", "--limit", "30", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_3"]}], "qwen_exit_codes": [0, 0, 0, 0], "case_counts": {"selected": 30, "ok": 30, "errors": 0}, "ended_unix": 1794095525.27425}
+{
+  "expected_cases": 60,
+  "cases_ok": 60,
+  "cases_error": 0,
+  "cases_pending": 0,
+  "route_correct": 255,
+  "route_attempted": 256,
+  "route_total_expected": 256,
+  "format_calls": 1090,
+  "format_invalid_calls": 4,
+  "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+  "groups": {
+    "normal_continue": {
+      "total": 210,
+      "attempted": 210,
+      "correct": 209
+    },
+    "content_description_match": {
+      "total": 8,
+      "attempted": 8,
+      "correct": 8
+    },
+    "explicit_id": {
+      "total": 13,
+      "attempted": 13,
+      "correct": 13
+    },
+    "event_after": {
+      "total": 12,
+      "attempted": 12,
+      "correct": 12
+    },
+    "event_before": {
+      "total": 13,
+      "attempted": 13,
+      "correct": 13
+    }
+  },
+  "accuracy_over_all_expected": 0.99609375,
+  "agreement_over_attempted": 0.99609375,
+  "all_cases_finished": true,
+  "all_cases_succeeded": true,
+  "route_metric": "planned_route_agreement"
+}
+Frozen code, configurations and input lists match.
+{"mode": "closed_loop", "job": "195434", "started_unix": 1794095527.3320494, "status": "finished_workers", "dataset": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0100_4dd97312ab319a3b.jsonl", "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "gpus": 8, "limit": 40, "children": [{"kind": "ltx", "rank": 0, "device": "1", "pid": 2551034, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_0", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 1, "device": "3", "pid": 2551035, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_1", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 2, "device": "5", "pid": 2551038, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_2", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 3, "device": "7", "pid": 2551041, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_3", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "qwen", "rank": 0, "device": "0", "pid": 2551046, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0100_4dd97312ab319a3b.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "0", "--world-size", "4", "--limit", "40", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_0"]}, {"kind": "qwen", "rank": 1, "device": "2", "pid": 2551049, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0100_4dd97312ab319a3b.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "1", "--world-size", "4", "--limit", "40", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_1"]}, {"kind": "qwen", "rank": 2, "device": "4", "pid": 2551055, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0100_4dd97312ab319a3b.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "2", "--world-size", "4", "--limit", "40", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_2"]}, {"kind": "qwen", "rank": 3, "device": "6", "pid": 2551059, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0100_4dd97312ab319a3b.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "3", "--world-size", "4", "--limit", "40", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_3"]}], "qwen_exit_codes": [0, 0, 0, 0], "case_counts": {"selected": 40, "ok": 40, "errors": 0}, "ended_unix": 1794103713.0934024}
+{
+  "expected_cases": 100,
+  "cases_ok": 100,
+  "cases_error": 0,
+  "cases_pending": 0,
+  "route_correct": 424,
+  "route_attempted": 425,
+  "route_total_expected": 425,
+  "format_calls": 1812,
+  "format_invalid_calls": 10,
+  "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+  "groups": {
+    "normal_continue": {
+      "total": 350,
+      "attempted": 350,
+      "correct": 349
+    },
+    "content_description_match": {
+      "total": 8,
+      "attempted": 8,
+      "correct": 8
+    },
+    "explicit_id": {
+      "total": 23,
+      "attempted": 23,
+      "correct": 23
+    },
+    "event_after": {
+      "total": 22,
+      "attempted": 22,
+      "correct": 22
+    },
+    "event_before": {
+      "total": 22,
+      "attempted": 22,
+      "correct": 22
+    }
+  },
+  "accuracy_over_all_expected": 0.9976470588235294,
+  "agreement_over_attempted": 0.9976470588235294,
+  "all_cases_finished": true,
+  "all_cases_succeeded": true,
+  "route_metric": "planned_route_agreement"
+}
+Frozen code, configurations and input lists match.
+{"mode": "closed_loop", "job": "195434", "started_unix": 1794103716.0338926, "status": "finished_workers", "dataset": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0128_2e43dcc9e2c354a4.jsonl", "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "gpus": 8, "limit": 28, "children": [{"kind": "ltx", "rank": 0, "device": "1", "pid": 2717796, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_0", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 1, "device": "3", "pid": 2717797, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_1", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 2, "device": "5", "pid": 2717800, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_2", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "ltx", "rank": 3, "device": "7", "pid": 2717801, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_3", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml", "--checkpoint", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors", "--steps", "40", "--ref-cfg", "1.0"]}, {"kind": "qwen", "rank": 0, "device": "0", "pid": 2717806, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0128_2e43dcc9e2c354a4.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "0", "--world-size", "4", "--limit", "28", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_0"]}, {"kind": "qwen", "rank": 1, "device": "2", "pid": 2717809, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0128_2e43dcc9e2c354a4.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "1", "--world-size", "4", "--limit", "28", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_1"]}, {"kind": "qwen", "rank": 2, "device": "4", "pid": 2717815, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0128_2e43dcc9e2c354a4.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "2", "--world-size", "4", "--limit", "28", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_2"]}, {"kind": "qwen", "rank": 3, "device": "6", "pid": 2717820, "command": ["bash", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py", "--mode", "closed_loop", "--dataset", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0128_2e43dcc9e2c354a4.jsonl", "--config", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json", "--output", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop", "--rank", "3", "--world-size", "4", "--limit", "28", "--queue", "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/queues/job_195434_pair_3"]}], "qwen_exit_codes": [0, 0, 0, 0], "case_counts": {"selected": 28, "ok": 28, "errors": 0}, "ended_unix": 1794109519.0444255}
+{
+  "expected_cases": 128,
+  "cases_ok": 128,
+  "cases_error": 0,
+  "cases_pending": 0,
+  "route_correct": 542,
+  "route_attempted": 543,
+  "route_total_expected": 543,
+  "format_calls": 2314,
+  "format_invalid_calls": 12,
+  "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+  "groups": {
+    "normal_continue": {
+      "total": 449,
+      "attempted": 449,
+      "correct": 448
+    },
+    "content_description_match": {
+      "total": 8,
+      "attempted": 8,
+      "correct": 8
+    },
+    "explicit_id": {
+      "total": 31,
+      "attempted": 31,
+      "correct": 31
+    },
+    "event_after": {
+      "total": 26,
+      "attempted": 26,
+      "correct": 26
+    },
+    "event_before": {
+      "total": 29,
+      "attempted": 29,
+      "correct": 29
+    }
+  },
+  "accuracy_over_all_expected": 0.998158379373849,
+  "agreement_over_attempted": 0.998158379373849,
+  "all_cases_finished": true,
+  "all_cases_succeeded": true,
+  "route_metric": "planned_route_agreement"
+}

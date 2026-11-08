@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6169.mp4",
+  "observed": {
+    "identity": "A slim, light-skinned male video-game character is seen from behind, with his face not visible.",
+    "hairstyle": "Short, cropped hair.",
+    "hair_color": "Dark brown.",
+    "clothing": "He wears a white sleeveless tank top with a pink tie-dye pattern, light blue shorts, and is barefoot.",
+    "action": "The character stands still, then briefly raises his right arm to touch the back of his head before lowering it and standing still again.",
+    "camera": "A static, low-angle, full-body shot from behind the character.",
+    "scene": "The character stands on a tiled rooftop with a gravel patch, surrounded by a stylized city with tall buildings, billboards, and construction cranes under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "e433dfea3be251de248879e6ce882396faaa506682a61b99a399b7c965883e8b"
+}

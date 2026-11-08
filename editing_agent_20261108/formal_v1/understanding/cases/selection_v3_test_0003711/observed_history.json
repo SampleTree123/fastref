@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6837.mp4",
+    "observed": {
+      "identity": "A young woman with fair skin, a small mole on her neck, and a neutral-to-smiling expression.",
+      "hairstyle": "Brown hair with straight bangs, styled into two small buns on top of her head.",
+      "hair_color": "Medium brown with lighter highlights.",
+      "clothing": "A bright pink, off-the-shoulder top with small dark bows at the shoulders.",
+      "action": "She stands facing the camera, blinks, and shifts her head slightly, then turns her head to her left to look off-screen.",
+      "camera": "A static, medium close-up shot at eye level, keeping the subject centered in the frame.",
+      "scene": "A futuristic setting at night featuring a large glass-domed building with glowing teal circular lights and pink structural accents behind her."
+    },
+    "uncertain": [],
+    "observation_identity": "47bf603bb36833fcaf9b6e89cc052084edfc35a9d5fd82c11ddb37260d3db039"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_71.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6836.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a rounded face, and full lips, shown from the chest up.",
+      "hairstyle": "Short brown hair with straight bangs and two small buns on top of her head.",
+      "hair_color": "Brown with lighter reddish-brown highlights.",
+      "clothing": "A bright pink off-the-shoulder top with small dark bows at the shoulders.",
+      "action": "She stands facing the camera, blinks, smiles faintly, and near the end turns her head to her left in profile.",
+      "camera": "A steady medium close-up, front-facing, with the subject centered and the camera slowly pulling back slightly.",
+      "scene": "A futuristic setting at dusk with a large glass-domed building, glowing teal ring lights, pink neon framing, and a reflective wet ground."
+    },
+    "uncertain": [],
+    "observation_identity": "58628849f84fbee7d9c893e6e9bf1c3607854b8a94e53a6a7a4b3cd70d00bb32"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to blonde.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6850.mp4",
+    "observed": {
+      "identity": "A young woman with a medium-brown complexion, visible in a medium close-up from the chest up.",
+      "hairstyle": "Her hair is styled in two high buns on top of her head with straight bangs across her forehead.",
+      "hair_color": "Her hair is a golden-brown or light auburn color.",
+      "clothing": "She wears a bright pink, off-the-shoulder top with small dark bows on the shoulders.",
+      "action": "She stands facing the camera, blinks, and makes subtle facial movements before turning her head to her left to look off-screen.",
+      "camera": "The camera holds a static, eye-level medium close-up shot of the subject.",
+      "scene": "She is outdoors at night in front of a large, futuristic glass building with a domed roof, illuminated by pink and teal neon lights."
+    },
+    "uncertain": [],
+    "observation_identity": "9de83bfd30295ad60bc803ef72ff11573768e45f8855eb64e3e5ff048592b833"
+  }
+]

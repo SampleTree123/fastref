@@ -1,0 +1,126 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6768.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a light skin tone, shown in profile and from behind.",
+      "hairstyle": "Short, swept-back hair covering the top of the head.",
+      "hair_color": "White.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled sleeves, dark plaid trousers, and brown leather suspenders.",
+      "action": "The character stands on a paved road, turning his body and head to look over his shoulder and then back forward.",
+      "camera": "A static, medium shot from a slightly low angle, keeping the character centered in the frame.",
+      "scene": "An outdoor roadside setting with a metal guardrail, a rocky hillside with green trees and bushes, and a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "4ae7f42dee6874c9aaa1c543b00d3f5b6fda6dd27fc0e98999c540c0e39486d7"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_755.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_756.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the top, the bottoms, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6769.mp4",
+    "observed": {
+      "identity": "A muscular, dark-skinned man with a short beard, shown in profile and three-quarter views.",
+      "hairstyle": "Short, swept-back hair covering the top of the head.",
+      "hair_color": "White.",
+      "clothing": "A white sleeveless tank top with a pink graphic on the lower front and pink shorts.",
+      "action": "The man stands and slowly turns his body, rotating from a side profile to a back view and then back toward the front while raising and crossing his arms.",
+      "camera": "A static, medium shot at roughly chest height that keeps the man centered in frame.",
+      "scene": "An outdoor paved area beside a metal guardrail, with a wire fence, large rocks, green trees, and a bright sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "94ee5b1951c18e2d9d0df0255a185422883b8e169673894470390d270975e45f"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_e8a94cf10d5e58d4eb30447c1e5917ca68a750151f1d72fa1336be2e4b225d6c.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a side-view dolly-in shot that moves from full-body to upper-body framing. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6753.mp4",
+    "observed": {
+      "identity": "A muscular adult male with a dark complexion, shown in profile and then from behind.",
+      "hairstyle": "Short, swept-back hair.",
+      "hair_color": "White.",
+      "clothing": "A white sleeveless tank top with a pink graphic on the lower front, pink athletic shorts with a white band at the hem, and pink slip-on sneakers.",
+      "action": "The man stands on an asphalt road, initially facing right, then slowly turns his body to face away from the camera and back toward the side while moving his arms.",
+      "camera": "A medium full shot at eye level that remains mostly static, capturing the subject from the shins up.",
+      "scene": "An outdoor paved road with a white lane line, bordered by a metal guardrail, green trees, and a rocky embankment under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "7d4e83082d3e47194b7b50985c3dacfd00094603842aefda8ad772df2c7c6ce2"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_36.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they raise both hands in celebration, then thrust one hand upward, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6745.mp4",
+    "observed": {
+      "identity": "A muscular person with a dark complexion, shown in profile, with a short white hairstyle.",
+      "hairstyle": "Short, swept-back white hair.",
+      "hair_color": "White.",
+      "clothing": "A white tank top with a pink graphic print, pink shorts with white trim, and pink slip-on shoes.",
+      "action": "The person stands in profile, then raises both arms overhead and swings them down and back in a stretching motion before returning to a standing pose.",
+      "camera": "A medium full shot from the side, with the camera slowly zooming in and panning slightly to follow the movement.",
+      "scene": "An outdoor paved area, likely a road or parking lot, with a metal guardrail, green trees, and large rocks in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "ece5367c52ad414a1c4085b0c7499e7c337e548106a87a434c37256c13b520f6"
+  },
+  {
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_915e520f5767acbaba97b018e7d73c1f4b7436803855aa955369d5e94d7f67ba.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body shot from a front three-quarter angle. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6749.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned young man with a short face and visible ears.",
+      "hairstyle": "Short, cropped hair with a flat top.",
+      "hair_color": "Platinum blonde.",
+      "clothing": "White sleeveless tank top with a pink palm-tree graphic and 'Los Angeles' text, pink shorts with white trim, and pink slip-on shoes.",
+      "action": "He stands still, then raises both arms overhead and sways his body side to side before returning to a standing pose.",
+      "camera": "Static full-body shot from a low angle, keeping the subject centered.",
+      "scene": "An outdoor paved road under a concrete overpass, with a metal guardrail, green foliage, and a construction crane in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "6426f7b0b5383295614b22a27ae446cd77305a0313f7584c956bf2853079e108"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6618.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned 3D-rendered character shown from behind, with a small red mark on the upper back.",
+      "hairstyle": "Short, tousled hair covering the head.",
+      "hair_color": "Pink.",
+      "clothing": "White short-sleeved shirt with black suspenders, black-and-white checkered trousers, and black shoes.",
+      "action": "The character stands with back to the camera, then raises a hand to the head and turns the head slightly before lowering the arm and standing still.",
+      "camera": "Static medium-long shot from behind at roughly waist height, keeping the character centered.",
+      "scene": "A futuristic outdoor plaza with a glossy reflective floor, a domed glass building with glowing teal rings on the left, and a tall building with lit windows on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "0e8a218d81611c7fb527b641d59f56d375b5523dce2e207c66a01f5070e066ed"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_229.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6626.mp4",
+    "observed": {
+      "identity": "A person with a slim build, seen mostly from behind, with a small reddish mark on the upper back of the shirt.",
+      "hairstyle": "Short, tousled hair that appears to be tied or gathered at the back of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A cream long-sleeved shirt with thin horizontal stripes, dark suspenders, brown-and-white checkered trousers, and black heeled shoes.",
+      "action": "The person stands facing the water, then turns their head and raises a hand to the back of the head before lowering the arm and shifting their stance slightly.",
+      "camera": "A static, medium-long shot from behind at roughly eye level, keeping the figure centered against the horizon.",
+      "scene": "A weathered concrete pier or platform beside a calm body of water under a clear, bright sky, with wooden posts and a low structure on the left."
+    },
+    "uncertain": [
+      "The person's face is mostly turned away, so facial features and exact age are unclear.",
+      "Whether the hair is tied in a small bun or simply short and tousled is unclear."
+    ],
+    "observation_identity": "2f6acf6b37285f7d844308e37ad8688e152b2ab8b71a1e5b16134f702d77910a"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Let's change the person's hair color to pink.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6631.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned person seen from behind, with a small dark mark on the upper back.",
+      "hairstyle": "Short hair with a small topknot or bun at the back of the head.",
+      "hair_color": "Red.",
+      "clothing": "White long-sleeved shirt with dark suspenders, brown-and-white checkered trousers, and black shoes.",
+      "action": "The person stands facing the water, then raises a hand to the head and rubs the hair before lowering the arm and standing still.",
+      "camera": "Static medium-long shot from behind at roughly waist height, keeping the figure centered against the horizon.",
+      "scene": "A weathered concrete pier or platform beside calm open water under a clear pale-blue sky, with wooden posts and a low structure on the left."
+    },
+    "uncertain": [],
+    "observation_identity": "fc131cb4a088526dec16edd639e98573b55aaee53383254ec58d6e8d9d493d8e"
+  }
+]

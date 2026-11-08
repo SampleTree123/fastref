@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6948.mp4",
+  "observed": {
+    "identity": "A young man with a light-to-medium complexion, short facial stubble, and a neutral expression.",
+    "hairstyle": "Short, dark hair that is slightly spiky or textured on top.",
+    "hair_color": "Dark brown or black.",
+    "clothing": "A thick, purple cable-knit sweater with a ribbed crew neck and cuffs, paired with black pants and brown lace-up boots.",
+    "action": "The man walks slowly forward toward the camera, then stops and turns his head to look up and to his left.",
+    "camera": "A static, medium-full shot that frames the subject from the shins up against a futuristic background.",
+    "scene": "A glossy, reflective floor in front of a large, dark glass dome structure featuring glowing pink and teal neon rings and grid lines."
+  },
+  "uncertain": [],
+  "observation_identity": "7986f4e3e3d765b23b85bfaac58f040de4a9bc5bfbfa61012890b0c47035e5c7"
+}

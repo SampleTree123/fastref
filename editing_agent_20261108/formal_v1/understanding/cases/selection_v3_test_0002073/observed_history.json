@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6430.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a small mole on her left cheek.",
+      "hairstyle": "Short, tousled hair swept back from the face.",
+      "hair_color": "White.",
+      "clothing": "She wears a brown patterned sleeveless crop top, light gray wide-leg trousers with a side slit, and brown strappy sandals.",
+      "action": "The character stands in profile, then turns slightly toward the camera, raises her right hand to her face, and lowers it again while shifting her weight.",
+      "camera": "Static full-body shot at a low angle, keeping the character centered in the frame.",
+      "scene": "An outdoor amusement park at dusk, with a Ferris wheel on the left, a carousel pavilion with lights on the right, and a popcorn stand in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "c959a169ad5c4c175cd6c35add40c67a357f238ad157dfe4ea40db38b6850ee8"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_dc82626c1b3fd75b5b5dc89b1960093c8327079a98db6fdaaad9bc18c54655de.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body shot from behind. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6420.mp4",
+    "observed": {
+      "identity": "A slender female character with a slim build, seen from behind.",
+      "hairstyle": "Short, tousled hair that appears to be swept back.",
+      "hair_color": "White or platinum blonde.",
+      "clothing": "A sleeveless, dark reddish-brown patterned top and light beige or off-white wide-leg trousers with dark boots.",
+      "action": "The character stands in the center of a wide paved area, initially with arms at her sides, then raises her right hand to touch her hair before placing her hand on her hip.",
+      "camera": "A static, medium-long shot from behind the character at a slightly low angle.",
+      "scene": "An outdoor amusement park or fairground setting with a carousel on the left, a large wooden building on the right, and a hazy sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "1364be989b99721db4819e8524be6e2c0c9b0d349120f6907a8f88f6f489a2a5"
+  }
+]

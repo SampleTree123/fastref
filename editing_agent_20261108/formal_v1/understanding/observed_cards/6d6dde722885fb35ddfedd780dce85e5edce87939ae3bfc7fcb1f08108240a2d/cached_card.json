@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6548.mp4",
+  "observed": {
+    "identity": "A young woman with a slender build, fair skin, and a neutral-to-smiling expression.",
+    "hairstyle": "Black hair with straight bangs and two low buns or pigtails on either side of her head.",
+    "hair_color": "Black.",
+    "clothing": "A bright pink, long-sleeved, off-the-shoulder top with purple ribbon details on the shoulders.",
+    "action": "She begins facing forward, then raises both arms overhead with clenched fists, tilts her head back, and lowers her arms back to a resting position.",
+    "camera": "A static, medium close-up shot from a slightly low angle, keeping the subject centered in the frame.",
+    "scene": "An outdoor, industrial-looking area with a stone-paved ground, a wooden boat on the left, and piles of wooden planks and crates in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "763ff47e86d15e6c1fc4dfce5efed97e276fe613ab8ade880169ee1ae59fe3dc"
+}

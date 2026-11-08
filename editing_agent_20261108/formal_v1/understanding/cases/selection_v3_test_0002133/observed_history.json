@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6439.mp4",
+    "observed": {
+      "identity": "A slender female 3D character with a slim build, seen from behind.",
+      "hairstyle": "Short, spiky hair styled upward.",
+      "hair_color": "White.",
+      "clothing": "A sleeveless dark brown patterned top, light gray wide-leg pants, and black boots.",
+      "action": "The character stands with her back to the camera, then turns her head and upper body to the left, placing a hand on her hip before turning back to face forward.",
+      "camera": "Static medium-full shot from behind the character at a low angle.",
+      "scene": "A futuristic city plaza with a wet, reflective dark ground, glowing red and cyan light strips, and tall buildings with blue and pink lighting in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "b4217d1811ee8074c2c04d73fe953a6b5775d76a7c7ad148d87560d731e6bd25"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_158.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6420.mp4",
+    "observed": {
+      "identity": "A slender female character with a slim build, seen from behind.",
+      "hairstyle": "Short, tousled hair that appears to be swept back.",
+      "hair_color": "White or platinum blonde.",
+      "clothing": "A sleeveless, dark reddish-brown patterned top and light beige or off-white wide-leg trousers with dark boots.",
+      "action": "The character stands in the center of a wide paved area, initially with arms at her sides, then raises her right hand to touch her hair before placing her hand on her hip.",
+      "camera": "A static, medium-long shot from behind the character at a slightly low angle.",
+      "scene": "An outdoor amusement park or fairground setting with a carousel on the left, a large wooden building on the right, and a hazy sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "1364be989b99721db4819e8524be6e2c0c9b0d349120f6907a8f88f6f489a2a5"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_c4f339894dc071f8732fd0c9e4bd76d62d4f3f32d8c7aa7db46b7b70f0fe2573.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to an upper-body shot from the side. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6436.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin, shown mostly in profile and three-quarter back view.",
+      "hairstyle": "Hair is pulled up into a high, slightly messy ponytail with loose strands at the nape.",
+      "hair_color": "White or very light silver.",
+      "clothing": "She wears a sleeveless, high-necked brown patterned crop top and light gray high-waisted pants.",
+      "action": "She stands still, then raises her right hand to brush her hair back and touch the side of her head before lowering her arm again.",
+      "camera": "A static medium shot from the side, framing the subject from the thighs up.",
+      "scene": "An outdoor amusement park or boardwalk at dusk, with a red and blue striped carousel, a striped awning, and a row of overhead light bulbs in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "3b5d3f3797e8a11e28314f024ccd49e988108bdfad0bdea82e9804f941ed0bb7"
+  }
+]

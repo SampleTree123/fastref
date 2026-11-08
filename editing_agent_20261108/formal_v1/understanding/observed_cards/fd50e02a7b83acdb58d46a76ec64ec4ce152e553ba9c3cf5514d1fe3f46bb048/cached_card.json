@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6513.mp4",
+  "observed": {
+    "identity": "A 3D-rendered woman with dark skin and a slender build, shown from the chest up.",
+    "hairstyle": "White hair gathered into a high, rounded bun secured with a brown band.",
+    "hair_color": "White.",
+    "clothing": "A bright pink off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+    "action": "She looks around, then raises her right hand to wipe across her eyes and face before lowering it and smiling at the camera.",
+    "camera": "A static, eye-level medium close-up that keeps the woman centered in frame.",
+    "scene": "An outdoor dock or shipyard area with weathered wooden planks, an overturned wooden boat, barrels, and stone buildings in the background under bright daylight."
+  },
+  "uncertain": [],
+  "observation_identity": "63e123b327604ce9aed8df1aeecb6343ab20317e1fec07cacb47fd4730ab7779"
+}

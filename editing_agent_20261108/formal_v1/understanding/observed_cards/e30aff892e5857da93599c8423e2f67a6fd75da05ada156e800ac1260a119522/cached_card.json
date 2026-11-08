@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6060.mp4",
+  "observed": {
+    "identity": "A young Black woman with a slim build and a neutral facial expression.",
+    "hairstyle": "Her hair is cut very short and close to the scalp.",
+    "hair_color": "Her hair is dyed a bright red color.",
+    "clothing": "She wears a pink and white gingham corset-style top with white ruffled off-the-shoulder sleeves, a black and white asymmetrical skirt, and light blue sneakers.",
+    "action": "She begins standing still, then raises her arms and begins to dance, moving her arms and torso rhythmically before returning to a standing pose.",
+    "camera": "The camera is at a low angle, framing her from the knees up, and slowly zooms in as she dances.",
+    "scene": "She stands in an open paved area in front of a colorful amusement park with a large swing ride and a ticket booth visible in the background under a sunset sky."
+  },
+  "uncertain": [],
+  "observation_identity": "38204a07a6f01c0b0a89b98ae91ce5a4da32ded49622bf62da5972a73afcc748"
+}

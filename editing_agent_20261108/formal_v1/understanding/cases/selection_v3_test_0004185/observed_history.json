@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6937.mp4",
+    "observed": {
+      "identity": "A Black man with a short beard and mustache, shown from the chest up at first and then full body.",
+      "hairstyle": "Short, dark, neatly trimmed hair.",
+      "hair_color": "Black.",
+      "clothing": "A red-and-black plaid three-piece suit with a white dress shirt, black necktie, and black shoes.",
+      "action": "He stands facing the camera, then raises both arms overhead, brings his hands together near his face, and performs a few dance-like arm and leg movements before returning to a standing pose.",
+      "camera": "A static, low-angle shot that starts as a medium close-up and pulls back to a full-body view as he moves.",
+      "scene": "A futuristic indoor space with a glossy reflective floor, a large glass dome ceiling with a glowing white ring, and pink and teal neon light strips in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "a6063df647ec672c9f8452b117326e0174baa63530fad658cecc2c41d632eb62"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_409.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_449.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6933.mp4",
+    "observed": {
+      "identity": "A young Black man with a short beard and mustache, shown from the waist up at first and then full body.",
+      "hairstyle": "Short, dark, textured hair with a slightly raised top.",
+      "hair_color": "Black.",
+      "clothing": "Pink-and-white checkered button-up shirt with sleeves rolled to the elbows, a black bow tie, black suspenders, matching checkered trousers, and black shoes.",
+      "action": "He stands facing the camera, then raises both arms overhead, swings them in a dance-like motion, and finally returns to a relaxed standing pose.",
+      "camera": "Static medium-to-full shot at eye level, framing the subject centered against the background.",
+      "scene": "A futuristic stage with a large dark dome overhead, glowing teal ring lights, pink grid lines, and a reflective floor lit with pink and blue light."
+    },
+    "uncertain": [],
+    "observation_identity": "75f711cfe92dc8cd62ae049f79d3480e55c34bc88f7d7113e0eeb902b892b3c7"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_764a90fbfe9f7c42e09a17631eecb9ecc5b52a3857ea809919bc194490c8c570.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a front-view dolly-in shot that moves from full-body to upper-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6934.mp4",
+    "observed": {
+      "identity": "A Black man with a short beard and mustache, shown from head to toe.",
+      "hairstyle": "Short, dark hair with a small top-knot or bun at the crown.",
+      "hair_color": "Black.",
+      "clothing": "Pink-and-white checkered button-up shirt with rolled sleeves, black suspenders, a black bow tie, and red-and-black checkered trousers with black shoes.",
+      "action": "He stands facing the camera, then raises both arms overhead, turns and gestures with his arms, and finally returns to a relaxed standing pose.",
+      "camera": "A static, low-angle full-body shot that keeps the man centered in frame.",
+      "scene": "A futuristic indoor space with a glossy reflective floor, a large glass dome overhead, and glowing teal and pink neon rings and lines in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "0b05371de66bcb717bbf7e1a9d9a6945cb08bd53bead89da28f4ea6d1b6bc32c"
+  }
+]

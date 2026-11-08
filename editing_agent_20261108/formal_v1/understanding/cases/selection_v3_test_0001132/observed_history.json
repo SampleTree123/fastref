@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6186.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and a slight smile, shown from the chest up.",
+      "hairstyle": "Short, spiky hair with a small topknot and longer side pieces framing the face.",
+      "hair_color": "Bright blue.",
+      "clothing": "A white sleeveless tank top with a deep scoop neckline.",
+      "action": "She stands facing the camera, then turns her head to the side, lowers her head, and briefly touches her chest before returning to face forward.",
+      "camera": "A static, eye-level medium close-up shot centered on the subject.",
+      "scene": "A dark, futuristic interior with pink and teal neon lighting, a grid-patterned glass wall, and a glowing 'TRA' sign in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "bcaf06694440099548cf734db9889052289d1e8f885e0f687421159832846858"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_38.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_79.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6178.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, visible shoulders and chest, faces the camera in a medium close-up.",
+      "hairstyle": "Short, spiky hair swept upward and back from the forehead.",
+      "hair_color": "Dark blue-black hair with lighter highlights under the lighting.",
+      "clothing": "A white sleeveless tank top with a deep scoop neckline and a small dark graphic at the lower edge.",
+      "action": "He stands facing forward, smiling and shifting his gaze, then briefly turns his head to the side and brings a hand up to his chest before returning to face the camera.",
+      "camera": "A static, eye-level medium close-up keeps the man centered in frame throughout the clip.",
+      "scene": "A dark, futuristic interior with large glass windows, glowing pink and teal neon lines, and a partial pink 'TRA' sign in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "ae603dabdbefb12d613ea0d68dcced93085aa7a6d62326c40dec47ff2f493fd2"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_63.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: change the person's identity to match the person in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6188.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and a neutral expression.",
+      "hairstyle": "Short, layered blue hair with bangs, later tied up into a high ponytail.",
+      "hair_color": "Bright blue.",
+      "clothing": "A white sleeveless tank top with a dark graphic on the chest.",
+      "action": "She stands facing the camera, then turns her head to the side, ties her hair into a high ponytail, and touches her chest before returning to face forward.",
+      "camera": "A static, medium close-up shot at eye level.",
+      "scene": "A dark, futuristic interior with large glass windows, pink and blue neon lighting, and a glowing 'TRA' sign in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "b6948661ace57340b636d4e0fff5a63f4566b506acaa9299557d875c3a980d8d"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: The person currently has blue hair; please change it to pink.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6177.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and a neutral expression.",
+      "hairstyle": "Short, spiky hair with bangs, later tied up in a small top bun.",
+      "hair_color": "Dark brown with pink and purple highlights.",
+      "clothing": "A white sleeveless tank top with a dark graphic on the chest.",
+      "action": "She stands facing the camera, then turns her head to the side, looks down, and touches her chest with her right hand before returning to face forward.",
+      "camera": "A static, medium close-up shot at eye level.",
+      "scene": "A dark, futuristic interior with large glass windows, pink and blue neon lighting, and a glowing 'TRA' sign in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "6dc358c8453f5c6a94e57410bc8469f3b4f8d41bacbe3440e4a0972c2b69c824"
+  }
+]

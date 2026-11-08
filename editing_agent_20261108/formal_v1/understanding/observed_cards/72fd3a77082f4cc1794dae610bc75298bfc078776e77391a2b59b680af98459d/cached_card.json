@@ -1,0 +1,15 @@
+{
+  "video_id": 4,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6261.mp4",
+  "observed": {
+    "identity": "A slender woman with a slim build, seen mostly from behind and in profile.",
+    "hairstyle": "Short, reddish-brown hair that she repeatedly lifts and smooths back with her hand.",
+    "hair_color": "Reddish-brown / auburn.",
+    "clothing": "A sleeveless, patterned dark crop top with a wide brown waistband and light gray high-waisted trousers.",
+    "action": "She stands facing away from the camera, raises her right hand to brush and adjust her hair, then lowers her arm and places her hand on her hip.",
+    "camera": "Static medium shot from behind and slightly to the side, at roughly waist-to-head height.",
+    "scene": "An outdoor fairground or amusement park at dusk, with a lit carousel and a red-and-white striped pavilion with rows of bulbs in the background on a sandy ground."
+  },
+  "uncertain": [],
+  "observation_identity": "3eb0a8d51980fc7c278e91d433ef11bd54b855f39504020fd786971809f637e9"
+}

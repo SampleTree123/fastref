@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6745.mp4",
+  "observed": {
+    "identity": "A muscular person with a dark complexion, shown in profile, with a short white hairstyle.",
+    "hairstyle": "Short, swept-back white hair.",
+    "hair_color": "White.",
+    "clothing": "A white tank top with a pink graphic print, pink shorts with white trim, and pink slip-on shoes.",
+    "action": "The person stands in profile, then raises both arms overhead and swings them down and back in a stretching motion before returning to a standing pose.",
+    "camera": "A medium full shot from the side, with the camera slowly zooming in and panning slightly to follow the movement.",
+    "scene": "An outdoor paved area, likely a road or parking lot, with a metal guardrail, green trees, and large rocks in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "ece5367c52ad414a1c4085b0c7499e7c337e548106a87a434c37256c13b520f6"
+}

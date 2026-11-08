@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0000480",
+  "dataset_index": 780,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 19.338482916355133,
+  "result": {
+    "source_video_id": 0,
+    "prompt": "Change the person's action to the one demonstrated in the motion reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "reference_ids": [
+      "ref_1"
+    ],
+    "inspected_video_ids": [
+      0,
+      1
+    ],
+    "selection_model_calls": 2,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6260.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen mostly from behind, with a small tattoo visible on her lower back.",
+      "hairstyle": "Her hair is pulled back into a low bun at the nape of her neck.",
+      "hair_color": "Her hair is a reddish-brown or auburn color.",
+      "clothing": "She wears a blue and white patterned dress with an open back and short sleeves.",
+      "action": "She stands with her back to the camera, then turns her head and upper body to the right, briefly raising her right hand toward her face before turning back to face away.",
+      "camera": "The camera is static at a medium distance, framing the woman from the waist up from behind.",
+      "scene": "The setting is an outdoor amusement park or fairground at dusk, featuring a carousel, a covered pavilion with string lights, and a red food cart on a sandy ground."
+    },
+    "uncertain": [],
+    "observation_identity": "dfd348aaada9aa5680743320f510301bd042f8e8fd1bb4cbd2ac0336b5907db9"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_849.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_850.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6280.mp4",
+    "observed": {
+      "identity": "A woman with a medium build, seen mostly from behind, with a small tattoo visible on her upper back.",
+      "hairstyle": "Her hair is pulled back into a low bun or updo at the nape of her neck.",
+      "hair_color": "Reddish-brown hair.",
+      "clothing": "She wears a sleeveless brown patterned top and a light gray skirt.",
+      "action": "She stands facing away from the camera, then turns her head and body to the right, raising her hands toward her face before turning back to face forward.",
+      "camera": "Static medium shot from behind the subject at roughly waist height.",
+      "scene": "An outdoor fairground or amusement park with a carousel, a covered ride platform with marquee lights, and a small red train car on the left."
+    },
+    "uncertain": [],
+    "observation_identity": "9c93244c00e5e25e939a50d7dae63f0cc7180f0bf2c2b9a37f40617482a5142c"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_153.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_14.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's top with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6281.mp4",
+    "observed": {
+      "identity": "A slender woman with fair skin, seen mostly from behind and in profile.",
+      "hairstyle": "Her hair is pulled back into a low, braided or twisted updo at the nape of her neck.",
+      "hair_color": "Deep reddish-brown or auburn.",
+      "clothing": "She wears a sleeveless, patterned dark top with a lace-like texture and a light gray or white skirt.",
+      "action": "She stands facing away from the camera, then turns her head and upper body to the right, raising her hand toward her face before turning back to face forward.",
+      "camera": "A static, medium shot from behind the subject at roughly eye level.",
+      "scene": "An outdoor fairground or amusement park at dusk, featuring a carousel, a covered pavilion with string lights, and a small red train car on the left."
+    },
+    "uncertain": [],
+    "observation_identity": "68e669894f17795066e68026a999937784331d2fdec41cbc39e2239a9d02bb56"
+  }
+]

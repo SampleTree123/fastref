@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7028.mp4",
+  "observed": {
+    "identity": "A slender young woman with fair skin, shown in a 3D-rendered style.",
+    "hairstyle": "Light brown hair styled in two low pigtails or buns at the nape of the neck.",
+    "hair_color": "Light brown.",
+    "clothing": "A short, off-the-shoulder dress with a pink-and-white gingham bodice, white ruffled sleeves, and a white-and-black color-blocked skirt, paired with light blue slip-on sneakers.",
+    "action": "She stands on a cobblestone street, initially facing away, then turns to face the camera while raising both arms to adjust her hair, and finally turns back to face away with one hand on her hip.",
+    "camera": "A static, full-body shot from a slightly low angle, keeping the subject centered in the frame.",
+    "scene": "A vintage-style city street with cobblestone paving, brick and stone buildings, and hanging signs with text such as 'MERCHANT' and 'COCOA POWDER'."
+  },
+  "uncertain": [],
+  "observation_identity": "a9c1bcaa14164b411a2b705e20a0edc07e659ecb39a9ea1bc2518d25956e7d89"
+}

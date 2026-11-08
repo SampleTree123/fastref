@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7170.mp4",
+  "observed": {
+    "identity": "A woman with a medium build and dark skin, shown in profile and from behind.",
+    "hairstyle": "Short, light-colored hair with a small topknot bun at the crown.",
+    "hair_color": "Platinum white or very light gray.",
+    "clothing": "A white romper with a colorful floral print in pink, yellow, and blue, featuring a low open back and three-quarter sleeves, paired with pink lace-up sneakers.",
+    "action": "She stands on a cobblestone street, turning from a side profile to face away from the camera, posing with one hand on her hip and the other raised near her head.",
+    "camera": "A static, full-body shot at eye level that captures the subject and the street behind her.",
+    "scene": "An outdoor cobblestone street lined with historic stone and brick buildings, including a Union Jack flag and hanging shop signs."
+  },
+  "uncertain": [],
+  "observation_identity": "31b3f413b684af29a7bc3fabe9bf79267705094e3b469d475e0dc4f11d62fd03"
+}

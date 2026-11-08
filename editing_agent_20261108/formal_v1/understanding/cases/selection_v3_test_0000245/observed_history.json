@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6024.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male figure with a light skin tone, seen from behind, with a small pink pig figurine perched on top of his head.",
+      "hairstyle": "Short dark hair visible at the sides and back of the head, mostly covered by the pig figurine.",
+      "hair_color": "Dark brown or black",
+      "clothing": "A red and black checkered/plaid long coat with a belt at the waist and white shirt cuffs visible at the wrists.",
+      "action": "The figure stands with his back to the camera, raises his right hand to touch and adjust the pig on his head, then lowers his arm and turns his head slightly to the side.",
+      "camera": "Static medium shot from behind the figure at roughly chest height, keeping the subject centered.",
+      "scene": "A futuristic outdoor plaza with large black dome buildings wrapped in glowing teal and pink neon rings, a reflective wet-looking ground, and a small purple vehicle in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "3c04de6fbb82ff59df74a72be0c87d1639944b0d592d30df3fc36e6a33a53458"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_38.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_79.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6033.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male figure with a slim build, seen from behind, with no visible face.",
+      "hairstyle": "Short, spiky hair.",
+      "hair_color": "Pink.",
+      "clothing": "A red and black checkered suit jacket with white shirt cuffs visible at the wrists.",
+      "action": "The figure stands with his back to the camera, then raises his right arm to touch and scratch the back of his head, turning his head slightly to the side.",
+      "camera": "A static medium shot from behind the figure at roughly waist height.",
+      "scene": "A futuristic outdoor plaza with large dark dome-shaped buildings featuring glowing teal and pink neon rings, a wet reflective concrete ground, and a small purple vehicle in the distance."
+    },
+    "uncertain": [],
+    "observation_identity": "044e96cbdc9f16269a251f187bbcd9640aba96d774c0855869a761e1989bf91c"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_842.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6013.mp4",
+    "observed": {
+      "identity": "A male figure with a medium build, seen from behind, with a light skin tone visible on the hands and neck.",
+      "hairstyle": "Short hair with a small topknot or bun at the crown of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A long, tan and orange plaid overcoat with a collar, worn over a white shirt with visible cuffs.",
+      "action": "The figure stands with his back to the camera, then raises his right hand to scratch or adjust his head and neck area, while his left hand rests on his hip.",
+      "camera": "A static, medium shot from behind the subject at roughly eye level.",
+      "scene": "An outdoor cobblestone street in front of a dark, ornate storefront with red curtains and gold lettering advertising 'SOAP' and 'COCO POWDER'."
+    },
+    "uncertain": [],
+    "observation_identity": "4316f83b34e49c81b8b7768a5b7b8302d74a6c2f5dd4d507cdf10f4962988e66"
+  }
+]

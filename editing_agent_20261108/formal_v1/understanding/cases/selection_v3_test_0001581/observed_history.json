@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6312.mp4",
+    "observed": {
+      "identity": "A 3D-rendered person with a slim build, seen from behind, with no visible face.",
+      "hairstyle": "Hair is gathered into a high bun on top of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A cream cable-knit sweater, black slim pants, and brown lace-up shoes.",
+      "action": "The person stands facing away, then turns slightly and begins walking down the street.",
+      "camera": "A static medium-long shot from behind the character at roughly waist height.",
+      "scene": "A foggy, cobblestone street in a British-style town with brick buildings, shop signs, and a Union Jack flag hanging overhead."
+    },
+    "uncertain": [],
+    "observation_identity": "18ae1df4a7a75da3c9d6ee33af15fa5d68affdc304772c14edf80f7f6d25423d"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_749.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6321.mp4",
+    "observed": {
+      "identity": "A person seen from behind, with a medium build and dark skin visible on the neck and hands.",
+      "hairstyle": "Hair is pulled up into a small top knot or bun.",
+      "hair_color": "Dark blue.",
+      "clothing": "A tan cable-knit sweater, dark slim pants, and brown shoes.",
+      "action": "The person stands with their back to the camera, then raises both arms and performs a brief dance-like motion before lowering their arms and standing still.",
+      "camera": "A static, eye-level medium shot from behind the person, framing them in the center of the scene.",
+      "scene": "An outdoor amusement park or fairground with a striped carousel on the left, a wooden building and a circular ride structure on the right, and a pale sky overhead."
+    },
+    "uncertain": [],
+    "observation_identity": "342f52026dc4a7c628a88a5198a1fec95f6d762a4724a2cc5ba30a90c86013b6"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to red?",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6337.mp4",
+    "observed": {
+      "identity": "A person seen from behind, with a slim build and no visible facial features.",
+      "hairstyle": "Hair is pulled up into a small top knot or bun.",
+      "hair_color": "Reddish-brown hair.",
+      "clothing": "A tan cable-knit sweater, dark slim pants, and brown shoes.",
+      "action": "The person stands still, then raises both arms and swings them in a brief dance-like motion before lowering them and standing again.",
+      "camera": "A static, low-angle, full-body shot from directly behind the person.",
+      "scene": "An outdoor amusement park or fairground with a carousel on the left, a wooden building and ride structures on the right, and a hazy daytime sky."
+    },
+    "uncertain": [],
+    "observation_identity": "851b93b13585bfe49d6ecbb33f21905c4be7e556df423d5d2d214617537c3623"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_8.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_66.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6338.mp4",
+    "observed": {
+      "identity": "A person with a slim build is seen from behind, with their face not visible.",
+      "hairstyle": "The hair is pulled up into a high bun or topknot.",
+      "hair_color": "The hair is a vivid blue color.",
+      "clothing": "The person wears a tan, cable-knit sweater, dark slim pants, and brown boots.",
+      "action": "The person stands still, then raises their right arm to touch the back of their head before lowering it and standing upright again.",
+      "camera": "The camera is positioned behind the person at a medium distance, slowly pulling back to reveal more of the full body and the surrounding area.",
+      "scene": "The setting is an outdoor amusement park or fairground with a carousel on the left, a wooden building on the right, and a hazy city skyline in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "92baa1e2de7a7381ef487c4d5f8b70fc5878cfb9d47bb9b46c8e0af87362fb8f"
+  }
+]

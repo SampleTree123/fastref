@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6523.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a fair complexion, blue eyes, and a slender build.",
+      "hairstyle": "Short, spiky blonde hair that is swept up and back from her face.",
+      "hair_color": "Bright blonde.",
+      "clothing": "A bright pink, long-sleeved, off-the-shoulder top with purple ribbon ties at the shoulders.",
+      "action": "The woman stands facing the camera, then raises both arms with clenched fists, tilts her head back, and lowers her arms back to a resting position.",
+      "camera": "A static, medium close-up shot from a slightly low angle, keeping the woman centered in the frame.",
+      "scene": "An outdoor, sunlit industrial or dockyard area with a stone-paved ground, a wooden boat on the left, and piles of wooden planks and crates in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "9b85089c2db67b34d10097a364b1481a5c83a56cb9b2b14b6c7b513639420fd9"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_67.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person in the video with the person shown in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6522.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a round face, and a neutral-to-smiling expression.",
+      "hairstyle": "Short, spiky yellow hair with a small topknot.",
+      "hair_color": "Bright yellow.",
+      "clothing": "A bright pink long-sleeved off-the-shoulder top with purple straps and a dark strap across her back.",
+      "action": "She stands facing the camera, then raises both arms overhead in a stretch, tilts her head back, and lowers her arms back to a resting pose.",
+      "camera": "Static medium close-up at eye level, framing the character from the chest up.",
+      "scene": "A sunlit outdoor industrial yard with stacked wooden planks, an overturned wooden boat, concrete walls, and metal structures in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "37c4b924de1ee2d6f762a6d2069f7214020459eec9df67b52d9d1258731a42d7"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_11.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6505.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a round face, and a slight smile.",
+      "hairstyle": "Short, spiky yellow hair with a small bun on top.",
+      "hair_color": "Bright yellow.",
+      "clothing": "A bright pink, long-sleeved, off-the-shoulder top with purple straps.",
+      "action": "The woman stands facing the camera, then raises both arms overhead in a stretch, lowers them, and returns to her starting pose.",
+      "camera": "A static, medium close-up shot from a slightly low angle.",
+      "scene": "An outdoor, sunlit area with a stone-paved ground, a wooden boat on the left, and piles of wooden planks on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "6a6ee9046933e2626adfea0670e67b6c520dfe7d2bbdcbc00000afee73dc2614"
+  }
+]

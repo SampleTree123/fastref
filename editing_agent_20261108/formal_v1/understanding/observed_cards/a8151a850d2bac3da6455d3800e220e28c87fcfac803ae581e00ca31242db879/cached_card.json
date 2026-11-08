@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6186.mp4",
+  "observed": {
+    "identity": "A young Black woman with a slim build and a slight smile, shown from the chest up.",
+    "hairstyle": "Short, spiky hair with a small topknot and longer side pieces framing the face.",
+    "hair_color": "Bright blue.",
+    "clothing": "A white sleeveless tank top with a deep scoop neckline.",
+    "action": "She stands facing the camera, then turns her head to the side, lowers her head, and briefly touches her chest before returning to face forward.",
+    "camera": "A static, eye-level medium close-up shot centered on the subject.",
+    "scene": "A dark, futuristic interior with pink and teal neon lighting, a grid-patterned glass wall, and a glowing 'TRA' sign in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "bcaf06694440099548cf734db9889052289d1e8f885e0f687421159832846858"
+}

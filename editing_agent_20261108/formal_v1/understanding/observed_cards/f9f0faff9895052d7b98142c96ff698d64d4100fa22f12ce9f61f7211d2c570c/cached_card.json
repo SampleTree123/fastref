@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6541.mp4",
+  "observed": {
+    "identity": "A young woman with a fair complexion, slender build, and a neutral facial expression.",
+    "hairstyle": "Blonde hair styled with straight bangs and two low buns on either side of her head.",
+    "hair_color": "Bright blonde.",
+    "clothing": "A bright pink, long-sleeved, off-the-shoulder top with purple ribbon details on the sleeves.",
+    "action": "The woman stands facing the camera, then raises both arms with clenched fists, tilts her head back, and lowers her arms back to her sides.",
+    "camera": "Static, medium shot, eye-level view.",
+    "scene": "An outdoor, industrial-looking area with concrete ground, wooden planks, a rusted boat, and large metal structures in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "70561b76672e1f83083aa91675d9d223f6c7e92ef589f970acaa3f973555ffd5"
+}

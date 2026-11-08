@@ -1,0 +1,17 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6419.mp4",
+  "observed": {
+    "identity": "A slender young woman with fair skin, shown mostly in profile.",
+    "hairstyle": "Hair is pulled up into a high, slightly messy ponytail with loose strands at the nape.",
+    "hair_color": "White or very light silver.",
+    "clothing": "She wears a dark, patterned sleeveless crop top with a high collar and light gray wide-leg pants.",
+    "action": "She stands in profile, then raises her right hand to touch her hair and face before lowering it again.",
+    "camera": "A static medium shot from the side at roughly waist height.",
+    "scene": "An outdoor amusement park or boardwalk at dusk, with a red carousel, striped awning, and a marquee of lights in the background."
+  },
+  "uncertain": [
+    "The exact pattern on the crop top is hard to make out in the low light."
+  ],
+  "observation_identity": "cf59158b26f5c61949cdde42212a0469290aab80827429514a9fe4f1e51745ae"
+}

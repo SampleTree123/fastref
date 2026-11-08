@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5992.mp4",
+  "observed": {
+    "identity": "A muscular man with a tanned complexion is shown in profile, facing right.",
+    "hairstyle": "His hair is pulled back into a small top-knot bun with the sides shaved short.",
+    "hair_color": "White.",
+    "clothing": "He wears a pink and cream tie-dye tank top and pink shorts.",
+    "action": "The man stands still, then raises his right hand to scratch the back of his head before lowering it again.",
+    "camera": "A static medium shot frames the man from the thighs up at eye level.",
+    "scene": "The setting is an outdoor street with a stone-paved sidewalk in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+  },
+  "uncertain": [],
+  "observation_identity": "8ec2d5d1aded9bc3ff1c20083270d3bc0be9a768094ff5d4d86c2955c9575b66"
+}

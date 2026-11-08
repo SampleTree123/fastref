@@ -1,0 +1,97 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6943.mp4",
+    "observed": {
+      "identity": "A young man with a short beard and dark skin stands centered in the frame.",
+      "hairstyle": "He has short, dark hair styled upward at the front.",
+      "hair_color": "Black.",
+      "clothing": "He wears a purple cable-knit sweater, black pants, and brown lace-up boots.",
+      "action": "He begins standing still, then raises both arms overhead and moves them in a dance-like motion before returning to a standing pose.",
+      "camera": "The camera is at a low angle, starting as a full-body shot and slowly zooming in to a medium close-up of the torso and head.",
+      "scene": "The setting is a futuristic interior with a large glass dome, glowing teal circular light rings, and pink neon accents on a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "1180a6d58d4f7b8a0f009c1e6b4ce3f6976adca2481e36a15d3a499663125e62"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a front-view dolly-out shot that moves from upper-body to full-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_6008625cee9bd47c2569c98d2d7517947fc66e922703e3da4ce56d0a4899fae6.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a front-view dolly-out shot that moves from upper-body to full-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6939.mp4",
+    "observed": {
+      "identity": "A young man with a short beard and a neutral expression.",
+      "hairstyle": "Short, dark hair with a slightly textured top.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A purple cable-knit sweater, black pants, and brown lace-up shoes.",
+      "action": "The man stands still, then raises both arms overhead and begins to dance with rhythmic arm and leg movements before returning to a standing pose.",
+      "camera": "A static, medium-full shot that frames the man from the shins up against the background.",
+      "scene": "A futuristic, sci-fi environment featuring a large glass dome with pink structural lines, glowing teal circular light rings, and a reflective floor under blue and pink lighting."
+    },
+    "uncertain": [],
+    "observation_identity": "23b85091767a73b96037dc4356cbd24f63c414f1bb635c8675e27c764a13ad9c"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_105.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_75.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6954.mp4",
+    "observed": {
+      "identity": "A young man with a light-to-medium complexion, short dark hair, and a clean-shaven face.",
+      "hairstyle": "Short, dark hair, neatly trimmed.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A purple, cable-knit sweater, black pants, and brown boots.",
+      "action": "The man begins standing still, then raises both arms above his head, followed by a series of dance-like movements including pointing and swinging his arms, before returning to a standing position.",
+      "camera": "The camera starts with a medium shot of the man's upper body and gradually zooms out to a full-body shot as he moves.",
+      "scene": "A futuristic, indoor setting with a large, domed structure featuring glowing pink and blue lights and a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "2d114d7671ae0a7093c36e0b1ab89fa820e2a9e61edbed1bb4c45941814a0ea4"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: The person currently has red hair; please change it to pink.",
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Please select video 1, then use that video as the starting point for the following change: Using the provided source video, apply the following edit: The person currently has red hair; please change it to pink.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6953.mp4",
+    "observed": {
+      "identity": "A young man with a light-to-medium complexion, short dark hair, and a clean-shaven face.",
+      "hairstyle": "Short, dark hair, neatly trimmed.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A purple cable-knit sweater, black pants, and brown boots.",
+      "action": "The man begins standing still, then raises both arms overhead, and proceeds to dance by swinging his arms and shifting his weight before returning to a standing position.",
+      "camera": "The camera starts with a medium shot of the upper body and gradually zooms out to a full-body shot, remaining static otherwise.",
+      "scene": "A futuristic indoor setting with a large glass dome ceiling, glowing pink and blue neon lights, and a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "a0d17185d217991f823f7478b15fd1dd0b7be3045d5a15a3fa101cff16fb342b"
+  }
+]

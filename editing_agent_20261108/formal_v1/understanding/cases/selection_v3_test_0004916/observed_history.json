@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7092.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with a medium-brown complexion, short dark hair, and a thin mustache.",
+      "hairstyle": "Short, dark hair that is slightly longer and swept back at the sides.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled-up sleeves, brown leather suspenders, and dark plaid trousers.",
+      "action": "The man walks slowly forward and to the right, turning his head to look around the environment.",
+      "camera": "A medium shot from a slightly low angle that tracks the man as he moves, keeping him centered in the frame.",
+      "scene": "An outdoor urban setting on a paved road, featuring a concrete overpass, a metal railing, green trees, and a construction crane in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "85a41b76486ed2b4f22c238b86a221bd354f3efcdf7a80834bba499cfaddb61b"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_7da4637b59512384f7ae2e3461b14ead86f4bf0d0b027811555257baba44b4c8.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a slightly low-angle full-body shot from a front three-quarter view. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7074.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult woman with a medium-brown complexion and a slim build.",
+      "hairstyle": "Dark hair pulled back into a low ponytail.",
+      "hair_color": "Black.",
+      "clothing": "Light blue-and-white plaid button-up shirt with sleeves rolled to the elbows, brown leather suspenders, dark gray plaid trousers, and black shoes.",
+      "action": "She stands on the asphalt, then begins walking slowly forward and to the right while looking up toward the sky.",
+      "camera": "Low-angle full-body shot that remains mostly static as the character moves through the frame.",
+      "scene": "An outdoor paved road beneath a concrete overpass, with red-and-yellow striped construction barriers, metal railings, green foliage, and a blue sky with light clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "575c5513b301ce97fc6befe30238db96bc6cbeba61a281a50146b7b8d94ca3f5"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_fd2a51557ee144956eaf713e52c060bdd868d70fbd3caf156237d1fed6f01730.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body orbit shot that starts in front, circles the person through 360 degrees, and returns to the front view. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7080.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, light brown skin, and a short beard.",
+      "hairstyle": "Short dark hair on the sides and top, with the back tied into a small ponytail or bun.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled-up sleeves, brown leather suspenders, dark grey plaid trousers, and dark shoes.",
+      "action": "The character stands still, then turns and walks in a slow circle, showing his front, side, and back profiles before returning to a standing position.",
+      "camera": "A low-angle, full-body shot that remains at a consistent distance while panning to follow the character's rotation.",
+      "scene": "An outdoor paved area, possibly a parking lot or road, under a concrete overpass with trees, guardrails, and construction barriers in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "fddbedab4532b55219916c9abfd9e6557cc4b578cd5472a0225910254bc464d2"
+  }
+]

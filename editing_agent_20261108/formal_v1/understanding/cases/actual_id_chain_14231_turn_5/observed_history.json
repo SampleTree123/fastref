@@ -1,0 +1,117 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7087.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, visible in a 3D-rendered video game style.",
+      "hairstyle": "Black hair is pulled back into a high ponytail with loose strands at the nape.",
+      "hair_color": "Black.",
+      "clothing": "He wears a black and white color-blocked long-sleeve polo shirt with a white collar and a small zipper at the neck, paired with red and black plaid trousers and a black belt.",
+      "action": "The man stands in profile, then turns his head and body to face the camera while raising his right hand to touch his chin and neck area, before turning back to the side.",
+      "camera": "A medium shot from the waist up, with the camera remaining mostly static while the character rotates within the frame.",
+      "scene": "An outdoor paved area under a concrete overpass or bridge structure, with a metal railing, green trees, and a yellow construction crane visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "7330c3cf9d05aea4e216506aaa127815cc88d4b526a99a3a0e7edcd775c62958"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's action to sneezing, as demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_347.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to sneezing, as demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7079.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with a tanned complexion, short dark hair, and a clean-shaven face.",
+      "hairstyle": "Short, dark hair that is slicked back and slightly longer at the sides.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A black and white color-blocked polo shirt with a white collar and sleeves, paired with red and black plaid trousers and a black belt.",
+      "action": "The man stands facing slightly to the right, then turns his head to look toward the camera, raises his right hand to touch his chin and neck, and then lowers his arm back to his side.",
+      "camera": "A static, medium shot from the waist up, positioned at eye level.",
+      "scene": "An outdoor paved area under a concrete overpass or bridge, with a metal railing, green foliage, and a construction crane visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "0dcd3396381a6340506faf69ac23a1126eb850d69d49c27dac960d1d698582d9"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a slightly low-angle full-body shot from a front three-quarter view. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_09f1e06f53983e14f10203cd71d1ebc1574cc03bfc88d98866e6012f1c5e015d.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Please return to video 0 and make the following change to that video: Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a slightly low-angle full-body shot from a front three-quarter view. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7071.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a medium-brown complexion, short dark hair, and a short beard.",
+      "hairstyle": "Short, dark hair with a small light-colored clip or accessory visible on the side in some frames.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "He wears a white long-sleeved collared shirt under a black sleeveless vest, brown plaid trousers with a brown belt, and black shoes.",
+      "action": "The man stands on an asphalt road, initially looking up and to the side, then turns his body and head, briefly touching his chin and crossing his arms before returning to a standing pose.",
+      "camera": "A low-angle, full-body shot from the front-left, with the camera remaining mostly static while the character moves.",
+      "scene": "An outdoor urban setting on a paved road beneath a large concrete overpass or bridge structure, with a metal railing, red-and-yellow striped bollards, and a blue sky with light clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "42d87e27b750de082201d288c981e9613206ea098f7ce81d51edc300256515cf"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_90.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7089.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male character with a medium build, dark skin, and a short beard.",
+      "hairstyle": "Short hair on the sides with a small ponytail at the back of the head.",
+      "hair_color": "Black.",
+      "clothing": "A white long-sleeved collared shirt under a dark sleeveless vest, dark plaid trousers, a dark belt, and dark shoes.",
+      "action": "The character stands on a rooftop, turning his body and head to look around, and briefly raises his hand to his chin in a thoughtful pose.",
+      "camera": "A static, low-angle full-body shot that keeps the character centered in the frame.",
+      "scene": "An outdoor rooftop at dusk, with a paved floor, a low wall, and a cityscape of buildings and communication towers in the background under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "f055cd7f638be12b3ff06683f440d5b3179306f35291008ff099d14f2ba8b175"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hair color to pink.",
+    "parent_id": 3,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hair color to pink.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7102.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male character with a medium build and dark skin.",
+      "hairstyle": "Short hair with a small ponytail at the back.",
+      "hair_color": "Pink and purple.",
+      "clothing": "White long-sleeved collared shirt, dark gray vest, gray plaid trousers, and dark shoes.",
+      "action": "The character stands on a rooftop, turning his head and body to look around, then crosses his arms and touches his chin before returning to a standing pose.",
+      "camera": "Full-body shot from a low angle, with the camera remaining mostly static.",
+      "scene": "An outdoor rooftop at dusk, featuring a tiled floor, a low wall, and a cityscape with buildings and communication towers in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "870e60634037b818d8ce1de4429b21fe9adbd817f501540fa6007ba756efca9e"
+  }
+]

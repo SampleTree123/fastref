@@ -1,0 +1,69 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6924.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, tan skin, and a small mole on her left cheek.",
+      "hairstyle": "Short, reddish-orange hair with bangs, tied back into a small low ponytail or bun.",
+      "hair_color": "Reddish-orange.",
+      "clothing": "A long-sleeved, collared pink top with a ruffled waistband, a matching pink pleated mini-skirt with dark trim, and brown lace-up boots.",
+      "action": "The character stands on a tiled rooftop, posing with her hands on her hips and one arm raised behind her head, then slowly turns her body to the right to face away from the camera.",
+      "camera": "A static, medium-full shot from a slightly low angle, capturing the character from the shins up against a city background.",
+      "scene": "An outdoor, tiled rooftop or platform in a stylized city environment, featuring a metal tower structure with a loudspeaker on the left and tall buildings with 'SPORT' signage in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "a146b34a38abaf3b98fc3b4c11909ac6e89f7fb2a84e0862d6fd301a5358e5e1"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_18.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_111.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6931.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and tanned skin.",
+      "hairstyle": "Red hair styled in a high ponytail with a thick, straight bang covering the forehead.",
+      "hair_color": "Bright red with lighter orange highlights.",
+      "clothing": "A long-sleeved pink collared shirt tucked into a matching pink pleated mini-skirt, paired with brown lace-up boots.",
+      "action": "The character stands on a tiled rooftop, posing with hands on hips and one arm raised to touch her hair, then slowly turns her body to face away from the camera.",
+      "camera": "A static, low-angle medium shot that captures the character from the shins up against a city background.",
+      "scene": "An outdoor rooftop with light gray tiling, featuring a metal tower structure with a loudspeaker on the left and a cityscape with tall buildings and billboards in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "ea7cf4614c5c52c7ce751e5435b8e2577b9bd2fa54bef912577928518a680bcf"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hair color to black.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6925.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, light skin, and a visible side profile and back.",
+      "hairstyle": "Brown hair pulled back into a low, slightly messy bun with loose strands framing the face.",
+      "hair_color": "Medium brown.",
+      "clothing": "A long-sleeved pink collared shirt tucked into a matching pink pleated mini skirt with dark trim, and brown lace-up combat boots.",
+      "action": "The character stands on a tiled rooftop, posing with hands on hips, then raises one arm to touch her hair before turning her body to show her back.",
+      "camera": "A static, low-angle medium-full shot that keeps the character centered against the city background.",
+      "scene": "An outdoor rooftop with light gray tiles, a metal tower structure with a loudspeaker on the left, and a stylized city skyline with buildings and billboards in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "b1ac36b504702e77a6bbba6e9e8809a6261e1bf1eb03fd53768a0833adf5514d"
+  }
+]

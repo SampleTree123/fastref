@@ -1,0 +1,23 @@
+{
+  "name": "high",
+  "profile": {
+    "history_frames": 16,
+    "motion_frames": 32,
+    "video_frame_pixels": 264192,
+    "image_pixels": 451584
+  },
+  "generation": {
+    "max_new_tokens": 128,
+    "do_sample": false,
+    "use_cache": true,
+    "logits_to_keep": 1
+  },
+  "dtype": "bfloat16",
+  "attention_implementation": "sdpa",
+  "cpu_threads": 2,
+  "cache_max_gib": 64,
+  "cache_minimum_free_gib": 30,
+  "kernel_mode": "fla",
+  "fla_kernel_revision": "24d8640db48c804a224b5da987b81093ff7136d1",
+  "selection_contract": "actual_id_v1"
+}

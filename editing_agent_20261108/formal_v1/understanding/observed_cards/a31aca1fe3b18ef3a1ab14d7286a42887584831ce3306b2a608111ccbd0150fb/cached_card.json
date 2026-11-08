@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7013.mp4",
+  "observed": {
+    "identity": "A slender female character with a fair complexion, shown in a 3D rendered style.",
+    "hairstyle": "Short, voluminous blue hair styled in a bob with a small bun or twist at the nape.",
+    "hair_color": "Bright blue.",
+    "clothing": "A form-fitting dress with a pink and white gingham bodice, white off-the-shoulder puff sleeves, and a two-toned skirt that is white on one side and black on the other, paired with light blue slip-on sneakers.",
+    "action": "The character stands on a cobblestone street, initially facing left, then raises her arms to adjust her hair before turning her back to the camera and posing with one hand on her hip.",
+    "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+    "scene": "A vintage-style city street with cobblestone paving, brick and stone buildings, and hanging signs with text such as 'MERCHANT' and 'COCOA POWDER'."
+  },
+  "uncertain": [],
+  "observation_identity": "1f60e114701a088f70c563b11611bc3277a7e18f391fc8eddccd1166255fdb55"
+}

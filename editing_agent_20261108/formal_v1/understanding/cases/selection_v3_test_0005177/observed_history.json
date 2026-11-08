@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7160.mp4",
+    "observed": {
+      "identity": "A slender 3D-rendered female character with fair skin, shown in profile and then from behind.",
+      "hairstyle": "Short red hair with a small low bun at the nape.",
+      "hair_color": "Red.",
+      "clothing": "Black off-shoulder top with a white polka-dot pattern, a short black skirt with a white draped panel, and blue slip-on shoes.",
+      "action": "The character stands on a tiled rooftop, slowly turning her body while raising one arm to touch her hair and placing the other hand on her hip.",
+      "camera": "Full-body shot at a low angle; the camera orbits around the character from her front-right side to her back.",
+      "scene": "An outdoor city rooftop at dusk with large metal towers, antennas, buildings, and neon signs in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "87f04a27f678766c73f72dc4b7c6e3c26084e6ff929a724c790cc6070b438e94"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current red hair color with white.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7171.mp4",
+    "observed": {
+      "identity": "A slender 3D-rendered female character with pale skin, shown in profile and from behind.",
+      "hairstyle": "Short, cropped hair with a small low bun at the nape.",
+      "hair_color": "White.",
+      "clothing": "Black off-the-shoulder top with a white polka-dot pattern, a short black skirt with a white draped panel at the back, and blue slip-on shoes.",
+      "action": "The character stands on a tiled rooftop, slowly turning her body while raising one arm to touch her hair and placing the other hand on her hip.",
+      "camera": "Full-body shot at a low angle that orbits around the character from her left side to her back.",
+      "scene": "A sunny urban rooftop with large metal light towers, concrete structures, and city buildings with red signage in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "263b7af72753a7db0d2f0a519521518e6e8b2b6de8b298f6089edc38686870d0"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_374.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7142.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin, shown in profile and then from behind.",
+      "hairstyle": "Red hair pulled back into a low ponytail with a few loose strands at the nape.",
+      "hair_color": "Red.",
+      "clothing": "She wears a black, short-sleeved, form-fitting dress with a white panel at the back and light blue slip-on sneakers.",
+      "action": "The woman stands on a cobblestone street, initially in profile, then turns her back to the camera and raises one arm to touch her hair while placing the other hand on her hip.",
+      "camera": "The camera is at a low angle, framing the full body, and slowly orbits around the subject from her left side to behind her.",
+      "scene": "The setting is a European-style street with cobblestone paving, ornate stone buildings, hanging shop signs, and vintage street lamps."
+    },
+    "uncertain": [],
+    "observation_identity": "8b612ad95a088412a9af916fc250fdc0346a6f246a135abed18183b26a919901"
+  }
+]

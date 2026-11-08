@@ -1,0 +1,97 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6878.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build, shown in profile and then from behind, with a fair-to-medium complexion.",
+      "hairstyle": "Dark hair is pulled back into a low bun at the nape, with straight bangs across the forehead.",
+      "hair_color": "Black.",
+      "clothing": "She wears a bright pink long-sleeved off-the-shoulder top with black ribbon bows and black crisscross strap details on the shoulders.",
+      "action": "She stands facing right, then turns her back to the camera while raising one arm, and finally turns back to profile, touching her hair and face.",
+      "camera": "A static medium shot from behind and to the side, keeping the subject centered against the background.",
+      "scene": "A futuristic nighttime plaza with a large glass-domed building, glowing cyan ring lights, pink neon trim, and a reflective wet-looking floor."
+    },
+    "uncertain": [],
+    "observation_identity": "eb4be5853ff9e5d5916c885618890c68c08cb59eee2cf6c5554b3c7387fffd43"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_18.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_111.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6872.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build, shown in profile and three-quarter views.",
+      "hairstyle": "Dark hair pulled back into a high ponytail with loose strands framing the face.",
+      "hair_color": "Black.",
+      "clothing": "A bright pink long-sleeved top with black ribbon-like straps across the shoulders and chest.",
+      "action": "She stands facing right, then turns her head and body slightly toward the camera while raising one hand to touch her hair and neck.",
+      "camera": "Medium close-up at eye level, mostly static with slight reframing as the subject moves.",
+      "scene": "A futuristic nighttime setting with a large glass dome structure, glowing cyan ring lights, pink neon accents, and a reflective wet-looking ground."
+    },
+    "uncertain": [],
+    "observation_identity": "a62c593424f33394bd25274f638943f89d15cb735d3599fcd0a8deb77e333152"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Only use the reference photo to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body, while retaining the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_56.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Only use the reference photo to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body, while retaining the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6874.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build, shown in 3D-rendered style, with her face partly visible in profile and three-quarter views.",
+      "hairstyle": "Dark hair pulled back into a high ponytail with loose strands framing the face.",
+      "hair_color": "Black with lighter brown highlights visible near the face.",
+      "clothing": "A bright pink long-sleeved off-the-shoulder top with black ribbon lacing and bows across the chest and shoulders.",
+      "action": "She stands facing right, then turns her back to the camera, and finally turns back toward the camera while raising a hand to touch her neck and hair.",
+      "camera": "Medium close-up at eye level, mostly static with slight reframing as the subject rotates.",
+      "scene": "A futuristic nighttime plaza with a large glass dome building, glowing cyan ring lights, pink neon accents, and a reflective wet-looking ground."
+    },
+    "uncertain": [],
+    "observation_identity": "f30c7610f85dcb23d4872a9feae02d0962cb5661a12ee3264361f6f34c52e259"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: replace the person's current black hair color with blonde.",
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Please return to the result of edit 1 and make the following change to that video: Using the provided source video, apply the following edit: replace the person's current black hair color with blonde.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6868.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build, shown from the shoulders up in profile and three-quarter views.",
+      "hairstyle": "Her hair is pulled back into a high ponytail with loose strands framing her face.",
+      "hair_color": "Her hair is reddish-brown with lighter golden highlights.",
+      "clothing": "She wears a bright pink off-the-shoulder top with black ribbon lacing across the chest and shoulders.",
+      "action": "She turns her head and upper body, raising one hand to touch her hair and ear before lowering it.",
+      "camera": "The camera holds a medium close-up from behind and to the side, with slight shifts in angle as she moves.",
+      "scene": "She stands in front of a large glass-domed building with glowing pink and cyan neon rings and a wet reflective floor at night."
+    },
+    "uncertain": [],
+    "observation_identity": "8868fac3ec4e8ee1fc479a4b38a1c0837dc8acbfc20a6a3db890be8f831fac91"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6460.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build and light skin stands in the center of the frame.",
+    "hairstyle": "Her hair is pulled back into two small buns on top of her head.",
+    "hair_color": "Her hair is brown.",
+    "clothing": "She wears a short, black-and-white gingham dress with three-quarter sleeves and red flat shoes.",
+    "action": "She stands mostly still, turning her head to look over her shoulder, then raises one hand to her face and the other to her hip before lowering them.",
+    "camera": "The camera holds a static, full-body shot from a slightly low angle.",
+    "scene": "The setting is a futuristic city plaza with a wet, reflective ground, glowing teal and pink neon buildings, and a tall skyscraper in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "8d2491d94863c97b3cbfda777fefc7c57b0908a33391d6d9225fc550c705cc05"
+}

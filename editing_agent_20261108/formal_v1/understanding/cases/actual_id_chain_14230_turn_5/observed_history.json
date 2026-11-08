@@ -1,0 +1,126 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6575.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult woman with a medium build and light skin stands in the center of the frame.",
+      "hairstyle": "Her hair is pulled back into a small top bun.",
+      "hair_color": "Her hair is light brown.",
+      "clothing": "She wears a yellow cable-knit sweater, blue jeans, and brown lace-up shoes with light socks.",
+      "action": "She stands mostly still, turning her body and head slightly while raising one hand to her chin and chest in a brief gesture.",
+      "camera": "The camera holds a static high-angle full-body shot from the front-left.",
+      "scene": "She stands on a sunlit concrete or dirt ground with a long shadow cast to the left, and a red vehicle and colorful wall are visible in the upper-right background."
+    },
+    "uncertain": [],
+    "observation_identity": "c497c16df6f3092c90e0bfec8aa1d694abeda6a2d908ff799d4bcd5eec3b007b"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to pink?",
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to pink?",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6593.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult woman with a medium build and brown skin.",
+      "hairstyle": "Short hair with a small bun or topknot at the back of the head.",
+      "hair_color": "Pinkish-red.",
+      "clothing": "A yellow cable-knit sweater, blue jeans, and brown lace-up shoes with light socks.",
+      "action": "She stands in place, turning her body and head, then raises one hand to her mouth and chin before lowering it and shifting her arms.",
+      "camera": "A static high-angle full-body shot from the front-left, keeping the figure centered.",
+      "scene": "An outdoor paved area in warm sunlight, with a long shadow cast to the left and a red vehicle and colorful wall in the upper-right background."
+    },
+    "uncertain": [],
+    "observation_identity": "20ccae64027447b70c35dfe571f63221feed2edd2b26b8ae3fe42b3d051b6f8a"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_193.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6600.mp4",
+    "observed": {
+      "identity": "A slender adult with a short beard, shown in a 3D-rendered style.",
+      "hairstyle": "Hair is pulled up into a small topknot bun at the crown of the head.",
+      "hair_color": "Dark, appearing black or very dark brown under the lighting.",
+      "clothing": "Wears a long-sleeved orange sweater with a cream diamond lattice pattern, purple cropped pants, and brown lace-up shoes.",
+      "action": "The person stands in place, slowly turning from facing forward to a side profile and back, briefly raising a hand toward the face and then crossing the arms.",
+      "camera": "Static high-angle full-body shot from above and slightly in front, keeping the figure centered.",
+      "scene": "A large, glossy reflective floor with blue and pink ambient lighting, with a raised tiled platform edge visible in the upper left."
+    },
+    "uncertain": [
+      "Exact hair color is hard to confirm due to strong colored lighting",
+      "Whether the setting is a real location or a virtual environment is unclear, though the rendering style suggests 3D"
+    ],
+    "observation_identity": "eefc1bb0d0335ff1f72fb90e825007ab2cc9ff6f748e42b8e25cbdc382849e0e"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_37.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_84.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6604.mp4",
+    "observed": {
+      "identity": "A slim adult man with a short beard and mustache.",
+      "hairstyle": "Short, dark hair with a slightly tousled top.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "Orange and cream patterned long-sleeve sweater, purple cropped pants, and brown shoes.",
+      "action": "He stands in place, turns his head and body to look over his shoulder, then raises a hand to his mouth before lowering it and facing forward again.",
+      "camera": "High-angle full-body shot from a fixed position.",
+      "scene": "A large, glossy reflective floor with blue and red ambient lighting and a raised platform edge in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "1fa3d9a9645990c43bda57c08d08182590459e0526840a37e40b78db8b6e9fa1"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_398.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6602.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male character with a light brown complexion and a slim build.",
+      "hairstyle": "Short, neatly styled hair with a side part.",
+      "hair_color": "Dark brown.",
+      "clothing": "A yellow cable-knit sweater, blue jeans, and brown lace-up shoes with light-colored socks.",
+      "action": "The character stands in place, turning his body and head to look around, and briefly raises his right hand to his chin in a thoughtful gesture.",
+      "camera": "A static, high-angle full-body shot that keeps the character centered in the frame.",
+      "scene": "An outdoor paved area with a long shadow cast to the left, a white building edge in the upper left, and a red vehicle with colorful stripes in the upper right."
+    },
+    "uncertain": [],
+    "observation_identity": "c993f81b65c2e9d512e366966bb52c899eddd075e78782c40e88780075d45609"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0001411",
+  "dataset_index": 437,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 6.8971722442656755,
+  "result": {
+    "source_video_id": 0,
+    "prompt": "Using the provided source video, change the person's current action to lowering their head and resting one hand on their forehead, following the demonstration in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "reference_ids": [
+      "ref_1"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

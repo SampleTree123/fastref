@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6318.mp4",
+  "observed": {
+    "identity": "A Black male video game character with a slim build, shown in profile and then full body.",
+    "hairstyle": "Red hair tied back in a high ponytail with a few loose strands at the front.",
+    "hair_color": "Bright red.",
+    "clothing": "White long-sleeve shirt under a dark brown vest, brown plaid trousers, and dark shoes.",
+    "action": "The character stands on a cobblestone street, then raises both hands to his face and coughs or sneezes into his sleeve before lowering his arms and standing still.",
+    "camera": "Medium shot that slowly zooms out to a full-body view, keeping the character centered in front of the storefront.",
+    "scene": "A Victorian-style street with a dark storefront window displaying gold text reading 'SOAP OF EVERY DESCRIPTION SOLD HERE' and 'COCOA POWDER FROM THE COLONIES AVAILABLE NOW'."
+  },
+  "uncertain": [],
+  "observation_identity": "695389a4aac36631bf89c4c044f4cb85d17769f69fddb61ac7b200acedbe6175"
+}

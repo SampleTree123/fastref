@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6029.mp4",
+    "observed": {
+      "identity": "A young adult man with a slim build and light brown skin, shown in profile and three-quarter views.",
+      "hairstyle": "Short black hair swept upward and back into a pompadour-style quiff.",
+      "hair_color": "Black.",
+      "clothing": "A light blue-and-white plaid button-up shirt with rolled sleeves, brown leather suspenders, and dark gray trousers.",
+      "action": "He stands on a sidewalk, then raises his right hand to scratch his nose and mouth area before lowering his arm and standing still again.",
+      "camera": "A static medium shot at roughly waist-to-head height, framing the man from the side against the storefront.",
+      "scene": "An old-fashioned city street with a dark storefront window displaying gold lettering for 'SOAP' and 'COCOA POWDER,' a stone sidewalk, and a black lamppost."
+    },
+    "uncertain": [],
+    "observation_identity": "1480fce906a6bb8fe7f4747d111db8c3c28fa057d143c9a6cf6aba5ac4fbdfb9"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_104.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_11.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6016.mp4",
+    "observed": {
+      "identity": "A young adult man with a light brown complexion, short cropped sides, and a small topknot bun on the back of his head.",
+      "hairstyle": "Short hair on the sides and back with a small bun or topknot tied at the crown.",
+      "hair_color": "Dark brown.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled-up sleeves, brown leather suspenders, and dark grey trousers.",
+      "action": "The man stands in profile facing right, then turns his head to look toward the camera, raises his right hand to scratch his nose and mouth area, and finally returns to his original profile stance.",
+      "camera": "A static, medium shot at eye level capturing the subject from the waist up against a storefront background.",
+      "scene": "An outdoor street scene in front of a dark storefront with large windows displaying gold text for 'SOAP' and 'COCOA POWDER', with a cobblestone sidewalk and a black lamppost visible."
+    },
+    "uncertain": [],
+    "observation_identity": "c4ef6d0aba5aed768218cc8d3a4f44244e14a141dffda05a37ae66bd2eff47cb"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_332.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6027.mp4",
+    "observed": {
+      "identity": "A young man with a slim build and a small top-knot bun, shown in profile facing right.",
+      "hairstyle": "Short dark hair with the top pulled into a small bun.",
+      "hair_color": "Black.",
+      "clothing": "A pink, white, and blue plaid button-up shirt with rolled sleeves, brown suspenders, and dark pants.",
+      "action": "He stands still, then raises a black smartphone in his right hand to look at the screen, and lowers it again.",
+      "camera": "A static medium shot from the side at roughly waist height.",
+      "scene": "A futuristic outdoor plaza with large glass dome buildings, glowing teal and pink neon rings, and a purple vehicle in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "fd05a7b0821f0657550512d8bceecad09490b846e05c87fac6679d90ca22597a"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: change the person's hair color to white.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6017.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with a dark complexion, slim build, and short white hair stands in profile on a city sidewalk.",
+      "hairstyle": "Short, neatly cropped hair with a side part.",
+      "hair_color": "White.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled sleeves, brown leather suspenders, and dark gray trousers.",
+      "action": "The man stands still, then raises his right hand to scratch his nose and mouth area before lowering his arm back to his side.",
+      "camera": "A static, medium shot from the side at eye level, keeping the man centered in the frame.",
+      "scene": "An outdoor street scene in front of a dark storefront with large windows displaying gold text for 'SOAP' and 'COCOA POWDER', with a cobblestone sidewalk and a black lamppost in the foreground."
+    },
+    "uncertain": [],
+    "observation_identity": "210c2070d7f9cbb3119a13c966ec99cfc35fd4c482ecc8617b88156d2adfba4d"
+  }
+]

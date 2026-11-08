@@ -1,0 +1,132 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7092.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with a medium-brown complexion, short dark hair, and a thin mustache.",
+      "hairstyle": "Short, dark hair that is slightly longer and swept back at the sides.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled-up sleeves, brown leather suspenders, and dark plaid trousers.",
+      "action": "The man walks slowly forward and to the right, turning his head to look around the environment.",
+      "camera": "A medium shot from a slightly low angle that tracks the man as he moves, keeping him centered in the frame.",
+      "scene": "An outdoor urban setting on a paved road, featuring a concrete overpass, a metal railing, green trees, and a construction crane in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "85a41b76486ed2b4f22c238b86a221bd354f3efcdf7a80834bba499cfaddb61b"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_703.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7086.mp4",
+    "observed": {
+      "identity": "A young man with a slim build and light brown skin, shown from the thighs up.",
+      "hairstyle": "Dark hair is pulled back into a high ponytail with loose strands at the nape.",
+      "hair_color": "Black.",
+      "clothing": "He wears a light blue and white plaid button-up shirt with rolled sleeves, brown leather suspenders, and dark plaid trousers.",
+      "action": "He stands in profile, then turns his head and body toward the camera while raising one hand to adjust his collar and suspenders before lowering his arms.",
+      "camera": "A medium shot at eye level remains mostly static with slight handheld-style framing as the subject shifts position.",
+      "scene": "An outdoor paved area beneath a concrete overpass, with a metal railing, green trees, and a yellow construction crane visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "d31b4735077b71fcb7d5f17536db40343d67edf6e043e7fb34a5d253c247ab6a"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a slightly low-angle full-body shot from a front three-quarter view. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_43a6beb10fa9e203c30d3f19557b35d6c123810a41899676729b7ef9400399db.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a slightly low-angle full-body shot from a front three-quarter view. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7070.mp4",
+    "observed": {
+      "identity": "A slender adult figure with a light skin tone, shown in full body from head to toe.",
+      "hairstyle": "Dark hair pulled back into a small ponytail at the back of the head.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "Light blue-and-white plaid button-up shirt with sleeves rolled to the elbows, brown leather suspenders, dark gray trousers, and black shoes.",
+      "action": "The figure stands on the road, then turns from facing forward to a side profile, briefly raises a hand to the neck/collar area, and turns back to face forward.",
+      "camera": "Static low-angle full-body shot looking slightly upward at the subject.",
+      "scene": "An outdoor paved road beneath a concrete overpass with a metal railing, red-and-yellow striped bollards, a guardrail, and a partly cloudy blue sky."
+    },
+    "uncertain": [
+      "Exact facial features are partly obscured by angle and lighting, so precise identity details are unclear."
+    ],
+    "observation_identity": "1dba24edf47113c48c8858b5024e0df530b37d39b9cee417332ab40ed9a00184"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they sneeze, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_202.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they sneeze, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7062.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a medium-brown complexion, short dark hair, and a short beard.",
+      "hairstyle": "Short, dark hair with a small top-knot or bun at the crown.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled sleeves, brown leather suspenders, dark grey plaid trousers, and black shoes.",
+      "action": "The man stands on an asphalt road, initially looking to his left, then turns to face forward and raises his right hand to touch his chest and neck area before lowering it and turning his head back to the left.",
+      "camera": "A static, low-angle full-body shot capturing the character from head to toe.",
+      "scene": "An outdoor urban setting on a paved road beneath a large concrete overpass or bridge structure, with a metal railing, red and yellow striped bollards, and a blue sky with light clouds in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "2a68133c4f364559205ab763ae79e3cfa19886df029cb9e564d4466bd26e96ea"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_478.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_370.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7055.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a light-to-medium complexion, short dark hair, and a thin mustache.",
+      "hairstyle": "Short, dark hair, neatly combed back.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A dark blue military-style uniform jacket with gold buttons, a gold star-shaped badge on the left chest, and a black belt with a gold buckle, paired with matching dark blue trousers and black shoes.",
+      "action": "The man stands on an asphalt road, initially looking to his left. He then turns his head forward, raises his right hand to touch his chest and collar area, and finally turns his head back to his left.",
+      "camera": "A static, low-angle full-body shot from a slightly low perspective, looking up at the subject.",
+      "scene": "An outdoor urban environment on a sunny day, featuring a paved road with white lane markings, a concrete overpass or bridge structure in the background, and red-and-yellow striped traffic bollards."
+    },
+    "uncertain": [],
+    "observation_identity": "9e02bf7a993091c5e43f8b1a7c6c74ba5ae8e52f2d8409b7ac03d3c526fc4f9e"
+  }
+]

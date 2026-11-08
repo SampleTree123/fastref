@@ -1,0 +1,82 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7087.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, visible in a 3D-rendered video game style.",
+      "hairstyle": "Black hair is pulled back into a high ponytail with loose strands at the nape.",
+      "hair_color": "Black.",
+      "clothing": "He wears a black and white color-blocked long-sleeve polo shirt with a white collar and a small zipper at the neck, paired with red and black plaid trousers and a black belt.",
+      "action": "The man stands in profile, then turns his head and body to face the camera while raising his right hand to touch his chin and neck area, before turning back to the side.",
+      "camera": "A medium shot from the waist up, with the camera remaining mostly static while the character rotates within the frame.",
+      "scene": "An outdoor paved area under a concrete overpass or bridge structure, with a metal railing, green trees, and a yellow construction crane visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "7330c3cf9d05aea4e216506aaa127815cc88d4b526a99a3a0e7edcd775c62958"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_703.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_704.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7069.mp4",
+    "observed": {
+      "identity": "A young man with a slim build and light brown skin, shown from the thighs up.",
+      "hairstyle": "Dark hair pulled back into a high ponytail with loose strands at the nape.",
+      "hair_color": "Black.",
+      "clothing": "A dark navy military-style tunic with a high collar, white piping, gold buttons, a gold belt, and a gold star patch on the chest.",
+      "action": "He stands in profile, then turns his head and body toward the camera while raising one hand to adjust his collar and crossing his other arm over his waist.",
+      "camera": "A medium shot at eye level that remains mostly static with slight reframing as the subject turns.",
+      "scene": "An outdoor paved area beside a concrete overpass, with a metal guardrail, green trees, a chain-link fence, and a construction crane in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e5fbe8d9b6c8dfe7587919c4df4e390d152c815c5f5783bc531a0ec1b761bf5b"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_665.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_666.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the bottoms, the top, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7088.mp4",
+    "observed": {
+      "identity": "A young Black person with a slim build and a youthful face, shown from the waist up.",
+      "hairstyle": "Black hair is pulled back into a high ponytail with a few loose strands at the sides.",
+      "hair_color": "Black.",
+      "clothing": "A bright yellow long-sleeved button-up shirt with a white and orange floral pattern, worn over dark plaid trousers with a black belt.",
+      "action": "The person stands in profile, then turns their head and body toward the camera while raising a hand to their chin and crossing their arms.",
+      "camera": "A medium shot at eye level with a slight handheld wobble, keeping the subject centered against the background.",
+      "scene": "An outdoor paved area beneath a concrete overpass, with a metal railing, green trees, and a construction crane visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "055ebad8f5503f726cceb4f33be4b90fd2e4e3ea38c74e3f8d1629c4daf4ecf1"
+  }
+]

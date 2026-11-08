@@ -1,0 +1,96 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7004.mp4",
+    "observed": {
+      "identity": "A slender female character with a slim build, shown from behind with her face mostly hidden.",
+      "hairstyle": "Hair is styled into two small buns on top of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a short, loose one-piece romper with a busy multicolored paisley pattern and pink slip-on shoes.",
+      "action": "The character stands with her back to the camera, then turns her head and upper body to the right, briefly bending forward before returning to a standing pose.",
+      "camera": "A static, full-body shot from a low rear angle keeps the character centered in frame.",
+      "scene": "The setting is a cobblestone street in front of old-style storefronts with signs reading 'MERCHANT' and 'SWEETS' and a black lamppost."
+    },
+    "uncertain": [
+      "The character's face is not clearly visible, so facial features are unclear."
+    ],
+    "observation_identity": "198d537f8048767e50512668f8f02a120c2f684923fa5a50bbfc19e4f03fa1d3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_53d1df3272d2b9e786b2042e8411b1d4d4391ae2bb74d8b793179d870cf5575d.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a rear three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7019.mp4",
+    "observed": {
+      "identity": "A slender female character with a slim build, shown mostly from behind and in profile.",
+      "hairstyle": "Hair is styled into two high buns on top of the head with a short fringe across the forehead.",
+      "hair_color": "Bright blue hair.",
+      "clothing": "A short, dark one-piece dress with a busy multicolored paisley and floral pattern, cut-out shoulders, and an open back.",
+      "action": "The character stands with her back to the camera, then turns her head and upper body to the right, briefly raising an arm before returning to a rear-facing pose.",
+      "camera": "A static medium shot from behind at roughly waist-to-head height, keeping the character centered.",
+      "scene": "A cobblestone city street lined with old-style shopfronts, including a dark storefront labeled 'MERCHANT' and 'COCOA POWDER FROM THE COLONIES,' plus a black lamppost."
+    },
+    "uncertain": [
+      "The character's face is mostly turned away, so facial features are not clearly visible."
+    ],
+    "observation_identity": "f5f3782a7ba28d078c9389751a927f73af8db63ffd497d124420f4716fb75318"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair chestnut brown.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7037.mp4",
+    "observed": {
+      "identity": "A slender female character with fair skin, shown mostly from behind with her face not visible.",
+      "hairstyle": "Light brown hair styled into two small buns on top of the head with loose strands at the nape.",
+      "hair_color": "Light brown / strawberry blonde.",
+      "clothing": "A short, fitted one-piece dress with a dark navy base covered in a colorful paisley and floral pattern in pink, purple, blue, and yellow, featuring an open back and cold-shoulder sleeves.",
+      "action": "The character stands with her back to the camera, then turns her head and upper body to the right, briefly raising an arm before returning to a rear-facing pose.",
+      "camera": "A static medium shot from behind at roughly waist-to-head height, keeping the character centered against the street.",
+      "scene": "A cobblestone city street lined with old-style shopfronts, including a dark storefront with a 'MERCHANT' sign and 'COCOA POWDER FROM THE COLONIES' text, plus a black lamppost and striped awnings."
+    },
+    "uncertain": [
+      "The character's face and front of the body are not visible, so facial features and the front design of the dress are unclear."
+    ],
+    "observation_identity": "8912e2d43f6ea3a97f6f81cf624a511f2aa90ffe39fd9f0f1c2d29b713446821"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_143.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to match the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7015.mp4",
+    "observed": {
+      "identity": "A slender woman with light skin, shown mostly from the back and side; her face is not clearly visible.",
+      "hairstyle": "Hair is gathered into two small buns on top of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a short, form-fitting dress with a busy multicolored pattern in purple, pink, blue, and orange, plus light pink slip-on shoes.",
+      "action": "She stands on a cobblestone street, raises both arms to adjust her hair, then lowers them and shifts her weight while turning slightly.",
+      "camera": "A static, full-body shot from a low angle captures the woman and the street behind her.",
+      "scene": "The setting is a rendered old-style city street with brick and stone buildings, vintage shop signs, black lampposts, and a cobblestone road."
+    },
+    "uncertain": [
+      "The woman's facial features are not clearly visible because she is mostly facing away from the camera."
+    ],
+    "observation_identity": "79530ac0b374f54a46a051e61470782242f7d39efe200ef5570c231e6ceafcaa"
+  }
+]

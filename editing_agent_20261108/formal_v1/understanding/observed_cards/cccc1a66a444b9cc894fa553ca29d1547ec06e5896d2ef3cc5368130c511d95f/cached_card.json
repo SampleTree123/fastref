@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6458.mp4",
+  "observed": {
+    "identity": "A slim female 3D character with a fair complexion, shown mostly from behind and in profile.",
+    "hairstyle": "Her hair is pulled up into two small buns on top of her head.",
+    "hair_color": "Dark brown.",
+    "clothing": "She wears a short, blue and white patterned dress with three-quarter sleeves and an open back, along with red flat shoes.",
+    "action": "The character stands on a wet plaza, initially with her back to the camera, then raises her right arm to touch her head and turns her body into a side profile pose.",
+    "camera": "A static, low-angle full-body shot from behind the character.",
+    "scene": "A futuristic city plaza with a wet, reflective ground, large glass buildings with neon lights, and a purple vehicle parked in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "126a29002e9f308af51d2dddbf5cba2598669d4c7924c51ee6322adb8227a092"
+}

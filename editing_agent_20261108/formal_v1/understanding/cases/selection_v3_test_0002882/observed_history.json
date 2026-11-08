@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6632.mp4",
+    "observed": {
+      "identity": "A slender, light-skinned 3D character with a youthful face, visible in a full-body view.",
+      "hairstyle": "Short, spiky hair tied into a small topknot or bun at the back of the head.",
+      "hair_color": "Pink.",
+      "clothing": "A dark blue, double-breasted military-style uniform with gold buttons, gold epaulets, a gold belt, and matching trousers, paired with black shoes.",
+      "action": "The character stands still, then turns to the side, raises a hand to their head, and turns their back to the camera before turning back to face forward.",
+      "camera": "A medium full shot that orbits around the character, starting from the front, moving to the side and back, and returning to the front.",
+      "scene": "An outdoor, sunlit stone platform or dock area with cracked paving, wooden posts, rocks, and a body of water in the background, alongside a large stone building with pipes and archways."
+    },
+    "uncertain": [],
+    "observation_identity": "2367b4d23cbdc1753dfc9bbfacfd48bdc9a6de7fbfa52412c9ced37f93fcd7e0"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_38.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_79.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6628.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a light-to-medium complexion, short facial stubble, and a stocky build.",
+      "hairstyle": "Short, cropped hair.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A dark blue, double-breasted military-style uniform with gold buttons, a gold belt, shoulder insignia, and matching trousers, paired with black shoes.",
+      "action": "The character stands still, then turns his body and head to look around the environment, briefly raising his right hand to his head before lowering it.",
+      "camera": "A medium full shot that slowly orbits around the character, shifting from a front view to a side and then a rear view.",
+      "scene": "An outdoor, sunlit area with cracked stone paving, surrounded by weathered stone walls, rusty metal pipes, wooden debris, and a body of water with wooden pilings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "c64eaf389a4fb60552dec4e5ea1f8d773ef01a48d5f39758f261aea607f80176"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_629.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6623.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a short beard and athletic build.",
+      "hairstyle": "Short, dark hair with a small top-knot or bun at the back of the head.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A dark, form-fitting long-sleeved top with a high collar, a belt, and matching dark trousers with a light stripe down the side, plus dark shoes.",
+      "action": "The man stands in an open plaza, then turns and walks slowly in a circle while raising one arm to touch his head and neck.",
+      "camera": "A wide, low-angle full-body shot that orbits around the character, keeping him centered against the background.",
+      "scene": "A futuristic city plaza with a glossy reflective floor, large glass buildings, glowing cyan and pink neon rings, and tall skyscrapers in the distance."
+    },
+    "uncertain": [],
+    "observation_identity": "00d93ab72ea04ad1e1ada5148dc6d1eb6fe5be4f13d5426919dde5946718dbd0"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6436.mp4",
+  "observed": {
+    "identity": "A slender young woman with fair skin, shown mostly in profile and three-quarter back view.",
+    "hairstyle": "Hair is pulled up into a high, slightly messy ponytail with loose strands at the nape.",
+    "hair_color": "White or very light silver.",
+    "clothing": "She wears a sleeveless, high-necked brown patterned crop top and light gray high-waisted pants.",
+    "action": "She stands still, then raises her right hand to brush her hair back and touch the side of her head before lowering her arm again.",
+    "camera": "A static medium shot from the side, framing the subject from the thighs up.",
+    "scene": "An outdoor amusement park or boardwalk at dusk, with a red and blue striped carousel, a striped awning, and a row of overhead light bulbs in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "3b5d3f3797e8a11e28314f024ccd49e988108bdfad0bdea82e9804f941ed0bb7"
+}

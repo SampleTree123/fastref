@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6480.mp4",
+    "observed": {
+      "identity": "A person seen from behind, with a slim build and fair skin on the neck and arms.",
+      "hairstyle": "Short, tousled hair gathered into a small, loose bun at the back of the head.",
+      "hair_color": "Blonde.",
+      "clothing": "A bright coral-pink long-sleeved collared shirt tucked into a light beige or cream skirt, with a thin brown belt at the waist.",
+      "action": "The person stands facing the water, then briefly raises a hand to the back of their head before placing a hand on their hip and shifting their weight slightly.",
+      "camera": "A static, medium shot from behind the subject at roughly waist height, keeping the person centered in the frame.",
+      "scene": "An outdoor coastal setting with a calm sea, a pale blue sky, and a stone-tiled platform in the foreground. Several weathered wooden posts of varying heights stand in the shallow water to the right, with rocky outcrops nearby."
+    },
+    "uncertain": [],
+    "observation_identity": "57db8acf29c3093688aaacd1a9ca406e0d04e9615a0b1099c0e1d4872217fb01"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_7af303ae71ae09ec09579a75b3e08e732d64c43babc0b522a81920a0c03167c6.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body shot from the side. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6466.mp4",
+    "observed": {
+      "identity": "A slim young woman with light skin, shown in profile facing right.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail.",
+      "hair_color": "Blonde.",
+      "clothing": "Bright pink long-sleeve cropped top, white mini skirt, and black lace-up boots.",
+      "action": "She stands still, then raises both hands to her face and mouth before lowering them and returning to a standing pose.",
+      "camera": "Static medium-long side profile shot at roughly eye level.",
+      "scene": "A weathered concrete dock or pier beside calm water, with a large concrete wall, rocks, wooden posts, and a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "c663ee4f368c6398d3c46e139320a8331aee9f35447aa843e30b724204e201f6"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_eef80b3548a099f3d1a3a3582eaedd1dbd28bc0d464000e35d6cfd9b60e5918b.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body shot from the front. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6473.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and dark skin, shown in a full-body 3D-rendered style.",
+      "hairstyle": "Blonde hair pulled up into a high, slightly messy bun with loose strands framing the face.",
+      "hair_color": "Bright blonde.",
+      "clothing": "She wears a long-sleeved pink cropped top, a white mini skirt, and black lace-up ankle boots.",
+      "action": "She stands facing the camera, then turns around to face away, raises one hand to touch her hair, and turns back to face forward with one hand on her hip.",
+      "camera": "Static, eye-level full-body shot from the front.",
+      "scene": "An outdoor industrial or dockside area with stone buildings, large rusted pipes, wooden crates, and a small boat in the background under bright daylight."
+    },
+    "uncertain": [],
+    "observation_identity": "fb8cde4383fa65aae8d4f8a9e54b51f6ac4609f80fa3e80067a753ab037a600d"
+  }
+]

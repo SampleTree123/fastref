@@ -1,0 +1,107 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6306.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build and dark skin, shown in profile and then full body.",
+      "hairstyle": "Bright blue hair tied back in a high ponytail with a short shaved side.",
+      "hair_color": "Vivid blue.",
+      "clothing": "White long-sleeve shirt under a dark brown vest, brown plaid trousers, and dark shoes.",
+      "action": "The character stands on a cobblestone street, then bends forward at the waist and brings a hand toward the face before straightening back up.",
+      "camera": "Static medium-to-full shot at roughly waist-to-head height, framing the character in profile against the storefront.",
+      "scene": "A Victorian-style street with a dark storefront window painted with gold text reading 'SOAP' and 'COCOA POWDER', red curtains, and a cobblestone pavement."
+    },
+    "uncertain": [],
+    "observation_identity": "4d8def5e30fc6c1a4647d40b925d3f8bd7e1bbf9cf1369c8a7c619ef95885e2d"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_90.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_6.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6301.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build and dark skin stands in profile on a cobblestone street.",
+      "hairstyle": "Short hair with a small top-knot bun at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "White long-sleeve shirt under a dark brown vest, red-and-brown plaid trousers, and dark shoes.",
+      "action": "The character stands mostly still, then raises his right arm to touch his face and head before lowering it again.",
+      "camera": "Static medium-full shot from the side, keeping the character centered against the storefront.",
+      "scene": "A Victorian-style street with a dark storefront window displaying gold text reading 'SOAP OF EVERY DESCRIPTION SOLD HERE' and 'COCOA POWDER FROM THE COLONIES AVAILABLE NOW'."
+    },
+    "uncertain": [],
+    "observation_identity": "abbb272a1afc66114928e6d66a5ccae0a050d2357256c3d5ce5e74edceeddf30"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_845.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_846.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6308.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned man with a short beard, shown in profile and then from the front.",
+      "hairstyle": "Short hair with a small topknot bun at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A loose tan cable-knit sweater, light blue jeans, tan socks, and brown lace-up shoes.",
+      "action": "He stands in profile, then turns to face forward and performs a small dance, lifting his knees and swinging his arms before returning to a standing pose.",
+      "camera": "A static, medium full-body shot at eye level that slowly pulls back to reveal his full figure.",
+      "scene": "An outdoor cobblestone street in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+    },
+    "uncertain": [],
+    "observation_identity": "46b099d6c87a5a539e89f7d8867e9b8f124892835876f31cde3d4b734d25433e"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_e5dcba546e8c40475282eba0bcd5f61b239cfa79ca4e43cbdf24c9439f775a01.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a front three-quarter angle. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6303.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with dark skin and a slim build, shown from the thighs up.",
+      "hairstyle": "Short hair on the sides with a small top-knot bun tied at the crown.",
+      "hair_color": "Bright blue.",
+      "clothing": "A white long-sleeved collared shirt under a black sleeveless vest, with a thin necklace and red plaid trousers with a black belt.",
+      "action": "He stands facing slightly right, turns his head, then bends forward and raises his right hand to his mouth before straightening up and turning his head again.",
+      "camera": "Static medium shot at roughly chest height, framing the character from the thighs up.",
+      "scene": "A cobblestone street in front of old stone and brick buildings with arched windows, a black lamppost, and posters on a wall."
+    },
+    "uncertain": [],
+    "observation_identity": "cd235e4a7f03b7688f3777efcc101ec4f7d0367f8495d8095c745eeec3e3c311"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6527.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin and a neutral facial expression.",
+      "hairstyle": "Bright blue hair with straight bangs and two small buns on the sides of her head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A bright pink off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+      "action": "She faces the camera, then turns her head to the side and raises her hand to touch and smooth the back of her hair before turning back to face forward.",
+      "camera": "A static, eye-level medium close-up shot centered on the subject.",
+      "scene": "An outdoor, sunlit industrial or dockyard area with weathered concrete ground, wooden crates, planks, and a large wooden boat hull in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "9e55320ca84283c6a1ff654aeb2327f30431f5130c7fd0e781c75f7bed524c8b"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_71.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person in the video with the person shown in the reference photo. Only use the reference photo to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body, while retaining the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6544.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a slender build, and a neutral-to-smiling expression.",
+      "hairstyle": "Bright blue hair with straight bangs and two low buns on either side of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A bright pink off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+      "action": "She faces the camera, then lowers her head and raises her right hand to brush her hair back, turning her back to the camera before turning to face forward again.",
+      "camera": "A static, eye-level medium close-up shot from the front.",
+      "scene": "An outdoor, sunlit industrial or dockyard area with weathered concrete ground, stacked wooden planks, a wooden boat hull, and stone buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "8e3351f66715b29a1a809fffaf2a7b82131e26b86c4233467043b4b1a295209f"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_15.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person in the video with the person shown in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6543.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin and a neutral facial expression.",
+      "hairstyle": "Bright blue hair styled in a bob with straight bangs and two small buns at the sides.",
+      "hair_color": "Vivid blue.",
+      "clothing": "A bright pink off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+      "action": "She faces the camera, then turns her head to the side and raises her hand to touch and smooth the back of her hair before turning back to face forward.",
+      "camera": "A static, eye-level medium close-up shot centered on the subject.",
+      "scene": "An outdoor, sunlit industrial or dockside area with weathered concrete ground, stacked wooden planks, a wooden boat hull, and stone buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "3cd81c6f56408077eb9133abcde2d3467b3c20291874446e21bbea0f3c25736c"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6531.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a round face, and light brown eyes.",
+      "hairstyle": "Her hair is styled in a high, messy bun secured with a brown band, with loose strands framing her face.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a bright pink, off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+      "action": "The woman looks forward, then lowers her head and raises her right hand to wipe her face and eyes, turning her head away before looking back at the camera with a slight smile.",
+      "camera": "A static, medium close-up shot at eye level, keeping the woman centered in the frame.",
+      "scene": "An outdoor, sunlit area with a weathered concrete floor, featuring a wooden boat hull on the left and scattered wooden planks and stone structures in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "56ee9e729008d5417074cfcdad20bff94a058b65471faab91e22f48f4208d1ce"
+  },
+  {
+    "parent_id": 3,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to white?",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6513.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin and a slender build, shown from the chest up.",
+      "hairstyle": "White hair gathered into a high, rounded bun secured with a brown band.",
+      "hair_color": "White.",
+      "clothing": "A bright pink off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+      "action": "She looks around, then raises her right hand to wipe across her eyes and face before lowering it and smiling at the camera.",
+      "camera": "A static, eye-level medium close-up that keeps the woman centered in frame.",
+      "scene": "An outdoor dock or shipyard area with weathered wooden planks, an overturned wooden boat, barrels, and stone buildings in the background under bright daylight."
+    },
+    "uncertain": [],
+    "observation_identity": "63e123b327604ce9aed8df1aeecb6343ab20317e1fec07cacb47fd4730ab7779"
+  }
+]

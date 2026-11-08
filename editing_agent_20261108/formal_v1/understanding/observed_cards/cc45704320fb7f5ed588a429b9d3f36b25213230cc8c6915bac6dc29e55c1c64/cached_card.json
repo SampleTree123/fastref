@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6748.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a light-skinned face, short cropped hair, and a stocky build.",
+    "hairstyle": "Short, cropped hair covering the top and sides of the head.",
+    "hair_color": "White or very light gray.",
+    "clothing": "A light-colored, long-sleeved plaid shirt with rolled-up sleeves, brown leather suspenders, dark gray plaid trousers, and black shoes.",
+    "action": "The character stands still, then raises both arms overhead in a stretching or dancing motion, swings his arms down and across his body, and finally returns to a standing pose.",
+    "camera": "A static, low-angle full-body shot that keeps the character centered in the frame.",
+    "scene": "An outdoor paved road or parking area under a concrete overpass, with a metal railing, green foliage, and a construction crane visible in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "1f9f046529aec0db8aeaa702e1cd98eb1e0f1d47e537341e5332a6dfe61a9e4a"
+}

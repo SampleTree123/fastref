@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6635.mp4",
+  "observed": {
+    "identity": "A 3D-rendered young woman with a slim build, dark skin, and a neutral facial expression.",
+    "hairstyle": "Short blue hair with straight bangs and a small low ponytail at the back.",
+    "hair_color": "Bright blue.",
+    "clothing": "She wears a white and black patterned lace crop top, high-waisted teal-green wide-leg pants, a black choker, and open-toed sandals.",
+    "action": "She stands still, then raises both arms overhead in a stretching or dancing motion, lowers them, and returns to a standing pose.",
+    "camera": "A static, full-body, slightly high-angle shot that keeps the character centered in the frame.",
+    "scene": "An outdoor industrial area with cracked concrete ground, scattered rocks, wooden pallets, and rusty metal pipes in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "e6970ea45047512269fda03e9b92fc28963ff98a3d6df327d9416c5410df7199"
+}

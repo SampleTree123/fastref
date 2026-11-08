@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6365.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned 3D-rendered male figure with a short beard, shown in profile.",
+      "hairstyle": "Short, closely cropped hair.",
+      "hair_color": "Light brown.",
+      "clothing": "White long-sleeve shirt under a dark brown vest, reddish-orange trousers, and dark slip-on shoes.",
+      "action": "The figure stands still, then raises both arms overhead and leans back in a stretching motion before returning to an upright standing pose.",
+      "camera": "Static medium-full side view at roughly eye level, keeping the figure centered.",
+      "scene": "An outdoor urban plaza with a large gray metal utility box behind the figure, tiled and cobblestone ground, and buildings with scaffolding in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "bfbf8fde37c3549ab7c55aec63d2afb9073493b97b0112913a714fe08acd1884"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_74cc14bc8e7ffbaf217d72b6c79a05b8273f580706c1e060f621b321b79efa22.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6380.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark complexion, short facial stubble, and a neutral expression.",
+      "hairstyle": "Short, spiky hair that is styled upward.",
+      "hair_color": "Bright green.",
+      "clothing": "A white long-sleeved collared shirt worn under a black sleeveless vest, paired with red pants and a brown belt with a large buckle.",
+      "action": "The character stands facing the camera, then raises both arms overhead and tilts his head back before lowering his arms and returning to a standing pose.",
+      "camera": "A static, medium shot from the waist up, keeping the character centered in the frame.",
+      "scene": "An outdoor urban street at dusk, featuring tall buildings, construction cranes, and illuminated storefront signs with Japanese text."
+    },
+    "uncertain": [],
+    "observation_identity": "a3177903e7ef13e4dcf0faea1081eb1caa19377a5de79233ebd66f3ed8ad01ef"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_723.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_724.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6382.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young man with a medium-brown complexion, short facial stubble, and a neutral expression.",
+      "hairstyle": "Short, textured hair with a slightly spiky top.",
+      "hair_color": "Dark brown with a bright green tint on the top.",
+      "clothing": "A light blue, long-sleeved cable-knit sweater and dark trousers.",
+      "action": "The man stands facing the camera, then raises both arms overhead in a stretching motion, tilts his head back, and finally lowers his arms to return to a standing pose.",
+      "camera": "A static, medium shot from the waist up, keeping the subject centered in the frame.",
+      "scene": "A stylized, futuristic city street at dusk, featuring tall buildings, glowing Japanese signs, and a wet, reflective pavement."
+    },
+    "uncertain": [],
+    "observation_identity": "80fe75ee0b81d03e8fd41ae1346eafd902e964b995da34fab26c79c5b66b7e19"
+  }
+]

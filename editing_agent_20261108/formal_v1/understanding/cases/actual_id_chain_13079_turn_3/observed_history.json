@@ -1,0 +1,78 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6908.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a round face, and a small nose ring.",
+      "hairstyle": "Black hair with straight bangs, a light streak at the front, and two low buns at the nape.",
+      "hair_color": "Black with a light gray streak in the front.",
+      "clothing": "A short, dark dress with a colorful paisley and floral pattern and cut-out shoulders.",
+      "action": "She stands and slowly turns her head and upper body from facing right to facing left.",
+      "camera": "A medium shot at eye level that remains mostly static while the character rotates.",
+      "scene": "An outdoor area with stone buildings, metal pipes, wooden crates, and a grassy hillside under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "03edd079ba3515d9cf8b745925a053710cfd573f91e68d6a4295af6f3e071052"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a rear-view dolly-out shot that moves from upper-body to full-body framing. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_67319696dcee1dc1241064e99f2a3558c9e7cb7d24f80e51597720042c37aef3.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a rear-view dolly-out shot that moves from upper-body to full-body framing. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6895.mp4",
+    "observed": {
+      "identity": "A slender woman with a medium-brown complexion, seen from behind.",
+      "hairstyle": "Dark hair is pulled back into two small low buns or pigtails at the nape of the neck.",
+      "hair_color": "Black.",
+      "clothing": "She wears a short, colorful dress with a busy paisley and floral pattern in purple, blue, orange, and yellow, featuring a low open back and three-quarter sleeves, along with pinkish-red flat shoes.",
+      "action": "The woman stands with her back to the camera, then slowly walks forward away from the viewer toward the water's edge.",
+      "camera": "A static, eye-level medium-long shot from directly behind the subject.",
+      "scene": "An outdoor stone-paved terrace or poolside area overlooking a calm sea and clear blue sky on a sunny day."
+    },
+    "uncertain": [],
+    "observation_identity": "95bb99d24641127e9dc150b35a8a0b64c7d401805c605cb0fc914698e99c5d1c"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the skirt, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_721.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_722.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the skirt, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6896.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build, seen from behind, with a light brown skin tone.",
+      "hairstyle": "Her dark hair is pulled back into two low, small buns or pigtails on either side of the back of her head.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "She wears a long-sleeved, collared coral-pink top and a matching pleated mini-skirt with a light trim at the hem, along with black socks and black shoes.",
+      "action": "The woman stands with her back to the camera, then begins to walk slowly forward and slightly to the right, turning her head to the left near the end of the clip.",
+      "camera": "The camera is positioned behind the subject at a medium-long distance, remaining mostly static while she moves away from it.",
+      "scene": "The setting is an outdoor stone-paved terrace or walkway overlooking a calm body of water, possibly the sea, under a clear, bright blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e81466a17850175790d0da2a6fbad69a9a4e4df3bd9f685a05b222cbd44099a2"
+  }
+]

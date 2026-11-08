@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6258.mp4",
+    "observed": {
+      "identity": "A slender woman with a fair complexion, visible in a 3D-rendered style.",
+      "hairstyle": "Her hair is pulled back into a low bun at the nape of her neck.",
+      "hair_color": "Her hair is a vibrant reddish-pink color.",
+      "clothing": "She wears a sleeveless, brown, textured top with a patterned waistband, light grey wide-leg trousers, and strappy flat sandals.",
+      "action": "The woman stands in the center of an open paved area, slowly turning her body in a full circle while keeping her hands on her hips or at her sides.",
+      "camera": "The camera maintains a medium-long shot, orbiting around the woman as she turns, keeping her centered in the frame.",
+      "scene": "The setting is an outdoor amusement park or fairground during the day, featuring a large Ferris wheel, a carousel, and various game booths with colorful striped awnings."
+    },
+    "uncertain": [],
+    "observation_identity": "3f44b1d13c9e2858873e43db4032a26776f32f72d666dbec8959af6e3bee62cb"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_fc85f0be8793fe4e51a60e0df584af8337003e7a548743bb9d6e41f923f38062.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a high-angle full-body shot looking down from a front three-quarter view. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6272.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin, shown in a 3D rendered style.",
+      "hairstyle": "Her hair is pulled back into a low bun with straight bangs across her forehead.",
+      "hair_color": "Pink",
+      "clothing": "She wears a brown patterned sleeveless crop top, light gray wide-leg pants, and open-toed sandals.",
+      "action": "She stands mostly still, then raises her right hand to touch her face and hair before lowering it again.",
+      "camera": "A high-angle, full-body shot from a fixed position.",
+      "scene": "An outdoor paved area with a long shadow cast to the left, a white building edge in the upper left, and a red cart with colorful panels in the upper right."
+    },
+    "uncertain": [],
+    "observation_identity": "687c4047ce04418edece1b9e7fd1f2d984c047900435e82f733466ccafe83aef"
+  }
+]

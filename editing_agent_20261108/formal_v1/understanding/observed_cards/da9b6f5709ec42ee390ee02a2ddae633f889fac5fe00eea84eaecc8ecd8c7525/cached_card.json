@@ -1,0 +1,17 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6921.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build, shown in profile facing right.",
+    "hairstyle": "Red hair with straight bangs, pulled back into a low bun at the nape.",
+    "hair_color": "Red.",
+    "clothing": "Pink long-sleeve cropped top, white pleated mini skirt, and black lace-up boots.",
+    "action": "She stands in profile, then raises both hands to her head and lowers her head, before dropping her arms and standing upright again.",
+    "camera": "Side profile view that starts as a medium shot and slowly zooms out to a full-body shot.",
+    "scene": "An industrial-style area with a large gray metal wall, a tiled floor, and a tan structure with windows in the background."
+  },
+  "uncertain": [
+    "The character appears to be a 3D rendered/animated figure rather than a live-action person, but the exact medium is not certain."
+  ],
+  "observation_identity": "1297365fc62ca9454ebe2cb3801b88afacf0d042659cccd92a50a0b359d18bdf"
+}

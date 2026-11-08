@@ -1,0 +1,124 @@
+{
+  "mode": "understanding",
+  "job": "194849",
+  "started_unix": 1794075766.1510537,
+  "status": "finished_workers",
+  "dataset": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/understanding_1000_7d7b727803a30514.jsonl",
+  "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json",
+  "gpus": 4,
+  "limit": 1000,
+  "children": [
+    {
+      "kind": "qwen",
+      "rank": 0,
+      "device": "0",
+      "pid": 2491251,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "understanding",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/understanding_1000_7d7b727803a30514.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding",
+        "--rank",
+        "0",
+        "--world-size",
+        "4",
+        "--limit",
+        "1000"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 1,
+      "device": "1",
+      "pid": 2491252,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "understanding",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/understanding_1000_7d7b727803a30514.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding",
+        "--rank",
+        "1",
+        "--world-size",
+        "4",
+        "--limit",
+        "1000"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 2,
+      "device": "2",
+      "pid": 2491255,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "understanding",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/understanding_1000_7d7b727803a30514.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding",
+        "--rank",
+        "2",
+        "--world-size",
+        "4",
+        "--limit",
+        "1000"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 3,
+      "device": "3",
+      "pid": 2491256,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "understanding",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/understanding_1000_7d7b727803a30514.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/config.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding",
+        "--rank",
+        "3",
+        "--world-size",
+        "4",
+        "--limit",
+        "1000"
+      ]
+    }
+  ],
+  "qwen_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "case_counts": {
+    "selected": 1000,
+    "ok": 1000,
+    "errors": 0
+  },
+  "ended_unix": 1794080361.5869162
+}

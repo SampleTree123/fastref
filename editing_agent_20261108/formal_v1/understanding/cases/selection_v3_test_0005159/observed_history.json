@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7149.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build, light skin, and a neutral facial expression.",
+      "hairstyle": "Her hair is styled in two high buns on top of her head with straight bangs across her forehead.",
+      "hair_color": "Her hair is a vibrant red color.",
+      "clothing": "She is wearing a black romper with a gold floral pattern, featuring a corset-style front with white lacing, puffy short sleeves, and blue sneakers.",
+      "action": "The woman stands facing the camera, then raises her right hand to cover her face and eyes, holding the pose while shifting her weight and turning slightly.",
+      "camera": "The camera is at a medium distance, capturing her from the head down to her feet, and remains relatively static with a slight downward angle.",
+      "scene": "The setting is an outdoor urban environment at dusk, with a tiled walkway, a large building with a parking garage, and construction cranes in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "985eb44e5ce6822a16c201988283f5f691a0dd9a52ce488b9972741f73ffa121"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Let's change the person's hair color to white.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7163.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin, large eyes, and a small face.",
+      "hairstyle": "Short, straight hair with bangs, styled with two small buns on top of her head.",
+      "hair_color": "Light silver or platinum blonde.",
+      "clothing": "A black romper with a gold rose pattern, featuring a corset-style bodice with white lacing, puffy short sleeves, and a scalloped neckline.",
+      "action": "The woman stands facing the camera, then turns her head to the side, raises her hand to her face, and shifts her weight while posing.",
+      "camera": "A medium full shot from a slightly low angle, remaining mostly static as the subject moves.",
+      "scene": "An outdoor urban plaza at dusk, with tall buildings, construction cranes, and a parking structure with Japanese signage in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "c395ab5121ba3d34faef29d176ae34c20b3f0817f3f7142b09aeb340d6bebb80"
+  }
+]

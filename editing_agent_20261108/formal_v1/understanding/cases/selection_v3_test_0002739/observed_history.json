@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6596.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, shown in profile and three-quarter views.",
+      "hairstyle": "Short hair on the sides with a small top-knot bun at the back of the head.",
+      "hair_color": "Dark brown to black hair with pinkish highlights from the scene lighting.",
+      "clothing": "A blue and pink patterned knit sweater, dark blue pants, and brown shoes.",
+      "action": "He stands still, then raises both hands to his head and rubs his hair before lowering his arms and looking down.",
+      "camera": "A medium full-body shot at eye level that slowly pushes in and pans slightly to keep the subject centered.",
+      "scene": "A futuristic outdoor plaza with large black dome buildings wrapped in glowing teal and pink neon rings, a wet reflective ground, and a small purple vehicle in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "f0a160bec7e56aac69181d4530245d062017c8b4993c56ad1cc8b11904c72448"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_29.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6584.mp4",
+    "observed": {
+      "identity": "A slim adult figure with a light skin tone, shown in profile and three-quarter views.",
+      "hairstyle": "Short hair with a small topknot or bun at the crown.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A light blue and white patterned knit sweater, dark blue jeans, and brown lace-up boots.",
+      "action": "The figure stands still, then raises both hands to the head and rubs the scalp and face before lowering the arms and standing again.",
+      "camera": "A static, low-angle full-body shot that slowly pushes in to a medium shot of the upper body.",
+      "scene": "An outdoor amusement park or boardwalk at dusk, with a red and blue carousel train, a striped awning, and a covered pavilion with rows of lights in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "f2129ea3e6e649df652a9d99a2bdbd9435494b1da4761a77ebbfd0503303b1fc"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to chestnut brown.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6566.mp4",
+    "observed": {
+      "identity": "A young adult woman with a slim build and light skin, shown in profile and three-quarter views.",
+      "hairstyle": "Her hair is pulled up into a small topknot or bun at the crown of her head.",
+      "hair_color": "Her hair is reddish-brown.",
+      "clothing": "She wears a light blue cable-knit sweater, dark blue jeans, and brown lace-up boots.",
+      "action": "She stands still, then raises both hands to her head and rubs her temples and hair before lowering her arms and looking down.",
+      "camera": "The camera is at a low angle, framing her from the shins up, and slowly pushes in to a medium shot as she moves.",
+      "scene": "She stands on a paved area in front of a red and blue amusement park carousel with a striped canopy and rows of lights, under a warm sunset sky."
+    },
+    "uncertain": [],
+    "observation_identity": "3e3b68e83c31564dc3705baf9f9e383b3f05a0b0e5b7c7aa960186735badca2a"
+  }
+]

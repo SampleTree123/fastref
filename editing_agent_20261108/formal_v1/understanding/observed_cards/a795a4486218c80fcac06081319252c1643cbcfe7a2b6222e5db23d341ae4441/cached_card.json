@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6249.mp4",
+  "observed": {
+    "identity": "A slender young woman with fair skin, shown in a 3D-rendered style.",
+    "hairstyle": "Short, chin-length bob with a side part.",
+    "hair_color": "Reddish-brown / auburn.",
+    "clothing": "Short one-piece dress with a purple base and a colorful floral pattern, plus reddish-brown flat shoes.",
+    "action": "She stands in the open plaza, slowly turning in place while posing with one hand on her hip and the other raised near her head.",
+    "camera": "Full-body shot at roughly eye level that orbits around her, keeping her centered as the background changes.",
+    "scene": "An outdoor fairground at warm daylight, with a large swing ride, a carousel, a 'General Store' sign, and a 'Game' sign visible around a paved open area."
+  },
+  "uncertain": [],
+  "observation_identity": "e25830f3f93f35bf90a8e0887ca7fcb1166ece7f44fc1be0f143d461cbcee4c0"
+}

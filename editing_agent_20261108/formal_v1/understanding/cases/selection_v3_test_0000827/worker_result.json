@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0000827",
+  "dataset_index": 512,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 28.48549976106733,
+  "result": {
+    "source_video_id": 1,
+    "prompt": "Change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "reference_ids": [
+      "ref_1",
+      "ref_2"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

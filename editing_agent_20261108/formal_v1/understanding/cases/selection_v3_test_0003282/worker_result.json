@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0003282",
+  "dataset_index": 80,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 28.44791251141578,
+  "result": {
+    "source_video_id": 4,
+    "prompt": "Change the person's hairstyle to the one shown in the reference images, using the front view for the front styling and the back view for the back styling. Transfer only the hairstyle shape and arrangement from the references; do not adopt the reference person's facial features, hair color, or clothing. Preserve the person's existing hair color, identity, and all other elements of the current video.",
+    "reference_ids": [
+      "ref_1",
+      "ref_2"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

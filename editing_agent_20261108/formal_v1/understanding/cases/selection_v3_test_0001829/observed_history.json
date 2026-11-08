@@ -1,0 +1,71 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6372.mp4",
+    "observed": {
+      "identity": "A slender adult woman with light skin, shown in profile facing right.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail.",
+      "hair_color": "Blonde.",
+      "clothing": "Yellow long-sleeved blouse with a white floral pattern, reddish-orange flared trousers, and dark flat shoes.",
+      "action": "She stands still, then briefly bends forward and raises her hand to her face before returning to an upright standing pose.",
+      "camera": "Static medium-full side view at roughly waist-to-head height, keeping the subject centered.",
+      "scene": "An outdoor urban plaza with a large gray metal utility cabinet behind her, tiled and cobblestone ground, and buildings and a yellow structure in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "a92fad2fc3956e80864d24c91a0a5af87c0d46473e4400f0b2033190be8ab000"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current blonde hair color with pink.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6390.mp4",
+    "observed": {
+      "identity": "A slender adult woman with a medium-brown complexion, shown in profile facing right.",
+      "hairstyle": "Hair is pulled back into a high ponytail with a few loose strands at the nape.",
+      "hair_color": "Pink with darker roots.",
+      "clothing": "She wears a long-sleeved yellow blouse with a white floral pattern, reddish-orange flared trousers, and dark slip-on shoes.",
+      "action": "She stands still, then briefly bends forward and raises her right hand to her face before straightening back to an upright stance.",
+      "camera": "A static, eye-level full-body side view with the subject centered in frame.",
+      "scene": "An outdoor urban plaza with a large gray metal utility cabinet behind her, tiled and cobblestone ground, and buildings and a yellow structure in the background."
+    },
+    "uncertain": [
+      "The exact nature of the hand-to-face gesture is unclear, as it could be wiping, adjusting, or touching the face."
+    ],
+    "observation_identity": "f2068ab4ead836284fe0811df139f6c994e2ad922ad4323ebc6b704ed21537d8"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_37.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_84.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6355.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned adult male figure with a short beard, shown in profile.",
+      "hairstyle": "Short, neatly trimmed hair.",
+      "hair_color": "Light brown.",
+      "clothing": "A bright yellow long-sleeved shirt with a white pattern, reddish-orange trousers, and dark slip-on shoes.",
+      "action": "The man stands in profile, then bends forward, raises his right hand to his face, and returns to an upright standing pose.",
+      "camera": "A static, eye-level medium-full shot from the side.",
+      "scene": "An outdoor urban plaza with a large gray metal structure behind him, tiled and cobblestone ground, and buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "0c7802b610c9e6bc835c292e9e3a46d6a84ba933c49f8a9bb5ac0545c6ea9242"
+  }
+]

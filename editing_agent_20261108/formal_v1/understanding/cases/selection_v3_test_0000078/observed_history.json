@@ -1,0 +1,78 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5988.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned person with a narrow build, shown from behind.",
+      "hairstyle": "Hair is pulled up into a small topknot bun at the crown of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A cream tank top with pink tie-dye and palm-tree graphics, pink shorts, and pink slip-on shoes.",
+      "action": "The person stands with their back to the camera, then raises one arm to touch and adjust the hair at the back of the head while the other hand rests on the hip.",
+      "camera": "A medium full-body shot from behind at roughly eye level; the camera slowly pushes in and tilts up to a closer upper-body framing.",
+      "scene": "An outdoor cobblestone street in front of a dark storefront with vintage signage reading “SOAP,” “COCOA POWDER,” and “APOTHECARY.”"
+    },
+    "uncertain": [
+      "The person's face is not visible, so facial features and gender are unclear."
+    ],
+    "observation_identity": "9395900e6eb905b0886239a61c7ec685e2fb4be3d62393978b67f4459244b353"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_84.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to sneezing, following the demonstration in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5982.mp4",
+    "observed": {
+      "identity": "A muscular adult male character with a light brown complexion, shown in a 3D video-game style render.",
+      "hairstyle": "Short white hair with a small top-knot bun at the back of the head.",
+      "hair_color": "White.",
+      "clothing": "A pink-and-cream tie-dye tank top, pink shorts with white trim, and pink sneakers.",
+      "action": "The character stands in profile, then turns toward the camera, raises a fist to his mouth as if coughing or sneezing, and lowers his arm again.",
+      "camera": "A static medium-full shot at eye level that slowly zooms in on the character.",
+      "scene": "A cobblestone street in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+    },
+    "uncertain": [],
+    "observation_identity": "f278153256a4d9a86e1f11f4cf863c9e4f9818fa844c8a8725ea42628043f006"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_809.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_810.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5990.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with a dark complexion, visible in profile and then facing the camera.",
+      "hairstyle": "Short white hair with a small topknot bun at the back of the head.",
+      "hair_color": "White.",
+      "clothing": "A tan and brown plaid two-piece suit with a white collared shirt and a dark tie, plus black shoes.",
+      "action": "The man stands in profile, then turns toward the camera, bends forward, and raises his hand to his face before straightening up again.",
+      "camera": "A static medium shot at eye level, framing the man from the shins up against the storefront.",
+      "scene": "A cobblestone street in front of a dark storefront with red curtains and gold lettering advertising 'SOAP' and 'COCOA POWDER'."
+    },
+    "uncertain": [],
+    "observation_identity": "af7414a4ebf291d2a5ad290006ed91f2beb51a0e56f02d8d617e0960425e3fe2"
+  }
+]

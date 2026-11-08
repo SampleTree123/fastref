@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6666.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build, shown from behind with her face not visible.",
+    "hairstyle": "Hair is gathered into two low side buns at the nape of the neck.",
+    "hair_color": "Bright blue with a lighter blue streak across the back of the head.",
+    "clothing": "A black-and-white houndstooth dress with a low open back, cut-out shoulders, and elbow-length sleeves.",
+    "action": "The character walks slowly forward and slightly turns, swinging her arms naturally.",
+    "camera": "A medium shot from behind at roughly head height, following the character with slight movement.",
+    "scene": "An outdoor paved road beside a guardrail, with green trees, a street lamp, a small building, and a pale blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "272ea5960cb97926e79686deab4127b22a7079d59de26e078d3973a69c7b45b3"
+}

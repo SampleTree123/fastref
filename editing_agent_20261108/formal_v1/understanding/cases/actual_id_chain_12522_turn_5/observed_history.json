@@ -1,0 +1,117 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6121.mp4",
+    "observed": {
+      "identity": "A muscular, dark-skinned male figure is seen from behind, with no visible face.",
+      "hairstyle": "The figure has short, dark hair.",
+      "hair_color": "Black.",
+      "clothing": "He wears a white sleeveless tank top with a pink and yellow palm tree graphic, light blue shorts with white trim, and red sneakers.",
+      "action": "The figure stands mostly still, then briefly raises his right arm to touch the back of his head before lowering it again.",
+      "camera": "The camera is static, positioned at a low angle behind the figure, capturing a full-body view.",
+      "scene": "The setting is a wet, reflective outdoor plaza in a futuristic city with tall buildings, glowing pink and cyan lights, and a hazy sky."
+    },
+    "uncertain": [],
+    "observation_identity": "8f578c8671fb99901dfeda9f07978baa96d79c9206745af91445e00d024d3d26"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_418.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6143.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned 3D-rendered male figure seen from behind, with a muscular build and bare feet.",
+      "hairstyle": "Short, cropped hair covering the top and sides of the head.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A white sleeveless tank top with a pink tie-dye pattern and light blue denim shorts with a small graphic on the back pocket.",
+      "action": "The figure stands still on a rooftop, then raises his right arm to scratch his head before lowering it and returning to a standing pose.",
+      "camera": "Static, low-angle full-body shot from behind the character.",
+      "scene": "A sunny urban rooftop with tiled and gravel flooring, surrounded by stylized city buildings, billboards, and construction cranes."
+    },
+    "uncertain": [],
+    "observation_identity": "7c1c5dd7587909a5260ee39346fb8d4100520e887af50423da3da7d49f53959b"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from pink to black.",
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from pink to black.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6169.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned male video-game character is seen from behind, with his face not visible.",
+      "hairstyle": "Short, cropped hair.",
+      "hair_color": "Dark brown.",
+      "clothing": "He wears a white sleeveless tank top with a pink tie-dye pattern, light blue shorts, and is barefoot.",
+      "action": "The character stands still, then briefly raises his right arm to touch the back of his head before lowering it and standing still again.",
+      "camera": "A static, low-angle, full-body shot from behind the character.",
+      "scene": "The character stands on a tiled rooftop with a gravel patch, surrounded by a stylized city with tall buildings, billboards, and construction cranes under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e433dfea3be251de248879e6ce882396faaa506682a61b99a399b7c965883e8b"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's action to standing in a thoughtful pose, as demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_630.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Please return to video 0 and make the following change to that video: Using the provided source video, apply the following edit: Please change the person's action to standing in a thoughtful pose, as demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6108.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned male figure with a short buzz cut, seen from behind.",
+      "hairstyle": "Short, dark buzz cut.",
+      "hair_color": "Black.",
+      "clothing": "A white sleeveless tank top with a pink and yellow palm tree graphic on the back, light blue shorts with white trim, and reddish-brown slip-on shoes.",
+      "action": "The figure stands in the center of a wet plaza, slowly turning his body to the left and then back to face forward.",
+      "camera": "A static, medium-full shot from behind the character at a slightly low angle.",
+      "scene": "A futuristic city plaza with wet, reflective pavement, featuring modern buildings with glowing cyan and pink lights in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "57b733c4dc1dd683e35009d16b3e17247a31588e977898f7dd3f8f7bf69a5892"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_555.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6119.mp4",
+    "observed": {
+      "identity": "A dark-skinned person with a slim build, seen from behind with their face not visible.",
+      "hairstyle": "Short, dark hair.",
+      "hair_color": "Black.",
+      "clothing": "A white sleeveless tank top with a pink and yellow palm tree graphic on the back, light blue shorts with white trim, and pink sneakers.",
+      "action": "The person stands still and then walks slowly forward, away from the camera, across the open plaza.",
+      "camera": "A static, medium-long shot from behind the subject at a slightly low angle.",
+      "scene": "A futuristic city plaza with a wet, reflective ground, glowing red and blue light strips, and tall modern buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "1e680719ba14c9e03ce81bcfb8fdfd6cfbd7c1cc6ebd0ea260098e23e89fc976"
+  }
+]

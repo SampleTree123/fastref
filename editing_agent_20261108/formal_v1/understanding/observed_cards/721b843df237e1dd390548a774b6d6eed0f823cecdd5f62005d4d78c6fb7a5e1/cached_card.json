@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6760.mp4",
+  "observed": {
+    "identity": "A 3D-rendered adult male with a stocky build, shown in profile facing right.",
+    "hairstyle": "Short, swept-back hair with a slightly textured top.",
+    "hair_color": "White.",
+    "clothing": "Light gray plaid long-sleeve shirt with sleeves rolled to the elbows, brown suspenders, dark plaid trousers, and dark shoes.",
+    "action": "The man stands still, then begins walking forward to the right with a steady gait, arms swinging naturally.",
+    "camera": "Side-profile medium full shot that slowly dollies in and tracks the man as he walks.",
+    "scene": "An outdoor paved road with a white lane line, bordered by a metal guardrail, green trees, shrubs, and large rocks under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "d80e6e36c1499e028354f62ac3c7ae4a1cdc6909390630f0c359f0b261b0e961"
+}

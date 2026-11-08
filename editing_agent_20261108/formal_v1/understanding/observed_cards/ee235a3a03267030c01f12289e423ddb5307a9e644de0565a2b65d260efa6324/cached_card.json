@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7032.mp4",
+  "observed": {
+    "identity": "A slender female character with fair skin, shown from behind.",
+    "hairstyle": "Hair is styled into two high buns on top of the head.",
+    "hair_color": "Bright blue.",
+    "clothing": "She wears a pink-and-white gingham off-the-shoulder top with white puffed sleeves and a black skirt patterned with gold roses.",
+    "action": "The character stands with her back to the camera, then raises both arms overhead and turns slightly before lowering them and returning to a standing pose.",
+    "camera": "A static medium shot from behind at roughly waist-to-head height.",
+    "scene": "A cobblestone street lined with old-style storefronts, including a dark shopfront with a 'MERCHANT' sign and a 'COCOA POWDER' poster, plus a black lamppost."
+  },
+  "uncertain": [],
+  "observation_identity": "cc5862eff1b955ec2d22d7a61181ad7ef708d89136377128b1b6995e4250b8e4"
+}

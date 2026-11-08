@@ -1,0 +1,126 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7087.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, visible in a 3D-rendered video game style.",
+      "hairstyle": "Black hair is pulled back into a high ponytail with loose strands at the nape.",
+      "hair_color": "Black.",
+      "clothing": "He wears a black and white color-blocked long-sleeve polo shirt with a white collar and a small zipper at the neck, paired with red and black plaid trousers and a black belt.",
+      "action": "The man stands in profile, then turns his head and body to face the camera while raising his right hand to touch his chin and neck area, before turning back to the side.",
+      "camera": "A medium shot from the waist up, with the camera remaining mostly static while the character rotates within the frame.",
+      "scene": "An outdoor paved area under a concrete overpass or bridge structure, with a metal railing, green trees, and a yellow construction crane visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "7330c3cf9d05aea4e216506aaa127815cc88d4b526a99a3a0e7edcd775c62958"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_380.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_375.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's top with the item shown in the reference images. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7088.mp4",
+    "observed": {
+      "identity": "A young Black person with a slim build and a youthful face, shown from the waist up.",
+      "hairstyle": "Black hair is pulled back into a high ponytail with a few loose strands at the sides.",
+      "hair_color": "Black.",
+      "clothing": "A bright yellow long-sleeved button-up shirt with a white and orange floral pattern, worn over dark plaid trousers with a black belt.",
+      "action": "The person stands in profile, then turns their head and body toward the camera while raising a hand to their chin and crossing their arms.",
+      "camera": "A medium shot at eye level with a slight handheld wobble, keeping the subject centered against the background.",
+      "scene": "An outdoor paved area beneath a concrete overpass, with a metal railing, green trees, and a construction crane visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "055ebad8f5503f726cceb4f33be4b90fd2e4e3ea38c74e3f8d1629c4daf4ecf1"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_658.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they walk forward, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7094.mp4",
+    "observed": {
+      "identity": "A man with a medium-brown complexion, short dark hair, and a thin mustache.",
+      "hairstyle": "Short, dark hair that is slightly longer at the back.",
+      "hair_color": "Black.",
+      "clothing": "A bright yellow, long-sleeved button-up shirt with a white and orange floral pattern, worn over dark plaid trousers with a black belt.",
+      "action": "The man stands on a paved road, slowly turning his head and upper body to look around the environment.",
+      "camera": "A medium shot from a slightly low angle, remaining relatively static as the subject moves.",
+      "scene": "An outdoor urban setting on a sunny day, featuring a concrete overpass, a metal railing, green trees, and a construction crane in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "cf4efb30df446bf1c1c9bf0f1f1e37fbbd8ff984344d2cd8d99150fbd546a2ee"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_61852bf860d6341bd655a6277f80afed4d40c9a8d895348a756e889afa4e42ac.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a full-body orbit shot that starts in front, circles the person through 360 degrees, and returns to the front view. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7082.mp4",
+    "observed": {
+      "identity": "A Black man with a slim build, short beard, and visible facial hair.",
+      "hairstyle": "Short hair on the sides with the top pulled back into a small ponytail.",
+      "hair_color": "Black.",
+      "clothing": "A bright yellow long-sleeved button-up shirt with a white circular pattern, brown plaid flared trousers, a black belt, and black shoes.",
+      "action": "The man stands facing the camera, then turns and walks in a slow circle, showing his side and back before returning to face forward.",
+      "camera": "A full-body shot at a low angle that remains relatively static while the subject rotates in place.",
+      "scene": "An outdoor paved area under a concrete overpass, with trees, a guardrail, and road signs in the background under bright daylight."
+    },
+    "uncertain": [],
+    "observation_identity": "f344cdc1ce43596f1b88708470cb8bf6135b55705709c5d17d4bbac68ebd78c8"
+  },
+  {
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_b30145a59b35908f375bff8cedbd16e5104c2f1e82d2214eabb6f60ea4161563.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a slightly low-angle full-body shot from a front three-quarter view. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7075.mp4",
+    "observed": {
+      "identity": "A Black woman with a slim build, shown in a full-body 3D-rendered style.",
+      "hairstyle": "Dark hair pulled back into a low ponytail.",
+      "hair_color": "Black.",
+      "clothing": "A bright yellow long-sleeve collared shirt with a white daisy pattern, dark plaid flared trousers with a black belt, and black lace-up shoes.",
+      "action": "She stands on an asphalt road, then begins walking forward with a relaxed stride, occasionally glancing upward.",
+      "camera": "Low-angle full-body shot that slowly tracks and pans to follow her as she walks toward the camera.",
+      "scene": "An outdoor paved road beneath a concrete overpass, with metal railings, red-and-yellow striped construction posts, greenery, and a partly cloudy blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "82242e81ec118a69e4a137a479b65affa566444d1507b02e2d7b23591c6e85bc"
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6256.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind, with a low bun hairstyle.",
+      "hairstyle": "Hair is pulled back into a low bun at the nape of the neck.",
+      "hair_color": "Dark reddish-brown.",
+      "clothing": "She wears a blue and white patterned dress with an open back and short sleeves.",
+      "action": "The woman stands with her back to the camera, then raises her right arm to brush her hair back before lowering it.",
+      "camera": "The camera is static, positioned behind the woman at a medium distance, capturing her from the waist up.",
+      "scene": "The setting is an outdoor amusement park or fairground at dusk, featuring a carousel with a striped roof and a large structure with marquee lights to the left."
+    },
+    "uncertain": [],
+    "observation_identity": "b27a38f4eedf7a0fd9571d998d3dccb5fd5020e191cd9e91e10259e1366277e0"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6275.mp4",
+    "observed": {
+      "identity": "A slender woman with a low back, seen from behind, with a small tattoo visible on her upper back.",
+      "hairstyle": "Short reddish-brown hair tied up in a small topknot with loose strands at the nape.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A blue and white patterned dress with an open back and short sleeves.",
+      "action": "She stands with her back to the camera, then raises her right arm to brush her hair back before lowering it.",
+      "camera": "A static medium shot from behind the subject at eye level.",
+      "scene": "An outdoor amusement park or boardwalk at dusk, featuring a carousel, a red food cart, and a large marquee with string lights."
+    },
+    "uncertain": [],
+    "observation_identity": "a6b16e6b19c0285ca4b678e8597a8cfa8d933f6a1211b3bc92cf752b57842e80"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_113.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_4.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change only the person's one-piece garment to match the reference images. Leave the rest of the outfit and everything else in the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6276.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen mostly from behind, with a low ponytail and a small red hair accessory.",
+      "hairstyle": "Dark hair pulled back into a low ponytail at the nape of the neck.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A short-sleeved, low-back dress with a busy multicolored paisley and floral pattern in purple, blue, orange, and red.",
+      "action": "She stands with her back to the camera, then raises her right arm to brush her hand across the back of her head and hair before lowering it.",
+      "camera": "Static medium shot from behind and slightly to the side, at roughly waist-to-head height.",
+      "scene": "An outdoor amusement park or boardwalk at dusk, with a lit carousel, a red food cart, and a string of marquee lights overhead on a sandy ground."
+    },
+    "uncertain": [
+      "Exact hair color is hard to confirm under the warm lighting, appearing dark brown to black.",
+      "The woman's face is not visible, so facial features are unclear."
+    ],
+    "observation_identity": "f59e8dc9def3a0a5c93298c3a40842944cb8dfa29ec32b1f1a5ef96cd04c0973"
+  }
+]

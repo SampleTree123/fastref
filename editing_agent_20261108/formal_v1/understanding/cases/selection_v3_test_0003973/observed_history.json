@@ -1,0 +1,119 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6891.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and light brown skin, shown in profile.",
+      "hairstyle": "Dark hair is pulled back into a low bun with straight bangs across the forehead.",
+      "hair_color": "Black.",
+      "clothing": "She wears a short, form-fitting dress with a busy purple, orange, and blue floral and paisley pattern, featuring cold-shoulder cutouts and three-quarter sleeves, paired with reddish-brown canvas sneakers.",
+      "action": "The woman stands in profile, then raises both hands to her head to adjust her hair, and finally lowers her arms to her sides.",
+      "camera": "The camera is at a low angle and slowly pulls back from a medium shot to a full-body shot.",
+      "scene": "An outdoor concrete platform beside a body of water, with a large stone retaining wall, wooden pilings, and a clear blue sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "b90681d860aa7fc644a0c54d3891fc3848cfd67449e13f96cd7b409a0cfc68de"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_18.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to walking forward, as demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6904.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and light brown skin, shown in profile and three-quarter views.",
+      "hairstyle": "Dark hair is pulled back into a low bun with straight bangs across the forehead.",
+      "hair_color": "Black.",
+      "clothing": "She wears a short, fitted one-piece dress with a busy multicolored floral and paisley pattern in purple, pink, orange, and blue, featuring cut-out shoulders, along with pink canvas sneakers.",
+      "action": "She begins standing in profile, then walks slowly forward and to the right across the platform, pausing near the edge with her head tilted upward.",
+      "camera": "A medium full shot at eye level that slowly pulls back and pans slightly to follow her as she walks.",
+      "scene": "An outdoor concrete dock or pier beside calm water, with a large weathered cylindrical tank, rusty railings, wooden pilings, and mossy rocks under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "5854883a8fd65fed5082c08c41443c82c0e77511989656ed06631dfd5b9e6990"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from black to red.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6919.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build and dark skin, shown in profile.",
+      "hairstyle": "Short red hair with bangs, tied back into a small low bun.",
+      "hair_color": "Red.",
+      "clothing": "A short, colorful one-piece dress with a busy purple, orange, and blue floral pattern, featuring cut-out shoulders and thin straps, paired with pink lace-up sneakers.",
+      "action": "The woman stands in profile, then walks slowly forward and to the right across a stone platform, pausing briefly with her head tilted upward before stopping at the platform's edge.",
+      "camera": "A medium full shot from a low angle that tracks the woman as she moves, keeping her in profile view.",
+      "scene": "An outdoor, sunlit 3D environment with a stone-paved platform, a large concrete industrial structure with rusted metal railings and pipes, and a body of water with wooden pilings in the background under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "9bdfb72f9c5ceed9ff7c90c192757b434e3f1767355997ed74316855f3a2a962"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6929.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and tanned skin, shown in profile.",
+      "hairstyle": "Red hair pulled back into a ponytail with loose strands framing the face.",
+      "hair_color": "Red.",
+      "clothing": "A short, colorful one-piece dress with a busy purple, orange, and blue pattern, plus pink slip-on shoes.",
+      "action": "The character stands in profile, then walks forward along the dock edge and stops near the water.",
+      "camera": "A medium full-body side view that slowly pulls back and pans to follow the character's movement.",
+      "scene": "An outdoor dock beside calm water, with a large concrete tank, rusty railings, wooden pilings, and a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "c40bddaf6b32b5e4932aaddbfaa13e3755452f65c236b70b520c81f301d34f92"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_f154d8c2f89bf46e78b19c1b5ab515899c6635d1b8182f68f153eeb68d717f97.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a front three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6908.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin, a round face, and a small nose ring.",
+      "hairstyle": "Black hair with straight bangs, a light streak at the front, and two low buns at the nape.",
+      "hair_color": "Black with a light gray streak in the front.",
+      "clothing": "A short, dark dress with a colorful paisley and floral pattern and cut-out shoulders.",
+      "action": "She stands and slowly turns her head and upper body from facing right to facing left.",
+      "camera": "A medium shot at eye level that remains mostly static while the character rotates.",
+      "scene": "An outdoor area with stone buildings, metal pipes, wooden crates, and a grassy hillside under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "03edd079ba3515d9cf8b745925a053710cfd573f91e68d6a4295af6f3e071052"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "schema": "datamake_editing_agent_v1",
+  "version": "editing_agent_v3_independent_output_cards",
+  "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+  "seed": 42,
+  "max_inspect_calls": 1,
+  "max_inspect_videos": 3,
+  "max_corrections": 1,
+  "observe_edit_references": false,
+  "qwen_max_new_tokens": 1536,
+  "ltx": {
+    "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "steps": 40,
+    "cfg_scale": 3.0,
+    "stg_scale": 1.0,
+    "guidance_rescale": 0.7,
+    "stg_blocks": [
+      28
+    ],
+    "ref_cfg": 1.0
+  },
+  "evaluation": {
+    "development_chains": 6,
+    "understanding_questions": 1000,
+    "minimum_closed_loop_chains": 30,
+    "candidate_closed_loop_chains": 128,
+    "expansion_order": [
+      30,
+      60,
+      100,
+      128
+    ],
+    "automatic_regeneration": false,
+    "qwen_training": false
+  }
+}

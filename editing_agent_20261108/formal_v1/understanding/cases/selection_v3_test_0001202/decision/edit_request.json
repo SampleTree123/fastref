@@ -1,0 +1,1 @@
+{"editing_corrections":0,"editing_model_calls":1,"inspected_video_ids":[],"prompt":"Replace the person's top with the item shown in the reference images (front and back views). Keep all other clothing, footwear, and non-clothing attributes unchanged.","reference_ids":["ref_1","ref_2"],"selection_corrections":0,"selection_model_calls":1,"source_video_id":0}

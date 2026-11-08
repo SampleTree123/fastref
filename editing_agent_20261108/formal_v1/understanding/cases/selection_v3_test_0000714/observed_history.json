@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6116.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind and in profile.",
+      "hairstyle": "Short, neatly trimmed hair.",
+      "hair_color": "Dark brown.",
+      "clothing": "White short-sleeved button-up shirt, black suspenders, black-and-white checkered trousers, and black shoes.",
+      "action": "The character stands still, then walks slowly forward and slightly to the right across the open plaza.",
+      "camera": "A static, medium-long shot from behind and to the left of the character, keeping him centered in the frame.",
+      "scene": "A futuristic outdoor plaza with a glossy, reflective concrete floor, a large domed building with glowing teal rings on the left, and a tall white building with blue-lit windows on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "90b7db30764680e88dec36764db29408bcb73fe999757b0abc8166c14f3a05bc"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_67.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6103.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen mostly from behind.",
+      "hairstyle": "Short, neatly trimmed hair.",
+      "hair_color": "Dark brown.",
+      "clothing": "White short-sleeved button-up shirt with black suspenders, black-and-white checkered trousers, and dark shoes.",
+      "action": "The character stands in the open plaza, shifting his weight and turning his upper body slightly to the side while his arms move subtly at his sides.",
+      "camera": "Static medium-long shot from behind and slightly to the character's left, keeping him centered in the frame.",
+      "scene": "A futuristic outdoor plaza with a glossy reflective floor, a large domed glass building with glowing teal rings on the left, and a tall white building with blue-lit windows on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "c1b05678c6b3a7b3e762973b2d6eaabddc7f6aeefae7dd6de5d7527430f940ef"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_55.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they sneeze, as shown in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6111.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen mostly from behind.",
+      "hairstyle": "Short, neatly styled hair.",
+      "hair_color": "Dark brown.",
+      "clothing": "White short-sleeved button-up shirt with black suspenders, black-and-white checkered trousers, and black shoes.",
+      "action": "The character stands still, then briefly turns his head, raises his right arm, and bends forward at the waist before returning to an upright stance.",
+      "camera": "Static medium-long shot from behind and slightly to the side of the character.",
+      "scene": "A futuristic outdoor plaza with a large domed glass building, glowing teal and pink neon lights, and a reflective concrete ground."
+    },
+    "uncertain": [],
+    "observation_identity": "5f2eb26413b9e3e080317fdbafa4038761b70a800caf47d490c1dc0134bf4fa3"
+  }
+]

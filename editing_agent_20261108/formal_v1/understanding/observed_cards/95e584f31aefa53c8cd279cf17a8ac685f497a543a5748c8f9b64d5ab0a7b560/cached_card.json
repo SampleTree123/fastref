@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6977.mp4",
+  "observed": {
+    "identity": "A young Black man with a slim build, short dark hair, and a neutral expression.",
+    "hairstyle": "Short, cropped dark hair.",
+    "hair_color": "Black.",
+    "clothing": "A light blue, cable-knit sweater with a diamond pattern, black pants, and brown lace-up shoes with white socks.",
+    "action": "The man stands facing the camera, then raises both arms overhead, brings them down in a sweeping motion, and finally returns to a standing position with his arms at his sides.",
+    "camera": "A static, medium-full shot from a slightly low angle, keeping the subject centered in the frame.",
+    "scene": "An outdoor paved area under a concrete overpass or bridge structure, with road signs, barriers, and trees visible in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "1ffc0cf717a5c0d00bb97329aea834d8371fa733f2f12c8b539272e08efaf0e1"
+}

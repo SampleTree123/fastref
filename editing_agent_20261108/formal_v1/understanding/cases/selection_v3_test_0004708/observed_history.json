@@ -1,0 +1,98 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7039.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a medium build, shown mostly from behind and in profile.",
+      "hairstyle": "Hair is styled into two small buns on top of the head.",
+      "hair_color": "Vivid blue.",
+      "clothing": "She wears a short, fitted dress with a blue-and-white ikat-style pattern, three-quarter sleeves, and an open back.",
+      "action": "The character stands and slowly turns, raising one arm to touch or adjust her hair while her other arm rests at her side or on her hip.",
+      "camera": "A medium shot from behind at roughly waist-to-head height, with the camera remaining mostly static as the subject rotates.",
+      "scene": "An outdoor stone terrace or rooftop beside a calm body of water under a clear, pale blue sky."
+    },
+    "uncertain": [
+      "The character's face is mostly turned away, so facial features are unclear."
+    ],
+    "observation_identity": "7b70e3b9253d701dc8523dda634756739f702df9f2c93c3fdc79b6f6aba0a3eb"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_81.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_4.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7050.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a dark brown complexion, shown from the back and side.",
+      "hairstyle": "Hair is pulled back into a low bun with two small, rounded buns or pigtails at the nape of the neck.",
+      "hair_color": "Vibrant blue.",
+      "clothing": "A short, form-fitting dress with a blue and white patterned print, featuring an open back and cold-shoulder cutouts.",
+      "action": "The character stands facing the water, then raises her right arm to touch and adjust her hair, turning her head slightly to the side.",
+      "camera": "A static, medium shot from behind and to the left of the character, keeping her centered in the frame.",
+      "scene": "An outdoor, stone-paved terrace or balcony overlooking a calm body of water under a clear, pale blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "ad0ef028abc5d44c1803629b9f9aeac5339ca1c4a0b9352dd675e685b835dd40"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_263.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7041.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a fair-skinned, curvy build, shown mostly from the back and side.",
+      "hairstyle": "Hair is pulled back into a low bun with two small side buns or pigtails at the nape.",
+      "hair_color": "Bright blue with lighter streaks.",
+      "clothing": "A short, form-fitting blue-and-white patterned dress with three-quarter sleeves and an open back.",
+      "action": "The character stands on a cobblestone street, turning her body and raising her arms to touch and adjust her hair.",
+      "camera": "Medium shot from behind at roughly waist-to-head height, with slight panning to follow the character's rotation.",
+      "scene": "A rendered old-world city street with brick and stone buildings, shop signs, a black lamppost, and a cobblestone road."
+    },
+    "uncertain": [
+      "The character's face is mostly turned away, so facial features are unclear."
+    ],
+    "observation_identity": "01c005c6e119bfb4524b84b5f33b11db8e465851b1671d080f0dcfd91b18c7ca"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from blue to chestnut brown.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7051.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slender build, shown mostly from behind and in profile.",
+      "hairstyle": "Light brown hair pulled back into a low bun with a small side bun and loose strands.",
+      "hair_color": "Light brown.",
+      "clothing": "A short, form-fitting blue and white patterned dress with three-quarter sleeves and a low open back.",
+      "action": "The character stands on a cobblestone street, raising one arm to touch and adjust her hair, then turning her body slightly.",
+      "camera": "Medium shot from behind at roughly waist height, with a slight shift in angle as the character turns.",
+      "scene": "A rendered old-world city street with brick and stone buildings, shop signs, a black lamppost, and a cobblestone road."
+    },
+    "uncertain": [],
+    "observation_identity": "ade60ea1cbfac9468a1e708dfb529f5fc8b9d16d14b3211e8c308b43160e6f71"
+  }
+]

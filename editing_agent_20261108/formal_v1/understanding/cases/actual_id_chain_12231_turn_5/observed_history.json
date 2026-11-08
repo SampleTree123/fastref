@@ -1,0 +1,125 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6011.mp4",
+    "observed": {
+      "identity": "A young man with a slim build and light brown skin, shown in profile and three-quarter views.",
+      "hairstyle": "Short white hair with a small topknot bun at the back of the head.",
+      "hair_color": "White.",
+      "clothing": "A light gray and white plaid button-up shirt with rolled sleeves, brown leather suspenders, and dark gray trousers.",
+      "action": "The man stands on a sidewalk, then raises his right hand to scratch or rub the back of his head and neck before lowering his arm and standing still.",
+      "camera": "A static, medium shot at eye level, framing the man from the thighs up against the storefront.",
+      "scene": "An outdoor city street in front of a dark storefront with large windows displaying gold text for 'SOAP' and 'COCOA POWDER', a stone sidewalk, and a black lamppost."
+    },
+    "uncertain": [],
+    "observation_identity": "de091bbeffa86f4e9eee07654df38e98891324dd30a92330e94fc421926eb5a7"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_923.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_924.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5992.mp4",
+    "observed": {
+      "identity": "A muscular man with a tanned complexion is shown in profile, facing right.",
+      "hairstyle": "His hair is pulled back into a small top-knot bun with the sides shaved short.",
+      "hair_color": "White.",
+      "clothing": "He wears a pink and cream tie-dye tank top and pink shorts.",
+      "action": "The man stands still, then raises his right hand to scratch the back of his head before lowering it again.",
+      "camera": "A static medium shot frames the man from the thighs up at eye level.",
+      "scene": "The setting is an outdoor street with a stone-paved sidewalk in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+    },
+    "uncertain": [],
+    "observation_identity": "8ec2d5d1aded9bc3ff1c20083270d3bc0be9a768094ff5d4d86c2955c9575b66"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they pose for a photo, as shown in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_295.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they pose for a photo, as shown in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5996.mp4",
+    "observed": {
+      "identity": "A person with a medium build, seen from behind, with a small tattoo visible on the upper right arm.",
+      "hairstyle": "Short hair with a small topknot bun at the crown.",
+      "hair_color": "White.",
+      "clothing": "A sleeveless tank top with a pink, white, and yellow tie-dye pattern, and pink shorts.",
+      "action": "The person stands with their back to the camera, raises their right hand to touch and adjust their hair, then lowers it and turns their head slightly to the right.",
+      "camera": "A static, medium shot from behind the subject at roughly eye level.",
+      "scene": "An outdoor cobblestone street in front of a dark, ornate storefront with signs reading 'SOAP', 'COCOA POWDER', and 'APOTHECARY'."
+    },
+    "uncertain": [],
+    "observation_identity": "fd46609d2c95d16e8f7ae0ccd771164472a67f64d5dc5e44c58d1fa8d54ce2db"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a side-view dolly-in shot that moves from full-body to upper-body framing. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_caec950961f474379780b9d7b94eef5e9f167954be724ef8f4cdd4364f654ae5.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a side-view dolly-in shot that moves from full-body to upper-body framing. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5988.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned person with a narrow build, shown from behind.",
+      "hairstyle": "Hair is pulled up into a small topknot bun at the crown of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A cream tank top with pink tie-dye and palm-tree graphics, pink shorts, and pink slip-on shoes.",
+      "action": "The person stands with their back to the camera, then raises one arm to touch and adjust the hair at the back of the head while the other hand rests on the hip.",
+      "camera": "A medium full-body shot from behind at roughly eye level; the camera slowly pushes in and tilts up to a closer upper-body framing.",
+      "scene": "An outdoor cobblestone street in front of a dark storefront with vintage signage reading “SOAP,” “COCOA POWDER,” and “APOTHECARY.”"
+    },
+    "uncertain": [
+      "The person's face is not visible, so facial features and gender are unclear."
+    ],
+    "observation_identity": "9395900e6eb905b0886239a61c7ec685e2fb4be3d62393978b67f4459244b353"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair black.",
+    "parent_id": 3,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair black.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6003.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned person with a narrow build, seen mostly from behind.",
+      "hairstyle": "Short dark hair that is repeatedly brushed and tousled with the hand.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A white tank top with pink palm-tree and sun graphics, pink shorts, and pink slip-on shoes.",
+      "action": "The person stands on a cobblestone street, turns slightly, and repeatedly runs a hand through their hair while the camera moves closer.",
+      "camera": "A medium full-body shot from behind that slowly dollies in to a medium shot as the person turns.",
+      "scene": "An old European-style street with cobblestones, a black lamppost, and storefronts with signs reading 'SOAP', 'COCOA POWDER', and 'APOTHECARY'."
+    },
+    "uncertain": [],
+    "observation_identity": "e04b8e3e7c4d61607b15fab8631edf04d513fa29343c642f558e9efea03d1ddb"
+  }
+]

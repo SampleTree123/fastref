@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6303.mp4",
+  "observed": {
+    "identity": "A 3D-rendered man with dark skin and a slim build, shown from the thighs up.",
+    "hairstyle": "Short hair on the sides with a small top-knot bun tied at the crown.",
+    "hair_color": "Bright blue.",
+    "clothing": "A white long-sleeved collared shirt under a black sleeveless vest, with a thin necklace and red plaid trousers with a black belt.",
+    "action": "He stands facing slightly right, turns his head, then bends forward and raises his right hand to his mouth before straightening up and turning his head again.",
+    "camera": "Static medium shot at roughly chest height, framing the character from the thighs up.",
+    "scene": "A cobblestone street in front of old stone and brick buildings with arched windows, a black lamppost, and posters on a wall."
+  },
+  "uncertain": [],
+  "observation_identity": "cd235e4a7f03b7688f3777efcc101ec4f7d0367f8495d8095c745eeec3e3c311"
+}

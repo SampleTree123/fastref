@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5982.mp4",
+  "observed": {
+    "identity": "A muscular adult male character with a light brown complexion, shown in a 3D video-game style render.",
+    "hairstyle": "Short white hair with a small top-knot bun at the back of the head.",
+    "hair_color": "White.",
+    "clothing": "A pink-and-cream tie-dye tank top, pink shorts with white trim, and pink sneakers.",
+    "action": "The character stands in profile, then turns toward the camera, raises a fist to his mouth as if coughing or sneezing, and lowers his arm again.",
+    "camera": "A static medium-full shot at eye level that slowly zooms in on the character.",
+    "scene": "A cobblestone street in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+  },
+  "uncertain": [],
+  "observation_identity": "f278153256a4d9a86e1f11f4cf863c9e4f9818fa844c8a8725ea42628043f006"
+}

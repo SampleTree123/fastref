@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6326.mp4",
+  "observed": {
+    "identity": "A young Black person with a slim build and a slight smile, shown from the thighs up.",
+    "hairstyle": "Short hair with a small bun or knot at the back of the head.",
+    "hair_color": "Bright blue.",
+    "clothing": "A tan cable-knit sweater with a diamond pattern and dark pants.",
+    "action": "The person stands still, then raises both arms overhead and swings them in a dance-like motion before returning to a standing pose.",
+    "camera": "A static medium shot at roughly eye level, keeping the person centered in frame.",
+    "scene": "An old-style city street with cobblestones, stone buildings, a black lamppost, and posters on a brick wall."
+  },
+  "uncertain": [],
+  "observation_identity": "19c579ae9997db6af489e6d8d15a98e46c76e68c358d01e49eb7abba1bd45366"
+}

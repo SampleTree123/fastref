@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6636.mp4",
+  "observed": {
+    "identity": "A person with a slim build is seen from behind, with their face not visible.",
+    "hairstyle": "The hair is pulled back into two small, low buns at the nape of the neck.",
+    "hair_color": "The hair is a vivid, saturated blue.",
+    "clothing": "The person wears a sleeveless top with a brown and tan geometric pattern, a dark choker, and high-waisted dark green trousers.",
+    "action": "The person stands still, facing away from the camera and looking out toward the water, with only slight shifts in posture.",
+    "camera": "The camera is positioned behind the subject at a medium distance, remaining mostly static with a slight drift to the right.",
+    "scene": "The setting is an outdoor stone platform or pier overlooking a large, calm body of water under a clear, pale blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "31b51eba11c48803a4d1a66405a70da384d5e5da042036724f636deb2babb637"
+}

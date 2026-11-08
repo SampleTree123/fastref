@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5986.mp4",
+  "observed": {
+    "identity": "A Black man with a short beard and mustache stands centered in the frame.",
+    "hairstyle": "Short, cropped hair.",
+    "hair_color": "White.",
+    "clothing": "He wears a brown plaid three-piece suit with a white shirt, dark tie, and dark shoes.",
+    "action": "He stands facing forward, then raises his right hand to touch his face and head before lowering it and standing still.",
+    "camera": "The camera starts at a medium shot and slowly pulls back to a full-body view.",
+    "scene": "A cobblestone street lined with classical buildings, black lampposts, and a Union Jack flag hanging in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "b3542ebfe73bbe2ec26d5bd77b5994876cbda853e7ecacd0a5c5ce12a1faee1f"
+}

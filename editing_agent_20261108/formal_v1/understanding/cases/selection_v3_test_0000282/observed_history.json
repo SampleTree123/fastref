@@ -1,0 +1,48 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6037.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build and medium-brown skin stands centered in the frame.",
+      "hairstyle": "Her hair is pulled up into a high bun or topknot.",
+      "hair_color": "Her hair is a vivid red color.",
+      "clothing": "She wears a white off-the-shoulder top with puffed sleeves over a pink-and-white gingham corset-style bodice, paired with black-and-gold patterned shorts and light blue sneakers.",
+      "action": "She stands facing forward, then raises her right hand to brush her hair back and touch the side of her head while placing her left hand on her hip, before lowering her arm and turning her head to the side.",
+      "camera": "The camera is at a low, wide angle and slowly dollies in from a full-body shot to a medium shot of her torso and head.",
+      "scene": "She stands on a flat paved plaza in front of a colorful amusement park with a large Ferris wheel, a roller coaster, and a red 'Tickets' booth under a warm sunset sky."
+    },
+    "uncertain": [
+      "The exact style of the hair (bun vs. topknot) is partly obscured by the hand motion.",
+      "The character appears to be a 3D rendered/animated figure rather than a live-action person."
+    ],
+    "observation_identity": "81036ddd1fc5a36bfb94db3205dc69d77b2e1f17ce1b1f7a8c2500c6531e29b3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_9f3c8312a969c5752a9dcebb783405959cd600144e4b199b46a208f93fce25ff.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a rear-view dolly-in shot that moves from full-body to upper-body framing. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6038.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and dark skin, shown from behind.",
+      "hairstyle": "Hair is pulled up into a high bun with a few loose strands at the nape.",
+      "hair_color": "Reddish-brown with lighter highlights.",
+      "clothing": "She wears a pink-and-white gingham sleeveless top with white off-shoulder puff sleeves, black shorts with a gold floral pattern, and blue sneakers.",
+      "action": "The character stands in the center of a wide paved area, then turns and shifts her weight, placing her hands on her hips and swaying slightly.",
+      "camera": "A static, low-angle full-body shot from behind the character, keeping her centered in frame.",
+      "scene": "A sunny outdoor amusement park or fairground with a striped carousel on the left, a wooden building and a circular ride structure on the right, and metal crowd-control barriers lining the walkway."
+    },
+    "uncertain": [],
+    "observation_identity": "69b16724027cda0c3e67d41e27f62df9ce81c033c0fe9aee64c5894f1da456e2"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6652.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build and light skin, shown in a 3D-rendered video game style.",
+    "hairstyle": "A short, rounded bob with straight bangs and a small low ponytail at the back.",
+    "hair_color": "Bright yellow-blonde.",
+    "clothing": "A sleeveless patterned crop top with a dark lace hem, high-waisted green wide-leg trousers, a black choker, and dark sandals.",
+    "action": "She stands on the road, then begins walking slowly forward and turns her head to look around.",
+    "camera": "A medium full-body shot at a slightly low angle that remains mostly static as the character moves.",
+    "scene": "An outdoor paved road with white lane markings, bordered by a metal guardrail, red-and-yellow striped posts, and a concrete wall with weeds growing at its base."
+  },
+  "uncertain": [],
+  "observation_identity": "5c0dc0b4f7a4df6a98394d73c07c9f3e77be864ac724e9c37ac8438877ab980d"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6013.mp4",
+    "observed": {
+      "identity": "A male figure with a medium build, seen from behind, with a light skin tone visible on the hands and neck.",
+      "hairstyle": "Short hair with a small topknot or bun at the crown of the head.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A long, tan and orange plaid overcoat with a collar, worn over a white shirt with visible cuffs.",
+      "action": "The figure stands with his back to the camera, then raises his right hand to scratch or adjust his head and neck area, while his left hand rests on his hip.",
+      "camera": "A static, medium shot from behind the subject at roughly eye level.",
+      "scene": "An outdoor cobblestone street in front of a dark, ornate storefront with red curtains and gold lettering advertising 'SOAP' and 'COCO POWDER'."
+    },
+    "uncertain": [],
+    "observation_identity": "4316f83b34e49c81b8b7768a5b7b8302d74a6c2f5dd4d507cdf10f4962988e66"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: The person currently has white hair; please change it to black.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6025.mp4",
+    "observed": {
+      "identity": "A man with a medium build, seen from behind, with a short beard visible at the side of his head.",
+      "hairstyle": "Short dark hair with a small top-knot or bun at the back of the head.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A long, single-breasted coat with a tan, brown, and orange plaid pattern and a white shirt cuff visible at the wrist.",
+      "action": "The man stands with his back to the camera, raises his right hand to scratch and adjust his hair, then lowers it and places his hands on his hips.",
+      "camera": "A static, medium shot from behind the subject at roughly eye level.",
+      "scene": "An outdoor cobblestone street in front of a dark, ornate storefront with vintage signage reading 'SOAP' and 'COCOA POWDER FROM THE COLONIES AVAILABLE NOW'."
+    },
+    "uncertain": [],
+    "observation_identity": "d48733bf41f2d747de8f4be57049be82b3f79a281eca02f3448e71510c271ae3"
+  }
+]

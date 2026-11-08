@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6368.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned 3D-rendered male figure with a short, neat face and visible jawline.",
+      "hairstyle": "Short, swept-back hair with a side part.",
+      "hair_color": "Light blond.",
+      "clothing": "White long-sleeved shirt under a dark brown vest, reddish-orange trousers, and dark slip-on shoes.",
+      "action": "The figure stands in profile, then slowly turns to face away, raises a hand to the chest, and turns back to the original profile stance.",
+      "camera": "Static, eye-level full-body side view with the subject centered.",
+      "scene": "An outdoor urban plaza with a large gray metal utility box behind the subject, tiled and cobblestone ground, and buildings with yellow scaffolding in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "cc14646447af681f2e8dc45e1a42ee076015f5676bbd35795f71f84ddaeab6b0"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_440.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6354.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male character with a slim build, light skin, and a short beard.",
+      "hairstyle": "Short, neatly trimmed hair.",
+      "hair_color": "Light brown or dark blond.",
+      "clothing": "A white long-sleeved shirt under a dark gray vest, reddish-orange trousers, and dark slip-on shoes.",
+      "action": "The character stands in profile, then turns slightly toward the camera, raises his right hand to his face, and bends forward at the waist before straightening back up.",
+      "camera": "Static, eye-level, full-body side view.",
+      "scene": "An outdoor urban plaza with a large gray metal structure behind the character, cobblestone and tiled ground, and buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "5382d6508e2bfaf8db1bdee60ea15a7abb23f0c9f376e82b9f81d4427a539361"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_318.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to raising both hands in celebration, then thrusting one hand upward, following the demonstration in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6365.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned 3D-rendered male figure with a short beard, shown in profile.",
+      "hairstyle": "Short, closely cropped hair.",
+      "hair_color": "Light brown.",
+      "clothing": "White long-sleeve shirt under a dark brown vest, reddish-orange trousers, and dark slip-on shoes.",
+      "action": "The figure stands still, then raises both arms overhead and leans back in a stretching motion before returning to an upright standing pose.",
+      "camera": "Static medium-full side view at roughly eye level, keeping the figure centered.",
+      "scene": "An outdoor urban plaza with a large gray metal utility box behind the figure, tiled and cobblestone ground, and buildings with scaffolding in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "bfbf8fde37c3549ab7c55aec63d2afb9073493b97b0112913a714fe08acd1884"
+  }
+]

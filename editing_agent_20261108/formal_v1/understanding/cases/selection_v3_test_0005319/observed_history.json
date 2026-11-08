@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7193.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark-skinned, muscular build, shown from behind.",
+      "hairstyle": "Short, cropped hair.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A dark blue, long-sleeved tracksuit with white piping, a black belt, and black shoes, with tan-colored patches on the back and seat.",
+      "action": "The character stands with his back to the camera, then raises both arms in a celebratory gesture before lowering them and returning to a standing pose.",
+      "camera": "A static, medium-full shot from behind the character at a slightly low angle.",
+      "scene": "An outdoor paved area, likely a road or parking lot, with a metal guardrail, trees with yellow and green leaves, a street lamp, and a blue sky with clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "416a527e1a47ccc6b847621a7a55584ea4b8135a9cadf631fd6a3f08c79c3248"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_769.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7199.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a stocky build, seen from behind.",
+      "hairstyle": "Short, cropped hair.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A dark grey, long-sleeved jumpsuit with a belt, white side stripes on the legs, and tan patches on the shoulders and seat.",
+      "action": "The character stands with his back to the camera, then raises both arms in a stretching or dancing motion before lowering them back to his sides.",
+      "camera": "A static, low-angle, full-body shot from directly behind the character.",
+      "scene": "An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a speaker on the left, and a cityscape with buildings and billboards in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "0184151b12ad77b5c5b2f36f7f239b95094f1431210528490ad22890958e67ef"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_8.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_66.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7191.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, shown from behind.",
+      "hairstyle": "Shoulder-length, slightly wavy hair that falls over the back of the neck.",
+      "hair_color": "Pink.",
+      "clothing": "A dark gray, long-sleeved jacket and matching trousers with a belt, both featuring light tan patches on the shoulders, back, and seat; the trousers have a white stripe down the side, and he wears dark shoes.",
+      "action": "The character stands with his back to the camera, then raises both arms overhead and swings them in a rhythmic, dance-like motion before lowering them to his sides.",
+      "camera": "A static, low-angle, full-body shot from directly behind the character.",
+      "scene": "An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a loudspeaker on the left, and a cityscape of buildings with red signs in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "d2c6b8063007de961cfde1a1332ab3d4f6e88830b75c2232fc946c03c3ff7d7e"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to blue.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7192.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a stocky build, seen from behind.",
+      "hairstyle": "Short, cropped hair.",
+      "hair_color": "Blue.",
+      "clothing": "A dark grey, long-sleeved tracksuit with a belt, white side stripes, and tan patches on the back and legs, worn with dark shoes.",
+      "action": "The character stands with his back to the camera, then raises both arms to perform a short dance or victory gesture before lowering them and returning to a standing pose.",
+      "camera": "A static, low-angle, full-body shot from directly behind the character.",
+      "scene": "An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a speaker on the left, and a cityscape of buildings with red signs in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "6d85d5741c85c3bf48429599b278724b8c0c5c2be5d57fc22624ad706b6098aa"
+  }
+]

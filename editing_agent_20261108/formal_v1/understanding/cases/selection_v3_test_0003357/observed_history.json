@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6759.mp4",
+    "observed": {
+      "identity": "A Black person with a slim build, shown in profile facing right.",
+      "hairstyle": "Short hair with a small bun at the back of the head.",
+      "hair_color": "Bright red.",
+      "clothing": "White plaid button-up shirt with sleeves rolled to the elbows, black suspenders, and tan-and-black plaid trousers with black shoes.",
+      "action": "The person stands still, then raises both arms overhead and swings them down in a stretching or dancing motion before returning to a standing pose.",
+      "camera": "Full-body side view at a low angle; the camera slowly pushes in to a medium shot of the upper body.",
+      "scene": "An outdoor paved road with a white lane line, a metal guardrail, and a rocky hillside with green trees and shrubs under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "fc3d4176d698107fbfdc7bb66181cb87ab3d36a33f7d7af578522f606262dd98"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_308.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6774.mp4",
+    "observed": {
+      "identity": "A Black man with a slim build, shown in profile and three-quarter views.",
+      "hairstyle": "Short red hair with shaved sides and a small top-knot bun at the back of the head.",
+      "hair_color": "Red.",
+      "clothing": "White long-sleeved button-up shirt with rolled sleeves, dark suspenders, plaid trousers, and black shoes.",
+      "action": "He stands still, then raises both arms overhead in a stretching motion, turns his body, and lowers his arms to stand again.",
+      "camera": "Medium full-body shot at eye level; the camera stays mostly static with slight reframing as the subject moves.",
+      "scene": "A cobblestone street in front of a stone building with an 'APOTHECARY' sign and a window reading 'SOAP OF EVERY DESCRIPTION SOLD HERE', with a black lamppost to the left."
+    },
+    "uncertain": [],
+    "observation_identity": "a360500ab4a5d1ce838ee9b0dba79f59d97e1e144507b0ca0b98e26f530529a4"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to white?",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6743.mp4",
+    "observed": {
+      "identity": "A 3D-rendered person with dark skin, shown in profile, with a small top-knot hairstyle.",
+      "hairstyle": "Short cropped hair with a small bun/top-knot at the back of the head.",
+      "hair_color": "White or platinum blonde.",
+      "clothing": "White long-sleeved shirt with faint stripes and small brown patches, black suspenders, and brown-and-white checkered trousers with black shoes.",
+      "action": "The person stands still in profile, then raises both arms overhead and swings them while turning slightly, before lowering the arms and standing again.",
+      "camera": "Medium full-body side view at roughly eye level; the camera slowly pushes in to a closer medium shot as the clip progresses.",
+      "scene": "An outdoor paved road with a white lane line, a metal guardrail, and a background of rocks, green trees, and a partly cloudy sky."
+    },
+    "uncertain": [],
+    "observation_identity": "1f0ea9e5a087f07502361c1ead3c38373cae5021e98787dbb077a7067bd71005"
+  }
+]

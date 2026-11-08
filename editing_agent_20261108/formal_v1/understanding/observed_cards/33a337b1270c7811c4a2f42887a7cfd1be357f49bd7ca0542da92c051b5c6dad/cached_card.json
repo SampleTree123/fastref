@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6764.mp4",
+  "observed": {
+    "identity": "A Black man with a lean, muscular build and a short beard.",
+    "hairstyle": "Short, cropped hair.",
+    "hair_color": "White.",
+    "clothing": "A cream tank top with a pink and purple palm tree graphic and 'Los Angeles' text, pink shorts with white trim, and pink slip-on shoes.",
+    "action": "The man stands on an asphalt road, initially facing forward, then turns his body to the side and raises his hand to his chin in a thoughtful pose before turning back to face forward.",
+    "camera": "A static, full-body shot from a slightly low angle.",
+    "scene": "An outdoor urban setting on a paved road under a concrete overpass, with a metal guardrail, green foliage, and a construction crane visible in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "42de2922d39bacd39dd3ffcf77654b6d49d37b80baa90fba2db298aa76976958"
+}

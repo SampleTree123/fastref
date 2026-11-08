@@ -1,0 +1,69 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6524.mp4",
+    "observed": {
+      "identity": "A female video game character with dark skin and a slim build, shown from the waist up.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail with a short fringe.",
+      "hair_color": "Platinum blonde.",
+      "clothing": "A white dress with pink, yellow, and blue floral print, featuring a V-neck, three-quarter sleeves, and an open back.",
+      "action": "The character stands in profile, raises her left hand to touch her ponytail, then turns her back to the camera while keeping one hand on her hip.",
+      "camera": "A static medium shot at eye level, framing the character from the waist up against the background.",
+      "scene": "A sunny outdoor fairground with a striped carousel on the left, a wooden building and a circular ride structure on the right, and metal crowd-control barriers lining a paved walkway."
+    },
+    "uncertain": [],
+    "observation_identity": "f5396ff4f4cb5e967e948daacb2a6c9500f9eaa0188f8f7c213e5744f5354312"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_81.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_4.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6542.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with dark skin and a slim build, shown from the waist up.",
+      "hairstyle": "Short, wavy hair with a small low ponytail or bun at the nape.",
+      "hair_color": "White or platinum blonde.",
+      "clothing": "A cream-colored dress with pink, yellow, and blue floral print, three-quarter sleeves, and a low open back.",
+      "action": "She stands in profile, raises one hand to touch her hair, then turns her body to face away from the camera.",
+      "camera": "Static medium shot at roughly chest height, framing the subject from the waist up.",
+      "scene": "A sunny outdoor amusement park with a carousel on the left, a wooden building and a circular ride structure on the right, and metal crowd-control barriers on a paved plaza."
+    },
+    "uncertain": [],
+    "observation_identity": "6fa54672765fa7caf3ae4f22deed63138e44c998b71fa37feae020a21cd59b87"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Let's change the person's hair color to blonde.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6525.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build and dark skin, shown in profile and then from behind.",
+      "hairstyle": "Blonde hair pulled back into a low bun with a straight fringe across the forehead.",
+      "hair_color": "Blonde.",
+      "clothing": "A white, three-quarter-sleeve dress covered in a large pink, yellow, and blue floral print.",
+      "action": "She stands in the center of the frame, raises her left hand to touch her hair, then turns her body to face away from the camera.",
+      "camera": "A static, medium shot at eye level that keeps the woman centered while she moves.",
+      "scene": "A sunny outdoor amusement park plaza with a carousel on the left, a wooden building on the right, and a large ride structure in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "fa1c5af89b9ef68cc0e4d4536381721e714053d19bb998ec469285a932798031"
+  }
+]

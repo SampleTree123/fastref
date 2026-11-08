@@ -1,0 +1,72 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6619.mp4",
+    "observed": {
+      "identity": "A slender, adult male figure with a slim build, seen mostly from behind and in profile.",
+      "hairstyle": "Short, swept-back hair with a longer section hanging down the back of the neck.",
+      "hair_color": "White or very light gray.",
+      "clothing": "A dark, long-sleeved jacket or tunic with a light-colored emblem on the back, dark trousers with a thin light stripe down the side, and dark shoes.",
+      "action": "The figure stands in the center of the frame, initially still, then raises his right arm to touch or adjust the back of his head before lowering it and shifting his weight slightly.",
+      "camera": "A static, medium-long shot from a slightly low angle, keeping the figure centered against the background.",
+      "scene": "A futuristic, open-air plaza with a wet, reflective concrete floor, featuring a large domed building with glowing teal lights on the left and a multi-story structure with illuminated windows on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "a3520214d01f46efb0bea40e4c4427a668a80e142364b1ce72ff8343373fb18a"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body orbit shot that starts in front, circles the person through 360 degrees, and returns to the front view. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_00b12cc169ac1b9f1a4058364d615f62e1d050d704fd15af94a5312be9971fa2.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body orbit shot that starts in front, circles the person through 360 degrees, and returns to the front view. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6615.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a light skin tone, short hair, and a slim build.",
+      "hairstyle": "Short, swept-back hair.",
+      "hair_color": "White.",
+      "clothing": "A dark, long-sleeved jacket with a high collar and small red triangular accents, dark trousers with a thin vertical stripe down the side, and dark shoes.",
+      "action": "The man stands in the center of a large open area, initially facing forward, then turns his body to the side and back while keeping his hands near his waist or pockets.",
+      "camera": "The camera is at a low angle, capturing a full-body shot of the character, and slowly orbits around him from a front view to a side and then back view.",
+      "scene": "A futuristic, open-air plaza with a reflective floor, surrounded by modern buildings featuring glowing blue and red neon lights and digital displays."
+    },
+    "uncertain": [],
+    "observation_identity": "2e341ad1a13ade3e3978dd2b7ccba6b00218643888b3942fbac5137babf24a1f"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's action to match the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_743.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to match the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6609.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male figure with a pale face, short hair, and a slim build.",
+      "hairstyle": "Short, swept-back hair.",
+      "hair_color": "White.",
+      "clothing": "A dark, double-breasted military-style jacket with gold buttons and shoulder epaulettes, matching dark trousers with a thin white side stripe, and black shoes.",
+      "action": "The figure stands in an open plaza, turning slowly in place to face different directions while keeping his arms crossed or at his sides.",
+      "camera": "A medium full shot that orbits around the standing figure, keeping him centered while the background rotates.",
+      "scene": "A futuristic city plaza with a glossy reflective floor, large glass buildings with glowing cyan and pink neon rings, and tall skyscrapers in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "b7319039409c32398d4a7c1f0abee2e18002033cde87292b2edcb3bea0b3bb83"
+  }
+]

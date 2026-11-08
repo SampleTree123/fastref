@@ -1,0 +1,72 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6610.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind and in profile.",
+      "hairstyle": "Short, swept-back hair.",
+      "hair_color": "Pink.",
+      "clothing": "White short-sleeved shirt with black suspenders, black-and-white checkered trousers, and black shoes.",
+      "action": "The character stands still, then raises his right arm to touch the back of his head before lowering it again.",
+      "camera": "Static medium-long shot from behind and slightly to the side of the character.",
+      "scene": "A futuristic outdoor plaza with a large domed building featuring glowing teal rings, a tall building with lit windows, and a reflective concrete ground with red neon lines."
+    },
+    "uncertain": [],
+    "observation_identity": "37284acd0a45151cfed049c8eb2a7f6cb87fa69b64c0eb91441fd87f3c262fa3"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body orbit shot that starts in front, circles the person through 360 degrees, and returns to the front view. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_b634e2b4a9f6d235aa6f08b756e1bf81affde28de024980286819b91b3ee96f3.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body orbit shot that starts in front, circles the person through 360 degrees, and returns to the front view. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6608.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark face, broad shoulders, and a stocky build.",
+      "hairstyle": "Short, flat-topped hair.",
+      "hair_color": "White.",
+      "clothing": "White short-sleeved button-up shirt with a black bow tie, black suspenders, red-and-white checkered trousers, and black shoes.",
+      "action": "The character stands in a plaza, turns his body, raises his right hand to his head, and then lowers it while shifting his stance.",
+      "camera": "Full-body shot at eye level that slowly orbits around the character, changing from a front view to a side and then a rear view.",
+      "scene": "A futuristic city plaza with a reflective gray floor, glass buildings, glowing cyan circular light patterns, and pink ambient lighting."
+    },
+    "uncertain": [],
+    "observation_identity": "ec43a6d8c2212436d1459423f1bc97a5c658ac6bd3e7f239f4b7179ee048db7a"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_743.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6605.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark face, white hair, and a white bow tie.",
+      "hairstyle": "Short, spiky white hair.",
+      "hair_color": "White.",
+      "clothing": "A white short-sleeved button-up shirt with black suspenders, red-and-white checkered trousers, and black shoes.",
+      "action": "The character stands in a wide open area, turning his body and head to look around the environment.",
+      "camera": "A medium-wide shot that orbits around the character, showing him from the front, side, and back.",
+      "scene": "A futuristic city plaza with a reflective floor, large glass buildings with glowing cyan and pink neon lights, and a hazy sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e13d753086632e13ccd42bd5c01b159e83e0e80d022a1976dda1c86c47383e5a"
+  }
+]

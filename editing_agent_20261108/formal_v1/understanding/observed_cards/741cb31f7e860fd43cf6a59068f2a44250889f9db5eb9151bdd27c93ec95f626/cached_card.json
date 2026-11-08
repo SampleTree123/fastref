@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6905.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build, shown in profile facing right.",
+    "hairstyle": "Dark hair pulled back into a low bun with loose strands framing the face.",
+    "hair_color": "Black.",
+    "clothing": "She wears a long-sleeved pink cropped sweater, a white pleated mini skirt, and black lace-up boots.",
+    "action": "She stands in profile, then raises both hands to her head and lowers her head, before dropping her arms and standing upright again.",
+    "camera": "A static side-profile medium shot that slowly zooms out to reveal her full body.",
+    "scene": "An outdoor area with a large gray metal wall behind her and a paved ground in front."
+  },
+  "uncertain": [],
+  "observation_identity": "a713da6b6d8ccba176651591513c3700cd2e608506bfefd52b0194f5e1681d3f"
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7007.mp4",
+    "observed": {
+      "identity": "A slim female character with fair skin, seen from behind, with no visible face.",
+      "hairstyle": "Bright blue hair styled into two high buns with a center part and a few loose strands.",
+      "hair_color": "Bright blue.",
+      "clothing": "Pink-and-white gingham off-shoulder top with white ruffled sleeves, a black skirt with a gold rose pattern, and light blue sneakers.",
+      "action": "The character stands with her back to the camera, then turns and sways her body and arms in a slow dance-like motion.",
+      "camera": "A medium full-body shot from behind that slowly pushes in toward the character's upper body.",
+      "scene": "A cobblestone street lined with red-brick Victorian-style buildings, including a shop with a red awning and a Union Jack flag on the left."
+    },
+    "uncertain": [],
+    "observation_identity": "18d8c4a9c628858b3b57cc2d46aa40bfb11bd653aa508b84602827452fcb626f"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_781.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_782.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7009.mp4",
+    "observed": {
+      "identity": "A slender female figure with a light skin tone, seen from behind.",
+      "hairstyle": "Hair is styled into two high buns on either side of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A short, blue and white patterned dress with three-quarter sleeves and a low open back, paired with light pink flat shoes.",
+      "action": "The figure stands on a cobblestone street, initially still, then begins to walk forward and turn slightly to the right.",
+      "camera": "A medium full shot from behind the subject, remaining relatively static as the subject moves.",
+      "scene": "A European-style street with cobblestone paving, red brick buildings, and a Union Jack flag hanging on the left."
+    },
+    "uncertain": [],
+    "observation_identity": "55fda75d04f200db728c2a427e9dc3b260ed25260052517d7cfe90363cd27734"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_305.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to raising both hands in celebration, then thrusting one hand upward, as demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7022.mp4",
+    "observed": {
+      "identity": "A female character with a slim build, shown from behind, with no visible face.",
+      "hairstyle": "Hair is styled into two small buns on the upper sides of the head.",
+      "hair_color": "Bright blue hair with a visible center part.",
+      "clothing": "She wears a short blue-and-white patterned dress with three-quarter sleeves and an open back, plus light pink flat shoes.",
+      "action": "The character stands on a cobblestone street, raises both arms, then turns and shifts her weight while posing.",
+      "camera": "A medium full-body shot from behind, with the camera slowly moving closer and slightly panning as the character turns.",
+      "scene": "A hazy old European-style street with red brick buildings, shop signs, a Union Jack flag, and a cobblestone road."
+    },
+    "uncertain": [],
+    "observation_identity": "6d8a29eda3c185122f7a6feeec75a27deba8a5b1924266c0b54826e4d1ea08e2"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_23dfe538b566548afbcc290d1da13e0142de214de3d522b6f9ac3de85006d4c2.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to an upper-body shot from a rear three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7031.mp4",
+    "observed": {
+      "identity": "A slender female character with a slim build, shown from behind with her face not visible.",
+      "hairstyle": "Hair is styled into two small space buns on top of the head with the rest gathered into a low bun at the nape.",
+      "hair_color": "Bright blue with a few lighter streaks.",
+      "clothing": "She wears a short blue-and-white patterned dress with an open back and cold-shoulder cutouts.",
+      "action": "The character stands with her back to the camera, then raises both arms overhead and turns her body in a slow spin before returning to a standing pose.",
+      "camera": "A static medium shot from behind at roughly waist-to-head height, keeping the character centered.",
+      "scene": "An old-fashioned cobblestone street lined with brick and stone storefronts, including a dark shopfront with a 'MERCHANT' sign and a black lamppost."
+    },
+    "uncertain": [
+      "The character's face and front of the outfit are never visible, so facial features and the dress's front design are unclear."
+    ],
+    "observation_identity": "612615d35b8f9749c49af80c2692510ff856031c37e9c124e834d482c57973ea"
+  }
+]

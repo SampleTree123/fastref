@@ -1,0 +1,81 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7015.mp4",
+    "observed": {
+      "identity": "A slender woman with light skin, shown mostly from the back and side; her face is not clearly visible.",
+      "hairstyle": "Hair is gathered into two small buns on top of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a short, form-fitting dress with a busy multicolored pattern in purple, pink, blue, and orange, plus light pink slip-on shoes.",
+      "action": "She stands on a cobblestone street, raises both arms to adjust her hair, then lowers them and shifts her weight while turning slightly.",
+      "camera": "A static, full-body shot from a low angle captures the woman and the street behind her.",
+      "scene": "The setting is a rendered old-style city street with brick and stone buildings, vintage shop signs, black lampposts, and a cobblestone road."
+    },
+    "uncertain": [
+      "The woman's facial features are not clearly visible because she is mostly facing away from the camera."
+    ],
+    "observation_identity": "79530ac0b374f54a46a051e61470782242f7d39efe200ef5570c231e6ceafcaa"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_51.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_52.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7016.mp4",
+    "observed": {
+      "identity": "A slender woman with light skin, shown mostly from the side and back, with her face only briefly and partially visible.",
+      "hairstyle": "Her hair is styled into two small buns on top of her head.",
+      "hair_color": "Her hair is a vivid blue.",
+      "clothing": "She wears a short, form-fitting blue-and-white patterned dress with three-quarter sleeves and an open back, along with light pink slip-on shoes.",
+      "action": "She stands on a cobblestone street, raises both hands to adjust her hair, then lowers them and turns slightly while posing.",
+      "camera": "The camera holds a static, eye-level full-body shot from a side-rear angle.",
+      "scene": "The setting is a rendered old-town street with brick and stone buildings, vintage shop signs, black lampposts, and a cobblestone road."
+    },
+    "uncertain": [
+      "The woman's face is mostly turned away, so facial features are unclear.",
+      "The scene appears to be a 3D-rendered or game environment rather than a real location, but this is not certain."
+    ],
+    "observation_identity": "4f86a48f62ceb8295193d1e97dd37873416c2eb263ea194c73d92703fd1cec37"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_dd67622dd6d4d0148dd29b4ff16f2837f71542beedccb4ed1da49a122a113c97.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a rear-view dolly-in shot that moves from full-body to upper-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7023.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build and light skin.",
+      "hairstyle": "Hair is styled in two high buns (space buns) with a long side-swept fringe.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a short, blue-and-white patterned dress with three-quarter sleeves and pink flat shoes.",
+      "action": "The character stands on a cobblestone street, posing with one hand on her hip while raising the other to touch her hair, then slowly turns to show her back.",
+      "camera": "The camera maintains a medium full-body shot at a low angle, remaining mostly static as the character rotates.",
+      "scene": "The setting is a foggy, old-fashioned city street with red brick buildings, an 'OFFICES' sign, and a 'FLOWERS' shop awning."
+    },
+    "uncertain": [],
+    "observation_identity": "f5bbeb4e67c3196f51ffba6ee8267da1e6bb50f06cfd559c51d5c15d23e6c31d"
+  }
+]

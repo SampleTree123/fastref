@@ -1,0 +1,47 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6116.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind and in profile.",
+      "hairstyle": "Short, neatly trimmed hair.",
+      "hair_color": "Dark brown.",
+      "clothing": "White short-sleeved button-up shirt, black suspenders, black-and-white checkered trousers, and black shoes.",
+      "action": "The character stands still, then walks slowly forward and slightly to the right across the open plaza.",
+      "camera": "A static, medium-long shot from behind and to the left of the character, keeping him centered in the frame.",
+      "scene": "A futuristic outdoor plaza with a glossy, reflective concrete floor, a large domed building with glowing teal rings on the left, and a tall white building with blue-lit windows on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "90b7db30764680e88dec36764db29408bcb73fe999757b0abc8166c14f3a05bc"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_1bcdafdd7596ef2b1ea17383c1b3698ad4decbc00d0df3a237202eb81139404e.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6118.mp4",
+    "observed": {
+      "identity": "A person with a medium build and brown skin is shown from behind, with their face not visible.",
+      "hairstyle": "The person has short, dark hair.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "They wear a white short-sleeved shirt with a faint pattern, black Y-back suspenders, and black-and-white checkered trousers with dark shoes.",
+      "action": "The person stands still at first, then walks slowly forward away from the camera across the open plaza.",
+      "camera": "A static, eye-level full-body shot from behind the subject.",
+      "scene": "A futuristic city plaza with a glossy reflective floor, glowing red and cyan light strips, and tall modern buildings under a pale sky."
+    },
+    "uncertain": [
+      "The person's face and exact identity are not visible since they are shown from behind."
+    ],
+    "observation_identity": "33aac0394b914e05cd8dbaca9578a741d307cf194a5cb3c3646e69a9f00f0487"
+  }
+]

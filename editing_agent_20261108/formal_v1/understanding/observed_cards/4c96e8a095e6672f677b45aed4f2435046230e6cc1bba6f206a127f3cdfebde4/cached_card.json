@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6202.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build and light skin, shown in full body.",
+    "hairstyle": "Blonde hair styled in two high space buns.",
+    "hair_color": "Bright blonde.",
+    "clothing": "She wears a long-sleeved hot pink top, a light pink pleated mini skirt, and black lace-up boots.",
+    "action": "She begins standing facing the camera, then turns and performs a slow dance, raising her arms overhead and extending one arm to the side before standing still in profile.",
+    "camera": "Full-body shot at a low angle; the camera pans right to follow her as she turns and moves across the road.",
+    "scene": "An empty paved road under a concrete overpass, with metal guardrails, orange construction signs, street lamps, and trees on a rocky hillside in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "4d317915d12b2eea7cc927463d9e274e69213b4e346d154aca0113fa89587fae"
+}

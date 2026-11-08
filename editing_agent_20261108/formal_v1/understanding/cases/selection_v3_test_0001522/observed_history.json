@@ -1,0 +1,101 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6301.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build and dark skin stands in profile on a cobblestone street.",
+      "hairstyle": "Short hair with a small top-knot bun at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "White long-sleeve shirt under a dark brown vest, red-and-brown plaid trousers, and dark shoes.",
+      "action": "The character stands mostly still, then raises his right arm to touch his face and head before lowering it again.",
+      "camera": "Static medium-full shot from the side, keeping the character centered against the storefront.",
+      "scene": "A Victorian-style street with a dark storefront window displaying gold text reading 'SOAP OF EVERY DESCRIPTION SOLD HERE' and 'COCOA POWDER FROM THE COLONIES AVAILABLE NOW'."
+    },
+    "uncertain": [],
+    "observation_identity": "abbb272a1afc66114928e6d66a5ccae0a050d2357256c3d5ce5e74edceeddf30"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_764.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6304.mp4",
+    "observed": {
+      "identity": "A 3D-rendered Black man with a slim build, shown in profile and then full body.",
+      "hairstyle": "Short hair with a small top-knot bun at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "White long-sleeve shirt under a dark green vest, dark plaid trousers, and dark shoes.",
+      "action": "He stands in profile, then turns slightly, raises both arms overhead, and brings his hands down to his face before lowering his arms and standing still.",
+      "camera": "Static medium-wide side view at roughly waist-to-head height, pulling back slightly to show the full body.",
+      "scene": "An outdoor fairground or amusement park at dusk, with a marquee of round lights, a red-and-white striped food cart, a red train car, and a roller-coaster track in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "e4ab08a921a1250e1200b5803d3ce7a98f680b20795e346907c877ea2d144d8d"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_380.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_375.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's top with the item shown in the reference images. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6307.mp4",
+    "observed": {
+      "identity": "A Black man with a slim build, shown in profile and then from the front.",
+      "hairstyle": "Short hair with a small top-knot bun on the crown of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A yellow long-sleeved shirt with a white floral pattern, brown plaid trousers, and dark shoes.",
+      "action": "He stands on a cobblestone street, then bends forward, raises his arm, and coughs into his sleeve before straightening up again.",
+      "camera": "A static medium-full shot at eye level, framing the man from head to toe against the storefront.",
+      "scene": "An old-style street with a stone building facade, red-curtained windows, and painted signs reading 'SOAP' and 'COCOA POWDER FROM THE COLONIES'."
+    },
+    "uncertain": [],
+    "observation_identity": "101ff6c5eb44aa6236def234106cbdf029ef4bfaf6ddbe9a28e67053affd5c8f"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_c04bd5b56176667712867c018ddc601d77ae28aeb83d1ac341c4597573ef7445.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a rear-view dolly-out shot that moves from upper-body to full-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6310.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind.",
+      "hairstyle": "Short hair with a small top-knot or bun at the crown.",
+      "hair_color": "Bright blue.",
+      "clothing": "A yellow long-sleeved shirt with a white paisley-like pattern and brown plaid trousers.",
+      "action": "The character stands in the middle of the street, then begins to walk forward, swinging his arms.",
+      "camera": "A static, eye-level shot from directly behind the character.",
+      "scene": "A cobblestone street in a European-style town with brick buildings, shop awnings, street lamps, and a Union Jack flag hanging in the distance."
+    },
+    "uncertain": [],
+    "observation_identity": "dd5f0ac290dc1b72c3adb1875542d078004a1a1d8753b483b06eac16707036d1"
+  }
+]

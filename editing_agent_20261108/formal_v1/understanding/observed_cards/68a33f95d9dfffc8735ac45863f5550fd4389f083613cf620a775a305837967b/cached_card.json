@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6807.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build and dark skin stands centered in the frame.",
+    "hairstyle": "Her hair is styled in two high buns on top of her head.",
+    "hair_color": "Her hair appears dark brown, with lighter brown or blonde highlights visible at the front.",
+    "clothing": "She wears a bright pink long-sleeved off-the-shoulder crop top, a white pleated mini skirt, and black lace-up combat boots.",
+    "action": "She begins standing still facing forward, then turns her body to the side while raising her right hand to touch her hair and face, before turning back to face forward.",
+    "camera": "The camera maintains a static, full-body shot from a slightly low angle.",
+    "scene": "The setting is a futuristic, neon-lit environment at night, featuring a large glass dome structure with glowing pink and teal circular light patterns in the background and a reflective floor."
+  },
+  "uncertain": [],
+  "observation_identity": "af7c032870c416498e8207bbe15b3f789f01fab604752e3d2f0cb3d55a0df76c"
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6311.mp4",
+    "observed": {
+      "identity": "A 3D-rendered person with a slim build, seen from behind, with no visible face.",
+      "hairstyle": "Hair is gathered into a high bun on top of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A cream cable-knit sweater, light blue jeans, and brown shoes with light socks.",
+      "action": "The person stands still, then turns slightly and begins walking away down the street.",
+      "camera": "A static, eye-level medium shot from behind the subject.",
+      "scene": "A foggy, cobblestone street in a British-style town with brick buildings, shop signs, and a Union Jack flag."
+    },
+    "uncertain": [],
+    "observation_identity": "e39651c5a0f669b74456caa8c0654718eedc4426ac146a2a088955d75c38bf9c"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_d02e71b038d5e1328a413b43367b847fb39b28295fb79380fbac4bc92ea556af.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a side-view dolly-out shot that moves from upper-body to full-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6308.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned man with a short beard, shown in profile and then from the front.",
+      "hairstyle": "Short hair with a small topknot bun at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A loose tan cable-knit sweater, light blue jeans, tan socks, and brown lace-up shoes.",
+      "action": "He stands in profile, then turns to face forward and performs a small dance, lifting his knees and swinging his arms before returning to a standing pose.",
+      "camera": "A static, medium full-body shot at eye level that slowly pulls back to reveal his full figure.",
+      "scene": "An outdoor cobblestone street in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+    },
+    "uncertain": [],
+    "observation_identity": "46b099d6c87a5a539e89f7d8867e9b8f124892835876f31cde3d4b734d25433e"
+  }
+]

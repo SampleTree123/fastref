@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6632.mp4",
+  "observed": {
+    "identity": "A slender, light-skinned 3D character with a youthful face, visible in a full-body view.",
+    "hairstyle": "Short, spiky hair tied into a small topknot or bun at the back of the head.",
+    "hair_color": "Pink.",
+    "clothing": "A dark blue, double-breasted military-style uniform with gold buttons, gold epaulets, a gold belt, and matching trousers, paired with black shoes.",
+    "action": "The character stands still, then turns to the side, raises a hand to their head, and turns their back to the camera before turning back to face forward.",
+    "camera": "A medium full shot that orbits around the character, starting from the front, moving to the side and back, and returning to the front.",
+    "scene": "An outdoor, sunlit stone platform or dock area with cracked paving, wooden posts, rocks, and a body of water in the background, alongside a large stone building with pipes and archways."
+  },
+  "uncertain": [],
+  "observation_identity": "2367b4d23cbdc1753dfc9bbfacfd48bdc9a6de7fbfa52412c9ced37f93fcd7e0"
+}

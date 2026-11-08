@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6042.mp4",
+  "observed": {
+    "identity": "A young Black woman with a slim build and medium-brown skin stands in the center of the frame.",
+    "hairstyle": "Her hair is pulled back into a neat, low bun at the nape of her neck.",
+    "hair_color": "Her hair is a light brown or dark blonde color.",
+    "clothing": "She wears a white off-the-shoulder top with puffy sleeves over a pink-and-white gingham corset-style bodice, paired with black shorts featuring a gold ornate pattern and light blue sneakers.",
+    "action": "She begins standing still, then raises her right hand to brush her hair back, turns her body to the side, and finally faces forward again with a slight smile.",
+    "camera": "The camera is at a low angle, initially framing her full body and slowly zooming in to a medium shot of her upper body.",
+    "scene": "The setting is an outdoor amusement park at dusk, with a large Ferris wheel, a roller coaster, and a red 'Tickets' booth visible in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "86d31f23120ad12baa2b6e9fe3e3c24abfeb38eb93565ce2b2bc4afad85f7e40"
+}

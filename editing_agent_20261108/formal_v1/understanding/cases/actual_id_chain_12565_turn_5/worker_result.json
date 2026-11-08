@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "id": "actual_id_chain_12565_turn_5",
+  "dataset_index": 852,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 18.168101212009788,
+  "result": {
+    "source_video_id": 4,
+    "prompt": "Change only the camera setup to a full-body shot from a rear three-quarter angle. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video, then follow the described camera setup and movement. Preserve the person's appearance, expression, and action, along with the existing scene. Preserve the timing and progression of the action in the source video.",
+    "reference_ids": [
+      "ref_1"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

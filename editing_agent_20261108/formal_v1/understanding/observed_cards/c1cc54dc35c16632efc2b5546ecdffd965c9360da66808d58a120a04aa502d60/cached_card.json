@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6675.mp4",
+  "observed": {
+    "identity": "A young Black woman with a slim build, visible from head to toe.",
+    "hairstyle": "Blonde hair is pulled back into a loose, voluminous updo with a few strands framing her face.",
+    "hair_color": "Bright blonde.",
+    "clothing": "She wears a sleeveless, brown leopard-print crop top, high-waisted teal-green wide-leg trousers, and open-toed sandals with dark straps.",
+    "action": "She stands facing the camera, then raises both arms overhead in a stretching or dancing motion, briefly lifting one foot, before lowering her arms and returning to a standing pose.",
+    "camera": "A static, full-body shot from a slightly elevated angle, keeping the subject centered in the frame.",
+    "scene": "An outdoor, industrial-looking area with cracked concrete paving, scattered rocks, a stack of wooden pallets to the left, and rusted metal pipes and a dark doorway in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "5cb961ad1cd5c826dd5a9271c81789b94d25818db5d7c16f03baa88878fb6027"
+}

@@ -1,0 +1,49 @@
+{
+  "expected_cases": 1000,
+  "cases_ok": 1000,
+  "cases_error": 0,
+  "cases_pending": 0,
+  "route_correct": 984,
+  "route_attempted": 1000,
+  "route_total_expected": 1000,
+  "format_calls": 3040,
+  "format_invalid_calls": 8,
+  "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+  "groups": {
+    "explicit_latest": {
+      "total": 42,
+      "attempted": 42,
+      "correct": 42
+    },
+    "content_description_match": {
+      "total": 500,
+      "attempted": 500,
+      "correct": 484
+    },
+    "event_after": {
+      "total": 150,
+      "attempted": 150,
+      "correct": 150
+    },
+    "event_before": {
+      "total": 150,
+      "attempted": 150,
+      "correct": 150
+    },
+    "normal_continue": {
+      "total": 42,
+      "attempted": 42,
+      "correct": 42
+    },
+    "explicit_id": {
+      "total": 116,
+      "attempted": 116,
+      "correct": 116
+    }
+  },
+  "accuracy_over_all_expected": 0.984,
+  "agreement_over_attempted": 0.984,
+  "all_cases_finished": true,
+  "all_cases_succeeded": true,
+  "route_metric": "source_id_accuracy"
+}

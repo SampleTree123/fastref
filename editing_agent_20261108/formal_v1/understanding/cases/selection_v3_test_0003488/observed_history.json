@@ -1,0 +1,75 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6793.mp4",
+    "observed": {
+      "identity": "A slender woman with dark skin and a neutral expression, shown in a full-body view.",
+      "hairstyle": "Short hair with two small buns or puffs on top of the head.",
+      "hair_color": "Light brown to blonde, appearing lighter under the scene lighting.",
+      "clothing": "A short purple dress with a white abstract pattern, three-quarter sleeves, and cutouts at the shoulders, paired with red sneakers.",
+      "action": "She stands facing forward, then walks slowly toward the camera and stops, turning her head to the side at the end.",
+      "camera": "A static, low-angle full-body shot that keeps the subject centered throughout the clip.",
+      "scene": "A futuristic setting with a large glass dome, glowing teal ring lights, pink structural framing, and a reflective wet-looking floor under a blue sky."
+    },
+    "uncertain": [
+      "Exact hair color, since the scene's colored lighting shifts the apparent tone.",
+      "Whether the figure is a real person or a rendered/CGI character, as the image has a stylized digital look."
+    ],
+    "observation_identity": "012fc3b6d53f7fcbad89031af69b07e7edb88266f53784e54069592cf9971bad"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_66.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6795.mp4",
+    "observed": {
+      "identity": "A slender woman with dark skin and a slim build, shown from head to toe.",
+      "hairstyle": "Her hair is pulled up into two high buns on either side of her head.",
+      "hair_color": "Her hair appears dark brown, with a few lighter strands visible near the face.",
+      "clothing": "She wears a short, purple and white patterned dress with elbow-length sleeves and red sneakers.",
+      "action": "She stands facing forward, then raises her right hand to her face and head while placing her left hand on her hip, before lowering her arm and returning to a standing pose.",
+      "camera": "The camera holds a static, full-body frontal shot at a slight low angle.",
+      "scene": "She stands on a glossy, reflective floor in front of a large glass structure with pink framing, glowing green rings, and a dark dome with a white circular light above."
+    },
+    "uncertain": [
+      "The exact pattern on the dress is hard to identify clearly due to the lighting and resolution."
+    ],
+    "observation_identity": "a07d8b273b54065236d77c965c63ee4e2be61b4eff6d15d89232db4f312b400a"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_1d3ad12e8124582aa7cf4dd46eda9cac19b11eea1bb981519d27145d4cd465cc.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6804.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a medium-dark complexion, visible facial features, and a slim build.",
+      "hairstyle": "Her hair is styled into two high buns on top of her head with loose strands framing her face.",
+      "hair_color": "Her hair appears brown with lighter blonde highlights.",
+      "clothing": "She wears a short-sleeved, V-neck dress with a purple and pink patterned design and cut-out shoulders.",
+      "action": "She stands facing the camera, then turns her head to the side and raises her hand to brush her hair back before turning back to face forward.",
+      "camera": "The camera maintains a static medium shot from the waist up, keeping the subject centered.",
+      "scene": "The setting is a futuristic environment at night, featuring a large glass dome structure with glowing pink and teal neon rings and a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "76ac5c8fed71e2ec834bc100f6ee05f6ba8b97650f070a1a10d4a3ccfa04cf90"
+  }
+]

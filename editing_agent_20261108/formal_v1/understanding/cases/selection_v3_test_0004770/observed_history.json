@@ -1,0 +1,101 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7056.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a light brown complexion, short dark hair, and a thin mustache.",
+      "hairstyle": "Short dark hair with a small ponytail or topknot at the back of the head.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A dark blue military-style uniform jacket with gold buttons, gold epaulets, and a gold belt, paired with matching dark blue trousers and black shoes.",
+      "action": "The character stands still, then turns his body to the right, looks up, and finally faces forward again.",
+      "camera": "The camera starts with a low-angle front view, pans around the character to show his side and back, and returns to a front view.",
+      "scene": "An outdoor paved area under a concrete overpass, with trees, a guardrail, and construction barriers in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "71d34c15757137f31a876513ba33d8111b20e30449d42ce6da4755bb40c4cc67"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_580.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7065.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a medium-brown complexion, a short beard, and a slim build.",
+      "hairstyle": "Short dark hair on the sides with a longer top tied back into a small ponytail.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A dark blue, double-breasted military-style jacket with gold buttons and shoulder patches, matching dark blue trousers with a white side stripe, a black belt with a gold buckle, and black shoes.",
+      "action": "The character stands still facing the camera, then turns and walks in a slow circle, showing his profile and back before returning to a front-facing stance.",
+      "camera": "A low-angle, full-body shot that remains at a consistent distance while panning horizontally to track the character's rotation.",
+      "scene": "An outdoor paved area under a concrete overpass, with construction barriers, road signs, trees, and a bright sky in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "f77d9608745ba7266dbee68e7d99d60e57e97ef12f179482aa30d8d080c15a60"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_462.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_157.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7080.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, light brown skin, and a short beard.",
+      "hairstyle": "Short dark hair on the sides and top, with the back tied into a small ponytail or bun.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled-up sleeves, brown leather suspenders, dark grey plaid trousers, and dark shoes.",
+      "action": "The character stands still, then turns and walks in a slow circle, showing his front, side, and back profiles before returning to a standing position.",
+      "camera": "A low-angle, full-body shot that remains at a consistent distance while panning to follow the character's rotation.",
+      "scene": "An outdoor paved area, possibly a parking lot or road, under a concrete overpass with trees, guardrails, and construction barriers in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "fddbedab4532b55219916c9abfd9e6557cc4b578cd5472a0225910254bc464d2"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_0e3c267dde5d7d5df0c189798d32f3b6859f1c67d3141ed55d235c5d4d4eea0f.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a front three-quarter angle. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7092.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with a medium-brown complexion, short dark hair, and a thin mustache.",
+      "hairstyle": "Short, dark hair that is slightly longer and swept back at the sides.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A light blue and white plaid button-up shirt with rolled-up sleeves, brown leather suspenders, and dark plaid trousers.",
+      "action": "The man walks slowly forward and to the right, turning his head to look around the environment.",
+      "camera": "A medium shot from a slightly low angle that tracks the man as he moves, keeping him centered in the frame.",
+      "scene": "An outdoor urban setting on a paved road, featuring a concrete overpass, a metal railing, green trees, and a construction crane in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "85a41b76486ed2b4f22c238b86a221bd354f3efcdf7a80834bba499cfaddb61b"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6262.mp4",
+  "observed": {
+    "identity": "A 3D-rendered woman with a slim build, light skin, and a neutral facial expression.",
+    "hairstyle": "Short, straight hair with bangs, tucked behind her ears.",
+    "hair_color": "Pinkish-red.",
+    "clothing": "A short, short-sleeved dress with a colorful abstract pattern in blue, purple, orange, and green, paired with pink sneakers.",
+    "action": "The woman stands in the center of an open paved area and slowly rotates a full 360 degrees, starting facing forward, turning to her left, then to her back, and returning to face forward.",
+    "camera": "A static, full-body shot at eye level that keeps the woman centered in the frame throughout the rotation.",
+    "scene": "An outdoor amusement park setting during the day, featuring a large Ferris wheel, a carousel, a 'General Store' building, and various carnival rides and stalls in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "f56f515c79852aa67db2be8f9ef8f9e08a07a4fef06d7baa78d7c85201825193"
+}

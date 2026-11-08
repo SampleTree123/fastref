@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6283.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build, shown in profile and from behind.",
+    "hairstyle": "Short hair with a small bun or ponytail at the back of the head.",
+    "hair_color": "Reddish-pink with darker purple tones.",
+    "clothing": "A sleeveless patterned crop top, light gray high-waisted pants, and dark brown boots.",
+    "action": "The character stands on a tiled rooftop, slowly turning in place while raising one hand to her head and resting the other on her hip.",
+    "camera": "A medium full-body shot that orbits around the character at a low angle.",
+    "scene": "A stylized city rooftop with tiled flooring, surrounded by buildings, cranes, and Japanese signage under warm sunlight."
+  },
+  "uncertain": [],
+  "observation_identity": "d87478662ffae48925917378cef8320455858f51d5b9c6f4f3ed2793e12e699d"
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6731.mp4",
+    "observed": {
+      "identity": "A Black man with a slim build, short beard, and a small tattoo on his left forearm.",
+      "hairstyle": "Short hair on the sides with a longer top tied into a small high ponytail.",
+      "hair_color": "Light brown.",
+      "clothing": "White tank top with a pink and yellow palm-tree graphic reading 'LOS ANGELES', light blue shorts with white trim, and pink slip-on shoes.",
+      "action": "The man stands facing the camera, then turns his body to the right while raising his right hand toward his chest.",
+      "camera": "Full-body shot at eye level; the camera pans left to follow the man as he turns.",
+      "scene": "A cobblestone street in front of old stone buildings with vintage shop signs, including a Union Jack flag and an 'Apothecary' sign."
+    },
+    "uncertain": [],
+    "observation_identity": "41537906949148c5bb40f5d292045dfcc75ae63adecb9f0e9e2b74004db8855b"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_454.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6722.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim, athletic build and dark skin.",
+      "hairstyle": "Short hair on the sides with a small ponytail or bun at the back of the head.",
+      "hair_color": "Light brown or dark blonde.",
+      "clothing": "A white tank top with a pink and yellow tie-dye pattern and the word 'LOS ANGELES' on the chest, light blue shorts with white trim, and pink sneakers with white soles.",
+      "action": "The character stands still, then slowly turns his body to the right, ending in a profile view facing the water.",
+      "camera": "A full-body shot that remains at a consistent distance while the character rotates, keeping him centered in the frame.",
+      "scene": "An outdoor, sunlit area with cracked concrete ground, wooden pallets, and old industrial buildings with pipes in the background, next to a body of water."
+    },
+    "uncertain": [],
+    "observation_identity": "177eafa99efbba2d633bf110f128c746b736580d6f1069729d0be1db38e04253"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: The person currently has chestnut brown hair; please change it to black.",
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: The person currently has chestnut brown hair; please change it to black.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6707.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned young man with a short beard and a small topknot of hair.",
+      "hairstyle": "Short hair on the sides with a small topknot tied at the back of the head.",
+      "hair_color": "Black.",
+      "clothing": "A white tank top with a pink and yellow tie-dye pattern and a palm tree graphic, light blue shorts with white trim, and pink sneakers.",
+      "action": "The man stands still, then turns his body to the right, looking over his shoulder and then forward as he rotates.",
+      "camera": "A full-body shot that starts from the front and pans to the right, following the man as he turns to show his side and back profile.",
+      "scene": "An outdoor, sunlit area with cracked concrete ground, wooden pallets, and a large, weathered building with arched windows and ivy in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "582e65199c88f5868d18cbab58670dabf1663ff181d859b911e179db2bfcf5ea"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's action to walking forward, as demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_478.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to walking forward, as demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6720.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned young man with a short beard and mustache.",
+      "hairstyle": "Short hair on the sides with longer hair pulled back into a small ponytail at the back of the head.",
+      "hair_color": "Black.",
+      "clothing": "White sleeveless tank top with a pink, yellow, and orange tie-dye pattern and palm tree graphics, light teal shorts with white trim, and pink sneakers with white soles.",
+      "action": "The man stands facing the camera, then turns and walks slowly to his left across the platform, glancing around and looking upward as he moves.",
+      "camera": "Full-body shot at eye level; the camera pans and arcs to the right, following the man as he walks and ending on a rear view.",
+      "scene": "A sunlit outdoor stone dock or pier with stacked wooden crates, metal pipes, and a large cylindrical tank, with a body of water and green hills in the background under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "3a08a34a28536e505b3c427f08a3e89dcc9071b778ccdcf5e2daaa7a612fe9b3"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7117.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build and fair skin, shown from head to toe.",
+    "hairstyle": "Red hair with straight bangs and two small buns on top of her head.",
+    "hair_color": "Red.",
+    "clothing": "A short black dress with a green polka-dot bodice, white lace-up front, puffy black off-shoulder sleeves, and a gold floral pattern on the skirt, paired with light blue sneakers.",
+    "action": "She stands facing the camera, then turns and walks to the right across the street, ending with her back to the camera.",
+    "camera": "Full-body shot at eye level that pans right to follow her as she walks.",
+    "scene": "A cobblestone street lined with old stone buildings, vintage shop signs, a Union Jack flag, and black lampposts under an overcast sky."
+  },
+  "uncertain": [],
+  "observation_identity": "a6b72ee37982f47793a82a091f173d9014634c15fd02d91bfd1f90077267a71d"
+}

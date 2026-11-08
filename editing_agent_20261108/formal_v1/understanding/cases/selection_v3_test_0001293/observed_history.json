@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6225.mp4",
+    "observed": {
+      "identity": "A slim young woman with light skin, shown in a 3D-rendered style.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail.",
+      "hair_color": "Bright blonde.",
+      "clothing": "She wears a long-sleeved hot-pink top, a matching pink pleated mini skirt, and black lace-up boots.",
+      "action": "She stands in the middle of the road, turns her body, raises one arm to brush her hair back, then lowers it and shifts her stance.",
+      "camera": "A static, low-angle full-body shot from across the road.",
+      "scene": "An empty asphalt road under a concrete overpass, with orange-and-white construction barriers, a blue directional sign, guardrails, trees, and a construction crane in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "88a886412f4c0acddddb122888e1105ccce53a343e6ca254b27ce7543148408d"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_493.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6237.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build and light skin, shown in full body.",
+      "hairstyle": "Short hair with a side-swept fringe and a small bun or ponytail at the back.",
+      "hair_color": "Bright yellow-green.",
+      "clothing": "Long-sleeved pink sweater, short pink pleated skirt, and black lace-up boots.",
+      "action": "She stands facing forward, then turns to her right, raises one arm to brush her hair back, and lowers it while turning back toward the front.",
+      "camera": "Static full-body shot at a slight low angle from the front-left.",
+      "scene": "An outdoor rooftop or plaza with tiled and pebbled ground, large gray metal structures, and a city skyline with cranes and lit buildings in the background under warm low sunlight."
+    },
+    "uncertain": [],
+    "observation_identity": "7c017300d5cd3060ca89573bcee2d83ff9cfae5b586819294c2df08ef4b36e63"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to chestnut brown.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6243.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build and light skin, shown in full body.",
+      "hairstyle": "Blonde hair pulled back into a high ponytail with loose strands framing the face.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a long-sleeved pink sweater, a short pink pleated skirt, and black lace-up boots.",
+      "action": "She stands on a rooftop, turns her head and body, raises one arm to brush her hair back, then places her hands on her hips before returning to a standing pose.",
+      "camera": "Static full-body shot from a low angle, keeping the character centered in frame.",
+      "scene": "A stylized city rooftop at dusk with tiled and pebbled flooring, large gray utility structures, and distant buildings with cranes and neon signs."
+    },
+    "uncertain": [],
+    "observation_identity": "6d4c11a2a9de1e07a9cfef02a223f5ecf86ae14b60c667319b33f43b60e4d012"
+  }
+]

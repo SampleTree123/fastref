@@ -1,0 +1,82 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6382.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young man with a medium-brown complexion, short facial stubble, and a neutral expression.",
+      "hairstyle": "Short, textured hair with a slightly spiky top.",
+      "hair_color": "Dark brown with a bright green tint on the top.",
+      "clothing": "A light blue, long-sleeved cable-knit sweater and dark trousers.",
+      "action": "The man stands facing the camera, then raises both arms overhead in a stretching motion, tilts his head back, and finally lowers his arms to return to a standing pose.",
+      "camera": "A static, medium shot from the waist up, keeping the subject centered in the frame.",
+      "scene": "A stylized, futuristic city street at dusk, featuring tall buildings, glowing Japanese signs, and a wet, reflective pavement."
+    },
+    "uncertain": [],
+    "observation_identity": "80fe75ee0b81d03e8fd41ae1346eafd902e964b995da34fab26c79c5b66b7e19"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_879.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_880.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the bottoms, the top, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6380.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark complexion, short facial stubble, and a neutral expression.",
+      "hairstyle": "Short, spiky hair that is styled upward.",
+      "hair_color": "Bright green.",
+      "clothing": "A white long-sleeved collared shirt worn under a black sleeveless vest, paired with red pants and a brown belt with a large buckle.",
+      "action": "The character stands facing the camera, then raises both arms overhead and tilts his head back before lowering his arms and returning to a standing pose.",
+      "camera": "A static, medium shot from the waist up, keeping the character centered in the frame.",
+      "scene": "An outdoor urban street at dusk, featuring tall buildings, construction cranes, and illuminated storefront signs with Japanese text."
+    },
+    "uncertain": [],
+    "observation_identity": "a3177903e7ef13e4dcf0faea1081eb1caa19377a5de79233ebd66f3ed8ad01ef"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_933.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_934.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the bottoms, the top, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6381.mp4",
+    "observed": {
+      "identity": "A young man with a slim build and dark skin stands centered in the frame.",
+      "hairstyle": "He has short, textured hair with a slightly spiky top.",
+      "hair_color": "His hair is dyed a bright green color.",
+      "clothing": "He wears a long-sleeved yellow button-up shirt with a white floral pattern, maroon trousers, and a dark brown belt.",
+      "action": "The man begins standing still, then raises both arms overhead and moves them in a rhythmic, dance-like motion before returning to a stationary pose.",
+      "camera": "The camera maintains a static, medium-shot framing from the waist up, keeping the subject centered throughout the clip.",
+      "scene": "The setting is a stylized, animated city street with tall buildings, Japanese signage, and construction cranes in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "b021108740a5a199627423fdce82f8a518d92874f60cdb5b3c58db22dea25d86"
+  }
+]

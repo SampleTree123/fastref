@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6108.mp4",
+  "observed": {
+    "identity": "A slim, dark-skinned male figure with a short buzz cut, seen from behind.",
+    "hairstyle": "Short, dark buzz cut.",
+    "hair_color": "Black.",
+    "clothing": "A white sleeveless tank top with a pink and yellow palm tree graphic on the back, light blue shorts with white trim, and reddish-brown slip-on shoes.",
+    "action": "The figure stands in the center of a wet plaza, slowly turning his body to the left and then back to face forward.",
+    "camera": "A static, medium-full shot from behind the character at a slightly low angle.",
+    "scene": "A futuristic city plaza with wet, reflective pavement, featuring modern buildings with glowing cyan and pink lights in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "57b733c4dc1dd683e35009d16b3e17247a31588e977898f7dd3f8f7bf69a5892"
+}

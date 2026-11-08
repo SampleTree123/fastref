@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6198.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and light skin, shown in a 3D-rendered style.",
+      "hairstyle": "Blonde hair pulled up into a high bun with straight bangs across the forehead.",
+      "hair_color": "Blonde.",
+      "clothing": "She wears a bright pink long-sleeved top, a matching pink pleated mini skirt, and black lace-up boots.",
+      "action": "She stands in the middle of a road, then raises both arms overhead and turns her body in a slow spin before returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot from across the road.",
+      "scene": "An outdoor paved road under a concrete overpass, with orange-and-white construction barriers, traffic signs, a metal guardrail, and trees in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "1c6740f2c2b90d4e228de281d3e43a81300ae8d59cdc0c4a6066141e4da717d5"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_759.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_760.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the skirt, the top, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6196.mp4",
+    "observed": {
+      "identity": "A slender woman with a fair complexion and a small face, shown in full body from head to toe.",
+      "hairstyle": "Blonde hair pulled up into a high bun with straight bangs across the forehead.",
+      "hair_color": "Bright blonde.",
+      "clothing": "A short black dress with a yellow floral pattern, a white lace-up bodice, and black puffed elbow-length sleeves, paired with light blue sneakers.",
+      "action": "She stands still, then raises both arms overhead and shifts her weight while stepping and turning slightly, before lowering her arms and returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot that keeps the woman centered in the frame.",
+      "scene": "An outdoor paved road under a concrete overpass, with red-and-white construction barriers, a blue directional sign, metal guardrails, trees, and a construction crane in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "d27c6e4566a0736ad44d021aa307d7319a76ab4f3d255726db00330226a9d6d0"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_d26e213b7ac847465708565fa7e07431707ab06018e1329184a07fa3e2779aaf.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a full-body orbit shot that starts in front and moves through a side view toward the rear over a 120-degree arc. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6200.mp4",
+    "observed": {
+      "identity": "A slender young woman with a fair complexion and a slim build.",
+      "hairstyle": "Her hair is styled in two small buns on top of her head.",
+      "hair_color": "Bright yellow.",
+      "clothing": "She wears a short, sleeveless dress with a black base and a yellow floral pattern, featuring a white corset-style bodice and puffy black sleeves, paired with light blue slip-on shoes.",
+      "action": "The woman stands in the middle of a road, then raises her arms and begins to dance, turning her body and moving her arms in a rhythmic fashion.",
+      "camera": "The camera is positioned at a low angle, capturing a full-body shot of the woman, and slowly pans to the right as she moves.",
+      "scene": "The setting is an outdoor road under a concrete overpass, with guardrails, streetlights, and trees with yellowing leaves in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "5ce8f0c7ee93c95a1837b9464a3809f199684d0a13f07a751aea51f9bbefbb4e"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7066.mp4",
+  "observed": {
+    "identity": "A 3D-rendered adult male character with a medium-brown complexion, short facial hair, and a high ponytail.",
+    "hairstyle": "Dark hair pulled back into a high ponytail with short sides.",
+    "hair_color": "Dark brown or black.",
+    "clothing": "Light blue and white plaid button-up shirt with rolled sleeves, brown leather suspenders, dark plaid trousers, and dark shoes.",
+    "action": "The character stands in an open paved area and slowly rotates in place, turning from facing the camera to a side profile, then to a back view, and finally back to the front.",
+    "camera": "A low-angle, full-body shot that remains at a consistent distance while the character rotates, keeping him centered in the frame.",
+    "scene": "An outdoor paved lot or road under a concrete overpass, with guardrails, trees, and road signs visible in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "fbdf5bb4c440ec5bea0ca08ec400cbcb7b7ea82e365da858dc75763d0f435a00"
+}

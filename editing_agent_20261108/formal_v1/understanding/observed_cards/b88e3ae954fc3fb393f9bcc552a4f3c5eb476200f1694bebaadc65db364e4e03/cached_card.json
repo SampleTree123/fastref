@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7030.mp4",
+  "observed": {
+    "identity": "A slender female character with a slim build, shown mostly from behind.",
+    "hairstyle": "Hair is styled into two small buns on top of the head with a short fringe.",
+    "hair_color": "Bright blue with a few lighter streaks.",
+    "clothing": "A short, form-fitting dress with a dark navy base covered in a colorful paisley and floral pattern in pink, purple, blue, and yellow, featuring an open back and cold-shoulder cutouts.",
+    "action": "The character stands with her back to the camera, then raises both arms overhead and turns her head to the side before lowering her arms and returning to a standing pose.",
+    "camera": "A static medium shot from behind at roughly waist-to-head height, keeping the character centered.",
+    "scene": "A cobblestone street in front of old-style brick and stone storefronts, including a dark shopfront with a 'MERCHANT' sign and a 'COCOA POWDER' window, plus a black street lamp."
+  },
+  "uncertain": [],
+  "observation_identity": "4de8aad53384d5fe1f6996f35125c7291cdc6cd6e34a174b29eb62ff3ba63e4b"
+}

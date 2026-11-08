@@ -1,0 +1,138 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7185.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind.",
+      "hairstyle": "Short hair with a small topknot or ponytail at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A light plaid long-sleeve shirt with brown leather suspenders, dark plaid pants with a rip at the back, and dark shoes.",
+      "action": "The character stands still, then raises both arms to pump fists in the air, sways and turns slightly, and finally lowers the arms to return to a standing pose.",
+      "camera": "A static, low-angle, full-body shot from directly behind the character.",
+      "scene": "An outdoor paved road or parking area under a blue sky, with a street lamp, a guardrail, and yellow-green trees in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "eb630b942df5d2fcba266380131de577715fa7a60333fd896c66cd85649e03ed"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to standing in a thoughtful pose, following the demonstration in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_233.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to standing in a thoughtful pose, following the demonstration in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7190.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, shown from behind.",
+      "hairstyle": "Hair is pulled back into a small topknot or bun at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "Light plaid long-sleeve shirt with brown leather suspenders, dark distressed jeans with rips at the knees, and dark shoes.",
+      "action": "The character stands on the road, shifting weight and turning slightly side to side while facing away from the camera.",
+      "camera": "Static medium-full shot from behind the character at roughly waist-to-head height.",
+      "scene": "An outdoor paved road or parking area under a blue sky, with a street lamp, guardrail, and green and yellow autumn trees in the background."
+    },
+    "uncertain": [
+      "The character's face is not visible, so facial features and exact age are unclear."
+    ],
+    "observation_identity": "96bb067af5d2ab06b176d294f82d2d4ed29d07290148581ce6b3d0299cc75553"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_478.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_370.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Please return to video 0 and make the following change to that video: Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7177.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind.",
+      "hairstyle": "A blue ponytail tied at the back of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "A dark, tattered suit jacket and matching trousers with a black belt and black shoes.",
+      "action": "The character stands still, then raises both arms in a cheering or dancing motion before returning to a standing pose.",
+      "camera": "A static, medium-full shot from behind the character at a slightly low angle.",
+      "scene": "An outdoor paved road or parking area with a guardrail, trees with yellow and green leaves, and a blue sky with clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "dda0e74d6bbc01490e08eb02cb004414168b62ab707903e8980886785f76550f"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_38.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_79.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7184.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark skin tone, seen from behind.",
+      "hairstyle": "Short, spiky hair.",
+      "hair_color": "Bright blue.",
+      "clothing": "A dark blue, long-sleeved jacket and matching trousers with a black belt, black shoes, and tan patches on the back and seat.",
+      "action": "The character stands still, then raises both arms in a cheering or dancing motion before returning to a standing pose.",
+      "camera": "A static, medium-full shot from behind the character at a slightly low angle.",
+      "scene": "An outdoor paved area, possibly a road or parking lot, with a guardrail, trees with yellow and green leaves, a street lamp, and a blue sky with clouds."
+    },
+    "uncertain": [],
+    "observation_identity": "c6acdbc24bfd2f315d1434adeb3765bfe65f19db764da93aab495dcded0c5dd6"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_769.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7192.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a stocky build, seen from behind.",
+      "hairstyle": "Short, cropped hair.",
+      "hair_color": "Blue.",
+      "clothing": "A dark grey, long-sleeved tracksuit with a belt, white side stripes, and tan patches on the back and legs, worn with dark shoes.",
+      "action": "The character stands with his back to the camera, then raises both arms to perform a short dance or victory gesture before lowering them and returning to a standing pose.",
+      "camera": "A static, low-angle, full-body shot from directly behind the character.",
+      "scene": "An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a speaker on the left, and a cityscape of buildings with red signs in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "6d85d5741c85c3bf48429599b278724b8c0c5c2be5d57fc22624ad706b6098aa"
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6693.mp4",
+    "observed": {
+      "identity": "A person with a slim build is seen from behind, with their face mostly hidden in shadow.",
+      "hairstyle": "Dark hair is pulled back into a high ponytail.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "They wear a dark, long-sleeved jacket and matching pants with light-colored piping along the seams.",
+      "action": "The person stands on a stone platform, slowly turning their body and head to look over their shoulder.",
+      "camera": "The camera is positioned behind the subject at a medium distance, remaining mostly static with slight reframing as the subject moves.",
+      "scene": "The setting is an outdoor stone terrace overlooking a calm body of water under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "8f8e3f368f95c21c60041a83a5ae8b1087ca02dbfb2210b24a8cb73d20957f68"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_613.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_614.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the top, the bottoms, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6691.mp4",
+    "observed": {
+      "identity": "A muscular person with a broad back and shoulders, seen mostly from behind.",
+      "hairstyle": "Dark hair pulled up into a high ponytail.",
+      "hair_color": "Black.",
+      "clothing": "A sleeveless tank top with a pink-to-yellow gradient and pink palm-tree graphics, paired with light green shorts and pink sneakers.",
+      "action": "The person stands facing the water, then slowly turns their body and head to the side and back again.",
+      "camera": "A static, low-angle full-body shot from behind the subject.",
+      "scene": "An outdoor stone patio beside a calm body of water under a clear blue sky, with rocks and wooden posts visible at the water's edge."
+    },
+    "uncertain": [],
+    "observation_identity": "554b3bafe41cf640844bafb5f057d8ba199c19f8d185b6d5ffc25049e0f7c07a"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_432.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they sneeze, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6695.mp4",
+    "observed": {
+      "identity": "A muscular person with a broad back and shoulders, seen from behind with their face not visible.",
+      "hairstyle": "Dark hair is pulled up into a high bun or topknot.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "They wear a sleeveless tank top with a pink-to-yellow gradient, palm tree graphics, and green shark-mouth designs near the hem, paired with light green shorts and pink sneakers.",
+      "action": "The person stands facing the water, then begins jogging in place, swinging their arms and lifting their knees.",
+      "camera": "A static, low-angle full-body shot from directly behind the subject.",
+      "scene": "The setting is a sunlit stone patio or pool deck overlooking a calm ocean under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "2b4f433d0b4994cb33b084159dd18a17d2fce78f3a7024018680c0e691117010"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_ca5cc7b56a41566c326271ca84455bf0ee98779557019edeeda42bb631fd55fb.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to an upper-body shot from behind. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6704.mp4",
+    "observed": {
+      "identity": "A person with a medium build and brown skin, seen from behind, with a muscular back and arms.",
+      "hairstyle": "Dark hair is pulled up into a high, slightly messy bun or topknot.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A sleeveless tank top with a sunset-colored palm tree graphic and light green or teal pants.",
+      "action": "The person stands with their back to the camera, then turns their head and upper body to the right, looking toward the water, before turning back to face forward.",
+      "camera": "A static, medium shot from behind the person, capturing them from the waist up against the background.",
+      "scene": "An outdoor, sunny location near a body of water, possibly a beach or pier, with a stone or concrete surface and a wooden post visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "26d7ba7ed9b34620d7ec12dcad9677de16d7811d2facefa2c515ffaafb4c92b3"
+  },
+  {
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_50064fab8f8895dbf3269de96357e3191e25d4ab9ae5ce48939f7cf05c3b8359.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a full-body orbit shot that starts in front and moves through a side view toward the rear over a 120-degree arc. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6707.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned young man with a short beard and a small topknot of hair.",
+      "hairstyle": "Short hair on the sides with a small topknot tied at the back of the head.",
+      "hair_color": "Black.",
+      "clothing": "A white tank top with a pink and yellow tie-dye pattern and a palm tree graphic, light blue shorts with white trim, and pink sneakers.",
+      "action": "The man stands still, then turns his body to the right, looking over his shoulder and then forward as he rotates.",
+      "camera": "A full-body shot that starts from the front and pans to the right, following the man as he turns to show his side and back profile.",
+      "scene": "An outdoor, sunlit area with cracked concrete ground, wooden pallets, and a large, weathered building with arched windows and ivy in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "582e65199c88f5868d18cbab58670dabf1663ff181d859b911e179db2bfcf5ea"
+  }
+]

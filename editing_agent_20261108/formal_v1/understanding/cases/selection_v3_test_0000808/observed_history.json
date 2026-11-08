@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6136.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen mostly from behind and the side.",
+      "hairstyle": "Short, neatly trimmed hair.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "White short-sleeved button-up shirt with dark suspenders, black-and-white checkered trousers, and dark shoes.",
+      "action": "The character stands still, then walks slowly forward and slightly to the right across the open plaza.",
+      "camera": "A static, eye-level medium-long shot keeps the character centered in the frame.",
+      "scene": "A futuristic outdoor plaza with a glossy reflective floor, a large domed building with glowing teal rings on the left, and a tall white building with blue-lit windows on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "e5d78cd8967256b708bcad3f5f597a8bfa431929ec5c401528a5084b3cbe4ceb"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_569.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6159.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, seen from behind.",
+      "hairstyle": "Short hair, neatly cut.",
+      "hair_color": "Dark brown.",
+      "clothing": "White long-sleeved shirt with brown suspenders, brown-and-white checkered trousers, and dark shoes.",
+      "action": "The character stands briefly, then walks slowly forward and slightly to the left across the rooftop surface.",
+      "camera": "Medium full-body shot from behind at a low angle; the camera tracks the character with a slight forward dolly as he moves.",
+      "scene": "A stylized urban rooftop with concrete buildings, a large satellite dish, vents, and a wet, reflective paved ground under bright daylight."
+    },
+    "uncertain": [],
+    "observation_identity": "c5d570a1cd85bd5d2968b569389cc6950dc9e21771ef0f949a3528be2d273e83"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_18.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_111.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6181.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned woman seen from behind, with a small tattoo visible on her upper back.",
+      "hairstyle": "Brown hair pulled back into a low bun or ponytail.",
+      "hair_color": "Brown.",
+      "clothing": "White long-sleeved shirt with brown suspenders, brown-and-white checkered pants, and dark shoes.",
+      "action": "She stands briefly, then walks slowly away from the camera across the rooftop surface.",
+      "camera": "Medium full-body shot from behind at a low angle, with the camera tracking slightly as she moves forward.",
+      "scene": "A sunlit urban rooftop with concrete buildings, a large gray structure, a satellite dish, and a wet patch on the ground."
+    },
+    "uncertain": [],
+    "observation_identity": "be5c8496641a63c289089e705a0f9e7319c6261bd9ea349d87b45820e66b99e3"
+  }
+]

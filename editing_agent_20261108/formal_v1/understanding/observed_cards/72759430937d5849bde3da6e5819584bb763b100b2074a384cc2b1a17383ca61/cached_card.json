@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7149.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build, light skin, and a neutral facial expression.",
+    "hairstyle": "Her hair is styled in two high buns on top of her head with straight bangs across her forehead.",
+    "hair_color": "Her hair is a vibrant red color.",
+    "clothing": "She is wearing a black romper with a gold floral pattern, featuring a corset-style front with white lacing, puffy short sleeves, and blue sneakers.",
+    "action": "The woman stands facing the camera, then raises her right hand to cover her face and eyes, holding the pose while shifting her weight and turning slightly.",
+    "camera": "The camera is at a medium distance, capturing her from the head down to her feet, and remains relatively static with a slight downward angle.",
+    "scene": "The setting is an outdoor urban environment at dusk, with a tiled walkway, a large building with a parking garage, and construction cranes in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "985eb44e5ce6822a16c201988283f5f691a0dd9a52ce488b9972741f73ffa121"
+}

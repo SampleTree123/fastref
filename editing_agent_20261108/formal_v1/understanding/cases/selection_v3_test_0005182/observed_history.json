@@ -1,0 +1,69 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7162.mp4",
+    "observed": {
+      "identity": "A slender 3D-rendered female character with a pale complexion and a small, neutral face.",
+      "hairstyle": "A short, straight white bob with blunt bangs covering the forehead.",
+      "hair_color": "White.",
+      "clothing": "A short, black-and-white houndstooth-patterned dress with a V-neck, elbow-length sleeves, and a low back, paired with reddish-brown flat shoes.",
+      "action": "The character stands still, then slowly turns her body to the right while raising her right hand to touch her head, ending in a side profile.",
+      "camera": "A full-body shot at a low angle that slowly orbits around the character from the front to her right side.",
+      "scene": "An outdoor, futuristic city plaza with tiled and gravel ground, surrounded by industrial buildings, metal towers, and neon signs under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "1084cacfaf789a5474167b8df926d03d24cd512479d2b8a9b23a51dd92c68878"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_100.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_87.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7146.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin and a slim build.",
+      "hairstyle": "Short hair with two small buns on top of her head.",
+      "hair_color": "White.",
+      "clothing": "A short, black-and-white checkered dress with a V-neck and elbow-length sleeves, paired with reddish-brown flat shoes.",
+      "action": "The woman stands facing forward, then turns to her left and raises her hand to her forehead in a salute-like gesture before lowering it and standing in profile.",
+      "camera": "Full-body shot at eye level, with the camera slowly orbiting around the subject from front to side.",
+      "scene": "An outdoor urban rooftop or plaza with tiled flooring, large grey industrial containers, and city buildings with cranes in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "9cc0cd411bfc889aba68b3fa080ef8261e6e2fa3a814259dba1faff3ea7209da"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from white to red.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7147.mp4",
+    "observed": {
+      "identity": "A slender young woman with fair skin and a slim build.",
+      "hairstyle": "Red hair with straight bangs, tied back into two low pigtails or buns.",
+      "hair_color": "Red.",
+      "clothing": "A short, black-and-white houndstooth patterned dress with a V-neck and elbow-length sleeves, paired with reddish-brown flat shoes.",
+      "action": "The woman stands facing forward, then turns to her left and raises her right hand to touch her head and hair while looking down.",
+      "camera": "Full-body shot at a low angle, with the camera slowly orbiting around the subject from front to side profile.",
+      "scene": "An outdoor rooftop or elevated platform with tiled and paved flooring, surrounded by industrial structures, metal towers, and buildings under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "a16683ecf2bd6349ad20ae4302cff743de07c98fee9139dceb93686f5667a3e6"
+  }
+]

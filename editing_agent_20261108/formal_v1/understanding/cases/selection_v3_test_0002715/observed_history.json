@@ -1,0 +1,76 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6586.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a dark complexion, a short beard, and a slim build.",
+      "hairstyle": "Short hair on the sides with a small top-knot bun at the crown of the head.",
+      "hair_color": "Light brown or dark blonde.",
+      "clothing": "A white long-sleeved collared shirt under a black vest, red pants, and a brown belt with a camouflage-patterned pouch.",
+      "action": "The man stands in the center of the frame, initially looking to his left, then turns his head to look up and to the right while raising his right hand to adjust his collar.",
+      "camera": "A static, medium shot from the waist up, positioned at eye level.",
+      "scene": "An outdoor amusement park at dusk, featuring a swing ride on the left, a carousel structure with lights on the right, and a red and white striped umbrella in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "40696589eaacf1dfc52e929c739ba66f8e133443fb287cb3fc83a3ad9a3268f2"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_bad087b84bd01fb42d8f220efda4b9be350cc4e53e68b50c5c088cdf5069711f.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a high-angle full-body shot looking down from a front three-quarter view. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6574.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult woman with a medium build and brown skin stands in the center of the frame.",
+      "hairstyle": "Her hair is pulled up into a small topknot or bun at the crown of her head.",
+      "hair_color": "Her hair is reddish-brown.",
+      "clothing": "She wears a white long-sleeved collared shirt under a black vest, red flared trousers with a patterned belt, and black shoes.",
+      "action": "She stands mostly still, turning her head and upper body to look over her shoulder, then raises one hand to her chin and mouth in a thoughtful gesture before lowering it.",
+      "camera": "The camera holds a static, slightly high three-quarter view of the full body, with the character's long shadow cast to the left.",
+      "scene": "The setting is an open, sandy or dirt ground in bright daylight, with a building edge and a small red cart visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "dc2d010a01efa8bb9c22b4f880e226e35b10670df6cddac8e6ee969f716dff7d"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_380.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_375.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's top with the item shown in the reference images. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6556.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult figure with a medium-brown complexion, slim build, and a neutral facial expression.",
+      "hairstyle": "Short brown hair pulled back into a small topknot or bun at the crown of the head.",
+      "hair_color": "Brown.",
+      "clothing": "A long-sleeved yellow button-up shirt with a white circular pattern, red flared trousers with a dark belt, and black shoes.",
+      "action": "The figure stands in place, slowly turning its body and head while raising one hand to touch its chin and mouth in a thinking gesture.",
+      "camera": "A static, high-angle full-body shot that keeps the figure centered in the frame.",
+      "scene": "An outdoor paved area with a long shadow cast to the left, a building wall with a red cart and colorful vertical stripes in the upper right, and a white structure in the upper left."
+    },
+    "uncertain": [],
+    "observation_identity": "c28a2d035117b90f832a7446ccada15d66492ad328b76aa0b1edcbf74cbe912f"
+  }
+]

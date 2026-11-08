@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6701.mp4",
+  "observed": {
+    "identity": "A muscular man with a shaved head and a small top-knot bun, seen from behind.",
+    "hairstyle": "Shaved sides with a small top-knot bun.",
+    "hair_color": "Dark brown or black.",
+    "clothing": "White sleeveless tank top, light mint-green shorts, and pink slip-on shoes.",
+    "action": "The man walks slowly forward away from the camera, then stops and turns his head and shoulders to look back over his left shoulder.",
+    "camera": "A medium full shot from behind the subject that slowly dollies in as he walks.",
+    "scene": "A cobblestone street in a hazy, old European-style town with red brick buildings, shop signs, and a Union Jack flag on the left."
+  },
+  "uncertain": [],
+  "observation_identity": "cfb4a67e5a758529b252699c611002db30124188877d8202a627ca3496916d96"
+}

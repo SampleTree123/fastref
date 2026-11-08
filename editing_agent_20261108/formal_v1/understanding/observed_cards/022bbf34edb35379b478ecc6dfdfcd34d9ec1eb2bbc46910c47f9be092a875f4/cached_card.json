@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7191.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a slim build, shown from behind.",
+    "hairstyle": "Shoulder-length, slightly wavy hair that falls over the back of the neck.",
+    "hair_color": "Pink.",
+    "clothing": "A dark gray, long-sleeved jacket and matching trousers with a belt, both featuring light tan patches on the shoulders, back, and seat; the trousers have a white stripe down the side, and he wears dark shoes.",
+    "action": "The character stands with his back to the camera, then raises both arms overhead and swings them in a rhythmic, dance-like motion before lowering them to his sides.",
+    "camera": "A static, low-angle, full-body shot from directly behind the character.",
+    "scene": "An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a loudspeaker on the left, and a cityscape of buildings with red signs in the background under a clear sky."
+  },
+  "uncertain": [],
+  "observation_identity": "d2c6b8063007de961cfde1a1332ab3d4f6e88830b75c2232fc946c03c3ff7d7e"
+}

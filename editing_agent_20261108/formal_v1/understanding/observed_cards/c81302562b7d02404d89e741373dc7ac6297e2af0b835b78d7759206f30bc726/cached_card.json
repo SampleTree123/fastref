@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6321.mp4",
+  "observed": {
+    "identity": "A person seen from behind, with a medium build and dark skin visible on the neck and hands.",
+    "hairstyle": "Hair is pulled up into a small top knot or bun.",
+    "hair_color": "Dark blue.",
+    "clothing": "A tan cable-knit sweater, dark slim pants, and brown shoes.",
+    "action": "The person stands with their back to the camera, then raises both arms and performs a brief dance-like motion before lowering their arms and standing still.",
+    "camera": "A static, eye-level medium shot from behind the person, framing them in the center of the scene.",
+    "scene": "An outdoor amusement park or fairground with a striped carousel on the left, a wooden building and a circular ride structure on the right, and a pale sky overhead."
+  },
+  "uncertain": [],
+  "observation_identity": "342f52026dc4a7c628a88a5198a1fec95f6d762a4724a2cc5ba30a90c86013b6"
+}

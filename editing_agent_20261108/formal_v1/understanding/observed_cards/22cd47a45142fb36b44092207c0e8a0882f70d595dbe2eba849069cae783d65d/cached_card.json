@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6876.mp4",
+  "observed": {
+    "identity": "A 3D-rendered woman with a fair complexion, shown from the shoulders up in profile and then from behind.",
+    "hairstyle": "Blonde hair is pulled back into a low bun at the nape of the neck, with a straight fringe across the forehead.",
+    "hair_color": "Blonde.",
+    "clothing": "She wears a bright pink, off-the-shoulder long-sleeved top with black ribbon bows at the shoulders and a black crisscross pattern on the sleeves.",
+    "action": "The woman turns her head and body, raising her right arm to brush her hair back and then touching her face and neck before lowering her arm.",
+    "camera": "A static, medium close-up shot from a slightly low angle, keeping the subject centered against the background.",
+    "scene": "A futuristic, neon-lit environment at night, featuring a large glass-domed building with glowing cyan rings and pink structural lines behind a reflective, wet-looking ground."
+  },
+  "uncertain": [],
+  "observation_identity": "86671eeb55470eea1735f8c56ad5f90dddf1200f0d2ecb28a9fd155b8f94fd53"
+}

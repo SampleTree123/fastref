@@ -1,0 +1,101 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6580.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a medium-brown complexion, a short beard, and a slender build.",
+      "hairstyle": "Short hair on the sides with a small bun or topknot on top of the head.",
+      "hair_color": "Light brown.",
+      "clothing": "A white long-sleeved shirt under a black vest, red pants, and a brown belt with a gold buckle.",
+      "action": "The man stands facing slightly right, then raises his right hand to cover his face and rubs his eyes before lowering his arm and looking down.",
+      "camera": "A static, medium shot from the waist up at eye level.",
+      "scene": "An outdoor amusement park at dusk, featuring a swing ride on the left and a carousel structure with lights on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "df7c194d1128e15fd37b902b21b13cdf8b90e0a2957f4c8e6b6a31df697be65c"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_496.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to match the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6568.mp4",
+    "observed": {
+      "identity": "A 3D-rendered adult male with a dark complexion, short facial hair, and a slim build.",
+      "hairstyle": "Short hair with a small top-knot bun at the crown and a side part.",
+      "hair_color": "Light brown or dark blonde.",
+      "clothing": "A white long-sleeved collared shirt under a black vest, red pants, and a brown belt with a silver buckle.",
+      "action": "The man stands facing slightly right, then turns to face the camera, gestures with his hands, and briefly touches his chest and collar before turning back to the side.",
+      "camera": "Static medium shot from the waist up, at eye level.",
+      "scene": "An outdoor amusement park at dusk, with a swing ride on the left, a carousel structure with lights on the right, and a striped awning in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "8f44e5ccf2343e67668ea6eb9cd1a2851f7b0acfbb9fb3415820acff7b27243e"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_845.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_846.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the top, the bottoms, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6581.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young adult with a medium-brown complexion, slim build, and a neutral facial expression.",
+      "hairstyle": "Short hair on the sides with a small bun or top-knot at the crown of the head.",
+      "hair_color": "Light brown.",
+      "clothing": "A mustard-yellow cable-knit sweater with long sleeves and blue jeans.",
+      "action": "The character stands facing slightly right, then looks down, raises their right hand to cover their face, and finally lowers their arm to look forward again.",
+      "camera": "A static, medium shot from the waist up, positioned at eye level.",
+      "scene": "An outdoor amusement park at dusk, featuring a swing ride on the left and a carousel structure with lights on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "bd490e439be63dd19d2b647b7e5e416fda33ac836cb72e3386dd706bc077384b"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_a0e6995c8c304acd0dfad07bc35dc39aae0d58906e1ba9573d1c219b8c3c13db.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a side-view dolly-in shot that moves from full-body to upper-body framing. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6565.mp4",
+    "observed": {
+      "identity": "A young adult with a slim build and light brown skin, shown in profile and three-quarter views.",
+      "hairstyle": "Long hair pulled back into a small top bun with loose strands at the nape.",
+      "hair_color": "Light brown.",
+      "clothing": "A mustard-yellow cable-knit sweater, blue jeans, and brown lace-up boots.",
+      "action": "The person stands still, then raises both hands to their head and rubs their temples and forehead before lowering their arms and standing again.",
+      "camera": "A static, eye-level medium shot that slowly pushes in slightly toward the subject.",
+      "scene": "An outdoor amusement park at dusk, with a red and blue carousel structure, string lights, and a striped canopy in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "52f46971f96dd391f138424160afabbeb1325f563bd8f083cd590c72d050c0c3"
+  }
+]

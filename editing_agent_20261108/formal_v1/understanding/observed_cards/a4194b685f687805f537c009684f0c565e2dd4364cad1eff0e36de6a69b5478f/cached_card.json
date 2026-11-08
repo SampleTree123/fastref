@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7005.mp4",
+  "observed": {
+    "identity": "A slender female character with a slim build, shown from behind with her face not visible.",
+    "hairstyle": "Hair is styled into two small buns on top of the head.",
+    "hair_color": "Bright blue.",
+    "clothing": "She wears a short blue-and-white patterned dress with a deep open back and pink slip-on shoes.",
+    "action": "The character stands on a cobblestone street, then turns and bends forward at the waist before straightening back to her original stance.",
+    "camera": "A static, full-body shot from behind at a slight low angle.",
+    "scene": "An old-style city street with brick and stone buildings, shop signs reading 'MERCHANT' and 'SWEETS', a black lamppost, and a cobblestone road."
+  },
+  "uncertain": [],
+  "observation_identity": "b6bd8cb4d39d71f2bb0938a63d3219584c0546c24a03646a0b5754bdaef5d0b1"
+}

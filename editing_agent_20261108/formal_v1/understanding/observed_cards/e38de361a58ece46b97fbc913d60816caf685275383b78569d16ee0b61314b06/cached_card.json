@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6407.mp4",
+  "observed": {
+    "identity": "A slender female character with a slim build, seen from behind.",
+    "hairstyle": "Short, tousled hair that appears to be in a small updo or ponytail.",
+    "hair_color": "White or platinum blonde.",
+    "clothing": "A sleeveless black top with a repeating circular pattern, light beige or off-white wide-leg trousers, and dark boots.",
+    "action": "The character stands in the center of a plaza, initially with arms at her sides, then raises her right hand to touch her hair before placing her hand on her hip.",
+    "camera": "A static, medium-long shot from behind the character at a slightly low angle.",
+    "scene": "A sunny, outdoor amusement park or fairground with a striped carousel on the left, a wooden building on the right, and a hazy city skyline in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "1e4ee727429a97224c7908373cae5ec6878dadeb70dfb337f70f16d79d5dd3e7"
+}

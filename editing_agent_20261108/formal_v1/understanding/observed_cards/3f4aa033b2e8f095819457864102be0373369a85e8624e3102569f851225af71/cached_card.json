@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6101.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male figure with a slim build, seen mostly from behind and in profile.",
+    "hairstyle": "Short, neatly styled hair swept back from the face.",
+    "hair_color": "Dark brown.",
+    "clothing": "A tan plaid two-piece suit with a white shirt cuff visible at the wrist and dark shoes.",
+    "action": "The figure stands still, then turns slightly, raises his right arm, and brings both hands up to his face in a brief gesture before lowering his arms and standing still again.",
+    "camera": "A static, low-angle full-body shot from behind and to the side of the figure.",
+    "scene": "A futuristic outdoor plaza with a glossy reflective floor, a large domed glass building with glowing teal rings on the left, and a white building with rows of lit windows on the right."
+  },
+  "uncertain": [],
+  "observation_identity": "1f52c8a9b2f72a24014276bfe83fa416c72c2355e1ea931c79dcbb1788b2f806"
+}

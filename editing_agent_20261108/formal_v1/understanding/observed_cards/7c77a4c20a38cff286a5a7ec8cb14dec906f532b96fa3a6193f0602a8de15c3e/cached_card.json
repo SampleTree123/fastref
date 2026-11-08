@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6738.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a light-skinned face, short cropped hair, and a neutral expression.",
+    "hairstyle": "Short, cropped hair covering the top of the head.",
+    "hair_color": "White or very light gray.",
+    "clothing": "A white, long-sleeved button-up shirt with thin horizontal stripes, black suspenders, a black bow tie, brown and white checkered trousers, and black shoes.",
+    "action": "The character stands still, then raises both arms overhead in a stretching or dancing motion, swings them down and across the body, and finally returns to a standing pose.",
+    "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+    "scene": "An outdoor paved area, possibly a road or plaza, located beneath a concrete overpass or bridge structure with a metal railing, green foliage, and a construction crane visible in the background under a blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "7155ddf2d2517ec6efdc829789c93c5bfbe1646abd27f1399ee07281246a7424"
+}

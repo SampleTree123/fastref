@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6032.mp4",
+    "observed": {
+      "identity": "A person seen from behind, with a medium build and dark skin visible on the neck and hands.",
+      "hairstyle": "Dark hair is pulled up into a small top knot or bun.",
+      "hair_color": "Black.",
+      "clothing": "A long, single-breasted coat with a red, black, and white checkered pattern and white shirt cuffs at the wrists.",
+      "action": "The person stands with their back to the camera, raises a hand to touch the back of their head, then turns their head and shoulders to the right while holding a hand near the neck.",
+      "camera": "A static, medium shot from behind the subject at roughly waist height.",
+      "scene": "A futuristic outdoor plaza with large black dome buildings, glowing teal and pink neon rings, and a purple vehicle parked in the distance."
+    },
+    "uncertain": [],
+    "observation_identity": "c05931215590d7342f5b0c2569b9d31ccda9c2368313fb964cd0b694a2074205"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_842.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6025.mp4",
+    "observed": {
+      "identity": "A man with a medium build, seen from behind, with a short beard visible at the side of his head.",
+      "hairstyle": "Short dark hair with a small top-knot or bun at the back of the head.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A long, single-breasted coat with a tan, brown, and orange plaid pattern and a white shirt cuff visible at the wrist.",
+      "action": "The man stands with his back to the camera, raises his right hand to scratch and adjust his hair, then lowers it and places his hands on his hips.",
+      "camera": "A static, medium shot from behind the subject at roughly eye level.",
+      "scene": "An outdoor cobblestone street in front of a dark, ornate storefront with vintage signage reading 'SOAP' and 'COCOA POWDER FROM THE COLONIES AVAILABLE NOW'."
+    },
+    "uncertain": [],
+    "observation_identity": "d48733bf41f2d747de8f4be57049be82b3f79a281eca02f3448e71510c271ae3"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_38.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_79.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6034.mp4",
+    "observed": {
+      "identity": "A man with a slim build, seen from behind, with a short dark haircut and a white shirt cuff visible at the wrist.",
+      "hairstyle": "Short, dark hair, slicked back.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A long, tan and orange plaid overcoat with a white shirt cuff visible at the wrist.",
+      "action": "The man stands with his back to the camera, raises his right hand to scratch or adjust his hair, then lowers it and turns his head slightly to the right.",
+      "camera": "Static, medium shot from behind the subject at eye level.",
+      "scene": "An outdoor city street with cobblestone pavement, in front of a dark storefront with vintage signage reading 'SOAP' and 'COCO POWDER FROM THE COLONIES'."
+    },
+    "uncertain": [],
+    "observation_identity": "45ee424448e451a52364b5e9469c3c2f012d82fd0306d899a260c1813848ce87"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: change the person's hair color from black to white.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6024.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male figure with a light skin tone, seen from behind, with a small pink pig figurine perched on top of his head.",
+      "hairstyle": "Short dark hair visible at the sides and back of the head, mostly covered by the pig figurine.",
+      "hair_color": "Dark brown or black",
+      "clothing": "A red and black checkered/plaid long coat with a belt at the waist and white shirt cuffs visible at the wrists.",
+      "action": "The figure stands with his back to the camera, raises his right hand to touch and adjust the pig on his head, then lowers his arm and turns his head slightly to the side.",
+      "camera": "Static medium shot from behind the figure at roughly chest height, keeping the subject centered.",
+      "scene": "A futuristic outdoor plaza with large black dome buildings wrapped in glowing teal and pink neon rings, a reflective wet-looking ground, and a small purple vehicle in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "3c04de6fbb82ff59df74a72be0c87d1639944b0d592d30df3fc36e6a33a53458"
+  }
+]

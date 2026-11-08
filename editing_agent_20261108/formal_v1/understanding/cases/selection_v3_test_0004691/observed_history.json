@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7032.mp4",
+    "observed": {
+      "identity": "A slender female character with fair skin, shown from behind.",
+      "hairstyle": "Hair is styled into two high buns on top of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a pink-and-white gingham off-the-shoulder top with white puffed sleeves and a black skirt patterned with gold roses.",
+      "action": "The character stands with her back to the camera, then raises both arms overhead and turns slightly before lowering them and returning to a standing pose.",
+      "camera": "A static medium shot from behind at roughly waist-to-head height.",
+      "scene": "A cobblestone street lined with old-style storefronts, including a dark shopfront with a 'MERCHANT' sign and a 'COCOA POWDER' poster, plus a black lamppost."
+    },
+    "uncertain": [],
+    "observation_identity": "cc5862eff1b955ec2d22d7a61181ad7ef708d89136377128b1b6995e4250b8e4"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_12dd6b549de00f03655c66806823ac196b9aa9d709c44ebd15c419fadf7eb96b.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body shot from a rear three-quarter angle. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7018.mp4",
+    "observed": {
+      "identity": "A slender female character with a slim build, shown from behind with her face not visible.",
+      "hairstyle": "Hair is styled into two high buns on top of the head.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a pink and white gingham off-the-shoulder top with white puffed sleeves, a black skirt with a gold floral pattern, and light blue slip-on shoes.",
+      "action": "The character stands with her back to the camera, then raises both arms overhead and sways her body in a dance-like motion before lowering her arms and returning to a standing pose.",
+      "camera": "A static, full-body shot from behind at a slight low angle, keeping the character centered in the frame.",
+      "scene": "An outdoor cobblestone street lined with old-style storefronts, including a dark shop with a 'MERCHANT' sign and a 'COCOA POWDER' poster, plus a black lamppost and a fire hydrant."
+    },
+    "uncertain": [],
+    "observation_identity": "9772385b23a373871ba89677494ad44c6f05ae7f243b564c45cf4843f24c3f86"
+  }
+]

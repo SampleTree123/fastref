@@ -1,0 +1,38 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6020.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, short beard, and a neutral expression.",
+      "hairstyle": "Short, dark, curly hair with a slightly raised top.",
+      "hair_color": "Black.",
+      "clothing": "A white tank top with a pink palm-tree graphic and 'Los Angeles' text, pink shorts with white trim, and pink slip-on shoes.",
+      "action": "He stands facing the camera, then raises his right hand to touch his neck and shoulder before lowering it and standing still.",
+      "camera": "A static, eye-level medium shot that slowly zooms out to a full-body view.",
+      "scene": "A cobblestone street in a European-style city with brick and stone buildings, black lampposts, and a large Union Jack flag hanging in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "5f7fc2babef830938b3b76ce2210878cc27b03bb352f8d2b3efcd0361f98f54a"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to white.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6001.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial hair stands centered in the frame.",
+      "hairstyle": "He has a short, curly afro-style haircut.",
+      "hair_color": "His hair is white or platinum blonde.",
+      "clothing": "He wears a white tank top with a pink palm-tree graphic and \"Los Angeles\" text, pink shorts with white trim, and pink sneakers.",
+      "action": "He stands facing the camera, then raises his right hand to touch his face and head before lowering it and standing still.",
+      "camera": "The camera is at a low angle, initially framing him from the waist up and then pulling back to a full-body shot.",
+      "scene": "The setting is a cobblestone street in a city with European-style buildings, including a Union Jack flag and a sign for a hair salon."
+    },
+    "uncertain": [],
+    "observation_identity": "65a1178c5a436c6886bc6984cc538292382f9a44cda73f13abd4d329c944957b"
+  }
+]

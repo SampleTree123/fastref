@@ -1,0 +1,101 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6883.mp4",
+    "observed": {
+      "identity": "A woman with a medium-brown complexion, seen from behind, with a slim build.",
+      "hairstyle": "Dark hair is pulled back into two small low buns or pigtails on either side of the back of her head.",
+      "hair_color": "Black.",
+      "clothing": "She wears a cream-colored romper with a floral print of pink, yellow, and blue flowers, featuring an open back and cold-shoulder sleeves, along with pink flat sandals.",
+      "action": "The woman walks slowly away from the camera across a stone patio toward the water's edge, then stops and turns her head to the left.",
+      "camera": "The camera is positioned behind the subject at a medium-long distance, remaining mostly static as it follows her walking away.",
+      "scene": "The setting is a sunny outdoor stone terrace or patio overlooking a calm blue ocean with rocky outcrops and a wooden post visible on the right."
+    },
+    "uncertain": [],
+    "observation_identity": "a2a10185a74787ed3ecabca6309515e76a8af91a61954d3627867a595164dba3"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_113.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_4.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6895.mp4",
+    "observed": {
+      "identity": "A slender woman with a medium-brown complexion, seen from behind.",
+      "hairstyle": "Dark hair is pulled back into two small low buns or pigtails at the nape of the neck.",
+      "hair_color": "Black.",
+      "clothing": "She wears a short, colorful dress with a busy paisley and floral pattern in purple, blue, orange, and yellow, featuring a low open back and three-quarter sleeves, along with pinkish-red flat shoes.",
+      "action": "The woman stands with her back to the camera, then slowly walks forward away from the viewer toward the water's edge.",
+      "camera": "A static, eye-level medium-long shot from directly behind the subject.",
+      "scene": "An outdoor stone-paved terrace or poolside area overlooking a calm sea and clear blue sky on a sunny day."
+    },
+    "uncertain": [],
+    "observation_identity": "95bb99d24641127e9dc150b35a8a0b64c7d401805c605cb0fc914698e99c5d1c"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_19.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to match the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6884.mp4",
+    "observed": {
+      "identity": "A woman with a medium-brown complexion and a slim build, shown in profile and then from behind.",
+      "hairstyle": "Dark hair is pulled back into a low bun with straight bangs across the forehead.",
+      "hair_color": "Black.",
+      "clothing": "She wears a cream mini dress covered in a pink, yellow, and blue floral print, with a white strap visible at the shoulder and pink platform shoes.",
+      "action": "She stands in profile, raises one hand to touch her hair, then slowly turns to face away from the camera while keeping a hand on her hip.",
+      "camera": "A static, low-angle full-body shot that keeps the subject centered against the horizon.",
+      "scene": "An outdoor stone terrace beside a calm sea under a clear blue sky, with wooden posts and rocks visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "643bc1f7151c2af3a585a3e0824327f0a9fdbe64be4ba3eed82bedd98beae80b"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_255c534a62cbc281c4fd7ec679ba3366d67ad6c39a76d367b06235c75d04b54e.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to an upper-body shot from a front three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6898.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen mostly from behind and in profile.",
+      "hairstyle": "Dark hair pulled back into a low, loose bun with a few loose strands.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A white, short-sleeved mini dress with a low open back and a floral print of pink, yellow, and blue flowers.",
+      "action": "She stands with her back to the camera, raises her left hand to touch and adjust her hair, then turns her head to the right to look over her shoulder.",
+      "camera": "A static, medium shot from behind at eye level.",
+      "scene": "An outdoor, sunlit area with a stone building, ivy, wooden planks, and a rocky hillside in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "680ba223719a6ce5c50d09b931cc67a9d972e5a01e8f282e1b97b0c89dc51694"
+  }
+]

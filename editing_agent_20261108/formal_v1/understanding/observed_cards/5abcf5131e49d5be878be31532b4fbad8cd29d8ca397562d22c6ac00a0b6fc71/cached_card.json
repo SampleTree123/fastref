@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6609.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male figure with a pale face, short hair, and a slim build.",
+    "hairstyle": "Short, swept-back hair.",
+    "hair_color": "White.",
+    "clothing": "A dark, double-breasted military-style jacket with gold buttons and shoulder epaulettes, matching dark trousers with a thin white side stripe, and black shoes.",
+    "action": "The figure stands in an open plaza, turning slowly in place to face different directions while keeping his arms crossed or at his sides.",
+    "camera": "A medium full shot that orbits around the standing figure, keeping him centered while the background rotates.",
+    "scene": "A futuristic city plaza with a glossy reflective floor, large glass buildings with glowing cyan and pink neon rings, and tall skyscrapers in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "b7319039409c32398d4a7c1f0abee2e18002033cde87292b2edcb3bea0b3bb83"
+}

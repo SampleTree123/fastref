@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0003333",
+  "dataset_index": 399,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 6.488859792239964,
+  "result": {
+    "source_video_id": 2,
+    "prompt": "Restyle the person's hair to match the shape and styling shown in the reference images (front and back views). Preserve the person's current facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "reference_ids": [
+      "ref_1",
+      "ref_2"
+    ],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

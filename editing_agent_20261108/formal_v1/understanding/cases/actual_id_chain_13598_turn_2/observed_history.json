@@ -1,0 +1,52 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6469.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and tanned skin stands facing the camera.",
+      "hairstyle": "She has a short, tousled bob haircut.",
+      "hair_color": "Her hair is bright blonde.",
+      "clothing": "She wears a short, black-and-white gingham dress with three-quarter sleeves and a white shoulder bag, along with pink slip-on shoes.",
+      "action": "She stands mostly still, then raises her right hand to brush her hair back and rests her left hand on her hip before lowering both arms.",
+      "camera": "The camera holds a static, full-body shot from a slightly low angle.",
+      "scene": "She stands on a paved plaza in front of a large red-and-white Ferris wheel and a ticket booth with a pink roof, under a warm, sunset-lit sky."
+    },
+    "uncertain": [],
+    "observation_identity": "44f32fd41349c311b0df8d76ee4322b37c8b55a3514f706f5695444f0846bd6e"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_9.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_61.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6490.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a medium-brown complexion, slim build, and a neutral facial expression.",
+      "hairstyle": "Shoulder-length blonde hair with a straight fringe, styled in a bob.",
+      "hair_color": "Bright blonde.",
+      "clothing": "A short, black-and-white gingham dress with three-quarter sleeves and a V-neckline, paired with pink flat shoes.",
+      "action": "The woman stands facing the camera, then raises her right hand to brush her hair back and place it on her hip before lowering her arm.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the subject centered in the frame.",
+      "scene": "An outdoor amusement park setting at dusk, featuring a large Ferris wheel, a roller coaster, and a ticket booth with a red roof in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "3545c713b48b94dd647de0b50808f2e8b87a8512be17efcb5aa7f94b151dd5ab"
+  }
+]

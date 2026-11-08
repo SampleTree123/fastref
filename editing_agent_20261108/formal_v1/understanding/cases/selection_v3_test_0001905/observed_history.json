@@ -1,0 +1,94 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6386.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned 3D-rendered male figure with a short-cropped head and a neutral, stylized face.",
+      "hairstyle": "Very short, closely cropped hair covering the top and sides of the head.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "White long-sleeved shirt under a dark brown vest, reddish-orange trousers, and dark slip-on shoes.",
+      "action": "The figure stands in profile, then slowly turns to face the camera while raising a hand to the chest, then turns back to the original profile stance.",
+      "camera": "Static, eye-level full-body shot from the side/front of the character.",
+      "scene": "An outdoor urban plaza with a large gray concrete pillar behind the figure, tiled and cobblestone ground, and city buildings with yellow scaffolding in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "f5cbf27ac70bcb740913d4599a34cca44afc9d105f737db0b6c17d31e01e1971"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_35.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6396.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, shown in profile and three-quarter views.",
+      "hairstyle": "Short, neatly styled hair with a side part.",
+      "hair_color": "Purple.",
+      "clothing": "A black vest over a white long-sleeved shirt, red trousers, and black shoes.",
+      "action": "The character stands on an asphalt surface, turning his body and head to look around, then raises his right hand toward his face before lowering it and returning to a standing pose.",
+      "camera": "A static, medium-long side view at roughly waist height, keeping the character centered in frame.",
+      "scene": "An outdoor paved area in daylight, with a metal guardrail, greenery, trees, and a rocky hillside in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "dd80dc9e1b1025583bf471d621ee0ba420d4d0f48a9bd3f49f239b7b2eed8dc6"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_105.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_75.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6403.mp4",
+    "observed": {
+      "identity": "A 3D-rendered humanoid character with a slim build and light skin, shown in profile and from behind.",
+      "hairstyle": "Short hair swept up into a small topknot or ponytail at the back of the head.",
+      "hair_color": "Pink.",
+      "clothing": "White long-sleeved shirt under a dark gray sleeveless vest, red slim pants, and black shoes.",
+      "action": "The character stands on an asphalt surface, slowly turning in place and shifting weight while making small arm and hand gestures.",
+      "camera": "Static medium-long side view at roughly waist-to-head height, keeping the character centered.",
+      "scene": "An outdoor paved area in daylight, with a metal guardrail, greenery, trees, and a rocky hillside in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "099ecc57e8ba73d9e5e324ae75050d0d8bceb6d6ced450370785a8dbd3339236"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to blonde.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6368.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned 3D-rendered male figure with a short, neat face and visible jawline.",
+      "hairstyle": "Short, swept-back hair with a side part.",
+      "hair_color": "Light blond.",
+      "clothing": "White long-sleeved shirt under a dark brown vest, reddish-orange trousers, and dark slip-on shoes.",
+      "action": "The figure stands in profile, then slowly turns to face away, raises a hand to the chest, and turns back to the original profile stance.",
+      "camera": "Static, eye-level full-body side view with the subject centered.",
+      "scene": "An outdoor urban plaza with a large gray metal utility box behind the subject, tiled and cobblestone ground, and buildings with yellow scaffolding in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "cc14646447af681f2e8dc45e1a42ee076015f5676bbd35795f71f84ddaeab6b0"
+  }
+]

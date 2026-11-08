@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6374.mp4",
+  "observed": {
+    "identity": "A 3D-rendered male character with a slim build, light skin, and a short beard.",
+    "hairstyle": "Short, cropped hair with a slightly spiky or textured top.",
+    "hair_color": "Light brown or dark blonde.",
+    "clothing": "A white long-sleeved shirt under a dark, sleeveless vest, red trousers, a patterned belt, and dark shoes.",
+    "action": "The character stands in the center of the frame, initially facing forward, then turns his head and body to look over his left shoulder before turning back to face the camera.",
+    "camera": "A static, full-body shot from a slightly low angle, keeping the character centered.",
+    "scene": "An outdoor urban plaza or rooftop with tiled and paved ground, surrounded by tall buildings, construction cranes, and signs with Japanese text."
+  },
+  "uncertain": [],
+  "observation_identity": "c83e8a00a1959e3a4306af1c7b226b0b1d35bdabfe6cb13965486e6a74a772f3"
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6362.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a slim build, brown skin, and a short beard.",
+      "hairstyle": "Short, cropped hair with a distinct greenish-yellow tint.",
+      "hair_color": "Greenish-yellow.",
+      "clothing": "A bright yellow long-sleeved button-up shirt with a white pattern, red flared trousers, a brown belt, and dark shoes.",
+      "action": "The character stands facing the camera, then performs a short dance move by swinging his arms and head before returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot from a slightly frontal perspective.",
+      "scene": "An outdoor urban plaza with tiled and pebbled ground, surrounded by tall buildings, construction cranes, and illuminated signs with Japanese text."
+    },
+    "uncertain": [],
+    "observation_identity": "9f3ecd9169cd8fa19bcaf043edd3efc70b6d21006cdeb0b595b5a641d670a64b"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_b2cf6f31a0b971816fb4839df614016b327bfbf0f67f43f26f2c815f13f593f1.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body shot from the side. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6355.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned adult male figure with a short beard, shown in profile.",
+      "hairstyle": "Short, neatly trimmed hair.",
+      "hair_color": "Light brown.",
+      "clothing": "A bright yellow long-sleeved shirt with a white pattern, reddish-orange trousers, and dark slip-on shoes.",
+      "action": "The man stands in profile, then bends forward, raises his right hand to his face, and returns to an upright standing pose.",
+      "camera": "A static, eye-level medium-full shot from the side.",
+      "scene": "An outdoor urban plaza with a large gray metal structure behind him, tiled and cobblestone ground, and buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "0c7802b610c9e6bc835c292e9e3a46d6a84ba933c49f8a9bb5ac0545c6ea9242"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_a6c07fb7c1ad0a428fb97174e49c2ae0395a6aece99153b3f211487eec8d58cf.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6369.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble stands facing the camera.",
+      "hairstyle": "Short, cropped hair with a slightly textured top.",
+      "hair_color": "Bright green.",
+      "clothing": "A long-sleeved yellow button-up shirt with a white floral pattern, tucked into maroon pants with a brown belt.",
+      "action": "He stands mostly still, then briefly raises his right hand to touch his face and chest before lowering it.",
+      "camera": "A static, eye-level medium shot framing the subject from the thighs up.",
+      "scene": "A stylized, 3D-rendered city street at dusk, featuring tall buildings, Japanese signage, construction cranes, and a wet paved walkway."
+    },
+    "uncertain": [],
+    "observation_identity": "ba36de7dae40fd151b2fa55f37a4c77e4514ff2dc4e219a2bc8d8561563e8b52"
+  }
+]

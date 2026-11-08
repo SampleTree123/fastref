@@ -1,0 +1,17 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7070.mp4",
+  "observed": {
+    "identity": "A slender adult figure with a light skin tone, shown in full body from head to toe.",
+    "hairstyle": "Dark hair pulled back into a small ponytail at the back of the head.",
+    "hair_color": "Dark brown to black.",
+    "clothing": "Light blue-and-white plaid button-up shirt with sleeves rolled to the elbows, brown leather suspenders, dark gray trousers, and black shoes.",
+    "action": "The figure stands on the road, then turns from facing forward to a side profile, briefly raises a hand to the neck/collar area, and turns back to face forward.",
+    "camera": "Static low-angle full-body shot looking slightly upward at the subject.",
+    "scene": "An outdoor paved road beneath a concrete overpass with a metal railing, red-and-yellow striped bollards, a guardrail, and a partly cloudy blue sky."
+  },
+  "uncertain": [
+    "Exact facial features are partly obscured by angle and lighting, so precise identity details are unclear."
+  ],
+  "observation_identity": "1dba24edf47113c48c8858b5024e0df530b37d39b9cee417332ab40ed9a00184"
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6548.mp4",
+    "observed": {
+      "identity": "A young woman with a slender build, fair skin, and a neutral-to-smiling expression.",
+      "hairstyle": "Black hair with straight bangs and two low buns or pigtails on either side of her head.",
+      "hair_color": "Black.",
+      "clothing": "A bright pink, long-sleeved, off-the-shoulder top with purple ribbon details on the shoulders.",
+      "action": "She begins facing forward, then raises both arms overhead with clenched fists, tilts her head back, and lowers her arms back to a resting position.",
+      "camera": "A static, medium close-up shot from a slightly low angle, keeping the subject centered in the frame.",
+      "scene": "An outdoor, industrial-looking area with a stone-paved ground, a wooden boat on the left, and piles of wooden planks and crates in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "763ff47e86d15e6c1fc4dfce5efed97e276fe613ab8ade880169ee1ae59fe3dc"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_69.png",
+        "reference_id": "ref_1",
+        "type": "identity",
+        "view": "front"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's identity to match the person in the reference photo. Match the reference person's facial features and adjust the body's skin tone accordingly. Do not copy the hairstyle, hair color, or expression from the reference photo. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6546.mp4",
+    "observed": {
+      "identity": "A young Black woman with a slim build, dark skin, and a slight smile, shown from the chest up.",
+      "hairstyle": "Black hair with straight bangs and two low pigtails tied with dark scrunchies.",
+      "hair_color": "Black.",
+      "clothing": "A bright pink long-sleeved off-the-shoulder top with purple ribbon ties at the shoulders.",
+      "action": "She stands facing the camera, then raises both arms overhead with clenched fists, tilts her head back, and lowers her arms back to a resting position.",
+      "camera": "A static, eye-level medium close-up shot centered on the character.",
+      "scene": "An outdoor industrial area with a concrete floor, a wooden boat on the left, scattered wooden planks on the right, and rusted metal structures in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "fb898bc8f2ae87f18dd297f1eebaf47629ce5a7db4be9b051eafff8d62ef7f34"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to blonde.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6541.mp4",
+    "observed": {
+      "identity": "A young woman with a fair complexion, slender build, and a neutral facial expression.",
+      "hairstyle": "Blonde hair styled with straight bangs and two low buns on either side of her head.",
+      "hair_color": "Bright blonde.",
+      "clothing": "A bright pink, long-sleeved, off-the-shoulder top with purple ribbon details on the sleeves.",
+      "action": "The woman stands facing the camera, then raises both arms with clenched fists, tilts her head back, and lowers her arms back to her sides.",
+      "camera": "Static, medium shot, eye-level view.",
+      "scene": "An outdoor, industrial-looking area with concrete ground, wooden planks, a rusted boat, and large metal structures in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "70561b76672e1f83083aa91675d9d223f6c7e92ef589f970acaa3f973555ffd5"
+  }
+]

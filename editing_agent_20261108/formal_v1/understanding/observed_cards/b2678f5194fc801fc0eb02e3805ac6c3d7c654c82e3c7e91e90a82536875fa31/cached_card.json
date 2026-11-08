@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6409.mp4",
+  "observed": {
+    "identity": "A slender woman with a slim build, shown in profile and from behind.",
+    "hairstyle": "Her hair is pulled back into a high ponytail.",
+    "hair_color": "Her hair is reddish-brown.",
+    "clothing": "She wears a dark patterned sleeveless crop top, light gray wide-leg trousers, a brown belt, and dark shoes.",
+    "action": "She stands in an open plaza, turning her body and raising one arm to touch her hair before lowering it.",
+    "camera": "The camera is static at a low, wide angle, keeping the woman centered in the frame.",
+    "scene": "The setting is a sunlit outdoor amusement park or fairground with a striped carousel on the left, a Ferris wheel on the right, and a paved ground."
+  },
+  "uncertain": [],
+  "observation_identity": "d5dfaff5edda857fc7cdab1ffd21c88652b9d84a40c34b4f1122f222fb7c75d5"
+}

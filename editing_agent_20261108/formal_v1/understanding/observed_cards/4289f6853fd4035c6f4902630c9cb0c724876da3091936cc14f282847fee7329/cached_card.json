@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6464.mp4",
+  "observed": {
+    "identity": "A woman seen from behind, with a slim build and bare upper back.",
+    "hairstyle": "Blonde hair gathered into a loose, slightly messy top bun.",
+    "hair_color": "Blonde.",
+    "clothing": "A black-and-white houndstooth dress with three-quarter sleeves and a low open back.",
+    "action": "She stands facing the sea, briefly raises her right hand to touch her hair, then places her hand on her hip before lowering it.",
+    "camera": "A static medium shot from behind the subject at roughly eye level.",
+    "scene": "A stone-tiled platform or dock beside a calm sea, with weathered wooden posts rising from the water and a clear blue sky."
+  },
+  "uncertain": [],
+  "observation_identity": "8a0b220b4267e06be3cc4422054bbb7408681073876c5653f57cbc4bdd72ff81"
+}

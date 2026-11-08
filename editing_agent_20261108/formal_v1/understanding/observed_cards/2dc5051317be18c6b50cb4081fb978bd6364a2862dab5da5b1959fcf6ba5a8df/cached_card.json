@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6596.mp4",
+  "observed": {
+    "identity": "A young Black man with a slim build, shown in profile and three-quarter views.",
+    "hairstyle": "Short hair on the sides with a small top-knot bun at the back of the head.",
+    "hair_color": "Dark brown to black hair with pinkish highlights from the scene lighting.",
+    "clothing": "A blue and pink patterned knit sweater, dark blue pants, and brown shoes.",
+    "action": "He stands still, then raises both hands to his head and rubs his hair before lowering his arms and looking down.",
+    "camera": "A medium full-body shot at eye level that slowly pushes in and pans slightly to keep the subject centered.",
+    "scene": "A futuristic outdoor plaza with large black dome buildings wrapped in glowing teal and pink neon rings, a wet reflective ground, and a small purple vehicle in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "f0a160bec7e56aac69181d4530245d062017c8b4993c56ad1cc8b11904c72448"
+}

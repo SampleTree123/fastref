@@ -1,0 +1,78 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5996.mp4",
+    "observed": {
+      "identity": "A person with a medium build, seen from behind, with a small tattoo visible on the upper right arm.",
+      "hairstyle": "Short hair with a small topknot bun at the crown.",
+      "hair_color": "White.",
+      "clothing": "A sleeveless tank top with a pink, white, and yellow tie-dye pattern, and pink shorts.",
+      "action": "The person stands with their back to the camera, raises their right hand to touch and adjust their hair, then lowers it and turns their head slightly to the right.",
+      "camera": "A static, medium shot from behind the subject at roughly eye level.",
+      "scene": "An outdoor cobblestone street in front of a dark, ornate storefront with signs reading 'SOAP', 'COCOA POWDER', and 'APOTHECARY'."
+    },
+    "uncertain": [],
+    "observation_identity": "fd46609d2c95d16e8f7ae0ccd771164472a67f64d5dc5e44c58d1fa8d54ce2db"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to sneezing, following the demonstration in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_8.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to sneezing, following the demonstration in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5984.mp4",
+    "observed": {
+      "identity": "A muscular man with a tanned complexion, shown in profile and three-quarter views.",
+      "hairstyle": "Short white hair on the sides and back, with the top tied into a small bun.",
+      "hair_color": "White.",
+      "clothing": "A sleeveless cream tank top with pink tie-dye splashes and pink trim, with matching pink shorts visible at the bottom.",
+      "action": "The man stands on a sidewalk, then raises his hands to his chest and appears to cough or clear his throat before lowering his arms again.",
+      "camera": "A static medium shot at eye level, framing the man from the thighs up in profile.",
+      "scene": "An outdoor city street in front of a dark storefront with gold lettering advertising soap and cocoa powder, with a cobblestone road and a black lamppost."
+    },
+    "uncertain": [],
+    "observation_identity": "6cee6d534a6cc2393c2741a32301425f99b66e7f06820a2fedb979ef08f2a6a2"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_677.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_678.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5997.mp4",
+    "observed": {
+      "identity": "A 3D-rendered man with a medium build, dark skin, and a short beard, shown in profile and three-quarter views.",
+      "hairstyle": "Short white hair with the top gathered into a small bun or topknot.",
+      "hair_color": "White.",
+      "clothing": "A light blue-and-white plaid button-up shirt with rolled sleeves, brown leather suspenders, and dark gray trousers.",
+      "action": "The man stands on a sidewalk, then raises his right hand to his face and mouth before lowering it and standing still again.",
+      "camera": "A static medium shot at roughly chest height, framing the man from the thighs up in profile.",
+      "scene": "An outdoor city street in front of a dark storefront with red curtains and gold lettering advertising 'SOAP' and 'COCOA POWDER FROM THE COLONIES,' with a cobblestone sidewalk and a black lamppost."
+    },
+    "uncertain": [],
+    "observation_identity": "65812263576eec3611f7b1c0df6903fbd4e402da570e27036e24dec990697cae"
+  }
+]

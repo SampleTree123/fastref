@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7122.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build, shown mostly from the back and side; her face is partially visible in profile and three-quarter views.",
+    "hairstyle": "Her hair is pulled up into a high bun with loose strands framing the face.",
+    "hair_color": "Vivid red.",
+    "clothing": "She wears a fitted, knee-length dress with a black-and-white houndstooth pattern, featuring a low open back and cut-out shoulder details.",
+    "action": "She stands in the street, turning her body and head while raising one arm to touch or adjust her hair, then lowers it and shifts her pose.",
+    "camera": "A static, medium full-body shot at roughly eye level, keeping the woman centered against the street background.",
+    "scene": "An old European-style cobblestone street lined with brick and stone buildings, black lamp posts, and hanging signs, including a Union Jack flag and a 'World's Finest Salon' sign."
+  },
+  "uncertain": [],
+  "observation_identity": "96b74ebeb2b5518e039c5d0c60a8dc19e8d62b7d5bbe1a6962fa31900be5a0e0"
+}

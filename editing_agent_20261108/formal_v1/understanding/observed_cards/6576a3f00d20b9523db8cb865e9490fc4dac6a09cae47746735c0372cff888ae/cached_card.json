@@ -1,0 +1,17 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7015.mp4",
+  "observed": {
+    "identity": "A slender woman with light skin, shown mostly from the back and side; her face is not clearly visible.",
+    "hairstyle": "Hair is gathered into two small buns on top of the head.",
+    "hair_color": "Bright blue.",
+    "clothing": "She wears a short, form-fitting dress with a busy multicolored pattern in purple, pink, blue, and orange, plus light pink slip-on shoes.",
+    "action": "She stands on a cobblestone street, raises both arms to adjust her hair, then lowers them and shifts her weight while turning slightly.",
+    "camera": "A static, full-body shot from a low angle captures the woman and the street behind her.",
+    "scene": "The setting is a rendered old-style city street with brick and stone buildings, vintage shop signs, black lampposts, and a cobblestone road."
+  },
+  "uncertain": [
+    "The woman's facial features are not clearly visible because she is mostly facing away from the camera."
+  ],
+  "observation_identity": "79530ac0b374f54a46a051e61470782242f7d39efe200ef5570c231e6ceafcaa"
+}

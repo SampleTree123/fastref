@@ -1,0 +1,95 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5982.mp4",
+    "observed": {
+      "identity": "A muscular adult male character with a light brown complexion, shown in a 3D video-game style render.",
+      "hairstyle": "Short white hair with a small top-knot bun at the back of the head.",
+      "hair_color": "White.",
+      "clothing": "A pink-and-cream tie-dye tank top, pink shorts with white trim, and pink sneakers.",
+      "action": "The character stands in profile, then turns toward the camera, raises a fist to his mouth as if coughing or sneezing, and lowers his arm again.",
+      "camera": "A static medium-full shot at eye level that slowly zooms in on the character.",
+      "scene": "A cobblestone street in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+    },
+    "uncertain": [],
+    "observation_identity": "f278153256a4d9a86e1f11f4cf863c9e4f9818fa844c8a8725ea42628043f006"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_03db01e6658a0c1693f5531037298002c2d4e87b8a3b13b831ea0c0e281ad460.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a front-view dolly-out shot that moves from upper-body to full-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5981.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young Black man with a slim build, short beard, and neutral expression.",
+      "hairstyle": "Short, cropped hair with a slightly textured top.",
+      "hair_color": "Platinum white.",
+      "clothing": "White tank top with a pink and yellow palm-tree graphic reading \"LOS ANGELES\", pink shorts with white trim, and pink slip-on shoes.",
+      "action": "The character stands facing the camera, then raises his right hand to touch his face and head before lowering it and standing still.",
+      "camera": "Static, eye-level medium shot that slowly zooms out to a full-body view.",
+      "scene": "A cobblestone street in a European-style city with stone buildings, black lampposts, and a large Union Jack flag hanging in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "8d9080f1547ef9b953d2d93fd127ce3f45af185e95c3fd4cbc08ff3d267074c2"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_382.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to match the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5983.mp4",
+    "observed": {
+      "identity": "A slim, dark-skinned person with a neutral expression, shown from the chest up at first and then full body.",
+      "hairstyle": "Short, cropped hair close to the scalp.",
+      "hair_color": "White or platinum blonde.",
+      "clothing": "A white sleeveless tank top with a pink and yellow palm-tree graphic reading 'LOS ANGELES', pink shorts with white trim, and pink slip-on shoes.",
+      "action": "The person stands facing forward, then raises one hand to cover their face while placing the other hand on their hip, before lowering the hand and standing still.",
+      "camera": "A static, eye-level medium shot that gradually pulls back to a full-body view.",
+      "scene": "A cobblestone street in a European-style city, with brick and stone buildings, black lampposts, and a large Union Jack flag hanging in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "31e0e788a2ff463742c62d082628c3143e5a555ac58e8db2aeb34dc46cd25dc5"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_5915f12af97efc984cb92b777df5bb7b16967f3be3cee501410d74a7f10c837c.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from the side. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5992.mp4",
+    "observed": {
+      "identity": "A muscular man with a tanned complexion is shown in profile, facing right.",
+      "hairstyle": "His hair is pulled back into a small top-knot bun with the sides shaved short.",
+      "hair_color": "White.",
+      "clothing": "He wears a pink and cream tie-dye tank top and pink shorts.",
+      "action": "The man stands still, then raises his right hand to scratch the back of his head before lowering it again.",
+      "camera": "A static medium shot frames the man from the thighs up at eye level.",
+      "scene": "The setting is an outdoor street with a stone-paved sidewalk in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+    },
+    "uncertain": [],
+    "observation_identity": "8ec2d5d1aded9bc3ff1c20083270d3bc0be9a768094ff5d4d86c2955c9575b66"
+  }
+]

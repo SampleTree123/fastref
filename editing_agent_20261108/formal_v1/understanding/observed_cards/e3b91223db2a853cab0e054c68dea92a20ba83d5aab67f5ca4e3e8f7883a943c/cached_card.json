@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6762.mp4",
+  "observed": {
+    "identity": "A slim, dark-skinned man with a short beard and mustache.",
+    "hairstyle": "Short, cropped hair.",
+    "hair_color": "White or platinum blonde.",
+    "clothing": "A cream tank top with a pink and purple \"LA Los Angeles\" graphic, pink shorts with white trim, and pink slip-on shoes.",
+    "action": "The man stands still facing right, then begins walking slowly toward the left side of the frame.",
+    "camera": "A static, full-body shot from a slightly low angle.",
+    "scene": "An outdoor paved area under a concrete overpass, with a metal railing, green trees, and a construction crane in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "e2d3917da1723fc0365a7f707f95f3786b01b2648055fb7487ca8f5cf9e66d70"
+}

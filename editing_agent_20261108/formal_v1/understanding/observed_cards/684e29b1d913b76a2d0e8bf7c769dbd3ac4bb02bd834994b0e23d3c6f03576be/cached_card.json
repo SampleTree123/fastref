@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6168.mp4",
+  "observed": {
+    "identity": "A Black man with a lean build and short facial stubble is centered in the frame.",
+    "hairstyle": "His hair is styled in a high top-knot or bun with the sides closely shaved.",
+    "hair_color": "His hair appears dark brown to black under the scene lighting.",
+    "clothing": "He wears a white sleeveless tank top with a deep V neckline.",
+    "action": "He begins facing forward, then turns his head to the side while raising a hand to touch his neck and collarbone area, and finally returns to face the camera with a slight smile.",
+    "camera": "The camera holds a static medium close-up at eye level, keeping the subject centered throughout.",
+    "scene": "The setting is a dark, futuristic interior with large glass windows, glowing pink and teal neon lines, and a partial neon sign reading 'TRA' in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "147a615768efe1414de8c37c5d3001d6d1df1596cb8a8906901244707b2679ac"
+}

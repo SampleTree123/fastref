@@ -1,0 +1,78 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6399.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned person shown in profile, with a visible face and slender build.",
+      "hairstyle": "Hair is pulled back into a high ponytail with loose strands framing the face.",
+      "hair_color": "Pink",
+      "clothing": "A yellow long-sleeved top with a white pattern, red leggings, and black shoes.",
+      "action": "The person stands in profile, then bends forward at the waist with arms extended, straightens back up, and returns to a standing pose.",
+      "camera": "A static, eye-level full-body side view with the subject centered in the frame.",
+      "scene": "An outdoor paved area with white lane markings, bordered by a metal guardrail, trees, and a rocky hillside in the background under daylight."
+    },
+    "uncertain": [],
+    "observation_identity": "056de687bb1eb94e4489191dab4e44ed46df850d9bfa3ae012bd34e7436b7a6b"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_371.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6390.mp4",
+    "observed": {
+      "identity": "A slender adult woman with a medium-brown complexion, shown in profile facing right.",
+      "hairstyle": "Hair is pulled back into a high ponytail with a few loose strands at the nape.",
+      "hair_color": "Pink with darker roots.",
+      "clothing": "She wears a long-sleeved yellow blouse with a white floral pattern, reddish-orange flared trousers, and dark slip-on shoes.",
+      "action": "She stands still, then briefly bends forward and raises her right hand to her face before straightening back to an upright stance.",
+      "camera": "A static, eye-level full-body side view with the subject centered in frame.",
+      "scene": "An outdoor urban plaza with a large gray metal utility cabinet behind her, tiled and cobblestone ground, and buildings and a yellow structure in the background."
+    },
+    "uncertain": [
+      "The exact nature of the hand-to-face gesture is unclear, as it could be wiping, adjusting, or touching the face."
+    ],
+    "observation_identity": "f2068ab4ead836284fe0811df139f6c994e2ad922ad4323ebc6b704ed21537d8"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_38.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_79.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6371.mp4",
+    "observed": {
+      "identity": "A slim, light-skinned adult male with a short beard, shown in profile and three-quarter views.",
+      "hairstyle": "Short, closely cropped hair.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A bright yellow long-sleeved shirt with a white pattern, reddish-orange trousers, and dark slip-on shoes.",
+      "action": "The man stands still in profile, then briefly bends forward, raises his right hand to his face, and returns to an upright standing pose.",
+      "camera": "A static, eye-level full-body side view with the subject centered in the frame.",
+      "scene": "An outdoor urban plaza with a large gray metal utility box behind the subject, tiled and cobblestone ground, and buildings in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "14c5eb3a782551ffad8f1806ff25021316ea9a31264a7a18ff269caf6c5a7216"
+  }
+]

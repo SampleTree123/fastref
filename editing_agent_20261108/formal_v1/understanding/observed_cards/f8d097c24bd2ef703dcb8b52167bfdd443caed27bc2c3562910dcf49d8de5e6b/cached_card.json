@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7055.mp4",
+  "observed": {
+    "identity": "A 3D-rendered adult male with a light-to-medium complexion, short dark hair, and a thin mustache.",
+    "hairstyle": "Short, dark hair, neatly combed back.",
+    "hair_color": "Dark brown or black.",
+    "clothing": "A dark blue military-style uniform jacket with gold buttons, a gold star-shaped badge on the left chest, and a black belt with a gold buckle, paired with matching dark blue trousers and black shoes.",
+    "action": "The man stands on an asphalt road, initially looking to his left. He then turns his head forward, raises his right hand to touch his chest and collar area, and finally turns his head back to his left.",
+    "camera": "A static, low-angle full-body shot from a slightly low perspective, looking up at the subject.",
+    "scene": "An outdoor urban environment on a sunny day, featuring a paved road with white lane markings, a concrete overpass or bridge structure in the background, and red-and-yellow striped traffic bollards."
+  },
+  "uncertain": [],
+  "observation_identity": "9e02bf7a993091c5e43f8b1a7c6c74ba5ae8e52f2d8409b7ac03d3c526fc4f9e"
+}

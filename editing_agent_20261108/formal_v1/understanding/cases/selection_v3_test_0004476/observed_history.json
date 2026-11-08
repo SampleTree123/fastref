@@ -1,0 +1,69 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6989.mp4",
+    "observed": {
+      "identity": "A Black man with a short beard and a neutral expression, shown from the chest up at first and later full body.",
+      "hairstyle": "Short, tightly cropped hair.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A light blue cable-knit sweater, dark slim trousers, light socks, and brown lace-up shoes.",
+      "action": "He stands facing the camera, then raises both arms overhead and performs a few dance-like arm and body movements before returning to a standing pose.",
+      "camera": "A low-angle, front-facing shot that starts as a medium close-up and pulls back to a full-body view as he moves.",
+      "scene": "An outdoor paved road under a concrete overpass, with construction barriers, traffic signs, and trees in the background under bright daylight."
+    },
+    "uncertain": [],
+    "observation_identity": "6909fd6153e40477008243958126a12fd1cf2263b4c6f825c98db8b5d7fef5bf"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hair color to red.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6978.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a medium-brown complexion, short facial stubble, and a neutral expression.",
+      "hairstyle": "Short, cropped hair with a slightly textured top.",
+      "hair_color": "Reddish-brown.",
+      "clothing": "A light blue, cable-knit sweater with a diamond pattern, black slim-fit pants, and brown lace-up shoes with white socks.",
+      "action": "The character begins standing still, then raises both arms overhead, performs a brief dance-like movement with bent knees and swinging arms, and finally returns to a standing position.",
+      "camera": "A static, low-angle medium shot that frames the character from the shins up, keeping them centered in the frame.",
+      "scene": "An outdoor paved area under a concrete overpass or bridge structure, with a road, guardrails, trees, and orange-and-white construction barriers visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "f38cfdb0a5e67f4ae432c776f82774707273fd65dfe6487d6c8bd3db5af151a3"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_104.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_11.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6952.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, short facial hair, and a neutral expression.",
+      "hairstyle": "Short, cropped hair with a distinct red band or headband around the head.",
+      "hair_color": "Dark brown or black, with a red headband.",
+      "clothing": "A light blue, cable-knit sweater with a diamond pattern, black pants, and brown lace-up shoes with white socks.",
+      "action": "The man stands facing the camera, then raises both arms overhead, brings them down in a dance-like motion, and finally returns to a standing position with arms at his sides.",
+      "camera": "A static, medium-full shot from a slightly low angle, keeping the subject centered in the frame.",
+      "scene": "An outdoor paved area under a concrete overpass or bridge, with construction barriers, signs, and trees visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "7ea55ad69789f3c86ddb0fafc4d10c55899f8a69178868a94b58052eb62e492f"
+  }
+]

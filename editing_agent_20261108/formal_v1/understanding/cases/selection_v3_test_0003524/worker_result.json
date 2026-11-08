@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0003524",
+  "dataset_index": 41,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 27.894941504113376,
+  "result": {
+    "source_video_id": 1,
+    "prompt": "Change the person's hair color from chestnut brown to blonde. Preserve the existing front facial close-up framing that gently follows the head, the person's identity, hair shape and style, and all other scene details unchanged.",
+    "reference_ids": [],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

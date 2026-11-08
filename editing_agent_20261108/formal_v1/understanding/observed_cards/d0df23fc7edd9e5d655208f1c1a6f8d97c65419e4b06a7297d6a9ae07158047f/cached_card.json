@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6953.mp4",
+  "observed": {
+    "identity": "A young man with a light-to-medium complexion, short dark hair, and a clean-shaven face.",
+    "hairstyle": "Short, dark hair, neatly trimmed.",
+    "hair_color": "Dark brown or black.",
+    "clothing": "A purple cable-knit sweater, black pants, and brown boots.",
+    "action": "The man begins standing still, then raises both arms overhead, and proceeds to dance by swinging his arms and shifting his weight before returning to a standing position.",
+    "camera": "The camera starts with a medium shot of the upper body and gradually zooms out to a full-body shot, remaining static otherwise.",
+    "scene": "A futuristic indoor setting with a large glass dome ceiling, glowing pink and blue neon lights, and a reflective floor."
+  },
+  "uncertain": [],
+  "observation_identity": "a0d17185d217991f823f7478b15fd1dd0b7be3045d5a15a3fa101cff16fb342b"
+}

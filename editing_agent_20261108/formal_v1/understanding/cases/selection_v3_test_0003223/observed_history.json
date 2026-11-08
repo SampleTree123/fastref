@@ -1,0 +1,100 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6727.mp4",
+    "observed": {
+      "identity": "A person with a slim build is shown from behind, with their face mostly hidden in shadow.",
+      "hairstyle": "The hair is pulled up into a small topknot bun at the crown of the head.",
+      "hair_color": "The hair appears light brown or reddish-brown in the sunlight.",
+      "clothing": "The person wears a dark, long-sleeved top and dark pants with a belt at the waist.",
+      "action": "The person stands facing the water and slowly turns their head and upper body from side to side.",
+      "camera": "The camera holds a static medium shot from behind the person at roughly waist height.",
+      "scene": "The setting is an outdoor stone platform beside a calm body of water under a clear blue sky, with a wooden post standing in the water to the right."
+    },
+    "uncertain": [
+      "The person's face and gender are not clearly visible because they are shown from behind in shadow.",
+      "The clothing has irregular light-colored patches on the back and legs, which may be a texture or rendering artifact rather than a deliberate design."
+    ],
+    "observation_identity": "c1d5c105a5902103fe840d1f30e4aa40cc0ac34e5fad524e7291077aa4f72065"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_606.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6734.mp4",
+    "observed": {
+      "identity": "A male-presenting 3D character with a muscular build, shown from behind with his face mostly hidden.",
+      "hairstyle": "Short-cropped hair on the sides and back with a small topknot bun at the crown.",
+      "hair_color": "Light brown to blond.",
+      "clothing": "A dark blue textured long-sleeve top and matching pants with a black belt, both showing large tan skin-colored patches where the fabric appears torn or missing.",
+      "action": "The character stands in place and slowly turns his upper body and head from side to side, occasionally raising an arm.",
+      "camera": "A medium shot from behind at roughly waist-to-head height, remaining mostly stationary as the character rotates.",
+      "scene": "A cobblestone street in a rendered Victorian-style town with red brick buildings, shop awnings, a street lamp, and a Union Jack flag in the background."
+    },
+    "uncertain": [
+      "The character's face is not clearly visible, so facial features are unclear.",
+      "It is unclear whether the tan patches are intentional torn-fabric design or a rendering artifact."
+    ],
+    "observation_identity": "33226f600baad1a903a5a8f6d691efabed48a8f4f2880093d97fda12b6ae8055"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_8.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_66.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6713.mp4",
+    "observed": {
+      "identity": "A person with a slim build is seen from behind, with their face mostly hidden in shadow.",
+      "hairstyle": "The person has their hair pulled back into a high ponytail.",
+      "hair_color": "The hair appears light brown or blonde in the sunlight.",
+      "clothing": "They are wearing a dark, long-sleeved top and matching pants that have large, irregular holes revealing skin underneath.",
+      "action": "The person stands still, then slowly turns their head and upper body to the left, and then back to the right.",
+      "camera": "The camera maintains a static, medium shot from behind the subject at eye level.",
+      "scene": "The setting is an outdoor stone platform overlooking a calm body of water under a clear blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "cb043a123f3fa37a1133a7ac923f44ca95a7374f95f0a755eb08ec3629c8fb5e"
+  },
+  {
+    "parent_id": 2,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current chestnut brown hair color with black.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6699.mp4",
+    "observed": {
+      "identity": "A person with a broad, muscular build is seen from behind, with their face mostly hidden in shadow.",
+      "hairstyle": "The person's hair is pulled back into a high ponytail.",
+      "hair_color": "The hair appears dark brown or black.",
+      "clothing": "They wear a dark, long-sleeved top and matching shorts, both featuring large, irregular tan-colored patches.",
+      "action": "The person stands facing away from the camera and slowly turns their head and upper body to the left, then back to the right.",
+      "camera": "The camera maintains a static, medium shot from behind the subject at a slightly low angle.",
+      "scene": "The setting is an outdoor stone platform overlooking a calm body of water under a clear, bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "8d46a8e70ecc9ff554d268d6538fe8897b47f82d8f3c0b604a55a18a246957b4"
+  }
+]

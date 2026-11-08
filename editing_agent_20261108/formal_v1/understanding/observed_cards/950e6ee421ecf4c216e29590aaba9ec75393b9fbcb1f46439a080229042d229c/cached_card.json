@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6958.mp4",
+  "observed": {
+    "identity": "A Black man with a short beard and mustache, shown from head to toe.",
+    "hairstyle": "Short hair with a small top-knot bun at the back of the head.",
+    "hair_color": "Dark brown to black.",
+    "clothing": "A red-and-black plaid three-piece suit with a white dress shirt, black tie, and black shoes.",
+    "action": "He stands facing forward, then turns his body and head to the side, briefly touches his tie, and crosses his arms before facing the camera again.",
+    "camera": "A static full-body shot that slowly zooms in to a medium shot of the torso and head.",
+    "scene": "A futuristic interior with a large glass dome, glowing pink and teal neon rings, and a reflective floor under blue and red lighting."
+  },
+  "uncertain": [],
+  "observation_identity": "108fd784a7f1cb529dc08704b907555235a8a092e7d8c4842332ab496e8a3b65"
+}

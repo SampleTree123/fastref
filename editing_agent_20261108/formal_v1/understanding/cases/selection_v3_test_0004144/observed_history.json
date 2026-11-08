@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6933.mp4",
+    "observed": {
+      "identity": "A young Black man with a short beard and mustache, shown from the waist up at first and then full body.",
+      "hairstyle": "Short, dark, textured hair with a slightly raised top.",
+      "hair_color": "Black.",
+      "clothing": "Pink-and-white checkered button-up shirt with sleeves rolled to the elbows, a black bow tie, black suspenders, matching checkered trousers, and black shoes.",
+      "action": "He stands facing the camera, then raises both arms overhead, swings them in a dance-like motion, and finally returns to a relaxed standing pose.",
+      "camera": "Static medium-to-full shot at eye level, framing the subject centered against the background.",
+      "scene": "A futuristic stage with a large dark dome overhead, glowing teal ring lights, pink grid lines, and a reflective floor lit with pink and blue light."
+    },
+    "uncertain": [],
+    "observation_identity": "75f711cfe92dc8cd62ae049f79d3480e55c34bc88f7d7113e0eeb902b892b3c7"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_674.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6935.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and a neutral facial expression.",
+      "hairstyle": "Short, dark hair with a slightly raised, textured top.",
+      "hair_color": "Black.",
+      "clothing": "A pink and white checkered button-up shirt with rolled sleeves, a black bow tie, black suspenders, matching pink and white checkered trousers, and black shoes.",
+      "action": "The man walks slowly forward toward the camera, then stops and stands still, briefly looking up and to his left.",
+      "camera": "A medium full shot that starts at chest level and gradually pulls back to a full-body view as the subject approaches.",
+      "scene": "A futuristic, sci-fi environment featuring a large glass dome structure with glowing pink and teal neon rings and a reflective floor."
+    },
+    "uncertain": [],
+    "observation_identity": "aa8430812f2650101656bf065456c23a6f582dd2991f99789015ac096b0efc69"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_452.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to standing in a thoughtful pose, as demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6936.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble.",
+      "hairstyle": "Short dark hair with a small top-knot or bun at the back.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A pink-and-white checkered button-up shirt with a black bow tie, black suspenders, matching checkered trousers, and black shoes.",
+      "action": "He stands facing the camera, then turns his head and body to the side while raising one hand to touch his neck and collar, crossing his arms briefly before returning to a front-facing stance.",
+      "camera": "A static medium-to-full shot that gradually pulls back to reveal his full body and the surrounding floor.",
+      "scene": "A futuristic interior with a large glass dome ceiling, glowing teal circular light rings, pink structural beams, and a reflective gray floor."
+    },
+    "uncertain": [],
+    "observation_identity": "0f1cb475fa7797443e97a2c412640f1caeda84c70f3af24f37ceeaebf5b8b7df"
+  }
+]

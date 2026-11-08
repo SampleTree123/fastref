@@ -1,0 +1,69 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6885.mp4",
+    "observed": {
+      "identity": "A female-presenting 3D character with a slim build, shown from behind.",
+      "hairstyle": "Brown hair is pulled back into two low side buns with loose strands framing the neck.",
+      "hair_color": "Medium brown.",
+      "clothing": "She wears a short, white romper with a floral print of pink and yellow flowers and green leaves, featuring a low open back and three-quarter sleeves, along with pink flat sandals.",
+      "action": "The character stands with her back to the camera, then places both hands on her hips and shifts her weight slightly before lowering her arms.",
+      "camera": "The camera is positioned behind the character at a medium-full shot, remaining mostly static with slight movement as the character moves.",
+      "scene": "The setting is an outdoor urban rooftop or plaza with a tiled floor, a metal tower structure with a loudspeaker on the left, and tall city buildings with red signage in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "e55290a3b810bdc85bce91cceed2b7eca837795f40e7a8e757375692ff9c44b2"
+  },
+  {
+    "parent_id": 0,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to red.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6900.mp4",
+    "observed": {
+      "identity": "A female character with a slim build, shown from behind with her face not visible.",
+      "hairstyle": "Red hair styled in two low pigtails tied with small bands.",
+      "hair_color": "Red.",
+      "clothing": "A short, white dress with a floral pattern of pink and yellow flowers and green leaves, featuring a low open back and three-quarter sleeves, paired with pink flat shoes.",
+      "action": "The character stands with her back to the camera, then places her hands on her hips and shifts her weight slightly while remaining in place.",
+      "camera": "A static, medium-long shot from behind the character at a slightly low angle.",
+      "scene": "An outdoor urban plaza with a tiled floor, a metal tower structure with a loudspeaker on the left, and multi-story buildings with red signs in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "87c02e53d0143fd314b0f5541f9d20caf9895da8d9014107339b7a541a09ee21"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_18.png",
+        "reference_id": "ref_1",
+        "type": "hair",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_111.png",
+        "reference_id": "ref_2",
+        "type": "hair",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6901.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind, with tanned skin.",
+      "hairstyle": "Her hair is pulled up into a loose, messy bun at the back of her head.",
+      "hair_color": "Her hair is light brown.",
+      "clothing": "She wears a short, white romper with a floral pattern of pink and yellow flowers and green leaves, featuring a low open back and three-quarter sleeves, along with pink flat sandals.",
+      "action": "The woman stands with her back to the camera, initially with arms at her sides, then places her hands on her hips and shifts her weight, before lowering her arms again.",
+      "camera": "The camera is positioned behind the subject at a medium-long distance, remaining mostly static with slight movement as the subject shifts.",
+      "scene": "The setting is an outdoor urban rooftop or plaza with a paved surface, a metal structure with a loudspeaker on the left, and tall city buildings with signage in the background under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "a0d24301e5b1bf47763183f7d357360877a93c5a3dfb8514a6e7ea07b0bdd41b"
+  }
+]

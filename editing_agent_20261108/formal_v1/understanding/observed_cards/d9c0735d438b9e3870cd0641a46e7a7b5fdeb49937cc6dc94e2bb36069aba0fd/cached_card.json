@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6772.mp4",
+  "observed": {
+    "identity": "A muscular person with a dark complexion, shown in profile from the thighs up.",
+    "hairstyle": "Short, swept-back hair with a faded side.",
+    "hair_color": "White.",
+    "clothing": "A cream tank top with a pink graphic on the front and pink shorts.",
+    "action": "The person stands in profile, then begins walking slowly forward with arms swinging.",
+    "camera": "A medium side-profile shot that tracks the person as they move forward.",
+    "scene": "An outdoor paved road beside a metal guardrail, with a rocky hillside, green trees, and a bright sky in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "6d70ed3bb8fe0d619024a840c79fbbdd5880e833f15d5eefbb9d073bbd7e89c7"
+}

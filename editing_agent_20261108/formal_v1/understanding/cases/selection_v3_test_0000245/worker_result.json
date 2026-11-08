@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "id": "selection_v3_test_0000245",
+  "dataset_index": 70,
+  "version": "b8354202cfb944690926627249abe6b9b3cb6559ad1a4851db1262b53d727ca5",
+  "mode": "understanding",
+  "seconds": 37.73319422174245,
+  "result": {
+    "source_video_id": 0,
+    "prompt": "Replace the person's current white hair color with black. Preserve the person's identity, hair shape, and all other scene details unchanged.",
+    "reference_ids": [],
+    "inspected_video_ids": [],
+    "selection_model_calls": 1,
+    "selection_corrections": 0,
+    "editing_model_calls": 1,
+    "editing_corrections": 0
+  }
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6256.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen from behind, with a low bun hairstyle.",
+      "hairstyle": "Hair is pulled back into a low bun at the nape of the neck.",
+      "hair_color": "Dark reddish-brown.",
+      "clothing": "She wears a blue and white patterned dress with an open back and short sleeves.",
+      "action": "The woman stands with her back to the camera, then raises her right arm to brush her hair back before lowering it.",
+      "camera": "The camera is static, positioned behind the woman at a medium distance, capturing her from the waist up.",
+      "scene": "The setting is an outdoor amusement park or fairground at dusk, featuring a carousel with a striped roof and a large structure with marquee lights to the left."
+    },
+    "uncertain": [],
+    "observation_identity": "b27a38f4eedf7a0fd9571d998d3dccb5fd5020e191cd9e91e10259e1366277e0"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_335.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to posing for a photo, as demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6248.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen mostly from behind, with a low bun hairstyle and a small white flower accessory in her hair.",
+      "hairstyle": "Dark hair pulled back into a low bun at the nape of the neck.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A blue and white patterned dress with three-quarter sleeves and an open back.",
+      "action": "The woman stands with her back to the camera, then raises her right arm to adjust her hair or headband, and finally lowers her arm.",
+      "camera": "Static medium shot from behind the subject, at roughly eye level.",
+      "scene": "An outdoor amusement park or fairground at dusk, featuring a carousel with a striped roof and a large pavilion with marquee lights in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "0f2c8b6140df816784bad9971b5786db487318e38bf97268143e313b202cd102"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_248.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they sneeze, as shown in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6260.mp4",
+    "observed": {
+      "identity": "A woman with a slim build, seen mostly from behind, with a small tattoo visible on her lower back.",
+      "hairstyle": "Her hair is pulled back into a low bun at the nape of her neck.",
+      "hair_color": "Her hair is a reddish-brown or auburn color.",
+      "clothing": "She wears a blue and white patterned dress with an open back and short sleeves.",
+      "action": "She stands with her back to the camera, then turns her head and upper body to the right, briefly raising her right hand toward her face before turning back to face away.",
+      "camera": "The camera is static at a medium distance, framing the woman from the waist up from behind.",
+      "scene": "The setting is an outdoor amusement park or fairground at dusk, featuring a carousel, a covered pavilion with string lights, and a red food cart on a sandy ground."
+    },
+    "uncertain": [],
+    "observation_identity": "dfd348aaada9aa5680743320f510301bd042f8e8fd1bb4cbd2ac0336b5907db9"
+  }
+]

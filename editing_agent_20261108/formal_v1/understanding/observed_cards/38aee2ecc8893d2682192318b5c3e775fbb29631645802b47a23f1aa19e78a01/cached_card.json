@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5989.mp4",
+  "observed": {
+    "identity": "A muscular man with a light brown complexion, shown in profile and three-quarter views.",
+    "hairstyle": "Short hair with a small top-knot bun at the back of the head.",
+    "hair_color": "White.",
+    "clothing": "White tank top with a pink graphic, pink shorts, and pink sneakers.",
+    "action": "The man stands still, then raises his right hand to his mouth in a coughing or sneezing motion before lowering it again.",
+    "camera": "Medium full shot at eye level, mostly static with a slight zoom-in toward the end.",
+    "scene": "A cobblestone street in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+  },
+  "uncertain": [],
+  "observation_identity": "55d9814608ced989ac7658c1c5b610703f699eda01af8336cf57c1bcc8147e8e"
+}

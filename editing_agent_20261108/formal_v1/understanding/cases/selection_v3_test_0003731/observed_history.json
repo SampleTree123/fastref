@@ -1,0 +1,63 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6841.mp4",
+    "observed": {
+      "identity": "A slender woman with dark skin, seen mostly from behind and in profile.",
+      "hairstyle": "Short, curly hair that she repeatedly lifts and smooths with her hands.",
+      "hair_color": "Dark brown.",
+      "clothing": "Bright pink long-sleeved off-shoulder top, white mini skirt, and black lace-up combat boots.",
+      "action": "She stands with her back to the camera, then turns into profile while raising one arm to touch her hair, shifting her weight and posing.",
+      "camera": "Static full-body shot from a low angle, keeping the figure centered against the background.",
+      "scene": "A futuristic outdoor plaza with a wet reflective ground, glowing teal domed buildings, a tall tower, and a purple bus in the distance under a cloudy blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "d66080bab30267cf2b7ce037dfd4989136d08047d02c42c89a207d6f47adb90f"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_67.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6857.mp4",
+    "observed": {
+      "identity": "A slim female character with a fair complexion, shown from behind and in profile.",
+      "hairstyle": "Short, wavy hair tied back in a small, low ponytail or bun.",
+      "hair_color": "Light brown or dark blonde.",
+      "clothing": "A bright pink, long-sleeved off-the-shoulder top with dark blue patterns on the sleeves, a white mini skirt, and dark brown lace-up boots.",
+      "action": "The character stands and slowly rotates her body, turning from a back view to a side profile and then back, while raising one hand to touch her hair.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+      "scene": "An outdoor urban setting with a large, weathered metal container or wall directly behind the character, and a tiled pavement floor."
+    },
+    "uncertain": [],
+    "observation_identity": "c03ee0cb0e3f4c263611fbbc93ed7a4e4c129111ca5b174a85a87ba919c6565e"
+  },
+  {
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: The person currently has chestnut brown hair; please change it to blonde.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6864.mp4",
+    "observed": {
+      "identity": "A slender female 3D character with a slim build, shown from behind and in profile.",
+      "hairstyle": "Short, tousled hair that is swept up and away from the face.",
+      "hair_color": "Bright yellow-blonde.",
+      "clothing": "A long-sleeved hot-pink off-the-shoulder top with dark shoulder straps, a short white pleated skirt, and dark lace-up ankle boots.",
+      "action": "The character stands and slowly turns in place, raising one arm to brush her hand through her hair while shifting her weight and posing.",
+      "camera": "A static, low-angle full-body shot that keeps the character centered against the background.",
+      "scene": "An outdoor urban plaza with large light-gray paving tiles, a big weathered metal container behind the character, and tan buildings with a red-and-yellow sign in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "177fe90fb743851ab0f33fc81e42d96e82140cd9646287c56510557f34306ced"
+  }
+]

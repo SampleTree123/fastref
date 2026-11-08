@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6837.mp4",
+  "observed": {
+    "identity": "A young woman with fair skin, a small mole on her neck, and a neutral-to-smiling expression.",
+    "hairstyle": "Brown hair with straight bangs, styled into two small buns on top of her head.",
+    "hair_color": "Medium brown with lighter highlights.",
+    "clothing": "A bright pink, off-the-shoulder top with small dark bows at the shoulders.",
+    "action": "She stands facing the camera, blinks, and shifts her head slightly, then turns her head to her left to look off-screen.",
+    "camera": "A static, medium close-up shot at eye level, keeping the subject centered in the frame.",
+    "scene": "A futuristic setting at night featuring a large glass-domed building with glowing teal circular lights and pink structural accents behind her."
+  },
+  "uncertain": [],
+  "observation_identity": "47bf603bb36833fcaf9b6e89cc052084edfc35a9d5fd82c11ddb37260d3db039"
+}

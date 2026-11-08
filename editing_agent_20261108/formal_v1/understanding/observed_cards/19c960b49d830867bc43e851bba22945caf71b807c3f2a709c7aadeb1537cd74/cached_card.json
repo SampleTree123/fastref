@@ -1,0 +1,17 @@
+{
+  "video_id": 4,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6795.mp4",
+  "observed": {
+    "identity": "A slender woman with dark skin and a slim build, shown from head to toe.",
+    "hairstyle": "Her hair is pulled up into two high buns on either side of her head.",
+    "hair_color": "Her hair appears dark brown, with a few lighter strands visible near the face.",
+    "clothing": "She wears a short, purple and white patterned dress with elbow-length sleeves and red sneakers.",
+    "action": "She stands facing forward, then raises her right hand to her face and head while placing her left hand on her hip, before lowering her arm and returning to a standing pose.",
+    "camera": "The camera holds a static, full-body frontal shot at a slight low angle.",
+    "scene": "She stands on a glossy, reflective floor in front of a large glass structure with pink framing, glowing green rings, and a dark dome with a white circular light above."
+  },
+  "uncertain": [
+    "The exact pattern on the dress is hard to identify clearly due to the lighting and resolution."
+  ],
+  "observation_identity": "a07d8b273b54065236d77c965c63ee4e2be61b4eff6d15d89232db4f312b400a"
+}

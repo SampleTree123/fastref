@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6930.mp4",
+  "observed": {
+    "identity": "A 3D-rendered young woman with a slim build, shown in profile facing right.",
+    "hairstyle": "Red hair tied in a high ponytail with a fringe covering the forehead.",
+    "hair_color": "Red.",
+    "clothing": "Pink long-sleeve cropped collared top, white pleated mini skirt, and black lace-up boots.",
+    "action": "She stands in profile, then raises both hands to her head and face, lowers them, and returns to a standing pose.",
+    "camera": "Side profile view that slowly pulls back from a medium shot to a full-body shot.",
+    "scene": "Outdoor area with a gray metal wall behind her, a tiled floor in front, and a tan structure with windows at the top."
+  },
+  "uncertain": [],
+  "observation_identity": "eb475e40a1abe4b12250e652596657586eca4ba235926c597ff02d22b1c262b1"
+}

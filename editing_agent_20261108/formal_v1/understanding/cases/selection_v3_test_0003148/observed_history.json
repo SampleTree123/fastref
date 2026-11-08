@@ -1,0 +1,79 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6706.mp4",
+    "observed": {
+      "identity": "A person seen from behind, with a medium build and dark skin visible on the neck and hands.",
+      "hairstyle": "Dark hair is pulled back into a high ponytail or topknot.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A dark, long-sleeved collared shirt and matching dark trousers with a belt.",
+      "action": "The person stands facing away, then turns and swings their arms in a loose, dance-like motion before returning to a standing pose.",
+      "camera": "A static, medium shot from behind at roughly waist-to-head height.",
+      "scene": "An outdoor stone terrace beside a calm body of water under a clear blue sky, with a wooden post in the water to the right."
+    },
+    "uncertain": [
+      "The person's face is not visible, so facial features and exact gender are unclear.",
+      "The clothing appears to have irregular light-colored patches, which may be a visual effect or damage, but their nature is unclear."
+    ],
+    "observation_identity": "b7071df761bc232114cc213efc786cb52a949b9304b78b047b2f7b954571e8ec"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_134.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_10.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change only the person's one-piece garment to match the reference images. Leave the rest of the outfit and everything else in the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6705.mp4",
+    "observed": {
+      "identity": "A person seen from behind, with a medium build and dark skin visible on the neck and hands.",
+      "hairstyle": "Dark hair is pulled back into a high top-knot bun.",
+      "hair_color": "Black.",
+      "clothing": "A matching orange-and-black checkered suit jacket and trousers with a light-colored shirt visible at the collar and cuffs.",
+      "action": "The person stands facing away, then turns their head and upper body to the right before turning back to face forward.",
+      "camera": "A static, medium shot from behind at roughly waist-to-head height.",
+      "scene": "An outdoor stone terrace beside a calm body of water under a clear blue sky, with a wooden post and rocks visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "987143f4f26ca20681636f0666046f34519dd043ed6a054d204883bd8293af28"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_48534d4645a75947ba33b7c2dd8197650ba366724c1ad10ec2108f4542c3017b.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a rear-view dolly-in shot that moves from full-body to upper-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6696.mp4",
+    "observed": {
+      "identity": "A person with a medium build, seen from behind, with dark skin visible on the neck and hands.",
+      "hairstyle": "Dark hair is pulled up into a high top-knot or bun.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A matching two-piece suit in an orange, brown, and black plaid pattern, with a white shirt visible at the collar and cuffs, and dark shoes.",
+      "action": "The person stands facing the water, then turns their body to the right and back, shifting their weight and swinging their arms slightly.",
+      "camera": "A static, medium full shot from behind the subject, keeping them centered in the frame.",
+      "scene": "An outdoor concrete pier or dock next to a calm body of water under a clear, bright blue sky, with wooden posts and rocks visible in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "a0ee16bbe5585dc4de50e5806fe10fb517603b00d64afc44a37e709073eef272"
+  }
+]

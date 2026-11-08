@@ -1,0 +1,72 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6496.mp4",
+    "observed": {
+      "identity": "A person seen from behind with a slim build and short hair; face is not visible.",
+      "hairstyle": "Short, tousled hair that lifts and moves as the person turns.",
+      "hair_color": "Blonde with lighter highlights.",
+      "clothing": "A bright coral-red long-sleeved collared top tucked into a light beige skirt with a thin brown belt.",
+      "action": "The person stands facing the sea, then raises both arms overhead and swings them in a large circular motion before lowering them back to their sides.",
+      "camera": "Static medium shot from behind the subject at roughly waist-to-head height, centered on the person.",
+      "scene": "A stone-tiled platform at the edge of a calm sea under a clear blue sky, with weathered wooden posts and rocks in the shallow water to the right."
+    },
+    "uncertain": [
+      "The person's face and gender are not visible, so identity details are limited to the visible back, build, and hair."
+    ],
+    "observation_identity": "9be1c588b225295b978f0408e48c0571af7ab4938215b562155ebaef5f4946e2"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_518.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they lower their head and rest one hand on their forehead, as shown in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6480.mp4",
+    "observed": {
+      "identity": "A person seen from behind, with a slim build and fair skin on the neck and arms.",
+      "hairstyle": "Short, tousled hair gathered into a small, loose bun at the back of the head.",
+      "hair_color": "Blonde.",
+      "clothing": "A bright coral-pink long-sleeved collared shirt tucked into a light beige or cream skirt, with a thin brown belt at the waist.",
+      "action": "The person stands facing the water, then briefly raises a hand to the back of their head before placing a hand on their hip and shifting their weight slightly.",
+      "camera": "A static, medium shot from behind the subject at roughly waist height, keeping the person centered in the frame.",
+      "scene": "An outdoor coastal setting with a calm sea, a pale blue sky, and a stone-tiled platform in the foreground. Several weathered wooden posts of varying heights stand in the shallow water to the right, with rocky outcrops nearby."
+    },
+    "uncertain": [],
+    "observation_identity": "57db8acf29c3093688aaacd1a9ca406e0d04e9615a0b1099c0e1d4872217fb01"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_5.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to posing for a photo, following the demonstration in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6493.mp4",
+    "observed": {
+      "identity": "A woman with a medium build, shown in profile and then from behind.",
+      "hairstyle": "Blonde hair pulled back into a ponytail with loose strands at the front.",
+      "hair_color": "Blonde.",
+      "clothing": "A bright pink long-sleeved cropped top and a white skirt.",
+      "action": "She stands on a dock, raises one hand to touch her hair, then turns her body away from the camera.",
+      "camera": "A static medium shot from a slightly low angle, keeping the subject centered against the horizon.",
+      "scene": "An outdoor waterfront setting with a stone-tiled dock, calm blue water, and several vertical wooden posts rising from the sea under a clear sky."
+    },
+    "uncertain": [],
+    "observation_identity": "664232204a42635b04b92de8a4cc5c90d34203de073b332593b0f4bdeb561c5e"
+  }
+]

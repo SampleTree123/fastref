@@ -1,0 +1,80 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6100.mp4",
+    "observed": {
+      "identity": "A male-presenting 3D-rendered figure with a stocky build, seen from behind with his face never visible.",
+      "hairstyle": "Short, closely cropped hair.",
+      "hair_color": "Dark brown to black.",
+      "clothing": "A tan plaid two-piece suit with a jacket and matching trousers, plus dark shoes.",
+      "action": "The figure stands in the center of an open plaza, shifting his weight and turning his upper body slightly from side to side while his arms bend at the elbows.",
+      "camera": "Static medium-long shot from behind the figure at roughly waist height, keeping him centered in frame.",
+      "scene": "A stylized futuristic city plaza with a wet reflective ground, glowing red and cyan light strips, and tall buildings with blue and pink-lit windows in the background."
+    },
+    "uncertain": [
+      "The figure's face and exact identity are not visible, so facial features are unclear."
+    ],
+    "observation_identity": "1db70c7fd422c3e3ce01fa2763ccd498c4110dd365c0b23feb249811f619a3fb"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_409.png",
+        "reference_id": "ref_1",
+        "type": "garment",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_449.png",
+        "reference_id": "ref_2",
+        "type": "garment",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change only the person's one-piece garment to match the reference images. Leave the rest of the outfit and everything else in the video unchanged.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6107.mp4",
+    "observed": {
+      "identity": "A 3D-rendered male character with a dark complexion, seen from behind.",
+      "hairstyle": "Short, dark hair.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A white long-sleeved shirt with a faint grid pattern, black Y-back suspenders, and black-and-white checkered trousers.",
+      "action": "The character stands in the center of the frame, shifting his weight and turning his upper body slightly to the left and right.",
+      "camera": "A static, medium-full shot from behind the character at eye level.",
+      "scene": "A futuristic, open-air plaza with a wet, reflective floor, surrounded by modern buildings with glowing blue and pink lights."
+    },
+    "uncertain": [],
+    "observation_identity": "d9e424a787b4580c49b88b529476c4f1e19393521ee1330172b33ad8c6427c99"
+  },
+  {
+    "parent_id": 1,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_555.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to walking forward, following the demonstration in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6118.mp4",
+    "observed": {
+      "identity": "A person with a medium build and brown skin is shown from behind, with their face not visible.",
+      "hairstyle": "The person has short, dark hair.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "They wear a white short-sleeved shirt with a faint pattern, black Y-back suspenders, and black-and-white checkered trousers with dark shoes.",
+      "action": "The person stands still at first, then walks slowly forward away from the camera across the open plaza.",
+      "camera": "A static, eye-level full-body shot from behind the subject.",
+      "scene": "A futuristic city plaza with a glossy reflective floor, glowing red and cyan light strips, and tall modern buildings under a pale sky."
+    },
+    "uncertain": [
+      "The person's face and exact identity are not visible since they are shown from behind."
+    ],
+    "observation_identity": "33aac0394b914e05cd8dbaca9578a741d307cf194a5cb3c3646e69a9f00f0487"
+  }
+]

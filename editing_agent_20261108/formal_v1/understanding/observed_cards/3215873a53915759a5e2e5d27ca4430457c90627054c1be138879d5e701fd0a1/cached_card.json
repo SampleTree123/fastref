@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6190.mp4",
+  "observed": {
+    "identity": "A slender young woman with a dark complexion and a slim build.",
+    "hairstyle": "Bright yellow hair styled in two high buns on top of her head.",
+    "hair_color": "Bright yellow.",
+    "clothing": "A short, black and white dress with a lace-up bodice, puffed sleeves, and a white panel on the side, paired with light blue sneakers.",
+    "action": "The woman stands in the middle of the road, then raises her arms and begins to dance, turning her body and moving her arms in a fluid motion before stopping and standing still.",
+    "camera": "A full-body shot from a low angle, with the camera slowly panning to the right to follow the woman's movement.",
+    "scene": "An empty asphalt road under a concrete overpass, with construction barriers, metal guardrails, and trees with yellowing leaves in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "dc4d98246dfc08f0e243fa87eb59e9468304d2cd5ffe0a0440b96395972e60e0"
+}

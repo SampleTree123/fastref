@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6813.mp4",
+    "observed": {
+      "identity": "A 3D-rendered young woman with a slim build, dark skin, and a neutral-to-smiling expression.",
+      "hairstyle": "Short brown hair with straight bangs and two small buns on top of her head.",
+      "hair_color": "Brown.",
+      "clothing": "A bright pink long-sleeved off-the-shoulder crop top and a light pink pleated skirt.",
+      "action": "She stands facing the camera, swaying slightly and shifting her weight, then turns her head to look over her left shoulder at the end.",
+      "camera": "A static, medium shot from the waist up, keeping the subject centered in the frame.",
+      "scene": "A futuristic, neon-lit environment at night, featuring a large glass dome structure with glowing teal rings and pink accents in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "893ac4359c363ca0c1fbce24b1e856efc4fafc40998fac3fa103256089988403"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_b926d1a69364ed03099452b40f4e353f5c697358fd544ac55f5a82b1992ba268.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a close-up shot of the person's face from the front. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6814.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a medium-dark complexion, visible in a front-facing medium close-up.",
+      "hairstyle": "Light brown hair with straight bangs, styled into two small buns on top of her head.",
+      "hair_color": "Light brown with blonde highlights.",
+      "clothing": "A bright pink off-the-shoulder top with small dark bows at the shoulders.",
+      "action": "She faces the camera with a slight smile, then turns her head to her left to look off-screen.",
+      "camera": "Static medium close-up at eye level, framing the subject from the chest up.",
+      "scene": "A futuristic setting at dusk with a large glass-domed building, glowing teal ring lights, and pink neon accents behind her."
+    },
+    "uncertain": [],
+    "observation_identity": "f778f2006ea64c1cecfc0bb4e2becb214562718f6a08b93af654e3a33f329441"
+  }
+]

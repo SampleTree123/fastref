@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6148.mp4",
+  "observed": {
+    "identity": "A Black man with a slim build and a short beard stands facing the camera.",
+    "hairstyle": "Short, dark, slightly tousled hair.",
+    "hair_color": "Black.",
+    "clothing": "He wears a red-and-black plaid three-piece suit with a matching vest, a white dress shirt, and a black necktie.",
+    "action": "He stands mostly still, then briefly raises his right hand to adjust his tie and collar before lowering it and standing upright again.",
+    "camera": "A static, eye-level medium shot frames him from the thighs up, centered in the frame.",
+    "scene": "He stands on a wet, reflective plaza in front of a large glass building with a glowing teal circular neon ring and pink ambient lighting; a city skyline is visible in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "3e356dbdbedc4d484493c7c742d15f178cbd789a4ca60880db0a59d9b854fc80"
+}

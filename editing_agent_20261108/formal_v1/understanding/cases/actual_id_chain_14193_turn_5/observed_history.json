@@ -1,0 +1,123 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6673.mp4",
+    "observed": {
+      "identity": "A 3D-rendered woman with a slim build, light skin, and a short face with a neutral expression.",
+      "hairstyle": "A short, blunt bob with straight bangs and a small low ponytail at the nape.",
+      "hair_color": "Bright yellow-blonde.",
+      "clothing": "A sleeveless, high-necked top with a brown and gold leopard-like pattern, high-waisted loose green trousers, and dark flat sandals.",
+      "action": "She stands still, then raises both arms overhead in a stretch, lowers them while turning slightly, and returns to a standing pose.",
+      "camera": "A static, full-body, slightly high-angle shot that keeps the figure centered.",
+      "scene": "An outdoor paved road or parking area with white lane markings, a metal guardrail, red-and-yellow striped posts, and a concrete wall with a dark opening in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "953db77d41d64006d0017a648a5bc3c31b22c0558ddc5abb4c07cebddc088ede"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_478.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6664.mp4",
+    "observed": {
+      "identity": "A young woman with a slim build and light skin, shown in a 3D video-game style render.",
+      "hairstyle": "Short blonde hair with straight bangs, tied back into a small low ponytail.",
+      "hair_color": "Bright blonde.",
+      "clothing": "She wears a sleeveless brown leopard-print crop top, high-waisted teal wide-leg pants, and open-toed sandals.",
+      "action": "She stands facing the camera, then raises both arms overhead in a stretch, lowers them, and returns to a relaxed standing pose.",
+      "camera": "A static full-body shot from a slightly elevated angle, keeping the character centered in frame.",
+      "scene": "An outdoor industrial area with cracked concrete ground, stacked wooden pallets, a rusted pipe, and a dark doorway in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "3ba4c191da0411aa12f46473e78f58cafabe440c7556f4f0dde0737cefcd8d9e"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to blue?",
+    "parent_id": 1,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Can you change the person's hair color to blue?",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6648.mp4",
+    "observed": {
+      "identity": "A slender young woman with a slim build and light brown skin.",
+      "hairstyle": "Short blue hair with straight bangs and a small low ponytail at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "She wears a sleeveless brown patterned crop top, high-waisted teal wide-leg pants, and open-toed sandals.",
+      "action": "She stands facing forward, then raises both arms overhead in a stretch, lowers them, and returns to a standing pose.",
+      "camera": "A static full-body shot from a slightly elevated angle keeps the character centered.",
+      "scene": "An outdoor industrial area with cracked concrete ground, stacked wooden pallets, a rusty pipe, and stone structures in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "e2d55b5dca24ac550ace372a3d6e6b03b35bd3a2cb586ec85db601157ec38808"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the one-piece garment and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_701.png",
+        "reference_id": "ref_1",
+        "type": "outfit",
+        "view": "front"
+      },
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_702.png",
+        "reference_id": "ref_2",
+        "type": "outfit",
+        "view": "back"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the one-piece garment and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6649.mp4",
+    "observed": {
+      "identity": "A 3D-rendered female character with a slim build, dark skin, and a neutral facial expression.",
+      "hairstyle": "Short blue hair with straight bangs and a small low ponytail at the back.",
+      "hair_color": "Bright blue.",
+      "clothing": "A short, white dress with a floral pattern of pink, yellow, and green, featuring cold-shoulder cutouts and three-quarter sleeves, paired with pink slip-on shoes.",
+      "action": "The character stands still, then raises both arms overhead and jumps, before landing and returning to a standing pose.",
+      "camera": "A static, full-body shot from a slightly elevated angle, keeping the character centered in the frame.",
+      "scene": "An outdoor, industrial-looking area with cracked concrete ground, scattered rocks, wooden pallets, and rusty metal pipes in the background."
+    },
+    "uncertain": [],
+    "observation_identity": "e10d3fb5d82792e1c1627f40c5c939e5ab7d66906b8d863c0fbaebfa9cd7d8db"
+  },
+  {
+    "editing_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a rear three-quarter angle. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "parent_id": 3,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_65eb1fbc867ebe9c27c4033e745eb5257bc0110b100cbc9a672f6420fcb05ccc.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to an upper-body shot from a rear three-quarter angle. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6661.mp4",
+    "observed": {
+      "identity": "A person with a medium build is shown from behind, with their face not visible.",
+      "hairstyle": "The hair is styled into two low buns at the back of the head.",
+      "hair_color": "The hair is a vivid blue color.",
+      "clothing": "The person wears a cream-colored dress with a floral pattern of pink, yellow, and blue flowers, featuring an open back and cold-shoulder cutouts.",
+      "action": "The person stands facing the water, then raises both arms upward in a stretching or celebratory motion before lowering them back down.",
+      "camera": "The camera maintains a static medium shot from behind the subject, framing them from the waist up against the horizon.",
+      "scene": "The setting is an outdoor stone platform or pier overlooking a calm body of water under a clear, bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "58387fb19e246816a203aeab36647fa179ee09c497ab2002e435e0f63955bb15"
+  }
+]

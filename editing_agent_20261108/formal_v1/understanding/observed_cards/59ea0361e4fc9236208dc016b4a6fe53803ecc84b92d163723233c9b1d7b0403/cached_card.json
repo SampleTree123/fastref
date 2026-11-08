@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6932.mp4",
+  "observed": {
+    "identity": "A 3D-rendered female character with a slim build, shown in profile and then from behind.",
+    "hairstyle": "Red hair tied in a high ponytail with a straight fringe across the forehead.",
+    "hair_color": "Bright red.",
+    "clothing": "A short, fitted dress with a busy purple, pink, yellow, and blue psychedelic pattern, featuring cut-out shoulders and thin straps, plus dark flat shoes.",
+    "action": "The character stands in profile, then walks slowly forward and to the right, turning her back to the camera as she moves.",
+    "camera": "A medium full-body shot at eye level that slowly pulls back and pans right to follow the character's movement.",
+    "scene": "An outdoor rooftop or plaza with a gray metal container, a beige multi-story building, and a paved ground under bright daylight."
+  },
+  "uncertain": [],
+  "observation_identity": "bbb07f021bc681ceddc1d4ffcdf25150637677a71bfb175ddd853dc823815062"
+}

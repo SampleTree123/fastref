@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6393.mp4",
+  "observed": {
+    "identity": "A 3D-rendered adult male character with a medium build and brown skin.",
+    "hairstyle": "Short, cropped hair.",
+    "hair_color": "Purple.",
+    "clothing": "Light blue cable-knit sweater, dark gray slim pants, and brown ankle boots.",
+    "action": "The character stands facing the camera, then turns his head and body to look over his right shoulder, briefly raises a hand to his chest, and returns to a forward-facing stance.",
+    "camera": "Static, eye-level full-body shot centered on the character.",
+    "scene": "An outdoor urban plaza with tiled pavement, tall buildings, construction cranes, and Japanese signage in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "ea50abbdbe2a6a245e535ae77c6384e85f3693d6969f32d1c1c0b8f6133104ec"
+}

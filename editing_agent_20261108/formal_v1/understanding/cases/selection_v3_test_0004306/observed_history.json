@@ -1,0 +1,113 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6948.mp4",
+    "observed": {
+      "identity": "A young man with a light-to-medium complexion, short facial stubble, and a neutral expression.",
+      "hairstyle": "Short, dark hair that is slightly spiky or textured on top.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A thick, purple cable-knit sweater with a ribbed crew neck and cuffs, paired with black pants and brown lace-up boots.",
+      "action": "The man walks slowly forward toward the camera, then stops and turns his head to look up and to his left.",
+      "camera": "A static, medium-full shot that frames the subject from the shins up against a futuristic background.",
+      "scene": "A glossy, reflective floor in front of a large, dark glass dome structure featuring glowing pink and teal neon rings and grid lines."
+    },
+    "uncertain": [],
+    "observation_identity": "7986f4e3e3d765b23b85bfaac58f040de4a9bc5bfbfa61012890b0c47035e5c7"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_5b905fe8380fdc5eaa438d74197d872a407c469e338a785e9ec3bb4425433c51.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6967.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build and short facial stubble stands facing the camera.",
+      "hairstyle": "Short, dark hair with a slightly raised, textured top.",
+      "hair_color": "Black.",
+      "clothing": "A purple cable-knit sweater with vertical braided patterns and ribbed cuffs, hem, and collar, worn over black pants.",
+      "action": "He stands mostly still, shifting his weight slightly and turning his head to look off to his left near the end.",
+      "camera": "A static, medium shot framing him from the upper thighs to the top of his head at eye level.",
+      "scene": "A futuristic setting with a large glass dome structure, glowing teal circular light rings, pink structural framing, and a reflective floor under a blue sky."
+    },
+    "uncertain": [],
+    "observation_identity": "b3c1916876259f33dd94dd718ad81e5ad18e21f6cf1abce8cdaef7bf2fc00fc4"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_725.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+    "video_id": 2,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6939.mp4",
+    "observed": {
+      "identity": "A young man with a short beard and a neutral expression.",
+      "hairstyle": "Short, dark hair with a slightly textured top.",
+      "hair_color": "Dark brown or black.",
+      "clothing": "A purple cable-knit sweater, black pants, and brown lace-up shoes.",
+      "action": "The man stands still, then raises both arms overhead and begins to dance with rhythmic arm and leg movements before returning to a standing pose.",
+      "camera": "A static, medium-full shot that frames the man from the shins up against the background.",
+      "scene": "A futuristic, sci-fi environment featuring a large glass dome with pink structural lines, glowing teal circular light rings, and a reflective floor under blue and pink lighting."
+    },
+    "uncertain": [],
+    "observation_identity": "23b85091767a73b96037dc4356cbd24f63c414f1bb635c8675e27c764a13ad9c"
+  },
+  {
+    "parent_id": 2,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_698.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "video_id": 3,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6952.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, short facial hair, and a neutral expression.",
+      "hairstyle": "Short, cropped hair with a distinct red band or headband around the head.",
+      "hair_color": "Dark brown or black, with a red headband.",
+      "clothing": "A light blue, cable-knit sweater with a diamond pattern, black pants, and brown lace-up shoes with white socks.",
+      "action": "The man stands facing the camera, then raises both arms overhead, brings them down in a dance-like motion, and finally returns to a standing position with arms at his sides.",
+      "camera": "A static, medium-full shot from a slightly low angle, keeping the subject centered in the frame.",
+      "scene": "An outdoor paved area under a concrete overpass or bridge, with construction barriers, signs, and trees visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "7ea55ad69789f3c86ddb0fafc4d10c55899f8a69178868a94b58052eb62e492f"
+  },
+  {
+    "parent_id": 3,
+    "references": [],
+    "user_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair pink.",
+    "video_id": 4,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6977.mp4",
+    "observed": {
+      "identity": "A young Black man with a slim build, short dark hair, and a neutral expression.",
+      "hairstyle": "Short, cropped dark hair.",
+      "hair_color": "Black.",
+      "clothing": "A light blue, cable-knit sweater with a diamond pattern, black pants, and brown lace-up shoes with white socks.",
+      "action": "The man stands facing the camera, then raises both arms overhead, brings them down in a sweeping motion, and finally returns to a standing position with his arms at his sides.",
+      "camera": "A static, medium-full shot from a slightly low angle, keeping the subject centered in the frame.",
+      "scene": "An outdoor paved area under a concrete overpass or bridge structure, with road signs, barriers, and trees visible in the background under a bright sky."
+    },
+    "uncertain": [],
+    "observation_identity": "1ffc0cf717a5c0d00bb97329aea834d8371fa733f2f12c8b539272e08efaf0e1"
+  }
+]

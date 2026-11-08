@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6769.mp4",
+  "observed": {
+    "identity": "A muscular, dark-skinned man with a short beard, shown in profile and three-quarter views.",
+    "hairstyle": "Short, swept-back hair covering the top of the head.",
+    "hair_color": "White.",
+    "clothing": "A white sleeveless tank top with a pink graphic on the lower front and pink shorts.",
+    "action": "The man stands and slowly turns his body, rotating from a side profile to a back view and then back toward the front while raising and crossing his arms.",
+    "camera": "A static, medium shot at roughly chest height that keeps the man centered in frame.",
+    "scene": "An outdoor paved area beside a metal guardrail, with a wire fence, large rocks, green trees, and a bright sky in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "94ee5b1951c18e2d9d0df0255a185422883b8e169673894470390d270975e45f"
+}

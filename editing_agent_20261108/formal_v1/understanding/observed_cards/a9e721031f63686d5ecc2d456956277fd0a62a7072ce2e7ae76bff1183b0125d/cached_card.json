@@ -1,0 +1,18 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7046.mp4",
+  "observed": {
+    "identity": "A slender woman with a slim build, seen mostly from behind and in profile.",
+    "hairstyle": "Her hair is styled into two small buns on top of her head.",
+    "hair_color": "Her hair is reddish-brown.",
+    "clothing": "She wears a short, loose-fitting dress with a dark background covered in a colorful paisley and floral pattern in purple, blue, orange, and yellow.",
+    "action": "She stands facing the water, then turns her head and upper body to the side, briefly raising her arm before returning to a standing pose.",
+    "camera": "The camera is at a medium distance, framing her from the thighs up, and remains mostly static with slight shifts as she moves.",
+    "scene": "She stands on a weathered concrete or stone platform beside a calm body of water under a clear, pale blue sky."
+  },
+  "uncertain": [
+    "The exact location is unclear, though it appears to be a pier or waterfront platform.",
+    "Her facial features are mostly obscured by the angle and lighting."
+  ],
+  "observation_identity": "efb72ac0b679548bf322029e1d1747a726b4caf00ecf5ee87857c4c047eb97d1"
+}

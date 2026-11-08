@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6509.mp4",
+  "observed": {
+    "identity": "A woman with a slim build and tanned skin, shown in profile and then from behind.",
+    "hairstyle": "Blonde hair is pulled back into a low bun with straight bangs across the forehead.",
+    "hair_color": "Blonde.",
+    "clothing": "She wears a cream-colored dress with a floral print of pink, yellow, and blue flowers, featuring a V-neckline and three-quarter sleeves.",
+    "action": "The woman stands on a dock, first facing left in profile, then raises her left hand to touch her hair before turning her back to the camera.",
+    "camera": "A static medium shot frames the woman from the waist up against the seascape.",
+    "scene": "The setting is a wooden dock or pier beside a calm blue sea under a clear sky, with weathered wooden pilings rising from the water and rocks visible in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "2d098e836d1d1683e2a3c66ad10dfafdc41884df2451a3dff246810f04d768ac"
+}

@@ -1,0 +1,15 @@
+{
+  "video_id": 2,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6403.mp4",
+  "observed": {
+    "identity": "A 3D-rendered humanoid character with a slim build and light skin, shown in profile and from behind.",
+    "hairstyle": "Short hair swept up into a small topknot or ponytail at the back of the head.",
+    "hair_color": "Pink.",
+    "clothing": "White long-sleeved shirt under a dark gray sleeveless vest, red slim pants, and black shoes.",
+    "action": "The character stands on an asphalt surface, slowly turning in place and shifting weight while making small arm and hand gestures.",
+    "camera": "Static medium-long side view at roughly waist-to-head height, keeping the character centered.",
+    "scene": "An outdoor paved area in daylight, with a metal guardrail, greenery, trees, and a rocky hillside in the background."
+  },
+  "uncertain": [],
+  "observation_identity": "099ecc57e8ba73d9e5e324ae75050d0d8bceb6d6ced450370785a8dbd3339236"
+}

@@ -1,0 +1,15 @@
+{
+  "video_id": 0,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6032.mp4",
+  "observed": {
+    "identity": "A person seen from behind, with a medium build and dark skin visible on the neck and hands.",
+    "hairstyle": "Dark hair is pulled up into a small top knot or bun.",
+    "hair_color": "Black.",
+    "clothing": "A long, single-breasted coat with a red, black, and white checkered pattern and white shirt cuffs at the wrists.",
+    "action": "The person stands with their back to the camera, raises a hand to touch the back of their head, then turns their head and shoulders to the right while holding a hand near the neck.",
+    "camera": "A static, medium shot from behind the subject at roughly waist height.",
+    "scene": "A futuristic outdoor plaza with large black dome buildings, glowing teal and pink neon rings, and a purple vehicle parked in the distance."
+  },
+  "uncertain": [],
+  "observation_identity": "c05931215590d7342f5b0c2569b9d31ccda9c2368313fb964cd0b694a2074205"
+}

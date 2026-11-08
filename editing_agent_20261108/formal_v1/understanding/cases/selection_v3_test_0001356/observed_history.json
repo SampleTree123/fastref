@@ -1,0 +1,45 @@
+[
+  {
+    "parent_id": null,
+    "references": [],
+    "user_prompt": null,
+    "video_id": 0,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6251.mp4",
+    "observed": {
+      "identity": "A slender woman with a slim build and fair skin.",
+      "hairstyle": "Short, cropped hair with a side part.",
+      "hair_color": "Pink.",
+      "clothing": "A dark, patterned sleeveless crop top, high-waisted light gray wide-leg pants, a brown belt, and dark strappy sandals.",
+      "action": "The woman stands in the center of an open paved area, slowly turning her body and head while raising one hand to touch her hair.",
+      "camera": "A medium full shot that orbits around the woman, keeping her centered in the frame.",
+      "scene": "An outdoor amusement park or fairground at dusk, featuring a large Ferris wheel, a carousel, and various colorful stalls and signs."
+    },
+    "uncertain": [],
+    "observation_identity": "559a270b375c9ffb1dcefabd4ed9100eb383d0cd99d48fcd45b0fd51393eed41"
+  },
+  {
+    "parent_id": 0,
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_c0071022b2f978703324903d9e05a976f3464203bacf94cb7f438bc09b186812.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from a rear three-quarter angle. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+    "video_id": 1,
+    "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6261.mp4",
+    "observed": {
+      "identity": "A slender woman with a slim build, seen mostly from behind and in profile.",
+      "hairstyle": "Short, reddish-brown hair that she repeatedly lifts and smooths back with her hand.",
+      "hair_color": "Reddish-brown / auburn.",
+      "clothing": "A sleeveless, patterned dark crop top with a wide brown waistband and light gray high-waisted trousers.",
+      "action": "She stands facing away from the camera, raises her right hand to brush and adjust her hair, then lowers her arm and places her hand on her hip.",
+      "camera": "Static medium shot from behind and slightly to the side, at roughly waist-to-head height.",
+      "scene": "An outdoor fairground or amusement park at dusk, with a lit carousel and a red-and-white striped pavilion with rows of bulbs in the background on a sandy ground."
+    },
+    "uncertain": [],
+    "observation_identity": "3eb0a8d51980fc7c278e91d433ef11bd54b855f39504020fd786971809f637e9"
+  }
+]

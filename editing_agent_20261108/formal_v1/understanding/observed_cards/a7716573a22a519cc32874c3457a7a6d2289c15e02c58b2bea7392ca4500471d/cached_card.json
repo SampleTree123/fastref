@@ -1,0 +1,15 @@
+{
+  "video_id": 3,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6994.mp4",
+  "observed": {
+    "identity": "A young Black woman with a slim build and a neutral expression.",
+    "hairstyle": "Her hair is pulled back into a high ponytail.",
+    "hair_color": "Her hair is dyed a bright pink or magenta color.",
+    "clothing": "She wears a mustard-yellow cable-knit sweater, dark grey or black slim trousers, light-colored socks, and reddish-brown lace-up shoes.",
+    "action": "The character stands still, then turns her body and head to look over her shoulder, briefly touches her neck, and finally faces forward again with her arms at her sides.",
+    "camera": "The camera starts with a medium shot from the waist up and slowly pulls back to a full-body shot, remaining at a low angle throughout.",
+    "scene": "The setting is an outdoor paved area under a concrete overpass, with road construction barriers, signs, and trees visible in the background under a bright sky."
+  },
+  "uncertain": [],
+  "observation_identity": "9ed051c7778e57fb86f5266d96bd5d7f57123f3cd6add6de7e86b6cba8750b77"
+}

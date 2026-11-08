@@ -1,0 +1,15 @@
+{
+  "video_id": 1,
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6457.mp4",
+  "observed": {
+    "identity": "A young woman with a slim build and light skin, shown in a 3D rendered style.",
+    "hairstyle": "Her hair is pulled up into a high bun with a few loose strands framing her face.",
+    "hair_color": "Light brown.",
+    "clothing": "She wears a short, black-and-white gingham dress with three-quarter sleeves and a white collar, paired with reddish-brown flat shoes.",
+    "action": "She stands mostly still, then raises her right hand to brush her hair back from her face before lowering it again.",
+    "camera": "A static, full-body shot from a slightly low angle, keeping the subject centered in the frame.",
+    "scene": "An outdoor amusement park at dusk, featuring a Ferris wheel on the left and a carousel with string lights on the right, under a warm, orange-tinted sky."
+  },
+  "uncertain": [],
+  "observation_identity": "5cb42e12a30c9c3f96d1cd562d62b6da26ad7e87fc60ebffcf8576cec11ff8c3"
+}
