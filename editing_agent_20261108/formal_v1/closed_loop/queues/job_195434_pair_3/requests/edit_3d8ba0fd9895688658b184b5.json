@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_3d8ba0fd9895688658b184b5",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6417.mp4",
+  "prompt": "Change the video's camera setup to a full-body shot from behind. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video, then follow the described camera setup and movement. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene, and preserve the timing and progression of the action in the source video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_ee650e5dbcbae3c87056519e6f21304e8229440cc7578c2ad18e7b11da36e71d.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13363/turn_01/generation",
+  "seed": 42
+}

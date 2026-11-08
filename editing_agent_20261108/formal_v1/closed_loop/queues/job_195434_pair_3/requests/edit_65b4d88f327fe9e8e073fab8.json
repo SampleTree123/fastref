@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_65b4d88f327fe9e8e073fab8",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14378/turn_04/generation/edited.mp4",
+  "prompt": "Change the video's camera setup to a rear-view dolly-in shot that moves from full-body to upper-body framing. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the described camera setup and movement, and preserve the timing and progression of the action in the source video. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_ba0b0c785698b44bf8b6bae483718274be7d17dfed3cfe7ab0fd9cb3d6c8a9a6.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14378/turn_05/generation",
+  "seed": 42
+}

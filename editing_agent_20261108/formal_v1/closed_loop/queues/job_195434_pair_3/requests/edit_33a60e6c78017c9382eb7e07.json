@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_33a60e6c78017c9382eb7e07",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6613.mp4",
+  "prompt": "Change the person's current action to lowering their head and resting one hand on their forehead, following the demonstrated action in the motion reference. Transfer only the demonstrated action; do not adopt the reference person's appearance, the reference scene, or the reference camera setup. Preserve all other aspects of the current video, including the person's identity, appearance, scene, lighting, and camera framing.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_96.mp4",
+      "reference_id": "ref_1",
+      "type": "motion",
+      "view": ""
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14004/turn_02/generation",
+  "seed": 42
+}

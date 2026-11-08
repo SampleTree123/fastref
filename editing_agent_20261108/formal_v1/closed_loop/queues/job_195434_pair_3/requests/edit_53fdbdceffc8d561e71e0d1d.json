@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_53fdbdceffc8d561e71e0d1d",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13921/turn_01/generation/edited.mp4",
+  "prompt": "Change the person's hair color from chestnut brown to blonde. Preserve the existing hairstyle, hair length, texture, and all other aspects of the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13921/turn_02/generation",
+  "seed": 42
+}

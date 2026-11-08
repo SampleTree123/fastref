@@ -1,0 +1,4028 @@
+[
+  {
+    "id": "test_chain_13332",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12727",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12419",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13731",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13716",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13136",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13427",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13095",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13838",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12495",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12801",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12924",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13108",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12930",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13035",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13103",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13681",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12647",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13704",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12726",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13246",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12804",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13668",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13948",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13190",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12657",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13669",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14265",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13820",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13197",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12249",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12424",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13172",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13363",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12433",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12157",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12235",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14004",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13264",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12991",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14003",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12859",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13664",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12042",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12744",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12121",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12626",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13582",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 2,
+        "match": false
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14314",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12304",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13000",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14289",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13971",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14114",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13213",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12588",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13528",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14136",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13233",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14011",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12791",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13698",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12659",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12352",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12054",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12483",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14276",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13921",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12262",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13809",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13939",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12436",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13524",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12078",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14102",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14378",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12569",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13327",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12230",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14133",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12692",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12611",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12510",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13180",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13976",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12426",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14204",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13478",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12747",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12790",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13646",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13071",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13280",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12916",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13329",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13521",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13877",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12593",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13721",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13912",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13123",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12315",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12730",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14049",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13803",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12897",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12507",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12746",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12238",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12492",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14080",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13495",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12168",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14252",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12113",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12780",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13959",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13053",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13795",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13286",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13404",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13338",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12346",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12165",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "event_before",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13459",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": 4,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14083",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12622",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_14095",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ]
+  }
+]

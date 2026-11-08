@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_50916e8bec686e0b8d051260",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14004/turn_03/generation/edited.mp4",
+  "prompt": "Recolor the person's hair pink. Preserve the person's identity, hair shape, and all other visual elements in the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14004/turn_04/generation",
+  "seed": 42
+}

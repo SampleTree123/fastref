@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_570413b5276b3e04220cf900",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14049/turn_03/generation/edited.mp4",
+  "prompt": "Change the video's camera setup to an upper-body shot from behind. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_ca5cc7b56a41566c326271ca84455bf0ee98779557019edeeda42bb631fd55fb.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14049/turn_04/generation",
+  "seed": 42
+}

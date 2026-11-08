@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_c9466cbd95aea0846bc70c2b",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6205.mp4",
+  "prompt": "Replace the person's current action with the action demonstrated in the motion reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_189.mp4",
+      "reference_id": "ref_1",
+      "type": "motion",
+      "view": ""
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14136/turn_01/generation",
+  "seed": 42
+}
