@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_a20b3cbf0101f378b7750c2a",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12426/turn_01/generation/edited.mp4",
+  "prompt": "Replace the scene in the video with the environment shown in the reference image, including its lighting effects on the person. Change only the environment and its lighting. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_310.png",
+      "reference_id": "ref_1",
+      "type": "scene",
+      "view": "target_camera_initial_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12426/turn_03/generation",
+  "seed": 42
+}

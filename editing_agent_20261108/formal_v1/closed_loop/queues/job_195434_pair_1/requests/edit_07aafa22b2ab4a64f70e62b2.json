@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_07aafa22b2ab4a64f70e62b2",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12315/turn_02/generation/edited.mp4",
+  "prompt": "Replace the person's current white hair color with pink. Preserve the person's identity, hairstyle shape, and all other aspects of the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12315/turn_03/generation",
+  "seed": 42
+}

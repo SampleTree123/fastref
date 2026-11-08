@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_7c3fd9cc38c3b7fd89fbbda7",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6607.mp4",
+  "prompt": "Change only the person's one-piece garment to match the reference images (front view in ref_1, back view in ref_2). Leave the rest of the outfit and everything else in the video unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_478.png",
+      "reference_id": "ref_1",
+      "type": "garment",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_370.png",
+      "reference_id": "ref_2",
+      "type": "garment",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13809/turn_02/generation",
+  "seed": 42
+}
