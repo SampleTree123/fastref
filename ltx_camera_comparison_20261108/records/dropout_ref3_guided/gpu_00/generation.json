@@ -1,0 +1,108 @@
+{
+  "schema": "datamake_fixed_case_generation_v1",
+  "status": "completed",
+  "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+  "bundle_sha256": "f7865e1747098c0f32b1816eed269161e8aaf910808ae278e359282ee9b922e5",
+  "weights_signature": "5d3286c4b944bdeab2ed13227ca689a27cab96de90ff36db84d2b2d5fd012e66",
+  "config_sha256": "be99d6fb54e10eb03fc09f72cf15817e2390dfdbdc1c68a5c2de1b6dc4779914",
+  "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+  "checkpoint_sha256": "9a2e17edf3943940fd5d3c2fdf6632e264d604e2c717ac68f7bd3ec8306ad8c1",
+  "seed": 42,
+  "steps": 40,
+  "cfg": 3.0,
+  "guidance": {
+    "cfg_scale": 3.0,
+    "stg_scale": 1.0,
+    "guidance_rescale": 0.7,
+    "stg_blocks": [
+      28
+    ],
+    "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+    "guidance_batch_size": 1,
+    "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+    "audio_guidance": false,
+    "rescale_scope": "official_full_packed_latent",
+    "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+    "ref_cfg": 3.0,
+    "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+  },
+  "sampler": "official_LTX2Scheduler_Euler",
+  "sample_uids": [
+    "ue:5266",
+    "ue:30247",
+    "ue:29188",
+    "ue:26652",
+    "ue:30129"
+  ],
+  "sample_splits": {
+    "ue:5266": "train",
+    "ue:30247": "test",
+    "ue:29188": "test",
+    "ue:26652": "test",
+    "ue:30129": "test"
+  },
+  "started_unix": 1794144216.5337613,
+  "results": [
+    {
+      "sample_uid": "ue:5266",
+      "split": "train",
+      "output": "case_00.mp4",
+      "seconds": 160.84953105682507,
+      "denoise_peak_allocated_bytes": 45053772288,
+      "decode_peak_allocated_bytes": 45402958336,
+      "bytes": 2270877,
+      "sha256": "018c430a3524a9fae75c2009dcd1d6631c54fc34761ca3bf0ea0fc8838e0ca1b"
+    },
+    {
+      "sample_uid": "ue:30247",
+      "split": "test",
+      "output": "case_01.mp4",
+      "seconds": 171.8340905350633,
+      "denoise_peak_allocated_bytes": 45272706560,
+      "decode_peak_allocated_bytes": 45403000320,
+      "bytes": 3164913,
+      "sha256": "35d2a0638d7d026bad300c73b93f7a1d90fbf3af095af96f2fff82e7e3b2a113"
+    },
+    {
+      "sample_uid": "ue:29188",
+      "split": "test",
+      "output": "case_02.mp4",
+      "seconds": 171.405381181743,
+      "denoise_peak_allocated_bytes": 45272706560,
+      "decode_peak_allocated_bytes": 45403000320,
+      "bytes": 3296405,
+      "sha256": "0652241fcf2de5f491b742c1b31e85c2a0a59ea0df0fb9480671e38ddab772ae"
+    },
+    {
+      "sample_uid": "ue:26652",
+      "split": "test",
+      "output": "case_03.mp4",
+      "seconds": 214.10372428502887,
+      "denoise_peak_allocated_bytes": 45961224192,
+      "decode_peak_allocated_bytes": 45403286528,
+      "bytes": 2649036,
+      "sha256": "03b9b712b1faf240bb2bbd0fe752751e939641e2756920057bf5ff903fb09b08"
+    },
+    {
+      "sample_uid": "ue:30129",
+      "split": "test",
+      "output": "case_04.mp4",
+      "seconds": 172.0982939293608,
+      "denoise_peak_allocated_bytes": 45272565248,
+      "decode_peak_allocated_bytes": 45402995712,
+      "bytes": 1378388,
+      "sha256": "d8ee0881a72dbf48c573d5b7eafef9e42367bfcfdb22c3cd9b8cac91bcb2836f"
+    }
+  ],
+  "negative_text_encoding": {
+    "seconds": 12.704596267081797,
+    "context_shape": [
+      1,
+      1024,
+      4096
+    ],
+    "context_dtype": "torch.bfloat16",
+    "method": "official_Gemma_left_padding_feature_extractor_video_connector_no_enhancement"
+  },
+  "finished_unix": 1794145134.4262285
+}

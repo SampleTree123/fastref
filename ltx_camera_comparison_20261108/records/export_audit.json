@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "cases": 27,
+  "groups": 4,
+  "results": 108,
+  "new_generations": 100,
+  "equivalent_reuse": 8,
+  "export": {
+    "status": "completed",
+    "directory": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/display",
+    "media_count": 179,
+    "html_sha256": "f68e53ca79c53859c14b8b3532d563633cf3ee8d95f3e71f341437731b261baf"
+  },
+  "embedded_media_files": 179
+}

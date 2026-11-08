@@ -1,0 +1,16 @@
+{
+  "schema": "datamake_inference_settings_v1",
+  "settings": {
+    "steps": 40,
+    "seed": 42,
+    "cfg_scale": 1,
+    "stg_scale": 0,
+    "guidance_rescale": 0,
+    "stg_blocks": [
+      28
+    ],
+    "negative_prompt": null,
+    "guidance_batch_size": 1,
+    "ref_cfg": 3
+  }
+}

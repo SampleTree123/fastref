@@ -1,0 +1,2810 @@
+[
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:5266",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "018c430a3524a9fae75c2009dcd1d6631c54fc34761ca3bf0ea0fc8838e0ca1b",
+    "bytes": 2270877,
+    "display_media": "media/018c430a3524a9fae75c2009dcd1d6631c54fc34761ca3bf0ea0fc8838e0ca1b.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:14184",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "e53f74ad0333cdbfce59b10e4f8665ace30c275755784b4854b0b4c14d6af65d",
+    "bytes": 2532514,
+    "display_media": "media/e53f74ad0333cdbfce59b10e4f8665ace30c275755784b4854b0b4c14d6af65d.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:16120",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "2f9787d463a55604c533908fbdc1825fe2f73672a4868d72c4c71362ddc7c561",
+    "bytes": 1796718,
+    "display_media": "media/2f9787d463a55604c533908fbdc1825fe2f73672a4868d72c4c71362ddc7c561.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:22201",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "6a5261dab94eb6f19c3af85c1999252a4e51608fdaea623795bfc9c48dbe6809",
+    "bytes": 2930861,
+    "display_media": "media/6a5261dab94eb6f19c3af85c1999252a4e51608fdaea623795bfc9c48dbe6809.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:30247",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "35d2a0638d7d026bad300c73b93f7a1d90fbf3af095af96f2fff82e7e3b2a113",
+    "bytes": 3164913,
+    "display_media": "media/35d2a0638d7d026bad300c73b93f7a1d90fbf3af095af96f2fff82e7e3b2a113.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:27720",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "67d4cfb6607ac11846d5b7751790e5270693f5e303e2f5840892378193ffde36",
+    "bytes": 1185220,
+    "display_media": "media/67d4cfb6607ac11846d5b7751790e5270693f5e303e2f5840892378193ffde36.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:29004",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "e78ddec33e8c0692658db74b5cb0bdd05df16e954503ec8f0790ae40f89c7650",
+    "bytes": 1743382,
+    "display_media": "media/e78ddec33e8c0692658db74b5cb0bdd05df16e954503ec8f0790ae40f89c7650.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:30522",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "e8836a0e48c1d1994c17ce7b98192369db70004d90b5b954f7e89c474a1348d7",
+    "bytes": 4312181,
+    "display_media": "media/e8836a0e48c1d1994c17ce7b98192369db70004d90b5b954f7e89c474a1348d7.mp4",
+    "reused": true
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:26754",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "2ff78057d033a7fc13e1ea0d8a1c71d95316e11c1b8827b62ef497664e52896f",
+    "bytes": 1846865,
+    "display_media": "media/2ff78057d033a7fc13e1ea0d8a1c71d95316e11c1b8827b62ef497664e52896f.mp4",
+    "reused": true
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:28170",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "a193230dff5406571cf8c28efbe0052bc37f83842812fa2c6e45a3e8745bca87",
+    "bytes": 1558799,
+    "display_media": "media/a193230dff5406571cf8c28efbe0052bc37f83842812fa2c6e45a3e8745bca87.mp4",
+    "reused": true
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:28215",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "af127ee0fb597f3dd10743676711b7cd19a5ef851fa7a37a8b10f24f60d1129c",
+    "bytes": 4937898,
+    "display_media": "media/af127ee0fb597f3dd10743676711b7cd19a5ef851fa7a37a8b10f24f60d1129c.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:29188",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "0652241fcf2de5f491b742c1b31e85c2a0a59ea0df0fb9480671e38ddab772ae",
+    "bytes": 3296405,
+    "display_media": "media/0652241fcf2de5f491b742c1b31e85c2a0a59ea0df0fb9480671e38ddab772ae.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:27118",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "dc6cd37f84d2ad735182e0b94187d53d1db82c830489da7bff48269450d0dabb",
+    "bytes": 950920,
+    "display_media": "media/dc6cd37f84d2ad735182e0b94187d53d1db82c830489da7bff48269450d0dabb.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:27599",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "280f2d89ef4ed879be5589d8dc6cdb86ab8acf0c8bd011d94fce7d717aab9437",
+    "bytes": 4131005,
+    "display_media": "media/280f2d89ef4ed879be5589d8dc6cdb86ab8acf0c8bd011d94fce7d717aab9437.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:27897",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "8de2e81424729f424233791435be1540270e1dbb2bc283ab070b5ded85ce7f01",
+    "bytes": 3102923,
+    "display_media": "media/8de2e81424729f424233791435be1540270e1dbb2bc283ab070b5ded85ce7f01.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:26652",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "03b9b712b1faf240bb2bbd0fe752751e939641e2756920057bf5ff903fb09b08",
+    "bytes": 2649036,
+    "display_media": "media/03b9b712b1faf240bb2bbd0fe752751e939641e2756920057bf5ff903fb09b08.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:28537",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "ee6b5242fe4040fa2ecc15c6aee7d17f9209c1066a68b3afa2094db383f73c9a",
+    "bytes": 1672062,
+    "display_media": "media/ee6b5242fe4040fa2ecc15c6aee7d17f9209c1066a68b3afa2094db383f73c9a.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:31550",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "11a5e23e37e8a6aa9ebdd85538e2e777336d2fa9189cfc30cf3243f66c49ee5f",
+    "bytes": 2693923,
+    "display_media": "media/11a5e23e37e8a6aa9ebdd85538e2e777336d2fa9189cfc30cf3243f66c49ee5f.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:29259",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "052ca146a996d722483efeac9051be0586d67202760a563ba62052f4ca811355",
+    "bytes": 1095686,
+    "display_media": "media/052ca146a996d722483efeac9051be0586d67202760a563ba62052f4ca811355.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:30129",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "d8ee0881a72dbf48c573d5b7eafef9e42367bfcfdb22c3cd9b8cac91bcb2836f",
+    "bytes": 1378388,
+    "display_media": "media/d8ee0881a72dbf48c573d5b7eafef9e42367bfcfdb22c3cd9b8cac91bcb2836f.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:29043",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "4ceceef6538235fe2a462b4c29cd93178fd667ca6289acf4ac8e808ef445e012",
+    "bytes": 1971563,
+    "display_media": "media/4ceceef6538235fe2a462b4c29cd93178fd667ca6289acf4ac8e808ef445e012.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "ue:29758",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "b631d8f140b21c8f1c2562c03c80b588e1845b61154a9799b6aa413465bac850",
+    "bytes": 1047030,
+    "display_media": "media/b631d8f140b21c8f1c2562c03c80b588e1845b61154a9799b6aa413465bac850.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "coinve:151368",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "be8bbdd34ffb541c7c5dcfb2585dd970ceac849eae6e591604997da93d2639fd",
+    "bytes": 910046,
+    "display_media": "media/be8bbdd34ffb541c7c5dcfb2585dd970ceac849eae6e591604997da93d2639fd.mp4",
+    "reused": true
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "coinve:197535",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "5e6ed0fb23c04b2207169bd7837be343819a977e023280fb3ceca762138f37c5",
+    "bytes": 641550,
+    "display_media": "media/5e6ed0fb23c04b2207169bd7837be343819a977e023280fb3ceca762138f37c5.mp4",
+    "reused": true
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "coinve:83632",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "858c1adefe188c1ac85205cfa36802780191f8d38044d611cab3eb846cc689f3",
+    "bytes": 378275,
+    "display_media": "media/858c1adefe188c1ac85205cfa36802780191f8d38044d611cab3eb846cc689f3.mp4",
+    "reused": true
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "coinve:57742",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "4903194f45e02e6ff8b25e66d701d631079baad77c3cad63e8b5be0e151e66b7",
+    "bytes": 401155,
+    "display_media": "media/4903194f45e02e6ff8b25e66d701d631079baad77c3cad63e8b5be0e151e66b7.mp4",
+    "reused": true
+  },
+  {
+    "group": "dropout_ref3_guided",
+    "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+    "uid": "coinve:193307",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "0b492a0ac35151e811ed9f205271f25b4c7f791f1c6e2a7c73b6e5374e676ea6",
+    "bytes": 727951,
+    "display_media": "media/0b492a0ac35151e811ed9f205271f25b4c7f791f1c6e2a7c73b6e5374e676ea6.mp4",
+    "reused": true
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:5266",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "33ef09bed9eb1ec550bede152a5ad7de53e317f9fff55865a6140eed0db959f7",
+    "bytes": 2241985,
+    "display_media": "media/33ef09bed9eb1ec550bede152a5ad7de53e317f9fff55865a6140eed0db959f7.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:14184",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "823a290e97582bea878bf72f4c001c3cde0c9d66884b3d41d00b0f0787c55c3f",
+    "bytes": 2509381,
+    "display_media": "media/823a290e97582bea878bf72f4c001c3cde0c9d66884b3d41d00b0f0787c55c3f.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:16120",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "f90ec05132b046950ea6b5aec546cdcabd3a6c960b5b7904f5e339867c580077",
+    "bytes": 1808656,
+    "display_media": "media/f90ec05132b046950ea6b5aec546cdcabd3a6c960b5b7904f5e339867c580077.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:22201",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "70be403a23d07bf4351d0bd10b56cff6e5bf9f52c388eaf018ea913014270d7d",
+    "bytes": 2904307,
+    "display_media": "media/70be403a23d07bf4351d0bd10b56cff6e5bf9f52c388eaf018ea913014270d7d.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:30247",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "b088bac3fb158fbdcd0fb7ffc7a8c62471aef46de688c22e1d9fcfc559999634",
+    "bytes": 3160401,
+    "display_media": "media/b088bac3fb158fbdcd0fb7ffc7a8c62471aef46de688c22e1d9fcfc559999634.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:27720",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "b6c1a63d472f218b5a8655e1c31c38ca690567703629940b70dbe329c4d442a4",
+    "bytes": 1151413,
+    "display_media": "media/b6c1a63d472f218b5a8655e1c31c38ca690567703629940b70dbe329c4d442a4.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29004",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "61fa984cde36fd94c2735cef7b420cb2921cc0805474d1e3cd377e46f0e754b4",
+    "bytes": 1731696,
+    "display_media": "media/61fa984cde36fd94c2735cef7b420cb2921cc0805474d1e3cd377e46f0e754b4.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:30522",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "e8836a0e48c1d1994c17ce7b98192369db70004d90b5b954f7e89c474a1348d7",
+    "bytes": 4312181,
+    "display_media": "media/e8836a0e48c1d1994c17ce7b98192369db70004d90b5b954f7e89c474a1348d7.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:26754",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "2ff78057d033a7fc13e1ea0d8a1c71d95316e11c1b8827b62ef497664e52896f",
+    "bytes": 1846865,
+    "display_media": "media/2ff78057d033a7fc13e1ea0d8a1c71d95316e11c1b8827b62ef497664e52896f.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:28170",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "a193230dff5406571cf8c28efbe0052bc37f83842812fa2c6e45a3e8745bca87",
+    "bytes": 1558799,
+    "display_media": "media/a193230dff5406571cf8c28efbe0052bc37f83842812fa2c6e45a3e8745bca87.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:28215",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "4ae83657c1160be6b6fa38288be64be605496b8c698fa9dad436d37cf286e435",
+    "bytes": 4934592,
+    "display_media": "media/4ae83657c1160be6b6fa38288be64be605496b8c698fa9dad436d37cf286e435.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29188",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "f1b0b182f0e1a56026ddd63140293ca3cdf6c20153fe6f7bfee440b8ffbb70c1",
+    "bytes": 3303456,
+    "display_media": "media/f1b0b182f0e1a56026ddd63140293ca3cdf6c20153fe6f7bfee440b8ffbb70c1.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:27118",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "060c73c6f3309be5828e191355c0b7260bfbf9c95ea3fca257916c3228a17d77",
+    "bytes": 882293,
+    "display_media": "media/060c73c6f3309be5828e191355c0b7260bfbf9c95ea3fca257916c3228a17d77.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:27599",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "9c1330b7ff787aa1e1724f5ebb7a26509142131df2d66e3b254114e7f23fc09e",
+    "bytes": 4373255,
+    "display_media": "media/9c1330b7ff787aa1e1724f5ebb7a26509142131df2d66e3b254114e7f23fc09e.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:27897",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "7f3e84281f4458a072443234e3e7748d821410d1d26d3a42a7160d8ae5bfbf4e",
+    "bytes": 3499886,
+    "display_media": "media/7f3e84281f4458a072443234e3e7748d821410d1d26d3a42a7160d8ae5bfbf4e.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:26652",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "11efea4807802e7ba78e4d682c6fee2b1bda1101d38aea58ed88d2487da53647",
+    "bytes": 2846830,
+    "display_media": "media/11efea4807802e7ba78e4d682c6fee2b1bda1101d38aea58ed88d2487da53647.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:28537",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "6d35ec26cd39782f5e20afd9aacd0dda2033757742280d7ab932334de67a3ee4",
+    "bytes": 1734966,
+    "display_media": "media/6d35ec26cd39782f5e20afd9aacd0dda2033757742280d7ab932334de67a3ee4.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:31550",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "9c72be2afbbc5156ef4da6e5948d90ab9bc916a95d60df488e9139ac7ec6b669",
+    "bytes": 3904100,
+    "display_media": "media/9c72be2afbbc5156ef4da6e5948d90ab9bc916a95d60df488e9139ac7ec6b669.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29259",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "0f26e0d3c7c8fa13d837c058db61c3a4564cb945b2a020ba3b12cff001d2446b",
+    "bytes": 1700296,
+    "display_media": "media/0f26e0d3c7c8fa13d837c058db61c3a4564cb945b2a020ba3b12cff001d2446b.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:30129",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "e4becc1b0c98c5887792768cdfedc092c5aa9b9f51977bc0dbeaa1121ff6b815",
+    "bytes": 1732149,
+    "display_media": "media/e4becc1b0c98c5887792768cdfedc092c5aa9b9f51977bc0dbeaa1121ff6b815.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29043",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "dfd00ed34c7eab047e4dde502ae03c77330e0f02bff692c511c9bd445e505364",
+    "bytes": 2276447,
+    "display_media": "media/dfd00ed34c7eab047e4dde502ae03c77330e0f02bff692c511c9bd445e505364.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29758",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "649076b1a93437118d6d176e68b79e87effd0674115081bf9dda407d808ff056",
+    "bytes": 1261113,
+    "display_media": "media/649076b1a93437118d6d176e68b79e87effd0674115081bf9dda407d808ff056.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:151368",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "be8bbdd34ffb541c7c5dcfb2585dd970ceac849eae6e591604997da93d2639fd",
+    "bytes": 910046,
+    "display_media": "media/be8bbdd34ffb541c7c5dcfb2585dd970ceac849eae6e591604997da93d2639fd.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:197535",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "5e6ed0fb23c04b2207169bd7837be343819a977e023280fb3ceca762138f37c5",
+    "bytes": 641550,
+    "display_media": "media/5e6ed0fb23c04b2207169bd7837be343819a977e023280fb3ceca762138f37c5.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:83632",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "858c1adefe188c1ac85205cfa36802780191f8d38044d611cab3eb846cc689f3",
+    "bytes": 378275,
+    "display_media": "media/858c1adefe188c1ac85205cfa36802780191f8d38044d611cab3eb846cc689f3.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:57742",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "4903194f45e02e6ff8b25e66d701d631079baad77c3cad63e8b5be0e151e66b7",
+    "bytes": 401155,
+    "display_media": "media/4903194f45e02e6ff8b25e66d701d631079baad77c3cad63e8b5be0e151e66b7.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref1_guided",
+    "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:193307",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "0b492a0ac35151e811ed9f205271f25b4c7f791f1c6e2a7c73b6e5374e676ea6",
+    "bytes": 727951,
+    "display_media": "media/0b492a0ac35151e811ed9f205271f25b4c7f791f1c6e2a7c73b6e5374e676ea6.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:5266",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "bdd81c1ffb47a92d8998b3af37297cb21f9f3299a6649fe97dc1ae88966af881",
+    "bytes": 2448539,
+    "display_media": "media/bdd81c1ffb47a92d8998b3af37297cb21f9f3299a6649fe97dc1ae88966af881.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:14184",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "dad6fe94982628ad5ff8bb12a51ec24be901e440d2eef0d72793bee2a099f20a",
+    "bytes": 2546329,
+    "display_media": "media/dad6fe94982628ad5ff8bb12a51ec24be901e440d2eef0d72793bee2a099f20a.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:16120",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "a0ab1eec7407e3627c93ee225a7e8c98a277b32c3ec80dee0200f7fbce9b15ce",
+    "bytes": 1889193,
+    "display_media": "media/a0ab1eec7407e3627c93ee225a7e8c98a277b32c3ec80dee0200f7fbce9b15ce.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:22201",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "8592473b9700898f0d8a56aa9713be0fde59a47e8121842fa45036992a8660de",
+    "bytes": 3163941,
+    "display_media": "media/8592473b9700898f0d8a56aa9713be0fde59a47e8121842fa45036992a8660de.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:30247",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "ef787653109d952b8ecf3889891db05ec641f9790c0e7f4d6cde42b23eec2e45",
+    "bytes": 3357888,
+    "display_media": "media/ef787653109d952b8ecf3889891db05ec641f9790c0e7f4d6cde42b23eec2e45.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:27720",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "8e5d48c6b077903a2619522eeffb7acce5da4fabcfe6c47b540e3a9718f2345b",
+    "bytes": 1183409,
+    "display_media": "media/8e5d48c6b077903a2619522eeffb7acce5da4fabcfe6c47b540e3a9718f2345b.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:29004",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "96b4f71d8cd3e13ed5cf325c1461627838866722bae0804707e6e60382e33ea1",
+    "bytes": 1764575,
+    "display_media": "media/96b4f71d8cd3e13ed5cf325c1461627838866722bae0804707e6e60382e33ea1.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:30522",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "8afd44947cdb6d8ef1bdda78c6ae99c278f14d94c4070b398c70992800304d24",
+    "bytes": 4334837,
+    "display_media": "media/8afd44947cdb6d8ef1bdda78c6ae99c278f14d94c4070b398c70992800304d24.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:26754",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "5d6fd94f1f0d3f5c7fd555a82138f6b6ef01a8d3007cc1854f654f38a2deb121",
+    "bytes": 1855530,
+    "display_media": "media/5d6fd94f1f0d3f5c7fd555a82138f6b6ef01a8d3007cc1854f654f38a2deb121.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:28170",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "d7501fed5ecd214e0a870f319bd8d48adeb19d15cf2241502efce8769a135be1",
+    "bytes": 1602092,
+    "display_media": "media/d7501fed5ecd214e0a870f319bd8d48adeb19d15cf2241502efce8769a135be1.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:28215",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "694a7162c005b79ce943718be897de4b1cc9ed94e0148f6c1f724044e83ab507",
+    "bytes": 5088455,
+    "display_media": "media/694a7162c005b79ce943718be897de4b1cc9ed94e0148f6c1f724044e83ab507.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:29188",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "9526bf1a895fe1a2ffe02d384fab33a2d1f8f805ca9b5301b2533e1f21a6e0b9",
+    "bytes": 3889675,
+    "display_media": "media/9526bf1a895fe1a2ffe02d384fab33a2d1f8f805ca9b5301b2533e1f21a6e0b9.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:27118",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "682d82ffbf168bf8467f37f776df0e3bb087bfc22445a332584e866c29b2119e",
+    "bytes": 905609,
+    "display_media": "media/682d82ffbf168bf8467f37f776df0e3bb087bfc22445a332584e866c29b2119e.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:27599",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "44a701486202f94478280471e6108897adc5b8f9c64c6315cb6ad2b439a2bb74",
+    "bytes": 4330302,
+    "display_media": "media/44a701486202f94478280471e6108897adc5b8f9c64c6315cb6ad2b439a2bb74.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:27897",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "2e9371249fc1047ee39f32693abffcf9422962ac3b8f402f3ba7e187e68f35af",
+    "bytes": 3546362,
+    "display_media": "media/2e9371249fc1047ee39f32693abffcf9422962ac3b8f402f3ba7e187e68f35af.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:26652",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "c64c0148743a21fa57bfbd4a2a75fe77ea4c21d5404927a9c93f49533fdc152b",
+    "bytes": 2921784,
+    "display_media": "media/c64c0148743a21fa57bfbd4a2a75fe77ea4c21d5404927a9c93f49533fdc152b.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:28537",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "80f2b4df5309b5364c27d5206a8dac308e7e158e21ea4d22188e3119d6ac6ffb",
+    "bytes": 1785203,
+    "display_media": "media/80f2b4df5309b5364c27d5206a8dac308e7e158e21ea4d22188e3119d6ac6ffb.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:31550",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "c41aa830b0ae28d3c3a8f01b9f6cec0bf98f96198ea15b16511130031a68dd3b",
+    "bytes": 2860802,
+    "display_media": "media/c41aa830b0ae28d3c3a8f01b9f6cec0bf98f96198ea15b16511130031a68dd3b.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:29259",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "b6f7cc14bec22ff436faa2bb5336669c3d555c93d37e46bed469b2b7ac794013",
+    "bytes": 1154550,
+    "display_media": "media/b6f7cc14bec22ff436faa2bb5336669c3d555c93d37e46bed469b2b7ac794013.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:30129",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "9806e17b9453ae089879e18e15af3857293e7d5175d4530933df7fa990e3f510",
+    "bytes": 1762467,
+    "display_media": "media/9806e17b9453ae089879e18e15af3857293e7d5175d4530933df7fa990e3f510.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:29043",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "d004337dbc3110ed915a6316bcd1a796f87707775ff088024c700fe1ff13116c",
+    "bytes": 2435832,
+    "display_media": "media/d004337dbc3110ed915a6316bcd1a796f87707775ff088024c700fe1ff13116c.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "ue:29758",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "8f29f320c4e0d5e310a90c0b6a9c96d00807f0f1ac4acedaec7fc96a8a7cae2b",
+    "bytes": 1119192,
+    "display_media": "media/8f29f320c4e0d5e310a90c0b6a9c96d00807f0f1ac4acedaec7fc96a8a7cae2b.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "coinve:151368",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "570b096d180ed5d770ab2d895efccf7f59a66aeb0e019f4b62d8261188dfb3b4",
+    "bytes": 1383789,
+    "display_media": "media/570b096d180ed5d770ab2d895efccf7f59a66aeb0e019f4b62d8261188dfb3b4.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "coinve:197535",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "6b71da4afb1be19cd7cf16f75823b36cbd98bbacd9897fb53f1dd96ab1363d2d",
+    "bytes": 694216,
+    "display_media": "media/6b71da4afb1be19cd7cf16f75823b36cbd98bbacd9897fb53f1dd96ab1363d2d.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "coinve:83632",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "4897f09d348174227abe47f3710f79640efa2acd475e1908603fd284abe247bb",
+    "bytes": 579175,
+    "display_media": "media/4897f09d348174227abe47f3710f79640efa2acd475e1908603fd284abe247bb.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "coinve:57742",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "96cd8fdabfe47e01e3baffa9a499520f69df85c8b90126ae58bdbf735909d730",
+    "bytes": 424308,
+    "display_media": "media/96cd8fdabfe47e01e3baffa9a499520f69df85c8b90126ae58bdbf735909d730.mp4",
+    "reused": false
+  },
+  {
+    "group": "dropout_ref3_baseline",
+    "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+    "uid": "coinve:193307",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 1.0,
+      "stg_scale": 0.0,
+      "guidance_rescale": 0.0,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": null,
+      "guidance_batch_size": 1,
+      "implementation": "official_SimpleDenoiser",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+      "ref_cfg": 3.0,
+      "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+    },
+    "sha256": "daf72ab2a8944949fb9656b1abe77ea658dd19df9a394d4ece424d2f80c5c715",
+    "bytes": 960206,
+    "display_media": "media/daf72ab2a8944949fb9656b1abe77ea658dd19df9a394d4ece424d2f80c5c715.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:5266",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "597a21cb728df6b68b1d50131870ec9399f3bfe814586d968128621c318ae508",
+    "bytes": 2254737,
+    "display_media": "media/597a21cb728df6b68b1d50131870ec9399f3bfe814586d968128621c318ae508.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:14184",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "97366871907172462760dbb0bd529eb130952a7cf04b000ba4036af3c958faa9",
+    "bytes": 2549859,
+    "display_media": "media/97366871907172462760dbb0bd529eb130952a7cf04b000ba4036af3c958faa9.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:16120",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "4ad3b530dff389940494c34d65bd5ebf0e090b4d11ddec71797ff57a6b87da47",
+    "bytes": 1812495,
+    "display_media": "media/4ad3b530dff389940494c34d65bd5ebf0e090b4d11ddec71797ff57a6b87da47.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:22201",
+    "split": "train",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "8f5ede69c93af1bca96f5b30fb2be2c23f23df516e307b8526452522d9d4f63a",
+    "bytes": 2963150,
+    "display_media": "media/8f5ede69c93af1bca96f5b30fb2be2c23f23df516e307b8526452522d9d4f63a.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:30247",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "3f7cbb57c8630e341984990bfe020faec28b658f904f7f7187f08ead9135e241",
+    "bytes": 3158537,
+    "display_media": "media/3f7cbb57c8630e341984990bfe020faec28b658f904f7f7187f08ead9135e241.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:27720",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "afea0262eb8660da8712acb23b77794e4181af3a154390618d79dc5c69563827",
+    "bytes": 1144401,
+    "display_media": "media/afea0262eb8660da8712acb23b77794e4181af3a154390618d79dc5c69563827.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29004",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "5a3820dff6c37d3b06cfa67cf0826cab385c5750fe6284f7d27ec0d212b903ad",
+    "bytes": 1715615,
+    "display_media": "media/5a3820dff6c37d3b06cfa67cf0826cab385c5750fe6284f7d27ec0d212b903ad.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:30522",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "a213660681d7e16d3847ea03afa2967f3dfddd3f25716c76601086f671dd073c",
+    "bytes": 4343198,
+    "display_media": "media/a213660681d7e16d3847ea03afa2967f3dfddd3f25716c76601086f671dd073c.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:26754",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "9b5a1d9c21032b36117bbf37e1cc9f93eb7235ca0f7fb5ee8de47b1628889804",
+    "bytes": 1878990,
+    "display_media": "media/9b5a1d9c21032b36117bbf37e1cc9f93eb7235ca0f7fb5ee8de47b1628889804.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:28170",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "0fc340065e2d0d1309b94be150e6205cc9503e52cf0f321efb715cd71afe0721",
+    "bytes": 1552830,
+    "display_media": "media/0fc340065e2d0d1309b94be150e6205cc9503e52cf0f321efb715cd71afe0721.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:28215",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "322ebe8c1e4c7a30fcd87b084847a0597e19829cb5ed92a4716d95dd058d406c",
+    "bytes": 4933613,
+    "display_media": "media/322ebe8c1e4c7a30fcd87b084847a0597e19829cb5ed92a4716d95dd058d406c.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29188",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "b5288a93e9c52f2c15f3be9da2f3fa536a36a661ec6877c70b28925fae3f052e",
+    "bytes": 3304004,
+    "display_media": "media/b5288a93e9c52f2c15f3be9da2f3fa536a36a661ec6877c70b28925fae3f052e.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:27118",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "02ff24fb409f16f4635e9b68dc13561eb1e4ad64abc700eb5d34e98cd10e54f8",
+    "bytes": 882480,
+    "display_media": "media/02ff24fb409f16f4635e9b68dc13561eb1e4ad64abc700eb5d34e98cd10e54f8.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:27599",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "d7f697eda2e1721d8dbd8cf936a3ba4a7999c2b5f5755537df55d4a10309913f",
+    "bytes": 4369052,
+    "display_media": "media/d7f697eda2e1721d8dbd8cf936a3ba4a7999c2b5f5755537df55d4a10309913f.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:27897",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "44440228258b7b0e84e613fc9dceb75bff7697c181a790959393fac0f9a80a82",
+    "bytes": 3420185,
+    "display_media": "media/44440228258b7b0e84e613fc9dceb75bff7697c181a790959393fac0f9a80a82.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:26652",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "97b31ccc7594bfa7aa694de2c500edcdc140528f34d870703f866a359b2e8a14",
+    "bytes": 2807475,
+    "display_media": "media/97b31ccc7594bfa7aa694de2c500edcdc140528f34d870703f866a359b2e8a14.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:28537",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "62fe25bfd1c9f0a0c92c9b4df47b3f3136d8eda0b76bbe1fbf25405f99c6f89a",
+    "bytes": 1742048,
+    "display_media": "media/62fe25bfd1c9f0a0c92c9b4df47b3f3136d8eda0b76bbe1fbf25405f99c6f89a.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:31550",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "45ab022438c566ce206cf04a2ce8934cb215a49b3ad523bafc2aaca0738e1c1d",
+    "bytes": 4036710,
+    "display_media": "media/45ab022438c566ce206cf04a2ce8934cb215a49b3ad523bafc2aaca0738e1c1d.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29259",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "02758a84a1a69aa63e7b1c487ec187766adc24a5afb1144512d637140cc0c134",
+    "bytes": 1686141,
+    "display_media": "media/02758a84a1a69aa63e7b1c487ec187766adc24a5afb1144512d637140cc0c134.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:30129",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "a44b0bddf55abb9040627dc8e1bbdab18961cffce4fd0338484cd0bec938baea",
+    "bytes": 1690878,
+    "display_media": "media/a44b0bddf55abb9040627dc8e1bbdab18961cffce4fd0338484cd0bec938baea.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29043",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "6f5a43f6b0a0393a7a80cd38bce72b2daccf4848ffb85d857539b563bbd212f9",
+    "bytes": 2293316,
+    "display_media": "media/6f5a43f6b0a0393a7a80cd38bce72b2daccf4848ffb85d857539b563bbd212f9.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "ue:29758",
+    "split": "test",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "880e141a384763860ea6bca0d9fc7a0d34a5496a2dc318b79d3ce62319b792c2",
+    "bytes": 1361482,
+    "display_media": "media/880e141a384763860ea6bca0d9fc7a0d34a5496a2dc318b79d3ce62319b792c2.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:151368",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "ee4a8ca7d031880fdd00274d6445efa91fd681ec8240277119f98c772216aad0",
+    "bytes": 815398,
+    "display_media": "media/ee4a8ca7d031880fdd00274d6445efa91fd681ec8240277119f98c772216aad0.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:197535",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "f801c410e3e0499aed1a08629a1dd25ed510b998d58fc404edb1214033e27587",
+    "bytes": 798654,
+    "display_media": "media/f801c410e3e0499aed1a08629a1dd25ed510b998d58fc404edb1214033e27587.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:83632",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "042b4439e9a5f0b670c1c9f42442e5cece6b31904de4024c70cd236902e9b62e",
+    "bytes": 407884,
+    "display_media": "media/042b4439e9a5f0b670c1c9f42442e5cece6b31904de4024c70cd236902e9b62e.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:57742",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "2cda1b412ef7de89a3b6774f539f8cf3d79ad56dcf8306a5537bd37152d8d97e",
+    "bytes": 466417,
+    "display_media": "media/2cda1b412ef7de89a3b6774f539f8cf3d79ad56dcf8306a5537bd37152d8d97e.mp4",
+    "reused": false
+  },
+  {
+    "group": "no_dropout_ref1_guided",
+    "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+    "uid": "coinve:193307",
+    "split": "development",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+    "guidance": {
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+      "guidance_batch_size": 1,
+      "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+      "audio_guidance": false,
+      "rescale_scope": "official_full_packed_latent",
+      "references": "same_clean_source_and_references_in_all_passes"
+    },
+    "sha256": "9cce6827a0fa11beb5ec65f2dffcc59659c2f6247c1eb9c14b5e1b4b40e1c637",
+    "bytes": 1109975,
+    "display_media": "media/9cce6827a0fa11beb5ec65f2dffcc59659c2f6247c1eb9c14b5e1b4b40e1c637.mp4",
+    "reused": false
+  }
+]

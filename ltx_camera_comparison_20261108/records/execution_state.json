@@ -1,0 +1,43 @@
+{
+  "status": "completed_media_verified_pending_fastref_transfer",
+  "started_unix": 1794143187.824426,
+  "groups": {
+    "dropout_ref1_guided": {
+      "status": "completed",
+      "pid": 3511660,
+      "devices": "0,1,2,3",
+      "started_unix": 1794143187.8313627,
+      "exit_code": 0,
+      "finished_unix": 1794144180.505889
+    },
+    "no_dropout_ref1_guided": {
+      "status": "completed",
+      "pid": 3511662,
+      "devices": "4,5,6,7",
+      "started_unix": 1794143187.8553982,
+      "exit_code": 0,
+      "finished_unix": 1794144185.528936
+    },
+    "dropout_ref3_guided": {
+      "status": "completed",
+      "pid": 3532505,
+      "devices": "0,1,2,3",
+      "started_unix": 1794144180.5155504,
+      "exit_code": 0,
+      "finished_unix": 1794145137.7398875
+    },
+    "dropout_ref3_baseline": {
+      "status": "completed",
+      "pid": 3532634,
+      "devices": "4,5,6,7",
+      "started_unix": 1794144185.539464,
+      "exit_code": 0,
+      "finished_unix": 1794144732.8289952
+    }
+  },
+  "finished_unix": 1794145137.7434506,
+  "display_results": 108,
+  "new_generations": 100,
+  "equivalent_reuse": 8,
+  "media_checks": "passed"
+}

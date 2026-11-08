@@ -1,0 +1,224 @@
+{
+  "schema": "ltx_final_camera_comparison_v1",
+  "cases": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/inputs/cases_all.json",
+  "runs": [
+    {
+      "name": "dropout_ref3_guided",
+      "label": "① 有参考丢弃训练 · 参考CFG=3 · 增强参数",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+      "step": 768,
+      "guidance": {
+        "cfg_scale": 3.0,
+        "stg_scale": 1.0,
+        "guidance_rescale": 0.7,
+        "stg_blocks": [
+          28
+        ],
+        "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+        "guidance_batch_size": 1,
+        "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+        "audio_guidance": false,
+        "rescale_scope": "official_full_packed_latent",
+        "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+        "ref_cfg": 3.0,
+        "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+      },
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/dropout_ref3_guided/comparison.json",
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/run_fixed_cases_parallel.py",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml",
+        "--bundle",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+        "--cases",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/inputs/cases_with_reference.json",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+        "--inference-config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/inputs/dropout_ref3_guided.json",
+        "--gpu-count",
+        "4",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/dropout_ref3_guided"
+      ],
+      "actual_generation_cases": 19
+    },
+    {
+      "name": "dropout_ref1_guided",
+      "label": "② 有参考丢弃训练 · 参考CFG=1 · 增强参数",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+      "step": 768,
+      "guidance": {
+        "cfg_scale": 3.0,
+        "stg_scale": 1.0,
+        "guidance_rescale": 0.7,
+        "stg_blocks": [
+          28
+        ],
+        "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+        "guidance_batch_size": 1,
+        "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+        "audio_guidance": false,
+        "rescale_scope": "official_full_packed_latent",
+        "references": "same_clean_source_and_references_in_all_passes"
+      },
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/dropout_ref1_guided/comparison.json",
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/run_fixed_cases_parallel.py",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml",
+        "--bundle",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+        "--cases",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/inputs/cases_all.json",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+        "--inference-config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/inputs/dropout_ref1_guided.json",
+        "--gpu-count",
+        "4",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/dropout_ref1_guided"
+      ],
+      "actual_generation_cases": 27
+    },
+    {
+      "name": "dropout_ref3_baseline",
+      "label": "③ 有参考丢弃训练 · 参考CFG=3 · 最初参数",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+      "step": 768,
+      "guidance": {
+        "cfg_scale": 1.0,
+        "stg_scale": 0.0,
+        "guidance_rescale": 0.0,
+        "stg_blocks": [
+          28
+        ],
+        "negative_prompt": null,
+        "guidance_batch_size": 1,
+        "implementation": "official_SimpleDenoiser",
+        "audio_guidance": false,
+        "rescale_scope": "official_full_packed_latent",
+        "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+        "ref_cfg": 3.0,
+        "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+      },
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/dropout_ref3_baseline/comparison.json",
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/run_fixed_cases_parallel.py",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml",
+        "--bundle",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+        "--cases",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/inputs/cases_all.json",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+        "--inference-config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/inputs/dropout_ref3_baseline.json",
+        "--gpu-count",
+        "4",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/dropout_ref3_baseline"
+      ],
+      "actual_generation_cases": 27
+    },
+    {
+      "name": "no_dropout_ref1_guided",
+      "label": "④ 无参考丢弃训练 · 参考CFG=1 · 增强参数",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_768/train.yaml",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+      "step": 768,
+      "guidance": {
+        "cfg_scale": 3.0,
+        "stg_scale": 1.0,
+        "guidance_rescale": 0.7,
+        "stg_blocks": [
+          28
+        ],
+        "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+        "guidance_batch_size": 1,
+        "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+        "audio_guidance": false,
+        "rescale_scope": "official_full_packed_latent",
+        "references": "same_clean_source_and_references_in_all_passes"
+      },
+      "comparison": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/no_dropout_ref1_guided/comparison.json",
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/run_fixed_cases_parallel.py",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_768/train.yaml",
+        "--bundle",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+        "--cases",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/inputs/cases_all.json",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_768/job_191904/checkpoints/lora_weights_step_00768.safetensors",
+        "--inference-config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/inputs/no_dropout_ref1_guided.json",
+        "--gpu-count",
+        "4",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/inference/final_camera_comparison_20261108/no_dropout_ref1_guided"
+      ],
+      "actual_generation_cases": 27
+    }
+  ],
+  "no_optional_reference_uids": [
+    "ue:30522",
+    "ue:26754",
+    "ue:28170",
+    "coinve:151368",
+    "coinve:197535",
+    "coinve:83632",
+    "coinve:57742",
+    "coinve:193307"
+  ],
+  "reuse_no_reference_from": "dropout_ref1_guided",
+  "reuse_no_reference_to": "dropout_ref3_guided",
+  "total_display_results": 108,
+  "planned_new_generations": 100,
+  "requested_allocation": 195783,
+  "lanes": [
+    [
+      "dropout_ref1_guided",
+      "dropout_ref3_guided"
+    ],
+    [
+      "no_dropout_ref1_guided",
+      "dropout_ref3_baseline"
+    ]
+  ],
+  "description": "27例、四组最终768步模型/推理参数对比。①②③是同一参考丢弃训练模型，④是无参考丢弃训练模型；全部连续时间编码、套装正背分开、镜头参考图。③使用最初参数，其余使用增强参数。4个人物身份例子属于训练集展示。",
+  "guidance": {
+    "cfg_scale": 3.0,
+    "stg_scale": 1.0,
+    "guidance_rescale": 0.7,
+    "stg_blocks": [
+      28
+    ],
+    "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+    "guidance_batch_size": 1,
+    "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+    "audio_guidance": false,
+    "rescale_scope": "official_full_packed_latent",
+    "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+    "ref_cfg": 3.0,
+    "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schema": "datamake_fixed_case_generation_v1",
+  "status": "completed",
+  "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_first_frame/sources.json",
+  "bundle_sha256": "f7865e1747098c0f32b1816eed269161e8aaf910808ae278e359282ee9b922e5",
+  "weights_signature": "5d3286c4b944bdeab2ed13227ca689a27cab96de90ff36db84d2b2d5fd012e66",
+  "config_sha256": "be99d6fb54e10eb03fc09f72cf15817e2390dfdbdc1c68a5c2de1b6dc4779914",
+  "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+  "checkpoint_sha256": "9a2e17edf3943940fd5d3c2fdf6632e264d604e2c717ac68f7bd3ec8306ad8c1",
+  "seed": 42,
+  "steps": 40,
+  "cfg": 1.0,
+  "guidance": {
+    "cfg_scale": 1.0,
+    "stg_scale": 0.0,
+    "guidance_rescale": 0.0,
+    "stg_blocks": [
+      28
+    ],
+    "negative_prompt": null,
+    "guidance_batch_size": 1,
+    "implementation": "official_SimpleDenoiser",
+    "audio_guidance": false,
+    "rescale_scope": "official_full_packed_latent",
+    "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+    "ref_cfg": 3.0,
+    "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+  },
+  "sampler": "official_LTX2Scheduler_Euler",
+  "sample_uids": [
+    "ue:16120",
+    "ue:29004",
+    "ue:28215",
+    "ue:27897",
+    "ue:29259",
+    "coinve:151368",
+    "coinve:193307"
+  ],
+  "sample_splits": {
+    "ue:16120": "train",
+    "ue:29004": "test",
+    "ue:28215": "test",
+    "ue:27897": "test",
+    "ue:29259": "test",
+    "coinve:151368": "development",
+    "coinve:193307": "development"
+  },
+  "started_unix": 1794144223.6335347,
+  "results": [
+    {
+      "sample_uid": "ue:16120",
+      "split": "train",
+      "output": "case_00.mp4",
+      "seconds": 81.7476872918196,
+      "denoise_peak_allocated_bytes": 44991477248,
+      "decode_peak_allocated_bytes": 45394569728,
+      "bytes": 1889193,
+      "sha256": "a0ab1eec7407e3627c93ee225a7e8c98a277b32c3ec80dee0200f7fbce9b15ce"
+    },
+    {
+      "sample_uid": "ue:29004",
+      "split": "test",
+      "output": "case_01.mp4",
+      "seconds": 83.47889806516469,
+      "denoise_peak_allocated_bytes": 45206254080,
+      "decode_peak_allocated_bytes": 45394349568,
+      "bytes": 1764575,
+      "sha256": "96b4f71d8cd3e13ed5cf325c1461627838866722bae0804707e6e60382e33ea1"
+    },
+    {
+      "sample_uid": "ue:28215",
+      "split": "test",
+      "output": "case_02.mp4",
+      "seconds": 82.97478177119046,
+      "denoise_peak_allocated_bytes": 45206254080,
+      "decode_peak_allocated_bytes": 45395398144,
+      "bytes": 5088455,
+      "sha256": "694a7162c005b79ce943718be897de4b1cc9ed94e0148f6c1f724044e83ab507"
+    },
+    {
+      "sample_uid": "ue:27897",
+      "split": "test",
+      "output": "case_03.mp4",
+      "seconds": 97.68736054515466,
+      "denoise_peak_allocated_bytes": 45888548864,
+      "decode_peak_allocated_bytes": 45395985408,
+      "bytes": 3546362,
+      "sha256": "2e9371249fc1047ee39f32693abffcf9422962ac3b8f402f3ba7e187e68f35af"
+    },
+    {
+      "sample_uid": "ue:29259",
+      "split": "test",
+      "output": "case_04.mp4",
+      "seconds": 83.6457752333954,
+      "denoise_peak_allocated_bytes": 45206248448,
+      "decode_peak_allocated_bytes": 45396179968,
+      "bytes": 1154550,
+      "sha256": "b6f7cc14bec22ff436faa2bb5336669c3d555c93d37e46bed469b2b7ac794013"
+    },
+    {
+      "sample_uid": "coinve:151368",
+      "split": "development",
+      "output": "case_05.mp4",
+      "seconds": 19.86494665965438,
+      "denoise_peak_allocated_bytes": 43672147456,
+      "decode_peak_allocated_bytes": 44332720640,
+      "bytes": 1383789,
+      "sha256": "570b096d180ed5d770ab2d895efccf7f59a66aeb0e019f4b62d8261188dfb3b4"
+    },
+    {
+      "sample_uid": "coinve:193307",
+      "split": "development",
+      "output": "case_06.mp4",
+      "seconds": 19.119313686154783,
+      "denoise_peak_allocated_bytes": 43672147456,
+      "decode_peak_allocated_bytes": 44332720640,
+      "bytes": 960206,
+      "sha256": "daf72ab2a8944949fb9656b1abe77ea658dd19df9a394d4ece424d2f80c5c715"
+    }
+  ],
+  "finished_unix": 1794144710.2834008
+}
