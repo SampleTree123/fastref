@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_997ff21d9bf357159d67151c",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13000/turn_03/generation/edited.mp4",
+  "prompt": "Switch the camera setup to a full-body shot from the side. Use the provided camera reference image to determine the viewing direction, subject placement, and framing at the start of the edited video, then follow the described side full-body camera setup and movement. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged, and preserve the timing and progression of the action in the source video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_fb262f4f553854ab3b4565d7b53b9ae3eb87ebb313f06fc1fd74584cb53185a6.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13000/turn_04/generation",
+  "seed": 42
+}

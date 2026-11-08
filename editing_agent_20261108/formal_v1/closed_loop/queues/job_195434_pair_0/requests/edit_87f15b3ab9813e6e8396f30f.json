@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_87f15b3ab9813e6e8396f30f",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6621.mp4",
+  "prompt": "Change the video's camera setup to a full-body shot from a rear three-quarter angle. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the described camera setup and movement, and preserve the timing and progression of the action in the source video. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_2bc41199443912ed45dd09cffdfeeffef80efb12781d8beaa91874fa7ffe3c22.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12647/turn_01/generation",
+  "seed": 42
+}

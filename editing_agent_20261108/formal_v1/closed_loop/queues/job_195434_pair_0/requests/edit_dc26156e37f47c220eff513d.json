@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_dc26156e37f47c220eff513d",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6499.mp4",
+  "prompt": "Change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_440.png",
+      "reference_id": "ref_1",
+      "type": "scene",
+      "view": "target_camera_initial_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12747/turn_01/generation",
+  "seed": 42
+}

@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_605f6cd8d515b87511ba5edf",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7007.mp4",
+  "prompt": "Replace the person's skirt with the item shown in the reference images, matching its design, color, and details from the front and back views. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_15.png",
+      "reference_id": "ref_1",
+      "type": "garment",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_150.png",
+      "reference_id": "ref_2",
+      "type": "garment",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13264/turn_01/generation",
+  "seed": 42
+}
