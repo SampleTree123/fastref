@@ -1,0 +1,11 @@
+{
+  "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1",
+  "job_id": "195434",
+  "step_id": "0",
+  "gpus": 8,
+  "pid": 2325906,
+  "host": "8FS9B74",
+  "started_unix": 1794084543.9924705,
+  "freeze_manifest_sha256": "4359ef888121f9319265505ab8c1910acbe29adabce71a1ba436699d177b6133",
+  "ended_unix": 1794109522.9596117
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "previous_actual_ltx_generation",
+  "not_ground_truth": true,
+  "previous_run": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2",
+  "previous_receipt": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_04/generation/editing_generation.json",
+  "previous_receipt_sha256": "ea8ee5f099ee718b6dc8e8380228fd99efd7d138aa08eced27518969a2f4b5ec",
+  "previous_execution_sha256": "c1ce1bf0b29e6cd4332cc63783919cb042a8eae44d012fe41687a3c5b53d55cd",
+  "semantic_key_sha256": "96645afcd8775b0df48adb4a49ba50b9e49ba0553e564200b1a818a7a097b9a9",
+  "worker_identity_sha256": "664c6e49a34dde5bd6d0384596ce36b61c0aee8ca6d91314529b01727ab36cab",
+  "current_request": {
+    "request_id": "debug_chain_04581_turn_04",
+    "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_03/generation/edited.mp4",
+    "prompt": "Change the video's camera setup to a full-body shot from a rear three-quarter angle. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the described camera setup and movement, and preserve the timing and progression of the action in the source video. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged.",
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_b30315e0d24e25b87136bc440dded8ca1912a5bc4091dce5203b260a60ce5a26.png",
+        "reference_id": "ref_1",
+        "type": "camera",
+        "view": "first_frame"
+      }
+    ],
+    "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v3/cases/debug_chain_04581/turn_04/generation",
+    "seed": 42
+  },
+  "current_input_paths": [
+    "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_03/generation/edited.mp4",
+    "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_b30315e0d24e25b87136bc440dded8ca1912a5bc4091dce5203b260a60ce5a26.png"
+  ],
+  "input_media_sha256": [
+    "9cca5fc36116cd346d53d3f6ae61b28d0dcbd22bba0dffb9d013128b615a08c4",
+    "5a358d710228df4653458c4cea392ce80734ca7fffd3cc7d5e38a406cfc0df9b"
+  ],
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_04/generation/edited.mp4",
+  "video_sha256": "1459f117e4a6440b3449999fdda199cf2ef48933f97f1b2f556a5bef5a65b38a",
+  "verified_unix": 1794075030.9001334
+}

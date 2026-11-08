@@ -1,0 +1,349 @@
+{
+  "stages": [
+    {
+      "mode": "understanding",
+      "limit": 1000,
+      "seconds": 4598.73393910937,
+      "before_ok": 0,
+      "new_ok": 1000,
+      "reused_all": false,
+      "summary": {
+        "expected_cases": 1000,
+        "cases_ok": 1000,
+        "cases_error": 0,
+        "cases_pending": 0,
+        "route_correct": 984,
+        "route_attempted": 1000,
+        "route_total_expected": 1000,
+        "format_calls": 3040,
+        "format_invalid_calls": 8,
+        "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+        "groups": {
+          "explicit_latest": {
+            "total": 42,
+            "attempted": 42,
+            "correct": 42
+          },
+          "content_description_match": {
+            "total": 500,
+            "attempted": 500,
+            "correct": 484
+          },
+          "event_after": {
+            "total": 150,
+            "attempted": 150,
+            "correct": 150
+          },
+          "event_before": {
+            "total": 150,
+            "attempted": 150,
+            "correct": 150
+          },
+          "normal_continue": {
+            "total": 42,
+            "attempted": 42,
+            "correct": 42
+          },
+          "explicit_id": {
+            "total": 116,
+            "attempted": 116,
+            "correct": 116
+          }
+        },
+        "accuracy_over_all_expected": 0.984,
+        "agreement_over_attempted": 0.984,
+        "all_cases_finished": true,
+        "all_cases_succeeded": true,
+        "route_metric": "source_id_accuracy"
+      },
+      "dispatched_cases": 1000,
+      "seconds_per_new_case": 4.59873393910937
+    },
+    {
+      "mode": "understanding",
+      "limit": 1000,
+      "seconds": 2.669191482011229,
+      "before_ok": 1000,
+      "new_ok": 0,
+      "reused_all": true,
+      "summary": {
+        "expected_cases": 1000,
+        "cases_ok": 1000,
+        "cases_error": 0,
+        "cases_pending": 0,
+        "route_correct": 984,
+        "route_attempted": 1000,
+        "route_total_expected": 1000,
+        "format_calls": 3040,
+        "format_invalid_calls": 8,
+        "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+        "groups": {
+          "explicit_latest": {
+            "total": 42,
+            "attempted": 42,
+            "correct": 42
+          },
+          "content_description_match": {
+            "total": 500,
+            "attempted": 500,
+            "correct": 484
+          },
+          "event_after": {
+            "total": 150,
+            "attempted": 150,
+            "correct": 150
+          },
+          "event_before": {
+            "total": 150,
+            "attempted": 150,
+            "correct": 150
+          },
+          "normal_continue": {
+            "total": 42,
+            "attempted": 42,
+            "correct": 42
+          },
+          "explicit_id": {
+            "total": 116,
+            "attempted": 116,
+            "correct": 116
+          }
+        },
+        "accuracy_over_all_expected": 0.984,
+        "agreement_over_attempted": 0.984,
+        "all_cases_finished": true,
+        "all_cases_succeeded": true,
+        "route_metric": "source_id_accuracy"
+      },
+      "dispatched_cases": 0,
+      "seconds_per_new_case": null
+    },
+    {
+      "mode": "closed_loop",
+      "limit": 30,
+      "seconds": 4361.873792681843,
+      "before_ok": 9,
+      "new_ok": 21,
+      "reused_all": false,
+      "summary": {
+        "expected_cases": 30,
+        "cases_ok": 30,
+        "cases_error": 0,
+        "cases_pending": 0,
+        "route_correct": 127,
+        "route_attempted": 127,
+        "route_total_expected": 127,
+        "format_calls": 540,
+        "format_invalid_calls": 1,
+        "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+        "groups": {
+          "normal_continue": {
+            "total": 104,
+            "attempted": 104,
+            "correct": 104
+          },
+          "content_description_match": {
+            "total": 7,
+            "attempted": 7,
+            "correct": 7
+          },
+          "explicit_id": {
+            "total": 5,
+            "attempted": 5,
+            "correct": 5
+          },
+          "event_after": {
+            "total": 5,
+            "attempted": 5,
+            "correct": 5
+          },
+          "event_before": {
+            "total": 6,
+            "attempted": 6,
+            "correct": 6
+          }
+        },
+        "accuracy_over_all_expected": 1.0,
+        "agreement_over_attempted": 1.0,
+        "all_cases_finished": true,
+        "all_cases_succeeded": true,
+        "route_metric": "planned_route_agreement"
+      },
+      "dispatched_cases": 21,
+      "seconds_per_new_case": 207.70827584199253
+    },
+    {
+      "mode": "closed_loop",
+      "limit": 60,
+      "seconds": 6616.804405180272,
+      "before_ok": 30,
+      "new_ok": 30,
+      "reused_all": false,
+      "summary": {
+        "expected_cases": 60,
+        "cases_ok": 60,
+        "cases_error": 0,
+        "cases_pending": 0,
+        "route_correct": 255,
+        "route_attempted": 256,
+        "route_total_expected": 256,
+        "format_calls": 1090,
+        "format_invalid_calls": 4,
+        "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+        "groups": {
+          "normal_continue": {
+            "total": 210,
+            "attempted": 210,
+            "correct": 209
+          },
+          "content_description_match": {
+            "total": 8,
+            "attempted": 8,
+            "correct": 8
+          },
+          "explicit_id": {
+            "total": 13,
+            "attempted": 13,
+            "correct": 13
+          },
+          "event_after": {
+            "total": 12,
+            "attempted": 12,
+            "correct": 12
+          },
+          "event_before": {
+            "total": 13,
+            "attempted": 13,
+            "correct": 13
+          }
+        },
+        "accuracy_over_all_expected": 0.99609375,
+        "agreement_over_attempted": 0.99609375,
+        "all_cases_finished": true,
+        "all_cases_succeeded": true,
+        "route_metric": "planned_route_agreement"
+      },
+      "dispatched_cases": 30,
+      "seconds_per_new_case": 220.5601468393424
+    },
+    {
+      "mode": "closed_loop",
+      "limit": 100,
+      "seconds": 8188.292045739945,
+      "before_ok": 60,
+      "new_ok": 40,
+      "reused_all": false,
+      "summary": {
+        "expected_cases": 100,
+        "cases_ok": 100,
+        "cases_error": 0,
+        "cases_pending": 0,
+        "route_correct": 424,
+        "route_attempted": 425,
+        "route_total_expected": 425,
+        "format_calls": 1812,
+        "format_invalid_calls": 10,
+        "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+        "groups": {
+          "normal_continue": {
+            "total": 350,
+            "attempted": 350,
+            "correct": 349
+          },
+          "content_description_match": {
+            "total": 8,
+            "attempted": 8,
+            "correct": 8
+          },
+          "explicit_id": {
+            "total": 23,
+            "attempted": 23,
+            "correct": 23
+          },
+          "event_after": {
+            "total": 22,
+            "attempted": 22,
+            "correct": 22
+          },
+          "event_before": {
+            "total": 22,
+            "attempted": 22,
+            "correct": 22
+          }
+        },
+        "accuracy_over_all_expected": 0.9976470588235294,
+        "agreement_over_attempted": 0.9976470588235294,
+        "all_cases_finished": true,
+        "all_cases_succeeded": true,
+        "route_metric": "planned_route_agreement"
+      },
+      "dispatched_cases": 40,
+      "seconds_per_new_case": 204.70730114349863
+    },
+    {
+      "mode": "closed_loop",
+      "limit": 128,
+      "seconds": 5806.975284900051,
+      "before_ok": 100,
+      "new_ok": 28,
+      "reused_all": false,
+      "summary": {
+        "expected_cases": 128,
+        "cases_ok": 128,
+        "cases_error": 0,
+        "cases_pending": 0,
+        "route_correct": 542,
+        "route_attempted": 543,
+        "route_total_expected": 543,
+        "format_calls": 2314,
+        "format_invalid_calls": 12,
+        "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+        "groups": {
+          "normal_continue": {
+            "total": 449,
+            "attempted": 449,
+            "correct": 448
+          },
+          "content_description_match": {
+            "total": 8,
+            "attempted": 8,
+            "correct": 8
+          },
+          "explicit_id": {
+            "total": 31,
+            "attempted": 31,
+            "correct": 31
+          },
+          "event_after": {
+            "total": 26,
+            "attempted": 26,
+            "correct": 26
+          },
+          "event_before": {
+            "total": 29,
+            "attempted": 29,
+            "correct": 29
+          }
+        },
+        "accuracy_over_all_expected": 0.998158379373849,
+        "agreement_over_attempted": 0.998158379373849,
+        "all_cases_finished": true,
+        "all_cases_succeeded": true,
+        "route_metric": "planned_route_agreement"
+      },
+      "dispatched_cases": 28,
+      "seconds_per_new_case": 207.39197446071609
+    }
+  ],
+  "started_unix": 1794075765.3670335,
+  "status": "completed",
+  "job": "195434",
+  "attempt_started_unix": 1794084543.994779,
+  "minimum_target": 30,
+  "minimum_pending": false,
+  "minimum_completed": 128,
+  "active_stage": "closed_loop",
+  "active_limit": 128,
+  "ended_unix": 1794109522.9580777,
+  "closed_loop_requested": 128
+}

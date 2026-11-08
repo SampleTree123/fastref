@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-08T02:27:24.301359+08:00",
+  "scope": "Experiment README/state/observations, HANDOFF, current plan, PROJECT_STATUS and PROJECT_STATE",
+  "local_links_checked": 46,
+  "broken_local_links": 0,
+  "experiment_report_consistency": "passed",
+  "plan_R03_R04_completed_R05_in_progress": "passed",
+  "full_project_document_audit": {
+    "success": true,
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "document_ids": 124,
+      "reachable_documents": 124,
+      "inventoried_output_scopes": 14,
+      "catalogued_scripts": 67,
+      "documents": 124,
+      "local_links": 920
+    }
+  },
+  "documentation_pytest": "not_run: pytest unavailable in base and existing Qwen environment; no packages installed",
+  "frozen_code_or_jobs_changed": false,
+  "documentation_tests": {
+    "runner": "python -m unittest discover -s 00_engine/render_pipeline/tools/documentation/tests -p test_*.py -q",
+    "tests": 23,
+    "result": "passed",
+    "note": "Same unittest.TestCase tests executed directly; pytest wrapper unavailable and not installed."
+  }
+}

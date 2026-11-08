@@ -1,0 +1,36 @@
+{
+  "kind": "previous_actual_ltx_generation",
+  "not_ground_truth": true,
+  "previous_run": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2",
+  "previous_receipt": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_03/generation/editing_generation.json",
+  "previous_receipt_sha256": "9da4e3bff81050f3d984d8f57d4dcf190f930278656903a83da7a9678538ba2e",
+  "previous_execution_sha256": "075fac1117fa6eca24922d4f81c3f7445c38cd48f537e5caff07dd900f387b72",
+  "semantic_key_sha256": "7b0e2363e950bc3b4e3e8fdedd78985559897a027b4b1812552222f9d7fc32f1",
+  "worker_identity_sha256": "664c6e49a34dde5bd6d0384596ce36b61c0aee8ca6d91314529b01727ab36cab",
+  "current_request": {
+    "request_id": "debug_chain_04581_turn_03",
+    "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_02/generation/edited.mp4",
+    "prompt": "Replace the scene in the video with the environment shown in the reference image, including its lighting effects on the person. Change only the environment and its lighting. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_548.png",
+        "reference_id": "ref_1",
+        "type": "scene",
+        "view": "target_camera_initial_frame"
+      }
+    ],
+    "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v3/cases/debug_chain_04581/turn_03/generation",
+    "seed": 42
+  },
+  "current_input_paths": [
+    "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_02/generation/edited.mp4",
+    "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_548.png"
+  ],
+  "input_media_sha256": [
+    "cd1048483ee1ee26bb93e537a3b939738a7583f47970ddbc6077d5014f9f762d",
+    "06eb91ff834dcfd44ef18c42a8e6bd0bb1fa1a8f884b4573ac5252efa01c2a13"
+  ],
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_03/generation/edited.mp4",
+  "video_sha256": "9cca5fc36116cd346d53d3f6ae61b28d0dcbd22bba0dffb9d013128b615a08c4",
+  "verified_unix": 1794075001.802615
+}

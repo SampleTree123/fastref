@@ -1,0 +1,36 @@
+{
+  "kind": "previous_actual_ltx_generation",
+  "not_ground_truth": true,
+  "previous_run": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2",
+  "previous_receipt": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_05/generation/editing_generation.json",
+  "previous_receipt_sha256": "e3ef5849e4c76fde779e38102f40492f6fb208a6a32630c19780cdb9b17047a1",
+  "previous_execution_sha256": "6f44c1cac7487f54db33867f10dd5f2424880ab7bbae465f91be7102815135cf",
+  "semantic_key_sha256": "31f1ebf9f870d49032a5e9c632fa79f8bb1784b5adc1b0ff59a5ac16a90bbd31",
+  "worker_identity_sha256": "664c6e49a34dde5bd6d0384596ce36b61c0aee8ca6d91314529b01727ab36cab",
+  "current_request": {
+    "request_id": "debug_chain_04581_turn_05",
+    "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_04/generation/edited.mp4",
+    "prompt": "Change the person's current action to shifting their stance in place, following the action demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+    "references": [
+      {
+        "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_693.mp4",
+        "reference_id": "ref_1",
+        "type": "motion",
+        "view": ""
+      }
+    ],
+    "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v3/cases/debug_chain_04581/turn_05/generation",
+    "seed": 42
+  },
+  "current_input_paths": [
+    "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_04/generation/edited.mp4",
+    "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_693.mp4"
+  ],
+  "input_media_sha256": [
+    "1459f117e4a6440b3449999fdda199cf2ef48933f97f1b2f556a5bef5a65b38a",
+    "87d302c88e309b6621897026bb7fdc5fe8437c2c67583be37787f7d8340dc287"
+  ],
+  "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_05/generation/edited.mp4",
+  "video_sha256": "61b5d12e740cebb1e761f846a3552b9edafef220c018a869d708167a92200e75",
+  "verified_unix": 1794075062.358068
+}

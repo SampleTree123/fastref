@@ -1,0 +1,65 @@
+{
+  "version": "eba33f17dbc916dc03ab6d2cba4ebdc9f9c88c382be5f39f524f36a6361b0c7f",
+  "config": {
+    "schema": "datamake_editing_agent_v1",
+    "version": "development_v1",
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "seed": 42,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "max_corrections": 1,
+    "observe_edit_references": false,
+    "qwen_max_new_tokens": 1536,
+    "ltx": {
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/train.yaml",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/outfit_camera_first_frame_sequential_time_visual_dropout_768/job_193151/checkpoints/lora_weights_step_00768.safetensors",
+      "steps": 40,
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "ref_cfg": 1.0
+    },
+    "evaluation": {
+      "development_chains": 6,
+      "understanding_questions": 1000,
+      "minimum_closed_loop_chains": 30,
+      "candidate_closed_loop_chains": 128,
+      "expansion_order": [
+        30,
+        60,
+        100,
+        128
+      ],
+      "automatic_regeneration": false,
+      "qwen_training": false
+    }
+  },
+  "code": {
+    "build_dataset.py": "dc0206459b05be440fb2079829e4ff9bf8d31f3692d867541fa4cd9d906752d2",
+    "contracts.py": "471f4e22808a82d016b81bc59911aeaaa303c4e57601c90916f0ff4dcba1a249",
+    "freeze.py": "ab0a3049608a65a392dabf136361036a3c0a9d5444e44b0f564f5a7a66384f17",
+    "harness.py": "70d2be9c48f77bfd4caecb50a3718ca2c6044472cce17d612ac7caa18f8011fb",
+    "launch_allocation.py": "9c42e2b7adaf2dcc985a1d357bd98e8099b7819f9e4d785c5a5c4c5c8868c88b",
+    "queue_client.py": "5c4d6c7a6f5a0976ae7b0784c4021c860442af2218ee3281f892bad152fdae1e",
+    "qwen_backend.py": "7b57cc0fb62b635f608597af9e6f324ee6fb761a6a571647237026fb7315b7f9",
+    "report.py": "b09c466bf049f5aa2752b65073cc23ba271d651933357b3b57640079e1390c14",
+    "run_campaign.py": "75bf39097d04c469a96e3f37e50ef17caac65736b247ccb74f40b07be84fc85d",
+    "run_worker.py": "b2067f29252ef163d631ae11ef6430b94b8517648eeaeda74041294659dee4c8",
+    "test_campaign.py": "b95b58e36d176019236e5ed59c5bd0fef8f8e47e7fe1d0713f77e680278adfb2",
+    "test_dataset.py": "f7d5188a86df4d9c6be4b33b80a24428f1a2050c1923e3828f91dcd061de41ba",
+    "test_harness.py": "6346aaae757a6e7c04effe566c6db75fdd74c0fc8ca3916e6d2be1c43d8104d0",
+    "test_queue.py": "dbc881ee533054c5857b8dbc84288da021df5dbea92f94680ad62632e4a062eb",
+    "test_report.py": "e5171875ef3fc6d8114766002610ec1d2a902dc432ef887c85054b5601d9b752"
+  },
+  "prompts": {
+    "configs/editing_agent/prompts/edit.txt": "49fe96fda1840f4c6e02beff5ad8725a5e9f22b0b3c1e220695c3c25fce5fd90",
+    "configs/editing_agent/prompts/observe.txt": "31892b22374e529feae1baa15c675cb08c235339ce21014a6e24fb8248accb0a",
+    "configs/editing_agent/prompts/select.txt": "f6016977cda91724bbd694d0c67e2a820f003689da9d5b94d2da7bfeb3e387a4",
+    "configs/editing_agent/prompts/review.txt": "79cdbc7863fa3c842db0bd6831ed59ce9e95c7e151967e529298af6f6a4e8be5"
+  },
+  "dataset_sha256": "8bfc9513682b6d12bd8658e9bd158d71ecbc60dd04ff9d65ed5b53b338a85682",
+  "mode": "development"
+}
