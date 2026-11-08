@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_54e0bfe848c43005504d31a6",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5997.mp4",
+  "prompt": "Replace the person's entire outfit with the complete outfit shown in the reference images, using the first reference for the front view and the second reference for the back view. The target outfit consists of the top, the bottoms, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_923.png",
+      "reference_id": "ref_1",
+      "type": "outfit",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_924.png",
+      "reference_id": "ref_2",
+      "type": "outfit",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12113/turn_03/generation",
+  "seed": 42
+}

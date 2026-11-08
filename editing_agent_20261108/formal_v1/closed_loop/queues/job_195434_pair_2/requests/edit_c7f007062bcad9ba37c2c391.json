@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_c7f007062bcad9ba37c2c391",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12622/turn_02/generation/edited.mp4",
+  "prompt": "Change the person's hairstyle to the one shown in the reference images. Transfer only the hairstyle shape and structure from the references, preserving the person's original hair color. Do not transfer the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_9.png",
+      "reference_id": "ref_1",
+      "type": "hair",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_61.png",
+      "reference_id": "ref_2",
+      "type": "hair",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12622/turn_04/generation",
+  "seed": 42
+}

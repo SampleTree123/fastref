@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_a3b921b082ffe0597f30ca3c",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12507/turn_02/generation/edited.mp4",
+  "prompt": "Change the video's camera setup to a full-body orbit shot that starts in front and moves through a side view toward the rear over a 120-degree arc. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene, and preserve the timing and progression of the action in the source video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_77d53bc558d93b02f724fe68f0c441f524e6c825102a0a0e6178950d218f2586.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12507/turn_03/generation",
+  "seed": 42
+}

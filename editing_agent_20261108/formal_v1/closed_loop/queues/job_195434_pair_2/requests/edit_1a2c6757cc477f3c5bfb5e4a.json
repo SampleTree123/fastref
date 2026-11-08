@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_1a2c6757cc477f3c5bfb5e4a",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14003/turn_03/generation/edited.mp4",
+  "prompt": "Change the person's hair color to black. Preserve the person's identity, hair shape, and all other aspects of the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_14003/turn_04/generation",
+  "seed": 42
+}

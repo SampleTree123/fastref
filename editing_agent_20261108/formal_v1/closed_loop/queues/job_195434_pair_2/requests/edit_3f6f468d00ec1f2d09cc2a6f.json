@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_3f6f468d00ec1f2d09cc2a6f",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12730/turn_01/generation/edited.mp4",
+  "prompt": "Change the person's hair color to red. Preserve the person's identity, hair shape, and all other aspects of the video unchanged.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12730/turn_03/generation",
+  "seed": 42
+}
