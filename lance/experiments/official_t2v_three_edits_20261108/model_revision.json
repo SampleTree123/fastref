@@ -1,0 +1,55 @@
+{
+  "repo": "bytedance-research/Lance",
+  "revision": "7395315758865e6f56ab87ad06a88c7ac172f056",
+  "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/lance/models/Lance",
+  "files": [
+    {
+      "name": "Lance_3B_Video/generation_config.json",
+      "size": 216
+    },
+    {
+      "name": "Lance_3B_Video/llm_config.json",
+      "size": 1373
+    },
+    {
+      "name": "Lance_3B_Video/merges.txt",
+      "size": 1671839
+    },
+    {
+      "name": "Lance_3B_Video/model.safetensors",
+      "size": 14211277144
+    },
+    {
+      "name": "Lance_3B_Video/tokenizer.json",
+      "size": 7031645
+    },
+    {
+      "name": "Lance_3B_Video/tokenizer_config.json",
+      "size": 5702
+    },
+    {
+      "name": "Lance_3B_Video/vocab.json",
+      "size": 2776833
+    },
+    {
+      "name": "Qwen2.5-VL-ViT/config.json",
+      "size": 552
+    },
+    {
+      "name": "Qwen2.5-VL-ViT/vit.safetensors",
+      "size": 1337407560
+    },
+    {
+      "name": "README.md",
+      "size": 34244
+    },
+    {
+      "name": "Wan2.2_VAE.pth",
+      "size": 2818839170
+    },
+    {
+      "name": "config.json",
+      "size": 901
+    }
+  ]
+}
