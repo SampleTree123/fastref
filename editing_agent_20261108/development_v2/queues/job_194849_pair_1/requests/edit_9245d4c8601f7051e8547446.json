@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_9245d4c8601f7051e8547446",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_02192/turn_04/generation/edited.mp4",
+  "prompt": "Change the video's camera setup to a side-view dolly-in shot that moves from full-body to upper-body framing. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the described camera setup and movement, and preserve the timing and progression of the action in the source video. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_c68e40bbb688dbf1e1916c6cfdba75779879fbbf9e9b24a452d850bc9e7e2543.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_02192/turn_05/generation",
+  "seed": 42
+}

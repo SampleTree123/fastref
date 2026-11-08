@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_599d8d9cbb36bef48262e3f2",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_2886.mp4",
+  "prompt": "Change the person's hair color from blue to chestnut brown. Preserve the existing hairstyle, shape, and all other details of the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_02192/turn_01/generation",
+  "seed": 42
+}

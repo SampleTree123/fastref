@@ -1,0 +1,101 @@
+{
+  "root": "/scratch/prj0000000275/jcy/xks/DataMake/20_planning/data_design/character_creator/full_process",
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "document_ids": 124,
+    "reachable_documents": 124,
+    "inventoried_output_scopes": 14,
+    "catalogued_scripts": 67,
+    "documents": 124,
+    "local_links": 934
+  },
+  "subsystems": {
+    "DocumentIO": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Metadata": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Navigation": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Master": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Workflow": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Validation": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Output": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Technical": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Status": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Plan": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "History": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Decisions": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Reference": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Registry": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Governance": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    },
+    "Templates": {
+      "success": true,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "cross_layer": {
+    "success": true,
+    "errors": [],
+    "warnings": []
+  },
+  "success": true
+}

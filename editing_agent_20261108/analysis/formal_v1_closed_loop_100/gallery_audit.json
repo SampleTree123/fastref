@@ -1,0 +1,12 @@
+{
+  "requested_chains": 100,
+  "completed_chains": 100,
+  "audit_completed_checked": 100,
+  "all_requested_completed": true,
+  "audit_success": true,
+  "local_media_references": 1543,
+  "unique_media_files": 1132,
+  "missing_absolute_or_symlink_media": 0,
+  "audit": "analysis/formal_v1_closed_loop_100/runtime_audit.json",
+  "gallery": "formal_v1/closed_loop/report/index.html"
+}

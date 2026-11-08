@@ -1,0 +1,76 @@
+{
+  "updated_unix": 1794072860.5234988,
+  "partial": true,
+  "completed_generations": [
+    {
+      "chain": "debug_chain_07377",
+      "turn": "turn_02",
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3373.mp4",
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_07377/turn_02/generation/edited.mp4",
+      "source_encoding_reuse": "existing_training_encoding",
+      "source_encoding_frames": 121,
+      "source_canvas": [
+        448,
+        768
+      ],
+      "seconds": 150.4438524423167,
+      "peak_GiB": 42.28
+    },
+    {
+      "chain": "debug_chain_07377",
+      "turn": "turn_01",
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3373.mp4",
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_07377/turn_01/generation/edited.mp4",
+      "source_encoding_reuse": "existing_training_encoding",
+      "source_encoding_frames": 121,
+      "source_canvas": [
+        448,
+        768
+      ],
+      "seconds": 191.96515684295446,
+      "peak_GiB": 42.8
+    },
+    {
+      "chain": "debug_chain_04581",
+      "turn": "turn_03",
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_02/generation/edited.mp4",
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_03/generation/edited.mp4",
+      "source_encoding_reuse": "new_encoding",
+      "source_encoding_frames": 121,
+      "source_canvas": [
+        768,
+        448
+      ],
+      "seconds": 153.87738893274218,
+      "peak_GiB": 42.28
+    },
+    {
+      "chain": "debug_chain_04581",
+      "turn": "turn_02",
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_1733.mp4",
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_02/generation/edited.mp4",
+      "source_encoding_reuse": "existing_training_encoding",
+      "source_encoding_frames": 121,
+      "source_canvas": [
+        768,
+        448
+      ],
+      "seconds": 150.62142764683813,
+      "peak_GiB": 42.28
+    },
+    {
+      "chain": "debug_chain_04581",
+      "turn": "turn_01",
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_1733.mp4",
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v2/cases/debug_chain_04581/turn_01/generation/edited.mp4",
+      "source_encoding_reuse": "existing_training_encoding",
+      "source_encoding_frames": 121,
+      "source_canvas": [
+        768,
+        448
+      ],
+      "seconds": 129.27769807446748,
+      "peak_GiB": 42.28
+    }
+  ]
+}

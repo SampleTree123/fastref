@@ -1,0 +1,103 @@
+{
+  "groups": {
+    "selection_kind": {
+      "explicit_latest": {
+        "total": 42,
+        "correct": 42,
+        "inspected": 0
+      },
+      "content_description_match": {
+        "total": 500,
+        "correct": 484,
+        "inspected": 46
+      },
+      "event_after": {
+        "total": 150,
+        "correct": 150,
+        "inspected": 0
+      },
+      "event_before": {
+        "total": 150,
+        "correct": 150,
+        "inspected": 0
+      },
+      "normal_continue": {
+        "total": 42,
+        "correct": 42,
+        "inspected": 0
+      },
+      "explicit_id": {
+        "total": 116,
+        "correct": 116,
+        "inspected": 0
+      }
+    },
+    "selection_axis": {
+      "not_applicable": {
+        "total": 500,
+        "correct": 500,
+        "inspected": 0
+      },
+      "camera": {
+        "total": 250,
+        "correct": 239,
+        "inspected": 25
+      },
+      "hair_color": {
+        "total": 250,
+        "correct": 245,
+        "inspected": 21
+      }
+    },
+    "current_edit_axis": {
+      "wardrobe": {
+        "total": 218,
+        "correct": 214,
+        "inspected": 9
+      },
+      "identity": {
+        "total": 66,
+        "correct": 65,
+        "inspected": 2
+      },
+      "hair": {
+        "total": 218,
+        "correct": 215,
+        "inspected": 8
+      },
+      "action": {
+        "total": 195,
+        "correct": 191,
+        "inspected": 13
+      },
+      "site": {
+        "total": 177,
+        "correct": 174,
+        "inspected": 13
+      },
+      "hair_color": {
+        "total": 99,
+        "correct": 98,
+        "inspected": 1
+      },
+      "camera": {
+        "total": 27,
+        "correct": 27,
+        "inspected": 0
+      }
+    }
+  },
+  "allocation_wall_clock": {
+    "start": "2026-11-08T02:22:46.151054+08:00",
+    "end": "2026-11-08T03:39:21.586916+08:00",
+    "seconds": 4595.435862541199,
+    "gpus": 4,
+    "exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "source": "formal_v1/understanding/allocation.json"
+  }
+}

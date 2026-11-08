@@ -1,0 +1,11 @@
+{
+  "selected": 1,
+  "ok": 0,
+  "errors": [
+    {
+      "id": "debug_chain_04581",
+      "error": "Chain failed: review: invalid output after one correction: Extra data: line 1 column 572 (char 571)"
+    }
+  ],
+  "last_id": "debug_chain_04581"
+}

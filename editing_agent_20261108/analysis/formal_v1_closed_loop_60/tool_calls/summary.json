@@ -1,0 +1,3564 @@
+{
+  "schema": "editing_agent_supplementary_usage_v1",
+  "snapshot_at": "2026-11-07T23:52:56.232212+00:00",
+  "run": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop",
+  "expected_cases": 60,
+  "expected_rounds": 256,
+  "case_status": {
+    "ok": 60,
+    "pending": 0
+  },
+  "live_snapshot_not_atomic_across_all_cases": true,
+  "recorded_model_calls": 1090,
+  "stages": {
+    "initial_observe": {
+      "calls": 60,
+      "valid_calls": 60,
+      "invalid_calls": 0,
+      "unclassified_status_calls": 0,
+      "correction_calls": 0,
+      "correction_calls_valid": 0,
+      "generation_limit_hits": 0,
+      "call_groups": 60,
+      "groups_ending_valid": 60
+    },
+    "edit": {
+      "calls": 256,
+      "valid_calls": 256,
+      "invalid_calls": 0,
+      "unclassified_status_calls": 0,
+      "correction_calls": 0,
+      "correction_calls_valid": 0,
+      "generation_limit_hits": 0,
+      "call_groups": 256,
+      "groups_ending_valid": 256
+    },
+    "output_only_observe": {
+      "calls": 256,
+      "valid_calls": 256,
+      "invalid_calls": 0,
+      "unclassified_status_calls": 0,
+      "correction_calls": 0,
+      "correction_calls_valid": 0,
+      "generation_limit_hits": 0,
+      "call_groups": 256,
+      "groups_ending_valid": 256
+    },
+    "review": {
+      "calls": 260,
+      "valid_calls": 256,
+      "invalid_calls": 4,
+      "unclassified_status_calls": 0,
+      "correction_calls": 4,
+      "correction_calls_valid": 4,
+      "generation_limit_hits": 0,
+      "call_groups": 256,
+      "groups_ending_valid": 256
+    },
+    "select": {
+      "calls": 258,
+      "valid_calls": 258,
+      "invalid_calls": 0,
+      "unclassified_status_calls": 0,
+      "correction_calls": 0,
+      "correction_calls_valid": 0,
+      "generation_limit_hits": 0,
+      "call_groups": 256,
+      "groups_ending_valid": 256
+    }
+  },
+  "history_inspection": {
+    "accepted_tool_calls": 2,
+    "rounds_with_inspection": 2,
+    "viewed_video_slots": 5,
+    "unique_case_video_pairs": 5,
+    "per_selection_kind": {
+      "content_description_match": 1,
+      "normal_continue": 1
+    },
+    "events": [
+      {
+        "case_id": "test_chain_13136",
+        "turn_id": 2,
+        "video_ids": [
+          0,
+          1
+        ],
+        "selection_kind": "content_description_match",
+        "path": "cases/test_chain_13136/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13582",
+        "turn_id": 5,
+        "video_ids": [
+          1,
+          2,
+          3
+        ],
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13582/turn_05/select_call_00.json"
+      }
+    ]
+  },
+  "source_selection": {
+    "accepted_calls": 256,
+    "location_counts": {
+      "only_root_available": 60,
+      "root": 31,
+      "latest": 149,
+      "earlier_nonroot": 16
+    },
+    "value_type_counts": {
+      "int": 256
+    },
+    "selection_kind_counts": {
+      "normal_continue": 210,
+      "event_before": 13,
+      "event_after": 12,
+      "explicit_id": 13,
+      "content_description_match": 8
+    },
+    "events": [
+      {
+        "case_id": "test_chain_12042",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12042/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12042",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_12042/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12042",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12042/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12042",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12042/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12121",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12121/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12121",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12121/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12121",
+        "turn_id": 3,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_12121/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12157",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12157/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12157",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12157/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12157",
+        "turn_id": 3,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_12157/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12235",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12235/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12235",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12235/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12235",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12235/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12235",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12235/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12235",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12235/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12249",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12249/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12249",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_12249/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12249",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12249/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12249",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12249/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12249",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12249/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12304",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12304/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12304",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12304/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12304",
+        "turn_id": 3,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_12304/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12419",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12419/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12419",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12419/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12419",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12419/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12419",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12419/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12419",
+        "turn_id": 5,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_12419/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12424",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12424/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12424",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12424/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12424",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12424/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12424",
+        "turn_id": 4,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_12424/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12424",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12424/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12433",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12433/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12433",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12433/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12433",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12433/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12433",
+        "turn_id": 4,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_12433/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12495",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12495/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12495",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12495/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12495",
+        "turn_id": 3,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "root",
+        "selection_kind": "content_description_match",
+        "path": "cases/test_chain_12495/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12495",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12495/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12495",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12495/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12588",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12588/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12588",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_12588/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12588",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12588/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12588",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12588/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12626",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12626/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12626",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12626/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12626",
+        "turn_id": 3,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_12626/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12626",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12626/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12647",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12647/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12647",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12647/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12647",
+        "turn_id": 3,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_12647/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12657",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12657/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12657",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12657/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12657",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12657/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12657",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12657/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12726",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12726/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12726",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_12726/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12726",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12726/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12726",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12726/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12726",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12726/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12727",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12727/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12727",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_12727/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12727",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12727/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12727",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12727/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12744",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12744/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12744",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12744/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12744",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12744/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12744",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12744/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12744",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12744/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12801",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12801/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12801",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12801/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12801",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12801/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12801",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12801/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12801",
+        "turn_id": 5,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_12801/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12804",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12804/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12804",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12804/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12804",
+        "turn_id": 3,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "root",
+        "selection_kind": "content_description_match",
+        "path": "cases/test_chain_12804/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12859",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12859/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12859",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12859/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12859",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12859/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12859",
+        "turn_id": 4,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_12859/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12924",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12924/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12924",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12924/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12924",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12924/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12924",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12924/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12930",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12930/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12930",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12930/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12930",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12930/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12930",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12930/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12930",
+        "turn_id": 5,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_12930/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12991",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12991/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12991",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_12991/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_12991",
+        "turn_id": 3,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_12991/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13000",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13000/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13000",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_13000/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13000",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13000/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13000",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13000/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13000",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13000/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13035",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13035/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13035",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_13035/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13035",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13035/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13035",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13035/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13035",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13035/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13095",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13095/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13095",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_13095/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13095",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13095/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13095",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13095/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13095",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13095/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13103",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13103/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13103",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "content_description_match",
+        "path": "cases/test_chain_13103/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13103",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13103/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13103",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13103/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13103",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13103/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13108",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13108/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13108",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_13108/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13108",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13108/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13136",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13136/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13136",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "content_description_match",
+        "path": "cases/test_chain_13136/turn_02/select_call_01.json"
+      },
+      {
+        "case_id": "test_chain_13136",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13136/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13136",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13136/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13172",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13172/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13172",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13172/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13172",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13172/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13172",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13172/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13190",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13190/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13190",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "content_description_match",
+        "path": "cases/test_chain_13190/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13190",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13190/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13190",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13190/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13190",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13190/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13197",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13197/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13197",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13197/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13197",
+        "turn_id": 3,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_13197/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13197",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13197/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13213",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13213/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13213",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13213/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13213",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13213/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13213",
+        "turn_id": 4,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_13213/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13213",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13213/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13233",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13233/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13233",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13233/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13233",
+        "turn_id": 3,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_13233/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13233",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13233/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13246",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13246/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13246",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13246/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13246",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13246/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13246",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13246/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13246",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13246/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13264",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13264/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13264",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_13264/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13264",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13264/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13264",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13264/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13332",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13332/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13332",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "content_description_match",
+        "path": "cases/test_chain_13332/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13332",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13332/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13332",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13332/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13332",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13332/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13363",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13363/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13363",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13363/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13363",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13363/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13363",
+        "turn_id": 4,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_13363/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13363",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13363/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13427",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13427/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13427",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13427/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13427",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13427/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13528",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13528/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13528",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13528/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13528",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13528/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13528",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13528/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13528",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13528/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13582",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13582/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13582",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13582/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13582",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13582/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13582",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13582/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13582",
+        "turn_id": 5,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13582/turn_05/select_call_01.json"
+      },
+      {
+        "case_id": "test_chain_13664",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13664/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13664",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13664/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13664",
+        "turn_id": 3,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "content_description_match",
+        "path": "cases/test_chain_13664/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13664",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13664/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13664",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13664/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13668",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13668/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13668",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_13668/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13668",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13668/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13668",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13668/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13669",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13669/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13669",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13669/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13669",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13669/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13669",
+        "turn_id": 4,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "root",
+        "selection_kind": "content_description_match",
+        "path": "cases/test_chain_13669/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13669",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13669/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13681",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13681/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13681",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13681/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13681",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13681/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13681",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13681/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13704",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13704/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13704",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_13704/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13704",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13704/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13704",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13704/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13716",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13716/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13716",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13716/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13716",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13716/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13716",
+        "turn_id": 4,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_13716/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13716",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13716/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13731",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13731/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13731",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13731/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13731",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13731/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13820",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13820/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13820",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13820/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13820",
+        "turn_id": 3,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_13820/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13838",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13838/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13838",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_13838/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13838",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13838/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13838",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13838/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13948",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13948/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13948",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_13948/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13948",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13948/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13948",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13948/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13948",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13948/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13971",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13971/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13971",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13971/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13971",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13971/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13971",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_13971/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_13971",
+        "turn_id": 5,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_13971/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14003",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14003/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14003",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14003/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14003",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14003/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14003",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14003/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14003",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14003/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14004",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14004/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14004",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "explicit_id",
+        "path": "cases/test_chain_14004/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14004",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14004/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14004",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14004/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14004",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14004/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14011",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14011/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14011",
+        "turn_id": 2,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_14011/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14011",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14011/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14011",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14011/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14011",
+        "turn_id": 5,
+        "selected_id": 4,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14011/turn_05/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14114",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14114/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14114",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14114/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14114",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14114/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14136",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14136/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14136",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14136/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14136",
+        "turn_id": 3,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_14136/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14265",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14265/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14265",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14265/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14265",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14265/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14289",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14289/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14289",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14289/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14289",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14289/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14289",
+        "turn_id": 4,
+        "selected_id": 0,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "root",
+        "selection_kind": "event_before",
+        "path": "cases/test_chain_14289/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14314",
+        "turn_id": 1,
+        "selected_id": 0,
+        "available_ids": [
+          0
+        ],
+        "location": "only_root_available",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14314/turn_01/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14314",
+        "turn_id": 2,
+        "selected_id": 1,
+        "available_ids": [
+          0,
+          1
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14314/turn_02/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14314",
+        "turn_id": 3,
+        "selected_id": 2,
+        "available_ids": [
+          0,
+          1,
+          2
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14314/turn_03/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14314",
+        "turn_id": 4,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location": "latest",
+        "selection_kind": "normal_continue",
+        "path": "cases/test_chain_14314/turn_04/select_call_00.json"
+      },
+      {
+        "case_id": "test_chain_14314",
+        "turn_id": 5,
+        "selected_id": 3,
+        "available_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location": "earlier_nonroot",
+        "selection_kind": "event_after",
+        "path": "cases/test_chain_14314/turn_05/select_call_00.json"
+      }
+    ]
+  },
+  "observed_card_references": {
+    "persisted_history_slots": 316,
+    "slots_with_observation_identity": 60,
+    "unique_observation_identities": 60,
+    "repeated_identity_assignments": 0,
+    "stored_shared_card_files": 0,
+    "shared_card_files_used_by_persisted_history": 0,
+    "meaning": "Exact duplicate references among saved histories, NOT instrumented cache-hit counts or saved GPU calls."
+  },
+  "durations_by_stage": {
+    "initial_observe": {
+      "prepare_seconds": {
+        "count": 60,
+        "sum_seconds": 8.327844619285315,
+        "mean_seconds": 0.13879741032142193,
+        "median_seconds": 0.1333625758998096,
+        "p95_seconds": 0.18751032161526382
+      },
+      "generation_seconds": {
+        "count": 60,
+        "sum_seconds": 716.4799979799427,
+        "mean_seconds": 11.941333299665711,
+        "median_seconds": 10.66086517041549,
+        "p95_seconds": 13.182668008538876
+      },
+      "total_seconds": {
+        "count": 60,
+        "sum_seconds": 725.20756136626,
+        "mean_seconds": 12.086792689437667,
+        "median_seconds": 10.79371039615944,
+        "p95_seconds": 13.36697764717972
+      }
+    },
+    "edit": {
+      "prepare_seconds": {
+        "count": 256,
+        "sum_seconds": 0.8057137536816299,
+        "mean_seconds": 0.0031473193503188668,
+        "median_seconds": 0.0031257292721420527,
+        "p95_seconds": 0.003549432731233537
+      },
+      "generation_seconds": {
+        "count": 256,
+        "sum_seconds": 1403.5885873259977,
+        "mean_seconds": 5.482767919242178,
+        "median_seconds": 5.4181626182980835,
+        "p95_seconds": 7.061215063789859
+      },
+      "total_seconds": {
+        "count": 256,
+        "sum_seconds": 1404.4269501753151,
+        "mean_seconds": 5.486042774122325,
+        "median_seconds": 5.421431702096015,
+        "p95_seconds": 7.064583471626975
+      }
+    },
+    "output_only_observe": {
+      "prepare_seconds": {
+        "count": 256,
+        "sum_seconds": 209.90034930920228,
+        "mean_seconds": 0.8199232394890714,
+        "median_seconds": 0.7747093252837658,
+        "p95_seconds": 1.1614583070622757
+      },
+      "generation_seconds": {
+        "count": 256,
+        "sum_seconds": 2703.4423790532164,
+        "mean_seconds": 10.560321793176627,
+        "median_seconds": 10.356506994459778,
+        "p95_seconds": 12.301642893115059
+      },
+      "total_seconds": {
+        "count": 256,
+        "sum_seconds": 2914.9737530746497,
+        "mean_seconds": 11.38661622294785,
+        "median_seconds": 11.215121297165751,
+        "p95_seconds": 13.195769380312413
+      }
+    },
+    "review": {
+      "prepare_seconds": {
+        "count": 260,
+        "sum_seconds": 80.42731823353097,
+        "mean_seconds": 0.3093358393597345,
+        "median_seconds": 0.2903389020357281,
+        "p95_seconds": 0.45321060649584977
+      },
+      "generation_seconds": {
+        "count": 260,
+        "sum_seconds": 2885.264799786266,
+        "mean_seconds": 11.097172306870254,
+        "median_seconds": 10.76224223896861,
+        "p95_seconds": 16.152435181266625
+      },
+      "total_seconds": {
+        "count": 260,
+        "sum_seconds": 2969.760461001657,
+        "mean_seconds": 11.422155619237142,
+        "median_seconds": 11.08256865479052,
+        "p95_seconds": 16.39423249340616
+      }
+    },
+    "select": {
+      "prepare_seconds": {
+        "count": 258,
+        "sum_seconds": 2.042794516775757,
+        "mean_seconds": 0.007917808204557198,
+        "median_seconds": 0.005574605194851756,
+        "p95_seconds": 0.00842524969484657
+      },
+      "generation_seconds": {
+        "count": 258,
+        "sum_seconds": 464.1371292285621,
+        "mean_seconds": 1.7989811210409385,
+        "median_seconds": 1.5704412057530135,
+        "p95_seconds": 1.7442006865981965
+      },
+      "total_seconds": {
+        "count": 258,
+        "sum_seconds": 466.24282943690196,
+        "mean_seconds": 1.807142749755434,
+        "median_seconds": 1.5761832287535071,
+        "p95_seconds": 1.7533020881470291
+      }
+    }
+  },
+  "completed_case_elapsed": {
+    "count": 60,
+    "sum_seconds": 46040.695830462966,
+    "mean_seconds": 767.3449305077161,
+    "median_seconds": 782.0736761745065,
+    "p95_seconds": 960.1351402810775
+  },
+  "invalid_calls": [
+    {
+      "path": "cases/test_chain_12744/turn_01/review_call_00.json",
+      "stage": "review",
+      "error": "Unexpected parameter text",
+      "correction": false
+    },
+    {
+      "path": "cases/test_chain_12859/turn_01/review_call_00.json",
+      "stage": "review",
+      "error": "Unexpected parameter text",
+      "correction": false
+    },
+    {
+      "path": "cases/test_chain_12859/turn_03/review_call_00.json",
+      "stage": "review",
+      "error": "Unexpected parameter text",
+      "correction": false
+    },
+    {
+      "path": "cases/test_chain_12930/turn_02/review_call_00.json",
+      "stage": "review",
+      "error": "Unexpected parameter text",
+      "correction": false
+    }
+  ],
+  "terminal_cases": [],
+  "read_errors": [],
+  "metric_scope": {
+    "exact_from_saved_evidence": [
+      "accepted inspect_history calls and requested video IDs",
+      "valid/invalid call status",
+      "correction requests whose final user message is the harness correction",
+      "accepted source IDs and allowed-ID enums",
+      "stored card identity references",
+      "recorded numeric timings"
+    ],
+    "limited_inferences": [
+      "Terminal tool stage only when recorded worker error explicitly names it; other runtime failures remain unattributed.",
+      "Last invalid call without a terminal worker error may be a running correction, not a failed stage."
+    ],
+    "not_measured": [
+      "actual observation-cache hit events",
+      "avoided GPU work",
+      "multi-GPU wall-clock duration",
+      "unrecorded model failures",
+      "editing quality",
+      "independent human acceptance"
+    ],
+    "timing_note": "Summed call/case seconds overlap under concurrency; they are not job duration. Cached-history lock waits may be in case time."
+  },
+  "analysis_script_sha256": "95a02540de4a4b6e31437467355aa4543a4a54ec96a20e04f7756dca287630f3",
+  "dataset_sha256": "09655d1ff500ede087b2584c5ddab10e6d13c09592a7bf3c72485bb446c461fd",
+  "labels_sha256": "3bc06e7b1ee57cb6fb751893418addcdac4390302ac7ab768b069b061c98bc64"
+}

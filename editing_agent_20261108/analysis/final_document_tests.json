@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "pytest_available": false,
+  "method": "standard-library unittest discovery plus direct invocation of all seven pytest-style functions with isolated TemporaryDirectory and unittest.mock.patch for fixtures; no package installation",
+  "unittest_run": 23,
+  "unittest_failures": 0,
+  "unittest_errors": 0,
+  "unittest_skipped": 0,
+  "additional_function_tests": [
+    "test_cli_defaults_use_pipeline_config",
+    "test_empty_outputs_keeps_all_control_files_outside",
+    "test_output_catalog_rejects_undocumented_category_owner",
+    "test_ownership_is_independent_from_retention",
+    "test_script_catalog_excludes_engine_workspace_and_outputs",
+    "test_script_catalog_rejects_stale_digest",
+    "test_script_catalog_rejects_undocumented_production_entry"
+  ],
+  "additional_function_tests_passed": 7
+}

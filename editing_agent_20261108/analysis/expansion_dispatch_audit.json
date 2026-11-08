@@ -1,0 +1,210 @@
+{
+  "stages": [
+    {
+      "recorded_at": "2026-11-08T06:07:20.329764+08:00",
+      "campaign_target": 60,
+      "dispatch": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0060_f059726bdd79dbc7.jsonl",
+      "dispatch_sha256": "f059726bdd79dbc7bb356e99e7ba5d5bd78386d4092a0042c06d0e4bb69c6eaa",
+      "public_dataset_sha256": "f327de6983623cea57492891328dda817e2f6d85ed1f53a897b52e8258544dbd",
+      "dispatched": 30,
+      "matches_next_public_rows": true,
+      "overlap_with_completed_first30": [],
+      "all_previous_complete": true,
+      "scope": "Dispatch verification only; newly assigned cases are still running."
+    },
+    {
+      "recorded_at": "2026-11-08T07:53:07.993168+08:00",
+      "campaign_target": 100,
+      "dispatch": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0100_4dd97312ab319a3b.jsonl",
+      "dispatch_sha256": "4dd97312ab319a3bc1b20f7786e54f2c1cfa61c4526c1372865c6b51b65bf99f",
+      "public_dataset_sha256": "f327de6983623cea57492891328dda817e2f6d85ed1f53a897b52e8258544dbd",
+      "dispatched": 40,
+      "matches_next_public_rows": true,
+      "overlap_with_completed_first60": [],
+      "all_previous_complete": true,
+      "scope": "Dispatch verification only; newly assigned cases are still running."
+    },
+    {
+      "recorded_at": "2026-11-08T10:11:14+08:00",
+      "campaign_target": 128,
+      "dispatch": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/dispatch/closed_loop_0128_2e43dcc9e2c354a4.jsonl",
+      "dispatch_sha256": "2e43dcc9e2c354a4430c58dbfd2b88c52a1ea3586109a5d4941f9875debce31c",
+      "public_dataset_sha256": "f327de6983623cea57492891328dda817e2f6d85ed1f53a897b52e8258544dbd",
+      "dispatched": 28,
+      "canonical_rows_1based": [
+        101,
+        128
+      ],
+      "matches_next_public_rows": true,
+      "complete_rows_equal_not_only_ids": true,
+      "dispatch_ids": [
+        "test_chain_13123",
+        "test_chain_12315",
+        "test_chain_12730",
+        "test_chain_14049",
+        "test_chain_13803",
+        "test_chain_12897",
+        "test_chain_12507",
+        "test_chain_12746",
+        "test_chain_12238",
+        "test_chain_12492",
+        "test_chain_14080",
+        "test_chain_13495",
+        "test_chain_12168",
+        "test_chain_14252",
+        "test_chain_12113",
+        "test_chain_12780",
+        "test_chain_13959",
+        "test_chain_13053",
+        "test_chain_13795",
+        "test_chain_13286",
+        "test_chain_13404",
+        "test_chain_13338",
+        "test_chain_12346",
+        "test_chain_12165",
+        "test_chain_13459",
+        "test_chain_14083",
+        "test_chain_12622",
+        "test_chain_14095"
+      ],
+      "overlap_with_completed_first100": [],
+      "all_previous_complete": true,
+      "previous100_state_counts": {
+        "completed": 100
+      },
+      "scope": "Dispatch verification plus completed first100 call/route evidence; newly assigned28 are running, no completion claim.",
+      "first100_validation": {
+        "calls": 1812,
+        "initial_invalid_calls": 10,
+        "invalid_stage_counts": {
+          "review": 9,
+          "observe": 1
+        },
+        "all_invalid_corrected_once": true,
+        "corrections": [
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12352/turn_01/review_call_00.json",
+            "initial_sha256": "ccc52a26d8c45965061e84cf72d15ae6e706da4865276535df35a1e8eca5253e",
+            "stage": "review",
+            "validation_error": "Duplicate or unknown parameter: new_card",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12352/turn_01/review_call_01.json",
+            "correction_sha256": "34b66937ea14b4952fc28d32f19bae609e6ea84d91e0f20577a7e730787cdff8",
+            "correction_valid": true,
+            "correction_count": 1
+          },
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12593/turn_01/review_call_00.json",
+            "initial_sha256": "7a694038897b17eca3936eed82347e7c0c31d94cd0c0665ed6feab5bc6ad0a1b",
+            "stage": "review",
+            "validation_error": "Duplicate or unknown parameter: requested_change",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12593/turn_01/review_call_01.json",
+            "correction_sha256": "a82308a2552e38aacbbfc4c5baca96674bce6eec7d011aa86775751899546a22",
+            "correction_valid": true,
+            "correction_count": 1
+          },
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12611/initial/observe_call_00.json",
+            "initial_sha256": "5a895f538be038bb0ed7b8d77b7d259be280b734785c8db6042426e59bf8418e",
+            "stage": "observe",
+            "validation_error": "arguments is missing required fields",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12611/initial/observe_call_01.json",
+            "correction_sha256": "f1c8617e6c87628f2798837f30198d0abf646a4e5e41fbeeb14ccce01e35a4b6",
+            "correction_valid": true,
+            "correction_count": 1
+          },
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12744/turn_01/review_call_00.json",
+            "initial_sha256": "e60b3597ff81579fe5d2da5951fc62235023b3f62ede599faa2b726817cfd7ab",
+            "stage": "review",
+            "validation_error": "Unexpected parameter text",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12744/turn_01/review_call_01.json",
+            "correction_sha256": "71be760c1072b81f14575f88d1fdf9735c210c89c2e0181806c056df5a338671",
+            "correction_valid": true,
+            "correction_count": 1
+          },
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12859/turn_01/review_call_00.json",
+            "initial_sha256": "6ee29c2b25e1799f802093f1e6a89ed65216ac5034b1ba8d59954841d5b2c561",
+            "stage": "review",
+            "validation_error": "Unexpected parameter text",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12859/turn_01/review_call_01.json",
+            "correction_sha256": "32bbfda038fcd180f8a99a3a4acee7a193ec1a5ae32539a69368235700428974",
+            "correction_valid": true,
+            "correction_count": 1
+          },
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12859/turn_03/review_call_00.json",
+            "initial_sha256": "39a8c3303256fd76a4e3d85ccd1b3ed01481c3befc41d06444b5942e45a5a3a4",
+            "stage": "review",
+            "validation_error": "Unexpected parameter text",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12859/turn_03/review_call_01.json",
+            "correction_sha256": "da9710d2df776c46c7a6e9a20cbc8e2c1c609289f1201b5f226cfa4a8ffe40a7",
+            "correction_valid": true,
+            "correction_count": 1
+          },
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12930/turn_02/review_call_00.json",
+            "initial_sha256": "40ec3f10300027231203fa99f8dbdf275fbec62c20f5940f0e819ea87d623161",
+            "stage": "review",
+            "validation_error": "Unexpected parameter text",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_12930/turn_02/review_call_01.json",
+            "correction_sha256": "9a199b517451b951c13a4d1950f3319cac319137ed375872e350fd656302fffa",
+            "correction_valid": true,
+            "correction_count": 1
+          },
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13071/turn_01/review_call_00.json",
+            "initial_sha256": "4d0368f7ef9150d91e0e01211150a1a896b37e995c49ceb70c4b4878fb459eab",
+            "stage": "review",
+            "validation_error": "Duplicate or unknown parameter: output_video_card",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13071/turn_01/review_call_01.json",
+            "correction_sha256": "c782ee7dc2a7410d47d81e5945a2f0da536008e6dd2ef6d42cdea0ac38bf2630",
+            "correction_valid": true,
+            "correction_count": 1
+          },
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13524/turn_05/review_call_00.json",
+            "initial_sha256": "18bb42eb14102b12b4317c1b95f83521c00eaa91d6c25a330541c09dd221bb76",
+            "stage": "review",
+            "validation_error": "Duplicate or unknown parameter: new_card",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13524/turn_05/review_call_01.json",
+            "correction_sha256": "af2e6a55a0ca5e7d7f0d280969bc762778e3b6e985d077f89583dee75fafda29",
+            "correction_valid": true,
+            "correction_count": 1
+          },
+          {
+            "initial_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13921/turn_03/review_call_00.json",
+            "initial_sha256": "4225e5ab7aeefd48ab22a4b2d7ff46902ebe8e5432d6f41ec75b3186fb657f67",
+            "stage": "review",
+            "validation_error": "Duplicate or unknown parameter: new_unintended_changes",
+            "correction_call": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13921/turn_03/review_call_01.json",
+            "correction_sha256": "5622674582d597552aad30fa4b73c78c761e40b67e121ca2141cd16371410d02",
+            "correction_valid": true,
+            "correction_count": 1
+          }
+        ],
+        "route_summary_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/formal_v1_closed_loop_100/route_summary.json",
+        "route_summary_sha256": "6830f96200db738f5344af5a865c292cfaefbe80849d77b29c67c2648af83931",
+        "planned_route_agreement": "424/425",
+        "mismatches": [
+          {
+            "chain_id": "test_chain_13582",
+            "turn_id": 5,
+            "kind": "normal_continue",
+            "expected": 4,
+            "predicted": 2,
+            "match": false
+          }
+        ],
+        "existing_13582_mismatch_unchanged": true,
+        "runtime_audit_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/formal_v1_closed_loop_100/runtime_audit.json",
+        "runtime_gate_at_snapshot": {
+          "completed_chains_checked": 70,
+          "success": true,
+          "all_requested_chains_completed": false,
+          "passed_for_all100": false
+        }
+      }
+    }
+  ]
+}

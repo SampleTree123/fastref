@@ -1,6 +1,0 @@
-{
-  "pid": 1530946,
-  "allocation": 191814,
-  "script": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/internal/training/camera_first_frame_768_20261104/finish_after_inference.py",
-  "release_only_after_camera_validation_and_submission": true
-}

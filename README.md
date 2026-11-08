@@ -1,24 +1,11 @@
 # fastref
 
-## 当前展示结果
+当前仅保留 **editing_agent_20261108**，Qwen＋LTX 多轮编辑结果。
 
-- [八组实验的26例完整对比](run_20261105_all_experiments_26/display/index.html)：208条输出，包含参考CFG对比；下载后打开 display/index.html。
+- [完整编辑链展示](editing_agent_20261108/formal_v1/closed_loop/report/index.html)：128条链、543轮编辑。
+- [最终报告](editing_agent_20261108/final_report.md)
+- [实验说明及过程记录](editing_agent_20261108/README.md)
 
-- [四个实验的26例完整对比](run_20261104_four_experiments_26/display/index.html)：最终四组推理已完成；下载后打开 display/index.html，preview 为较早的预览版。
+下载整个仓库后，打开 `editing_agent_20261108/formal_v1/closed_loop/report/index.html`。视频、图片均为实际文件，已校验副本及网页媒体引用。结果页面中的模型判断不等同于人工质量评价。
 
-- [10个正面近景的 VAE 还原检查](run_20261103_front_closeup10/display/index.html)：原始视频、训练尺寸输入与VAE还原对比，附无损截图；下载后打开 display/index.html。
-
-- [新26例 step512 对比](run_20261103_diverse26_step512/display/index.html)：21个合成案例、5个真实案例，两组模型共52条输出；下载后打开 display/index.html。
-
-- [step150／450 检查点四列对比](run_20261103_step450/display/index.html)：原部件多图、套装正背两种方案的第150与450步结果；下载后打开 display/index.html。
-
-- [两组 step150 检查点推理对比](run_20261103_step150/display/index.html)：原部件多图与套装正背分开两组，各16例；下载后打开 display/index.html。
-
-- [step682 推理引导对比](inference_guidance_20261102/index.html)：下载后打开该目录的 index.html 查看，视频已随页面保存。
-
-完整目录：[quality_checks](quality_checks/)。媒体已复制为真实文件，下载仓库后可在本地打开页面。
-
-- [mixed6_shared_canvas_v3](quality_checks/mixed6_shared_canvas_v3/index.html)：当前训练对比页面，包含 base、step50、step256 和 final（step682）。
-- [mixed_v1](quality_checks/mixed_v1/index.html)：旧版展示页面，按服务器当前内容同步，未补造缺失结果。
-
-原根目录 mixed6_shared_canvas_v3 保留为此前上传的历史版本；最新结果请使用 quality_checks 下的页面。
+旧展示目录已从当前版本移除；历史提交保留。

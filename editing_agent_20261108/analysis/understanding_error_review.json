@@ -1,0 +1,3569 @@
+{
+  "reviewed_at": "2026-11-08T03:44:14+08:00",
+  "scope": "All16 final source-ID mismatches; frozen public/answer labels and actual histories, decisions, inspections. Read-only posthoc review, no tuning.",
+  "sources": {
+    "public": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/frozen_sources/qwen3.8/datasets/editing_agent_v1/understanding_test.jsonl",
+    "public_sha256": "6826427a92827d90db80fbdc74bdc7b7369fcb26e8a4391ff20a6b0e87c5e046",
+    "private_labels": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/frozen_sources/qwen3.8/datasets/editing_agent_v1/private/understanding_test_labels.jsonl",
+    "private_sha256": "1fdfe2c85abb4b5c72f7043f770c6ed0acb2145fb593e1bbe3588c8cb029b581",
+    "result_summary": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/report/summary.json",
+    "result_summary_sha256": "92deb8408dd4d9d27482fbee5c6381ce6054644f3b840965923611adfbfdcbac"
+  },
+  "formal_summary": {
+    "expected_cases": 1000,
+    "cases_ok": 1000,
+    "cases_error": 0,
+    "cases_pending": 0,
+    "route_correct": 984,
+    "route_attempted": 1000,
+    "route_total_expected": 1000,
+    "format_calls": 3040,
+    "format_invalid_calls": 8,
+    "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+    "groups": {
+      "explicit_latest": {
+        "total": 42,
+        "attempted": 42,
+        "correct": 42
+      },
+      "content_description_match": {
+        "total": 500,
+        "attempted": 500,
+        "correct": 484
+      },
+      "event_after": {
+        "total": 150,
+        "attempted": 150,
+        "correct": 150
+      },
+      "event_before": {
+        "total": 150,
+        "attempted": 150,
+        "correct": 150
+      },
+      "normal_continue": {
+        "total": 42,
+        "attempted": 42,
+        "correct": 42
+      },
+      "explicit_id": {
+        "total": 116,
+        "attempted": 116,
+        "correct": 116
+      }
+    },
+    "accuracy_over_all_expected": 0.984,
+    "agreement_over_attempted": 0.984,
+    "all_cases_finished": true,
+    "all_cases_succeeded": true,
+    "route_metric": "source_id_accuracy"
+  },
+  "error_summary": {
+    "mismatches": 16,
+    "by_selection_axis": {
+      "camera": {
+        "total": 250,
+        "errors": 11,
+        "correct": 239
+      },
+      "hair_color": {
+        "total": 250,
+        "errors": 5,
+        "correct": 245
+      }
+    },
+    "inspected_errors": 7,
+    "not_inspected_errors": 9,
+    "invalid_selection_calls_in_mismatch_cases": 0,
+    "pattern_counts": {
+      "camera_direction_summary_loss": 3,
+      "hair_color_not_reliably_visible_in_cards": 5,
+      "camera_direction_cue_available_but_not_selected": 2,
+      "camera_description_multiple_plausible_matches": 2,
+      "camera_motion_summary_loss": 4
+    }
+  },
+  "frame_review_protocol": {
+    "deterministic_choice": "Lexicographically first example of each of the five observed failure-pattern groups; also reference shared candidate-video pair for0000719.",
+    "samples": [
+      "selection_v3_test_0000628",
+      "selection_v3_test_0000678",
+      "selection_v3_test_0000715",
+      "selection_v3_test_0001161",
+      "selection_v3_test_0001560"
+    ],
+    "videos_per_case": "expected and predicted",
+    "timestamps_seconds": [
+      1,
+      8
+    ],
+    "display_resize": "ffmpeg width960 preserving aspect, no color or exposure changes",
+    "limitations": "Two frames per candidate are not full motion analysis. Five representative questions were selected; one additional question shares the same reviewed candidate pair. Remaining ten questions lack manual frame review."
+  },
+  "cases": [
+    {
+      "sample_id": "selection_v3_test_0000628",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_613.png",
+            "reference_id": "ref_1",
+            "type": "outfit",
+            "view": "front"
+          },
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_614.png",
+            "reference_id": "ref_2",
+            "type": "outfit",
+            "view": "back"
+          }
+        ],
+        "turn_id": 3,
+        "user_prompt": "Choose the history video captured with a static rear full-body shot, and use that version as the baseline. Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          27065,
+          27066
+        ],
+        "component_id": 6099,
+        "current_edge_id": 27069,
+        "current_edit_axis": "wardrobe",
+        "current_source_node_id": 6100,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6100,
+          6099,
+          6102
+        ],
+        "history_recomposed": true,
+        "history_topology": "fork",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "3fc3e1090402ea0aa41245aec5d98771fe6bb23afd4457d382981e86872118a2",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0000628",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6108,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6108.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6100.mp4",
+          "observed": {
+            "identity": "A male-presenting 3D-rendered figure with a stocky build, seen from behind with his face never visible.",
+            "hairstyle": "Short, closely cropped hair.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A tan plaid two-piece suit with a jacket and matching trousers, plus dark shoes.",
+            "action": "The figure stands in the center of an open plaza, shifting his weight and turning his upper body slightly from side to side while his arms bend at the elbows.",
+            "camera": "Static medium-long shot from behind the figure at roughly waist height, keeping him centered in frame.",
+            "scene": "A stylized futuristic city plaza with a wet reflective ground, glowing red and cyan light strips, and tall buildings with blue and pink-lit windows in the background."
+          },
+          "uncertain": [
+            "The figure's face and exact identity are not visible, so facial features are unclear."
+          ],
+          "observation_identity": "1db70c7fd422c3e3ce01fa2763ccd498c4110dd365c0b23feb249811f619a3fb"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_814a2abf9eda95b8bc433bc6c33af5d340420bfc996295e061a1c5772ad76a62.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body shot from a rear three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6099.mp4",
+          "observed": {
+            "identity": "A male-presenting 3D-rendered character with a slim build, seen mostly from behind.",
+            "hairstyle": "Short, neatly trimmed hair.",
+            "hair_color": "Dark brown.",
+            "clothing": "A tan plaid two-piece suit with a white shirt and dark shoes.",
+            "action": "The character stands in an open plaza, shifting his weight, turning slightly, and raising his hands to his chest before lowering them again.",
+            "camera": "A static, low-angle full-body shot from behind the character.",
+            "scene": "A futuristic outdoor plaza with a glossy reflective floor, a large domed building with glowing teal rings on the left, and a white building with blue-lit windows on the right."
+          },
+          "uncertain": [],
+          "observation_identity": "957ffa4ef7179e5060d10380afedc4a558dde45f212501d573197e63b246f1f9"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_5020d22fd49e9be6d848e10676befa19e661d9cb1e357f438efe249188613f63.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 2,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6102.mp4",
+          "observed": {
+            "identity": "A Black man with a short beard and mustache, shown from the thighs up.",
+            "hairstyle": "Short, dark hair swept upward and back into a small pompadour.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A red-and-black plaid three-piece suit with a matching vest, a white dress shirt, and a black necktie.",
+            "action": "He stands facing the camera, then turns his head and body to the side while raising one hand to adjust his tie, and finally returns to face forward with his arms crossed.",
+            "camera": "A static, medium shot at roughly chest height, keeping the man centered in frame.",
+            "scene": "A futuristic city plaza with a wet, reflective ground, a large glass building behind him displaying a glowing teal ring, and pink and blue neon lighting."
+          },
+          "uncertain": [],
+          "observation_identity": "7963cfd5d466c91abfecc74cf46490562fd03a513ad3bb4ad2db6ea68e11edf8"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [],
+        "prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+        "reference_ids": [
+          "ref_1",
+          "ref_2"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 1,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0000628/decision/select_call_00.json",
+          "sha256": "7be952901a3f04068393774123b7f943841312593b0ab01420c735b1db255424",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_direction_summary_loss",
+        "evidence_note_zh": "卡0写behind但称medium-long；卡1也写behind且称full-body，遗漏后侧角度。历史编辑文字明说1是rear three-quarter，仍选1，可能同时涉及卡片概括和线索取舍。",
+        "visual_review_note_zh": "已看帧：0为正背面，1为后侧面；题面正背全身更支持0。",
+        "frame_review_performed": true,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000628_video0_1s.png",
+          "sha256": "f65e629f6b9e7396e11921b62646c63c7e03ebb0ce8ba04ef2c0c38117adcf6f"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000628_video0_8s.png",
+          "sha256": "ce0dd39540bff8fb7305e299d374caf387ba00d79718bf6e0f868019b6ab6e9c"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000628_video1_1s.png",
+          "sha256": "e2735d7c3cbbd1b3a73067b3f5f7c50776e2f5e81846693036ba3b51dd4c3e73"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000628_video1_8s.png",
+          "sha256": "0c61098d9d772b5dac052309bd797b92bb055837629512f9a052b650cceb8f94"
+        }
+      ],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0000628/worker_result.json",
+      "worker_result_sha256": "66fe67a1e5bf7a2c8dcf3aa04a68cf39c48b7b4da8e65c632c1fb35a4258dbb9"
+    },
+    {
+      "sample_id": "selection_v3_test_0000678",
+      "selection_axis": "hair_color",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_644.mp4",
+            "reference_id": "ref_1",
+            "type": "motion",
+            "view": ""
+          }
+        ],
+        "turn_id": 2,
+        "user_prompt": "Choose the history video where the person has pink hair, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to change the person's action so that they stand in a thoughtful pose, as shown in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          27126
+        ],
+        "component_id": 6099,
+        "current_edge_id": 27123,
+        "current_edit_axis": "action",
+        "current_source_node_id": 6110,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they stand in a thoughtful pose, as shown in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6110,
+          6123
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "4169fef94cf772372aeff170495ecfe35a2461d13d0f274f620bca69769db082",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0000678",
+        "selection_axis": "hair_color",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6102,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6102.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6110.mp4",
+          "observed": {
+            "identity": "A Black man with a short beard and mustache stands facing the camera.",
+            "hairstyle": "Short, dark hair styled upward and swept back.",
+            "hair_color": "Black.",
+            "clothing": "He wears a red-and-black plaid three-piece suit with a matching vest, a white dress shirt, and a black necktie.",
+            "action": "He stands mostly still, then briefly raises his right hand to adjust his tie and collar before lowering it and standing upright again.",
+            "camera": "A static, eye-level medium shot frames him from the thighs up, centered in the frame.",
+            "scene": "He stands on a wet, reflective pavement in front of a large glass building with a glowing teal circular neon sign and pink ambient lighting; a city skyline is visible in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "8fefbe6a81d3e9767f47423fd49e9c73998cc196520525830d33d2d733450eee"
+        },
+        {
+          "parent_id": 0,
+          "references": [],
+          "user_prompt": "Using the provided source video, apply the following edit: Let's change the person's hair color to black.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6123.mp4",
+          "observed": {
+            "identity": "A Black man with a short beard and mustache, shown from the thighs up.",
+            "hairstyle": "Short, dark, spiky hair.",
+            "hair_color": "Black.",
+            "clothing": "A red-and-black plaid three-piece suit with a matching vest, a white dress shirt, and a black necktie.",
+            "action": "He stands facing the camera, then briefly turns his head and body to the side while raising his right hand to adjust his tie and collar before returning to face forward.",
+            "camera": "A static, eye-level medium shot that keeps the man centered in the frame.",
+            "scene": "A futuristic city plaza with a wet, reflective ground, a large glass building behind him displaying a glowing teal circular ring, and pink and blue neon lighting."
+          },
+          "uncertain": [],
+          "observation_identity": "c7937bb4c747303cbd4b21e808838109ab13b228329e5c84584150407af29b20"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [
+          0,
+          1
+        ],
+        "prompt": "Change the person's action so that they stand in a thoughtful pose, as demonstrated in the motion reference. Transfer only the demonstrated action from the reference; do not adopt the reference person's appearance, the reference scene, or the reference camera setup. Preserve all other aspects of the current video, including the person's appearance, the scene, and the camera framing.",
+        "reference_ids": [
+          "ref_1"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 2,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [
+        0,
+        1
+      ],
+      "inspected_expected_video": true,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0000678/decision/select_call_00.json",
+          "sha256": "ff50244e6f5deb25f3db0906e1f3f20db9142e844ed9d61bd8d442fc81e3d0c9",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=inspect_history>\n<parameter=video_ids>\n[0, 1]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "video_ids": [
+                0,
+                1
+              ]
+            },
+            "name": "inspect_history"
+          },
+          "media": [],
+          "validation_error": null
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0000678/decision/select_call_01.json",
+          "sha256": "73ee12b7e08834e5b3fb9db93de2c2d44db8e367d5f818d4d04195a34dc6775f",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [
+            {
+              "cache_key": "44441181cd20d05c08404563a461a0c832802a505042572adcfbe7b66c925717",
+              "content_sha256": "044522ebce8b77f3ced5ff3d0c49ac40add7d849e190ab4152d1a28c543e053f",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1080,
+                1920
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                384,
+                672
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            },
+            {
+              "cache_key": "957f239f0eff22f92394c9ef9227fbd22b8b50c965d7987053653886648400f1",
+              "content_sha256": "caf7db46ba3518815159b1466ac7f32c75d1134fe2d1681d4fa5fe7535e3f812",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1080,
+                1920
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                384,
+                672
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            }
+          ],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "hair_color_not_reliably_visible_in_cards",
+        "evidence_note_zh": "要求pink，卡0和1都写Black。回看0/1后仍选1；历史文字说1改成black，模型并未据此选0。",
+        "visual_review_note_zh": "已看帧：0发顶有暗红粉色反光，1接近黑色；强红霓虹光下0不是醒目的粉发，区分较弱。",
+        "frame_review_performed": true,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000678_video0_1s.png",
+          "sha256": "a07644407bafc649931cade8c125afccd80da64c636b0a5a035032112164055c"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000678_video0_8s.png",
+          "sha256": "c65cab55b24a1b565f498d11d7e347ab85bdc4c99b0051d4acb81ff8dea0909d"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000678_video1_1s.png",
+          "sha256": "10a6c712e328a3c94e1ad3790772e28f17c5f5444deae61833ae311cd5f8946a"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000678_video1_8s.png",
+          "sha256": "0cbc33d2e83ec3a52582d3832843e583d578d62d5591d234d2b9291fa4fb09d6"
+        }
+      ],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0000678/worker_result.json",
+      "worker_result_sha256": "1cc1806e9fecc1a97452ad111194f46fe774be5a8532d8845ae96cc4bd892bb2"
+    },
+    {
+      "sample_id": "selection_v3_test_0000715",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+            "reference_id": "ref_1",
+            "type": "hair",
+            "view": "front"
+          },
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+            "reference_id": "ref_2",
+            "type": "hair",
+            "view": "back"
+          }
+        ],
+        "turn_id": 2,
+        "user_prompt": "Choose the history video captured with a static rear three-quarter full-body shot, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          27166
+        ],
+        "component_id": 6099,
+        "current_edge_id": 27170,
+        "current_edit_axis": "hair",
+        "current_source_node_id": 6116,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6116,
+          6118
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "8040bea21748455d73bf9aa8b0753e1f4fd90a7af8d4325bd882a3a63fe117a3",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0000715",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6137,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6137.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6116.mp4",
+          "observed": {
+            "identity": "A 3D-rendered male character with a slim build, seen from behind and in profile.",
+            "hairstyle": "Short, neatly trimmed hair.",
+            "hair_color": "Dark brown.",
+            "clothing": "White short-sleeved button-up shirt, black suspenders, black-and-white checkered trousers, and black shoes.",
+            "action": "The character stands still, then walks slowly forward and slightly to the right across the open plaza.",
+            "camera": "A static, medium-long shot from behind and to the left of the character, keeping him centered in the frame.",
+            "scene": "A futuristic outdoor plaza with a glossy, reflective concrete floor, a large domed building with glowing teal rings on the left, and a tall white building with blue-lit windows on the right."
+          },
+          "uncertain": [],
+          "observation_identity": "90b7db30764680e88dec36764db29408bcb73fe999757b0abc8166c14f3a05bc"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_1bcdafdd7596ef2b1ea17383c1b3698ad4decbc00d0df3a237202eb81139404e.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6118.mp4",
+          "observed": {
+            "identity": "A person with a medium build and brown skin is shown from behind, with their face not visible.",
+            "hairstyle": "The person has short, dark hair.",
+            "hair_color": "Dark brown or black.",
+            "clothing": "They wear a white short-sleeved shirt with a faint pattern, black Y-back suspenders, and black-and-white checkered trousers with dark shoes.",
+            "action": "The person stands still at first, then walks slowly forward away from the camera across the open plaza.",
+            "camera": "A static, eye-level full-body shot from behind the subject.",
+            "scene": "A futuristic city plaza with a glossy reflective floor, glowing red and cyan light strips, and tall modern buildings under a pale sky."
+          },
+          "uncertain": [
+            "The person's face and exact identity are not visible since they are shown from behind."
+          ],
+          "observation_identity": "33aac0394b914e05cd8dbaca9578a741d307cf194a5cb3c3646e69a9f00f0487"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [],
+        "prompt": "Change the person's hairstyle to the one shown in the reference images, using the front and back reference views to match the hairstyle shape accurately. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+        "reference_ids": [
+          "ref_1",
+          "ref_2"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 1,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0000715/decision/select_call_00.json",
+          "sha256": "4908509dd4e38ff35409159c69f30fdc05427507315b5e475c25edf448a6dcd7",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_direction_cue_available_but_not_selected",
+        "evidence_note_zh": "卡0已有behind and to the left，卡1只有behind；题目要求rear three-quarter，却选1，且未回看。卡片用medium-long/full-body不同措辞可能干扰；不能从仅工具输出还原内部原因。",
+        "visual_review_note_zh": "已看1/8秒帧：0为后侧全身，1为正背全身，视觉更支持标签0。卡0也写behind and to the left，属于已有可区分线索却未正确选取的较强例子；没有模型推理文本，不能确定内部原因。",
+        "frame_review_performed": true,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000715_video0_1s.png",
+          "sha256": "c858247fc2b3147a8a6bc2b4dfe3256376843eee3bb459b0be1dca3dff49a3d9"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000715_video0_8s.png",
+          "sha256": "e071f0ca6e069a1fa93d5fc1b1880e0a83ccf6b0aee0177e99c01a5fe6f90baa"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000715_video1_1s.png",
+          "sha256": "2014824dcc69922de82d93770c4abf4a169a5a4d313dd42c89733ffd6a7168a5"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000715_video1_8s.png",
+          "sha256": "b4d4daf1d0341f091e12dc508fccfe45e2ccbaa15a924646eaa988e015b417e7"
+        }
+      ],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0000715/worker_result.json",
+      "worker_result_sha256": "576b2a2ae0e773abcf783fbeb6a0d3b4699a06026829bc47e4db3bc77d223f6b"
+    },
+    {
+      "sample_id": "selection_v3_test_0000719",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [],
+        "turn_id": 3,
+        "user_prompt": "Choose the history video captured with a static rear three-quarter full-body shot, and use that version as the baseline. Using the provided source video, apply the following edit: Please recolor the person's hair black."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          27166,
+          27167
+        ],
+        "component_id": 6099,
+        "current_edge_id": 27169,
+        "current_edit_axis": "hair_color",
+        "current_source_node_id": 6116,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair black.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6116,
+          6118,
+          6132
+        ],
+        "history_recomposed": true,
+        "history_topology": "fork",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "530a5d59b779395ff0e1faf8c2e76d8568877fd2c94bbfb1f30031221aab97cf",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0000719",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6136,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6136.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6116.mp4",
+          "observed": {
+            "identity": "A 3D-rendered male character with a slim build, seen from behind and in profile.",
+            "hairstyle": "Short, neatly trimmed hair.",
+            "hair_color": "Dark brown.",
+            "clothing": "White short-sleeved button-up shirt, black suspenders, black-and-white checkered trousers, and black shoes.",
+            "action": "The character stands still, then walks slowly forward and slightly to the right across the open plaza.",
+            "camera": "A static, medium-long shot from behind and to the left of the character, keeping him centered in the frame.",
+            "scene": "A futuristic outdoor plaza with a glossy, reflective concrete floor, a large domed building with glowing teal rings on the left, and a tall white building with blue-lit windows on the right."
+          },
+          "uncertain": [],
+          "observation_identity": "90b7db30764680e88dec36764db29408bcb73fe999757b0abc8166c14f3a05bc"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_1bcdafdd7596ef2b1ea17383c1b3698ad4decbc00d0df3a237202eb81139404e.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6118.mp4",
+          "observed": {
+            "identity": "A person with a medium build and brown skin is shown from behind, with their face not visible.",
+            "hairstyle": "The person has short, dark hair.",
+            "hair_color": "Dark brown or black.",
+            "clothing": "They wear a white short-sleeved shirt with a faint pattern, black Y-back suspenders, and black-and-white checkered trousers with dark shoes.",
+            "action": "The person stands still at first, then walks slowly forward away from the camera across the open plaza.",
+            "camera": "A static, eye-level full-body shot from behind the subject.",
+            "scene": "A futuristic city plaza with a glossy reflective floor, glowing red and cyan light strips, and tall modern buildings under a pale sky."
+          },
+          "uncertain": [
+            "The person's face and exact identity are not visible since they are shown from behind."
+          ],
+          "observation_identity": "33aac0394b914e05cd8dbaca9578a741d307cf194a5cb3c3646e69a9f00f0487"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_42a7fbeefd34210ef5f6d00654ac4795c9334508fdf5c79e0863f3a20d71600b.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 2,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6132.mp4",
+          "observed": {
+            "identity": "A young Black man with a slim build and short facial stubble stands facing the camera.",
+            "hairstyle": "Short, dark hair with a slightly textured top and faded sides.",
+            "hair_color": "Black.",
+            "clothing": "He wears a white and pink plaid button-up shirt with rolled sleeves, black suspenders, a black bow tie, and matching plaid trousers with a black belt.",
+            "action": "The man stands mostly still, shifting his weight slightly and turning his head to look off to his left near the end of the clip.",
+            "camera": "A medium shot at eye level slowly pulls back, widening the view of the surrounding plaza.",
+            "scene": "A futuristic city plaza with a large glass building behind him displaying a glowing teal circular hologram, pink neon lighting, and tall skyscrapers in the distance."
+          },
+          "uncertain": [],
+          "observation_identity": "48b7802fcc32d9530967c6fcba4ef7240ba8ecc696fed2e6f23c8b14c580c61f"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [],
+        "prompt": "Recolor the person's hair black. Preserve the existing static rear three-quarter full-body framing, the person's identity, body, clothing, motion, scene, lighting, and all other visual details unchanged.",
+        "reference_ids": [],
+        "selection_corrections": 0,
+        "selection_model_calls": 1,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0000719/decision/select_call_00.json",
+          "sha256": "1fae3597566e4ca2e02e24f543e18f608732bf92cd191a63282ff1df1cf0b8ae",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_direction_cue_available_but_not_selected",
+        "evidence_note_zh": "与0715共享0/1两视频，另有第2个正面近景版本。卡0已有后侧方向，仍选1，未回看。",
+        "visual_review_note_zh": "与0715的0/1视频完全相同，复用同一组已看帧：后侧0与正背1可区分。此题额外候选2未看帧。",
+        "frame_review_performed": true,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause",
+        "frame_evidence_shared_with": "selection_v3_test_0000715"
+      },
+      "frame_evidence": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000715_video0_1s.png",
+          "sha256": "c858247fc2b3147a8a6bc2b4dfe3256376843eee3bb459b0be1dca3dff49a3d9"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000715_video0_8s.png",
+          "sha256": "e071f0ca6e069a1fa93d5fc1b1880e0a83ccf6b0aee0177e99c01a5fe6f90baa"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000715_video1_1s.png",
+          "sha256": "2014824dcc69922de82d93770c4abf4a169a5a4d313dd42c89733ffd6a7168a5"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0000715_video1_8s.png",
+          "sha256": "b4d4daf1d0341f091e12dc508fccfe45e2ccbaa15a924646eaa988e015b417e7"
+        }
+      ],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0000719/worker_result.json",
+      "worker_result_sha256": "ac02fc3bcab32ec6bb6859afde95cda1d2c202205f36898eecd0b3ccb3dbc2bd"
+    },
+    {
+      "sample_id": "selection_v3_test_0001161",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 2,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_721.png",
+            "reference_id": "ref_1",
+            "type": "outfit",
+            "view": "front"
+          },
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_722.png",
+            "reference_id": "ref_2",
+            "type": "outfit",
+            "view": "back"
+          }
+        ],
+        "turn_id": 5,
+        "user_prompt": "Choose the history video captured with a low-angle full-body shot, and use that version as the baseline. Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the top, the skirt, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          27489,
+          27503,
+          27564,
+          27562
+        ],
+        "component_id": 6189,
+        "current_edge_id": 27497,
+        "current_edit_axis": "wardrobe",
+        "current_source_node_id": 6189,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the top, the skirt, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6189,
+          6190,
+          6202,
+          6215,
+          6201
+        ],
+        "history_recomposed": false,
+        "history_topology": "fork",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "2edd0997b757cc5f707a31a88d6092c3f87768fd24d7a401a4961f848aa963c1",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0001161",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6198,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6198.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6189.mp4",
+          "observed": {
+            "identity": "A slender young woman with a fair complexion and a small mole on her left cheek.",
+            "hairstyle": "Her hair is styled in a high bun with straight bangs across her forehead.",
+            "hair_color": "Bright yellow-blonde.",
+            "clothing": "She wears a short black dress with a white lace-up bodice, black puffy sleeves, and light blue sneakers.",
+            "action": "The woman stands in the middle of a road, then raises her arms overhead and performs a short dance sequence before returning to a standing pose.",
+            "camera": "The camera remains static in a medium-long shot, capturing the subject from head to toe at a slight low angle.",
+            "scene": "The setting is an outdoor paved road under a concrete overpass, with construction barriers, traffic signs, and green trees visible in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "39fa6aa25485e31522a8ad317de9942b617a738e10ae9230866cdca1194b6283"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_a9c1e4a97084e63ffcc51f736bd4278a73cd1d36621762b12b93c72fadd741ca.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body orbit shot that starts in front and moves through a side view toward the rear over a 120-degree arc. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6190.mp4",
+          "observed": {
+            "identity": "A slender young woman with a dark complexion and a slim build.",
+            "hairstyle": "Bright yellow hair styled in two high buns on top of her head.",
+            "hair_color": "Bright yellow.",
+            "clothing": "A short, black and white dress with a lace-up bodice, puffed sleeves, and a white panel on the side, paired with light blue sneakers.",
+            "action": "The woman stands in the middle of the road, then raises her arms and begins to dance, turning her body and moving her arms in a fluid motion before stopping and standing still.",
+            "camera": "A full-body shot from a low angle, with the camera slowly panning to the right to follow the woman's movement.",
+            "scene": "An empty asphalt road under a concrete overpass, with construction barriers, metal guardrails, and trees with yellowing leaves in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "dc4d98246dfc08f0e243fa87eb59e9468304d2cd5ffe0a0440b96395972e60e0"
+        },
+        {
+          "parent_id": 1,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_721.png",
+              "reference_id": "ref_1",
+              "type": "outfit",
+              "view": "front"
+            },
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_722.png",
+              "reference_id": "ref_2",
+              "type": "outfit",
+              "view": "back"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the top, the skirt, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+          "video_id": 2,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6202.mp4",
+          "observed": {
+            "identity": "A young woman with a slim build and light skin, shown in full body.",
+            "hairstyle": "Blonde hair styled in two high space buns.",
+            "hair_color": "Bright blonde.",
+            "clothing": "She wears a long-sleeved hot pink top, a light pink pleated mini skirt, and black lace-up boots.",
+            "action": "She begins standing facing the camera, then turns and performs a slow dance, raising her arms overhead and extending one arm to the side before standing still in profile.",
+            "camera": "Full-body shot at a low angle; the camera pans right to follow her as she turns and moves across the road.",
+            "scene": "An empty paved road under a concrete overpass, with metal guardrails, orange construction signs, street lamps, and trees on a rocky hillside in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "4d317915d12b2eea7cc927463d9e274e69213b4e346d154aca0113fa89587fae"
+        },
+        {
+          "parent_id": 2,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_564.mp4",
+              "reference_id": "ref_1",
+              "type": "motion",
+              "view": ""
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they pose for a photo, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+          "video_id": 3,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6215.mp4",
+          "observed": {
+            "identity": "A slender young woman with a slim build, shown mostly from the side and back; her face is not clearly visible.",
+            "hairstyle": "Blonde hair pulled up into a high bun with a small yellow hair accessory.",
+            "hair_color": "Bright blonde.",
+            "clothing": "She wears a long-sleeved coral-pink top, a matching pleated mini skirt, and black lace-up ankle boots.",
+            "action": "She stands on the road, then slowly turns and walks in a circle while raising one hand to touch her hair and keeping the other hand on her hip.",
+            "camera": "A low, full-body shot that slowly orbits around her, keeping her centered as the background shifts.",
+            "scene": "An empty multi-lane asphalt road beneath a concrete overpass, with metal guardrails, orange-and-white roadwork signs, street lamps, and trees on a hillside in the background."
+          },
+          "uncertain": [
+            "The woman's face and facial features are not clearly visible, so identity details are limited to body shape.",
+            "The image appears to be 3D computer-generated rather than live-action footage."
+          ],
+          "observation_identity": "be5d59dc13ae1d3a053f10001cd940b30866e4120c9acd3613c8e57688f51db3"
+        },
+        {
+          "parent_id": 2,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_455.png",
+              "reference_id": "ref_1",
+              "type": "garment",
+              "view": "front"
+            },
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_555.png",
+              "reference_id": "ref_2",
+              "type": "garment",
+              "view": "back"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's top with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+          "video_id": 4,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6201.mp4",
+          "observed": {
+            "identity": "A slender young woman with a fair complexion and a slim build.",
+            "hairstyle": "Her hair is styled in two high buns on top of her head.",
+            "hair_color": "Bright blonde.",
+            "clothing": "She wears a bright pink long-sleeved dress with a flared skirt and a matching belt, paired with black lace-up boots.",
+            "action": "The woman stands in the middle of the road, then raises her arms and begins to dance, spinning and moving her arms in a fluid motion.",
+            "camera": "The camera is at a low angle, capturing a full-body shot of the woman as she moves, with a slight panning motion to follow her.",
+            "scene": "The setting is an empty asphalt road under a concrete overpass, with construction barriers, streetlights, and trees visible in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "e1f5717040dac0e82ee1fb721d8ba2204ec77a17773a4a63b52310070d60a4c5"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [
+          1,
+          2,
+          3
+        ],
+        "prompt": "Replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the top, the skirt, and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+        "reference_ids": [
+          "ref_1",
+          "ref_2"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 2,
+        "source_video_id": 2
+      },
+      "inspected_video_ids": [
+        1,
+        2,
+        3
+      ],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001161/decision/select_call_00.json",
+          "sha256": "e3144ca1b1ad3e0cd820f8da0f8d48ecf15fa2be557d700d35fc1e3d2e2ee668",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=inspect_history>\n<parameter=video_ids>\n[1, 2, 3]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "video_ids": [
+                1,
+                2,
+                3
+              ]
+            },
+            "name": "inspect_history"
+          },
+          "media": [],
+          "validation_error": null
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001161/decision/select_call_01.json",
+          "sha256": "8b3c27d95b38975622c62478c460cc2eb24c22a2e988b0daf93d5f3a82885153",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n2\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 2
+            },
+            "name": "select_source_video"
+          },
+          "media": [
+            {
+              "cache_key": "4cdf066fc9ac93acf39e26a6d48cd6d40bb0af7f6cdfe69eb658d59c9488911e",
+              "content_sha256": "54e6765b35e790fad06c20d2dcdbd920cfd0915a7edba79d0841723cc076efab",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1080,
+                1920
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                384,
+                672
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            },
+            {
+              "cache_key": "2e4a664265919e7bc3368433a45bf3ce19c5884ea9b59652b68272857ff8f75a",
+              "content_sha256": "7e863112708c838a57ea3839cd5209848ffb378bb4c74e06830c873a9f70ce6c",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1080,
+                1920
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                384,
+                672
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            },
+            {
+              "cache_key": "6817068cea47b35d6bcf8da554aaeee2f10e4617abc11af1bd6145abf363f2de",
+              "content_sha256": "0ee510a43473ed9aaa95aebb76333ddbe75f2ea74a443b70736bb97069efc1eb",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1080,
+                1920
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                384,
+                672
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            }
+          ],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_description_multiple_plausible_matches",
+        "evidence_note_zh": "要求low-angle full-body。所有候选卡都含低角度全身，区别主要在静止/移动。回看[1,2,3]，未回看标签0，最后选2。",
+        "visual_review_note_zh": "已看帧：0为基本固定低角度全身，2也有低角度全身但取景随时间改变。题面没写static，不能仅按镜头预设类别排除2。",
+        "frame_review_performed": true,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0001161_video0_1s.png",
+          "sha256": "e6a9e89ae7576cb458907eed84cd3988e09e39f5a2c972d1c2f17ada877c862f"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0001161_video0_8s.png",
+          "sha256": "a19cc0b4861d9a06607b6b87471a7785134e6fcc207e2d8f744e0585e914d81e"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0001161_video2_1s.png",
+          "sha256": "c9ae0758fcccf6cfeb04591ab745bf01e0c5b956b7ea3063f0b2e41cc3f4b732"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0001161_video2_8s.png",
+          "sha256": "0b5cc7f995cd97a40ef4e637f3ca35eebfcf24b86880ea11c602cd2127f11962"
+        }
+      ],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001161/worker_result.json",
+      "worker_result_sha256": "d684b7cdf9e6eb42a58ff3999e7ffe3150cddece7dc298c4234ccb629f18180c"
+    },
+    {
+      "sample_id": "selection_v3_test_0001560",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_91.png",
+            "reference_id": "ref_1",
+            "type": "garment",
+            "view": "front"
+          },
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_33.png",
+            "reference_id": "ref_2",
+            "type": "garment",
+            "view": "back"
+          }
+        ],
+        "turn_id": 2,
+        "user_prompt": "Choose the history video captured with a rear dolly-out shot moving from upper-body to full-body framing, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to replace the person's top with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          28907
+        ],
+        "component_id": 6301,
+        "current_edge_id": 28906,
+        "current_edit_axis": "wardrobe",
+        "current_source_node_id": 6310,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's top with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6310,
+          6307
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "a78d0e935d71788c288445c2b5a5f92da37cec636f50c7df26729026653ce2cd",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0001560",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6302,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6302.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6310.mp4",
+          "observed": {
+            "identity": "A 3D-rendered male character with a slim build, seen from behind.",
+            "hairstyle": "Short hair with a small top-knot or bun at the crown.",
+            "hair_color": "Bright blue.",
+            "clothing": "A yellow long-sleeved shirt with a white paisley-like pattern and brown plaid trousers.",
+            "action": "The character stands in the middle of the street, then begins to walk forward, swinging his arms.",
+            "camera": "A static, eye-level shot from directly behind the character.",
+            "scene": "A cobblestone street in a European-style town with brick buildings, shop awnings, street lamps, and a Union Jack flag hanging in the distance."
+          },
+          "uncertain": [],
+          "observation_identity": "dd5f0ac290dc1b72c3adb1875542d078004a1a1d8753b483b06eac16707036d1"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_20d69785e987c043449b45f39762d054608e16083cd1e5c2b2fd51d2bad12889.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a side-view dolly-out shot that moves from upper-body to full-body framing. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6307.mp4",
+          "observed": {
+            "identity": "A Black man with a slim build, shown in profile and then from the front.",
+            "hairstyle": "Short hair with a small top-knot bun on the crown of the head.",
+            "hair_color": "Bright blue.",
+            "clothing": "A yellow long-sleeved shirt with a white floral pattern, brown plaid trousers, and dark shoes.",
+            "action": "He stands on a cobblestone street, then bends forward, raises his arm, and coughs into his sleeve before straightening up again.",
+            "camera": "A static medium-full shot at eye level, framing the man from head to toe against the storefront.",
+            "scene": "An old-style street with a stone building facade, red-curtained windows, and painted signs reading 'SOAP' and 'COCOA POWDER FROM THE COLONIES'."
+          },
+          "uncertain": [],
+          "observation_identity": "101ff6c5eb44aa6236def234106cbdf029ef4bfaf6ddbe9a28e67053affd5c8f"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [],
+        "prompt": "Replace the person's top with the item shown in the reference images (front and back views). Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+        "reference_ids": [
+          "ref_1",
+          "ref_2"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 1,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001560/decision/select_call_00.json",
+          "sha256": "bbc3a9ae814930cefc0655db48c52afae029aee8f2fe831915bd69ff769b717a",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_motion_summary_loss",
+        "evidence_note_zh": "要求rear dolly-out。卡0有rear但写static；卡1也写static且未说明侧向，历史文字说1为side-view dolly-out。未回看，选1。",
+        "visual_review_note_zh": "已看帧：0确为背面由近到远，1为侧面由近到远；卡遗漏动态取景及侧向差异，选择也没有利用rear线索。",
+        "frame_review_performed": true,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0001560_video0_1s.png",
+          "sha256": "01026751e82292c8ec45b7756763eb623a445bb075887b3c963cdf769527739a"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0001560_video0_8s.png",
+          "sha256": "b1d5a58e3c8831458a23dc975e809f360bc1f9a5ddf719deae45ef8444cdc5c8"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0001560_video1_1s.png",
+          "sha256": "a76e1473fb96329d0ffec6feab1e4be891d37d88cfd1c1a53411bbd5b6d2a69f"
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/analysis/understanding_review_frames/0001560_video1_8s.png",
+          "sha256": "a20b0cea8ab50b30e1ab7991db86705cd5b2ff2f7f9e876db61c119c950c70ad"
+        }
+      ],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001560/worker_result.json",
+      "worker_result_sha256": "aa8b92cf52b0ef9d0ec948fcf180c6923442e684a96b9fdf9a97af6da735d24a"
+    },
+    {
+      "sample_id": "selection_v3_test_0001563",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_737.mp4",
+            "reference_id": "ref_1",
+            "type": "motion",
+            "view": ""
+          }
+        ],
+        "turn_id": 2,
+        "user_prompt": "Choose the history video captured with a rear dolly-out shot moving from upper-body to full-body framing, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          28911
+        ],
+        "component_id": 6301,
+        "current_edge_id": 28914,
+        "current_edit_axis": "action",
+        "current_source_node_id": 6311,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6311,
+          6308
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "8315f0b454d1779893ffaa991956d76779a782319040d2709fc3c132bc752c50",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0001563",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6320,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6320.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6311.mp4",
+          "observed": {
+            "identity": "A 3D-rendered person with a slim build, seen from behind, with no visible face.",
+            "hairstyle": "Hair is gathered into a high bun on top of the head.",
+            "hair_color": "Bright blue.",
+            "clothing": "A cream cable-knit sweater, light blue jeans, and brown shoes with light socks.",
+            "action": "The person stands still, then turns slightly and begins walking away down the street.",
+            "camera": "A static, eye-level medium shot from behind the subject.",
+            "scene": "A foggy, cobblestone street in a British-style town with brick buildings, shop signs, and a Union Jack flag."
+          },
+          "uncertain": [],
+          "observation_identity": "e39651c5a0f669b74456caa8c0654718eedc4426ac146a2a088955d75c38bf9c"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_d02e71b038d5e1328a413b43367b847fb39b28295fb79380fbac4bc92ea556af.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a side-view dolly-out shot that moves from upper-body to full-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6308.mp4",
+          "observed": {
+            "identity": "A slim, light-skinned man with a short beard, shown in profile and then from the front.",
+            "hairstyle": "Short hair with a small topknot bun at the back of the head.",
+            "hair_color": "Bright blue.",
+            "clothing": "A loose tan cable-knit sweater, light blue jeans, tan socks, and brown lace-up shoes.",
+            "action": "He stands in profile, then turns to face forward and performs a small dance, lifting his knees and swinging his arms before returning to a standing pose.",
+            "camera": "A static, medium full-body shot at eye level that slowly pulls back to reveal his full figure.",
+            "scene": "An outdoor cobblestone street in front of a dark storefront with red curtains and gold lettering advertising soap and cocoa powder."
+          },
+          "uncertain": [],
+          "observation_identity": "46b099d6c87a5a539e89f7d8867e9b8f124892835876f31cde3d4b734d25433e"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [],
+        "prompt": "Change the person's action to the one demonstrated in the motion reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+        "reference_ids": [
+          "ref_1"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 1,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001563/decision/select_call_00.json",
+          "sha256": "08144614ada04f8a24af6f0bd0fe7bcaecee544ba1d67a1c9c885832272f804d",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_motion_summary_loss",
+        "evidence_note_zh": "要求rear dolly-out；卡0写static背面，卡1写static又写slowly pulls back，方向不明。选择1，未回看。",
+        "visual_review_note_zh": "未人工看帧；候选卡动态描述不完整且自相矛盾，无法单独归因为推理或视觉。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001563/worker_result.json",
+      "worker_result_sha256": "4e241a1c78082f98cf4e692cf598e21dc5fcc6fdcb8abb9b07da9cca2ce40221"
+    },
+    {
+      "sample_id": "selection_v3_test_0001568",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_105.png",
+            "reference_id": "ref_1",
+            "type": "hair",
+            "view": "front"
+          },
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_75.png",
+            "reference_id": "ref_2",
+            "type": "hair",
+            "view": "back"
+          }
+        ],
+        "turn_id": 3,
+        "user_prompt": "Choose the history video captured with a rear dolly-out shot moving from upper-body to full-body framing, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          28916,
+          28919
+        ],
+        "component_id": 6301,
+        "current_edge_id": 28922,
+        "current_edit_axis": "hair",
+        "current_source_node_id": 6312,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6312,
+          6309,
+          6315
+        ],
+        "history_recomposed": true,
+        "history_topology": "fork",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "0dc1d1b7e38f1b3417c098b36c6b72145a756685ef73f4d7e6045d18f1f9cb12",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0001568",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6323,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6323.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6312.mp4",
+          "observed": {
+            "identity": "A 3D-rendered person with a slim build, seen from behind, with no visible face.",
+            "hairstyle": "Hair is gathered into a high bun on top of the head.",
+            "hair_color": "Bright blue.",
+            "clothing": "A cream cable-knit sweater, black slim pants, and brown lace-up shoes.",
+            "action": "The person stands facing away, then turns slightly and begins walking down the street.",
+            "camera": "A static medium-long shot from behind the character at roughly waist height.",
+            "scene": "A foggy, cobblestone street in a British-style town with brick buildings, shop signs, and a Union Jack flag hanging overhead."
+          },
+          "uncertain": [],
+          "observation_identity": "18ae1df4a7a75da3c9d6ee33af15fa5d68affdc304772c14edf80f7f6d25423d"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_3567d71e40f0691a404a52b0e029667346bb5154d8ce2b8cbebf2ca6e02fe6f8.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a side-view dolly-out shot that moves from upper-body to full-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6309.mp4",
+          "observed": {
+            "identity": "A 3D-rendered male character with a slim build, brown skin, and a short beard.",
+            "hairstyle": "Short hair with a small bun on top of the head.",
+            "hair_color": "Bright blue.",
+            "clothing": "A yellow cable-knit sweater, dark gray pants, and brown lace-up shoes with light socks.",
+            "action": "The character stands in profile, then turns slightly and performs a small dance, bending his knees and moving his arms before returning to a standing pose.",
+            "camera": "A static, medium-full shot at eye level, keeping the character centered in the frame.",
+            "scene": "A cobblestone street in front of a dark storefront with red curtains and gold lettering advertising 'SOAP' and 'COCOA POWDER'."
+          },
+          "uncertain": [],
+          "observation_identity": "9bf3f2c9f7112f7b3731c39f04904626bf143368d34dd34f73a38236898e942f"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_7c3e82110060df1377e1de0b1693bb8b8b9ee6c4d5da722a58aad21d7d1f4189.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to an upper-body shot from a front three-quarter angle. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 2,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6315.mp4",
+          "observed": {
+            "identity": "A young Black man with a slim build and short facial hair.",
+            "hairstyle": "Short hair on the sides with the top tied into a small bun.",
+            "hair_color": "Bright blue.",
+            "clothing": "A tan cable-knit sweater and dark trousers.",
+            "action": "He stands on the street, turns his head, and briefly raises his right hand to touch his chin and neck.",
+            "camera": "A static medium shot from the waist up at eye level.",
+            "scene": "A cobblestone street in front of old stone and brick buildings with shop windows, posters, and black bollards."
+          },
+          "uncertain": [],
+          "observation_identity": "ae724cc2492da51df302c79174fc78b79191e17a07f38f7a27c07b7be6fad892"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [],
+        "prompt": "Change the person's hairstyle to the one shown in the reference images, using the front and back reference views to match the hairstyle shape accurately. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+        "reference_ids": [
+          "ref_1",
+          "ref_2"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 1,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001568/decision/select_call_00.json",
+          "sha256": "2b55486f41e59ed13dcc98490f8ff587df7c1bbf070c70afe3f7b2e70deb95c9",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_motion_summary_loss",
+        "evidence_note_zh": "要求rear dolly-out；卡0背面static，卡1static且无方向；历史文字把1写作side-view dolly-out。选择1，未回看。",
+        "visual_review_note_zh": "未人工看帧；与1560/1563同一类镜头运动概括问题，但未逐条确认视频。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001568/worker_result.json",
+      "worker_result_sha256": "cb0843ad8aa454ae5746a0c3600c12fa1965e3b762239e3e519903cfc2bf1cc9"
+    },
+    {
+      "sample_id": "selection_v3_test_0001950",
+      "selection_axis": "camera",
+      "expected_source_video_id": 2,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_439.mp4",
+            "reference_id": "ref_1",
+            "type": "motion",
+            "view": ""
+          }
+        ],
+        "turn_id": 3,
+        "user_prompt": "Choose the history video captured with a static front three-quarter full-body shot, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to change the person's action so that they lower their head and rest one hand on their forehead, as shown in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          29519,
+          29505
+        ],
+        "component_id": 6405,
+        "current_edge_id": 29515,
+        "current_edit_axis": "action",
+        "current_source_node_id": 6406,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action so that they lower their head and rest one hand on their forehead, as shown in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+        "expected_source_video_id": 2,
+        "explicit_history_textual_clue": true,
+        "history_node_ids": [
+          6407,
+          6405,
+          6406
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "792d8dfb465cb086636d7fa1f7a1795a97b899dd6a448dd133ddc659cd7c0e20",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0001950",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6415,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6415.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6407.mp4",
+          "observed": {
+            "identity": "A slender female character with a slim build, seen from behind.",
+            "hairstyle": "Short, tousled hair that appears to be in a small updo or ponytail.",
+            "hair_color": "White or platinum blonde.",
+            "clothing": "A sleeveless black top with a repeating circular pattern, light beige or off-white wide-leg trousers, and dark boots.",
+            "action": "The character stands in the center of a plaza, initially with arms at her sides, then raises her right hand to touch her hair before placing her hand on her hip.",
+            "camera": "A static, medium-long shot from behind the character at a slightly low angle.",
+            "scene": "A sunny, outdoor amusement park or fairground with a striped carousel on the left, a wooden building on the right, and a hazy city skyline in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "1e4ee727429a97224c7908373cae5ec6878dadeb70dfb337f70f16d79d5dd3e7"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_456.mp4",
+              "reference_id": "ref_1",
+              "type": "motion",
+              "view": ""
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please change the person's action to match the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6405.mp4",
+          "observed": {
+            "identity": "A slender female 3D character with a slim build and fair skin.",
+            "hairstyle": "Blonde hair pulled back into a high ponytail.",
+            "hair_color": "Blonde.",
+            "clothing": "A dark, patterned sleeveless crop top, light gray wide-leg trousers, a brown belt, and dark shoes.",
+            "action": "The character stands in the center of the frame, initially facing left, then turns to face the camera while posing with one hand on her hip and the other raised to her head.",
+            "camera": "Static, eye-level medium-full shot from a slightly low angle.",
+            "scene": "An outdoor amusement park or fairground setting with a carousel on the left, a large ride structure on the right, and a paved open area in the foreground under a bright, hazy sky."
+          },
+          "uncertain": [],
+          "observation_identity": "e9dca8e14f8f80807699ccd76001269c2cb1fedc3d720b9db47e7f38c7b06862"
+        },
+        {
+          "parent_id": 1,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_3428553fd9a6e7bbedfaded54727768d0f031622a10d0d27158eb56dc619d1f4.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body shot from a front three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 2,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6406.mp4",
+          "observed": {
+            "identity": "A slender female 3D character with a slim build, seen mostly from behind and in profile.",
+            "hairstyle": "Short, tousled hair that is swept up and away from the face.",
+            "hair_color": "White.",
+            "clothing": "A sleeveless dark patterned crop top, a brown patterned belt, loose light-gray wide-leg pants, and open-toed heeled sandals.",
+            "action": "The character stands with her back to the camera, raises one hand to her head, places the other on her hip, then turns slightly to a side profile while keeping a hand near her hair.",
+            "camera": "A static, low-angle full-body shot from behind the character.",
+            "scene": "An outdoor amusement park at sunset, with a red swing ride on the left, a carousel structure with lights on the right, and a small popcorn stand in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "907aaf5c047262481d2b2c70db71c7ad08df05887c03f8c476fad17b11f7565f"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [],
+        "prompt": "Change the person's action so that they lower their head and rest one hand on their forehead, as shown in the motion reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+        "reference_ids": [
+          "ref_1"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 1,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001950/decision/select_call_00.json",
+          "sha256": "4388899cf1fe4675ff3bbf2053650c3309c04264e8fb0c2659b750b05170f4bb",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_direction_summary_loss",
+        "evidence_note_zh": "标签2应匹配front three-quarter，卡2却写behind；卡1未写朝向，只写medium-full/low angle，模型选1且未回看。历史文字明说2改为front three-quarter。",
+        "visual_review_note_zh": "未人工看帧；卡片与数据/历史文字矛盾，不能确定是相机标签、人物姿态变化还是观察错误。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0001950/worker_result.json",
+      "worker_result_sha256": "a457a9533ba0d047eac84fed9c2b93862961d89b969cdf4b0e6c22ce8144aeff"
+    },
+    {
+      "sample_id": "selection_v3_test_0002003",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_112.png",
+            "reference_id": "ref_1",
+            "type": "scene",
+            "view": "target_camera_initial_frame"
+          }
+        ],
+        "turn_id": 2,
+        "user_prompt": "Choose the history video captured with a static front three-quarter full-body shot, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          29569
+        ],
+        "component_id": 6405,
+        "current_edge_id": 29574,
+        "current_edit_axis": "site",
+        "current_source_node_id": 6417,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6417,
+          6412
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "b4a4ca5ece5c2548df5b43104812e95b3e5565fe16e419280208b74c8d215d89",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0002003",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6433,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6433.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6417.mp4",
+          "observed": {
+            "identity": "A slender 3D-rendered female character with fair skin, shown from behind.",
+            "hairstyle": "Short, tousled hair that is flipped up at the back.",
+            "hair_color": "White.",
+            "clothing": "A short, blue-and-white patterned dress with a low open back and three-quarter sleeves, plus pink flat shoes.",
+            "action": "The character stands with her back to the camera, raises one hand to her head, and slowly turns her body to the side.",
+            "camera": "Static, eye-level full-body shot from behind the character.",
+            "scene": "An outdoor amusement park at dusk, with a red swing ride on the left and a lit carousel structure on the right."
+          },
+          "uncertain": [],
+          "observation_identity": "76b24b0c7e43d6d16ae3904b0bd9197669a2abf77eb8dabd5bbf2e70731958f4"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_ee650e5dbcbae3c87056519e6f21304e8229440cc7578c2ad18e7b11da36e71d.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a full-body shot from behind. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6412.mp4",
+          "observed": {
+            "identity": "A slender female character with a slim build, shown in profile and from behind.",
+            "hairstyle": "Blonde hair pulled back into a high ponytail.",
+            "hair_color": "Blonde.",
+            "clothing": "A short, long-sleeved blue and white patterned dress with an open back, and red flat shoes.",
+            "action": "The character stands in the center of the frame, first facing left, then raises her left hand to touch her hair while placing her right hand on her hip, and finally turns to face away from the camera.",
+            "camera": "A static, medium-full shot at eye level, keeping the character centered in the frame.",
+            "scene": "An outdoor amusement park or fairground setting with a carousel on the left, a large ride structure on the right, and a paved open area in the foreground under a bright, hazy sky."
+          },
+          "uncertain": [],
+          "observation_identity": "fd828f65277985f882ffdc8167673b77a59329eb887ee1318ec990f144744e64"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [
+          0,
+          1
+        ],
+        "prompt": "Replace the video's scene with the environment shown in the reference image, using the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+        "reference_ids": [
+          "ref_1"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 2,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [
+        0,
+        1
+      ],
+      "inspected_expected_video": true,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0002003/decision/select_call_00.json",
+          "sha256": "f56893959acb1769559fa991afc55f1f59866f53bf870d6a6cffc24a97e9227a",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=inspect_history>\n<parameter=video_ids>\n[0, 1]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "video_ids": [
+                0,
+                1
+              ]
+            },
+            "name": "inspect_history"
+          },
+          "media": [],
+          "validation_error": null
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0002003/decision/select_call_01.json",
+          "sha256": "f939232629a1c4b6797dd44d74a35e25a9af0e3dd4d13f1db0006ce85077e1e9",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [
+            {
+              "cache_key": "75e8bcfbaed98762a37fe99e9c2e466b88f088ea776c7e8bdb0960660d4ce866",
+              "content_sha256": "e15feba92b50c68df5fb617a8c9d2b700e402613acc58ca0447fa127b011d219",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1080,
+                1920
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                384,
+                672
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            },
+            {
+              "cache_key": "117b696d3735803ccadefdd70383d7bc06b48c28cfc12137c4a604dfa808765a",
+              "content_sha256": "efe92ea2f3f1b89987ffbb3dfa50ab7bb0ea3546d3af5b0dbd7c137ca79522b9",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1080,
+                1920
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                384,
+                672
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            }
+          ],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_direction_summary_loss",
+        "evidence_note_zh": "要求front three-quarter；标签0卡写behind，卡1不写朝向。回看0/1后选1；历史文字说1改为behind。",
+        "visual_review_note_zh": "未人工看帧；与1950一样有前后方向冲突，但不得直接认定标签错误。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0002003/worker_result.json",
+      "worker_result_sha256": "fd82ff17ae07287e4aba8da7fc8f5ce5432adb1bb0af965f3ecff74d9a009926"
+    },
+    {
+      "sample_id": "selection_v3_test_0003334",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_755.png",
+            "reference_id": "ref_1",
+            "type": "outfit",
+            "view": "front"
+          },
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_756.png",
+            "reference_id": "ref_2",
+            "type": "outfit",
+            "view": "back"
+          }
+        ],
+        "turn_id": 2,
+        "user_prompt": "Choose the history video captured with a side dolly-in shot moving from full-body to upper-body framing, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the top, the bottoms, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          28288
+        ],
+        "component_id": 6737,
+        "current_edge_id": 28285,
+        "current_edit_axis": "wardrobe",
+        "current_source_node_id": 6752,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the top, the bottoms, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6752,
+          6768
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "6260a5fdb1b26bf4b0459276e2da13ea9dd6739ef3be2211bd8baa1d9260c7c8",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0003334",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6753,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6753.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6752.mp4",
+          "observed": {
+            "identity": "A 3D-rendered adult male with a slim build, light skin, and a short beard, shown in profile and three-quarter views.",
+            "hairstyle": "Short, swept-back hair with a side part.",
+            "hair_color": "White.",
+            "clothing": "A light gray and white plaid button-up shirt with rolled sleeves, dark plaid trousers, dark shoes, and brown leather suspenders.",
+            "action": "The man stands on an asphalt road, then turns his body and raises his arms to adjust the suspenders on his shoulders and chest.",
+            "camera": "A medium full shot at eye level that slowly zooms in and pans slightly to follow the subject's movement.",
+            "scene": "An outdoor paved road with a white lane line, bordered by a metal guardrail, green trees, rocks, and a utility pole under a bright, partly cloudy sky."
+          },
+          "uncertain": [],
+          "observation_identity": "cdc9d9cbeb0b705360f1e16065211fb28cd71b9c2d4db4db351b3299121fbe8e"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_c18bd1556d1fc520d5867bab9d117267afafb69896db896a1b8376919493faaa.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to an upper-body shot from the side. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6768.mp4",
+          "observed": {
+            "identity": "A 3D-rendered adult male with a light skin tone, shown in profile and from behind.",
+            "hairstyle": "Short, swept-back hair covering the top of the head.",
+            "hair_color": "White.",
+            "clothing": "A light blue and white plaid button-up shirt with rolled sleeves, dark plaid trousers, and brown leather suspenders.",
+            "action": "The character stands on a paved road, turning his body and head to look over his shoulder and then back forward.",
+            "camera": "A static, medium shot from a slightly low angle, keeping the character centered in the frame.",
+            "scene": "An outdoor roadside setting with a metal guardrail, a rocky hillside with green trees and bushes, and a bright sky."
+          },
+          "uncertain": [],
+          "observation_identity": "4ae7f42dee6874c9aaa1c543b00d3f5b6fda6dd27fc0e98999c540c0e39486d7"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [],
+        "prompt": "Replace the person's whole outfit with the top, bottoms, and footwear shown in the reference images. The first reference image shows the front view of the complete target outfit, and the second shows its back view. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged.",
+        "reference_ids": [
+          "ref_1",
+          "ref_2"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 1,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0003334/decision/select_call_00.json",
+          "sha256": "de3209e24c568bb34ac35265181411901a057acda191191daca9f4196dde8d33",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_motion_summary_loss",
+        "evidence_note_zh": "要求side dolly-in；卡0有slowly zooms in但未写side，卡1static medium shot也未写side。历史文字说1是侧面上半身，模型选1，未回看。",
+        "visual_review_note_zh": "未人工看帧；卡已保留部分推进线索，选错也可能涉及把静态侧面近景当成侧面推进。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0003334/worker_result.json",
+      "worker_result_sha256": "1381aeb5f39b0d0574036d9bbd2a7098ae3f63c07d4859e59f07ac58d634192e"
+    },
+    {
+      "sample_id": "selection_v3_test_0004318",
+      "selection_axis": "hair_color",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 2,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_329.png",
+            "reference_id": "ref_1",
+            "type": "scene",
+            "view": "target_camera_initial_frame"
+          }
+        ],
+        "turn_id": 5,
+        "user_prompt": "Choose the history video where the person has red hair, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          29877,
+          29981,
+          30017,
+          29982
+        ],
+        "component_id": 6933,
+        "current_edge_id": 29876,
+        "current_edit_axis": "site",
+        "current_source_node_id": 6950,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": true,
+        "history_node_ids": [
+          6950,
+          6974,
+          6986,
+          6994,
+          6988
+        ],
+        "history_recomposed": false,
+        "history_topology": "fork",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "97b5e5831d59606a1c48366af9d91f89d89c2f0e36c1d327b8f72cb3466bf785",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0004318",
+        "selection_axis": "hair_color",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6973,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6973.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6950.mp4",
+          "observed": {
+            "identity": "A young Black man with a slim build and short facial stubble.",
+            "hairstyle": "Short, dark hair with a small top-knot or bun at the crown.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A chunky, cable-knit orange sweater, black slim trousers, and brown lace-up boots with red socks.",
+            "action": "The man stands facing forward, then turns his head and body to the side while touching his neck, crosses his arms, and finally returns to a front-facing stance with arms at his sides.",
+            "camera": "A static, full-body shot that remains centered on the subject throughout the clip.",
+            "scene": "A futuristic, sci-fi environment featuring a large glass dome with pink structural lines, glowing teal circular light rings, and a reflective concrete floor under blue and pink ambient lighting."
+          },
+          "uncertain": [],
+          "observation_identity": "131b5db2a772906ef2d62ab34212e8e4b8c931444997cfb054a9b37ce240f11e"
+        },
+        {
+          "parent_id": 0,
+          "references": [],
+          "user_prompt": "Using the provided source video, apply the following edit: The person currently has red hair; please change it to pink.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6974.mp4",
+          "observed": {
+            "identity": "A young Black man with a slim build and short facial stubble.",
+            "hairstyle": "Short, dark hair with a small top-knot or bun at the crown.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A chunky, cable-knit orange sweater, black slim pants, and brown lace-up boots with red socks.",
+            "action": "He stands facing the camera, then turns his head and body to the side, briefly touches his chin, and crosses his arms before returning to a front-facing stance.",
+            "camera": "A static, medium-full shot that frames the subject from the head to the ankles.",
+            "scene": "A futuristic, sci-fi environment featuring a large glass dome with a glowing white ring, pink structural beams, and circular teal light patterns in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "526b3c8cbec56581751b2da545389dbeaf415815b1ad0e265e289498b1a1bf62"
+        },
+        {
+          "parent_id": 1,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_329.png",
+              "reference_id": "ref_1",
+              "type": "scene",
+              "view": "target_camera_initial_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+          "video_id": 2,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6986.mp4",
+          "observed": {
+            "identity": "A young Black woman with a slim build and a neutral expression.",
+            "hairstyle": "Her hair is pulled up into a high bun or topknot.",
+            "hair_color": "Her hair is a reddish-brown or auburn color.",
+            "clothing": "She wears a mustard-yellow cable-knit sweater, dark grey or black slim trousers, light-colored socks, and brown lace-up shoes.",
+            "action": "The woman stands still, initially facing forward, then turns her head and body to the side while briefly touching her collar before crossing her arms.",
+            "camera": "The camera starts with a medium shot from the waist up and slowly pulls back to a full-body shot, remaining at a low angle.",
+            "scene": "The setting is an outdoor paved area under a concrete overpass, with road construction barriers, signs, and a bright sky in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "a6be248a46022324aaf29292cafc19b1ca8c351b77ddc92c996e6bced992f382"
+        },
+        {
+          "parent_id": 2,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_105.png",
+              "reference_id": "ref_1",
+              "type": "hair",
+              "view": "front"
+            },
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_75.png",
+              "reference_id": "ref_2",
+              "type": "hair",
+              "view": "back"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+          "video_id": 3,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6994.mp4",
+          "observed": {
+            "identity": "A young Black woman with a slim build and a neutral expression.",
+            "hairstyle": "Her hair is pulled back into a high ponytail.",
+            "hair_color": "Her hair is dyed a bright pink or magenta color.",
+            "clothing": "She wears a mustard-yellow cable-knit sweater, dark grey or black slim trousers, light-colored socks, and reddish-brown lace-up shoes.",
+            "action": "The character stands still, then turns her body and head to look over her shoulder, briefly touches her neck, and finally faces forward again with her arms at her sides.",
+            "camera": "The camera starts with a medium shot from the waist up and slowly pulls back to a full-body shot, remaining at a low angle throughout.",
+            "scene": "The setting is an outdoor paved area under a concrete overpass, with road construction barriers, signs, and trees visible in the background under a bright sky."
+          },
+          "uncertain": [],
+          "observation_identity": "9ed051c7778e57fb86f5266d96bd5d7f57123f3cd6add6de7e86b6cba8750b77"
+        },
+        {
+          "parent_id": 1,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_8.png",
+              "reference_id": "ref_1",
+              "type": "hair",
+              "view": "front"
+            },
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_66.png",
+              "reference_id": "ref_2",
+              "type": "hair",
+              "view": "back"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+          "video_id": 4,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6988.mp4",
+          "observed": {
+            "identity": "A young Black man with a slim build and a short beard is the central subject.",
+            "hairstyle": "His hair is pulled back into a small top ponytail or bun.",
+            "hair_color": "His hair appears dark brown or black under the lighting.",
+            "clothing": "He wears a thick, orange cable-knit sweater, black pants, and brown lace-up boots.",
+            "action": "He begins facing forward, then turns his body to the side while raising one hand to his neck, crosses his arms, and finally returns to a front-facing stance with his arms at his sides.",
+            "camera": "The camera starts as a medium shot and slowly pulls back to a full-body shot while remaining at a static eye-level angle.",
+            "scene": "The setting is a futuristic interior with a large glass dome ceiling, glowing teal circular light rings, and pink structural beams over a reflective floor."
+          },
+          "uncertain": [],
+          "observation_identity": "4f511a2b406e88a422e38320cb80fda53d4a4a3129c255036aebf9075d5c9acd"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [],
+        "prompt": "Replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+        "reference_ids": [
+          "ref_1"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 1,
+        "source_video_id": 2
+      },
+      "inspected_video_ids": [],
+      "inspected_expected_video": false,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004318/decision/select_call_00.json",
+          "sha256": "e045ec6e1078cb1c2bef533715631daf98b308b952373878897669e0ede2b75e",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n2\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 2
+            },
+            "name": "select_source_video"
+          },
+          "media": [],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "hair_color_not_reliably_visible_in_cards",
+        "evidence_note_zh": "要求red；标签0卡为dark brown/black，卡2为reddish-brown/auburn，因此选2与当前卡文字更贴近。未回看；1的历史文字说red改pink，后续仅改场景。",
+        "visual_review_note_zh": "未人工看帧；候选间光照或观察差异的可能性较高，不能将卡与标签冲突直接归为选择推理错误。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004318/worker_result.json",
+      "worker_result_sha256": "7011e2e52e2ae297e687ee27b5c22b79e5137dffc7f2bfdc76cbe7d148655d0c"
+    },
+    {
+      "sample_id": "selection_v3_test_0004457",
+      "selection_axis": "hair_color",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_525.png",
+            "reference_id": "ref_1",
+            "type": "scene",
+            "view": "target_camera_initial_frame"
+          }
+        ],
+        "turn_id": 2,
+        "user_prompt": "Choose the history video where the person has pink hair, and use that version as the baseline. Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          30009
+        ],
+        "component_id": 6933,
+        "current_edge_id": 30010,
+        "current_edit_axis": "site",
+        "current_source_node_id": 6984,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6984,
+          6961
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "9386aa8636fd55bc480ab5ef8baabf41b098255f78cdd03c9003e825ff28a0ec",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0004457",
+        "selection_axis": "hair_color",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6991,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6991.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6984.mp4",
+          "observed": {
+            "identity": "A Black man with a short beard and mustache, shown from head to toe at first and then in closer upper-body framing.",
+            "hairstyle": "Short, closely cropped hair on the sides with slightly more length on top.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A red-and-black checkered three-piece suit with a matching vest, a white dress shirt, a black necktie, and black shoes.",
+            "action": "He stands facing forward, then walks slowly toward the camera, and near the end turns his head to look off to his left.",
+            "camera": "A static, low-angle full-body shot that gradually tightens to a medium close-up as the subject approaches.",
+            "scene": "A futuristic setting with a large glass-domed building, glowing teal ring lights, pink neon trim, and a reflective floor under a dusk sky."
+          },
+          "uncertain": [],
+          "observation_identity": "6be6951f9b918f3c84320220dc775bfc7c75d9bc177ca0a3f438f740b3ca07d6"
+        },
+        {
+          "parent_id": 0,
+          "references": [],
+          "user_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair red.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6961.mp4",
+          "observed": {
+            "identity": "A Black man with a short beard and mustache, shown from head to toe at first and then in closer upper-body framing.",
+            "hairstyle": "Short, neatly trimmed dark hair with a clean side part.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A red-and-black plaid three-piece suit (jacket, waistcoat, and trousers) over a white dress shirt with a black necktie, and black shoes.",
+            "action": "He stands facing forward, then walks slowly toward the camera, and near the end turns his head to look off to his left.",
+            "camera": "A low-angle, front-facing shot that begins as a full-body frame and gradually pushes in to a medium close-up as he approaches.",
+            "scene": "A futuristic setting with a large glass dome structure, glowing teal ring lights, pink neon trim, and a reflective floor under a dusk sky."
+          },
+          "uncertain": [],
+          "observation_identity": "b7de3091b8b4a044a366a6a101cf4c4c488a5e245ad1d1862e18cff918a4fc13"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [
+          0,
+          1
+        ],
+        "prompt": "Change the scene to the setting shown in the reference image, placing the person in that environment. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+        "reference_ids": [
+          "ref_1"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 2,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [
+        0,
+        1
+      ],
+      "inspected_expected_video": true,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004457/decision/select_call_00.json",
+          "sha256": "be6af20967de8a011b19ccd456dc492c4c2fb7e032369e7d60f9aa4a2447edbe",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=inspect_history>\n<parameter=video_ids>\n[0, 1]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "video_ids": [
+                0,
+                1
+              ]
+            },
+            "name": "inspect_history"
+          },
+          "media": [],
+          "validation_error": null
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004457/decision/select_call_01.json",
+          "sha256": "e10f18ee7a9b1170a11043d90524b3f09ccd4a14ba63260821426f23b65a8be8",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [
+            {
+              "cache_key": "52d1aa9a731402b4b36541c6b8ecf9fb82494e362832edf02819c59095070476",
+              "content_sha256": "185c8d3e7eee12a44672c8d152f5233d3ef7a390fbed6d19a00ba41a8ea6dcf8",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1920,
+                1080
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                672,
+                384
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            },
+            {
+              "cache_key": "9f95a533dd68c7519cf4a104da689b24669b2bbbdd85772291097199dd20c8bc",
+              "content_sha256": "4650cb18f6c9c8b72bc3d7b803b43ddbfa8a1162fec4a9b0652fa25bdb14f6a1",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1920,
+                1080
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                672,
+                384
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            }
+          ],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "hair_color_not_reliably_visible_in_cards",
+        "evidence_note_zh": "要求pink；0/1卡都为dark brown/black，回看后选1；历史文字说1改red。",
+        "visual_review_note_zh": "未人工看帧；只确认颜色在卡中无法区分，不能从0678的灯光现象推断本题也相同。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004457/worker_result.json",
+      "worker_result_sha256": "63c50a6cc6ce065ccc102c4fd9befa8b47f9e4033881c7fb1c592f3ee0fa036a"
+    },
+    {
+      "sample_id": "selection_v3_test_0004484",
+      "selection_axis": "hair_color",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 2,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_8.png",
+            "reference_id": "ref_1",
+            "type": "hair",
+            "view": "front"
+          },
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_66.png",
+            "reference_id": "ref_2",
+            "type": "hair",
+            "view": "back"
+          }
+        ],
+        "turn_id": 5,
+        "user_prompt": "Choose the history video where the person has pink hair, and use that version as the baseline. Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          30031,
+          30008,
+          30035,
+          30006
+        ],
+        "component_id": 6933,
+        "current_edge_id": 30033,
+        "current_edit_axis": "hair",
+        "current_source_node_id": 6991,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6991,
+          6983,
+          6992,
+          6985,
+          6961
+        ],
+        "history_recomposed": false,
+        "history_topology": "fork",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "aaeaf661a3bd877c98821c4a058ad964ca22c2773a31709d489dd95a48d79a20",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0004484",
+        "selection_axis": "hair_color",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6996,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6996.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6991.mp4",
+          "observed": {
+            "identity": "A 3D-rendered man with a medium build, short dark hair, and a neutral expression.",
+            "hairstyle": "Short, dark hair with a receding hairline.",
+            "hair_color": "Dark brown or black.",
+            "clothing": "A three-piece suit with a brown, orange, and black plaid pattern, including a jacket, vest, and trousers, worn over a white collared shirt with a dark tie and black shoes.",
+            "action": "The man stands facing the camera and then walks slowly forward toward the viewer.",
+            "camera": "A low-angle, full-body shot that remains static as the subject approaches, gradually framing him from the waist up.",
+            "scene": "An outdoor paved area under a concrete overpass, with road construction signs, barriers, and a bright sky in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "a9db0fb1214f29e3983a75dc2275de35dde7ae7f1781f0e1120ce5e40e92532e"
+        },
+        {
+          "parent_id": 0,
+          "references": [],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hair color to red.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6983.mp4",
+          "observed": {
+            "identity": "A 3D-rendered man with a medium build, short facial stubble, and a neutral expression.",
+            "hairstyle": "Short, cropped hair with a small topknot or bun at the back of the head.",
+            "hair_color": "Dark reddish-brown.",
+            "clothing": "A three-piece suit in a brown, orange, and black plaid pattern, worn over a white collared shirt with a dark tie, and black shoes.",
+            "action": "The man stands facing the camera and then walks slowly forward toward the viewer, turning his head to his left near the end.",
+            "camera": "A low-angle, full-body shot that remains static as the subject approaches, gradually framing him from the waist up.",
+            "scene": "An outdoor paved area beneath a concrete overpass, with road construction signs, barriers, and trees visible in the background under a bright sky."
+          },
+          "uncertain": [],
+          "observation_identity": "f4d8429b806854cd50be89008231e7bcf4aed169dfff961bd7d78f8bc0979e4d"
+        },
+        {
+          "parent_id": 1,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_105.png",
+              "reference_id": "ref_1",
+              "type": "hair",
+              "view": "front"
+            },
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_75.png",
+              "reference_id": "ref_2",
+              "type": "hair",
+              "view": "back"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+          "video_id": 2,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6992.mp4",
+          "observed": {
+            "identity": "A 3D-rendered man with a medium build, short-cropped hair, and a neutral expression.",
+            "hairstyle": "Short, cropped hair with a distinct red or maroon color.",
+            "hair_color": "Red",
+            "clothing": "A three-piece suit with a brown, orange, and black plaid pattern, including a jacket, waistcoat, and trousers, worn over a white collared shirt with a dark tie.",
+            "action": "The man stands still initially, then begins to walk slowly forward toward the camera, and finally turns his head to his left.",
+            "camera": "A low-angle, full-body shot that slowly dollies in, transitioning to a medium shot as the man approaches.",
+            "scene": "An outdoor paved area under a concrete overpass or bridge, with road construction signs, barriers, and a bright sky in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "cbaa96db3bafae2ccf7133b91f3586d21eaa50edef54a00f8377ac300567e5f3"
+        },
+        {
+          "parent_id": 2,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_285.png",
+              "reference_id": "ref_1",
+              "type": "scene",
+              "view": "target_camera_initial_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+          "video_id": 3,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6985.mp4",
+          "observed": {
+            "identity": "A Black man with a short beard and mustache, shown from head to toe at first and then in closer medium shots.",
+            "hairstyle": "Short, closely cropped hair on the sides with slightly more length on top.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A red-and-black checkered three-piece suit with a matching vest, a white dress shirt, a black necktie, and black shoes.",
+            "action": "He stands facing the camera, then walks slowly forward toward the lens, and near the end turns his head to look off to his left.",
+            "camera": "A low-angle, front-facing shot that begins as a full-body frame and gradually tightens to a medium close-up as the subject approaches.",
+            "scene": "A futuristic setting with a large glass dome overhead, glowing teal ring lights, pink neon framing, and a reflective floor under a dusky blue sky."
+          },
+          "uncertain": [],
+          "observation_identity": "7f89e8831984a4e6a371e1482a32f631e98f578c6233e15919853537832550aa"
+        },
+        {
+          "parent_id": 1,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_285.png",
+              "reference_id": "ref_1",
+              "type": "scene",
+              "view": "target_camera_initial_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+          "video_id": 4,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6961.mp4",
+          "observed": {
+            "identity": "A Black man with a short beard and mustache, shown from head to toe at first and then in closer upper-body framing.",
+            "hairstyle": "Short, neatly trimmed dark hair with a clean side part.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A red-and-black plaid three-piece suit (jacket, waistcoat, and trousers) over a white dress shirt with a black necktie, and black shoes.",
+            "action": "He stands facing forward, then walks slowly toward the camera, and near the end turns his head to look off to his left.",
+            "camera": "A low-angle, front-facing shot that begins as a full-body frame and gradually pushes in to a medium close-up as he approaches.",
+            "scene": "A futuristic setting with a large glass dome structure, glowing teal ring lights, pink neon trim, and a reflective floor under a dusk sky."
+          },
+          "uncertain": [],
+          "observation_identity": "b7de3091b8b4a044a366a6a101cf4c4c488a5e245ad1d1862e18cff918a4fc13"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [
+          0,
+          1,
+          2
+        ],
+        "prompt": "Restyle the person's hair to match the hairstyle shown in the reference images, using the front and back reference views for the hairstyle shape. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+        "reference_ids": [
+          "ref_1",
+          "ref_2"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 2,
+        "source_video_id": 2
+      },
+      "inspected_video_ids": [
+        0,
+        1,
+        2
+      ],
+      "inspected_expected_video": true,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004484/decision/select_call_00.json",
+          "sha256": "376787d19c7ba5ef518cfa9ef9b647faadfc525a46209e24747a97deb1ea8610",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=inspect_history>\n<parameter=video_ids>\n[0, 1, 2]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "video_ids": [
+                0,
+                1,
+                2
+              ]
+            },
+            "name": "inspect_history"
+          },
+          "media": [],
+          "validation_error": null
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004484/decision/select_call_01.json",
+          "sha256": "8b5236b7e0a3d2671db2ad0facedf49791bcbc2eba9b974e327a2b75d7b3b0f2",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n2\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 2
+            },
+            "name": "select_source_video"
+          },
+          "media": [
+            {
+              "cache_key": "9598a96371ccbecef179806f38f83fc35e00b1b955d6d70211f5b650e5033243",
+              "content_sha256": "c36632fae3702fe062ff8a2cd115791c07e3257be91b773088cdf9784a238743",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1920,
+                1080
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                672,
+                384
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            },
+            {
+              "cache_key": "069713af1feae7bef17bb6d93abca358e8bdf3222608384f45ecb191464534ae",
+              "content_sha256": "4aaf474bb26b0821e014567f9b30722d2311d79f9441405077de3d63b1a8d470",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1920,
+                1080
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                672,
+                384
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            },
+            {
+              "cache_key": "140b9cbf4158451bcd2ce9a744ae7c4698a2e9b03a0118e67e1638c3acda5f81",
+              "content_sha256": "ea5f8a0a40ccbb1576a647220884a810d834d5799a3ed43a03c6bc16e7e4d56e",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1920,
+                1080
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                672,
+                384
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            }
+          ],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "hair_color_not_reliably_visible_in_cards",
+        "evidence_note_zh": "要求pink；标签0卡dark brown/black，候选1 reddish-brown、2 red，其他也暗色。回看0/1/2后选2。",
+        "visual_review_note_zh": "未人工看帧；卡中没有清楚的pink匹配，回看仍未对齐标签。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004484/worker_result.json",
+      "worker_result_sha256": "b8c2177d21564a2e5fd36bc3170a19ba990109cec23c1c3cc1649e11a25e434c"
+    },
+    {
+      "sample_id": "selection_v3_test_0004493",
+      "selection_axis": "hair_color",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_38.png",
+            "reference_id": "ref_1",
+            "type": "identity",
+            "view": "front"
+          }
+        ],
+        "turn_id": 2,
+        "user_prompt": "Choose the history video where the person has pink hair, and use that version as the baseline. Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Match the reference person's facial features and adjust the body's skin tone accordingly. Do not copy the hairstyle, hair color, or expression from the reference photo. Preserve all other aspects of the current video."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          30038
+        ],
+        "component_id": 6933,
+        "current_edge_id": 30040,
+        "current_edit_axis": "identity",
+        "current_source_node_id": 6993,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Match the reference person's facial features and adjust the body's skin tone accordingly. Do not copy the hairstyle, hair color, or expression from the reference photo. Preserve all other aspects of the current video.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          6993,
+          6985
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "445370dd3a05ccf24e670a07d9d39ae8fbbf90297bd6a7b87811de6b2f8beca7",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0004493",
+        "selection_axis": "hair_color",
+        "selection_kind": "content_description_match",
+        "target_node_id": 6997,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6997.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6993.mp4",
+          "observed": {
+            "identity": "A Black man with a short beard and mustache, broad shoulders, and a medium build.",
+            "hairstyle": "Short, dark hair with a faded/side-parted cut.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A red-and-black plaid three-piece suit (jacket, vest, trousers) over a white dress shirt with a black tie, and black shoes.",
+            "action": "He stands facing the camera, then walks slowly forward toward the lens, glancing to his left near the end.",
+            "camera": "Low-angle, front-facing shot that starts as a full-body frame and gradually tightens to a medium close-up as he approaches.",
+            "scene": "A futuristic setting with a large glass dome, glowing teal ring lights, pink neon accents, and a reflective floor under a dusk sky."
+          },
+          "uncertain": [],
+          "observation_identity": "51daf275fdce36172f2276536366fdd242d7a2bbd8b874c88584c3423284e62e"
+        },
+        {
+          "parent_id": 0,
+          "references": [],
+          "user_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair red.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6985.mp4",
+          "observed": {
+            "identity": "A Black man with a short beard and mustache, shown from head to toe at first and then in closer medium shots.",
+            "hairstyle": "Short, closely cropped hair on the sides with slightly more length on top.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A red-and-black checkered three-piece suit with a matching vest, a white dress shirt, a black necktie, and black shoes.",
+            "action": "He stands facing the camera, then walks slowly forward toward the lens, and near the end turns his head to look off to his left.",
+            "camera": "A low-angle, front-facing shot that begins as a full-body frame and gradually tightens to a medium close-up as the subject approaches.",
+            "scene": "A futuristic setting with a large glass dome overhead, glowing teal ring lights, pink neon framing, and a reflective floor under a dusky blue sky."
+          },
+          "uncertain": [],
+          "observation_identity": "7f89e8831984a4e6a371e1482a32f631e98f578c6233e15919853537832550aa"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [
+          0,
+          1
+        ],
+        "prompt": "Change the person's identity to match the person in the reference photo. Match the reference person's facial features and adjust the body's skin tone accordingly. Do not copy the hairstyle, hair color, or expression from the reference photo. Preserve all other aspects of the current video.",
+        "reference_ids": [
+          "ref_1"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 2,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [
+        0,
+        1
+      ],
+      "inspected_expected_video": true,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004493/decision/select_call_00.json",
+          "sha256": "c5f4446e95fc43a44c2030a0229386905a0ccea63c61858a2bfc904025b4bab2",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=inspect_history>\n<parameter=video_ids>\n[0, 1]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "video_ids": [
+                0,
+                1
+              ]
+            },
+            "name": "inspect_history"
+          },
+          "media": [],
+          "validation_error": null
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004493/decision/select_call_01.json",
+          "sha256": "1d60ddef987f9573586c1180bd9cd5f84490826c791e00d5917d132ad29486c5",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [
+            {
+              "cache_key": "ba5e0b00e5f7fc1dd1509d2bc72d318852515766dd6246192e8474b439359860",
+              "content_sha256": "32fb8a65bf3104fef508ad2885cc2eaef5bd28a59a5c4a965d8e11f4fb05ce96",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1920,
+                1080
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                672,
+                384
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            },
+            {
+              "cache_key": "398bd8fead7105f0459081015954e676e0606f058d730cf669744b68e7c17195",
+              "content_sha256": "cdfed5a86969eee683e8eab0b6ef863cf343251c1f43ccee320350434956b6a1",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1920,
+                1080
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                672,
+                384
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            }
+          ],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "hair_color_not_reliably_visible_in_cards",
+        "evidence_note_zh": "要求pink；0/1均写dark brown/black，回看后选1；历史文字说1改red。",
+        "visual_review_note_zh": "未人工看帧；只依据输出可确定颜色证据不足，不能证明渲染错误。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004493/worker_result.json",
+      "worker_result_sha256": "6971a127bd42bc8da57e199a97baeed54e4fc9b7f601362b48a1b999c94f7791"
+    },
+    {
+      "sample_id": "selection_v3_test_0004794",
+      "selection_axis": "camera",
+      "expected_source_video_id": 0,
+      "predicted_source_video_id": 1,
+      "public_turn": {
+        "references": [
+          {
+            "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_103.mp4",
+            "reference_id": "ref_1",
+            "type": "motion",
+            "view": ""
+          }
+        ],
+        "turn_id": 2,
+        "user_prompt": "Choose the history video captured with a low-angle full-body shot, and use that version as the baseline. Using the provided source video, apply the following edit: Please change the person's action to standing in a thoughtful pose, as demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged."
+      },
+      "private_label": {
+        "completed_edge_ids": [
+          30337
+        ],
+        "component_id": 7055,
+        "current_edge_id": 30338,
+        "current_edit_axis": "action",
+        "current_source_node_id": 7062,
+        "event_round": null,
+        "expected_edit_prompt": "Using the provided source video, apply the following edit: Please change the person's action to standing in a thoughtful pose, as demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+        "expected_source_video_id": 0,
+        "explicit_history_textual_clue": false,
+        "history_node_ids": [
+          7062,
+          7066
+        ],
+        "history_recomposed": false,
+        "history_topology": "linear",
+        "origin": "history_selection_v3_existing_text_only_selection",
+        "original_split": "test",
+        "public_sha256": "730970b9ba6ba7452ceeb8765a4d49f0b3a64a40f9d5ad2c14a7724451378c42",
+        "reference_purpose": "editing_only",
+        "sample_id": "selection_v3_test_0004794",
+        "selection_axis": "camera",
+        "selection_kind": "content_description_match",
+        "target_node_id": 7070,
+        "target_video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7070.mp4"
+      },
+      "observed_history": [
+        {
+          "parent_id": null,
+          "references": [],
+          "user_prompt": null,
+          "video_id": 0,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7062.mp4",
+          "observed": {
+            "identity": "A 3D-rendered adult male with a medium-brown complexion, short dark hair, and a short beard.",
+            "hairstyle": "Short, dark hair with a small top-knot or bun at the crown.",
+            "hair_color": "Dark brown to black.",
+            "clothing": "A light blue and white plaid button-up shirt with rolled sleeves, brown leather suspenders, dark grey plaid trousers, and black shoes.",
+            "action": "The man stands on an asphalt road, initially looking to his left, then turns to face forward and raises his right hand to touch his chest and neck area before lowering it and turning his head back to the left.",
+            "camera": "A static, low-angle full-body shot capturing the character from head to toe.",
+            "scene": "An outdoor urban setting on a paved road beneath a large concrete overpass or bridge structure, with a metal railing, red and yellow striped bollards, and a blue sky with light clouds in the background."
+          },
+          "uncertain": [],
+          "observation_identity": "2a68133c4f364559205ab763ae79e3cfa19886df029cb9e564d4466bd26e96ea"
+        },
+        {
+          "parent_id": 0,
+          "references": [
+            {
+              "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_bc46afe81fdeecaacb645d1b7e92d4fe0a0bd15f062b5aadbf6cbdd9a85438c8.png",
+              "reference_id": "ref_1",
+              "type": "camera",
+              "view": "first_frame"
+            }
+          ],
+          "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body orbit shot that starts in front, circles the person through 360 degrees, and returns to the front view. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+          "video_id": 1,
+          "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7066.mp4",
+          "observed": {
+            "identity": "A 3D-rendered adult male character with a medium-brown complexion, short facial hair, and a high ponytail.",
+            "hairstyle": "Dark hair pulled back into a high ponytail with short sides.",
+            "hair_color": "Dark brown or black.",
+            "clothing": "Light blue and white plaid button-up shirt with rolled sleeves, brown leather suspenders, dark plaid trousers, and dark shoes.",
+            "action": "The character stands in an open paved area and slowly rotates in place, turning from facing the camera to a side profile, then to a back view, and finally back to the front.",
+            "camera": "A low-angle, full-body shot that remains at a consistent distance while the character rotates, keeping him centered in the frame.",
+            "scene": "An outdoor paved lot or road under a concrete overpass, with guardrails, trees, and road signs visible in the background under a bright sky."
+          },
+          "uncertain": [],
+          "observation_identity": "fbdf5bb4c440ec5bea0ca08ec400cbcb7b7ea82e365da858dc75763d0f435a00"
+        }
+      ],
+      "actual_request": {
+        "editing_corrections": 0,
+        "editing_model_calls": 1,
+        "inspected_video_ids": [
+          0,
+          1
+        ],
+        "prompt": "Change the person's action to standing in a thoughtful pose, as demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+        "reference_ids": [
+          "ref_1"
+        ],
+        "selection_corrections": 0,
+        "selection_model_calls": 2,
+        "source_video_id": 1
+      },
+      "inspected_video_ids": [
+        0,
+        1
+      ],
+      "inspected_expected_video": true,
+      "selection_calls": [
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004794/decision/select_call_00.json",
+          "sha256": "7ddf3ef35bbbbc71c3610a1616c90e109107cf2fb02d75b8afa342d045530130",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=inspect_history>\n<parameter=video_ids>\n[0, 1]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "video_ids": [
+                0,
+                1
+              ]
+            },
+            "name": "inspect_history"
+          },
+          "media": [],
+          "validation_error": null
+        },
+        {
+          "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004794/decision/select_call_01.json",
+          "sha256": "1190bab09d875d5e96524598c514c10750b2cae051289786d53d43905c740bee",
+          "status": "valid",
+          "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+          "parsed_call": {
+            "arguments": {
+              "source_video_id": 1
+            },
+            "name": "select_source_video"
+          },
+          "media": [
+            {
+              "cache_key": "a458c6be07a67b08b6822bfc416effe3d8b89731fd9a50269ce9bed8b796de3f",
+              "content_sha256": "064d925b551531dffae719e89a6289e3a9910c98d17122955009ba01f6a813c6",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1920,
+                1080
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                672,
+                384
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            },
+            {
+              "cache_key": "782aa0272afc756715f67d3b6424aa27e2ae1a9dc7043ca72c93efacdfb85913",
+              "content_sha256": "c0d27e30d139bde51fcc21122d258aed92d305bb58ce2c970a3842137435df92",
+              "duration": 10.0,
+              "fps": 30.0,
+              "frames_indices": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100,
+                120,
+                140,
+                159,
+                179,
+                199,
+                219,
+                239,
+                259,
+                279,
+                299
+              ],
+              "kind": "video",
+              "original_hw": [
+                1920,
+                1080
+              ],
+              "profile": {
+                "frames": 16,
+                "kind": "video",
+                "pixel_budget": 264192,
+                "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+                "sampling": "linspace_round",
+                "version": 1
+              },
+              "resized_hw": [
+                672,
+                384
+              ],
+              "role": "history",
+              "total_num_frames": 300
+            }
+          ],
+          "validation_error": null
+        }
+      ],
+      "analysis": {
+        "primary_observed_pattern": "camera_description_multiple_plausible_matches",
+        "evidence_note_zh": "要求low-angle full-body，0/1两张卡均明确满足；0static，1角色旋转/历史记录为360°orbit。回看后选1。",
+        "visual_review_note_zh": "未人工看帧；题面没有写static，存在与1161同类的字面多候选风险，但尚未视觉确认。",
+        "frame_review_performed": false,
+        "causal_status": "diagnostic_hypothesis_not_proven_internal_model_cause"
+      },
+      "frame_evidence": [],
+      "worker_result_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/understanding/cases/selection_v3_test_0004794/worker_result.json",
+      "worker_result_sha256": "f9f698c941770ea2a0e68d693cf99ed46456d5d8f145ba14cfbe55853f62eaa4"
+    }
+  ],
+  "limits": [
+    "All500 content-description questions in this frozen set concern camera or hair_color only; other attribute selection is not measured here.",
+    "Tool-format invalid calls were corrected within the fixed policy; final16 mismatches are semantic/label disagreements, not malformed source-ID values.",
+    "Cards are observations, private labels reflect authored graph/source metadata; disagreement is not proof of either side being wrong.",
+    "One low-angle example admits multiple visually plausible matches; score remains unchanged984/1000.",
+    "No source files, labels, prompts, code, GPU models or jobs were modified.",
+    "Closed-loop generation drift is not the explanation here: this understanding test uses existing true history videos."
+  ]
+}
