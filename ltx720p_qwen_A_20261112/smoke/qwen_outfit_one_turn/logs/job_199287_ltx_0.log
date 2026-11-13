@@ -1,0 +1,41 @@
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/runtime/envs/trainer/lib/python3.12/site-packages/colour/utilities/verbose.py:340: ColourUsageWarning: "Matplotlib" related API features are not available: "No module named 'matplotlib'".
+See the installation guide for more information: https://www.colour-science.org/installation-guide/
+  warn(*args, **kwargs)
+INFO     Building transformer with attention backends -- self:       model.py:84
+         SDPA[CUDNN_ATTENTION>FLASH_ATTENTION>EFFICIENT_ATTENTION>MA            
+         TH], masked:                                                           
+         SDPA[CUDNN_ATTENTION>FLASH_ATTENTION>EFFICIENT_ATTENTION>MA            
+         TH]                                                                    
+{"event": "ready", "queue": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/smoke/qwen_outfit_one_turn/queues/job_199287_pair_0", "identity": "9200db9c4423e82e86cc707ee621b4093d8783a26eb4da94a50a0a892964c8e0"}
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:10<06:47, 10.46s/it]  5%|▌         | 2/40 [00:20<06:31, 10.30s/it]  8%|▊         | 3/40 [00:30<06:19, 10.26s/it] 10%|█         | 4/40 [00:41<06:08, 10.24s/it] 12%|█▎        | 5/40 [00:51<05:58, 10.24s/it] 15%|█▌        | 6/40 [01:01<05:48, 10.24s/it] 18%|█▊        | 7/40 [01:11<05:38, 10.24s/it] 20%|██        | 8/40 [01:22<05:27, 10.25s/it] 22%|██▎       | 9/40 [01:32<05:17, 10.25s/it] 25%|██▌       | 10/40 [01:42<05:07, 10.25s/it] 28%|██▊       | 11/40 [01:52<04:57, 10.25s/it] 30%|███       | 12/40 [02:03<04:47, 10.25s/it] 32%|███▎      | 13/40 [02:13<04:36, 10.26s/it] 35%|███▌      | 14/40 [02:23<04:26, 10.26s/it] 38%|███▊      | 15/40 [02:33<04:16, 10.26s/it] 40%|████      | 16/40 [02:44<04:06, 10.26s/it] 42%|████▎     | 17/40 [02:54<03:55, 10.26s/it] 45%|████▌     | 18/40 [03:04<03:45, 10.26s/it] 48%|████▊     | 19/40 [03:14<03:35, 10.26s/it] 50%|█████     | 20/40 [03:25<03:25, 10.26s/it] 52%|█████▎    | 21/40 [03:35<03:14, 10.26s/it] 55%|█████▌    | 22/40 [03:45<03:04, 10.26s/it] 57%|█████▊    | 23/40 [03:55<02:54, 10.26s/it] 60%|██████    | 24/40 [04:06<02:44, 10.26s/it] 62%|██████▎   | 25/40 [04:16<02:33, 10.26s/it] 65%|██████▌   | 26/40 [04:26<02:23, 10.26s/it] 68%|██████▊   | 27/40 [04:36<02:13, 10.26s/it] 70%|███████   | 28/40 [04:47<02:03, 10.26s/it] 72%|███████▎  | 29/40 [04:57<01:52, 10.26s/it] 75%|███████▌  | 30/40 [05:07<01:42, 10.26s/it] 78%|███████▊  | 31/40 [05:18<01:32, 10.26s/it] 80%|████████  | 32/40 [05:28<01:22, 10.26s/it] 82%|████████▎ | 33/40 [05:38<01:11, 10.26s/it] 85%|████████▌ | 34/40 [05:48<01:01, 10.26s/it] 88%|████████▊ | 35/40 [05:59<00:51, 10.26s/it] 90%|█████████ | 36/40 [06:09<00:41, 10.25s/it] 92%|█████████▎| 37/40 [06:19<00:30, 10.25s/it] 95%|█████████▌| 38/40 [06:29<00:20, 10.25s/it] 98%|█████████▊| 39/40 [06:40<00:10, 10.26s/it]100%|██████████| 40/40 [06:50<00:00, 10.25s/it]100%|██████████| 40/40 [06:50<00:00, 10.26s/it]
+INFO     Building video decoder from                        video_decoder.py:152
+         /scratch/prj0000000275/jcy/xks/DataMake/10_researc                     
+         h/model_experiments/ltx2.5/runtime/models/LTX-2.5-                     
+         native/vae/ltx-2.5-video-vae-conv-bf16.safetensors                     
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.12it/s]100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+INFO     Video saved to                                            encode.py:273
+         /scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_202              
+         61112/smoke/qwen_outfit_one_turn/cases/smoke_720p_A_outfi              
+         t/turn_01/generation/edited.partial.mp4                                
+{"event": "response", "request_id": "edit_ee8a6217d304fa0ac30c94f6", "status": "ok", "video_path": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/smoke/qwen_outfit_one_turn/cases/smoke_720p_A_outfit/turn_01/generation/edited.mp4", "timings": {"encoding_seconds": 15.624621632508934, "denoise_seconds": 410.7095285868272, "decode_seconds": 2.8779061501845717, "total_seconds": 429.2208891278133}, "error": null}
+nanobind: leaked 2 instances!
+ - leaked instance 0x15521eba51a8 of type "OpenImageIO.OpenImageIO.TypeDesc"
+ - leaked instance 0x15521eba51c8 of type "OpenImageIO.OpenImageIO.TypeDesc"
+nanobind: leaked 3 types!
+ - leaked type "OpenImageIO.OpenImageIO.TypeDesc"
+ - leaked type "OpenImageIO.OpenImageIO.ImageSpec"
+ - leaked type "BASETYPE"
+nanobind: leaked 114 functions!
+ - leaked function ""
+ - leaked function ""
+ - leaked function "serialize"
+ - leaked function "tile_bytes"
+ - leaked function ""
+ - leaked function ""
+ - leaked function ""
+ - leaked function "pixel_bytes"
+ - leaked function "__eq__"
+ - leaked function "__init__"
+ - ... skipped remainder
+nanobind: this is likely caused by a reference counting issue in the binding code.
+See https://nanobind.readthedocs.io/en/latest/refleaks.html

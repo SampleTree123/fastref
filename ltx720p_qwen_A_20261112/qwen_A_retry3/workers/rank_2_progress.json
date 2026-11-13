@@ -1,0 +1,11 @@
+{
+  "selected": 3,
+  "ok": 2,
+  "errors": [
+    {
+      "id": "test_chain_12727",
+      "error": "Chain failed: Turn 4 did not fulfill the edit after 4 generation attempts"
+    }
+  ],
+  "last_id": "test_chain_12157"
+}

@@ -1,0 +1,67 @@
+{
+  "version": "96a5943a41428806db59c52b616eba940cc8885dae80aaac0857ccb9556dc39c",
+  "config": {
+    "schema": "datamake_editing_agent_v1",
+    "version": "editing_agent_v4_ltx720p_A_retry3",
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "seed": 42,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "max_corrections": 1,
+    "observe_edit_references": false,
+    "observe_review_references": true,
+    "max_generation_retries": 3,
+    "qwen_max_new_tokens": 1536,
+    "ltx": {
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "steps": 40,
+      "cfg_scale": 3.0,
+      "stg_scale": 1.0,
+      "guidance_rescale": 0.7,
+      "stg_blocks": [
+        28
+      ],
+      "ref_cfg": 1.0
+    },
+    "evaluation": {
+      "closed_loop_chains": 12,
+      "source_dataset": "editing_agent_v1/chains_test.jsonl",
+      "qwen_training": false,
+      "maximum_generation_attempts_per_turn": 4,
+      "failed_chain_policy": "stop_this_chain_continue_other_cases"
+    }
+  },
+  "code": {
+    "audit_runtime.py": "c4aa0565afe31a6a6a7c0c82afd8eae379477cd0267afc557bf1c5cb48ba97f0",
+    "build_dataset.py": "dc0206459b05be440fb2079829e4ff9bf8d31f3692d867541fa4cd9d906752d2",
+    "contracts.py": "a3987d417b662ccd4bf938f68267b1da63d9458fe0a71e85e7354a4c6870ecf3",
+    "freeze.py": "44ac35c86a5d2aa06950c1c3a6612ea9a20a10d767b7d8361101eec215341821",
+    "handoff.py": "8334e1aadce5e14e8d6eab5b1e2552836d19417adc4bc4e9fe37eac1ac45ed63",
+    "harness.py": "60fe062dfa90d87a90e557c4b7f7528ea5e5fe665975c1b83ff51b0fc2f813d9",
+    "launch_allocation.py": "c3149603021b1b5fe0ed756e5246acc41a8ff914ae84629da1f94b6e4ca8ff88",
+    "queue_client.py": "5c4d6c7a6f5a0976ae7b0784c4021c860442af2218ee3281f892bad152fdae1e",
+    "qwen_backend.py": "7b57cc0fb62b635f608597af9e6f324ee6fb761a6a571647237026fb7315b7f9",
+    "report.py": "d673b70f384c19c099b98c262e4a92c718f0e763d76eea7d28c54a4ce33daf7d",
+    "reuse_editor.py": "2e82f4d1a2250535436ee4aafc97af46346ccb360c45e81cce6665ab8836a02f",
+    "run_campaign.py": "cfd0427e0eb8ec8ef8a0ade7f3463e0ac36b354848cbe1bbebc4d9c6d5e0f966",
+    "run_worker.py": "204f6bf96e847469c00cee893b1301c5ca2a7472630fb406774013fa35fe6134",
+    "test_audit_runtime.py": "3d46ea095dbec8be4a7c80bda379f4f036ffe233207e5120050322936ee6e3a5",
+    "test_campaign.py": "2323c77c70c23ae16299232a839ef0a2177f37b2b782fa3ecf068dc132d7159d",
+    "test_dataset.py": "f7d5188a86df4d9c6be4b33b80a24428f1a2050c1923e3828f91dcd061de41ba",
+    "test_handoff.py": "5b1d742f8dc95ff33afc07aa8273f3df63a36a73a7a0c0eb4404f19d480508cc",
+    "test_harness.py": "c96b45f98f790913ce9100c0c62cb57eaf53cd859920f0b854e4c2e77587d757",
+    "test_queue.py": "dbc881ee533054c5857b8dbc84288da021df5dbea92f94680ad62632e4a062eb",
+    "test_report.py": "b546b9b6ad1035089de4554e3844a7d35b8897173ab5fdc0ef663b73bfa5f5f2",
+    "test_reuse_editor.py": "b49571e84db79354815b26cb265849f9f797f5857c02cbb345483ab229ae22ad"
+  },
+  "prompts": {
+    "configs/editing_agent/prompts/edit.txt": "49fe96fda1840f4c6e02beff5ad8725a5e9f22b0b3c1e220695c3c25fce5fd90",
+    "configs/editing_agent/prompts/observe.txt": "31892b22374e529feae1baa15c675cb08c235339ce21014a6e24fb8248accb0a",
+    "configs/editing_agent/prompts/select.txt": "f6016977cda91724bbd694d0c67e2a820f003689da9d5b94d2da7bfeb3e387a4",
+    "configs/editing_agent/prompts/review.txt": "18671ccfbe5e8fa27cc5b18ba370053c45e6db40c192de4a717f6f0c2bf64a0d"
+  },
+  "dataset_sha256": "7ae8dfe2e8ceeacceaae12575346b13f3a8936892655ca6bfbd0d15cd8787b03",
+  "mode": "closed_loop",
+  "development_generation_reuse": null
+}

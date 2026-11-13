@@ -1,0 +1,20 @@
+{
+  "selected": 3,
+  "ok": 0,
+  "errors": [
+    {
+      "id": "test_chain_12483",
+      "error": "Chain failed: Turn 1 did not fulfill the edit after 4 generation attempts"
+    },
+    {
+      "id": "test_chain_13427",
+      "error": "Chain failed: Turn 2 did not fulfill the edit after 4 generation attempts"
+    },
+    {
+      "id": "test_chain_13820",
+      "error": "Chain failed: Turn 1 did not fulfill the edit after 4 generation attempts"
+    }
+  ],
+  "seconds": 5698.094454006292,
+  "version": "96a5943a41428806db59c52b616eba940cc8885dae80aaac0857ccb9556dc39c"
+}

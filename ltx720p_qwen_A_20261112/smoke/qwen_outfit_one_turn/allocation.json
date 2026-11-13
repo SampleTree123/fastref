@@ -1,0 +1,67 @@
+{
+  "mode": "closed_loop",
+  "job": "199287",
+  "started_unix": 1794440225.990304,
+  "status": "finished_workers",
+  "dataset": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/editing_agent_v1/smoke_720p_A_outfit_one_turn.jsonl",
+  "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/ltx720p_A_retry3.json",
+  "gpus": 2,
+  "limit": null,
+  "children": [
+    {
+      "kind": "ltx",
+      "rank": 0,
+      "device": "1",
+      "pid": 3618522,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/smoke/qwen_outfit_one_turn/queues/job_199287_pair_0",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+        "--steps",
+        "40",
+        "--ref-cfg",
+        "1.0"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 0,
+      "device": "0",
+      "pid": 3618523,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "closed_loop",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/editing_agent_v1/smoke_720p_A_outfit_one_turn.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/ltx720p_A_retry3.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/smoke/qwen_outfit_one_turn",
+        "--rank",
+        "0",
+        "--world-size",
+        "1",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/smoke/qwen_outfit_one_turn/queues/job_199287_pair_0"
+      ]
+    }
+  ],
+  "qwen_exit_codes": [
+    0
+  ],
+  "case_counts": {
+    "selected": 1,
+    "ok": 1,
+    "errors": 0
+  },
+  "ended_unix": 1794440792.0827131
+}

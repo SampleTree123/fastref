@@ -1,0 +1,48 @@
+{
+  "expected_cases": 12,
+  "cases_ok": 4,
+  "cases_error": 8,
+  "cases_pending": 0,
+  "route_correct": 27,
+  "route_attempted": 27,
+  "route_total_expected": 39,
+  "format_calls": 191,
+  "format_invalid_calls": 1,
+  "generation_attempts": 62,
+  "rejected_generation_attempts": 43,
+  "accepted_after_retry": 5,
+  "failed_after_all_retries": 8,
+  "interpretation": "Understanding: exact source-ID accuracy. Generated chains: intended-route agreement only; inspect actual outputs when attributes drift.",
+  "groups": {
+    "normal_continue": {
+      "total": 30,
+      "attempted": 23,
+      "correct": 23
+    },
+    "content_description_match": {
+      "total": 2,
+      "attempted": 0,
+      "correct": 0
+    },
+    "event_before": {
+      "total": 2,
+      "attempted": 0,
+      "correct": 0
+    },
+    "explicit_id": {
+      "total": 2,
+      "attempted": 2,
+      "correct": 2
+    },
+    "event_after": {
+      "total": 3,
+      "attempted": 2,
+      "correct": 2
+    }
+  },
+  "accuracy_over_all_expected": 0.6923076923076923,
+  "agreement_over_attempted": 1.0,
+  "all_cases_finished": true,
+  "all_cases_succeeded": false,
+  "route_metric": "planned_route_agreement"
+}
