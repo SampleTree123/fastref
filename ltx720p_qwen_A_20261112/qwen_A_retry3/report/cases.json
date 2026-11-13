@@ -1,0 +1,316 @@
+[
+  {
+    "id": "test_chain_13332",
+    "status": "error",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 0,
+        "predicted": null,
+        "match": false
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": null,
+        "match": false
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": null,
+        "match": false
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 4,
+        "predicted": null,
+        "match": false
+      }
+    ],
+    "error": "Chain failed: Turn 1 did not fulfill the edit after 4 generation attempts"
+  },
+  {
+    "id": "test_chain_12483",
+    "status": "error",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": null,
+        "match": false
+      },
+      {
+        "kind": "event_before",
+        "expected": 1,
+        "predicted": null,
+        "match": false
+      }
+    ],
+    "error": "Chain failed: Turn 1 did not fulfill the edit after 4 generation attempts"
+  },
+  {
+    "id": "test_chain_12727",
+    "status": "error",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 3,
+        "predicted": 3,
+        "match": true
+      }
+    ],
+    "error": "Chain failed: Turn 4 did not fulfill the edit after 4 generation attempts"
+  },
+  {
+    "id": "test_chain_12647",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13731",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_13427",
+    "status": "error",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": null,
+        "match": false
+      }
+    ],
+    "error": "Chain failed: Turn 2 did not fulfill the edit after 4 generation attempts"
+  },
+  {
+    "id": "test_chain_13108",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "explicit_id",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": 2,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12804",
+    "status": "error",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "content_description_match",
+        "expected": 0,
+        "predicted": null,
+        "match": false
+      }
+    ],
+    "error": "Chain failed: Turn 2 did not fulfill the edit after 4 generation attempts"
+  },
+  {
+    "id": "test_chain_14265",
+    "status": "error",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 2,
+        "predicted": null,
+        "match": false
+      }
+    ],
+    "error": "Chain failed: Turn 2 did not fulfill the edit after 4 generation attempts"
+  },
+  {
+    "id": "test_chain_13820",
+    "status": "error",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": null,
+        "match": false
+      },
+      {
+        "kind": "event_before",
+        "expected": 1,
+        "predicted": null,
+        "match": false
+      }
+    ],
+    "error": "Chain failed: Turn 1 did not fulfill the edit after 4 generation attempts"
+  },
+  {
+    "id": "test_chain_12157",
+    "status": "ok",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      }
+    ]
+  },
+  {
+    "id": "test_chain_12991",
+    "status": "error",
+    "turns": [
+      {
+        "kind": "normal_continue",
+        "expected": 0,
+        "predicted": 0,
+        "match": true
+      },
+      {
+        "kind": "normal_continue",
+        "expected": 1,
+        "predicted": 1,
+        "match": true
+      },
+      {
+        "kind": "event_after",
+        "expected": 1,
+        "predicted": null,
+        "match": false
+      }
+    ],
+    "error": "Chain failed: Turn 2 did not fulfill the edit after 4 generation attempts"
+  }
+]

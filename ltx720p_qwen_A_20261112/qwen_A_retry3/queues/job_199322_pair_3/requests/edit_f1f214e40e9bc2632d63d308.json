@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_f1f214e40e9bc2632d63d308",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_12991/turn_01/generation/edited.mp4",
+  "prompt": "Change the video's camera setup to a high-angle full-body shot looking down from a front three-quarter view. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the described camera setup and movement, and preserve the timing and progression of the action in the source video. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_13abd20858851fa8e00bc3fcd8dbbd351c89e3441a856068f47a55c66e564df6.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_12991/turn_02/retries/retry_01/generation",
+  "seed": 43
+}

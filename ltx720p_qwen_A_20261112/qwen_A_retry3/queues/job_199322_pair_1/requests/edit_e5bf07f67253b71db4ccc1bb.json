@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_e5bf07f67253b71db4ccc1bb",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6061.mp4",
+  "prompt": "Change the person's identity to match the person in the reference photo. Use the reference photo only to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body. Retain the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/identity/identities/identity_11.png",
+      "reference_id": "ref_1",
+      "type": "identity",
+      "view": "front"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_12483/turn_01/generation",
+  "seed": 42
+}

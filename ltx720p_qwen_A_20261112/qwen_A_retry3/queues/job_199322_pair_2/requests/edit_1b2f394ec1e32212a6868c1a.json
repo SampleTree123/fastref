@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_1b2f394ec1e32212a6868c1a",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6231.mp4",
+  "prompt": "Change the person's hairstyle to the one shown in the reference images, using the references only for the hairstyle shape. Preserve the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_71.png",
+      "reference_id": "ref_1",
+      "type": "hair",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_21.png",
+      "reference_id": "ref_2",
+      "type": "hair",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_12157/turn_01/generation",
+  "seed": 42
+}

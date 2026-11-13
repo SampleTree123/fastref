@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_dfcc8dfc75a70efa72b85c01",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_13731/turn_02/retries/retry_03/generation/edited.mp4",
+  "prompt": "Change the person's hair color from black to pink. Preserve the person's identity, hairstyle, and all other aspects of the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_13731/turn_03/generation",
+  "seed": 42
+}

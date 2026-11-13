@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_de1d8bb8a87b78140f4ba31f",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_13731/turn_01/retries/retry_01/generation/edited.mp4",
+  "prompt": "Restyle the person's hair to match the hairstyle shown in the reference images, using the front view for the front-facing shape and the back view for the back-facing shape. Transfer only the hairstyle; do not adopt the reference person's facial features, hair color, or clothing. Preserve the person's original hair color and all other elements of the current video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_37.png",
+      "reference_id": "ref_1",
+      "type": "hair",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_84.png",
+      "reference_id": "ref_2",
+      "type": "hair",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_13731/turn_02/retries/retry_03/generation",
+  "seed": 45
+}

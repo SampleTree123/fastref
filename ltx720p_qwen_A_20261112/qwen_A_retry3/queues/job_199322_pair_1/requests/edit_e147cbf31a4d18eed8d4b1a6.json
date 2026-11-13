@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_e147cbf31a4d18eed8d4b1a6",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6801.mp4",
+  "prompt": "Replace the person's entire outfit with the top, skirt, and footwear shown in the reference images. The first reference image shows the front view of the complete target outfit, and the second shows its back view. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects of the person and scene unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_891.png",
+      "reference_id": "ref_1",
+      "type": "outfit",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_892.png",
+      "reference_id": "ref_2",
+      "type": "outfit",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_13427/turn_01/generation",
+  "seed": 42
+}

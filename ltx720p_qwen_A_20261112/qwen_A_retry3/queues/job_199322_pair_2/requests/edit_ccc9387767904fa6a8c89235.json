@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_ccc9387767904fa6a8c89235",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_12727/turn_02/retries/retry_03/generation/edited.mp4",
+  "prompt": "Change the video's camera setup to a close-up shot of the person's face from the front. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Preserve the timing and progression of the action in the source video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_e7cf4a47d3edc3e7d52396f392ea204edf0dceef3edb59cf0cc5f42ef7c91f6f.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_12727/turn_03/generation",
+  "seed": 42
+}

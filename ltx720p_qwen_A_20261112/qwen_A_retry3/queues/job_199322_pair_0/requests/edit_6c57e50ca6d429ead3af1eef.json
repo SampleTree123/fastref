@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_6c57e50ca6d429ead3af1eef",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7160.mp4",
+  "prompt": "Replace the person's current red hair color with white. Preserve the person's identity, hair shape, and all other aspects of the video unchanged.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/cases/test_chain_13332/turn_01/retries/retry_03/generation",
+  "seed": 45
+}
