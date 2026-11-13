@@ -1,0 +1,208 @@
+{
+  "mode": "closed_loop",
+  "job": "199322",
+  "started_unix": 1794461570.7118447,
+  "status": "finished_with_case_errors",
+  "dataset": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/editing_agent_v1/chains_720p_A_subset_20261112.jsonl",
+  "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/ltx720p_A_retry3.json",
+  "gpus": 8,
+  "limit": null,
+  "children": [
+    {
+      "kind": "ltx",
+      "rank": 0,
+      "device": "1",
+      "pid": 355153,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/queues/job_199322_pair_0",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+        "--steps",
+        "40",
+        "--ref-cfg",
+        "1.0"
+      ]
+    },
+    {
+      "kind": "ltx",
+      "rank": 1,
+      "device": "3",
+      "pid": 355154,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/queues/job_199322_pair_1",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+        "--steps",
+        "40",
+        "--ref-cfg",
+        "1.0"
+      ]
+    },
+    {
+      "kind": "ltx",
+      "rank": 2,
+      "device": "5",
+      "pid": 355157,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/queues/job_199322_pair_2",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+        "--steps",
+        "40",
+        "--ref-cfg",
+        "1.0"
+      ]
+    },
+    {
+      "kind": "ltx",
+      "rank": 3,
+      "device": "7",
+      "pid": 355160,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/queues/job_199322_pair_3",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+        "--steps",
+        "40",
+        "--ref-cfg",
+        "1.0"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 0,
+      "device": "0",
+      "pid": 355164,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "closed_loop",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/editing_agent_v1/chains_720p_A_subset_20261112.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/ltx720p_A_retry3.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3",
+        "--rank",
+        "0",
+        "--world-size",
+        "4",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/queues/job_199322_pair_0"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 1,
+      "device": "2",
+      "pid": 355169,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "closed_loop",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/editing_agent_v1/chains_720p_A_subset_20261112.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/ltx720p_A_retry3.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3",
+        "--rank",
+        "1",
+        "--world-size",
+        "4",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/queues/job_199322_pair_1"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 2,
+      "device": "4",
+      "pid": 355172,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "closed_loop",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/editing_agent_v1/chains_720p_A_subset_20261112.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/ltx720p_A_retry3.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3",
+        "--rank",
+        "2",
+        "--world-size",
+        "4",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/queues/job_199322_pair_2"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 3,
+      "device": "6",
+      "pid": 355178,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "closed_loop",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/editing_agent_v1/chains_720p_A_subset_20261112.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/editing_agent/ltx720p_A_retry3.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3",
+        "--rank",
+        "3",
+        "--world-size",
+        "4",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_20261112/qwen_A_retry3/queues/job_199322_pair_3"
+      ]
+    }
+  ],
+  "qwen_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "case_counts": {
+    "selected": 12,
+    "ok": 4,
+    "errors": 8
+  },
+  "ended_unix": 1794469873.959357
+}
