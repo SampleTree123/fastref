@@ -1,0 +1,17 @@
+{
+  "schema": "datamake_mixed720p_campaign_v1",
+  "stages": {
+    "A_ref1": "completed",
+    "A_ref3": "completed",
+    "B_ref1": "completed",
+    "B_ref3": "completed",
+    "C_ref1": "completed",
+    "gallery": "completed",
+    "qwen_A_retry3": "finished_with_case_errors",
+    "qwen_report": "completed"
+  },
+  "status": "completed",
+  "job_id": "199322",
+  "updated_unix": 1794469874.6259103,
+  "active_stage": null
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "datamake_fixed_case_generation_v1",
+  "status": "completed",
+  "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_720p/sources.json",
+  "bundle_sha256": "a2363d94f680e4464465479ad552c86e0b0caaabc6494aa2854b0f409017b75d",
+  "weights_signature": "5d3286c4b944bdeab2ed13227ca689a27cab96de90ff36db84d2b2d5fd012e66",
+  "config_sha256": "7c46f9e5724f1801ca92c2fe0c6a7a4e442457867cd6c072fa78dea3d1b0a2be",
+  "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+  "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+  "seed": 42,
+  "steps": 40,
+  "cfg": 3.0,
+  "guidance": {
+    "cfg_scale": 3.0,
+    "stg_scale": 1.0,
+    "guidance_rescale": 0.7,
+    "stg_blocks": [
+      28
+    ],
+    "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+    "guidance_batch_size": 1,
+    "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+    "audio_guidance": false,
+    "rescale_scope": "official_full_packed_latent",
+    "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+    "ref_cfg": 3.0,
+    "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+  },
+  "sampler": "official_LTX2Scheduler_Euler",
+  "sample_uids": [
+    "ue:16120",
+    "ue:27599",
+    "ue:29758"
+  ],
+  "sample_splits": {
+    "ue:16120": "train",
+    "ue:27599": "test",
+    "ue:29758": "test"
+  },
+  "started_unix": 1794454601.6056132,
+  "results": [
+    {
+      "sample_uid": "ue:16120",
+      "split": "train",
+      "output": "case_00.mp4",
+      "seconds": 526.5549651253968,
+      "denoise_peak_allocated_bytes": 48950752768,
+      "decode_peak_allocated_bytes": 48913329664,
+      "bytes": 4197150,
+      "sha256": "81d53cd36e48c1c72a1dbc756769a0cffdfa44f0f8a74825bc38dc5613cd5a50"
+    },
+    {
+      "sample_uid": "ue:27599",
+      "split": "test",
+      "output": "case_01.mp4",
+      "seconds": 800.3010272551328,
+      "denoise_peak_allocated_bytes": 51817012736,
+      "decode_peak_allocated_bytes": 48917262336,
+      "bytes": 10954942,
+      "sha256": "1c78f6106dd3850b63ccff33482c11ec0732ee8b76ac540e5c3c860bda1f408a"
+    },
+    {
+      "sample_uid": "ue:29758",
+      "split": "test",
+      "output": "case_02.mp4",
+      "seconds": 552.9374343473464,
+      "denoise_peak_allocated_bytes": 49165497856,
+      "decode_peak_allocated_bytes": 48913590272,
+      "bytes": 2188002,
+      "sha256": "76f032c648fac343dcaf0212c172332ba1bb990b2a7d92a56e131c64a31a178c"
+    }
+  ],
+  "negative_text_encoding": {
+    "seconds": 13.286117862910032,
+    "context_shape": [
+      1,
+      1024,
+      4096
+    ],
+    "context_dtype": "torch.bfloat16",
+    "method": "official_Gemma_left_padding_feature_extractor_video_connector_no_enhancement"
+  },
+  "finished_unix": 1794456506.1630342
+}

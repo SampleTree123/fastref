@@ -1,0 +1,59 @@
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/runtime/envs/trainer/lib/python3.12/site-packages/colour/utilities/verbose.py:340: ColourUsageWarning: "Matplotlib" related API features are not available: "No module named 'matplotlib'".
+See the installation guide for more information: https://www.colour-science.org/installation-guide/
+  warn(*args, **kwargs)
+INFO     Building transformer with attention backends -- self:       model.py:84
+         SDPA[CUDNN_ATTENTION>FLASH_ATTENTION>EFFICIENT_ATTENTION>MA            
+         TH], masked:                                                           
+         SDPA[CUDNN_ATTENTION>FLASH_ATTENTION>EFFICIENT_ATTENTION>MA            
+         TH]                                                                    
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:13<08:48, 13.54s/it]  5%|▌         | 2/40 [00:26<08:18, 13.11s/it]  8%|▊         | 3/40 [00:39<08:00, 12.99s/it] 10%|█         | 4/40 [00:52<07:45, 12.93s/it] 12%|█▎        | 5/40 [01:04<07:32, 12.92s/it] 15%|█▌        | 6/40 [01:17<07:18, 12.91s/it] 18%|█▊        | 7/40 [01:30<07:05, 12.91s/it] 20%|██        | 8/40 [01:43<06:53, 12.91s/it] 22%|██▎       | 9/40 [01:56<06:40, 12.91s/it] 25%|██▌       | 10/40 [02:09<06:27, 12.91s/it] 28%|██▊       | 11/40 [02:22<06:14, 12.91s/it] 30%|███       | 12/40 [02:35<06:01, 12.92s/it] 32%|███▎      | 13/40 [02:48<05:48, 12.91s/it] 35%|███▌      | 14/40 [03:01<05:35, 12.92s/it] 38%|███▊      | 15/40 [03:14<05:22, 12.91s/it] 40%|████      | 16/40 [03:26<05:10, 12.92s/it] 42%|████▎     | 17/40 [03:39<04:57, 12.92s/it] 45%|████▌     | 18/40 [03:52<04:44, 12.92s/it] 48%|████▊     | 19/40 [04:05<04:31, 12.92s/it] 50%|█████     | 20/40 [04:18<04:18, 12.92s/it] 52%|█████▎    | 21/40 [04:31<04:05, 12.92s/it] 55%|█████▌    | 22/40 [04:44<03:52, 12.92s/it] 57%|█████▊    | 23/40 [04:57<03:39, 12.92s/it] 60%|██████    | 24/40 [05:10<03:26, 12.92s/it] 62%|██████▎   | 25/40 [05:23<03:13, 12.92s/it] 65%|██████▌   | 26/40 [05:36<03:00, 12.92s/it] 68%|██████▊   | 27/40 [05:49<02:47, 12.92s/it] 70%|███████   | 28/40 [06:01<02:35, 12.92s/it] 72%|███████▎  | 29/40 [06:14<02:22, 12.92s/it] 75%|███████▌  | 30/40 [06:27<02:09, 12.92s/it] 78%|███████▊  | 31/40 [06:40<01:56, 12.92s/it] 80%|████████  | 32/40 [06:53<01:43, 12.92s/it] 82%|████████▎ | 33/40 [07:06<01:30, 12.92s/it] 85%|████████▌ | 34/40 [07:19<01:17, 12.92s/it] 88%|████████▊ | 35/40 [07:32<01:04, 12.92s/it] 90%|█████████ | 36/40 [07:45<00:51, 12.92s/it] 92%|█████████▎| 37/40 [07:58<00:38, 12.92s/it] 95%|█████████▌| 38/40 [08:11<00:25, 12.92s/it] 98%|█████████▊| 39/40 [08:24<00:12, 12.91s/it]100%|██████████| 40/40 [08:36<00:00, 12.91s/it]100%|██████████| 40/40 [08:36<00:00, 12.92s/it]
+INFO     Building video decoder from                        video_decoder.py:152
+         /scratch/prj0000000275/jcy/xks/DataMake/10_researc                     
+         h/model_experiments/ltx2.5/runtime/models/LTX-2.5-                     
+         native/vae/ltx-2.5-video-vae-conv-bf16.safetensors                     
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.02s/it]100%|██████████| 1/1 [00:02<00:00,  2.51s/it]
+INFO     Video saved to                                            encode.py:273
+         /scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_202              
+         61112/B_ref3/gpu_01/case_00.mp4                                        
+{"sample_uid": "ue:14184", "split": "train", "output": "case_00.mp4", "seconds": 521.172147792764, "denoise_peak_allocated_bytes": 48950752768, "decode_peak_allocated_bytes": 48913329664, "bytes": 5547117, "sha256": "e494455bcfa8ba17ec92dce677a828eba35e321d59186097d5b924b4d669d5b7"}
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:13<08:51, 13.64s/it]  5%|▌         | 2/40 [00:26<08:31, 13.46s/it]  8%|▊         | 3/40 [00:40<08:15, 13.40s/it] 10%|█         | 4/40 [00:53<08:01, 13.38s/it] 12%|█▎        | 5/40 [01:06<07:47, 13.36s/it] 15%|█▌        | 6/40 [01:20<07:34, 13.36s/it] 18%|█▊        | 7/40 [01:33<07:20, 13.36s/it] 20%|██        | 8/40 [01:47<07:07, 13.35s/it] 22%|██▎       | 9/40 [02:00<06:53, 13.35s/it] 25%|██▌       | 10/40 [02:13<06:40, 13.35s/it] 28%|██▊       | 11/40 [02:27<06:27, 13.35s/it] 30%|███       | 12/40 [02:40<06:13, 13.35s/it] 32%|███▎      | 13/40 [02:53<06:00, 13.35s/it] 35%|███▌      | 14/40 [03:07<05:46, 13.34s/it] 38%|███▊      | 15/40 [03:20<05:33, 13.34s/it] 40%|████      | 16/40 [03:33<05:20, 13.34s/it] 42%|████▎     | 17/40 [03:47<05:06, 13.34s/it] 45%|████▌     | 18/40 [04:00<04:53, 13.34s/it] 48%|████▊     | 19/40 [04:13<04:40, 13.34s/it] 50%|█████     | 20/40 [04:27<04:26, 13.34s/it] 52%|█████▎    | 21/40 [04:40<04:13, 13.34s/it] 55%|█████▌    | 22/40 [04:53<04:00, 13.34s/it] 57%|█████▊    | 23/40 [05:07<03:46, 13.34s/it] 60%|██████    | 24/40 [05:20<03:33, 13.34s/it] 62%|██████▎   | 25/40 [05:33<03:20, 13.34s/it] 65%|██████▌   | 26/40 [05:47<03:06, 13.34s/it] 68%|██████▊   | 27/40 [06:00<02:53, 13.33s/it] 70%|███████   | 28/40 [06:13<02:40, 13.34s/it] 72%|███████▎  | 29/40 [06:27<02:26, 13.34s/it] 75%|███████▌  | 30/40 [06:40<02:13, 13.33s/it] 78%|███████▊  | 31/40 [06:53<01:59, 13.33s/it] 80%|████████  | 32/40 [07:07<01:46, 13.33s/it] 82%|████████▎ | 33/40 [07:20<01:33, 13.33s/it] 85%|████████▌ | 34/40 [07:33<01:19, 13.33s/it] 88%|████████▊ | 35/40 [07:47<01:06, 13.32s/it] 90%|█████████ | 36/40 [08:00<00:53, 13.32s/it] 92%|█████████▎| 37/40 [08:13<00:39, 13.32s/it] 95%|█████████▌| 38/40 [08:27<00:26, 13.32s/it] 98%|█████████▊| 39/40 [08:40<00:13, 13.32s/it]100%|██████████| 40/40 [08:53<00:00, 13.32s/it]100%|██████████| 40/40 [08:53<00:00, 13.34s/it]
+INFO     Building video decoder from                        video_decoder.py:152
+         /scratch/prj0000000275/jcy/xks/DataMake/10_researc                     
+         h/model_experiments/ltx2.5/runtime/models/LTX-2.5-                     
+         native/vae/ltx-2.5-video-vae-conv-bf16.safetensors                     
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.78it/s]100%|██████████| 1/1 [00:01<00:00,  1.84s/it]
+INFO     Video saved to                                            encode.py:273
+         /scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_202              
+         61112/B_ref3/gpu_01/case_01.mp4                                        
+{"sample_uid": "ue:27118", "split": "test", "output": "case_01.mp4", "seconds": 537.2108949813992, "denoise_peak_allocated_bytes": 49165586944, "decode_peak_allocated_bytes": 48913594880, "bytes": 2237719, "sha256": "a099ff0140febe88d737289781cc09b082c3a1e89c3e61aaf9b64b9f678cce39"}
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:13<09:04, 13.97s/it]  5%|▌         | 2/40 [00:27<08:42, 13.75s/it]  8%|▊         | 3/40 [00:41<08:26, 13.69s/it] 10%|█         | 4/40 [00:54<08:11, 13.66s/it] 12%|█▎        | 5/40 [01:08<07:57, 13.64s/it] 15%|█▌        | 6/40 [01:22<07:43, 13.64s/it] 18%|█▊        | 7/40 [01:35<07:29, 13.63s/it] 20%|██        | 8/40 [01:49<07:16, 13.63s/it] 22%|██▎       | 9/40 [02:02<07:02, 13.63s/it] 25%|██▌       | 10/40 [02:16<06:48, 13.63s/it] 28%|██▊       | 11/40 [02:30<06:35, 13.62s/it] 30%|███       | 12/40 [02:43<06:21, 13.62s/it] 32%|███▎      | 13/40 [02:57<06:07, 13.62s/it] 35%|███▌      | 14/40 [03:11<05:54, 13.62s/it] 38%|███▊      | 15/40 [03:24<05:40, 13.62s/it] 40%|████      | 16/40 [03:38<05:26, 13.62s/it] 42%|████▎     | 17/40 [03:51<05:13, 13.62s/it] 45%|████▌     | 18/40 [04:05<04:59, 13.62s/it] 48%|████▊     | 19/40 [04:19<04:45, 13.62s/it] 50%|█████     | 20/40 [04:32<04:32, 13.62s/it] 52%|█████▎    | 21/40 [04:46<04:18, 13.61s/it] 55%|█████▌    | 22/40 [04:59<04:05, 13.61s/it] 57%|█████▊    | 23/40 [05:13<03:51, 13.62s/it] 60%|██████    | 24/40 [05:27<03:37, 13.61s/it] 62%|██████▎   | 25/40 [05:40<03:24, 13.62s/it] 65%|██████▌   | 26/40 [05:54<03:10, 13.62s/it] 68%|██████▊   | 27/40 [06:07<02:56, 13.61s/it] 70%|███████   | 28/40 [06:21<02:43, 13.62s/it] 72%|███████▎  | 29/40 [06:35<02:29, 13.62s/it] 75%|███████▌  | 30/40 [06:48<02:16, 13.61s/it] 78%|███████▊  | 31/40 [07:02<02:02, 13.61s/it] 80%|████████  | 32/40 [07:16<01:48, 13.61s/it] 82%|████████▎ | 33/40 [07:29<01:35, 13.61s/it] 85%|████████▌ | 34/40 [07:43<01:21, 13.61s/it] 88%|████████▊ | 35/40 [07:56<01:08, 13.61s/it] 90%|█████████ | 36/40 [08:10<00:54, 13.61s/it] 92%|█████████▎| 37/40 [08:24<00:40, 13.61s/it] 95%|█████████▌| 38/40 [08:37<00:27, 13.61s/it] 98%|█████████▊| 39/40 [08:51<00:13, 13.60s/it]100%|██████████| 40/40 [09:04<00:00, 13.60s/it]100%|██████████| 40/40 [09:04<00:00, 13.62s/it]
+INFO     Building video decoder from                        video_decoder.py:152
+         /scratch/prj0000000275/jcy/xks/DataMake/10_researc                     
+         h/model_experiments/ltx2.5/runtime/models/LTX-2.5-                     
+         native/vae/ltx-2.5-video-vae-conv-bf16.safetensors                     
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.03it/s]100%|██████████| 1/1 [00:02<00:00,  2.22s/it]
+INFO     Video saved to                                            encode.py:273
+         /scratch/prj0000000275/jcy/xks/fastref/ltx720p_qwen_A_202              
+         61112/B_ref3/gpu_01/case_02.mp4                                        
+{"sample_uid": "ue:29043", "split": "test", "output": "case_02.mp4", "seconds": 548.862756645307, "denoise_peak_allocated_bytes": 49165563392, "decode_peak_allocated_bytes": 48913590272, "bytes": 6148185, "sha256": "0d8aff5e9c914cd102f4dc0572ba11b8721d33f28ee73847c48deb7c15456217"}
+nanobind: leaked 2 instances!
+ - leaked instance 0x155428448668 of type "OpenImageIO.OpenImageIO.TypeDesc"
+ - leaked instance 0x155428448688 of type "OpenImageIO.OpenImageIO.TypeDesc"
+nanobind: leaked 3 types!
+ - leaked type "OpenImageIO.OpenImageIO.TypeDesc"
+ - leaked type "OpenImageIO.OpenImageIO.ImageSpec"
+ - leaked type "BASETYPE"
+nanobind: leaked 114 functions!
+ - leaked function "getattribute"
+ - leaked function "elementtype"
+ - leaked function "erase_attribute"
+ - leaked function ""
+ - leaked function ""
+ - leaked function ""
+ - leaked function ""
+ - leaked function ""
+ - leaked function ""
+ - leaked function ""
+ - ... skipped remainder
+nanobind: this is likely caused by a reference counting issue in the binding code.
+See https://nanobind.readthedocs.io/en/latest/refleaks.html

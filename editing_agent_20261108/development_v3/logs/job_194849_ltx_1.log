@@ -1,54 +1,0 @@
-/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/runtime/envs/trainer/lib/python3.12/site-packages/colour/utilities/verbose.py:340: ColourUsageWarning: "Matplotlib" related API features are not available: "No module named 'matplotlib'".
-See the installation guide for more information: https://www.colour-science.org/installation-guide/
-  warn(*args, **kwargs)
-INFO     Building transformer with attention backends -- self:       model.py:84
-         SDPA[CUDNN_ATTENTION>FLASH_ATTENTION>EFFICIENT_ATTENTION>MA            
-         TH], masked:                                                           
-         SDPA[CUDNN_ATTENTION>FLASH_ATTENTION>EFFICIENT_ATTENTION>MA            
-         TH]                                                                    
-{"event": "ready", "queue": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v3/queues/job_194849_pair_1", "identity": "664c6e49a34dde5bd6d0384596ce36b61c0aee8ca6d91314529b01727ab36cab"}
-  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:03<02:30,  3.87s/it]  5%|▌         | 2/40 [00:07<02:13,  3.52s/it]  8%|▊         | 3/40 [00:10<02:05,  3.40s/it] 10%|█         | 4/40 [00:13<02:00,  3.34s/it] 12%|█▎        | 5/40 [00:16<01:55,  3.31s/it] 15%|█▌        | 6/40 [00:20<01:52,  3.30s/it] 18%|█▊        | 7/40 [00:23<01:48,  3.29s/it] 20%|██        | 8/40 [00:26<01:45,  3.28s/it] 22%|██▎       | 9/40 [00:29<01:41,  3.28s/it] 25%|██▌       | 10/40 [00:33<01:38,  3.28s/it] 28%|██▊       | 11/40 [00:36<01:35,  3.28s/it] 30%|███       | 12/40 [00:39<01:31,  3.28s/it] 32%|███▎      | 13/40 [00:43<01:28,  3.27s/it] 35%|███▌      | 14/40 [00:46<01:25,  3.27s/it] 38%|███▊      | 15/40 [00:49<01:21,  3.27s/it] 40%|████      | 16/40 [00:52<01:18,  3.28s/it] 42%|████▎     | 17/40 [00:56<01:15,  3.28s/it] 45%|████▌     | 18/40 [00:59<01:12,  3.28s/it] 48%|████▊     | 19/40 [01:02<01:08,  3.28s/it] 50%|█████     | 20/40 [01:06<01:05,  3.28s/it] 52%|█████▎    | 21/40 [01:09<01:02,  3.28s/it] 55%|█████▌    | 22/40 [01:12<00:59,  3.28s/it] 57%|█████▊    | 23/40 [01:15<00:55,  3.28s/it] 60%|██████    | 24/40 [01:19<00:52,  3.28s/it] 62%|██████▎   | 25/40 [01:22<00:49,  3.28s/it] 65%|██████▌   | 26/40 [01:25<00:45,  3.28s/it] 68%|██████▊   | 27/40 [01:28<00:42,  3.28s/it] 70%|███████   | 28/40 [01:32<00:39,  3.28s/it] 72%|███████▎  | 29/40 [01:35<00:36,  3.28s/it] 75%|███████▌  | 30/40 [01:38<00:32,  3.28s/it] 78%|███████▊  | 31/40 [01:42<00:29,  3.28s/it] 80%|████████  | 32/40 [01:45<00:26,  3.28s/it] 82%|████████▎ | 33/40 [01:48<00:22,  3.28s/it] 85%|████████▌ | 34/40 [01:51<00:19,  3.28s/it] 88%|████████▊ | 35/40 [01:55<00:16,  3.28s/it] 90%|█████████ | 36/40 [01:58<00:13,  3.28s/it] 92%|█████████▎| 37/40 [02:01<00:09,  3.28s/it] 95%|█████████▌| 38/40 [02:05<00:06,  3.28s/it] 98%|█████████▊| 39/40 [02:08<00:03,  3.28s/it]100%|██████████| 40/40 [02:11<00:00,  3.28s/it]100%|██████████| 40/40 [02:11<00:00,  3.29s/it]
-INFO     Building video decoder from                        video_decoder.py:152
-         /scratch/prj0000000275/jcy/xks/DataMake/10_researc                     
-         h/model_experiments/ltx2.5/runtime/models/LTX-2.5-                     
-         native/vae/ltx-2.5-video-vae-conv-bf16.safetensors                     
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  3.71it/s]100%|██████████| 1/1 [00:00<00:00,  1.25it/s]
-INFO     Video saved to                                            encode.py:273
-         /scratch/prj0000000275/jcy/xks/DataMake/10_research/model              
-         _experiments/qwen3.8/experiments/editing_agent_20261108/d              
-         evelopment_v3/cases/debug_chain_07233/turn_02/generation/              
-         edited.partial.mp4                                                     
-{"event": "response", "request_id": "edit_8b62206bed2360ffad71e33e", "status": "ok", "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v3/cases/debug_chain_07233/turn_02/generation/edited.mp4", "timings": {"encoding_seconds": 18.382881668396294, "denoise_seconds": 131.88405122049153, "decode_seconds": 1.4917565360665321, "total_seconds": 151.76639558374882}, "error": null}
-  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:04<03:09,  4.85s/it]  5%|▌         | 2/40 [00:09<02:52,  4.53s/it]  8%|▊         | 3/40 [00:13<02:43,  4.43s/it] 10%|█         | 4/40 [00:17<02:37,  4.38s/it] 12%|█▎        | 5/40 [00:22<02:32,  4.36s/it] 15%|█▌        | 6/40 [00:26<02:27,  4.34s/it] 18%|█▊        | 7/40 [00:30<02:23,  4.34s/it] 20%|██        | 8/40 [00:35<02:18,  4.33s/it] 22%|██▎       | 9/40 [00:39<02:14,  4.33s/it] 25%|██▌       | 10/40 [00:43<02:09,  4.33s/it] 28%|██▊       | 11/40 [00:48<02:05,  4.33s/it] 30%|███       | 12/40 [00:52<02:01,  4.33s/it] 32%|███▎      | 13/40 [00:56<01:56,  4.33s/it] 35%|███▌      | 14/40 [01:00<01:52,  4.33s/it] 38%|███▊      | 15/40 [01:05<01:48,  4.33s/it] 40%|████      | 16/40 [01:09<01:43,  4.33s/it] 42%|████▎     | 17/40 [01:13<01:39,  4.33s/it] 45%|████▌     | 18/40 [01:18<01:35,  4.33s/it] 48%|████▊     | 19/40 [01:22<01:30,  4.33s/it] 50%|█████     | 20/40 [01:26<01:26,  4.33s/it] 52%|█████▎    | 21/40 [01:31<01:22,  4.32s/it] 55%|█████▌    | 22/40 [01:35<01:17,  4.32s/it] 57%|█████▊    | 23/40 [01:39<01:13,  4.32s/it] 60%|██████    | 24/40 [01:44<01:09,  4.32s/it] 62%|██████▎   | 25/40 [01:48<01:04,  4.32s/it] 65%|██████▌   | 26/40 [01:52<01:00,  4.32s/it] 68%|██████▊   | 27/40 [01:57<00:56,  4.33s/it] 70%|███████   | 28/40 [02:01<00:51,  4.33s/it] 72%|███████▎  | 29/40 [02:05<00:47,  4.32s/it] 75%|███████▌  | 30/40 [02:10<00:43,  4.33s/it] 78%|███████▊  | 31/40 [02:14<00:38,  4.33s/it] 80%|████████  | 32/40 [02:18<00:34,  4.33s/it] 82%|████████▎ | 33/40 [02:23<00:30,  4.32s/it] 85%|████████▌ | 34/40 [02:27<00:25,  4.32s/it] 88%|████████▊ | 35/40 [02:31<00:21,  4.32s/it] 90%|█████████ | 36/40 [02:36<00:17,  4.33s/it] 92%|█████████▎| 37/40 [02:40<00:12,  4.32s/it] 95%|█████████▌| 38/40 [02:44<00:08,  4.32s/it] 98%|█████████▊| 39/40 [02:49<00:04,  4.33s/it]100%|██████████| 40/40 [02:53<00:00,  4.33s/it]100%|██████████| 40/40 [02:53<00:00,  4.34s/it]
-INFO     Building video decoder from                        video_decoder.py:152
-         /scratch/prj0000000275/jcy/xks/DataMake/10_researc                     
-         h/model_experiments/ltx2.5/runtime/models/LTX-2.5-                     
-         native/vae/ltx-2.5-video-vae-conv-bf16.safetensors                     
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  3.59it/s]100%|██████████| 1/1 [00:00<00:00,  1.67it/s]
-INFO     Video saved to                                            encode.py:273
-         /scratch/prj0000000275/jcy/xks/DataMake/10_research/model              
-         _experiments/qwen3.8/experiments/editing_agent_20261108/d              
-         evelopment_v3/cases/debug_chain_07233/turn_03/generation/              
-         edited.partial.mp4                                                     
-{"event": "response", "request_id": "edit_c7d2d24adc7640a9b854f96a", "status": "ok", "video_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/development_v3/cases/debug_chain_07233/turn_03/generation/edited.mp4", "timings": {"encoding_seconds": 18.581272019073367, "denoise_seconds": 173.64000171981752, "decode_seconds": 1.2053035330027342, "total_seconds": 193.43309941142797}, "error": null}
-nanobind: leaked 2 instances!
- - leaked instance 0x15521eae5208 of type "OpenImageIO.OpenImageIO.TypeDesc"
- - leaked instance 0x15521eae51e8 of type "OpenImageIO.OpenImageIO.TypeDesc"
-nanobind: leaked 3 types!
- - leaked type "OpenImageIO.OpenImageIO.TypeDesc"
- - leaked type "OpenImageIO.OpenImageIO.ImageSpec"
- - leaked type "BASETYPE"
-nanobind: leaked 114 functions!
- - leaked function ""
- - leaked function "get"
- - leaked function "default_channel_names"
- - leaked function "basevalues"
- - leaked function ""
- - leaked function ""
- - leaked function ""
- - leaked function ""
- - leaked function ""
- - leaked function ""
- - ... skipped remainder
-nanobind: this is likely caused by a reference counting issue in the binding code.
-See https://nanobind.readthedocs.io/en/latest/refleaks.html

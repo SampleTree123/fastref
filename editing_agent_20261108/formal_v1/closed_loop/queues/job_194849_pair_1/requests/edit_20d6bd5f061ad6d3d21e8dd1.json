@@ -1,8 +1,0 @@
-{
-  "request_id": "edit_20d6bd5f061ad6d3d21e8dd1",
-  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13731/turn_02/generation/edited.mp4",
-  "prompt": "Change the person's hair color from black to pink. Preserve the person's identity, hairstyle, and all other aspects of the video.",
-  "references": [],
-  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13731/turn_03/generation",
-  "seed": 42
-}

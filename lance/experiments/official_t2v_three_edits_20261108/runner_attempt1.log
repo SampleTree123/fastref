@@ -1,9 +1,0 @@
-START round=0 task=t2v
-Traceback (most recent call last):
-  File "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/lance/experiments/official_t2v_three_edits_20261108/run_chain.py", line 66, in <module>
-    if __name__=='__main__':main()
-                            ^^^^^^
-  File "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/lance/experiments/official_t2v_three_edits_20261108/run_chain.py", line 55, in main
-    import av
-ModuleNotFoundError: No module named 'av'
-srun: error: 8FS9B74: task 0: Exited with exit code 1

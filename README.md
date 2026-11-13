@@ -1,24 +1,9 @@
-# fastref
+# fastref：当前实验结果
 
-## 2026-11-08：LTX四组最终模型对比
+更新：2026-11-13。按用户要求，仅保留最新720p实验。此前的旧分辨率LTX对比、128条Qwen编辑链和Lance测试结果已从本地删除；本次 Git 同步包含新增结果以及上述旧内容的删除。
 
-[27例完整对比网页](ltx_camera_comparison_20261108/index.html) · [参数和说明](ltx_camera_comparison_20261108/README.md)
+- [720p三模型单轮对比：27个案例](ltx720p_qwen_A_20261112/index.html)
+- [Qwen＋720p基线A多轮编辑与失败重试](ltx720p_qwen_A_20261112/qwen_A_retry3/report/index.html)
+- [实验说明](ltx720p_qwen_A_20261112/README.md)
 
-四组共108个结果位置，包含原视频、真值和参考内容。下载整个`ltx_camera_comparison_20261108/`即可离线查看。
-
-当前包含LTX四组最终模型对比、Qwen＋LTX多轮编辑结果，以及Lance官方模型实验。
-
-- [完整编辑链展示](editing_agent_20261108/formal_v1/closed_loop/report/index.html)：128条链、543轮编辑。
-- [最终报告](editing_agent_20261108/final_report.md)
-- [实验说明及过程记录](editing_agent_20261108/README.md)
-
-下载整个仓库后，打开 `editing_agent_20261108/formal_v1/closed_loop/report/index.html`。视频、图片均为实际文件，已校验副本及网页媒体引用。结果页面中的模型判断不等同于人工质量评价。
-
-旧展示目录已从当前版本移除；历史提交保留。
-
-## Lance 官方模型实验
-
-- [文生视频与三次连续编辑展示](lance/experiments/official_t2v_three_edits_20261108/index.html)
-- [实验说明](lance/experiments/official_t2v_three_edits_20261108/README.md)
-
-包含四个视频、预览图片、执行脚本和实验记录；未包含模型权重及 Python 缓存。
+下载整个`ltx720p_qwen_A_20261112/`即可保留页面、视频、参考内容和执行记录。根目录同名前缀的日志属于这次最新实验。

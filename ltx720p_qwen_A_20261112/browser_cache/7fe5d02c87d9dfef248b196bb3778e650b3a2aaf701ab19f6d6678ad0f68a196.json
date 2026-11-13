@@ -1,0 +1,20 @@
+{
+  "source": "/scratch/prj0000000275/jcy/ljy/video_collection/lance_general_edit_finetune/3_lance_lora_finetuning/artifacts/coinve_ablation_v1/media/coinve-083632_source.mp4",
+  "source_sha256": "7fe5d02c87d9dfef248b196bb3778e650b3a2aaf701ab19f6d6678ad0f68a196",
+  "source_stream": {
+    "codec_name": "mpeg4",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p"
+  },
+  "output": "f7d33f60db3441699ab92fd82b19eab00b43f9978f324b148f1cd2a89ebb2c40.mp4",
+  "output_sha256": "f7d33f60db3441699ab92fd82b19eab00b43f9978f324b148f1cd2a89ebb2c40",
+  "output_stream": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p"
+  },
+  "duration_seconds": 7.549216,
+  "purpose": "Browser presentation only; full timeline, no resizing; audio omitted."
+}

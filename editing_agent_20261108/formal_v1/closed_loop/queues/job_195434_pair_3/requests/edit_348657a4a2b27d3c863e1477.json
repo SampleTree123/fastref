@@ -1,8 +1,0 @@
-{
-  "request_id": "edit_348657a4a2b27d3c863e1477",
-  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6452.mp4",
-  "prompt": "Change the person's hair color to white. Preserve the person's identity, hair shape, and all other aspects of the video.",
-  "references": [],
-  "output_dir": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/editing_agent_20261108/formal_v1/closed_loop/cases/test_chain_13071/turn_01/generation",
-  "seed": 42
-}

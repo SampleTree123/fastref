@@ -1,0 +1,141 @@
+{
+  "schema": "datamake_mixed720p_gallery_v1",
+  "cases": 27,
+  "with_references": 19,
+  "groups": [
+    "A_ref1",
+    "A_ref3",
+    "B_ref1",
+    "B_ref3",
+    "C_ref1"
+  ],
+  "bundle_sha256": "a2363d94f680e4464465479ad552c86e0b0caaabc6494aa2854b0f409017b75d",
+  "cases_sha256": "092a600c0c7ede28e753f02a0fd938bb59a9c74850c68a71f06b89edd7b79131",
+  "html_sha256": "c70efd2c736e442e754d016c0095bcbb4a812cc50dff8c105865a7d1985a2bef",
+  "comparison_contracts": {
+    "A_ref1": {
+      "seed": 42,
+      "steps": 40,
+      "cfg": 3,
+      "guidance": {
+        "cfg_scale": 3.0,
+        "stg_scale": 1.0,
+        "guidance_rescale": 0.7,
+        "stg_blocks": [
+          28
+        ],
+        "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+        "guidance_batch_size": 1,
+        "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+        "audio_guidance": false,
+        "rescale_scope": "official_full_packed_latent",
+        "references": "same_clean_source_and_references_in_all_passes"
+      },
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_720p/sources.json",
+      "bundle_sha256": "a2363d94f680e4464465479ad552c86e0b0caaabc6494aa2854b0f409017b75d",
+      "config_sha256": "7c46f9e5724f1801ca92c2fe0c6a7a4e442457867cd6c072fa78dea3d1b0a2be",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3"
+    },
+    "A_ref3": {
+      "seed": 42,
+      "steps": 40,
+      "cfg": 3,
+      "guidance": {
+        "cfg_scale": 3.0,
+        "stg_scale": 1.0,
+        "guidance_rescale": 0.7,
+        "stg_blocks": [
+          28
+        ],
+        "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+        "guidance_batch_size": 1,
+        "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+        "audio_guidance": false,
+        "rescale_scope": "official_full_packed_latent",
+        "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+        "ref_cfg": 3.0,
+        "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+      },
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_720p/sources.json",
+      "bundle_sha256": "a2363d94f680e4464465479ad552c86e0b0caaabc6494aa2854b0f409017b75d",
+      "config_sha256": "7c46f9e5724f1801ca92c2fe0c6a7a4e442457867cd6c072fa78dea3d1b0a2be",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3"
+    },
+    "B_ref1": {
+      "seed": 42,
+      "steps": 40,
+      "cfg": 3,
+      "guidance": {
+        "cfg_scale": 3.0,
+        "stg_scale": 1.0,
+        "guidance_rescale": 0.7,
+        "stg_blocks": [
+          28
+        ],
+        "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+        "guidance_batch_size": 1,
+        "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+        "audio_guidance": false,
+        "rescale_scope": "official_full_packed_latent",
+        "references": "same_clean_source_and_references_in_all_passes"
+      },
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_720p/sources.json",
+      "bundle_sha256": "a2363d94f680e4464465479ad552c86e0b0caaabc6494aa2854b0f409017b75d",
+      "config_sha256": "5007ab11674cd62e9373c3d5a3efb436fd0b5764c393179de265a8b3a70a8ca4",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_local_visual_dropout/job_197857/checkpoints/lora_weights_step_00849.safetensors",
+      "checkpoint_sha256": "4e237629ad87649035657954c677182b205b3aad0f72c70cf1191e8800d39fbc"
+    },
+    "B_ref3": {
+      "seed": 42,
+      "steps": 40,
+      "cfg": 3,
+      "guidance": {
+        "cfg_scale": 3.0,
+        "stg_scale": 1.0,
+        "guidance_rescale": 0.7,
+        "stg_blocks": [
+          28
+        ],
+        "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+        "guidance_batch_size": 1,
+        "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+        "audio_guidance": false,
+        "rescale_scope": "official_full_packed_latent",
+        "references": "source_always_present_extra_refs_removed_in_visual_negative_pass",
+        "ref_cfg": 3.0,
+        "visual_guidance": "independent_positive_text_optional_ref_delta_before_official_rescale"
+      },
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_720p/sources.json",
+      "bundle_sha256": "a2363d94f680e4464465479ad552c86e0b0caaabc6494aa2854b0f409017b75d",
+      "config_sha256": "5007ab11674cd62e9373c3d5a3efb436fd0b5764c393179de265a8b3a70a8ca4",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_local_visual_dropout/job_197857/checkpoints/lora_weights_step_00849.safetensors",
+      "checkpoint_sha256": "4e237629ad87649035657954c677182b205b3aad0f72c70cf1191e8800d39fbc"
+    },
+    "C_ref1": {
+      "seed": 42,
+      "steps": 40,
+      "cfg": 3,
+      "guidance": {
+        "cfg_scale": 3.0,
+        "stg_scale": 1.0,
+        "guidance_rescale": 0.7,
+        "stg_blocks": [
+          28
+        ],
+        "negative_prompt": "blurry, out of focus, excessive noise, compression artifacts, flickering, jittery movement, distorted proportions, deformed facial features, extra limbs, disfigured hands, unnatural transitions, inconsistent lighting",
+        "guidance_batch_size": 1,
+        "implementation": "official_GuidedDenoiser_MultiModalGuider_BatchSplitAdapter",
+        "audio_guidance": false,
+        "rescale_scope": "official_full_packed_latent",
+        "references": "same_clean_source_and_references_in_all_passes"
+      },
+      "bundle": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/mixed/outfit_camera_720p/sources.json",
+      "bundle_sha256": "a2363d94f680e4464465479ad552c86e0b0caaabc6494aa2854b0f409017b75d",
+      "config_sha256": "c2f25c37e2b78c98d6b2a34aa9e0efe8b1cbe2c73dd14640ae4e6035195d76cf",
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_no_dropout/job_197875/checkpoints/lora_weights_step_00849.safetensors",
+      "checkpoint_sha256": "deb995a75e8d1fe37ceae2d4b9f609e3c65f8af6bf6415fb94bb8ff9ae6baa3f"
+    }
+  }
+}

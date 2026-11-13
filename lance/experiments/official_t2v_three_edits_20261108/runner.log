@@ -1,8 +1,0 @@
-START round=0 task=t2v reuse_existing=True
-DONE round=0 seconds=None
-START round=1 task=video_edit reuse_existing=False
-DONE round=1 seconds=181.11
-START round=2 task=video_edit reuse_existing=False
-DONE round=2 seconds=181.11
-START round=3 task=video_edit reuse_existing=False
-DONE round=3 seconds=180.86
