@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_c64096671a21640c7f37c9e2",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12018/turn_03/generation/edited.mp4",
+  "prompt": "Change the video's camera setup to a full-body shot from the front. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video, then follow the described front full-body camera setup and movement. Preserve the same person, hairstyle, hair color, outfit, expression, and action in the same environment, and preserve the timing and progression of the action in the source video. Only change how the camera captures the scene.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_5dbe73b9ad5aaff7c61471824223dbf5aef22ff20a5a777f695fa069ee5d53c1.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12018/turn_04/generation",
+  "seed": 42
+}

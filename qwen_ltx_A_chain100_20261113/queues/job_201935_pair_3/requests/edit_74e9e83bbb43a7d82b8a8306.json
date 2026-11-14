@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_74e9e83bbb43a7d82b8a8306",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13098/turn_01/generation/edited.mp4",
+  "prompt": "Change the person's hair color to chestnut brown. Preserve the person's identity, hair shape, and all other aspects of the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13098/turn_02/generation",
+  "seed": 42
+}

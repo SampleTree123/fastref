@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_bb20f2a2dd84828927ec0d6f",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13473/turn_03/generation/edited.mp4",
+  "prompt": "Switch the camera setup to a full-body shot from a rear three-quarter angle. Use the provided camera reference image to determine the viewing direction, subject placement, and framing at the start of the edited video, then follow the described camera setup and movement. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged, and preserve the timing and progression of the action in the source video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_5ce9d0ffb9ad03158c0f7b95c34f9275b3196e63f53c0b58f3389c1f21c02f2d.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13473/turn_04/generation",
+  "seed": 42
+}

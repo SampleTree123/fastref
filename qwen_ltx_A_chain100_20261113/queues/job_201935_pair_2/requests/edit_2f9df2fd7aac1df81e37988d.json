@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_2f9df2fd7aac1df81e37988d",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13190/turn_02/generation/edited.mp4",
+  "prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_713.png",
+      "reference_id": "ref_1",
+      "type": "outfit",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_714.png",
+      "reference_id": "ref_2",
+      "type": "outfit",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13190/turn_03/generation",
+  "seed": 42
+}

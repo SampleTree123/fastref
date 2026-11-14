@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_79fe6b55fd42d34904457d79",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12842/turn_02/generation/edited.mp4",
+  "prompt": "Change the person's action in the source video to sneezing, matching the action demonstrated in the motion reference. Transfer only the demonstrated sneezing action; do not adopt the reference person's appearance, the reference scene, or the reference camera setup. Preserve all other aspects of the current video, including the person's identity, appearance, scene, lighting, and camera framing.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_536.mp4",
+      "reference_id": "ref_1",
+      "type": "motion",
+      "view": ""
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12842/turn_03/generation",
+  "seed": 42
+}

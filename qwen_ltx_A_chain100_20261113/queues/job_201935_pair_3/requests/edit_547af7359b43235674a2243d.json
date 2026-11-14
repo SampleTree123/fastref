@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_547af7359b43235674a2243d",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6207.mp4",
+  "prompt": "Replace the person's current action with the one demonstrated in the motion reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_53.mp4",
+      "reference_id": "ref_1",
+      "type": "motion",
+      "view": ""
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13237/turn_02/generation",
+  "seed": 42
+}

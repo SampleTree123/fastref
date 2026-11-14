@@ -1,0 +1,11 @@
+{
+  "selected": 25,
+  "ok": 11,
+  "errors": [
+    {
+      "id": "test_chain_12018",
+      "error": "Chain failed: LTX worker unavailable: {\"error\": \"[Errno 2] No such file or directory: '/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/queues/job_201935_pair_1/requests/.tmp-80pshjf2.json'\", \"finished_unix\": 1794633521.5093033, \"status\": \"error\", \"traceback\": \"Traceback (most recent call last):\\n  File \\\"/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py\\\", line 83, in main\\n    stat = request.stat()\\n           ^^^^^^^^^^^^^^\\n  File \\\"/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/runtime/envs/trainer/lib/python3.12/pathlib.py\\\", line 840, in stat\\n    return os.stat(self, follow_symlinks=follow_symlinks)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nFileNotFoundError: [Errno 2] No such file or directory: '/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/queues/job_201935_pair_1/requests/.tmp-80pshjf2.json'\\n\"}"
+    }
+  ],
+  "last_id": "test_chain_12018"
+}

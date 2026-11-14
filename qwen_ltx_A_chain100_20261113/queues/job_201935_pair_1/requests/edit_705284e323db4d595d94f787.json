@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_705284e323db4d595d94f787",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13292/turn_01/generation/edited.mp4",
+  "prompt": "Change the person's action to the one demonstrated in the motion reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_517.mp4",
+      "reference_id": "ref_1",
+      "type": "motion",
+      "view": ""
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13292/turn_02/generation",
+  "seed": 42
+}

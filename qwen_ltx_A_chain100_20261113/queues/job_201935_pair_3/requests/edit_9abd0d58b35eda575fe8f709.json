@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_9abd0d58b35eda575fe8f709",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_14236/turn_01/generation/edited.mp4",
+  "prompt": "Change the person's hair color from blue to blonde. Preserve the existing hairstyle, hair length, texture, and all other aspects of the video unchanged.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_14236/turn_02/generation",
+  "seed": 42
+}

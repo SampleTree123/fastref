@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_4f7fcb97e27db372e3a389f7",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12354/turn_01/generation/edited.mp4",
+  "prompt": "Change the video's camera setup to an upper-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/data/uedata/outfit_camera_first_frame/conditions/camera/images/camera_55bb9decdc48fe98989bfbd9540d717e3a8e09705a8808ea25dd6bc8d87728bd.png",
+      "reference_id": "ref_1",
+      "type": "camera",
+      "view": "first_frame"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12354/turn_02/generation",
+  "seed": 42
+}

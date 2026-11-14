@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_bc735a5ab7e24ffbd09537ba",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_14305/turn_01/generation/edited.mp4",
+  "prompt": "Change the person's action to standing in a thoughtful pose, as demonstrated in the motion reference. Transfer only the demonstrated action; do not adopt the reference person's appearance, the reference scene, or the reference camera setup. Preserve the current video's 360-degree full-body orbit camera movement, the person's appearance, the scene, and all other aspects.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_558.mp4",
+      "reference_id": "ref_1",
+      "type": "motion",
+      "view": ""
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_14305/turn_03/generation",
+  "seed": 42
+}

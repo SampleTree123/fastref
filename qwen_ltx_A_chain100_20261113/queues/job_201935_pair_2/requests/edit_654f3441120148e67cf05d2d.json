@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_654f3441120148e67cf05d2d",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6894.mp4",
+  "prompt": "Replace the person's entire outfit with the complete outfit shown in the reference images, consisting of the top, the skirt, and the footwear. The first reference image shows the front view of the complete outfit, and the second shows its back view. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_927.png",
+      "reference_id": "ref_1",
+      "type": "outfit",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_928.png",
+      "reference_id": "ref_2",
+      "type": "outfit",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13175/turn_01/generation",
+  "seed": 42
+}

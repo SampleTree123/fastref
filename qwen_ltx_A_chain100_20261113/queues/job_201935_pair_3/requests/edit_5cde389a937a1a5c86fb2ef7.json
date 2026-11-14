@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_5cde389a937a1a5c86fb2ef7",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12936/turn_02/generation/edited.mp4",
+  "prompt": "Change the person's hair color from white to red. Preserve the existing hairstyle, shape, and all other aspects of the video unchanged.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12936/turn_04/generation",
+  "seed": 42
+}

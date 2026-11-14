@@ -1,0 +1,301 @@
+{
+  "expected_chains": 100,
+  "expected_questions_per_method": 350,
+  "methods": {
+    "memory": {
+      "all": {
+        "questions": 350,
+        "correct": 349,
+        "accuracy": 0.9971428571428571,
+        "answered": 350,
+        "median_successful_selection_wall_seconds": 1.5540505074895918,
+        "invalid_calls": 0,
+        "input_tokens": 539190,
+        "recorded_model_call_seconds": 701.6233768993989
+      },
+      "excluding_first_turn": {
+        "questions": 250,
+        "correct": 249,
+        "accuracy": 0.996,
+        "answered": 250,
+        "median_successful_selection_wall_seconds": 1.5727358856238425,
+        "invalid_calls": 0,
+        "input_tokens": 449478,
+        "recorded_model_call_seconds": 485.99191240035
+      },
+      "all_correct_chains": 99,
+      "all_correct_chain_rate": 0.99,
+      "missing_questions": 0,
+      "observation_calls": 351,
+      "observation_model_call_seconds": 4438.113182486035,
+      "observation_input_tokens": 993592,
+      "combined_input_tokens": 1532782,
+      "combined_model_call_seconds": 5139.736559385434,
+      "by_topology": {
+        "fork": {
+          "questions": 175,
+          "correct": 174,
+          "accuracy": 0.9942857142857143,
+          "answered": 175,
+          "median_successful_selection_wall_seconds": 1.5568977147340775,
+          "invalid_calls": 0,
+          "input_tokens": 293540,
+          "recorded_model_call_seconds": 392.84455127920955
+        },
+        "linear": {
+          "questions": 175,
+          "correct": 175,
+          "accuracy": 1.0,
+          "answered": 175,
+          "median_successful_selection_wall_seconds": 1.5489395009353757,
+          "invalid_calls": 0,
+          "input_tokens": 245650,
+          "recorded_model_call_seconds": 308.7788256201893
+        }
+      },
+      "by_length": {
+        "2": {
+          "questions": 50,
+          "correct": 50,
+          "accuracy": 1.0,
+          "answered": 50,
+          "median_successful_selection_wall_seconds": 1.5194144495762885,
+          "invalid_calls": 0,
+          "input_tokens": 75310,
+          "recorded_model_call_seconds": 118.85948784090579
+        },
+        "3": {
+          "questions": 75,
+          "correct": 75,
+          "accuracy": 1.0,
+          "answered": 75,
+          "median_successful_selection_wall_seconds": 1.5368391377851367,
+          "invalid_calls": 0,
+          "input_tokens": 113630,
+          "recorded_model_call_seconds": 164.1913051288575
+        },
+        "4": {
+          "questions": 100,
+          "correct": 100,
+          "accuracy": 1.0,
+          "answered": 100,
+          "median_successful_selection_wall_seconds": 1.5670253834687173,
+          "invalid_calls": 0,
+          "input_tokens": 154721,
+          "recorded_model_call_seconds": 213.19616592489183
+        },
+        "5": {
+          "questions": 125,
+          "correct": 124,
+          "accuracy": 0.992,
+          "answered": 125,
+          "median_successful_selection_wall_seconds": 1.561201454140246,
+          "invalid_calls": 0,
+          "input_tokens": 195529,
+          "recorded_model_call_seconds": 205.37641800474375
+        }
+      },
+      "by_selection_kind": {
+        "content_description_match": {
+          "questions": 13,
+          "correct": 12,
+          "accuracy": 0.9230769230769231,
+          "answered": 13,
+          "median_successful_selection_wall_seconds": 1.5890143727883697,
+          "invalid_calls": 0,
+          "input_tokens": 53911,
+          "recorded_model_call_seconds": 52.46405314095318
+        },
+        "event_after": {
+          "questions": 12,
+          "correct": 12,
+          "accuracy": 1.0,
+          "answered": 12,
+          "median_successful_selection_wall_seconds": 1.5927475695498288,
+          "invalid_calls": 0,
+          "input_tokens": 21216,
+          "recorded_model_call_seconds": 27.215255397371948
+        },
+        "event_before": {
+          "questions": 12,
+          "correct": 12,
+          "accuracy": 1.0,
+          "answered": 12,
+          "median_successful_selection_wall_seconds": 1.5639174957759678,
+          "invalid_calls": 0,
+          "input_tokens": 17433,
+          "recorded_model_call_seconds": 18.75945205334574
+        },
+        "explicit_id": {
+          "questions": 13,
+          "correct": 13,
+          "accuracy": 1.0,
+          "answered": 13,
+          "median_successful_selection_wall_seconds": 1.5596859157085419,
+          "invalid_calls": 0,
+          "input_tokens": 18405,
+          "recorded_model_call_seconds": 28.108457369729877
+        },
+        "normal_continue": {
+          "questions": 300,
+          "correct": 300,
+          "accuracy": 1.0,
+          "answered": 300,
+          "median_successful_selection_wall_seconds": 1.548399065155536,
+          "invalid_calls": 0,
+          "input_tokens": 428225,
+          "recorded_model_call_seconds": 575.0761589379981
+        }
+      }
+    },
+    "full_context": {
+      "all": {
+        "questions": 350,
+        "correct": 348,
+        "accuracy": 0.9942857142857143,
+        "answered": 350,
+        "median_successful_selection_wall_seconds": 4.421517729759216,
+        "invalid_calls": 0,
+        "input_tokens": 2058217,
+        "recorded_model_call_seconds": 1826.08401599247
+      },
+      "excluding_first_turn": {
+        "questions": 250,
+        "correct": 248,
+        "accuracy": 0.992,
+        "answered": 250,
+        "median_successful_selection_wall_seconds": 4.878395255189389,
+        "invalid_calls": 0,
+        "input_tokens": 1788965,
+        "recorded_model_call_seconds": 1339.71710476093
+      },
+      "all_correct_chains": 98,
+      "all_correct_chain_rate": 0.98,
+      "missing_questions": 0,
+      "observation_calls": 0,
+      "observation_model_call_seconds": 0.0,
+      "observation_input_tokens": 0,
+      "combined_input_tokens": 2058217,
+      "combined_model_call_seconds": 1826.08401599247,
+      "by_topology": {
+        "fork": {
+          "questions": 175,
+          "correct": 175,
+          "accuracy": 1.0,
+          "answered": 175,
+          "median_successful_selection_wall_seconds": 4.520293346606195,
+          "invalid_calls": 0,
+          "input_tokens": 1028358,
+          "recorded_model_call_seconds": 939.9109469782561
+        },
+        "linear": {
+          "questions": 175,
+          "correct": 173,
+          "accuracy": 0.9885714285714285,
+          "answered": 175,
+          "median_successful_selection_wall_seconds": 4.178330043330789,
+          "invalid_calls": 0,
+          "input_tokens": 1029859,
+          "recorded_model_call_seconds": 886.173069014214
+        }
+      },
+      "by_length": {
+        "2": {
+          "questions": 50,
+          "correct": 50,
+          "accuracy": 1.0,
+          "answered": 50,
+          "median_successful_selection_wall_seconds": 4.665387501008809,
+          "invalid_calls": 0,
+          "input_tokens": 191176,
+          "recorded_model_call_seconds": 258.1571248229593
+        },
+        "3": {
+          "questions": 75,
+          "correct": 75,
+          "accuracy": 1.0,
+          "answered": 75,
+          "median_successful_selection_wall_seconds": 2.6943681202828884,
+          "invalid_calls": 0,
+          "input_tokens": 369523,
+          "recorded_model_call_seconds": 314.67795376013964
+        },
+        "4": {
+          "questions": 100,
+          "correct": 100,
+          "accuracy": 1.0,
+          "answered": 100,
+          "median_successful_selection_wall_seconds": 5.2219324060715735,
+          "invalid_calls": 0,
+          "input_tokens": 605247,
+          "recorded_model_call_seconds": 560.1988126328215
+        },
+        "5": {
+          "questions": 125,
+          "correct": 123,
+          "accuracy": 0.984,
+          "answered": 125,
+          "median_successful_selection_wall_seconds": 4.664094449952245,
+          "invalid_calls": 0,
+          "input_tokens": 892271,
+          "recorded_model_call_seconds": 693.0501247765496
+        }
+      },
+      "by_selection_kind": {
+        "content_description_match": {
+          "questions": 13,
+          "correct": 13,
+          "accuracy": 1.0,
+          "answered": 13,
+          "median_successful_selection_wall_seconds": 2.7855630423873663,
+          "invalid_calls": 0,
+          "input_tokens": 80150,
+          "recorded_model_call_seconds": 72.0614973558113
+        },
+        "event_after": {
+          "questions": 12,
+          "correct": 12,
+          "accuracy": 1.0,
+          "answered": 12,
+          "median_successful_selection_wall_seconds": 5.417873146478087,
+          "invalid_calls": 0,
+          "input_tokens": 101878,
+          "recorded_model_call_seconds": 62.729057187214494
+        },
+        "event_before": {
+          "questions": 12,
+          "correct": 12,
+          "accuracy": 1.0,
+          "answered": 12,
+          "median_successful_selection_wall_seconds": 5.633449384011328,
+          "invalid_calls": 0,
+          "input_tokens": 77196,
+          "recorded_model_call_seconds": 62.68555540870875
+        },
+        "explicit_id": {
+          "questions": 13,
+          "correct": 13,
+          "accuracy": 1.0,
+          "answered": 13,
+          "median_successful_selection_wall_seconds": 4.520293346606195,
+          "invalid_calls": 0,
+          "input_tokens": 82045,
+          "recorded_model_call_seconds": 60.24345029518008
+        },
+        "normal_continue": {
+          "questions": 300,
+          "correct": 298,
+          "accuracy": 0.9933333333333333,
+          "answered": 300,
+          "median_successful_selection_wall_seconds": 4.306733916513622,
+          "invalid_calls": 0,
+          "input_tokens": 1716948,
+          "recorded_model_call_seconds": 1568.3644557455555
+        }
+      }
+    }
+  },
+  "timing_note": "Summed per-case/model-call costs are not eight-GPU wall time. Card creation is paid once per chain-local GT video needed for selection; no final unused card is created. Model load is recorded separately. Missing/error answers remain in accuracy denominator.",
+  "allocation_wall_seconds": 1120.4356722831726,
+  "wall_time_note": "This allocation only; on expansion, existing case costs remain in the summaries. Earlier wall time is recorded under invocations."
+}

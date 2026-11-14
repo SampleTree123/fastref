@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_60eb04733cf3e4ed5a6eadb4",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12869/turn_04/generation/edited.mp4",
+  "prompt": "Replace the person's one-piece garment with the item shown in the reference images, matching its design, color, and fit from the front and back views. Preserve all other clothing items, footwear, and all non-clothing aspects of the current video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_51.png",
+      "reference_id": "ref_1",
+      "type": "garment",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_52.png",
+      "reference_id": "ref_2",
+      "type": "garment",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12869/turn_05/generation",
+  "seed": 42
+}
