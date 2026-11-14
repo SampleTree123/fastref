@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_54fcb01621ddb32eaa83e593",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12797/turn_04/generation/edited.mp4",
+  "prompt": "Replace the person's current blue hair color with pink. Preserve the person's identity, hairstyle shape, and all other visual details unchanged.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12797/turn_05/generation",
+  "seed": 42
+}

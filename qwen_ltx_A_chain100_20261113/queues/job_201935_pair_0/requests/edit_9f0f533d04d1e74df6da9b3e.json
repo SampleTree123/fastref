@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_9f0f533d04d1e74df6da9b3e",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12478/turn_02/generation/edited.mp4",
+  "prompt": "Change the person's hair color from blue to white. Preserve the person's identity, hair shape, and all other visual details in the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12478/turn_03/generation",
+  "seed": 42
+}

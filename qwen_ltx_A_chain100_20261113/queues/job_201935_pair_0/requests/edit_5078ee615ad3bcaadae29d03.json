@@ -1,0 +1,21 @@
+{
+  "request_id": "edit_5078ee615ad3bcaadae29d03",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13896/turn_01/generation/edited.mp4",
+  "prompt": "Change the person's hairstyle to match the hairstyle shape shown in the reference images (front and back views). Transfer only the hairstyle shape from the references; do not adopt the reference person's facial features, hair color, or clothing. Preserve the person's existing hair color and all other elements of the current video.",
+  "references": [
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_18.png",
+      "reference_id": "ref_1",
+      "type": "hair",
+      "view": "front"
+    },
+    {
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/hair/hairs/hair_111.png",
+      "reference_id": "ref_2",
+      "type": "hair",
+      "view": "back"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13896/turn_02/generation",
+  "seed": 42
+}

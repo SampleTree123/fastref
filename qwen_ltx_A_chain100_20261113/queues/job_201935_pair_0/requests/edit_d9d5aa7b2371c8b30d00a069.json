@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_d9d5aa7b2371c8b30d00a069",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12608/turn_01/generation/edited.mp4",
+  "prompt": "Recolor the person's hair black. Preserve the person's identity, body, clothing, motion, scene, lighting, and camera framing exactly as in the source video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12608/turn_02/generation",
+  "seed": 42
+}

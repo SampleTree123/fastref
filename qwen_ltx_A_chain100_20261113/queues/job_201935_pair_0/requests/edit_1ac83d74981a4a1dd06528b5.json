@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_1ac83d74981a4a1dd06528b5",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7191.mp4",
+  "prompt": "Change the person's hair color to blue. Preserve the person's identity, hair shape, and all other aspects of the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_12659/turn_01/generation",
+  "seed": 42
+}
