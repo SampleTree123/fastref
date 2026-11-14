@@ -1,0 +1,68 @@
+[
+  {
+    "case": "hair_color_03",
+    "label": "发色改为粉色",
+    "timings": {
+      "decode": 2.5931811863556504,
+      "denoise": 24.32582752779126,
+      "encoding": 23.966385698877275,
+      "total": 50.88539465330541
+    },
+    "video": {
+      "width": 1280,
+      "height": 736,
+      "fps": 12.0,
+      "decoded_frames": 121
+    },
+    "generation_peak_gib": 44.316526889801025,
+    "layout": {
+      "packed_tokens": 29440,
+      "reference_tokens_unchanged": true,
+      "target_tokens": 14720
+    }
+  },
+  {
+    "case": "whole_outfit_01",
+    "label": "整套服装替换",
+    "timings": {
+      "decode": 3.3151239436119795,
+      "denoise": 24.185681409202516,
+      "encoding": 17.72835797443986,
+      "total": 45.22916361130774
+    },
+    "video": {
+      "width": 1280,
+      "height": 736,
+      "fps": 12.0,
+      "decoded_frames": 121
+    },
+    "generation_peak_gib": 44.315550804138184,
+    "layout": {
+      "packed_tokens": 31488,
+      "reference_tokens_unchanged": true,
+      "target_tokens": 14720
+    }
+  },
+  {
+    "case": "action_01",
+    "label": "动作替换",
+    "timings": {
+      "decode": 2.680988011881709,
+      "denoise": 39.73040287569165,
+      "encoding": 17.84544199705124,
+      "total": 60.25683309417218
+    },
+    "video": {
+      "width": 736,
+      "height": 1280,
+      "fps": 12.0,
+      "decoded_frames": 121
+    },
+    "generation_peak_gib": 44.315550804138184,
+    "layout": {
+      "packed_tokens": 44160,
+      "reference_tokens_unchanged": true,
+      "target_tokens": 14720
+    }
+  }
+]
