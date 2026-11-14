@@ -1,0 +1,128 @@
+{
+  "adapter": {
+    "all_values_verified": true,
+    "alpha": 64,
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+    "loaded_tensor_count": 960,
+    "rank": 64,
+    "sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+    "step": 849,
+    "strength": 1
+  },
+  "cases": [
+    {
+      "case": "hair_color_03",
+      "results": [
+        {
+          "mode": "distilled_base",
+          "denoise_seconds": 24.32582752779126,
+          "total_seconds": 50.88539465330541,
+          "decoded_frames": 121,
+          "fps": 12.0,
+          "canvas_wh": [
+            1280,
+            736
+          ]
+        },
+        {
+          "mode": "distilled_lora",
+          "denoise_seconds": 26.517619595862925,
+          "total_seconds": 29.405628913082182,
+          "decoded_frames": 121,
+          "fps": 12.0,
+          "canvas_wh": [
+            1280,
+            736
+          ]
+        },
+        {
+          "mode": "dev_lora",
+          "denoise_seconds": 374.2843524068594,
+          "total_seconds": 394.00940453633666,
+          "decoded_frames": 121,
+          "fps": 12.0,
+          "canvas_wh": [
+            1280,
+            736
+          ]
+        }
+      ]
+    },
+    {
+      "case": "whole_outfit_01",
+      "results": [
+        {
+          "mode": "distilled_base",
+          "denoise_seconds": 24.185681409202516,
+          "total_seconds": 45.22916361130774,
+          "decoded_frames": 121,
+          "fps": 12.0,
+          "canvas_wh": [
+            1280,
+            736
+          ]
+        },
+        {
+          "mode": "distilled_lora",
+          "denoise_seconds": 27.98446534294635,
+          "total_seconds": 31.512675389647484,
+          "decoded_frames": 121,
+          "fps": 12.0,
+          "canvas_wh": [
+            1280,
+            736
+          ]
+        },
+        {
+          "mode": "dev_lora",
+          "denoise_seconds": 403.9430918758735,
+          "total_seconds": 425.6719883522019,
+          "decoded_frames": 121,
+          "fps": 12.0,
+          "canvas_wh": [
+            1280,
+            736
+          ]
+        }
+      ]
+    },
+    {
+      "case": "action_01",
+      "results": [
+        {
+          "mode": "distilled_base",
+          "denoise_seconds": 39.73040287569165,
+          "total_seconds": 60.25683309417218,
+          "decoded_frames": 121,
+          "fps": 12.0,
+          "canvas_wh": [
+            736,
+            1280
+          ]
+        },
+        {
+          "mode": "distilled_lora",
+          "denoise_seconds": 45.00593328662217,
+          "total_seconds": 47.86218312848359,
+          "decoded_frames": 121,
+          "fps": 12.0,
+          "canvas_wh": [
+            736,
+            1280
+          ]
+        },
+        {
+          "mode": "dev_lora",
+          "denoise_seconds": 669.0703563410789,
+          "total_seconds": 689.4812016561627,
+          "decoded_frames": 121,
+          "fps": 12.0,
+          "canvas_wh": [
+            736,
+            1280
+          ]
+        }
+      ]
+    }
+  ]
+}
