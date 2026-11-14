@@ -1,0 +1,57 @@
+{
+  "vace": {
+    "record": "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/benchmark_full10s_20261112/outputs/vace/identity_01.json",
+    "generation_seconds": 3827.840644949116,
+    "status": "complete",
+    "contract": {
+      "input_manifest_sha256": "6f4e897b0675dfd3b8828c5438ccf6cb5cb8b192d238fb404c974fd59541fdda",
+      "worker_sha256": "ca004527f5166f57605ddc350790d0e32e21b2468e195b543256270c57ff10c7",
+      "model_repo": "Wan-AI/Wan2.1-VACE-14B-diffusers",
+      "revision": "db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+      "pipeline": {
+        "path": "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/ltx25_vace_a100_20261111/runtime/vace/lib/python3.12/site-packages/diffusers/pipelines/wan/pipeline_wan_vace.py",
+        "sha256": "cc88bb991d1ac337cff7620f3fdfef2520d5cb1a227c4124bb8893d58db33b83",
+        "signature": "(self, prompt: Union[str, List[str]] = None, negative_prompt: Union[str, List[str]] = None, video: Optional[List[Union[PIL.Image.Image, numpy.ndarray, torch.Tensor, List[PIL.Image.Image], List[numpy.ndarray], List[torch.Tensor]]]] = None, mask: Optional[List[Union[PIL.Image.Image, numpy.ndarray, torch.Tensor, List[PIL.Image.Image], List[numpy.ndarray], List[torch.Tensor]]]] = None, reference_images: Optional[List[Union[PIL.Image.Image, numpy.ndarray, torch.Tensor, List[PIL.Image.Image], List[numpy.ndarray], List[torch.Tensor]]]] = None, conditioning_scale: Union[float, List[float], torch.Tensor] = 1.0, height: int = 480, width: int = 832, num_frames: int = 81, num_inference_steps: int = 50, guidance_scale: float = 5.0, num_videos_per_prompt: Optional[int] = 1, generator: Union[torch._C.Generator, List[torch._C.Generator], NoneType] = None, latents: Optional[torch.Tensor] = None, prompt_embeds: Optional[torch.Tensor] = None, negative_prompt_embeds: Optional[torch.Tensor] = None, output_type: Optional[str] = 'np', return_dict: bool = True, attention_kwargs: Optional[Dict[str, Any]] = None, callback_on_step_end: Union[Callable[[int, int, Dict], NoneType], diffusers.callbacks.PipelineCallback, diffusers.callbacks.MultiPipelineCallbacks, NoneType] = None, callback_on_step_end_tensor_inputs: List[str] = ['latents'], max_sequence_length: int = 512)"
+      },
+      "condition_sha256": "b0c7af5594a5b1561ccfa875e45e5474b42f1eff2b1519ca9b0d8a3d0807cb63",
+      "steps": 40,
+      "seed": 42,
+      "cfg": 5,
+      "conditioning_scale": 1.0,
+      "flow_shift": 5.0,
+      "scheduler": "UniPCMultistepScheduler",
+      "vae_dtype": "float32",
+      "transformer_dtype": "bfloat16",
+      "canvas_wh": [
+        1280,
+        736
+      ],
+      "num_frames": 121,
+      "fps": 12,
+      "input_video_mode": "official_repaint_gray128"
+    }
+  },
+  "h3": {
+    "record": "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/benchmark_full10s_20261112/h3/outputs/identity_01.json",
+    "generation_seconds": 841.422887802124,
+    "status": "complete",
+    "contract": {
+      "model_revision": "0919fb684102ef115126612f3fbb84d1027e7317",
+      "weights_verification_sha256": "0a91e01cb093db0eea4b7c5b75c2b9da53802e9c69653f044b5669cd59839cbd",
+      "sglang_build_patch_sha256": "4fdc816df3e4ecf62c95e2dba53bf0c0815ca7a72c9b18ca2b0f163972acf4b9",
+      "sglang_commit": "fa179312e94c764f8637724ea2a364d302888906",
+      "requirements_sha256": "fb2feb4136a0e1aa8d8b209ced752a5d6acfc59f83e054be1765077a4458c8b6",
+      "request_sha256": "4ab750eb342ce6c3672d392ca025ce2712dfd4a37cebb313000c4f2cc6f906d7",
+      "source_sha256": "5ea6197f5c2c50b3f39247d2732f5cea95b3556ac88cefd5995de51db33dda91",
+      "reference_sha256s": [
+        "f9fc665d8b31d1900e52e55cc1fa2b89b9fc9f2386966de9377badbf8bdfc2b0"
+      ],
+      "motion_sha256s": [],
+      "serve_script_sha256": "63f6f6d389db11bcda9a5d605af185d36f488b93bb0b0e7df984da0c10e0f526",
+      "telemetry_script_sha256": "1594a350136b5d00fc6e6d690985953d895f4fb5aeb589a3aa9dcee5dfb56c7f",
+      "topology": "TP2_Ulysses2",
+      "precision": "native_bf16_fp32",
+      "context_ir": false
+    }
+  }
+}

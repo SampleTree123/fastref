@@ -1,0 +1,4 @@
+LoRA: rank=64 alpha=64.0 scale=1.0 pdd={'num_steps': 32, 'block_size': 4}
+2D deltas to merge: 258 (52 of them qkv)
+merged 258/258 tensors
+position-level output heads -> 10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/pdd_heads.safetensors (32 of them, block size 4, i.e. 8 forwards)

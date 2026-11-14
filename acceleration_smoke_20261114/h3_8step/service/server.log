@@ -1,0 +1,331 @@
+[11-14 16:24:30] Applying performance_mode=speed
+[11-14 16:24:31] Proposed encoder parallel folding (mode=world) for ServerArgs (tp=2 sp=2 cfg=1 replica=4); the loader keeps it for encoders wide enough to benefit.
+[11-14 16:24:31] server_args: {"model_path": "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA", "model_subfolder": null, "model_variant": null, "model_id": null, "served_model_name": "MiniMaxAI/MiniMax-H3", "backend": "auto", "attention_backend": null, "enable_attention_backend_autotune": false, "attention_backend_config": {}, "component_attention_backends": {}, "component_attention_backend_roles": {}, "cache_dit_config": null, "nccl_port": null, "enable_nccl_nvls": false, "trust_remote_code": false, "revision": null, "num_gpus": 4, "performance_mode": "speed", "base_gpu_id": 0, "gpu_ids": null, "numa_node": null, "nnodes": 1, "node_rank": 0, "dist_init_addr": null, "tp_size": 2, "sp_degree": 2, "ulysses_degree": 2, "ring_degree": 1, "kv_gather_degree": 1, "sp_split_auto": false, "dp_size": 1, "enable_cfg_parallel": false, "cfg_parallel_degree": 1, "encoder_parallel": "auto", "hsdp_replicate_dim": 1, "hsdp_shard_dim": 4, "dist_timeout": 3600, "scheduler_rpc_timeout": null, "pipeline_class_name": null, "lora_path": null, "lora_nickname": "default", "lora_scale": 1.0, "lora_alpha": null, "lora_merge_mode": "auto", "lora_weight_name": null, "component_paths": {}, "component_weights_paths": {}, "component_direct_gpu_weight_loading": {}, "component_quantizations": {}, "component_precisions": {}, "component_quantization_ignored_layers": {}, "load_diffusion_decoder": false, "transformer_weights_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer", "minimax_h3_adaln_cache_path": null, "minimax_h3_adaln_online": null, "minimax_h3_adaln_plan_width": null, "minimax_h3_adaln_host_cache_gb": null, "quantization": null, "quantization_ignored_layers": null, "lora_target_modules": null, "component_residency": null, "cpu_offload_components": null, "dit_cpu_offload": false, "direct_gpu_weight_loading": false, "dit_layerwise_offload": false, "layerwise_offload_components": null, "dit_offload_prefetch_size": 0.0, "dit_layerwise_resident_layers": 0.0, "dit_layerwise_residency_policy": "leading", "dit_layerwise_residency_lifetime": "forward", "layerwise_prefetch_size": {}, "layerwise_resident_layers": {}, "layerwise_residency_policy": {}, "layerwise_residency_lifetime": {}, "offload_during_compile": true, "text_encoder_cpu_offload": false, "image_encoder_cpu_offload": false, "vae_cpu_offload": false, "use_fsdp_inference": false, "pin_cpu_memory": true, "ltx2_two_stage_device_mode": null, "comfyui_mode": false, "enable_torch_compile": false, "regional_compile": false, "allow_cudnn_tf32": true, "allow_bf16_reduced_precision_reduction": true, "enable_breakable_cuda_graph": false, "bcg_text_buckets": null, "enable_layerwise_nvtx_marker": false, "warmup_mode": "off", "warmup_resolutions": null, "warmup_num_frames": null, "warmup_steps": 1, "warmup_sampling_params": null, "disable_autocast": false, "master_port": 30005, "host": "127.0.0.1", "port": 40817, "http_graceful_shutdown_timeout": null, "enable_metrics": false, "webui": false, "webui_port": 12312, "scheduler_port": 5622, "scheduler_ports": [5622], "batching_mode": "dynamic", "batching_max_size": 1, "batching_delay_ms": 0.0, "batching_config": null, "enable_batching_metrics": false, "async_output_save": false, "sleep_on_idle": false, "strict_ports": false, "output_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/h3_8step/service/outputs", "input_save_path": "inputs/uploads", "prompt_file_path": null, "model_paths": {}, "model_loaded": {"transformer": true, "vae": true, "video_vae": true, "audio_vae": true, "video_dit": true, "audio_dit": true, "dual_tower_bridge": true}, "boundary_ratio": null, "disagg_role": "monolithic", "disagg_timeout": 3600, "disagg_dispatch_policy": "round_robin", "disagg_mode": false, "disagg_transfer_pool_size": 268435456, "disagg_p2p_hostname": "127.0.0.1", "disagg_ib_device": null, "disagg_server_addr": null, "encoder_urls": null, "prompt_encoder_urls": null, "image_encoder_urls": null, "denoiser_urls": null, "decoder_urls": null, "encoder_tp": null, "denoiser_tp": null, "denoiser_sp": null, "denoiser_ulysses": null, "denoiser_ring": null, "decoder_sp": null, "pool_work_endpoint": null, "pool_result_endpoint": null, "log_level": "info", "log_requests": false, "log_requests_level": 2, "log_requests_format": "text", "log_requests_target": null, "uvicorn_access_log_exclude_prefixes": [], "enable_cache_report": false, "disable_conditioning_cache": false, "conditioning_cache_max_size_mb": 512.0, "enable_trace": false, "otlp_traces_endpoint": "localhost:4317", "otlp_service_name": null, "srt_encoder_url": null, "srt_encoder_connect_timeout": 3.05, "srt_encoder_timeout": 100, "pe_server_url": null, "prompt_enhancer_config": null}
+[11-14 16:24:31] Starting server...
+[11-14 16:24:51] Scheduler (dp replica 0) bind at endpoint: tcp://127.0.0.1:5622
+[11-14 16:24:52] Numerics policy: cudnn TF32 and bf16 reduced-precision reduction enabled. These lower precision below the reference, so quality='exact' is bit-reproducible on this server but not free of approximate library defaults. Pass --allow-cudnn-tf32 false --allow-bf16-reduced-precision-reduction false for the strict contract (slower fp32 convolutions).
+[11-14 16:24:52] Numerics policy: cudnn TF32 and bf16 reduced-precision reduction enabled. These lower precision below the reference, so quality='exact' is bit-reproducible on this server but not free of approximate library defaults. Pass --allow-cudnn-tf32 false --allow-bf16-reduced-precision-reduction false for the strict contract (slower fp32 convolutions).
+[11-14 16:24:52] Numerics policy: cudnn TF32 and bf16 reduced-precision reduction enabled. These lower precision below the reference, so quality='exact' is bit-reproducible on this server but not free of approximate library defaults. Pass --allow-cudnn-tf32 false --allow-bf16-reduced-precision-reduction false for the strict contract (slower fp32 convolutions).
+[11-14 16:24:52] Numerics policy: cudnn TF32 and bf16 reduced-precision reduction enabled. These lower precision below the reference, so quality='exact' is bit-reproducible on this server but not free of approximate library defaults. Pass --allow-cudnn-tf32 false --allow-bf16-reduced-precision-reduction false for the strict contract (slower fp32 convolutions).
+[11-14 16:24:52] torch.compile cache: TORCHINDUCTOR_CACHE_DIR=/home/users/astar/cfar/stuchengyou/.cache/sgl_diffusion/torch_compile_cache/inductor TRITON_CACHE_DIR=/home/users/astar/cfar/stuchengyou/.cache/sgl_diffusion/torch_compile_cache/triton
+[11-14 16:24:52] Initializing distributed environment with world_size=4, device=cuda:0, timeout=3600
+[11-14 16:24:52] Setting distributed timeout to 3600 seconds
+[11-14 16:24:54] Found nccl from library libnccl.so.2
+[11-14 16:24:54] sglang-diffusion is using nccl==2.30.7
+[11-14 16:24:55] Found nccl from library libnccl.so.2
+[11-14 16:24:55] sglang-diffusion is using nccl==2.30.7
+[11-14 16:24:56] reading GPU P2P access cache from /home/users/astar/cfar/stuchengyou/.cache/sglang/gpu_p2p_access_cache_for_0,1,2,3.json
+[11-14 16:24:56] reading GPU P2P access cache from /home/users/astar/cfar/stuchengyou/.cache/sglang/gpu_p2p_access_cache_for_0,1,2,3.json
+[11-14 16:24:56] reading GPU P2P access cache from /home/users/astar/cfar/stuchengyou/.cache/sglang/gpu_p2p_access_cache_for_0,1,2,3.json
+[11-14 16:24:56] reading GPU P2P access cache from /home/users/astar/cfar/stuchengyou/.cache/sglang/gpu_p2p_access_cache_for_0,1,2,3.json
+[11-14 16:24:56] All Reduce config: symmetric_memory = 160.02 MB, local_buffer = 2.00 MB, multicast = False, pull = True, hier_2shot_push = None
+[11-14 16:24:56] All Reduce config: symmetric_memory = 160.02 MB, local_buffer = 2.00 MB, multicast = False, pull = True, hier_2shot_push = None
+[11-14 16:24:56] Found nccl from library libnccl.so.2
+[11-14 16:24:56] sglang-diffusion is using nccl==2.30.7
+[11-14 16:24:57] No pipeline_class_name specified, using model_index.json
+[11-14 16:24:58] Diffusers version: 0.32.2
+[11-14 16:24:58] Diffusers version: 0.32.2
+[11-14 16:24:58] Using pipeline from model_index.json: MiniMaxH3Pipeline
+[11-14 16:24:58] Loading pipeline modules...
+[11-14 16:24:58] Model already exists locally and is complete
+[11-14 16:24:58] Model path: /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA
+[11-14 16:24:58] Diffusers version: 0.32.2
+[11-14 16:24:58] Loading pipeline modules from config: {'_class_name': 'MiniMaxH3Pipeline', '_diffusers_version': '0.32.2', 'text_encoder': ['transformers', 'MiniMaxH3Qwen3VLHFEncoder'], 'tokenizer': ['transformers', 'Qwen2TokenizerFast'], 'video_vae': ['diffusers', 'MiniMaxH3VideoVAE'], 'audio_vae': ['diffusers', 'MiniMaxH3AudioVAE'], 'scheduler': None, 'transformer': ['diffusers', 'MiniMaxH3DiTModel'], 'processor': ['transformers', 'Qwen3VLProcessor'], '_minimax_h3': {'schema_version': 1, 'partition': 'ref2va', 'tasks': ['ref2va'], 'task_aliases': {}, 'sigma_shift_scales': {'video': 12.0, 'audio': 3.0}}}
+[11-14 16:24:58] Loading required components: ['processor', 'text_encoder', 'tokenizer', 'video_vae', 'audio_vae', 'transformer']
+[11-14 16:25:01] Memory-aware component load order: ['text_encoder', 'transformer', 'audio_vae', 'video_vae', 'processor', 'tokenizer']
+Loading required modules:   0%|          | 0/6 [00:00<?, ?it/s]Loading required modules:   0%|          | 0/6 [00:00<?, ?it/s]Loading required modules:   0%|          | 0/6 [00:00<?, ?it/s]Loading required modules:   0%|          | 0/6 [00:00<?, ?it/s][11-14 16:25:01] Loading text_encoder from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/text_encoder. avail mem: 135.52 GB
+[11-14 16:25:02] Cannot use FlashAttention backend for head size 72.
+
+Loading safetensors checkpoint shards: 0%|          | 0/12[A
+Loading safetensors checkpoint shards: 8%|▊         | 1/12[A
+Loading safetensors checkpoint shards: 17%|█▋        | 2/12[A
+Loading safetensors checkpoint shards: 25%|██▌       | 3/12[A
+Loading safetensors checkpoint shards: 33%|███▎      | 4/12[A
+Loading safetensors checkpoint shards: 42%|████▏     | 5/12[A
+Loading safetensors checkpoint shards: 50%|█████     | 6/12[A
+Loading safetensors checkpoint shards: 58%|█████▊    | 7/12[A
+Loading safetensors checkpoint shards: 67%|██████▋   | 8/12[A
+Loading safetensors checkpoint shards: 75%|███████▌  | 9/12[A
+Loading safetensors checkpoint shards: 83%|████████▎ | 10/12[A
+Loading safetensors checkpoint shards: 92%|█████████▏| 11/12[A
+Loading safetensors checkpoint shards: 100%|██████████| 12/12[ALoading safetensors checkpoint shards: 100%|██████████| 12/12
+Loading required modules:  17%|█▋        | 1/6 [00:18<01:34, 18.98s/it][11-14 16:25:20] Attention backends for text_encoder: torch_sdpa, fa
+Loading required modules:  17%|█▋        | 1/6 [00:19<01:35, 19.02s/it][11-14 16:25:20] Loaded text_encoder: MiniMaxH3Qwen3VLEncoder (sgl-diffusion version). model size: 13.21 GB, vram: 13.21 GB. avail GPU mem: 122.08 GB
+Loading required modules:  17%|█▋        | 1/6 [00:19<01:35, 19.02s/it]Loading required modules:  17%|█▋        | 1/6 [00:19<01:35, 19.02s/it][11-14 16:25:20] Loading transformer from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/transformer. avail mem: 122.08 GB
+[11-14 16:25:21] using transformer weight set from /scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer: ('/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00001-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00002-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00003-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00004-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00005-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00006-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00007-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00008-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00009-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00010-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00011-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00012-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00013-of-00013.safetensors')
+[11-14 16:25:24] Loading MiniMaxH3DiTModel from 13 safetensors file(s) , param_dtype: torch.bfloat16
+[11-14 16:25:24] Using an unquantized transformer weight override from /scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer
+[11-14 16:25:24] MiniMax-H3 PDD: 8 fused output heads loaded from /scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/pdd_fused_heads.safetensors
+
+Loading safetensors checkpoint shards: 0%|          | 0/13[A
+Loading safetensors checkpoint shards: 8%|▊         | 1/13[A
+Loading safetensors checkpoint shards: 15%|█▌        | 2/13[A
+Loading safetensors checkpoint shards: 23%|██▎       | 3/13[A
+Loading safetensors checkpoint shards: 31%|███       | 4/13[A
+Loading safetensors checkpoint shards: 38%|███▊      | 5/13[A
+Loading safetensors checkpoint shards: 46%|████▌     | 6/13[A
+Loading safetensors checkpoint shards: 54%|█████▍    | 7/13[A
+Loading safetensors checkpoint shards: 62%|██████▏   | 8/13[A
+Loading safetensors checkpoint shards: 69%|██████▉   | 9/13[A
+Loading safetensors checkpoint shards: 77%|███████▋  | 10/13[A
+Loading safetensors checkpoint shards: 85%|████████▍ | 11/13[A
+Loading safetensors checkpoint shards: 92%|█████████▏| 12/13[A
+Loading safetensors checkpoint shards: 100%|██████████| 13/13[ALoading safetensors checkpoint shards: 100%|██████████| 13/13
+Loading required modules:  33%|███▎      | 2/6 [00:57<02:01, 30.26s/it]/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/env/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading required modules:  50%|█████     | 3/6 [00:57<00:50, 16.72s/it][11-14 16:26:03] Loaded transformer: MiniMaxH3DiTModel (sgl-diffusion version). model size: 30.86 GB, vram: 30.86 GB. avail GPU mem: 88.25 GB
+Loading required modules:  33%|███▎      | 2/6 [01:02<02:12, 33.20s/it][11-14 16:26:03] Loading audio_vae from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/audio_vae. avail mem: 88.25 GB
+Loading required modules:  33%|███▎      | 2/6 [01:02<02:12, 33.20s/it]Loading required modules:  33%|███▎      | 2/6 [01:02<02:12, 33.20s/it]/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/env/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/env/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/env/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[11-14 16:26:04] Attention backends for audio_vae: torch_sdpa
+[11-14 16:26:04] Loaded audio_vae: MiniMaxH3AudioVAE (sgl-diffusion version). model size: 0.56 GB, vram: 0.56 GB. avail GPU mem: 88.15 GB
+Loading required modules:  50%|█████     | 3/6 [01:02<00:54, 18.22s/it][11-14 16:26:04] Loading video_vae from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/video_vae. avail mem: 88.15 GB
+Loading required modules:  50%|█████     | 3/6 [01:02<00:54, 18.23s/it]Loading required modules:  50%|█████     | 3/6 [01:02<00:54, 18.26s/it]Loading required modules:  67%|██████▋   | 4/6 [01:04<00:25, 12.92s/it]Loading required modules:  83%|████████▎ | 5/6 [01:05<00:08,  8.42s/it]Loading required modules: 100%|██████████| 6/6 [01:05<00:00,  5.64s/it]Loading required modules: 100%|██████████| 6/6 [01:05<00:00, 10.92s/it]
+[11-14 16:26:08] VAE: video_vae holds 144 decoder weights in torch.float16 from load (file-backed)
+[11-14 16:26:08] MiniMax-H3 VAE: installed quality-gated fast path (36 QK RMSNorm+RoPE fusions, cuDNN SDPA; 64 tiles and 1 windows per decoder forward).
+[11-14 16:26:09] Attention backends for video_vae: torch_sdpa
+Loading required modules:  67%|██████▋   | 4/6 [01:07<00:25, 12.89s/it]Loading required modules:  67%|██████▋   | 4/6 [01:07<00:25, 12.90s/it][11-14 16:26:09] Loaded video_vae: MiniMaxH3VideoVAE (sgl-diffusion version). model size: 5.2 GB, vram: 5.20 GB. avail GPU mem: 83.55 GB
+Loading required modules:  67%|██████▋   | 4/6 [01:07<00:25, 12.90s/it][11-14 16:26:09] Loading processor from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/processor. avail mem: 83.55 GB
+Loading required modules:  83%|████████▎ | 5/6 [01:07<00:08,  8.38s/it]Loading required modules:  83%|████████▎ | 5/6 [01:07<00:08,  8.37s/it][11-14 16:26:09] Loaded processor: Qwen3VLProcessor (sgl-diffusion version). model size: NA GB, weights: none. avail GPU mem: 83.55 GB
+Loading required modules:  83%|████████▎ | 5/6 [01:07<00:08,  8.39s/it][11-14 16:26:09] Loading tokenizer from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/tokenizer. avail mem: 83.55 GB
+Loading required modules: 100%|██████████| 6/6 [01:07<00:00,  5.61s/it]Loading required modules: 100%|██████████| 6/6 [01:07<00:00, 11.31s/it]
+Loading required modules: 100%|██████████| 6/6 [01:07<00:00,  5.61s/it]Loading required modules: 100%|██████████| 6/6 [01:07<00:00, 11.31s/it]
+[11-14 16:26:09] Loaded tokenizer: Qwen2Tokenizer (sgl-diffusion version). model size: NA GB, weights: none. avail GPU mem: 83.55 GB
+Loading required modules: 100%|██████████| 6/6 [01:07<00:00,  5.61s/it]Loading required modules: 100%|██████████| 6/6 [01:07<00:00, 11.31s/it]
+[11-14 16:26:09] Creating pipeline stages...
+[11-14 16:26:09] Using fa attention backend
+[11-14 16:26:09] Pipeline instantiated
+[11-14 16:26:09] Worker 0: Initialized device, model, and distributed environment.
+[11-14 16:26:10] Worker 0: Scheduler loop started.
+[11-14 16:26:10] [server-load] workers_ready_monotonic_ns=7363087488982000
+[11-14 16:26:10] Starting FastAPI server.
+[2026-11-14 16:26:10] [32mINFO[0m:     Started server process [[36m798014[0m]
+[2026-11-14 16:26:10] [32mINFO[0m:     Waiting for application startup.
+[91m[11-14 16:26:10] Offline request broker exited; restart the server.[0;0m
+[2026-11-14 16:26:10] [32mINFO[0m:     Application startup complete.
+[2026-11-14 16:26:10] [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:40817[0m (Press CTRL+C to quit)
+[11-14 16:26:12] Diffusers version: 0.32.2
+[2026-11-14 16:26:12] [32mINFO[0m:     127.0.0.1:49262 - "[1mGET /v1/models HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:26:12] [32mINFO[0m:     127.0.0.1:49264 - "[1mPOST /v1/videos HTTP/1.1[0m" [91m503 Service Unavailable[0m
+[2026-11-14 16:26:12] [32mINFO[0m:     Shutting down
+[2026-11-14 16:26:12] [32mINFO[0m:     Waiting for application shutdown.
+[11-14 16:26:12] FastAPI app is shutting down...
+[91m[11-14 16:26:12] Offline request broker failed
+Traceback (most recent call last):
+  File "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/sglang/python/sglang/multimodal_gen/runtime/entrypoints/http_server.py", line 194, in lifespan
+    await broker_task
+  File "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/sglang/python/sglang/multimodal_gen/runtime/scheduler_client.py", line 102, in run_zeromq_broker
+    socket.bind(broker_endpoint)
+  File "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/env/lib/python3.12/site-packages/zmq/sugar/socket.py", line 322, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/_zmq.py", line 1009, in zmq.backend.cython._zmq.Socket.bind
+    _check_rc(rc)
+    ^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 190, in zmq.backend.cython._zmq._check_rc
+    raise ZMQError(errno)
+    ^^^^^^^^^^^
+zmq.error.ZMQError: Address already in use (addr='tcp://127.0.0.1:40818')[0;0m
+[2026-11-14 16:26:12] [32mINFO[0m:     Application shutdown complete.
+[2026-11-14 16:26:12] [32mINFO[0m:     Finished server process [[36m798014[0m]
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/runtime/envs/trainer/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 4 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+[11-14 16:27:41] Applying performance_mode=speed
+[11-14 16:27:41] Proposed encoder parallel folding (mode=world) for ServerArgs (tp=2 sp=2 cfg=1 replica=4); the loader keeps it for encoders wide enough to benefit.
+[11-14 16:27:41] server_args: {"model_path": "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA", "model_subfolder": null, "model_variant": null, "model_id": null, "served_model_name": "MiniMaxAI/MiniMax-H3", "backend": "auto", "attention_backend": null, "enable_attention_backend_autotune": false, "attention_backend_config": {}, "component_attention_backends": {}, "component_attention_backend_roles": {}, "cache_dit_config": null, "nccl_port": null, "enable_nccl_nvls": false, "trust_remote_code": false, "revision": null, "num_gpus": 4, "performance_mode": "speed", "base_gpu_id": 0, "gpu_ids": null, "numa_node": null, "nnodes": 1, "node_rank": 0, "dist_init_addr": null, "tp_size": 2, "sp_degree": 2, "ulysses_degree": 2, "ring_degree": 1, "kv_gather_degree": 1, "sp_split_auto": false, "dp_size": 1, "enable_cfg_parallel": false, "cfg_parallel_degree": 1, "encoder_parallel": "auto", "hsdp_replicate_dim": 1, "hsdp_shard_dim": 4, "dist_timeout": 3600, "scheduler_rpc_timeout": null, "pipeline_class_name": null, "lora_path": null, "lora_nickname": "default", "lora_scale": 1.0, "lora_alpha": null, "lora_merge_mode": "auto", "lora_weight_name": null, "component_paths": {}, "component_weights_paths": {}, "component_direct_gpu_weight_loading": {}, "component_quantizations": {}, "component_precisions": {}, "component_quantization_ignored_layers": {}, "load_diffusion_decoder": false, "transformer_weights_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer", "minimax_h3_adaln_cache_path": null, "minimax_h3_adaln_online": null, "minimax_h3_adaln_plan_width": null, "minimax_h3_adaln_host_cache_gb": null, "quantization": null, "quantization_ignored_layers": null, "lora_target_modules": null, "component_residency": null, "cpu_offload_components": null, "dit_cpu_offload": false, "direct_gpu_weight_loading": false, "dit_layerwise_offload": false, "layerwise_offload_components": null, "dit_offload_prefetch_size": 0.0, "dit_layerwise_resident_layers": 0.0, "dit_layerwise_residency_policy": "leading", "dit_layerwise_residency_lifetime": "forward", "layerwise_prefetch_size": {}, "layerwise_resident_layers": {}, "layerwise_residency_policy": {}, "layerwise_residency_lifetime": {}, "offload_during_compile": true, "text_encoder_cpu_offload": false, "image_encoder_cpu_offload": false, "vae_cpu_offload": false, "use_fsdp_inference": false, "pin_cpu_memory": true, "ltx2_two_stage_device_mode": null, "comfyui_mode": false, "enable_torch_compile": false, "regional_compile": false, "allow_cudnn_tf32": true, "allow_bf16_reduced_precision_reduction": true, "enable_breakable_cuda_graph": false, "bcg_text_buckets": null, "enable_layerwise_nvtx_marker": false, "warmup_mode": "off", "warmup_resolutions": null, "warmup_num_frames": null, "warmup_steps": 1, "warmup_sampling_params": null, "disable_autocast": false, "master_port": 30005, "host": "127.0.0.1", "port": 20534, "http_graceful_shutdown_timeout": null, "enable_metrics": false, "webui": false, "webui_port": 12312, "scheduler_port": 5579, "scheduler_ports": [5579], "batching_mode": "dynamic", "batching_max_size": 1, "batching_delay_ms": 0.0, "batching_config": null, "enable_batching_metrics": false, "async_output_save": false, "sleep_on_idle": false, "strict_ports": false, "output_path": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/h3_8step/service/outputs", "input_save_path": "inputs/uploads", "prompt_file_path": null, "model_paths": {}, "model_loaded": {"transformer": true, "vae": true, "video_vae": true, "audio_vae": true, "video_dit": true, "audio_dit": true, "dual_tower_bridge": true}, "boundary_ratio": null, "disagg_role": "monolithic", "disagg_timeout": 3600, "disagg_dispatch_policy": "round_robin", "disagg_mode": false, "disagg_transfer_pool_size": 268435456, "disagg_p2p_hostname": "127.0.0.1", "disagg_ib_device": null, "disagg_server_addr": null, "encoder_urls": null, "prompt_encoder_urls": null, "image_encoder_urls": null, "denoiser_urls": null, "decoder_urls": null, "encoder_tp": null, "denoiser_tp": null, "denoiser_sp": null, "denoiser_ulysses": null, "denoiser_ring": null, "decoder_sp": null, "pool_work_endpoint": null, "pool_result_endpoint": null, "log_level": "info", "log_requests": false, "log_requests_level": 2, "log_requests_format": "text", "log_requests_target": null, "uvicorn_access_log_exclude_prefixes": [], "enable_cache_report": false, "disable_conditioning_cache": false, "conditioning_cache_max_size_mb": 512.0, "enable_trace": false, "otlp_traces_endpoint": "localhost:4317", "otlp_service_name": null, "srt_encoder_url": null, "srt_encoder_connect_timeout": 3.05, "srt_encoder_timeout": 100, "pe_server_url": null, "prompt_enhancer_config": null}
+[11-14 16:27:41] Starting server...
+[11-14 16:28:01] Scheduler (dp replica 0) bind at endpoint: tcp://127.0.0.1:5579
+[11-14 16:28:02] Numerics policy: cudnn TF32 and bf16 reduced-precision reduction enabled. These lower precision below the reference, so quality='exact' is bit-reproducible on this server but not free of approximate library defaults. Pass --allow-cudnn-tf32 false --allow-bf16-reduced-precision-reduction false for the strict contract (slower fp32 convolutions).
+[11-14 16:28:02] Numerics policy: cudnn TF32 and bf16 reduced-precision reduction enabled. These lower precision below the reference, so quality='exact' is bit-reproducible on this server but not free of approximate library defaults. Pass --allow-cudnn-tf32 false --allow-bf16-reduced-precision-reduction false for the strict contract (slower fp32 convolutions).
+[11-14 16:28:02] Numerics policy: cudnn TF32 and bf16 reduced-precision reduction enabled. These lower precision below the reference, so quality='exact' is bit-reproducible on this server but not free of approximate library defaults. Pass --allow-cudnn-tf32 false --allow-bf16-reduced-precision-reduction false for the strict contract (slower fp32 convolutions).
+[11-14 16:28:02] Numerics policy: cudnn TF32 and bf16 reduced-precision reduction enabled. These lower precision below the reference, so quality='exact' is bit-reproducible on this server but not free of approximate library defaults. Pass --allow-cudnn-tf32 false --allow-bf16-reduced-precision-reduction false for the strict contract (slower fp32 convolutions).
+[11-14 16:28:02] torch.compile cache: TORCHINDUCTOR_CACHE_DIR=/home/users/astar/cfar/stuchengyou/.cache/sgl_diffusion/torch_compile_cache/inductor TRITON_CACHE_DIR=/home/users/astar/cfar/stuchengyou/.cache/sgl_diffusion/torch_compile_cache/triton
+[11-14 16:28:02] Initializing distributed environment with world_size=4, device=cuda:0, timeout=3600
+[11-14 16:28:02] Setting distributed timeout to 3600 seconds
+[11-14 16:28:03] Found nccl from library libnccl.so.2
+[11-14 16:28:03] sglang-diffusion is using nccl==2.30.7
+[11-14 16:28:04] Found nccl from library libnccl.so.2
+[11-14 16:28:04] sglang-diffusion is using nccl==2.30.7
+[11-14 16:28:05] reading GPU P2P access cache from /home/users/astar/cfar/stuchengyou/.cache/sglang/gpu_p2p_access_cache_for_0,1,2,3.json
+[11-14 16:28:05] reading GPU P2P access cache from /home/users/astar/cfar/stuchengyou/.cache/sglang/gpu_p2p_access_cache_for_0,1,2,3.json
+[11-14 16:28:05] reading GPU P2P access cache from /home/users/astar/cfar/stuchengyou/.cache/sglang/gpu_p2p_access_cache_for_0,1,2,3.json
+[11-14 16:28:05] reading GPU P2P access cache from /home/users/astar/cfar/stuchengyou/.cache/sglang/gpu_p2p_access_cache_for_0,1,2,3.json
+[11-14 16:28:05] All Reduce config: symmetric_memory = 160.02 MB, local_buffer = 2.00 MB, multicast = False, pull = True, hier_2shot_push = None
+[11-14 16:28:05] All Reduce config: symmetric_memory = 160.02 MB, local_buffer = 2.00 MB, multicast = False, pull = True, hier_2shot_push = None
+[11-14 16:28:05] Found nccl from library libnccl.so.2
+[11-14 16:28:05] sglang-diffusion is using nccl==2.30.7
+[11-14 16:28:06] No pipeline_class_name specified, using model_index.json
+[11-14 16:28:07] Diffusers version: 0.32.2
+[11-14 16:28:07] Diffusers version: 0.32.2
+[11-14 16:28:07] Using pipeline from model_index.json: MiniMaxH3Pipeline
+[11-14 16:28:07] Loading pipeline modules...
+[11-14 16:28:07] Model already exists locally and is complete
+[11-14 16:28:07] Model path: /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA
+[11-14 16:28:07] Diffusers version: 0.32.2
+[11-14 16:28:07] Loading pipeline modules from config: {'_class_name': 'MiniMaxH3Pipeline', '_diffusers_version': '0.32.2', 'text_encoder': ['transformers', 'MiniMaxH3Qwen3VLHFEncoder'], 'tokenizer': ['transformers', 'Qwen2TokenizerFast'], 'video_vae': ['diffusers', 'MiniMaxH3VideoVAE'], 'audio_vae': ['diffusers', 'MiniMaxH3AudioVAE'], 'scheduler': None, 'transformer': ['diffusers', 'MiniMaxH3DiTModel'], 'processor': ['transformers', 'Qwen3VLProcessor'], '_minimax_h3': {'schema_version': 1, 'partition': 'ref2va', 'tasks': ['ref2va'], 'task_aliases': {}, 'sigma_shift_scales': {'video': 12.0, 'audio': 3.0}}}
+[11-14 16:28:07] Loading required components: ['processor', 'text_encoder', 'tokenizer', 'video_vae', 'audio_vae', 'transformer']
+[11-14 16:28:07] Memory-aware component load order: ['text_encoder', 'transformer', 'audio_vae', 'video_vae', 'processor', 'tokenizer']
+Loading required modules:   0%|          | 0/6 [00:00<?, ?it/s]Loading required modules:   0%|          | 0/6 [00:00<?, ?it/s]Loading required modules:   0%|          | 0/6 [00:00<?, ?it/s]Loading required modules:   0%|          | 0/6 [00:00<?, ?it/s][11-14 16:28:07] Loading text_encoder from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/text_encoder. avail mem: 135.52 GB
+[11-14 16:28:07] Cannot use FlashAttention backend for head size 72.
+
+Loading safetensors checkpoint shards: 0%|          | 0/12[A
+Loading safetensors checkpoint shards: 8%|▊         | 1/12[A
+Loading safetensors checkpoint shards: 17%|█▋        | 2/12[A
+Loading safetensors checkpoint shards: 25%|██▌       | 3/12[A
+Loading safetensors checkpoint shards: 33%|███▎      | 4/12[A
+Loading safetensors checkpoint shards: 42%|████▏     | 5/12[A
+Loading safetensors checkpoint shards: 50%|█████     | 6/12[A
+Loading safetensors checkpoint shards: 58%|█████▊    | 7/12[A
+Loading safetensors checkpoint shards: 67%|██████▋   | 8/12[A
+Loading safetensors checkpoint shards: 75%|███████▌  | 9/12[A
+Loading safetensors checkpoint shards: 83%|████████▎ | 10/12[A
+Loading safetensors checkpoint shards: 92%|█████████▏| 11/12[ALoading required modules:  17%|█▋        | 1/6 [00:04<00:22,  4.50s/it]Loading safetensors checkpoint shards: 100%|██████████| 12/12
+Loading required modules:  17%|█▋        | 1/6 [00:04<00:22,  4.57s/it]Loading required modules:  17%|█▋        | 1/6 [00:04<00:22,  4.59s/it][11-14 16:28:12] Attention backends for text_encoder: torch_sdpa, fa
+[11-14 16:28:12] Loaded text_encoder: MiniMaxH3Qwen3VLEncoder (sgl-diffusion version). model size: 13.21 GB, vram: 13.21 GB. avail GPU mem: 122.08 GB
+Loading required modules:  17%|█▋        | 1/6 [00:04<00:23,  4.61s/it][11-14 16:28:12] Loading transformer from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/transformer. avail mem: 122.08 GB
+[11-14 16:28:12] using transformer weight set from /scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer: ('/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00001-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00002-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00003-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00004-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00005-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00006-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00007-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00008-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00009-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00010-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00011-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00012-of-00013.safetensors', '/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer/model-00013-of-00013.safetensors')
+[11-14 16:28:12] Loading MiniMaxH3DiTModel from 13 safetensors file(s) , param_dtype: torch.bfloat16
+[11-14 16:28:12] Using an unquantized transformer weight override from /scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/transformer
+[11-14 16:28:12] MiniMax-H3 PDD: 8 fused output heads loaded from /scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/runtime/acceleration_loras/h3_pdd_native/pdd_fused_heads.safetensors
+
+Loading safetensors checkpoint shards: 0%|          | 0/13[ALoading safetensors checkpoint shards: 100%|██████████| 13/13
+Loading required modules:  33%|███▎      | 2/6 [00:21<00:47, 11.85s/it][11-14 16:28:28] Loaded transformer: MiniMaxH3DiTModel (sgl-diffusion version). model size: 30.86 GB, vram: 30.86 GB. avail GPU mem: 88.25 GB
+Loading required modules:  33%|███▎      | 2/6 [00:21<00:47, 11.83s/it]Loading required modules:  33%|███▎      | 2/6 [00:21<00:47, 11.83s/it][11-14 16:28:28] Loading audio_vae from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/audio_vae. avail mem: 88.25 GB
+Loading required modules:  33%|███▎      | 2/6 [00:21<00:47, 11.83s/it]/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/env/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/env/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/env/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/env/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[11-14 16:28:29] Attention backends for audio_vae: torch_sdpa
+Loading required modules:  50%|█████     | 3/6 [00:21<00:19,  6.63s/it][11-14 16:28:29] Loaded audio_vae: MiniMaxH3AudioVAE (sgl-diffusion version). model size: 0.56 GB, vram: 0.56 GB. avail GPU mem: 88.15 GB
+Loading required modules:  50%|█████     | 3/6 [00:21<00:19,  6.63s/it][11-14 16:28:29] Loading video_vae from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/video_vae. avail mem: 88.15 GB
+Loading required modules:  50%|█████     | 3/6 [00:21<00:19,  6.65s/it]Loading required modules:  50%|█████     | 3/6 [00:21<00:19,  6.66s/it][93m[11-14 16:28:33] VAE: could not re-home video_vae decode-dtype weights to /home/users/astar/cfar/stuchengyou/.cache/sgl_diffusion/decode_dtype_store/7f51196a6e636dd8.safetensors (existing decode-dtype store does not match the module); keeping in-memory copies[0;0m
+[11-14 16:28:33] VAE: video_vae holds 144 decoder weights in torch.float16 from load (anonymous host memory)
+[11-14 16:28:33] MiniMax-H3 VAE: installed quality-gated fast path (36 QK RMSNorm+RoPE fusions, cuDNN SDPA; 64 tiles and 1 windows per decoder forward).
+[11-14 16:28:34] Attention backends for video_vae: torch_sdpa
+Loading required modules:  67%|██████▋   | 4/6 [00:26<00:11,  5.91s/it][11-14 16:28:34] Loaded video_vae: MiniMaxH3VideoVAE (sgl-diffusion version). model size: 5.2 GB, vram: 5.20 GB. avail GPU mem: 83.55 GB
+Loading required modules:  67%|██████▋   | 4/6 [00:26<00:11,  5.91s/it]Loading required modules:  67%|██████▋   | 4/6 [00:26<00:11,  5.91s/it]Loading required modules:  67%|██████▋   | 4/6 [00:26<00:11,  5.91s/it][11-14 16:28:34] Loading processor from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/processor. avail mem: 83.55 GB
+[11-14 16:28:34] Loaded processor: Qwen3VLProcessor (sgl-diffusion version). model size: NA GB, weights: none. avail GPU mem: 83.55 GB
+Loading required modules:  83%|████████▎ | 5/6 [00:27<00:03,  3.91s/it]Loading required modules:  83%|████████▎ | 5/6 [00:27<00:03,  3.91s/it]Loading required modules:  83%|████████▎ | 5/6 [00:27<00:03,  3.91s/it]Loading required modules:  83%|████████▎ | 5/6 [00:27<00:03,  3.91s/it][11-14 16:28:34] Loading tokenizer from /scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/models/H3/Ref2VA/tokenizer. avail mem: 83.55 GB
+Loading required modules: 100%|██████████| 6/6 [00:27<00:00,  2.65s/it]Loading required modules: 100%|██████████| 6/6 [00:27<00:00,  2.65s/it]Loading required modules: 100%|██████████| 6/6 [00:27<00:00,  4.55s/it]
+Loading required modules: 100%|██████████| 6/6 [00:27<00:00,  4.55s/it]
+[11-14 16:28:34] Loaded tokenizer: Qwen2Tokenizer (sgl-diffusion version). model size: NA GB, weights: none. avail GPU mem: 83.55 GB
+Loading required modules: 100%|██████████| 6/6 [00:27<00:00,  2.65s/it]Loading required modules: 100%|██████████| 6/6 [00:27<00:00,  4.55s/it]
+Loading required modules: 100%|██████████| 6/6 [00:27<00:00,  2.66s/it][11-14 16:28:34] Creating pipeline stages...
+Loading required modules: 100%|██████████| 6/6 [00:27<00:00,  4.55s/it]
+[11-14 16:28:34] Using fa attention backend
+[11-14 16:28:34] Pipeline instantiated
+[11-14 16:28:34] Worker 0: Initialized device, model, and distributed environment.
+[11-14 16:28:35] Worker 0: Scheduler loop started.
+[11-14 16:28:35] [server-load] workers_ready_monotonic_ns=7363232662590913
+[11-14 16:28:35] Starting FastAPI server.
+[2026-11-14 16:28:35] [32mINFO[0m:     Started server process [[36m805570[0m]
+[2026-11-14 16:28:35] [32mINFO[0m:     Waiting for application startup.
+[11-14 16:28:35] ZMQ Broker is listening for offline jobs on tcp://127.0.0.1:20535
+[2026-11-14 16:28:35] [32mINFO[0m:     Application startup complete.
+[2026-11-14 16:28:35] [32mINFO[0m:     Uvicorn running on [1mhttp://127.0.0.1:20534[0m (Press CTRL+C to quit)
+[11-14 16:28:35] Diffusers version: 0.32.2
+[2026-11-14 16:28:35] [32mINFO[0m:     127.0.0.1:47304 - "[1mGET /v1/models HTTP/1.1[0m" [32m200 OK[0m
+[11-14 16:28:35] Adjusting number of frames from 1 to 1 based on model
+[11-14 16:28:35] Adjusting number of frames from 1 to 13 based on number of GPUs (4)
+[2026-11-14 16:28:36] [32mINFO[0m:     127.0.0.1:47308 - "[1mPOST /v1/videos HTTP/1.1[0m" [32m200 OK[0m
+[11-14 16:28:36] Sampling params:
+                       width: 1344
+                      height: 768
+                  num_frames: 243
+                         fps: 24
+                      prompt: <redacted, len=1219>
+                  neg_prompt: None
+                        seed: 42
+                 infer_steps: 8
+      num_outputs_per_prompt: 1
+              guidance_scale: 1.0
+     embedded_guidance_scale: 6.0
+                    n_tokens: None
+                  flow_shift: 12.0
+                  image_path: None
+                 save_output: True
+            output_file_path: /scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/h3_8step/service/outputs/fefa0ede-2ede-4a64-a3ae-54ac4158399b.mp4
+        
+[11-14 16:28:36] Running pipeline stages: ['InputValidationStage', 'MiniMaxH3PartitionAdmissionStage', 'MiniMaxH3TextEncodingStage', 'MiniMaxH3VisualEncodingStage', 'MiniMaxH3AudioEncodingStage', 'MiniMaxH3LatentPreparationStage', 'MiniMaxH3TimestepPreparationStage', 'MiniMaxH3DenoisingStage', 'MiniMaxH3DecodingStage']
+[2026-11-14 16:28:36] [32mINFO[0m:     127.0.0.1:47308 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[11-14 16:28:36] [InputValidationStage] started...
+[11-14 16:28:36] [InputValidationStage] finished in 0.0000 seconds
+[11-14 16:28:36] [MiniMaxH3PartitionAdmissionStage] started...
+[11-14 16:28:36] [MiniMaxH3PartitionAdmissionStage] finished in 0.0000 seconds
+[11-14 16:28:36] [MiniMaxH3TextEncodingStage] started...
+/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/sglang/python/sglang/multimodal_gen/runtime/pipelines_core/stages/model_specific_stages/minimax_h3/stages/text_encoding.py:611: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  videos.append(torch.from_numpy(sampled["frames"]).permute(0, 3, 1, 2))
+[transformers] Qwen3VL video processing does not apply the per-frame pixel cap the reference implementation (qwen-vl-utils) applies, so some videos cost far more tokens than they would there. In v5.22 the capped behavior will become the default and `cap_pixels_per_frame` will be removed. Pass `cap_pixels_per_frame=True` to adopt the reference behavior now, or `False` to keep the current behavior and silence this warning.
+/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/sglang/python/sglang/multimodal_gen/runtime/pipelines_core/stages/model_specific_stages/minimax_h3/stages/text_encoding.py:611: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  videos.append(torch.from_numpy(sampled["frames"]).permute(0, 3, 1, 2))
+[transformers] Qwen3VL video processing does not apply the per-frame pixel cap the reference implementation (qwen-vl-utils) applies, so some videos cost far more tokens than they would there. In v5.22 the capped behavior will become the default and `cap_pixels_per_frame` will be removed. Pass `cap_pixels_per_frame=True` to adopt the reference behavior now, or `False` to keep the current behavior and silence this warning.
+/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/sglang/python/sglang/multimodal_gen/runtime/pipelines_core/stages/model_specific_stages/minimax_h3/stages/text_encoding.py:611: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  videos.append(torch.from_numpy(sampled["frames"]).permute(0, 3, 1, 2))
+[transformers] Qwen3VL video processing does not apply the per-frame pixel cap the reference implementation (qwen-vl-utils) applies, so some videos cost far more tokens than they would there. In v5.22 the capped behavior will become the default and `cap_pixels_per_frame` will be removed. Pass `cap_pixels_per_frame=True` to adopt the reference behavior now, or `False` to keep the current behavior and silence this warning.
+/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/minimax_h3_ref2va90_local_20261112/runtime/sglang/python/sglang/multimodal_gen/runtime/pipelines_core/stages/model_specific_stages/minimax_h3/stages/text_encoding.py:611: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  videos.append(torch.from_numpy(sampled["frames"]).permute(0, 3, 1, 2))
+[transformers] Qwen3VL video processing does not apply the per-frame pixel cap the reference implementation (qwen-vl-utils) applies, so some videos cost far more tokens than they would there. In v5.22 the capped behavior will become the default and `cap_pixels_per_frame` will be removed. Pass `cap_pixels_per_frame=True` to adopt the reference behavior now, or `False` to keep the current behavior and silence this warning.
+[11-14 16:28:40] [MiniMaxH3TextEncodingStage] finished in 4.5424 seconds
+[11-14 16:28:40] [MiniMaxH3VisualEncodingStage] started...
+[2026-11-14 16:28:41] [32mINFO[0m:     127.0.0.1:47322 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:28:46] [32mINFO[0m:     127.0.0.1:34784 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[11-14 16:28:47] [MiniMaxH3VisualEncodingStage] finished in 6.6114 seconds
+[11-14 16:28:47] [MiniMaxH3AudioEncodingStage] started...
+[11-14 16:28:47] [MiniMaxH3AudioEncodingStage] finished in 0.0021 seconds
+[11-14 16:28:47] [MiniMaxH3LatentPreparationStage] started...
+[11-14 16:28:47] [MiniMaxH3LatentPreparationStage] finished in 0.0291 seconds
+[11-14 16:28:47] [MiniMaxH3TimestepPreparationStage] started...
+[11-14 16:28:47] [MiniMaxH3TimestepPreparationStage] finished in 0.0003 seconds
+[11-14 16:28:47] [MiniMaxH3DenoisingStage] started...
+minimax_h3 denoise:   0%|          | 0/8 [00:00<?, ?it/s][2026-11-14 16:28:51] [32mINFO[0m:     127.0.0.1:34798 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:28:56] [32mINFO[0m:     127.0.0.1:35060 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:29:01] [32mINFO[0m:     127.0.0.1:35068 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:29:06] [32mINFO[0m:     127.0.0.1:36780 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+minimax_h3 denoise:  12%|█▎        | 1/8 [00:19<02:14, 19.19s/it][2026-11-14 16:29:11] [32mINFO[0m:     127.0.0.1:49242 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+minimax_h3 denoise:  25%|██▌       | 2/8 [00:24<01:07, 11.22s/it][2026-11-14 16:29:16] [32mINFO[0m:     127.0.0.1:49254 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:29:21] [32mINFO[0m:     127.0.0.1:36518 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:29:26] [32mINFO[0m:     127.0.0.1:36530 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+minimax_h3 denoise:  38%|███▊      | 3/8 [00:41<01:08, 13.73s/it][2026-11-14 16:29:31] [32mINFO[0m:     127.0.0.1:53988 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:29:36] [32mINFO[0m:     127.0.0.1:53996 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:29:41] [32mINFO[0m:     127.0.0.1:46404 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+minimax_h3 denoise:  50%|█████     | 4/8 [00:58<00:59, 14.92s/it][2026-11-14 16:29:46] [32mINFO[0m:     127.0.0.1:46416 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:29:51] [32mINFO[0m:     127.0.0.1:54364 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:29:56] [32mINFO[0m:     127.0.0.1:54366 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:30:01] [32mINFO[0m:     127.0.0.1:59376 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+minimax_h3 denoise:  62%|██████▎   | 5/8 [01:15<00:46, 15.59s/it][2026-11-14 16:30:06] [32mINFO[0m:     127.0.0.1:59378 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:30:11] [32mINFO[0m:     127.0.0.1:53510 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:30:16] [32mINFO[0m:     127.0.0.1:53512 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+minimax_h3 denoise:  75%|███████▌  | 6/8 [01:31<00:31, 15.99s/it][2026-11-14 16:30:21] [32mINFO[0m:     127.0.0.1:59784 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:30:26] [32mINFO[0m:     127.0.0.1:59790 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:30:31] [32mINFO[0m:     127.0.0.1:53178 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:30:36] [32mINFO[0m:     127.0.0.1:53186 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+minimax_h3 denoise:  88%|████████▊ | 7/8 [01:48<00:16, 16.25s/it][2026-11-14 16:30:41] [32mINFO[0m:     127.0.0.1:48444 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:30:46] [32mINFO[0m:     127.0.0.1:48446 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:30:51] [32mINFO[0m:     127.0.0.1:52930 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+minimax_h3 denoise: 100%|██████████| 8/8 [02:05<00:00, 16.42s/it]minimax_h3 denoise: 100%|██████████| 8/8 [02:05<00:00, 15.68s/it]
+[11-14 16:30:53] [MiniMaxH3DenoisingStage] finished in 125.9043 seconds
+[2026-11-14 16:30:56] [32mINFO[0m:     127.0.0.1:52940 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:31:01] [32mINFO[0m:     127.0.0.1:38116 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[11-14 16:31:04] [MiniMaxH3DecodingStage] started...
+[11-14 16:31:05] MiniMax H3 video VAE decoder fuses each scaled residual add into the next RMSNorm
+[2026-11-14 16:31:06] [32mINFO[0m:     127.0.0.1:38120 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[11-14 16:31:07] [MiniMaxH3DecodingStage] finished in 2.9982 seconds
+[11-14 16:31:08] Output saved to [1;36m/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/h3_8step/service/outputs/fefa0ede-2ede-4a64-a3ae-54ac4158399b.mp4[0;0m
+[11-14 16:31:08] Pixel data generated successfully in [92m152.85[0;0m seconds
+[11-14 16:31:08] Peak memory usage: 71324.00 MB
+[2026-11-14 16:31:11] [32mINFO[0m:     127.0.0.1:35120 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:31:11] [32mINFO[0m:     127.0.0.1:35120 - "[1mGET /v1/videos/fefa0ede-2ede-4a64-a3ae-54ac4158399b/content HTTP/1.1[0m" [32m200 OK[0m
+[2026-11-14 16:31:12] [32mINFO[0m:     Shutting down
+[2026-11-14 16:31:12] [32mINFO[0m:     Waiting for application shutdown.
+[11-14 16:31:12] FastAPI app is shutting down...
+[2026-11-14 16:31:12] [32mINFO[0m:     Application shutdown complete.
+[2026-11-14 16:31:12] [32mINFO[0m:     Finished server process [[36m805570[0m]
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/runtime/envs/trainer/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 4 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

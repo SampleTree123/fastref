@@ -1,0 +1,7 @@
+fused 32 -> 8 heads (block size 4)
+  video_out.weight: (8, 96, 5376)
+  video_out.bias: (8, 96)
+  audio_out.weight: (8, 32, 5376)
+  audio_out.bias: (8, 32)
+run with --num-inference-steps 8
+first 9 points of the video sigma grid: [1.0, 0.9882, 0.973, 0.9524, 0.9231, 0.878, 0.8, 0.6316, 0.0]
