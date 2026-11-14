@@ -1,5 +1,24 @@
 # H3与VACE加速小样
 
+## 2026-11-14 16:57 SGT：服装与发色四个新增视频全部完成
+
+[统一查看页面](index.html)保留原身份例子，并新增整套服装whole_outfit_01和粉色发色hair_color_03；每组并排显示源视频、VACE和H3，服装另附正背两张参考图。整个本目录可下载后直接查看，媒体链接使用相对路径。
+
+|新增例子|VACE4步，单卡H200|H3 Ref2VA8步，四卡H200|
+|---|---|---|
+|整套服装|235.6秒，约3分56秒|160.5秒，约2分41秒|
+|发色改粉色|213.2秒，约3分33秒|145.4秒，约2分25秒|
+
+耗时不含模型加载和预先制作mask。VACE两例在两张卡并行；H3两例共用一个服务依次生成，模型加载共72.3秒。VACE输出各121帧，H3各243帧，均通过完整解码检查。202767模型进程已结束，四卡显存归零；交互资源仍保留。
+
+服装抽查首、中、末帧：两者均改为参考中的粉色套装；VACE袖子等细节不同于参考，H3背景取景也有变化。发色抽查：VACE头发变粉色、保留了总体构图；H3虽改成粉色，但输出出现三分屏，未保持原视频构图。仅作初步观察，完整效果以页面视频为准。数据、seed42和加速参数沿用上一轮。
+
+结果回执见各案例目录中的`vace_4step/result.json`和`h3_8step/result.json`，汇总为[all_cases_results.json](all_cases_results.json)。额外脚本修改的版本记录在[additional_code_hashes.json](additional_code_hashes.json)。
+
+## 2026-11-14 16:45 SGT：新增服装与发色，正在执行
+
+用户要求再测两个任务。选用whole_outfit_01（整套服装，正背两张图）及hair_color_03（改成粉色，无参考图）；各用VACE4步与H3 Ref2VA8步，seed42及其余设置沿用。先两张空闲卡并行VACE，再四卡H3共用一次模型加载。原身份结果保留，最后合并在同一个页面。
+
 ## 2026-11-14 16:32 SGT：两个模型均完成完整视频生成
 
 同一换身份例子，源视频＋一张人物参考。两份LoRA均已实际加载并完成生成，所有输出帧均通过解码检查；202767的测试进程已退出，四卡显存均归零。未启动正式100链。
@@ -38,6 +57,6 @@ H3首次启动遇到HTTP端口＋1冲突，未生成视频；已改为检查低�
 
 VACE的额外参数不能忽略：当前官方加载器会跳过242个小向量，本地适配器补齐它们，再使用官方LoRA加载方式。成功运行后，`vace_4step/lora_load.json`记录全部加载核对结果。
 
-结果和耗时分别写入`vace_4step/result.json`、`h3_8step/result.json`；视频均叫`output.mp4`。脚本入口和调用顺序见使用说明位于原 DataMake 仓库：`10_research/model_experiments/qwen3.8/scripts/acceleration/README.md`。模型加载时间与生成时间分开记录；本次不测Qwen、动态分割和多人并行的全流程耗时。
+结果和耗时分别写入`vace_4step/result.json`、`h3_8step/result.json`；视频均叫`output.mp4`。脚本入口和调用顺序见[使用说明](../../scripts/acceleration/README.md)。模型加载时间与生成时间分开记录；本次不测Qwen、动态分割和多人并行的全流程耗时。
 
 资料（2026-11-14核对）：[LightX2V模型说明](https://huggingface.co/lightx2v/Wan2.1-T2V-14B-StepDistill-CfgDistill)、[四步配置](https://github.com/ModelTC/LightX2V/blob/main/configs/distill/wan21/wan_t2v_distill_model_4step_cfg.json)、[调度实现](https://github.com/ModelTC/LightX2V/blob/main/lightx2v/models/schedulers/wan/step_distill/scheduler.py)、[H3加速权重](https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs)。

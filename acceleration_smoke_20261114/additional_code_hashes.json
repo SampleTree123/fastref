@@ -1,0 +1,7 @@
+{
+  "10_research/model_experiments/qwen3.8/scripts/acceleration/refresh_gallery.py": "98e899ab4c9d46770983db7a18e5dcd9cc6c6cb822b83dfb3bca01e2ef1f575a",
+  "10_research/model_experiments/qwen3.8/scripts/acceleration/smoke_vace.py": "8844a8b222e9dd49b3eab3a685c6bcc0f072bbea4addd8e3306e6ca722ed903e",
+  "10_research/model_experiments/qwen3.8/scripts/acceleration/download_loras.py": "671b134835eb678b5f0bb4d7c7579ffc923d513ff24842c37e9449cebf30c99e",
+  "10_research/model_experiments/qwen3.8/scripts/acceleration/smoke_h3.py": "acd04e0dea9937c41c61a5bd8b26a03b4eeeef4b67c9d6bcfcd2ae3eee9dc085",
+  "10_research/model_experiments/qwen3.8/scripts/video_backends/h3_service.py": "8c9da970f4694c7d9a9ce07d223b1e2ba594f0bf000c9443ad5e693383eaf658"
+}

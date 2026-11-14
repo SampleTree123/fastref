@@ -1,0 +1,11 @@
+{
+  "scope": "First, middle, last frames; not a full temporal or metric evaluation.",
+  "whole_outfit_01": {
+    "vace": "Pink outfit generated; sleeve details differ from reference.",
+    "h3": "Pink outfit generated; background framing changes."
+  },
+  "hair_color_03": {
+    "vace": "Pink hair visible; overall source framing retained.",
+    "h3": "Pink hair visible but frames become a three-panel composition."
+  }
+}

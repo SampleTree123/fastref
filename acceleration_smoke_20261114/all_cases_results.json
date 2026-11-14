@@ -1,0 +1,162 @@
+{
+  "identity_01": {
+    "vace_4step": {
+      "generation_seconds": 224.06858322955668,
+      "load_seconds": 19.185202826745808,
+      "media": {
+        "canvas_wh": [
+          1280,
+          736
+        ],
+        "fps": "12/1",
+        "frames": 121
+      },
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/vace_4step/output.mp4",
+      "peak_allocated_bytes": 74291245056,
+      "sigmas": [
+        1.0,
+        0.9375,
+        0.8333333134651184,
+        0.625,
+        0.0
+      ],
+      "status": "complete",
+      "step_end_elapsed": [
+        65.07007614057511,
+        113.6166898328811,
+        162.17915091570467,
+        210.74730105232447
+      ]
+    },
+    "h3_8step": {
+      "load_seconds": 78.3117605894804,
+      "media": {
+        "canvas_wh": [
+          1344,
+          768
+        ],
+        "fps": "24",
+        "frames": 243
+      },
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/h3_8step/output.mp4",
+      "pdd_config": {
+        "audio_shift": 3.0,
+        "block_size": 4,
+        "fused_steps": 8,
+        "num_inference_steps": 8,
+        "num_steps": 32,
+        "video_shift": 12.0
+      },
+      "request_seconds": 155.73053415492177,
+      "status": "complete"
+    }
+  },
+  "whole_outfit_01": {
+    "vace_4step": {
+      "generation_seconds": 235.59828628133982,
+      "load_seconds": 33.70015154406428,
+      "media": {
+        "canvas_wh": [
+          1280,
+          736
+        ],
+        "fps": "12/1",
+        "frames": 121
+      },
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/whole_outfit_01/vace_4step/output.mp4",
+      "peak_allocated_bytes": 75106689024,
+      "sigmas": [
+        1.0,
+        0.9375,
+        0.8333333134651184,
+        0.625,
+        0.0
+      ],
+      "status": "complete",
+      "step_end_elapsed": [
+        68.2857162533328,
+        119.64496145490557,
+        171.01593870855868,
+        222.34533966053277
+      ]
+    },
+    "h3_8step": {
+      "case_id": "whole_outfit_01",
+      "load_seconds": 72.30484824255109,
+      "media": {
+        "canvas_wh": [
+          1344,
+          768
+        ],
+        "fps": "24",
+        "frames": 243
+      },
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/whole_outfit_01/h3_8step/output.mp4",
+      "pdd_config": {
+        "audio_shift": 3.0,
+        "block_size": 4,
+        "fused_steps": 8,
+        "num_inference_steps": 8,
+        "num_steps": 32,
+        "video_shift": 12.0
+      },
+      "request_seconds": 160.5277317762375,
+      "server_inference_seconds": 157.735026483424,
+      "status": "complete"
+    }
+  },
+  "hair_color_03": {
+    "vace_4step": {
+      "generation_seconds": 213.23029970843345,
+      "load_seconds": 34.11815601494163,
+      "media": {
+        "canvas_wh": [
+          1280,
+          736
+        ],
+        "fps": "12/1",
+        "frames": 121
+      },
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/hair_color_03/vace_4step/output.mp4",
+      "peak_allocated_bytes": 73470595072,
+      "sigmas": [
+        1.0,
+        0.9375,
+        0.8333333134651184,
+        0.625,
+        0.0
+      ],
+      "status": "complete",
+      "step_end_elapsed": [
+        62.37873656023294,
+        108.28636336978525,
+        154.18069197889417,
+        200.0244358573109
+      ]
+    },
+    "h3_8step": {
+      "case_id": "hair_color_03",
+      "load_seconds": 72.30484824255109,
+      "media": {
+        "canvas_wh": [
+          1344,
+          768
+        ],
+        "fps": "24",
+        "frames": 243
+      },
+      "output": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/experiments/acceleration_smoke_20261114/hair_color_03/h3_8step/output.mp4",
+      "pdd_config": {
+        "audio_shift": 3.0,
+        "block_size": 4,
+        "fused_steps": 8,
+        "num_inference_steps": 8,
+        "num_steps": 32,
+        "video_shift": 12.0
+      },
+      "request_seconds": 145.3538235956803,
+      "server_inference_seconds": 143.86504281964153,
+      "status": "complete"
+    }
+  }
+}
