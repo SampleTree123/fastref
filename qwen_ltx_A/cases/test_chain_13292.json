@@ -1,0 +1,164 @@
+{
+  "id": "test_chain_13292",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": null,
+  "root": "media/2da0e88140dbd6308a4d0cfd9338456dc807c75f1e6425c5480feab2edfa87fa.mp4",
+  "state_sha256": "3646e1db9c35b5db880e1f8f34643e6c191e2bb42d6a03e6f9839e98b812a22c",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "normal_continue",
+      "edge_id": 29097,
+      "source_node_id": 6891,
+      "target_node_id": 6888,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a rear-view dolly-out shot that moves from upper-body to full-body framing. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "我希望将视频的镜头改为从人物背面逐渐远离，由上半身过渡到全身的镜头。仅改变镜头设置。保留人物的外观、表情和动作，以及现有场景。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Change the video's camera setup to a rear-view dolly-out shot that moves from upper-body to full-body framing. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the described camera setup and movement, and preserve the timing and progression of the action in the source video. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene.",
+      "output": "media/72fe1d658cac6018282725b017661d6f78051af8fc57c28b3a2a433e5d121206.mp4",
+      "ground_truth": "media/ae4464e3063de2c613482ea4f743b16b855cbb5fa71c6321d630103772676181.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/f5212d07091169b84e4624a5685cd376dd4ee50b44349c3658774acb4a865f4f.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": 29083,
+      "source_node_id": 6888,
+      "target_node_id": 6895,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+      "prompt_zh": "请将人物的动作改为向前走，具体表现参照参考视频。参考视频仅用于确定动作。保持人物的身份、外观、表情、场景和镜头不变。",
+      "editing_prompt": "Change the person's action to the one demonstrated in the motion reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+      "output": "media/1056eb1903855f25c050e64e26d0fa36ce445262f40438cfef7c65e7ca6716e4.mp4",
+      "ground_truth": "media/85f0ce9f7ce44a586482107df71c511ee7a26585491912319de5ede85241570f.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/5fa2f17d9969b41716963ece882a2f62884982af0861a366db77dd45938544e5.mp4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "content_description_match",
+      "edge_id": 29096,
+      "source_node_id": 6891,
+      "target_node_id": 6882,
+      "user_prompt": "Please return to the history video where the camera uses a side dolly-out shot moving from upper-body to full-body framing, and apply the following edit to that version: Using the provided source video, apply the following edit: Please replace the person's one-piece garment with the item shown in the reference images. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+      "prompt_zh": "请回到第0个视频，接下来在该视频上这样修改：我想将人物当前的整身服装换成参考图中的款式。保留当前视频中的其他衣物、鞋子及所有非服装内容。",
+      "editing_prompt": "Replace the person's one-piece garment with the item shown in the reference images (front and back views). Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+      "output": "media/5eadb4165b3e0ecd6f1fadf480c32527b9864783617547b755f213c51d84ff51.mp4",
+      "ground_truth": "media/3e689c9c8236e175b19ae3c893469673702bd653799136c2d6f981e510cd86fb.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "garment",
+          "view": "front",
+          "path": "media/99092b50972ac537d99b1c42f2152bf953a011acfb3cca0598d1a6665604649e.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "garment",
+          "view": "back",
+          "path": "media/5c9fc130e1eae776eb7dc9fef40731c118cb27f1291caf00b7dbb60801db2ac9.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The woman stands in profile, then raises both hands to her head to adjust her hair, and finally lowers her arms to her sides.",
+      "camera": "The camera is at a low angle and slowly pulls back from a medium shot to a full-body shot.",
+      "clothing": "She wears a short, form-fitting dress with a busy purple, orange, and blue floral and paisley pattern, featuring cold-shoulder cutouts and three-quarter sleeves, paired with reddish-brown canvas sneakers.",
+      "hair_color": "Black.",
+      "hairstyle": "Dark hair is pulled back into a low bun with straight bangs across the forehead.",
+      "identity": "A young woman with a slim build and light brown skin, shown in profile.",
+      "scene": "An outdoor concrete platform beside a body of water, with a large stone retaining wall, wooden pilings, and a clear blue sky in the background."
+    },
+    "1": {
+      "action": "The person stands facing the water, then raises their arms to touch their hair and head before lowering them back to their sides.",
+      "camera": "The camera is positioned behind the subject at a medium-full distance, slowly pulling back to reveal more of the legs and the stone platform.",
+      "clothing": "They wear a colorful one-piece romper with a busy purple, blue, orange, and yellow pattern, three-quarter sleeves, and a low open back, along with pink sneakers.",
+      "hair_color": "Black.",
+      "hairstyle": "Dark hair is pulled back into two small low pigtails or buns at the nape of the neck.",
+      "identity": "A person with a slim build and dark skin is shown from behind, with their face not visible.",
+      "scene": "The setting is an outdoor stone terrace or pier beside a calm body of water under a clear blue sky, with a wooden post and rocks visible in the water."
+    },
+    "2": {
+      "action": "The woman walks slowly away from the camera towards a body of water, then stops and turns her head to the left to look up.",
+      "camera": "The camera is positioned behind the subject at a medium distance, remaining mostly static as she moves forward.",
+      "clothing": "She wears a colorful, patterned romper with three-quarter sleeves, featuring a mix of purple, blue, orange, and yellow floral and abstract designs, along with pink sandals.",
+      "hair_color": "Black.",
+      "hairstyle": "Dark hair is pulled back into two low pigtails or buns on either side of her head.",
+      "identity": "A woman with a slim build and tanned skin, seen from behind.",
+      "scene": "The setting is an outdoor area with a paved walkway next to a calm body of water, possibly a lake or sea, under a clear blue sky."
+    },
+    "3": {
+      "action": "The woman stands in profile, then raises both hands to her face to adjust her hair or bangs before lowering her arms and standing still.",
+      "camera": "A static, low-angle medium-full shot that captures the subject from the shins up against the background.",
+      "clothing": "A white, floral-print romper with pink, yellow, and blue flowers, featuring cut-out shoulders and three-quarter sleeves, paired with reddish-brown sneakers.",
+      "hair_color": "Black.",
+      "hairstyle": "Dark hair pulled back into a low bun with straight bangs across the forehead.",
+      "identity": "A young woman with a slim build and light brown skin, shown in profile.",
+      "scene": "An outdoor, sunlit area with a concrete or stone paved ground, a large weathered concrete wall with a rusty metal railing, and a body of water with wooden pilings in the background under a clear blue sky."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

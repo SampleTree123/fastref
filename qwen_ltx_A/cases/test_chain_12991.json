@@ -1,0 +1,164 @@
+{
+  "id": "test_chain_12991",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": null,
+  "root": "media/3edd67f941b6985bc8cdc765ec20ea790d549c7214ff6ba081f7e0377b082dd3.mp4",
+  "state_sha256": "6f4e9e5f88f029f30abdf78a5ba9143fa9f98245aebfbef0b0ced6a8e513719e",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": 27963,
+      "source_node_id": 6247,
+      "target_node_id": 6245,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to posing for a photo, following the demonstration in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+      "prompt_zh": "请将人物当前的动作改为摆出拍照姿势，具体动作参照参考视频中的示范。参考视频仅用于确定动作。保持人物的身份、外观、表情、场景和镜头不变。",
+      "editing_prompt": "Change the person's current action to posing for a photo, following the action demonstrated in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+      "output": "media/2f70ffa8e70df40efd4b649b93dc70b7897adc2ac0490b382ba5b70ed9cd3956.mp4",
+      "ground_truth": "media/c80d22c432ce6baeb5bf669d632fc79dda17ec57ff6a40b2d49de5bbd46c7ee2.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/ec903687605605d2af3824e4e3a1d85b3baa097bf0f5107e3a2c3e3e2fd213b2.mp4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "normal_continue",
+      "edge_id": 27951,
+      "source_node_id": 6245,
+      "target_node_id": 6246,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a high-angle full-body shot looking down from a front three-quarter view. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "我希望将视频的镜头改为从人物前侧上方斜向下拍摄的全身镜头。保留同一环境中的人物、发型、发色、穿搭、表情和动作。仅改变相机拍摄场景的方式。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Change the video's camera setup to a high-angle full-body shot looking down from a front three-quarter view. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the described camera setup and movement, and preserve the timing and progression of the action in the source video. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged.",
+      "output": "media/96d55746809e410433382bf7bfbc1c11783d4ea29211b132ca7234f8ac2361ea.mp4",
+      "ground_truth": "media/33d7979c54cbd1f20480cc1941d77747294d95affde7980adb11daf8d424ea04.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/618b797b9ab447ffe8edc04a18e9ec6503dea2e1db27f1123d5c92226218ae44.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "event_after",
+      "edge_id": 27954,
+      "source_node_id": 6245,
+      "target_node_id": 6249,
+      "user_prompt": "Please select the result of edit 1, then use that video as the starting point for the following change: Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+      "prompt_zh": "请选择第1轮编辑后的结果视频，然后以它为基础进行以下修改：将人物的整身服装替换为参考图中的单件。保持其他衣物、鞋子和非服装属性不变。",
+      "editing_prompt": "Replace the person's one-piece garment with the item shown in the reference images (front and back views). Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+      "output": "media/42ec5b0afa6ac8d09da3bf04643b7191bedabf7e99fb16dbb4d48620ff4e3433.mp4",
+      "ground_truth": "media/d8c60c7fcfc863ecf4251cf8367e5c5aedf55fecf650908d50a25909967b9133.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "garment",
+          "view": "front",
+          "path": "media/70c7309bc2c61099e11ee702f62c1aa988de56076ee57b6018f4a35bf42f103f.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "garment",
+          "view": "back",
+          "path": "media/79ab21875caa100699ed3e1ca743397a1a5a6c86fc18fbee1b7f4cad1897165a.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The woman stands in the center of an open paved area, slowly rotating her body in a full circle to face different directions.",
+      "camera": "The camera maintains a full-body, eye-level shot of the woman, remaining stationary while she turns.",
+      "clothing": "She wears a short, blue and white patterned dress with a square neckline and elbow-length sleeves, paired with pink sneakers.",
+      "hair_color": "Her hair is a reddish-brown or auburn color.",
+      "hairstyle": "Her hair is pulled back into a low bun at the nape of her neck.",
+      "identity": "A slender young woman with a fair complexion and a neutral facial expression.",
+      "scene": "The setting is an outdoor amusement park or fairground during the day, featuring a large Ferris wheel, a carousel, a general store, and various game booths in the background."
+    },
+    "1": {
+      "action": "She stands in the open plaza, turning her body and raising one arm to brush her hair back while the other hand rests on her hip.",
+      "camera": "Full-body shot at a low angle that slowly orbits around the woman, keeping her centered.",
+      "clothing": "A short blue-and-white patterned dress with cut-out shoulders and reddish-brown flat shoes.",
+      "hair_color": "Pink.",
+      "hairstyle": "Short hair with a side-swept fringe, tucked behind one ear.",
+      "identity": "A slender young woman with fair skin, shown in a 3D-rendered style.",
+      "scene": "An outdoor amusement park at warm daylight, with a Ferris wheel, carousel, and other rides in the background."
+    },
+    "2": {
+      "action": "The character stands on a dirt surface, slowly turning her body from a back view to a side profile and then back toward the rear while raising one hand to touch her hair.",
+      "camera": "A static, high-angle full-body shot that keeps the character centered in the frame.",
+      "clothing": "A short, blue-and-white patterned dress with three-quarter sleeves and an open back, paired with pink slip-on shoes.",
+      "hair_color": "Reddish-brown.",
+      "hairstyle": "Short reddish-brown hair with bangs, tied back at the nape.",
+      "identity": "A slender female 3D character with fair skin and a slim build.",
+      "scene": "An outdoor dirt or sand lot under bright sunlight, with a long shadow cast to the left and a red vehicle partially visible in the upper right background."
+    },
+    "3": {
+      "action": "She stands in the center of an open paved area, slowly turning her body while posing with one hand on her hip and the other raised near her head.",
+      "camera": "A medium full-body shot that orbits around the woman at a low angle, keeping her centered as the background rotates.",
+      "clothing": "A short, blue-and-white patterned dress with cut-out shoulders and pink flat shoes.",
+      "hair_color": "Pink.",
+      "hairstyle": "Short, straight hair with bangs, tucked behind one ear.",
+      "identity": "A 3D-rendered woman with a slim build, light skin, and a visible face with pink-tinted hair.",
+      "scene": "An outdoor amusement park at dusk, featuring a Ferris wheel, a carousel, and other colorful rides under a warm, hazy sky."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

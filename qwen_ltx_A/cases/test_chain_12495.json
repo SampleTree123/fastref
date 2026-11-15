@@ -1,0 +1,235 @@
+{
+  "id": "test_chain_12495",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 5,
+  "completed_turns": 5,
+  "selection_kind": null,
+  "root": "media/7005206adf7dc61c95df1cb58ec94e1892ce8c037184e55d660be2894a15b615.mp4",
+  "state_sha256": "f45b9ff86f548eaed9fd5b13fae8e652c24cb2e6079b558203fe0c8d6b38c9f3",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": 27713,
+      "source_node_id": 6237,
+      "target_node_id": 6243,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to chestnut brown.",
+      "prompt_zh": "人物目前是金色头发，请将其改为栗色。",
+      "editing_prompt": "Change the person's hair color to chestnut brown. Preserve the person's identity, hair shape, and all other aspects of the video.",
+      "output": "media/d156972c3e05e93bee423c71934ac07def8f3c52150182612ac9dafe02623dc5.mp4",
+      "ground_truth": "media/cf9a6e8101112dcce5a745d2051471d29902f61cc378aa200880aec63e869efe.mp4",
+      "references": []
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "normal_continue",
+      "edge_id": 27729,
+      "source_node_id": 6243,
+      "target_node_id": 6236,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+      "prompt_zh": "我想将人物的发型更换为参考图中展示的发型。只采用参考图中的发型，不采用参考人物的面部特征、发色或服装。当前视频中的其他内容保持不变。",
+      "editing_prompt": "Change the person's hairstyle to the one shown in the reference images, using the front view for the front styling and the back view for the back styling. Transfer only the hairstyle shape and structure from the references; do not adopt the reference person's facial features, hair color, or clothing. Preserve the person's original hair color, identity, and all other elements of the current video.",
+      "output": "media/b55957c9b32e1c9121d4931447a65fd08556117799a39a95da5ece22e1f56326.mp4",
+      "ground_truth": "media/ac34457ec1c5cb43f7350bd06d1e7aab70ad82649af297a075042bb68a996f54.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/6c2ca1922d2b2a1b92b4a62a8fd067c259d7a0226bcde28c9e91c87d1d6e8103.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/be85c9523971c5e17a62a970ca74e3106586f94477e93232426c47be10497437.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "content_description_match",
+      "edge_id": 27712,
+      "source_node_id": 6237,
+      "target_node_id": 6225,
+      "user_prompt": "Please select the video where the person has blonde hair, then use that video as the starting point for the following change: Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+      "prompt_zh": "请选择人物头发是金色的那个视频，然后以该视频为基础进行以下修改：我希望将视频的场景更换为参考图展示的环境。保持人物的身份、发型、发色、服装、表情和动作不变。保留镜头构图与运动，同时让人物受光适应目标环境。",
+      "editing_prompt": "Replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+      "output": "media/4634bb98fd472a0f926930adc83e78c764ed4be523cabd44f6502f8f8f1dff18.mp4",
+      "ground_truth": "media/88beb862d976cd9182db233b2858d6aaf7689acd4f08887ab794ad154ae227a6.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/bc3df807f6aac514ec586bcdc08630f9bc97eb16f1a282da06648c814845c2fc.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parent": 3,
+      "expected_parent": 3,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "normal_continue",
+      "edge_id": 27668,
+      "source_node_id": 6225,
+      "target_node_id": 6206,
+      "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+      "prompt_zh": "请按照参考图为人物更换发型。采用参考图中头发的形状和造型，同时保留当前人物的面部特征、发色和服装。视频中的其余内容保持不变。",
+      "editing_prompt": "Restyle the person's hair to match the shape and styling shown in the reference images (front and back views). Preserve the person's current hair color, facial features, and clothing. Leave the rest of the video unchanged.",
+      "output": "media/ecd031361d9657bb02aaf3c7431b1c7aa9a7486d7639ee5fd1b7c584bb6a9478.mp4",
+      "ground_truth": "media/e2f396734cb5ff11b4cd2050aa01ce585e94e1f2973b6cb73b30df0ed4e63b4d.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/6c2ca1922d2b2a1b92b4a62a8fd067c259d7a0226bcde28c9e91c87d1d6e8103.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/be85c9523971c5e17a62a970ca74e3106586f94477e93232426c47be10497437.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "parent": 4,
+      "expected_parent": 4,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 27584,
+      "source_node_id": 6206,
+      "target_node_id": 6204,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the skirt, the top, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "我想将人物的整套穿搭更换为参考图中以正面和背面展示的半身裙、上衣、鞋子。仅保留属于目标搭配的衣物和鞋子，所有非服装内容保持不变。第一张参考图展示整套穿搭的正面，第二张展示背面。",
+      "editing_prompt": "Replace the person's entire outfit with the skirt, top, and footwear shown in the reference images. The first reference image shows the front view of the complete target outfit, and the second shows its back view. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects of the person and scene unchanged.",
+      "output": "media/c130da5d6b265814488f665d716e2315321855305e9e5c3787cafeab63d53e94.mp4",
+      "ground_truth": "media/be2d9e48e2658ec464e0a8219a620f6946c05ec1641c48db0177cbd60e641871.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/f6f91469a80ba0bebb13be6212bbc5983eced31b2185f9b41a781059cfd93255.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/b6be54fab893d7bbf6ea60406352391a121c306647d7dc77024fe427144aeb36.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "She stands facing forward, then turns to her right, raises one arm to brush her hair back, and lowers it while turning back toward the front.",
+      "camera": "Static full-body shot at a slight low angle from the front-left.",
+      "clothing": "Long-sleeved pink sweater, short pink pleated skirt, and black lace-up boots.",
+      "hair_color": "Bright yellow-green.",
+      "hairstyle": "Short hair with a side-swept fringe and a small bun or ponytail at the back.",
+      "identity": "A 3D-rendered young woman with a slim build and light skin, shown in full body.",
+      "scene": "An outdoor rooftop or plaza with tiled and pebbled ground, large gray metal structures, and a city skyline with cranes and lit buildings in the background under warm low sunlight."
+    },
+    "1": {
+      "action": "The character stands, turns her body, raises her hand to her head, and then lowers her arms to her sides.",
+      "camera": "Static, full-body shot from a slightly low angle.",
+      "clothing": "A bright pink long-sleeved sweater, a light pink pleated mini skirt, and black lace-up boots.",
+      "hair_color": "Dark brown or black.",
+      "hairstyle": "Short, dark hair styled in a bob with bangs.",
+      "identity": "A 3D-rendered female character with a slim build and light skin.",
+      "scene": "An outdoor urban rooftop or plaza with tiled and pebbled ground, large gray structures, and a cityscape with cranes in the background under a bright sky."
+    },
+    "2": {
+      "action": "She stands facing forward, then turns her body to the side while raising her right hand to brush her hair back, before turning back to face the front.",
+      "camera": "A static, full-body shot from a slightly low angle.",
+      "clothing": "A bright pink long-sleeved sweater, a light pink pleated mini-skirt, and black lace-up boots.",
+      "hair_color": "Black.",
+      "hairstyle": "Dark hair styled into two high buns on top of her head.",
+      "identity": "A 3D-rendered young woman with a slim build, dark skin, and a youthful face.",
+      "scene": "An outdoor rooftop or plaza area with tiled and pebbled ground, featuring large grey industrial structures, a multi-story building with a parking garage, and construction cranes in the background under a pale sky."
+    },
+    "3": {
+      "action": "She stands on the road, then turns her body and raises one arm to brush her hair back before lowering it and shifting her stance.",
+      "camera": "Static full-body shot from a low angle, keeping the subject centered.",
+      "clothing": "She wears a long-sleeved coral-pink top, a matching pleated mini skirt, and black lace-up boots with white soles.",
+      "hair_color": "Blonde.",
+      "hairstyle": "Blonde hair tied back in a ponytail.",
+      "identity": "A slim young woman with fair skin, shown in a 3D-rendered style.",
+      "scene": "An outdoor paved road under a concrete overpass, with red-and-white construction barriers, traffic signs, a metal guardrail, trees, and a construction crane in the background."
+    },
+    "4": {
+      "action": "The character stands in the middle of the road, turns her body, raises one arm to touch her head, and places her hands on her hips.",
+      "camera": "A static, low-angle full-body shot from the front-left of the character.",
+      "clothing": "A long-sleeved coral-pink dress with a flared skirt and black lace-up boots with white soles.",
+      "hair_color": "Blonde.",
+      "hairstyle": "Blonde hair styled in two high buns on top of the head.",
+      "identity": "A slender 3D-rendered female character with a stylized, anime-like face and fair skin.",
+      "scene": "An outdoor paved road under a concrete overpass, with orange-and-white construction barriers, traffic signs, a metal guardrail, and trees in the background."
+    },
+    "5": {
+      "action": "She stands mostly still, shifting her weight and turning her head and upper body slightly to look around.",
+      "camera": "The camera holds a static, low-angle full-body shot from across the road.",
+      "clothing": "She wears a short, form-fitting dress with a black-and-white lace-up bodice and a yellow-and-black patterned skirt, along with light blue sneakers.",
+      "hair_color": "Her hair is bright yellow.",
+      "hairstyle": "Her hair is styled into two high buns on top of her head.",
+      "identity": "A slender young woman with a stylized, computer-generated appearance stands in the center of the frame.",
+      "scene": "She is on an asphalt road beside a concrete overpass, with red-and-white construction barriers, traffic cones, a metal guardrail, and trees in the background under bright daylight."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

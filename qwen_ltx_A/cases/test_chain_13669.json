@@ -1,0 +1,229 @@
+{
+  "id": "test_chain_13669",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 5,
+  "completed_turns": 5,
+  "selection_kind": null,
+  "root": "media/3d3641c1871e731df2370243398a21ff58313ccdd762c1bbf330abe8efad1411.mp4",
+  "state_sha256": "b0216f64b4ebe36e4dbecc6f0932e526fb57a9f59ff3702522976675ab0e15f5",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": 27896,
+      "source_node_id": 6719,
+      "target_node_id": 6730,
+      "user_prompt": "Using the provided source video, apply the following edit: The person currently has black hair; please change it to chestnut brown.",
+      "prompt_zh": "请将人物当前的黑色发色替换为栗色。",
+      "editing_prompt": "Change the person's hair color from black to chestnut brown. Preserve the existing hairstyle, hair length, texture, and all other aspects of the video.",
+      "output": "media/12eac86a52d6a6edfa78325aa476a5923117e01664aefee7394e7a1cdcc473ad.mp4",
+      "ground_truth": "media/621b9ba5091f80f771acd64e627f071ebe2a280d028eb0b16d779e5546eef602.mp4",
+      "references": []
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "normal_continue",
+      "edge_id": 27932,
+      "source_node_id": 6730,
+      "target_node_id": 6735,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+      "prompt_zh": "我希望将视频的场景更换为参考图展示的环境。保持人物的身份、发型、发色、服装、表情和动作不变。保留镜头构图与运动，同时让人物受光适应目标环境。",
+      "editing_prompt": "Replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+      "output": "media/dbb1a8449852f0be4a1693b627ddd1b3053f14e6bae6654bac3df9183dfa1882.mp4",
+      "ground_truth": "media/d498f174c882e0b9162549ac667ca649407eb5a15b3f6fe6ddf2007611947ef0.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/46002ea5a50b771f71395284200abff32ecfdddeb3c8804ac774a7ecb1754a6e.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 2,
+      "expected_parent": 2,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "normal_continue",
+      "edge_id": 27945,
+      "source_node_id": 6735,
+      "target_node_id": 6728,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+      "prompt_zh": "请将人物的发型改为参考图中的发型。只采用参考图中的发型，不采用参考人物的面部特征、发色或服装。当前视频中的其他内容保持不变。",
+      "editing_prompt": "Change the person's hairstyle to match the reference images. Match the shape and styling of the hair shown in the front and back reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+      "output": "media/49a040cd384bb01b7cdb4bd8b27b7981a9805ffa967551cdcf6029506baaede1.mp4",
+      "ground_truth": "media/4877778c2fee69f726ba2d6bf4dda70c50414e5f9dd019c2f3871c679a5c02d9.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/b09dd8663121e76de8d44726179d56dfbcbdbb0d2a4f145e5227ae2d11ef8e2c.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/5fa4fe10c7dc366bcf3cf92ab0fd868d66dec8143e9383c1c4a42bc99a0464c1.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "content_description_match",
+      "edge_id": 27894,
+      "source_node_id": 6719,
+      "target_node_id": 6703,
+      "user_prompt": "Please return to the version where the person has black hair and apply the following edit to that version: Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+      "prompt_zh": "请回到人物头发是黑色的那个版本，并在该版本上进行以下编辑：按照参考图为人物更换发型。参考图仅用于确定发型。保持当前视频中人物的身份、发色、服装及其他内容不变。",
+      "editing_prompt": "Restyle the person's hair to match the hairstyle shown in the reference images, using the front and back reference views for the hairstyle shape. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+      "output": "media/466c3b8c49489210daa4e6fda5d2237ab3b08d1606fda3fcbd1585f751733cce.mp4",
+      "ground_truth": "media/bf52307e8c1c80a432fb6562c157c2e6994908ebac801212d7495df3b63cb8fa.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/5096259085e62779433983a67a2792d5e7d22389613f60bdaa41abeb05c921ea.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/12c4366984dc7960e2edc2ee458ef46529fcbfcfb81b3e57b0adede1dc481bfa.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "parent": 4,
+      "expected_parent": 4,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "normal_continue",
+      "edge_id": 27822,
+      "source_node_id": 6703,
+      "target_node_id": 6710,
+      "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "请更换拍摄人物的镜头，改用从人物背面拍摄的上半身镜头。仅改变镜头设置。保留人物的外观、表情和动作，以及现有场景。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Switch the camera setup to an upper-body shot from behind. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "output": "media/8767e64a416113a3164102fa32b3a1b9cd4463a07406286cded6e6e85d1634c2.mp4",
+      "ground_truth": "media/2b2fc6caeb1ca36db2e80978e679a8ffb63bf9a3f6f6de7e6b1f2d69112403a5.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/99f014553f13da75f4f770d058c09c1036305cd6e86f9157c66d32ed9da52674.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The person stands with their back to the camera and then slowly walks forward toward the water's edge.",
+      "camera": "The camera is positioned behind the subject at a medium distance and slowly dollies forward, gradually tightening the frame on the person's upper body and head.",
+      "clothing": "The person wears a matching two-piece suit with a brown, orange, and black plaid pattern, including a jacket and trousers, along with dark shoes.",
+      "hair_color": "The hair is dark brown or black.",
+      "hairstyle": "The person's hair is pulled back into a small top knot or bun.",
+      "identity": "A person with a medium build and dark skin is shown from behind, with their face not visible until the final frames.",
+      "scene": "The setting is an outdoor stone terrace or platform overlooking a calm body of water under a clear, bright blue sky."
+    },
+    "1": {
+      "action": "The person stands facing the sea, then slowly walks forward toward the water's edge.",
+      "camera": "A vertical, eye-level shot from behind the subject that slowly dollies in, ending in a closer view of the head and shoulders.",
+      "clothing": "A matching two-piece suit in a brown, black, and orange plaid pattern, with a jacket and trousers, plus dark shoes.",
+      "hair_color": "Reddish auburn.",
+      "hairstyle": "Shoulder-length hair tied back in a low ponytail with loose strands at the nape.",
+      "identity": "A person seen from behind, with a slim build and visible arms and legs.",
+      "scene": "An outdoor coastal setting with a stone-paved terrace, a calm sea, distant rocks, and a clear blue sky."
+    },
+    "2": {
+      "action": "The character walks forward down a street, moving away from the camera.",
+      "camera": "A third-person rear view that follows the character, gradually zooming in closer to the upper body.",
+      "clothing": "A cream and grey plaid two-piece suit with a tailored jacket and matching trousers, paired with brown shoes.",
+      "hair_color": "Bright orange-red.",
+      "hairstyle": "Shoulder-length wavy hair tied in a half-up style with a dark hair clip.",
+      "identity": "A 3D-rendered female character with a slim build, seen from behind.",
+      "scene": "A hazy, overcast city street with red brick buildings, a Union Jack flag, and vintage-style street lamps."
+    },
+    "3": {
+      "action": "The character walks forward down the street, and the camera gradually moves closer to his back.",
+      "camera": "A third-person over-the-shoulder view that slowly dollies in toward the character.",
+      "clothing": "A light cream and grey plaid two-piece suit with a white shirt collar and brown shoes.",
+      "hair_color": "Bright orange-red.",
+      "hairstyle": "Short hair with a high, swept-up quiff.",
+      "identity": "A 3D-rendered male character with a slim build, seen from behind.",
+      "scene": "A wet, cobblestone street in a city with red brick buildings, shop awnings, and a Union Jack flag."
+    },
+    "4": {
+      "action": "The person stands still facing the water, then slowly walks forward toward the edge of the platform, and finally turns their head to the left.",
+      "camera": "The camera starts with a full-body shot from behind and gradually dollies in and tilts up, ending in a medium close-up of the person's head and shoulders.",
+      "clothing": "The person wears a matching two-piece suit with a brown, orange, and white checkered pattern, including a jacket and trousers, along with dark shoes.",
+      "hair_color": "Dark brown or black.",
+      "hairstyle": "Dark hair is pulled back into a low ponytail.",
+      "identity": "A person with a slim build is seen from behind, with their face not visible until the final frames.",
+      "scene": "The setting is an outdoor stone-tiled platform overlooking a calm sea and rocky coastline under a clear, bright sky."
+    },
+    "5": {
+      "action": "The person stands facing away, then turns their head and upper body to the left to look out before turning back toward the sea.",
+      "camera": "A medium shot from behind at eye level, with the camera remaining largely static while the subject shifts position.",
+      "clothing": "A matching tan, brown, and orange plaid suit jacket and trousers with a white shirt cuff visible at the wrist.",
+      "hair_color": "Black.",
+      "hairstyle": "Dark hair is pulled back into a high top-knot bun with loose strands at the nape.",
+      "identity": "A person with a slim build and dark skin, seen mostly from behind with a brief left profile view.",
+      "scene": "An outdoor stone terrace or deck overlooking a calm blue sea and rocky coastline under a clear, bright sky."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

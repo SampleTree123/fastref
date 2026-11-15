@@ -1,0 +1,164 @@
+{
+  "id": "test_chain_13237",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": null,
+  "root": "media/beba86d1adf8878bf4d8281edfd1dc35e3e500717de7a2fb56bf70a31f90c273.mp4",
+  "state_sha256": "796ab1a399e6f9561cb6349d25367c56c06c2b21583796d537ddf6bf1ca6ee21",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "normal_continue",
+      "edge_id": 27591,
+      "source_node_id": 6207,
+      "target_node_id": 6199,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the video's camera setup to a full-body orbit shot that starts in front and moves through a side view toward the rear over a 120-degree arc. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "我希望将视频的镜头改为从人物正面开始，经过侧面向后侧环绕120度的全身镜头。仅改变镜头设置。保留人物的外观、表情和动作，以及现有场景。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Change only the camera setup to a full-body orbit shot that starts in front and moves through a side view toward the rear over a 120-degree arc. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the described camera setup and movement, and preserve the timing and progression of the action in the source video. Preserve the person's appearance, expression, and action, along with the existing scene.",
+      "output": "media/1473577ddaafbc4eb8a961d56f1a4670fd6efa83d10c7f29994df5315566e069.mp4",
+      "ground_truth": "media/a0f3bdb0e5c300f092ddfeb15fd79943fe02f02a986811ed4723bdc79a10ca55.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/d5b5bf74cdc457025dac87da7cf64457285415a37189aab2e727883eff937c07.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "content_description_match",
+      "edge_id": 27590,
+      "source_node_id": 6207,
+      "target_node_id": 6192,
+      "user_prompt": "Please return to the history video where the camera uses a static rear upper-body shot, and apply the following edit to that version: Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "prompt_zh": "请选择第0个视频，然后以该视频为基础进行以下修改：我希望将人物的动作换成参考视频中的示范动作。只采用示范动作，不采用参考人物的外观，也不采用参考场景和镜头设置。当前视频中的其他内容保持不变。",
+      "editing_prompt": "Replace the person's current action with the one demonstrated in the motion reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "output": "media/50ae8efef3fd03c546bb64f9e770fba229ce606bc95aa546199fc39623e7bf22.mp4",
+      "ground_truth": "media/57a739c900b2b81e44d64c62fd3ca3c034f6fb66633771fcd5222e33127bd6c3.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/5dd7c1f759993784d7e870a38d3c652b18c00de3c203791ce96a39a5044b7f16.mp4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 2,
+      "expected_parent": 2,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 27513,
+      "source_node_id": 6192,
+      "target_node_id": 6208,
+      "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the skirt, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "为人物换上参考图中以正面和背面展示、由上衣、半身裙、鞋子组成的完整穿搭。这是对当前穿搭的整体替换，而不是在原穿搭上添加单件。视频中的其他内容保持不变。第一张参考图展示整套穿搭的正面，第二张展示背面。",
+      "editing_prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the skirt, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "output": "media/4eb2dd4807f3b2dda127c6eaaa0ca34f9715aeab28127606d2fb02d6e131b445.mp4",
+      "ground_truth": "media/675f0237ff749aabdb3b0a21c84b982085ef2459dd7babbfda7139074a0c3f59.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/4da0350223bb4df8cb287eb6db3a17749c9fca29f0594152aca49d7231f21397.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/dedd68eb5445bb29b781ccc5a982f8365e4b8af5cce9d89f19dd36d53d82151e.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands on a road, initially facing left, then turns her body and head to the right while raising her left hand to touch her hair.",
+      "camera": "Medium shot from a slightly low angle, remaining stationary as the character moves within the frame.",
+      "clothing": "A black and white dirndl-style dress featuring a black bodice with white lacing, floral embroidery, puffy black sleeves, and a split black and white skirt.",
+      "hair_color": "Bright blonde.",
+      "hairstyle": "Bright blonde hair styled in a high bun with straight bangs across the forehead.",
+      "identity": "A 3D-rendered female character with a slim build, tanned skin, and a youthful face.",
+      "scene": "An outdoor paved road with white lane markings, bordered by a metal guardrail, trees with autumn foliage, and a construction crane in the distance under a bright sky."
+    },
+    "1": {
+      "action": "She stands on the road with hands on her hips, turning slowly from a side profile to face away from the camera.",
+      "camera": "A low, full-body shot that slowly orbits around the standing woman from her left side to behind her.",
+      "clothing": "She wears a green-and-white checkered sleeveless top, a short black skirt with a white panel, black ruffled arm cuffs, and light blue sneakers.",
+      "hair_color": "Bright blonde.",
+      "hairstyle": "Blonde hair pulled up into a high bun with a small topknot.",
+      "identity": "A slender woman with a slim build, shown in profile and then from behind.",
+      "scene": "An empty paved road beneath a concrete overpass, with guardrails, trees, streetlights, and a construction sign in the background under bright daylight."
+    },
+    "2": {
+      "action": "The character stands on a road, then raises both arms overhead and performs a spinning dance motion before returning to a standing position.",
+      "camera": "A static, medium shot from behind the character at roughly waist height.",
+      "clothing": "A black and white polka-dot sleeveless top with puffy black short sleeves, paired with a white and black skirt or apron.",
+      "hair_color": "Bright blonde.",
+      "hairstyle": "Bright blonde hair styled into two high buns on top of the head.",
+      "identity": "A female character with a slim build, seen from behind, with tanned skin and a visible tattoo on her left arm.",
+      "scene": "An outdoor paved road or bridge with guardrails, autumn trees, a construction crane, and a clear blue sky."
+    },
+    "3": {
+      "action": "The character stands with her back to the camera, then raises both arms overhead and swings them in a dance-like motion before lowering them again.",
+      "camera": "A static, eye-level medium shot from directly behind the character.",
+      "clothing": "A glossy hot-pink long-sleeved top with a collar and a matching pleated pink skirt.",
+      "hair_color": "Bright blonde.",
+      "hairstyle": "Bright blonde hair styled into two high buns on top of the head.",
+      "identity": "A 3D-rendered female character with a slim build and dark skin, shown from behind.",
+      "scene": "An outdoor paved road or bridge with white lane markings, bordered by a metal guardrail, autumn trees, a concrete wall, and a construction crane in the distance under a partly cloudy sky."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

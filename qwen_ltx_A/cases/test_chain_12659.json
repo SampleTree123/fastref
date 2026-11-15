@@ -1,0 +1,157 @@
+{
+  "id": "test_chain_12659",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": null,
+  "root": "media/2ef35479631b1f4dfff5ecd541f9e94ea53744507172f579e827019e75aa41fa.mp4",
+  "state_sha256": "6a2af4cb1d23823bca37db074a4f284fa0256d887378469f6dc8094e88103eb6",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": 31564,
+      "source_node_id": 7191,
+      "target_node_id": 7182,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to blue.",
+      "prompt_zh": "请把人物的发色改成蓝色。",
+      "editing_prompt": "Change the person's hair color to blue. Preserve the person's identity, hair shape, and all other aspects of the video.",
+      "output": "media/22558d2c7a8366feaa0b1dfe927325b15f2d9568dcd230385a216516b4a04b8e.mp4",
+      "ground_truth": "media/72d4564c699bc021d82a73b81a17e7e56e76f769d780f20fbcae14b11159bd51.mp4",
+      "references": []
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "normal_continue",
+      "edge_id": 31531,
+      "source_node_id": 7182,
+      "target_node_id": 7192,
+      "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+      "prompt_zh": "请按照参考图为人物更换发型。参考图仅用于确定发型。保持当前视频中人物的身份、发色、服装及其他内容不变。",
+      "editing_prompt": "Restyle the person's hair to match the hairstyle shown in the reference images, using the references only for the hairstyle shape. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+      "output": "media/d487fe9426dc7dcdb059edd0c466730ad7bee006889a92a40f75d2ae5fda6205.mp4",
+      "ground_truth": "media/6c1dcfdd78ebe3a659142674eb9daf917637cfbac83062390ec930ee356b45f3.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/575e195ecaed4bf41148d5af407f69422c47131b2cf9dca06e3b5ca56efa3377.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/0eb32e9328153787abca2a5b49de1d3e2a5daa5b718611fd97bc0b18b994cca5.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "explicit_id",
+      "edge_id": 31565,
+      "source_node_id": 7191,
+      "target_node_id": 7183,
+      "user_prompt": "Please select video 0, then use that video as the starting point for the following change: Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "prompt_zh": "请选择第0个视频，然后以该视频为基础进行以下修改：将视频中的场景替换为参考图中的环境。用参考图确定目标环境。保持人物、发型、发色、穿搭、表情和动作不变。维持原有的镜头构图与运动，使人物在新场景中自然受光。",
+      "editing_prompt": "Replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "output": "media/79984cf55c868d2bcd1cf8ddb7fc7671b5fd1041ca39ecf36e93ca9a953bfc42.mp4",
+      "ground_truth": "media/73b27a94e737dddea99682ebe753b00d250bd7559bae43de7c6d158538529ade.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/5d56dd2f9dee4ac26b0673dc1a5033a3a441f2d7d3f1f41b04a6d8e6bf13f2df.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands with his back to the camera, then raises both arms overhead and swings them in a rhythmic, dance-like motion before lowering them to his sides.",
+      "camera": "A static, low-angle, full-body shot from directly behind the character.",
+      "clothing": "A dark gray, long-sleeved jacket and matching trousers with a belt, both featuring light tan patches on the shoulders, back, and seat; the trousers have a white stripe down the side, and he wears dark shoes.",
+      "hair_color": "Pink.",
+      "hairstyle": "Shoulder-length, slightly wavy hair that falls over the back of the neck.",
+      "identity": "A 3D-rendered male character with a slim build, shown from behind.",
+      "scene": "An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a loudspeaker on the left, and a cityscape of buildings with red signs in the background under a clear sky."
+    },
+    "1": {
+      "action": "The character stands with his back to the camera, then raises both arms overhead and swings them in a dance-like motion before returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot from behind the character.",
+      "clothing": "A dark brown suit jacket and matching trousers with a belt, plus brown shoes.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Bright blue hair tied up in a high ponytail.",
+      "identity": "A 3D-rendered male character with a slim build, shown from behind.",
+      "scene": "An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a loudspeaker on the left, and city buildings with red signs in the background under a clear sky."
+    },
+    "2": {
+      "action": "The character stands with his back to the camera, then raises both arms in a flexing or dancing motion before lowering them and returning to a standing pose.",
+      "camera": "A static, medium-full shot from behind the character at a slightly low angle.",
+      "clothing": "A dark brown, long-sleeved suit jacket and matching trousers with a white side stripe, a black belt, and brown shoes.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Short, neatly styled hair with a side part.",
+      "identity": "A 3D-rendered male character with a muscular build, shown from behind with a light skin tone.",
+      "scene": "An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a loudspeaker on the left, and city buildings with signs in the background under a clear sky."
+    },
+    "3": {
+      "action": "The character stands with its back to the camera, then raises both arms overhead and swings them in a dance-like motion before returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot from directly behind the character.",
+      "clothing": "A dark green, long-sleeved jacket and matching trousers with light green splotches and white side stripes, plus a belt and dark shoes.",
+      "hair_color": "Blonde.",
+      "hairstyle": "Blonde hair tied up in a high ponytail.",
+      "identity": "A 3D-rendered humanoid character with a slim build, shown from behind.",
+      "scene": "An outdoor paved road or parking area under a blue sky, with a street lamp, a metal railing, and autumn-colored trees in the background."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

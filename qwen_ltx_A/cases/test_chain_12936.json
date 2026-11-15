@@ -1,0 +1,229 @@
+{
+  "id": "test_chain_12936",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 5,
+  "completed_turns": 5,
+  "selection_kind": null,
+  "root": "media/5c7008dcef96545dd6dae8abd84f9cf11573200dd2dfa66beb5df7ab73ce3fb2.mp4",
+  "state_sha256": "11529a137627938453bbc72d9aad14da8fb667c3831b5d2de38bf5cf01cf1c43",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 28246,
+      "source_node_id": 6746,
+      "target_node_id": 6737,
+      "user_prompt": "Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "为人物换上参考图中以正面和背面展示、由整身服装、鞋子组成的完整穿搭。这是对当前穿搭的整体替换，而不是在原穿搭上添加单件。视频中的其他内容保持不变。第一张参考图展示整套穿搭的正面，第二张展示背面。",
+      "editing_prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "output": "media/955faaeb8f3a1f58138c863a4e47fe4d42d9908747fcba333d2048bd11a705cc.mp4",
+      "ground_truth": "media/7b1cb10c211022e3e39e6df9b1574d6e15d1d62efa8cef5efb02355fb445b8e3.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/f339dfda15d5f465c2730bdfe9d64e52b6a9baf0cbd1ffeaca3725830e2aaa40.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/7760617c0c290ae7529d76693e846c85c0290354c681035981ba25d5d0e0aff6.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "normal_continue",
+      "edge_id": 28206,
+      "source_node_id": 6737,
+      "target_node_id": 6743,
+      "user_prompt": "Using the provided source video, apply the following edit: Please restyle the person's hair according to the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+      "prompt_zh": "我想将人物的发型更换为参考图中展示的发型。只采用参考图中的发型，不采用参考人物的面部特征、发色或服装。当前视频中的其他内容保持不变。",
+      "editing_prompt": "Restyle the person's hair to match the shape and styling shown in the reference images (front and back views). Preserve the person's current hair color, facial features, and clothing. Leave the rest of the video unchanged.",
+      "output": "media/26296ff3088afa6ad7842471978acfc36c1fbf130995be98eaa3adbe465d7ed3.mp4",
+      "ground_truth": "media/8bb4f85618352525b83a5f628b10dbccfe5f0b872327a3f465ad760b95f5467b.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/2db8bfb1aec9f9d22d2ceb4728360b42bea831cd0f59a952223ddd519a5f4598.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/e0b8f72af9f9e78dc4b15d046ed668ffb0eeadfb3f07fa7c6abb065d58be8484.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 2,
+      "expected_parent": 2,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "normal_continue",
+      "edge_id": 28233,
+      "source_node_id": 6743,
+      "target_node_id": 6758,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "prompt_zh": "请将视频中的场景替换为参考图中的环境。保持人物的身份、发型、发色、服装、表情和动作不变。保留镜头构图与运动，同时让人物受光适应目标环境。",
+      "editing_prompt": "Change the scene to the setting shown in the reference image, placing the person in that environment. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "output": "media/fd9a550a4e2f10b760061ab622418dbd4bb4f411dfe2d8dcf8a77fa27c0b12a1.mp4",
+      "ground_truth": "media/1fe6b1d3faf19acb9c9baf593d91f89debd3e7dd6b4c9e62f3407b721ba12598.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/866d37f5968b31cfc44fefaddcf8740d4df27adc7e53bb736dea18e0f6a53c0f.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parent": 2,
+      "expected_parent": 2,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "event_after",
+      "edge_id": 28234,
+      "source_node_id": 6743,
+      "target_node_id": 6759,
+      "user_prompt": "Please continue from the result of the first hairstyle change and make the following change to that video: Using the provided source video, apply the following edit: The person currently has white hair; please change it to red.",
+      "prompt_zh": "请从第1次发型更换后的结果视频继续，在该视频上进行以下修改：将人物的发色改为红色。",
+      "editing_prompt": "Change the person's hair color from white to red. Preserve the existing hairstyle, shape, and all other aspects of the video unchanged.",
+      "output": "media/daa4c4326c4586385de82242793ed69282a4271d60fed0549efbceb8f8091351.mp4",
+      "ground_truth": "media/8f20c5f3ec2ed1e725e7eae31ddea4fca4be55f02c0abeb549dc757fd90d1a43.mp4",
+      "references": []
+    },
+    {
+      "id": 5,
+      "parent": 4,
+      "expected_parent": 4,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "normal_continue",
+      "edge_id": 28319,
+      "source_node_id": 6759,
+      "target_node_id": 6774,
+      "user_prompt": "Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "prompt_zh": "我希望将视频的场景更换为参考图展示的环境。用参考图确定目标环境。保持人物、发型、发色、穿搭、表情和动作不变。维持原有的镜头构图与运动，使人物在新场景中自然受光。",
+      "editing_prompt": "Replace the scene in the video with the environment shown in the reference image, using the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "output": "media/8b6832c804f2a9a8d40d0add1f8a52e34bbdaa08e168460e3c76ac95930eb96e.mp4",
+      "ground_truth": "media/4804a01f857643f488ff9ea30bc9fad8f5b97ac161955f2ea1a51d28144f6807.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/866d37f5968b31cfc44fefaddcf8740d4df27adc7e53bb736dea18e0f6a53c0f.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The person stands in profile, then raises both arms overhead and leans back slightly before lowering their arms and turning their head.",
+      "camera": "The camera starts with a full-body side view and gradually zooms in to a medium shot of the upper body.",
+      "clothing": "A pink and yellow tie-dye tank top with a palm tree pattern, matching pink shorts, and pink slip-on shoes.",
+      "hair_color": "Platinum blonde.",
+      "hairstyle": "Short, platinum-blonde hair, styled with a slight quiff at the front.",
+      "identity": "A muscular person with a dark complexion and short, platinum-blonde hair.",
+      "scene": "An outdoor paved area, possibly a road or parking lot, with a metal guardrail, rocks, and green trees in the background under a bright sky."
+    },
+    "1": {
+      "action": "The person stands still in profile, then raises both arms overhead and performs a series of dance-like movements, including a spin, before returning to a standing position.",
+      "camera": "A static, medium-full shot from the side, keeping the person centered in the frame.",
+      "clothing": "A white short-sleeved button-up shirt with a faint grid pattern, black suspenders, and brown-and-white checkered trousers.",
+      "hair_color": "White or platinum blonde.",
+      "hairstyle": "Short, cropped hair with a slightly longer, swept top.",
+      "identity": "A person with a medium-brown complexion and a short, cropped hairstyle is shown in profile.",
+      "scene": "An outdoor paved area, possibly a road or parking lot, with a metal guardrail, rocks, green trees, and a utility pole in the background under a bright sky."
+    },
+    "2": {
+      "action": "The person starts standing in profile, then raises both arms overhead and performs a spinning dance move, turning their body to face the camera before returning to a standing profile position.",
+      "camera": "The camera is static, capturing a medium full shot of the person from the side, then from the front as they turn.",
+      "clothing": "A white short-sleeved button-up shirt with a faint grid pattern, black suspenders, and brown-and-white checkered trousers with black shoes.",
+      "hair_color": "Black",
+      "hairstyle": "Short black hair, neatly combed with a side part and a slight pompadour style at the front.",
+      "identity": "A 3D-rendered person with a medium build, dark skin, and a short, neat black haircut with a side part.",
+      "scene": "An outdoor paved area, possibly a road or parking lot, with a metal guardrail, rocks, green bushes, and trees in the background under a bright sky."
+    },
+    "3": {
+      "action": "The man stands still in profile, then raises both arms overhead and spins around once before returning to a standing pose.",
+      "camera": "Static medium-full shot at eye level, framing the man from head to feet in side profile.",
+      "clothing": "White short-sleeved button-up shirt with a black grid pattern, black suspenders, brown-and-white checkered trousers, and black shoes.",
+      "hair_color": "Black.",
+      "hairstyle": "Short black hair with a slicked, pompadour-style top and faded sides.",
+      "identity": "A 3D-rendered man with a medium build, dark skin, and a short beard, shown in profile.",
+      "scene": "A cobblestone street in front of a stone building with a dark storefront sign reading 'APOTHECARY' and 'SOAP OF EVERY DESCRIPTION SOLD HERE', with a black lamppost to the left."
+    },
+    "4": {
+      "action": "The figure stands still in profile, then raises both arms overhead and swings them while turning, before lowering the arms and standing again.",
+      "camera": "Vertical full-body shot at a low angle; the camera stays mostly fixed with slight reframing as the subject moves.",
+      "clothing": "White short-sleeved button-up shirt with a faint grid pattern, black suspenders, brown-and-white checkered flared trousers, and black shoes.",
+      "hair_color": "Bright, saturated red.",
+      "hairstyle": "Short, glossy hair styled close to the head with a rounded, helmet-like silhouette.",
+      "identity": "A 3D-rendered person with a medium-brown skin tone, shown in profile and three-quarter views.",
+      "scene": "An outdoor paved road with a white lane line, a metal guardrail, and a rocky hillside with green trees and shrubs under a bright sky."
+    },
+    "5": {
+      "action": "The character stands in profile, then raises both arms overhead and performs a spinning, dancing motion before returning to a standing pose.",
+      "camera": "A static, medium-full shot from the side, keeping the character centered in the frame.",
+      "clothing": "A white short-sleeved shirt with a black grid pattern, black suspenders, and matching black-and-white checkered trousers.",
+      "hair_color": "Red.",
+      "hairstyle": "Short, slicked-back hair with a distinct red color.",
+      "identity": "A 3D-rendered male character with a slim build, dark skin, and a short beard.",
+      "scene": "An outdoor cobblestone street in front of a dark wooden storefront with signs reading 'APOTHECARY' and 'SOAP'."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

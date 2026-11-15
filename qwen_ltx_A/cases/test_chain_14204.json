@@ -1,0 +1,125 @@
+{
+  "id": "test_chain_14204",
+  "status": "partial",
+  "saved_status": "running",
+  "planned_turns": 3,
+  "completed_turns": 2,
+  "selection_kind": null,
+  "root": "media/93e6b1ee896706183f298bb11376bc7872ca0d89f74d73bacf1f196e3911720f.mp4",
+  "state_sha256": "a3cb62db2bb3ad665d656d1e12282345196bfc8c3cd9b03781496fd2631953c5",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "identity",
+      "axis_zh": "身份",
+      "selection_kind": "normal_continue",
+      "edge_id": 29883,
+      "source_node_id": 6951,
+      "target_node_id": 6976,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Only use the reference photo to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body, while retaining the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+      "prompt_zh": "请将人物身份更换为参考照片中的人物身份。参考照片中的面部身份特征，并使身体肤色与目标人物一致。保持当前的发型、发色、服装、表情、动作、场景和镜头不变。",
+      "editing_prompt": "Change the person's identity to match the person in the reference photo. Use the reference photo only to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body. Retain the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+      "output": "media/ee4b6f5048c0925ce01742a53ad0d671fbcc1cf801f4c30132e322229eb92713.mp4",
+      "ground_truth": "media/42fa53ea07083474cf9646a84f3aaf3c98fd02825ce857a2b50b3dea35b25934.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "identity",
+          "view": "front",
+          "path": "media/75655ee82144606433f49f6f1b232719b12c9868d7980e5c04d44d2e93fba076.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "explicit_id",
+      "edge_id": 29881,
+      "source_node_id": 6951,
+      "target_node_id": 6967,
+      "user_prompt": "Please use video 0 as the starting point and apply the following edit to it: Using the provided source video, apply the following edit: I'd like to change the person's action so that they walk forward, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "prompt_zh": "请以第0个视频为基础，在该视频上进行以下编辑：我希望更换人物的动作，让人物像参考视频中那样向前走。按照参考视频中的运动进行动作，同时保留当前人物的身份、发型、发色、服装和表情。场景和镜头保持不变。",
+      "editing_prompt": "Change the person's action so that they walk forward, following the movement shown in the motion reference video. Retain the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "output": "media/a8d706ea1215e48c06e6ae07b045006988728c8e3472930229ddb8335b7c074a.mp4",
+      "ground_truth": "media/f381b2248bac45627806ed1bbe2ae18b3a37e2413f944f5eeb723a853e561508.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/dcc71c380b0cff0986ba782b20fb52fac2acdc8e6ab9ae59f25a4fa9ff1b2754.mp4"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "He stands facing the camera, then raises both arms overhead and moves them in a dance-like gesture before returning to a standing pose.",
+      "camera": "A static, medium shot at eye level that keeps the man centered in the frame.",
+      "clothing": "A purple cable-knit sweater with a ribbed crew neck and cuffs, worn over dark pants.",
+      "hair_color": "Dark brown to black.",
+      "hairstyle": "Short, dark hair styled upward at the front.",
+      "identity": "A young man with a short beard and mustache, visible from the waist up.",
+      "scene": "A futuristic setting with a large glass dome, glowing teal ring lights, and pink structural lines behind him."
+    },
+    "1": {
+      "action": "The man stands facing the camera, then raises both arms overhead and moves them in a rhythmic, dancing motion before returning to a standing pose.",
+      "camera": "A static, medium shot from the waist up, keeping the subject centered in the frame.",
+      "clothing": "A purple, cable-knit sweater with a ribbed crew neck and cuffs, worn over dark pants.",
+      "hair_color": "Black.",
+      "hairstyle": "Short hair with a high-top fade, with the top section standing up.",
+      "identity": "A young Black man with a short, dark beard and a high-top fade haircut.",
+      "scene": "A futuristic, indoor setting with a large, dark dome structure featuring pink and white neon lights and a circular ring of teal lights in the background."
+    },
+    "2": {
+      "action": "The man stands facing the camera, then slowly turns his head to his left to look off-screen.",
+      "camera": "A static, medium shot from the waist up, keeping the subject centered in the frame.",
+      "clothing": "A purple cable-knit sweater with a round neckline and long sleeves, paired with black pants.",
+      "hair_color": "Black.",
+      "hairstyle": "Short, dark hair with a slightly textured top.",
+      "identity": "A young Black man with a slim build, short facial hair, and a neutral expression.",
+      "scene": "A futuristic, sci-fi environment featuring a large glass dome structure with glowing pink and cyan neon rings and a reflective floor."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

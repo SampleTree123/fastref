@@ -1,0 +1,118 @@
+{
+  "id": "test_chain_12608",
+  "status": "partial",
+  "saved_status": "running",
+  "planned_turns": 5,
+  "completed_turns": 2,
+  "selection_kind": null,
+  "root": "media/e8443934e84a02a7fd82185b9416331b9e47b245ca356e7a641439931d0d11c1.mp4",
+  "state_sha256": "b2f5f8fcbeb02986f90e6ae00f461816c4b3555c0a74aac8fbdd0cb15eb4d62d",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "normal_continue",
+      "edge_id": 27407,
+      "source_node_id": 6170,
+      "target_node_id": 6145,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "prompt_zh": "我希望将视频的场景更换为参考图展示的环境。保持人物的身份、发型、发色、服装、表情和动作不变。保留镜头构图与运动，同时让人物受光适应目标环境。",
+      "editing_prompt": "Replace the video's scene with the environment shown in the reference image, using the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "output": "media/63896373da04a9ace5b8ec3e514b7a36431e600437be3652cd2bf9278f7b0f5a.mp4",
+      "ground_truth": "media/b1428c1a3f6c0e1031e3e24e2975f457f934bba7c223ab0037a6c68947fdd07b.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/b9028f10668df00b6280574e6f3cf062f2ac6e0a620d276164df47b1785c57a2.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": 27308,
+      "source_node_id": 6145,
+      "target_node_id": 6171,
+      "user_prompt": "Using the provided source video, apply the following edit: Please recolor the person's hair black.",
+      "prompt_zh": "请将人物的头发重新着色为黑色。",
+      "editing_prompt": "Recolor the person's hair black. Preserve the person's identity, body, clothing, motion, scene, lighting, and camera framing exactly as in the source video.",
+      "output": "media/e292b1bdb951d9412d2e92097a96be24b4501ce1cb91f9351c67aea491f770c1.mp4",
+      "ground_truth": "media/4465b6b1c5c660f3b4d223cc3cecb152e79353f16294744268f01f767b8ae42e.mp4",
+      "references": []
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands still on a rooftop, then raises their right arm to touch their head before lowering it and returning to a standing pose.",
+      "camera": "A static, eye-level medium shot from behind the character.",
+      "clothing": "A white sleeveless tank top with a faint pink graphic on the back, light blue denim shorts, and bare feet.",
+      "hair_color": "Pinkish-red.",
+      "hairstyle": "Short, spiky hair.",
+      "identity": "A slim, light-skinned 3D-rendered character with a short, spiky hairstyle, viewed from behind.",
+      "scene": "A stylized, low-poly city rooftop with tiled and gravel flooring, surrounded by blocky buildings, a large satellite dish, and construction cranes under a bright sky."
+    },
+    "1": {
+      "action": "The character stands facing a large screen, then turns slightly to his right and raises his right arm in a gesture before returning to a standing position.",
+      "camera": "Static, eye-level medium shot from behind the character.",
+      "clothing": "A white sleeveless tank top with pink and blue palm tree graphics, light blue shorts, and pink and orange sneakers.",
+      "hair_color": "Purple.",
+      "hairstyle": "Short, spiky hair.",
+      "identity": "A 3D-rendered male character with a muscular build and dark skin, seen from behind.",
+      "scene": "A futuristic urban plaza with a wet, reflective ground and a large digital display showing a glowing green ring and pink grid lines."
+    },
+    "2": {
+      "action": "The man stands on a wet surface, then begins to dance by shifting his weight, swinging his arms, and turning his body slightly.",
+      "camera": "The camera is static, positioned at a medium distance behind the subject at a slightly low angle.",
+      "clothing": "He wears a white sleeveless tank top with a pink and blue palm tree graphic, light blue shorts, and pink slide sandals.",
+      "hair_color": "Black.",
+      "hairstyle": "He has short, dark hair.",
+      "identity": "A muscular, dark-skinned man is seen from behind, with his face not visible.",
+      "scene": "The setting is a futuristic city street with a large glass storefront featuring a glowing green circular neon sign and pink neon accents, with wet pavement reflecting the lights."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

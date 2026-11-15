@@ -1,0 +1,131 @@
+{
+  "id": "test_chain_12651",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 2,
+  "completed_turns": 2,
+  "selection_kind": null,
+  "root": "media/4070d5ebc02d75fcd2f8bfda009b5d85037144ad780fbc55e661245c63057291.mp4",
+  "state_sha256": "5544b5b310a85f921151b8be4d3a272c9169144ce940433153bc0ebb0cd90f0e",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 30061,
+      "source_node_id": 7000,
+      "target_node_id": 7007,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's skirt with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+      "prompt_zh": "我想将人物当前的半身裙换成参考图中的款式。保留当前视频中的其他衣物、鞋子及所有非服装内容。",
+      "editing_prompt": "Replace the person's skirt with the skirt shown in the reference images, matching its design, color, and fit from both the front and back views. Preserve all other clothing items, footwear, and all non-clothing aspects of the current video.",
+      "output": "media/253ef37d652bc928af41330a04a64e9d20c05a65fa582a8feea039634407f615.mp4",
+      "ground_truth": "media/90ca5f6ee1c448dff8794eed6ea94912c5ff9ca5410d67747a27e49376e51785.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "garment",
+          "view": "front",
+          "path": "media/432e63871c793cf85966fbb657f29f0ad07d6b57496087566eebdfc44a94b5e5.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "garment",
+          "view": "back",
+          "path": "media/cb29103a4c58eb17e49c5a12e1df7698abe95d288bad9c4ad5a4d18573def905.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "explicit_id",
+      "edge_id": 30060,
+      "source_node_id": 7000,
+      "target_node_id": 7006,
+      "user_prompt": "Please return to video 0 and make the following change to that video: Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "prompt_zh": "请回到第0个视频，接下来在该视频上这样修改：我希望将人物的动作换成参考视频中的示范动作。按照参考视频中的运动进行动作，同时保留当前人物的身份、发型、发色、服装和表情。场景和镜头保持不变。",
+      "editing_prompt": "Change the person's action to the one demonstrated in the motion reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "output": "media/998bf7351e510d286e91c8e6a94ef07750141b365466f2527979d65dd6c24cbc.mp4",
+      "ground_truth": "media/1ad54e7ad155421f4ddd58ab648c38ff50927d37640859cd3f3565345788182b.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/d7cb16aaa0be6a8710d17bdf31e477b264dddad50eb8587a2b296ca944aa706f.mp4"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands on a cobblestone street, then turns and dances, swinging her arms and shifting her weight.",
+      "camera": "A medium full-body shot from behind, with the camera slowly moving closer and slightly panning as the character turns.",
+      "clothing": "She wears a pink-and-white gingham off-shoulder top with white puffed sleeves and a split white-and-black skirt, plus light blue sneakers.",
+      "hair_color": "Bright blue hair.",
+      "hairstyle": "Hair is styled into two high buns on either side of the head.",
+      "identity": "A slender female character with a slim build, shown from behind with no visible face.",
+      "scene": "A hazy European-style street with red brick buildings, shop awnings, a Union Jack flag, and a cobblestone road."
+    },
+    "1": {
+      "action": "The character stands on a cobblestone street, then begins to dance by swaying her hips and turning her body.",
+      "camera": "The camera is positioned behind the character at a medium distance, slowly moving closer as the character dances.",
+      "clothing": "She wears a pink and white gingham off-the-shoulder top with white puffy sleeves, black shorts with a yellow floral pattern, and light blue sneakers.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Hair is styled into two high buns on either side of the head.",
+      "identity": "A slim female character with a fair complexion, shown from behind.",
+      "scene": "The setting is a European-style street with red brick buildings, a Union Jack flag, and a cobblestone road."
+    },
+    "2": {
+      "action": "The character stands with her back to the camera, then raises both arms and spins around before returning to a standing pose.",
+      "camera": "A static, medium full-body shot from behind the character at street level.",
+      "clothing": "She wears a pink-and-white gingham off-shoulder top with white puffed sleeves, a white-and-black asymmetrical skirt, and light blue sneakers.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Hair is styled into two high buns on top of the head.",
+      "identity": "A 3D-rendered female character with a slim build, shown from behind.",
+      "scene": "A cobblestone street lined with red-brick Victorian-style buildings, with a Union Jack flag and shop signs visible in the background."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

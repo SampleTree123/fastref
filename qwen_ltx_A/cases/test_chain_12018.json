@@ -1,0 +1,164 @@
+{
+  "id": "test_chain_12018",
+  "status": "partial",
+  "saved_status": "running",
+  "planned_turns": 4,
+  "completed_turns": 3,
+  "selection_kind": null,
+  "root": "media/4b2cfd4fc701926354642eaca3d2079afd46cda9ec1df67da46e43022558d253.mp4",
+  "state_sha256": "1b92b0dcc0fc45f25f51cab0d02dd4d9de2ae0f1bb29c16f8918286b1b0a140b",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "normal_continue",
+      "edge_id": 29417,
+      "source_node_id": 6380,
+      "target_node_id": 6365,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to a full-body shot from the side. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "我希望将视频的镜头改为从人物侧面拍摄的全身镜头。保持人物的身份、发型、发色、服装、表情、动作和场景不变。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Change the video's camera setup to a full-body shot from the side. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "output": "media/fce3e79f526d9572f589399f5c5d0e3a564cafc843ee48087186a6573c006e6f.mp4",
+      "ground_truth": "media/a8d1259c37adc4d6690525fb97b6c1b4f14af94caba56b8618fa834db7bc3d96.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/1d9e5046cffd981642803162e2f03388d117ae0cad10ce7f0980274151c73798.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "content_description_match",
+      "edge_id": 29418,
+      "source_node_id": 6380,
+      "target_node_id": 6381,
+      "user_prompt": "Please return to the history video where the camera uses a static front upper-body shot, and apply the following edit to that version: Using the provided source video, apply the following edit: I'd like to replace the person's top with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+      "prompt_zh": "请回到第1次镜头更换之前的视频，然后以该视频为基础进行以下修改：将人物的上衣替换为参考图中的单件。保持其他衣物、鞋子和非服装属性不变。",
+      "editing_prompt": "Replace the person's top with the item shown in the reference images (front and back views). Preserve the other clothing items, footwear, and all non-clothing aspects of the current video, including the static front upper-body camera framing.",
+      "output": "media/fee33bd79a9422a0a038c13f591cff71ad501812bbcd9063938587da62a8a65a.mp4",
+      "ground_truth": "media/c111efad3b431ba0536dcbec39f93ebdd6d64e8f230a6675a2b2e2144041b467.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "garment",
+          "view": "front",
+          "path": "media/428a25adf6e1471903dea12faba43a9203d2d4a14322de6253373630d71d21ee.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "garment",
+          "view": "back",
+          "path": "media/f5f1fc80fbe0144a4c16c94a0e0a7847c474361c218510a4203d5f01ac504051.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 2,
+      "expected_parent": 2,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": 29426,
+      "source_node_id": 6381,
+      "target_node_id": 6384,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's current action to standing in a thoughtful pose, following the demonstration in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "prompt_zh": "请将人物当前的动作改为站着做出思考的姿态，具体动作参照参考视频中的示范。按照参考视频中的运动进行动作，同时保留当前人物的身份、发型、发色、服装和表情。场景和镜头保持不变。",
+      "editing_prompt": "Change the person's current action to standing in a thoughtful pose, following the movement demonstrated in the reference video. Retain the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "output": "media/277559a3da3eafff0736a9f0bbb67fddb86b354358f8ad33e0c3024c86217e50.mp4",
+      "ground_truth": "media/838b5021c9bc8873bef157a424e74dc25d614a17ea5054c676ff76c5fd508ee6.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/129b9f3d453fef6087f8d028264e211ffb40d8a3b235bcb4a1dd937b13575798.mp4"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands facing the camera, then raises both arms overhead and tilts his head back before lowering his arms and returning to a standing pose.",
+      "camera": "A static, medium shot from the waist up, keeping the character centered in the frame.",
+      "clothing": "A white long-sleeved collared shirt worn under a black sleeveless vest, paired with red pants and a brown belt with a large buckle.",
+      "hair_color": "Bright green.",
+      "hairstyle": "Short, spiky hair that is styled upward.",
+      "identity": "A 3D-rendered male character with a dark complexion, short facial stubble, and a neutral expression.",
+      "scene": "An outdoor urban street at dusk, featuring tall buildings, construction cranes, and illuminated storefront signs with Japanese text."
+    },
+    "1": {
+      "action": "The character stands still, then raises both arms overhead, bends forward at the waist, and returns to an upright standing pose.",
+      "camera": "Static medium-full side view at roughly waist height, with the character centered in frame.",
+      "clothing": "White long-sleeve shirt under a dark brown vest, reddish-orange trousers, and dark slip-on shoes.",
+      "hair_color": "Light brown.",
+      "hairstyle": "Short, neatly cropped hair.",
+      "identity": "A 3D-rendered male character with a slim build, shown in profile facing right.",
+      "scene": "An outdoor rooftop or industrial area with a large gray metal container behind the character, paved ground, and city buildings in the background."
+    },
+    "2": {
+      "action": "He begins standing still, then raises both arms overhead and performs a short dance, swinging his arms and torso before returning to a standing pose.",
+      "camera": "A static, eye-level medium shot frames the character from the thighs up, centered in the view.",
+      "clothing": "A long-sleeved yellow button-up shirt covered in a white abstract pattern, red pants, and a brown belt with a rectangular buckle.",
+      "hair_color": "Bright green.",
+      "hairstyle": "Short, neatly trimmed hair with a flat top and faded sides.",
+      "identity": "A young Black man with a slim build and short facial stubble stands facing the camera.",
+      "scene": "An outdoor urban plaza at dusk, with tall buildings, neon signs in Japanese and Chinese, construction cranes, and a large white container on the right."
+    },
+    "3": {
+      "action": "The man stands facing the camera, then turns his head to the side and raises his right hand to touch his chin in a thinking pose before crossing his arms.",
+      "camera": "The camera remains static in a medium shot, framing the character from the waist up.",
+      "clothing": "He wears a bright yellow button-up shirt covered in a white abstract pattern, red trousers, and a brown leather belt with a silver buckle.",
+      "hair_color": "His hair is dyed a bright olive green.",
+      "hairstyle": "He has short, textured hair styled upward in a small pompadour.",
+      "identity": "A young Black man with a slim build and short facial stubble stands in the center of the frame.",
+      "scene": "The setting is a futuristic city street at dusk, featuring tall buildings, construction cranes, and glowing Japanese signage."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

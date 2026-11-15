@@ -1,0 +1,125 @@
+{
+  "id": "test_chain_14057",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 2,
+  "completed_turns": 2,
+  "selection_kind": null,
+  "root": "media/0352d194f815dc0f632e8e41bb86255c6e79eae327271bb875f0e40c04c390d6.mp4",
+  "state_sha256": "969f1a1c5ce5677529016d5d63e11587bb67086b97da1f44e8831a1ab216a106",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "identity",
+      "axis_zh": "身份",
+      "selection_kind": "normal_continue",
+      "edge_id": 28681,
+      "source_node_id": 6838,
+      "target_node_id": 6836,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's identity to match the person in the reference photo. Only use the reference photo to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body, while retaining the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+      "prompt_zh": "请将人物身份更换为参考照片中的人物身份。参考照片仅用于确定目标人物的面部身份特征和肤色。使面部与身体的肤色协调一致，同时保留当前的发型、发色、服装、表情、动作、场景和镜头。",
+      "editing_prompt": "Change the person's identity to match the person in the reference photo. Use the reference photo only to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body. Retain the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+      "output": "media/f9b6fbfad7a18e5c4d65e010d5ca6205b84a9e517cb71982f84bc5e10b70792f.mp4",
+      "ground_truth": "media/2dbe5335a33ba013d0ef6ab164bb3172bce2797dfa5170eb9bd20e83cfb0c81d.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "identity",
+          "view": "front",
+          "path": "media/97f1087c8624d75f419ec899430a69e01d07a2df49bbc99cc498918d90d1867a.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "identity",
+      "axis_zh": "身份",
+      "selection_kind": "event_before",
+      "edge_id": 28680,
+      "source_node_id": 6838,
+      "target_node_id": 6814,
+      "user_prompt": "Please select the version from before the first identity change was made and apply the following edit to that version: Using the provided source video, apply the following edit: change the person's identity to match the person in the reference photo. Only use the reference photo to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body, while retaining the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+      "prompt_zh": "请选择第1次人物身份更换之前的版本，并在该版本上进行以下编辑：将人物身份更换为参考照片中的人物身份。参考照片仅用于确定目标人物的面部身份特征和肤色。使面部与身体的肤色协调一致，同时保留当前的发型、发色、服装、表情、动作、场景和镜头。",
+      "editing_prompt": "Change the person's identity to match the person in the reference photo. Use the reference photo only to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body, while retaining the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+      "output": "media/b4c2898052728ec4ac0f08350b5b4ea29903224a0440649c79d7208e5af7e4d3.mp4",
+      "ground_truth": "media/0cc713f8b94cd372776f544f6cc74c5f5940fb442e5e5bc69e01ee23aebd8f0d.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "identity",
+          "view": "front",
+          "path": "media/f9fc665d8b31d1900e52e55cc1fa2b89b9fc9f2386966de9377badbf8bdfc2b0.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "She stands facing the camera, blinks, and turns her head to her left near the end of the clip.",
+      "camera": "A steady, centered medium close-up shot at eye level with no noticeable camera movement.",
+      "clothing": "A bright pink off-the-shoulder top with small dark bows at the shoulders.",
+      "hair_color": "Light brown with blonde highlights.",
+      "hairstyle": "Light brown hair with straight bangs, styled into two small buns on top of the head.",
+      "identity": "A 3D-rendered woman with a medium-dark complexion, visible facial features, and a slight smile that shifts to a neutral expression.",
+      "scene": "A futuristic nighttime plaza with a large glass-domed building, glowing teal ring lights, and pink neon accents behind her."
+    },
+    "1": {
+      "action": "She faces the camera, blinks, and shifts her head slightly, then turns her head to her left in profile by the end.",
+      "camera": "Static medium close-up, front-facing, with the subject centered.",
+      "clothing": "A bright red off-the-shoulder top with thin straps and small dark accents at the shoulders.",
+      "hair_color": "Blonde with warm reddish highlights.",
+      "hairstyle": "Short blonde bob with bangs, plus two small buns on top of her head.",
+      "identity": "A 3D-rendered woman with dark skin and a slender build, shown from the chest up.",
+      "scene": "A futuristic nighttime plaza with a large glass dome building, glowing pink and teal neon rings, and a wet reflective floor."
+    },
+    "2": {
+      "action": "The woman stands facing forward, then slowly turns her head to her left, looking away from the camera.",
+      "camera": "A static, medium close-up shot from the chest up, centered on the subject.",
+      "clothing": "A dark, off-the-shoulder top with thin straps and small bow details on the shoulders.",
+      "hair_color": "Light brown or dark blonde.",
+      "hairstyle": "Short, straight hair with bangs, styled with two small buns on top of her head.",
+      "identity": "A 3D-rendered young woman with dark skin, a slender build, and a neutral facial expression.",
+      "scene": "A futuristic, neon-lit environment at night, featuring a large glass dome structure with pink and cyan lights in the background."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

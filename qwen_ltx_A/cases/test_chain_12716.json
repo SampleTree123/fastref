@@ -1,0 +1,223 @@
+{
+  "id": "test_chain_12716",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 5,
+  "completed_turns": 5,
+  "selection_kind": null,
+  "root": "media/ad549590e006b93611a4f9431b158692aed4cbb334b850f58c7c8f4f619ac83c.mp4",
+  "state_sha256": "b86f50ee1fdbf8b7ce32278e10309581a3160225e364b5fe029e368ff0e6e26e",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": 30540,
+      "source_node_id": 7106,
+      "target_node_id": 7110,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to pink.",
+      "prompt_zh": "请把人物的发色改成粉色。",
+      "editing_prompt": "Change the person's hair color to pink. Preserve the person's identity, hair shape, and all other aspects of the video.",
+      "output": "media/683dc586b8ecdeeff8a8b840e1fbceb477e665343be48d4d6552f4bec10aed47.mp4",
+      "ground_truth": "media/b6a8bf581bcc477a8aa5f43da0c5621b48794f0e38b269eef6972ebff48a0072.mp4",
+      "references": []
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "event_before",
+      "edge_id": 30538,
+      "source_node_id": 7106,
+      "target_node_id": 7095,
+      "user_prompt": "Please select the version from before the first hair color change was made and apply the following edit to that version: Using the provided source video, apply the following edit: restyle the person's hair according to the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+      "prompt_zh": "请选择第1次发色更换之前的版本，并在该版本上进行以下编辑：按照参考图为人物更换发型。只采用参考图中的发型，不采用参考人物的面部特征、发色或服装。当前视频中的其他内容保持不变。",
+      "editing_prompt": "Restyle the person's hair according to the reference images. Only transfer the hairstyle shape from the reference images, not the reference person's facial features, hair color, or clothing. Preserve the person's existing hair color and everything else in the current video.",
+      "output": "media/c6c3d72ab721f996a654c6460164ebef1d5d3af793893115d08410d2dcc71d95.mp4",
+      "ground_truth": "media/406eea2b2845e29d8469207fbc9a534995cec01b7f017e1e48ccfbd594c2713f.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/5096259085e62779433983a67a2792d5e7d22389613f60bdaa41abeb05c921ea.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/12c4366984dc7960e2edc2ee458ef46529fcbfcfb81b3e57b0adede1dc481bfa.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 2,
+      "expected_parent": 2,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "normal_continue",
+      "edge_id": 30505,
+      "source_node_id": 7095,
+      "target_node_id": 7075,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+      "prompt_zh": "我希望将视频的场景更换为参考图展示的环境。保持人物的身份、发型、发色、服装、表情和动作不变。保留镜头构图与运动，同时让人物受光适应目标环境。",
+      "editing_prompt": "Replace the video's scene with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+      "output": "media/0136f9bf3318598ff44535b355275a929707c92c1a0f382cec97c3a121059af3.mp4",
+      "ground_truth": "media/fd30bb281aa6f01bf0de5876b8b18f34ff4f006fe8496216cc206f2541c46094.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/3a90c547543686a86068cb3afccc3f20614561d7e1da1fd41a3ca4ce38f85159.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parent": 3,
+      "expected_parent": 3,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "normal_continue",
+      "edge_id": 30419,
+      "source_node_id": 7075,
+      "target_node_id": 7094,
+      "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from a front three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "请更换拍摄人物的镜头，改用从人物前侧约45度拍摄的上半身镜头。仅改变镜头设置。保留人物的外观、表情和动作，以及现有场景。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Switch the camera setup to an upper-body shot from a front three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "output": "media/479dae144adfc10357773fdf2022eac62e9092d46d14eb670c36d29acdf937b7.mp4",
+      "ground_truth": "media/0a6c9d96f648253e1b9454b5d5a8f56905f21d96ddde6ec842697aecb4a5f1d1.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/99182111aba79482e647f82b97d8dfd2479e8ea3e04fa456a996a21c128585cc.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "parent": 4,
+      "expected_parent": 4,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": 30502,
+      "source_node_id": 7094,
+      "target_node_id": 7088,
+      "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "prompt_zh": "请将人物当前的动作改为站着做出思考的姿态，具体动作参照参考视频中的示范。参考视频仅用于确定动作。保持人物的身份、外观、表情、场景和镜头不变。",
+      "editing_prompt": "Replace the person's current action with the action demonstrated in the motion reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "output": "media/d60c1f8d4501b3a06cbca7892b4221126917015037179437bee55a5bc707dba0.mp4",
+      "ground_truth": "media/f8cd283613b65efd62b7d7cd7818aa771a4f8c795196fcfc1d2795b85f773165.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/6526a842659beb7c70fb25bb794cd31ebd591869a7d9a09ad6fe387d588debd1.mp4"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The man stands on a rooftop, then begins to walk slowly forward and to the right, swinging his arms naturally as he moves.",
+      "camera": "A low-angle, full-body shot that remains mostly static, keeping the man centered in the frame.",
+      "clothing": "A bright yellow long-sleeved button-up shirt with a white floral pattern, dark plaid trousers with a brown and red check, a thin black belt, and black shoes.",
+      "hair_color": "Dark brown to black.",
+      "hairstyle": "Short, dark hair with a slightly longer, swept top.",
+      "identity": "A 3D-rendered man with a medium-brown complexion, short dark hair, and a slim build.",
+      "scene": "An outdoor city rooftop at dusk, featuring a tiled walkway, gravel, large white utility boxes, and a background of buildings and communication towers under a pale blue sky."
+    },
+    "1": {
+      "action": "The character stands still, then begins to walk slowly forward and to the right, turning his head to look around.",
+      "camera": "A low-angle, full-body shot that remains relatively static, keeping the character centered in the frame.",
+      "clothing": "A bright yellow long-sleeved button-up shirt with a white pattern, dark plaid trousers, black shoes, and a pink cap.",
+      "hair_color": "Dark, barely visible under the cap.",
+      "hairstyle": "Short hair, mostly covered by a cap.",
+      "identity": "A 3D-rendered male character with a medium build, dark skin, and a short beard.",
+      "scene": "An outdoor rooftop or industrial area with large metal structures, communication towers, and a building in the background under a clear sky."
+    },
+    "2": {
+      "action": "The figure stands still for a moment, then begins to walk slowly forward and slightly to the right, swinging their arms naturally.",
+      "camera": "A static, low-angle full-body shot that keeps the figure centered in the frame.",
+      "clothing": "A bright yellow long-sleeved button-up shirt with a white and red geometric pattern, dark plaid trousers with a black belt, and black shoes.",
+      "hair_color": "Black.",
+      "hairstyle": "Black hair pulled back tightly into a high ponytail.",
+      "identity": "A 3D-rendered adult figure with a medium-brown complexion, slim build, and a neutral facial expression.",
+      "scene": "An outdoor rooftop or industrial area with a tiled and gravel floor, large gray utility boxes, and several tall communication towers against a clear blue sky."
+    },
+    "3": {
+      "action": "She stands on the road, then begins walking forward toward the camera, and finally stops to look upward.",
+      "camera": "A low-angle, full-body shot that remains mostly static as the subject moves closer.",
+      "clothing": "She wears a yellow long-sleeved shirt with a white circular pattern, dark plaid flared trousers, and black shoes.",
+      "hair_color": "Dark brown or black.",
+      "hairstyle": "Her hair is pulled back into a high ponytail.",
+      "identity": "A slender woman with a dark complexion, shown in full body from head to toe.",
+      "scene": "An outdoor paved road under a concrete overpass on a sunny day, with a metal guardrail, red-and-yellow striped posts, and a blue sky with light clouds in the background."
+    },
+    "4": {
+      "action": "The man walks slowly forward and slightly to the right, turning his head to look off to his left.",
+      "camera": "A medium shot at eye level that tracks the man as he moves, keeping him centered in the frame.",
+      "clothing": "A long-sleeved yellow button-up shirt covered in a white and orange floral pattern, worn over dark red and black plaid trousers with a black belt.",
+      "hair_color": "Dark brown to black with an orange ponytail tie.",
+      "hairstyle": "Short dark hair with shaved sides and a high ponytail tied with a bright orange band.",
+      "identity": "A young man with a slim build and tanned skin, shown from the thighs up.",
+      "scene": "An outdoor paved area under a concrete overpass, with a metal railing, green trees, and a construction crane visible in the background under a blue sky."
+    },
+    "5": {
+      "action": "The person stands and slowly turns their body and head, at one point raising a hand to the collar and then crossing their arms.",
+      "camera": "A static, low-angle medium shot that keeps the subject centered against the background.",
+      "clothing": "A long-sleeved yellow button-up shirt with a white and orange floral pattern, worn over dark plaid trousers with a black belt.",
+      "hair_color": "Dark brown to black with an orange-tipped section at the back.",
+      "hairstyle": "Short dark hair with a small orange-tipped ponytail or tuft sticking up at the back of the head.",
+      "identity": "A young person with a slim build and dark skin, shown from the thighs up.",
+      "scene": "An outdoor paved area beside a concrete overpass, with a metal railing, green foliage, and a construction crane visible under a bright sky."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

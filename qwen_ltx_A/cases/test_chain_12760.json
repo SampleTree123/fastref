@@ -1,0 +1,118 @@
+{
+  "id": "test_chain_12760",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 2,
+  "completed_turns": 2,
+  "selection_kind": null,
+  "root": "media/bd2eba0054be94bce7ee4aa243554a1fe7f63d7b3f1bf10390af3106fedf4747.mp4",
+  "state_sha256": "cbe74c49070f1c7be644df0efc2c68a400eb86be766878f59ebbaed5f50227bc",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "normal_continue",
+      "edge_id": 28783,
+      "source_node_id": 6864,
+      "target_node_id": 6858,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+      "prompt_zh": "请将当前场景换成参考图中的环境，让人物置于该环境中。保持人物的身份、发型、发色、服装、表情和动作不变。保留镜头构图与运动，同时让人物受光适应目标环境。",
+      "editing_prompt": "Change the scene to the setting shown in the reference image, placing the person in that environment. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+      "output": "media/67564aab029e9ffd1fa84664de03744082573bccbba939048a11da1bfc430fc2.mp4",
+      "ground_truth": "media/bdc1cad0cbd57ec219ac5402b2d153c7e040922018e6abe2484a118f700b728e.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/9d6cdb12d4bc4a5ab73e7ee550531e95d816699313dd8c98b62b79e5816e18d7.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "event_before",
+      "edge_id": 28782,
+      "source_node_id": 6864,
+      "target_node_id": 6857,
+      "user_prompt": "Please use the video that was the input to the first scene change as the starting point, and make the following change: Using the provided source video, apply the following edit: Let's change the person's hair color to chestnut brown.",
+      "prompt_zh": "请以第1次场景更换之前的视频为基础，接下来这样修改：人物目前是金色头发，将其改为栗色。",
+      "editing_prompt": "Change the person's hair color to chestnut brown. Preserve the person's identity, hairstyle, and all other visual details in the video.",
+      "output": "media/f36d76548dd47d8499f58d6fa75bf21ee5e9ebe1eb96071ee043d80209fe9dff.mp4",
+      "ground_truth": "media/eed982a1606216dc2b0e8c34d0ffeee177972e28466917210661e22038d57b2d.mp4",
+      "references": []
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands and slowly turns in place, raising one arm to brush her hand through her hair while shifting her weight and posing.",
+      "camera": "A static, low-angle full-body shot that keeps the character centered against the background.",
+      "clothing": "A long-sleeved hot-pink off-the-shoulder top with dark shoulder straps, a short white pleated skirt, and dark lace-up ankle boots.",
+      "hair_color": "Bright yellow-blonde.",
+      "hairstyle": "Short, tousled hair that is swept up and away from the face.",
+      "identity": "A slender female 3D character with a slim build, shown from behind and in profile.",
+      "scene": "An outdoor urban plaza with large light-gray paving tiles, a big weathered metal container behind the character, and tan buildings with a red-and-yellow sign in the background."
+    },
+    "1": {
+      "action": "The character stands, then raises her right arm to touch and adjust her hair while shifting her weight and turning slightly.",
+      "camera": "Static full-body shot from a low angle, keeping the character centered against the background.",
+      "clothing": "Long-sleeved purple top, short white skirt, black tights, and black lace-up boots.",
+      "hair_color": "Bright lime green.",
+      "hairstyle": "Short hair tied into a small ponytail at the back of the head.",
+      "identity": "A 3D-rendered female character with a slim build, shown from behind and in profile.",
+      "scene": "A futuristic outdoor plaza with a glossy reflective floor, large dark domed buildings with glowing teal lights, a tall tower, and a pink vehicle parked to the left under a blue sky."
+    },
+    "2": {
+      "action": "The character stands and slowly turns, raising one arm to touch her hair and neck while shifting her weight.",
+      "camera": "Static medium-full shot from a low angle, keeping the character centered.",
+      "clothing": "A bright pink long-sleeved off-shoulder top, a white mini skirt, and dark gray lace-up boots.",
+      "hair_color": "Reddish-brown.",
+      "hairstyle": "Short, spiky hair that is flipped up at the back.",
+      "identity": "A 3D-rendered female character with a slim build, shown from behind and in profile.",
+      "scene": "An outdoor urban plaza with a large gray metal container behind her and tan buildings with a red sign in the background."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

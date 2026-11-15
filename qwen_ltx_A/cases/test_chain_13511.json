@@ -1,0 +1,125 @@
+{
+  "id": "test_chain_13511",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 2,
+  "completed_turns": 2,
+  "selection_kind": null,
+  "root": "media/369eebb627f635f5b8bd6bf9ea103eb062ada6a20f5b84ec8d38e0742abc0713.mp4",
+  "state_sha256": "baf927952bf5c3796b55fcbc309f7cdcbe51570d816b947c5396983d8e4f3a25",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "normal_continue",
+      "edge_id": 29863,
+      "source_node_id": 6948,
+      "target_node_id": 6967,
+      "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "请更换拍摄人物的镜头，改用从人物正面拍摄的上半身镜头。保持人物的身份、发型、发色、服装、表情、动作和场景不变。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Switch the camera setup to an upper-body shot from the front. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "output": "media/af5dc6d22670cee36445e52e882c057b4fef8a06f0bc4b0216ce5cb4b9f0e7cf.mp4",
+      "ground_truth": "media/f381b2248bac45627806ed1bbe2ae18b3a37e2413f944f5eeb723a853e561508.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/45ff07c77272990f1b9b58310d2b00950afc014d1f54e0d419c112ebdae2bf95.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "identity",
+      "axis_zh": "身份",
+      "selection_kind": "content_description_match",
+      "edge_id": 29864,
+      "source_node_id": 6948,
+      "target_node_id": 6969,
+      "user_prompt": "Please return to the history video where the camera uses a front dolly-out shot moving from upper-body to full-body framing, and apply the following edit to that version: Using the provided source video, apply the following edit: Please replace the person in the video with the person shown in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+      "prompt_zh": "请以第1次镜头更换之前的视频为基础，接下来这样修改：将视频中的人物替换为参考照片中的人物。参考照片中的面部身份特征，并使身体肤色与目标人物一致。保持当前的发型、发色、服装、表情、动作、场景和镜头不变。",
+      "editing_prompt": "Replace the person in the video with the person shown in the reference photo. Use the reference photo for facial identity, and make the body's skin tone consistent with the target person. Keep the current hairstyle, hair color, clothing, expression, action, scene, and camera unchanged.",
+      "output": "media/54418248456cb0cc8c72b4a99f4fa4290864d49d982998c242fa10cbff9d8b13.mp4",
+      "ground_truth": "media/90e5a2712e82dcb638cf70f547b71e1e78a80c595a46176ad7c433e6daebe0d5.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "identity",
+          "view": "front",
+          "path": "media/282225e523893ee4ebd0a4048060f00c6cb8223eeec06f803056cbf650570a63.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The man walks slowly forward toward the camera, then stops and turns his head to look up and to his left.",
+      "camera": "A static, medium-full shot that frames the subject from the shins up against a futuristic background.",
+      "clothing": "A thick, purple cable-knit sweater with a ribbed crew neck and cuffs, paired with black pants and brown lace-up boots.",
+      "hair_color": "Dark brown or black.",
+      "hairstyle": "Short, dark hair that is slightly spiky or textured on top.",
+      "identity": "A young man with a light-to-medium complexion, short facial stubble, and a neutral expression.",
+      "scene": "A glossy, reflective floor in front of a large, dark glass dome structure featuring glowing pink and teal neon rings and grid lines."
+    },
+    "1": {
+      "action": "The man stands facing the camera, then slowly turns his body to the right to show his side and back, and turns back to face forward while looking upward.",
+      "camera": "A static medium shot framing the man from the thighs up, centered in the frame.",
+      "clothing": "A purple and lavender cable-knit sweater with a ribbed crew neck and cuffs, worn over dark pants.",
+      "hair_color": "Dark brown to black.",
+      "hairstyle": "Short cropped hair on the sides and top with a small bun or top-knot at the back.",
+      "identity": "A young Black man with a short beard and a small top-knot of hair at the back of his head.",
+      "scene": "A futuristic interior with a large glass dome ceiling, glowing pink and teal circular light rings, and a reflective floor under dim blue and red lighting."
+    },
+    "2": {
+      "action": "She stands facing the camera, then walks forward a few steps and turns her body to the side.",
+      "camera": "A vertical medium shot that slowly pulls back to a full-body view as she moves.",
+      "clothing": "A purple cable-knit sweater with a round neckline, black slim pants, and brown ankle boots.",
+      "hair_color": "Dark brown to black.",
+      "hairstyle": "Short, cropped hair close to the scalp.",
+      "identity": "A Black woman with a medium build, visible from the waist up at first and later full body.",
+      "scene": "A futuristic setting with a large glass dome, glowing pink and teal neon rings, and a reflective floor under a twilight sky."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

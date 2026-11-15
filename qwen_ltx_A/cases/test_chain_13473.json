@@ -1,0 +1,197 @@
+{
+  "id": "test_chain_13473",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 4,
+  "completed_turns": 4,
+  "selection_kind": null,
+  "root": "media/44f72d6a19d06964f213eb86bef5a9e68e427df6a3bd48599b4ed369f552b4d6.mp4",
+  "state_sha256": "9dac9b2574355bff91d8710c44d75a5080d8030d55449eaf63b2945ad05a3910",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "normal_continue",
+      "edge_id": 30173,
+      "source_node_id": 7020,
+      "target_node_id": 7032,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the video's camera setup to an upper-body shot from a rear three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "请将视频的镜头设置改为从人物后侧约45度拍摄的上半身镜头。仅改变镜头设置。保留人物的外观、表情和动作，以及现有场景。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Change the video's camera setup to an upper-body shot from a rear three-quarter angle. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "output": "media/47d732e3e5effa075428a3399d13206eb44401e03d1426ac646b4063fd4dc9d3.mp4",
+      "ground_truth": "media/1731089c25d48c81db47558b06d3137482e837d297bd6e4b02df54d4a8afd85a.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/8a3561d930d318484bca9ce78d1973ac39b40bac0a84d9f23c4ad7d6a2ef2c2f.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "explicit_id",
+      "edge_id": 30169,
+      "source_node_id": 7020,
+      "target_node_id": 7007,
+      "user_prompt": "Please select video 0, then use that video as the starting point for the following change: Using the provided source video, apply the following edit: Please change the person's action to match the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+      "prompt_zh": "请选择第0个视频，然后以该视频为基础进行以下修改：我希望更换人物的动作，让人物像参考视频中那样打喷嚏。按照参考视频中的运动进行动作，同时保留当前人物的身份、发型、发色、服装和表情。场景和镜头保持不变。",
+      "editing_prompt": "Change the person's action in the source video to match the action demonstrated in the motion reference. Transfer only the demonstrated action; do not adopt the reference person's appearance, the reference scene, or the reference camera setup. Preserve all other aspects of the current video, including the person's identity, appearance, scene, lighting, and camera framing.",
+      "output": "media/9519f172e85dd46182e0c8260afcda9831a61edd0df7c8f5200b2de4f437acba.mp4",
+      "ground_truth": "media/90ca5f6ee1c448dff8794eed6ea94912c5ff9ca5410d67747a27e49376e51785.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/c65df28a8367c3a12d36c4457958703485327e7c5c8985b525a1871b32a0ae18.mp4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 2,
+      "expected_parent": 2,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 30101,
+      "source_node_id": 7007,
+      "target_node_id": 7000,
+      "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's skirt with the item shown in the reference images. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+      "prompt_zh": "请仅将人物的半身裙换成参考图中的款式。其余穿搭及视频中的其他内容保持不变。",
+      "editing_prompt": "Replace the person's skirt with the skirt shown in the reference images, matching its design, color, and fit from both the front and back views. Keep all other clothing, footwear, and non-clothing attributes unchanged.",
+      "output": "media/f49d05823e94dbc69058d7be390af04d452b0749fa79730556941f005497b249.mp4",
+      "ground_truth": "media/4070d5ebc02d75fcd2f8bfda009b5d85037144ad780fbc55e661245c63057291.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "garment",
+          "view": "front",
+          "path": "media/b63d3e86bff37e2156fff1a065d43f07444b116197943fa5438848444a564dc6.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "garment",
+          "view": "back",
+          "path": "media/5144299fd6d1acfd4d12c552c85d4c91f3cc343bd47e5f6099e4dbdde96b622f.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parent": 3,
+      "expected_parent": 3,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "normal_continue",
+      "edge_id": 30059,
+      "source_node_id": 7000,
+      "target_node_id": 6999,
+      "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body shot from a rear three-quarter angle. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "请将视频的镜头设置改为从人物后侧约45度拍摄的全身镜头。保持人物的身份、发型、发色、服装、表情、动作和场景不变。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Switch the camera setup to a full-body shot from a rear three-quarter angle. Use the provided camera reference image to determine the viewing direction, subject placement, and framing at the start of the edited video, then follow the described camera setup and movement. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged, and preserve the timing and progression of the action in the source video.",
+      "output": "media/41f2f24679adae0f771dcd31dce8e352674c594c62356c764265182398544e8f.mp4",
+      "ground_truth": "media/c101bba3487bc19c263be9be30b66de27dae302c1500f044d903ee403c87a115.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/f09094b8df865613eee8d491d49988aeb22626fd939e08d06fcb17a703939327.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands with her back to the camera, then raises both arms and begins to dance, turning and stepping in place.",
+      "camera": "A static, medium-long shot from behind the character at roughly waist-to-head height.",
+      "clothing": "Pink and white gingham sleeveless top with white off-the-shoulder puff sleeves, a black skirt with a gold floral pattern, and light blue sneakers.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Blue hair styled into two high buns on either side of the head.",
+      "identity": "A slim female character with fair skin, seen from behind, with a small tattoo visible on her right upper arm.",
+      "scene": "A cobblestone street in a European-style town with red brick buildings, shop awnings, a Union Jack flag, and a hazy bright sky."
+    },
+    "1": {
+      "action": "The person stands with their back to the camera, then raises both arms overhead and swings them while turning slightly, before lowering their arms and standing still again.",
+      "camera": "The camera remains stationary in a medium shot from behind the person.",
+      "clothing": "The person wears a pink and white gingham off-the-shoulder top with white puffed sleeves and black shorts with a gold floral pattern.",
+      "hair_color": "The hair is bright blue with lighter streaks.",
+      "hairstyle": "The hair is styled into two high buns on top of the head with a center part.",
+      "identity": "A person with a slim build is shown from behind, with their face not visible.",
+      "scene": "The setting is a cobblestone street lined with old-style buildings, including a dark storefront with a sign reading 'MERCHANT' and 'COCOA POWDER FROM THE COLONIES AVAILABLE NOW,' along with a black street lamp."
+    },
+    "2": {
+      "action": "The character stands on a cobblestone street, then begins to walk and turn, swinging her arms as she moves.",
+      "camera": "A medium full-body shot from behind the character, with the camera slowly moving closer and panning slightly as she turns.",
+      "clothing": "She wears a pink-and-white gingham sleeveless top with white off-the-shoulder puff sleeves, a black skirt with a gold floral pattern, and light blue slip-on shoes.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Hair is styled into two high buns on either side of the head.",
+      "identity": "A 3D-rendered female character with a slim build, shown from behind.",
+      "scene": "A hazy, old-style European street with red brick buildings, shop signs, a Union Jack flag, and a cobblestone road."
+    },
+    "3": {
+      "action": "The character stands with her back to the camera, then turns and dances, swinging her arms and shifting her weight.",
+      "camera": "A static, low-angle full-body shot from behind the character.",
+      "clothing": "She wears a pink-and-white gingham sleeveless top with white off-the-shoulder puff sleeves and a white skirt with a split hem, plus light blue sneakers.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Hair is styled into two high buns on either side of the head.",
+      "identity": "A 3D-rendered female character with a slim build, shown from behind.",
+      "scene": "A cobblestone street lined with red-brick Victorian-style buildings, with a Union Jack flag and an 'OFFICE' sign visible in the background."
+    },
+    "4": {
+      "action": "The character stands on a cobblestone street, then turns and walks slowly forward while the camera circles around her.",
+      "camera": "A low, full-body shot that orbits around the character from her left side to the right, keeping her centered.",
+      "clothing": "She wears a short dress with a pink gingham bodice, white puffed off-shoulder sleeves, and a white-and-black color-blocked skirt, paired with light blue sneakers.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Hair is styled into two small buns on top of the head.",
+      "identity": "A 3D-rendered female character with a slim build, shown from behind with her face not visible.",
+      "scene": "A sunlit, old-style city street with brick buildings, shop signs, hanging banners, and black lampposts lining a cobblestone road."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

@@ -1,0 +1,157 @@
+{
+  "id": "test_chain_12804",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": null,
+  "root": "media/ef09cb252615401cca69101b4d5d88d6b2cc760e093c1a64601bf4f5b6af3d57.mp4",
+  "state_sha256": "689e274bfea04724c9b72887861af2ab3a8eefc41ac0a20d4a69247af06af9df",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": 30888,
+      "source_node_id": 6530,
+      "target_node_id": 6545,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from white to blue.",
+      "prompt_zh": "请将人物的发色从白色改为蓝色。",
+      "editing_prompt": "Change the person's hair color from white to blue. Preserve the person's identity, hair shape, and all other aspects of the video.",
+      "output": "media/c8ee20259e3fe831afb7ba7b2627bc2a49d4190add597f8980e7beb28f400997.mp4",
+      "ground_truth": "media/bab4264f46bc465274fecb53c1927b62a1c0e367aa0e92fdf56cc2991ba72633.mp4",
+      "references": []
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "normal_continue",
+      "edge_id": 30957,
+      "source_node_id": 6545,
+      "target_node_id": 6533,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+      "prompt_zh": "我想将人物的发型更换为参考图中展示的发型。只采用参考图中的发型，不采用参考人物的面部特征、发色或服装。当前视频中的其他内容保持不变。",
+      "editing_prompt": "Change the person's hairstyle to the one shown in the reference images, using the front view for the front styling and the back view for the back styling. Transfer only the hairstyle shape and structure from the references; do not adopt the reference person's facial features, hair color, or clothing. Preserve the person's original hair color, identity, and all other elements of the current video.",
+      "output": "media/f06c2939aa953e8993b83447d1b42532eab4678b9cf30bb71ff838f74e7fbdfd.mp4",
+      "ground_truth": "media/b9b8d8750dfe6dba5e3d4acb1a8ea271f36b2099b5e99d2cf770c9ca5c8fd6e1.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/31d4437a13a6a3fbaeb6501f18723b87d697d99b935591ea4020a209bb6d0bc2.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/404581461744c596bd552940d2e3136d40cf893aec28c65c5bb335a5d6686d45.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "identity",
+      "axis_zh": "身份",
+      "selection_kind": "content_description_match",
+      "edge_id": 30887,
+      "source_node_id": 6530,
+      "target_node_id": 6529,
+      "user_prompt": "Please use the video where the person has white hair as the starting point and make the following change: Using the provided source video, apply the following edit: I'd like to change the person's identity to match the person in the reference photo. Only use the reference photo to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body, while retaining the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+      "prompt_zh": "请以人物头发是白色的视频为基础，接下来这样修改：我希望替换视频中的人物身份，改为参考照片中的人物。参考照片仅用于确定目标人物的面部身份特征和肤色。使面部与身体的肤色协调一致，同时保留当前的发型、发色、服装、表情、动作、场景和镜头。",
+      "editing_prompt": "Change the person's identity to match the person in the reference photo. Use the reference photo only to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body. Retain the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+      "output": "media/7c99c3467955e4433cbcdcaea8c9425e8576e677170a75e8b34b97d09b3d24f8.mp4",
+      "ground_truth": "media/968fe403c0086da87c66569c0b1977c33d31e58b0ed35b05b0724ad9f94ba623.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "identity",
+          "view": "front",
+          "path": "media/97f1087c8624d75f419ec899430a69e01d07a2df49bbc99cc498918d90d1867a.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "She faces the camera, then lowers her head, raises her right hand to brush her hair back, turns to show the back of her head, and finally faces forward again with a slight smile.",
+      "camera": "A static, eye-level medium close-up shot centered on the subject.",
+      "clothing": "A bright pink off-the-shoulder long-sleeve top with dark purple ribbon ties at the shoulders.",
+      "hair_color": "White.",
+      "hairstyle": "White hair styled in a bob with straight bangs and two small low buns at the sides of the head.",
+      "identity": "A young woman with a slender build and light skin, shown from the chest up.",
+      "scene": "An outdoor industrial or dockside area with weathered stone walls, stacked wooden planks, a wooden boat hull, and metal pipes under bright daylight."
+    },
+    "1": {
+      "action": "The character starts facing forward, then turns her head to look down and to the side, raises her right hand to touch her forehead and hair, turns her back to the camera, and finally turns back to face forward.",
+      "camera": "Static, medium close-up shot from a slightly low angle, keeping the character centered in the frame.",
+      "clothing": "A bright pink, off-the-shoulder top with long sleeves and purple ribbon ties at the shoulders.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Short blue hair with straight bangs and two small, rounded buns on the sides of the head.",
+      "identity": "A 3D-rendered female character with a light-skinned face, dark eyebrows, and a neutral expression.",
+      "scene": "An outdoor, sunlit industrial or dockyard area with stone paving, wooden crates, planks, and an overturned wooden boat in the background."
+    },
+    "2": {
+      "action": "The woman looks at the camera, then lowers her head and raises her right hand to brush her hair back and touch the side of her head before turning her back to the camera and then turning back to face forward.",
+      "camera": "Static, eye-level medium close-up shot from a first-person perspective.",
+      "clothing": "A bright pink, long-sleeved off-the-shoulder top with purple ribbon ties at the shoulders.",
+      "hair_color": "Black.",
+      "hairstyle": "Short, dark hair styled in a sleek bob with a side part and a distinct side-swept section across the forehead.",
+      "identity": "A 3D-rendered woman with fair skin, dark eyes, and a small mole on her left cheek.",
+      "scene": "An outdoor, sunlit industrial or dockyard area with stone paving, wooden planks, a large wooden boat hull on the left, and rusted metal structures in the background."
+    },
+    "3": {
+      "action": "The character stands facing the camera, then turns her head to the side and raises her right hand to touch the back of her head and neck before turning back to face forward.",
+      "camera": "A static, medium close-up shot at eye level, keeping the character centered in the frame.",
+      "clothing": "A bright pink, off-the-shoulder top with long sleeves and dark purple straps or ties at the shoulders.",
+      "hair_color": "White.",
+      "hairstyle": "A white wig with straight bangs covering the forehead and two small, rounded puffs tied at the sides of the head.",
+      "identity": "A dark-skinned 3D-rendered female character with a slender build and visible shoulders.",
+      "scene": "An outdoor, sunlit area with a stone-paved ground, featuring a large wooden boat hull on the left, scattered wooden planks on the right, and weathered stone buildings in the background."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

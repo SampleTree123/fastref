@@ -1,0 +1,190 @@
+{
+  "id": "test_chain_13098",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 4,
+  "completed_turns": 4,
+  "selection_kind": null,
+  "root": "media/2022cc23fcb718231ef7217448fc6bed7b0da562966bcd15570c85620c64d9d9.mp4",
+  "state_sha256": "52819698e33bc1a96a57ab39ed6920afda2081e1171a9c17a994f302048313da",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "normal_continue",
+      "edge_id": 31225,
+      "source_node_id": 6603,
+      "target_node_id": 6598,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "prompt_zh": "我希望将视频的场景更换为参考图展示的环境。用参考图确定目标环境。保持人物、发型、发色、穿搭、表情和动作不变。维持原有的镜头构图与运动，使人物在新场景中自然受光。",
+      "editing_prompt": "Replace the video's scene with the environment shown in the reference image, using the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "output": "media/c830ac7a139420af80cab193dc3844d6181bd2650eb95150e695ba84fcd22be8.mp4",
+      "ground_truth": "media/43c1f0d508a387dce04c0accc4df43999c1e226a399c36d84984a89489c9e2f3.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/08be7c2842d7df93bd2447041d5582d42462c937ded5fd11055a227e35c7d3df.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": 31209,
+      "source_node_id": 6598,
+      "target_node_id": 6585,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color to chestnut brown.",
+      "prompt_zh": "请把人物的发色改成栗色。",
+      "editing_prompt": "Change the person's hair color to chestnut brown. Preserve the person's identity, hair shape, and all other aspects of the video.",
+      "output": "media/274958789e90fd9ed3e3fbec7b7f9aa21c63c4f535b81f0100eb8fa4e0ebf3cf.mp4",
+      "ground_truth": "media/20d0de037526795d2cf6334e5fad009c87e9a1fbef048765e926c2dbd228d475.mp4",
+      "references": []
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "explicit_id",
+      "edge_id": 31223,
+      "source_node_id": 6603,
+      "target_node_id": 6596,
+      "user_prompt": "Please return to video 0 and make the following change to that video: Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+      "prompt_zh": "请回到第0个视频，接下来在该视频上这样修改：将人物的发型改为参考图中的发型。采用参考图中头发的形状和造型，同时保留当前人物的面部特征、发色和服装。视频中的其余内容保持不变。",
+      "editing_prompt": "Change the person's hairstyle to the one shown in the reference images. Transfer only the hairstyle shape and structure from the references, preserving the person's original hair color. Do not transfer the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+      "output": "media/6bc67762e64c293ac0e2fd6ae9e9e4c86b47d8f118d6e24dcaa7672796b1d2a4.mp4",
+      "ground_truth": "media/8236f7266e3002c0c386bcbdd91213d26581be6df381c65c373134b772288564.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/f8d843c563baea4713b739ed690a6acfe485dbb496064347ba42b2b034ae11af.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/3ef76b7507ba8e0c9d20109f3c8021066fc68af47780e21d7c0a6138c5c0efec.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parent": 3,
+      "expected_parent": 3,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "normal_continue",
+      "edge_id": 31203,
+      "source_node_id": 6596,
+      "target_node_id": 6584,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "prompt_zh": "我希望将视频的场景更换为参考图展示的环境。只改变环境及其对人物产生的光照效果。保留人物的身份、外观、表情和动作，以及原有的镜头构图与运动。",
+      "editing_prompt": "Replace the video's scene with the environment shown in the reference image, including its lighting effects on the person. Change only the environment and its lighting. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "output": "media/e11542b2aa8c25d768701ccabb582e2e79d30e808163484ca0f7d32dd9ae2105.mp4",
+      "ground_truth": "media/fb9edf4bd04422244d18f65978b1f9dd24180dc4bdadb84af96de2856b0ebc81.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/08be7c2842d7df93bd2447041d5582d42462c937ded5fd11055a227e35c7d3df.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The man stands still, then raises his right hand to rub his forehead and eyes before lowering it and looking down.",
+      "camera": "A static, medium-full shot at eye level, framing the man from the shins up against the background.",
+      "clothing": "A light blue and white patterned knit sweater, dark blue jeans, and brown shoes.",
+      "hair_color": "Dark brown to black.",
+      "hairstyle": "Short, neatly trimmed dark hair with a slightly longer, swept top.",
+      "identity": "A young man with a slim build and short dark hair, shown in profile and three-quarter views.",
+      "scene": "A futuristic, open-air plaza with large black dome-shaped buildings featuring glowing cyan and pink neon rings, a wet reflective concrete floor, and a purple vehicle in the distance."
+    },
+    "1": {
+      "action": "The man stands still, then raises both hands to his head, holding his temples as he looks down, before lowering his arms and standing upright again.",
+      "camera": "A medium full shot at eye level that slowly zooms in and pans slightly to follow the subject.",
+      "clothing": "A light blue and purple patterned knit sweater, dark blue jeans, and dark brown lace-up boots.",
+      "hair_color": "Dark brown to black.",
+      "hairstyle": "Short, dark hair with a slightly longer, swept top.",
+      "identity": "A young adult man with a slim build and short dark hair, shown in profile and then from behind.",
+      "scene": "An outdoor amusement park or fairground at dusk, featuring a large wooden pavilion with a string of white lights, a red and yellow striped food cart, and a roller coaster track in the background."
+    },
+    "2": {
+      "action": "The man stands still, then slowly raises both hands to the sides of his head, tilts his head down, and finally lowers his arms to stand upright again.",
+      "camera": "A static, eye-level medium shot that keeps the man centered in the frame.",
+      "clothing": "A long-sleeved, open-knit sweater with a blue, white, and purple geometric pattern, dark blue jeans, and dark lace-up shoes with light socks.",
+      "hair_color": "Bright orange-red.",
+      "hairstyle": "Short, swept-back hair with a slightly longer top.",
+      "identity": "A young adult male with a slim build and light skin, shown in profile and three-quarter views.",
+      "scene": "An outdoor amusement park or boardwalk at dusk, featuring a large wooden pavilion with rows of white lights, a red and yellow striped food cart, and a roller coaster track in the background."
+    },
+    "3": {
+      "action": "The man stands still, then raises his right hand to rub his forehead and eyes before lowering his arm and looking down.",
+      "camera": "The camera is static at a low angle, framing the man from the shins up in a medium shot.",
+      "clothing": "He wears a blue and white patterned knit sweater, dark blue jeans, and brown shoes.",
+      "hair_color": "His hair is dark brown or black.",
+      "hairstyle": "He has very short, cropped dark hair.",
+      "identity": "A young Black man with a slim build is shown in profile, facing right.",
+      "scene": "The setting is a futuristic, wet outdoor plaza with large domed buildings featuring glowing teal and pink neon rings, and a purple vehicle in the background."
+    },
+    "4": {
+      "action": "The man stands in profile, then raises his right hand to his head and rubs his forehead and hair before lowering his arm.",
+      "camera": "A static, medium-full shot from the side, keeping the man centered in the frame.",
+      "clothing": "A light blue and purple patterned sweater, dark blue jeans, and black shoes.",
+      "hair_color": "Black.",
+      "hairstyle": "Short, dark hair.",
+      "identity": "A young Black man with a slim build and short dark hair.",
+      "scene": "An outdoor amusement park or boardwalk area at dusk, featuring a large pavilion with string lights, a red food cart, and a striped umbrella."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

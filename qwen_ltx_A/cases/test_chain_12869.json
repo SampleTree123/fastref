@@ -1,0 +1,229 @@
+{
+  "id": "test_chain_12869",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 5,
+  "completed_turns": 5,
+  "selection_kind": null,
+  "root": "media/44f74ee411eb69accdab3a7503cce93d1bbf4d3e10de2533e4a323dd40d650fb.mp4",
+  "state_sha256": "5632f2681897f9d13be8fa3a1a960019a3eb77630134ce1f3165c8b49176e14c",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": 28153,
+      "source_node_id": 6285,
+      "target_node_id": 6269,
+      "user_prompt": "Using the provided source video, apply the following edit: Please change the person's hair color from blue to pink.",
+      "prompt_zh": "请将人物的发色从蓝色改为粉色。",
+      "editing_prompt": "Change the person's hair color from blue to pink. Preserve the person's identity, hair shape, and all other aspects of the video.",
+      "output": "media/9c7d118bbe28b1f54f36c26acdfbc2990e03ac581ec0861b91003f382567b32a.mp4",
+      "ground_truth": "media/7aa69419fe987286b9875dc96a217b40d99975c35b9366b4dc3b07c7759720e1.mp4",
+      "references": []
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "normal_continue",
+      "edge_id": 28087,
+      "source_node_id": 6269,
+      "target_node_id": 6286,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+      "prompt_zh": "我想将人物的发型更换为参考图中展示的发型。采用参考图中头发的形状和造型，同时保留当前人物的面部特征、发色和服装。视频中的其余内容保持不变。",
+      "editing_prompt": "Change the person's hairstyle to the one shown in the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+      "output": "media/7dbf7e30d3b0a4459eecf1ac9ae78fe36cb4fd528d9c349af8eba8aa9f29adff.mp4",
+      "ground_truth": "media/0462e198ed6f59fe654fd30ba91af8d7cceed52612df5b85ac5491bccead9b73.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/31d4437a13a6a3fbaeb6501f18723b87d697d99b935591ea4020a209bb6d0bc2.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/404581461744c596bd552940d2e3136d40cf893aec28c65c5bb335a5d6686d45.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 2,
+      "expected_parent": 2,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "normal_continue",
+      "edge_id": 28157,
+      "source_node_id": 6286,
+      "target_node_id": 6271,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "prompt_zh": "我希望将视频的场景更换为参考图展示的环境。只改变环境及其对人物产生的光照效果。保留人物的身份、外观、表情和动作，以及原有的镜头构图与运动。",
+      "editing_prompt": "Replace the video's scene with the environment shown in the reference image, including its lighting effects on the person. Change only the environment and its lighting. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "output": "media/254b518a4b6234d1e4dfdde7449c27ec3d40554dd923236a2351a6bf24c96329.mp4",
+      "ground_truth": "media/4b4042bc757d281bdd0bc8255dab97353f190d960493ff8a5c4fd83105fa99d9.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/d3b3d3c3467afa9300d12bb8762fcd1c3cb56da7c0dc391e2505eee93c215e89.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "event_after",
+      "edge_id": 28085,
+      "source_node_id": 6269,
+      "target_node_id": 6253,
+      "user_prompt": "Please use the result of edit 1 as the starting point and apply the following edit to that video: Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "prompt_zh": "请以第1轮编辑的结果为基础，在该视频上进行以下编辑：将视频中的场景替换为参考图中的环境。只改变环境及其对人物产生的光照效果。保留人物的身份、外观、表情和动作，以及原有的镜头构图与运动。",
+      "editing_prompt": "Replace the scene in the video with the environment shown in the reference image, using the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "output": "media/362ce282639b3a4a2b95fe1580dc329b4ef1665e1f4a4c7b234f00fa13e08181.mp4",
+      "ground_truth": "media/b770655e3683f95ce65001503c25cb3effda2b040b103761b15c100b8572e199.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/d3b3d3c3467afa9300d12bb8762fcd1c3cb56da7c0dc391e2505eee93c215e89.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "parent": 4,
+      "expected_parent": 4,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 27998,
+      "source_node_id": 6253,
+      "target_node_id": 6246,
+      "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's one-piece garment with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+      "prompt_zh": "我想将人物当前的整身服装换成参考图中的款式。保留当前视频中的其他衣物、鞋子及所有非服装内容。",
+      "editing_prompt": "Replace the person's one-piece garment with the item shown in the reference images, matching its design, color, and fit from the front and back views. Preserve all other clothing items, footwear, and all non-clothing aspects of the current video.",
+      "output": "media/7df1fe3ebfdb58b7075ba5a95920f41733f952bd70476ed7b83b299efde547dc.mp4",
+      "ground_truth": "media/33d7979c54cbd1f20480cc1941d77747294d95affde7980adb11daf8d424ea04.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "garment",
+          "view": "front",
+          "path": "media/dbe5c1f0305ad7eb46cdca7862bf4eef11c4201e05bb0d762bf6f65d286af1b1.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "garment",
+          "view": "back",
+          "path": "media/d76e88d4b65a0785773eb49a03ea8d3f6de72f798c9a37dfe86cb92e0a724fea.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands on a tiled floor, raises one arm to brush her hair back, then turns slightly and brings both hands up near her face before lowering them.",
+      "camera": "A static high-angle, medium-long shot from behind and slightly above the character.",
+      "clothing": "A short, backless mini dress with a busy multicolored abstract pattern in purple, blue, pink, and yellow, plus flat sandals.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Short hair with a small low ponytail or bun at the nape and a side-swept fringe.",
+      "identity": "A slender 3D-rendered female character with a slim build, seen mostly from behind and in profile.",
+      "scene": "An outdoor or open paved area with glossy square tiles on the left, a rougher gray surface on the right, and large pale cylindrical structures in the background under warm sunlight."
+    },
+    "1": {
+      "action": "The character stands on a tiled floor, raises one arm to brush her hair back, then turns slightly and brings both hands up near her face.",
+      "camera": "Static high-angle, three-quarter rear view at a slight distance, keeping the character centered.",
+      "clothing": "A short, open-back mini dress with a busy multicolored abstract pattern in purple, blue, orange, and yellow, plus flat grayish shoes.",
+      "hair_color": "Bright pink.",
+      "hairstyle": "Short, wavy bob-length hair with a small low ponytail or tail at the nape.",
+      "identity": "A slender 3D-rendered female character with fair skin, shown mostly from behind and in profile.",
+      "scene": "An outdoor or open paved area with glossy square tiles on the left, a rougher gray surface on the right, and large pale concrete structures in the background under warm sunlight."
+    },
+    "2": {
+      "action": "The character stands on a tiled floor, raises one arm to touch her hair, then turns to face the camera and brings both hands up near her face.",
+      "camera": "A static high-angle, medium-long shot from behind and slightly above the character.",
+      "clothing": "A short, open-back mini dress with a busy multicolored abstract pattern in purple, blue, orange, and yellow, plus flat pinkish shoes.",
+      "hair_color": "Bright pink.",
+      "hairstyle": "Short pink hair styled in a small top bun with loose strands framing the face.",
+      "identity": "A slender 3D-rendered female character with a slim build, shown mostly from behind and in profile.",
+      "scene": "An outdoor or open paved area with glossy square tiles on the left, a darker textured ground on the right, and large pale concrete structures in the background under warm sunlight."
+    },
+    "3": {
+      "action": "The character stands on the ground, raises one hand to her head, then turns her body and head to the side while keeping a hand near her face.",
+      "camera": "A high-angle, medium full-body shot that stays roughly fixed while the character turns in place.",
+      "clothing": "A short, form-fitting dress with a busy multicolored pattern of purple, blue, yellow, and orange shapes, plus orange flat shoes.",
+      "hair_color": "Bright pink.",
+      "hairstyle": "Short hair with a small topknot or bun at the back of the head.",
+      "identity": "A 3D-rendered female character with a slim build, shown mostly from behind and then in profile.",
+      "scene": "An open sandy or dirt outdoor area in bright sunlight, with a low wall and a small red cart visible in the background."
+    },
+    "4": {
+      "action": "The character stands, raises one hand to her head, then turns slightly to the side while touching her face and hair.",
+      "camera": "High-angle, medium-long shot that stays nearly static while the character moves in place.",
+      "clothing": "A short, form-fitting dress with a busy multicolored abstract pattern and three-quarter sleeves.",
+      "hair_color": "Bright red.",
+      "hairstyle": "Short hair with a small low ponytail or bun at the nape.",
+      "identity": "A 3D-rendered female character with a slim build, shown mostly from behind and in profile.",
+      "scene": "An open sandy or dirt ground with a long cast shadow, a low wall in the background, and a small red cart at the upper right."
+    },
+    "5": {
+      "action": "The character stands on sand, raises one arm to touch her head, then turns slightly and brings both hands up near her face and neck.",
+      "camera": "High-angle, medium full shot that stays roughly fixed while the character moves.",
+      "clothing": "A blue and white patterned short-sleeved romper with an open back, plus orange flat shoes.",
+      "hair_color": "Bright red.",
+      "hairstyle": "Short hair with a small low bun or ponytail at the nape.",
+      "identity": "A 3D-rendered female character with a slim build, shown mostly from behind and in profile.",
+      "scene": "An outdoor sandy area in warm sunlight, with a long shadow cast to the left and a small red vehicle partly visible in the upper right."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}
