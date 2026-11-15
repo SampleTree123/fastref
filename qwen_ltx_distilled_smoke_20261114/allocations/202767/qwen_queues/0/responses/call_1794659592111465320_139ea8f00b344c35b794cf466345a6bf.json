@@ -1,0 +1,88 @@
+{
+  "request_id": "call_1794659592111465320_139ea8f00b344c35b794cf466345a6bf",
+  "request_sha256": "416a330d80b097428d062971b0bc02f835ae020dc27f3eafc0f2ed1229651092",
+  "queue_wait_seconds": 0.070343017578125,
+  "status": "ok",
+  "result": {
+    "raw_output": "<tool_call>\n<function=record_video_card>\n<parameter=observed>\n{\"identity\": \"A 3D-rendered young adult character with a slim build, dark skin, and a youthful face.\", \"hairstyle\": \"Short, spiky hair that stands up and out from the head.\", \"hair_color\": \"Bright, vibrant blue.\", \"clothing\": \"A dark grey, long-sleeved jacket with a high collar, white piping, and small white graphic prints, worn over matching dark grey trousers with a white stripe down the side, a black belt with a silver buckle, and dark brown shoes.\", \"action\": \"The character stands on a tiled surface, initially facing forward with hands raised, then turns to the side and back, and finally stands with arms crossed.\", \"camera\": \"A static, full-body shot from a slightly low angle, keeping the character centered in the frame.\", \"scene\": \"An outdoor, futuristic city environment with tall buildings, a metal tower structure with a large speaker, and a clear sky.\"}\n</parameter>\n<parameter=uncertain>\n[]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+    "tool_calls": [
+      {
+        "name": "record_video_card",
+        "arguments": {
+          "observed": {
+            "identity": "A 3D-rendered young adult character with a slim build, dark skin, and a youthful face.",
+            "hairstyle": "Short, spiky hair that stands up and out from the head.",
+            "hair_color": "Bright, vibrant blue.",
+            "clothing": "A dark grey, long-sleeved jacket with a high collar, white piping, and small white graphic prints, worn over matching dark grey trousers with a white stripe down the side, a black belt with a silver buckle, and dark brown shoes.",
+            "action": "The character stands on a tiled surface, initially facing forward with hands raised, then turns to the side and back, and finally stands with arms crossed.",
+            "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+            "scene": "An outdoor, futuristic city environment with tall buildings, a metal tower structure with a large speaker, and a clear sky."
+          },
+          "uncertain": []
+        }
+      }
+    ],
+    "parse_error": null,
+    "generated_tokens": 239,
+    "hit_generation_limit": false,
+    "prepare_seconds": 0.9188199182972312,
+    "generation_seconds": 11.242191188037395,
+    "total_seconds": 12.16674190480262,
+    "gpu_peak_allocated_bytes": 55774807552,
+    "media": [
+      {
+        "role": "history",
+        "original_hw": [
+          1280,
+          736
+        ],
+        "total_num_frames": 121,
+        "fps": 12.0,
+        "frames_indices": [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+          104,
+          112,
+          120
+        ],
+        "duration": 10.083333333333334,
+        "content_sha256": "82bb8b7a2147960bf972402f7777984d1cf92452067dae3177497d79bfd248e7",
+        "cache_key": "d4f6d9562e8b53d8530b11d009ad03b4975459867a8466ebc40053eee457f0a8",
+        "profile": {
+          "version": 1,
+          "kind": "video",
+          "frames": 16,
+          "pixel_budget": 264192,
+          "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+          "sampling": "linspace_round"
+        },
+        "resized_hw": [
+          672,
+          384
+        ],
+        "kind": "video"
+      }
+    ],
+    "prompt_sha256": "85895d37e1ca370a26597b6a0524ccedc8c61b37c2a18ce1541b8644698a81a9",
+    "input_tokens": 2830,
+    "image_grid_thw": [],
+    "video_grid_thw": [
+      [
+        8,
+        42,
+        24
+      ]
+    ]
+  }
+}

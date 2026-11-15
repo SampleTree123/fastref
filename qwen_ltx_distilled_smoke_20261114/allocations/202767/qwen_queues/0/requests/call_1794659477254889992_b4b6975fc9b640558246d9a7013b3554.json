@@ -1,0 +1,60 @@
+{
+  "request_id": "call_1794659477254889992_b4b6975fc9b640558246d9a7013b3554",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You prepare a single-turn video editing request for LTX. The source video has already been selected and cannot be changed in this stage.\nCall edit_video exactly once. Use the supplied source_video_id and ALL supplied reference_ids in exactly their original order. References are this turn's editing targets. They are not tools for choosing an earlier video.\nWrite the editing-only instruction in English. Remove requests to select, return to, or undo to a historical version; the source ID already implements that choice. Preserve every actual editing requirement, degree, direction, and condition. Fix mild grammatical or referential problems. If the editing instruction is already complete and clear, keep its wording as much as possible.\nYou may make preservation requirements explicit when consistent with the requested edit. Do not add cinematic style, new motion, new objects, new lighting, colors, or details not requested. Changing identity can also require body skin tone to match the target; changing scene may require lighting to fit the new scene. Do not add preservation instructions that contradict the requested change. Do not copy an entire historical card into the editing prompt.\nKeep references meaningful: clothing from the garment/outfit images, hairstyle shape from hair images while preserving hair color unless asked otherwise, identity from the face photo, action from the motion reference, scene from the scene image, initial framing from a camera reference while following the requested subsequent camera movement. Do not describe invisible reference details or claim references exist when none were supplied.\nDo not ask clarification questions. User goals and required references are supplied. This step only normalizes expression, it does not choose a new editing goal."
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"editing_references\":[],\"source_video_id\":0,\"user_prompt\":\"Using the provided source video, apply the following edit: Please change the person's hair color to blue.\"}"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "edit_video",
+        "description": "Edit the selected source using an English editing-only instruction and all current editing references in their original order.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "source_video_id": {
+              "type": "integer",
+              "enum": [
+                0
+              ]
+            },
+            "prompt": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 6000
+            },
+            "reference_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 0,
+              "maxItems": 0,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "source_video_id",
+            "prompt",
+            "reference_ids"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "submitted_unix": 1794659477.254909,
+  "backend_identity_sha256": "f5755252615e2602119b462037c0e9d5f5b4d399441f3d5abd580c4a829054a0"
+}

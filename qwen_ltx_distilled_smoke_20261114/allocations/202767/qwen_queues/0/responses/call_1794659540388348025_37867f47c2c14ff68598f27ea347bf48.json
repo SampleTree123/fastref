@@ -1,0 +1,32 @@
+{
+  "request_id": "call_1794659540388348025_37867f47c2c14ff68598f27ea347bf48",
+  "request_sha256": "f745e0c9b28979e1b47305bcb8b7616927a0811ebb545b62785b02dc79950ab3",
+  "queue_wait_seconds": 0.0529632568359375,
+  "status": "ok",
+  "result": {
+    "raw_output": "<tool_call>\n<function=edit_video>\n<parameter=source_video_id>\n1\n</parameter>\n<parameter=prompt>\nRestyle the person's hair to match the hairstyle shown in the reference images, using the references only for the hairstyle shape. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.\n</parameter>\n<parameter=reference_ids>\n[\"ref_1\", \"ref_2\"]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+    "tool_calls": [
+      {
+        "name": "edit_video",
+        "arguments": {
+          "source_video_id": 1,
+          "prompt": "Restyle the person's hair to match the hairstyle shown in the reference images, using the references only for the hairstyle shape. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+          "reference_ids": [
+            "ref_1",
+            "ref_2"
+          ]
+        }
+      }
+    ],
+    "parse_error": null,
+    "generated_tokens": 108,
+    "hit_generation_limit": false,
+    "prepare_seconds": 0.0032571470364928246,
+    "generation_seconds": 4.979193918406963,
+    "total_seconds": 4.982626407407224,
+    "gpu_peak_allocated_bytes": 55130380800,
+    "media": [],
+    "prompt_sha256": "81a76ae2a63ae9e980c7a564023329f8c6adf4c86f604a49ebfeebc9d94a9bca",
+    "input_tokens": 810
+  }
+}

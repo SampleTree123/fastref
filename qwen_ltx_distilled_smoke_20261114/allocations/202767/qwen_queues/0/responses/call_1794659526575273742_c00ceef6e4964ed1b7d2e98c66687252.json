@@ -1,0 +1,88 @@
+{
+  "request_id": "call_1794659526575273742_c00ceef6e4964ed1b7d2e98c66687252",
+  "request_sha256": "02887e0061d57e742a3562504723477d045d59233cf2850b138861db166971b5",
+  "queue_wait_seconds": 0.09530973434448242,
+  "status": "ok",
+  "result": {
+    "raw_output": "<tool_call>\n<function=record_video_card>\n<parameter=observed>\n{\"identity\": \"A 3D-rendered male character with a slim build, dark skin, and a short beard.\", \"hairstyle\": \"Short, spiky hair that is tied back into a small ponytail at the nape of the neck.\", \"hair_color\": \"Bright blue.\", \"clothing\": \"A dark grey, long-sleeved jacket with a high collar and a belt, paired with matching dark grey trousers featuring a white stripe down the side and brown shoes.\", \"action\": \"The character begins with his back to the camera, then turns to face forward, gesturing with his hands and shifting his weight as he stands on the platform.\", \"camera\": \"A static, full-body shot from a slightly low angle, keeping the character centered in the frame.\", \"scene\": \"An outdoor rooftop or elevated platform with a tiled floor, set against a backdrop of stylized city buildings and a metal structure with a speaker.\"}\n</parameter>\n<parameter=uncertain>\n[]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+    "tool_calls": [
+      {
+        "name": "record_video_card",
+        "arguments": {
+          "observed": {
+            "identity": "A 3D-rendered male character with a slim build, dark skin, and a short beard.",
+            "hairstyle": "Short, spiky hair that is tied back into a small ponytail at the nape of the neck.",
+            "hair_color": "Bright blue.",
+            "clothing": "A dark grey, long-sleeved jacket with a high collar and a belt, paired with matching dark grey trousers featuring a white stripe down the side and brown shoes.",
+            "action": "The character begins with his back to the camera, then turns to face forward, gesturing with his hands and shifting his weight as he stands on the platform.",
+            "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+            "scene": "An outdoor rooftop or elevated platform with a tiled floor, set against a backdrop of stylized city buildings and a metal structure with a speaker."
+          },
+          "uncertain": []
+        }
+      }
+    ],
+    "parse_error": null,
+    "generated_tokens": 234,
+    "hit_generation_limit": false,
+    "prepare_seconds": 1.0002621775493026,
+    "generation_seconds": 10.974425809457898,
+    "total_seconds": 11.980498861521482,
+    "gpu_peak_allocated_bytes": 55774807552,
+    "media": [
+      {
+        "role": "history",
+        "original_hw": [
+          1280,
+          736
+        ],
+        "total_num_frames": 121,
+        "fps": 12.0,
+        "frames_indices": [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+          104,
+          112,
+          120
+        ],
+        "duration": 10.083333333333334,
+        "content_sha256": "f4925ab21ae22135e252025b890ea543f8863e78d017f1e86ac35a30d5229fae",
+        "cache_key": "629c47b862a257879b5f00b27254e8110967f76c52e18552e3675a2e6b054c3f",
+        "profile": {
+          "version": 1,
+          "kind": "video",
+          "frames": 16,
+          "pixel_budget": 264192,
+          "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+          "sampling": "linspace_round"
+        },
+        "resized_hw": [
+          672,
+          384
+        ],
+        "kind": "video"
+      }
+    ],
+    "prompt_sha256": "85895d37e1ca370a26597b6a0524ccedc8c61b37c2a18ce1541b8644698a81a9",
+    "input_tokens": 2830,
+    "image_grid_thw": [],
+    "video_grid_thw": [
+      [
+        8,
+        42,
+        24
+      ]
+    ]
+  }
+}

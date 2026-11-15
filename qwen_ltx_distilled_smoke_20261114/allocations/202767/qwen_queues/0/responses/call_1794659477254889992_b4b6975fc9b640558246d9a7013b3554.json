@@ -1,0 +1,29 @@
+{
+  "request_id": "call_1794659477254889992_b4b6975fc9b640558246d9a7013b3554",
+  "request_sha256": "d4457476069c7c9826105a993742c2a03f77b9df92ec3c031db66469350b1b37",
+  "queue_wait_seconds": 0.02722620964050293,
+  "status": "ok",
+  "result": {
+    "raw_output": "<tool_call>\n<function=edit_video>\n<parameter=source_video_id>\n0\n</parameter>\n<parameter=prompt>\nChange the person's hair color to blue. Preserve the person's identity, hair shape, and all other aspects of the video.\n</parameter>\n<parameter=reference_ids>\n[]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+    "tool_calls": [
+      {
+        "name": "edit_video",
+        "arguments": {
+          "source_video_id": 0,
+          "prompt": "Change the person's hair color to blue. Preserve the person's identity, hair shape, and all other aspects of the video.",
+          "reference_ids": []
+        }
+      }
+    ],
+    "parse_error": null,
+    "generated_tokens": 79,
+    "hit_generation_limit": false,
+    "prepare_seconds": 0.0031055379658937454,
+    "generation_seconds": 3.657199122942984,
+    "total_seconds": 3.660427551716566,
+    "gpu_peak_allocated_bytes": 55111903232,
+    "media": [],
+    "prompt_sha256": "da4d9d05d1ed9ba0c0b1358e03857469db4c84ce561fb446a674a843058ff778",
+    "input_tokens": 733
+  }
+}

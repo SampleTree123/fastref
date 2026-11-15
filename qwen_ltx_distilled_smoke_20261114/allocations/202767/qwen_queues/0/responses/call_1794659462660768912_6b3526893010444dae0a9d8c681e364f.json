@@ -1,0 +1,88 @@
+{
+  "request_id": "call_1794659462660768912_6b3526893010444dae0a9d8c681e364f",
+  "request_sha256": "8d173d71166e2fc37e7b06e479cd052ea691e07a8d1c760a341e650f93400672",
+  "queue_wait_seconds": 0.06326127052307129,
+  "status": "ok",
+  "result": {
+    "raw_output": "<tool_call>\n<function=record_video_card>\n<parameter=observed>\n{\"identity\": \"A 3D-rendered male character with a slim build, shown from behind.\", \"hairstyle\": \"Shoulder-length, slightly wavy hair that falls over the back of the neck.\", \"hair_color\": \"Pink.\", \"clothing\": \"A dark gray, long-sleeved jacket and matching trousers with a belt, both featuring light tan patches on the shoulders, back, and seat; the trousers have a white stripe down the side, and he wears dark shoes.\", \"action\": \"The character stands with his back to the camera, then raises both arms overhead and swings them in a rhythmic, dance-like motion before lowering them to his sides.\", \"camera\": \"A static, low-angle, full-body shot from directly behind the character.\", \"scene\": \"An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a loudspeaker on the left, and a cityscape of buildings with red signs in the background under a clear sky.\"}\n</parameter>\n<parameter=uncertain>\n[]\n</parameter>\n</function>\n</tool_call><|im_end|>",
+    "tool_calls": [
+      {
+        "name": "record_video_card",
+        "arguments": {
+          "observed": {
+            "identity": "A 3D-rendered male character with a slim build, shown from behind.",
+            "hairstyle": "Shoulder-length, slightly wavy hair that falls over the back of the neck.",
+            "hair_color": "Pink.",
+            "clothing": "A dark gray, long-sleeved jacket and matching trousers with a belt, both featuring light tan patches on the shoulders, back, and seat; the trousers have a white stripe down the side, and he wears dark shoes.",
+            "action": "The character stands with his back to the camera, then raises both arms overhead and swings them in a rhythmic, dance-like motion before lowering them to his sides.",
+            "camera": "A static, low-angle, full-body shot from directly behind the character.",
+            "scene": "An outdoor rooftop or plaza with a tiled floor, a metal tower structure with a loudspeaker on the left, and a cityscape of buildings with red signs in the background under a clear sky."
+          },
+          "uncertain": []
+        }
+      }
+    ],
+    "parse_error": null,
+    "generated_tokens": 243,
+    "hit_generation_limit": false,
+    "prepare_seconds": 0.1841575102880597,
+    "generation_seconds": 12.69261883571744,
+    "total_seconds": 12.886094700545073,
+    "gpu_peak_allocated_bytes": 55774606848,
+    "media": [
+      {
+        "role": "history",
+        "cache_key": "7d5bc3a5572bd2151fc74a4b0ad3ca2645803c58f821927afcf5226b7f71716e",
+        "content_sha256": "2ef35479631b1f4dfff5ecd541f9e94ea53744507172f579e827019e75aa41fa",
+        "duration": 10.0,
+        "fps": 30.0,
+        "frames_indices": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100,
+          120,
+          140,
+          159,
+          179,
+          199,
+          219,
+          239,
+          259,
+          279,
+          299
+        ],
+        "kind": "video",
+        "original_hw": [
+          1920,
+          1080
+        ],
+        "profile": {
+          "frames": 16,
+          "kind": "video",
+          "pixel_budget": 264192,
+          "resize": "official_smart_resize_torchvision_bicubic_antialias_uint8",
+          "sampling": "linspace_round",
+          "version": 1
+        },
+        "resized_hw": [
+          672,
+          384
+        ],
+        "total_num_frames": 300
+      }
+    ],
+    "prompt_sha256": "85895d37e1ca370a26597b6a0524ccedc8c61b37c2a18ce1541b8644698a81a9",
+    "input_tokens": 2830,
+    "image_grid_thw": [],
+    "video_grid_thw": [
+      [
+        8,
+        42,
+        24
+      ]
+    ]
+  }
+}

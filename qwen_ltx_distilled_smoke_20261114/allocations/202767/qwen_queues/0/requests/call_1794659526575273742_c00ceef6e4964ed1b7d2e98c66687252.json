@@ -1,0 +1,103 @@
+{
+  "request_id": "call_1794659526575273742_c00ceef6e4964ed1b7d2e98c66687252",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You inspect a video to create a short factual memory card for a video-editing assistant.\nCall record_video_card exactly once. Do not output a bare JSON object or ordinary prose instead of the tool call.\nDescribe only what is visibly present in THIS video, in concise English. Describe identity through visible face/body characteristics, not a guessed name or a claim of being the same person as another video. Separate hairstyle and hair color. Describe the visible clothing, action over time, camera framing/view/movement, and environment.\nDo not invent hidden, off-screen, tiny, or ambiguous details. Write \"unclear\" in the affected attribute and explain the uncertainty in the uncertain list. Do not infer an intended edit. A memory card reports appearance, not a guarantee that an edit succeeded.\nEach observed field should normally be one short sentence. Include useful distinguishing details, not generic praise. The uncertain list can be empty if the visible evidence is clear."
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Describe this video's actual visible contents."
+        },
+        {
+          "type": "video",
+          "path": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_distilled_smoke_20261114/cases/test_chain_12659/turn_01/generation/edited.mp4",
+          "media_role": "history"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "record_video_card",
+        "description": "Record only the visible contents of this video, not inferred editing intentions.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "observed": {
+              "type": "object",
+              "properties": {
+                "identity": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                },
+                "hairstyle": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                },
+                "hair_color": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                },
+                "clothing": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                },
+                "action": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                },
+                "camera": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                },
+                "scene": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                }
+              },
+              "required": [
+                "identity",
+                "hairstyle",
+                "hair_color",
+                "clothing",
+                "action",
+                "camera",
+                "scene"
+              ],
+              "additionalProperties": false
+            },
+            "uncertain": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2000
+              },
+              "maxItems": 20
+            }
+          },
+          "required": [
+            "observed",
+            "uncertain"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "submitted_unix": 1794659526.5752957,
+  "backend_identity_sha256": "f5755252615e2602119b462037c0e9d5f5b4d399441f3d5abd580c4a829054a0"
+}

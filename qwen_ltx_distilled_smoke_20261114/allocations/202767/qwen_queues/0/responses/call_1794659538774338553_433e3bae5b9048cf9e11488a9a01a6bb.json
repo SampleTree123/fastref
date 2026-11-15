@@ -1,0 +1,27 @@
+{
+  "request_id": "call_1794659538774338553_433e3bae5b9048cf9e11488a9a01a6bb",
+  "request_sha256": "68043135ec659066450402317ed0f44a8b2024ac725576dde1616652d10e8900",
+  "queue_wait_seconds": 0.0819559097290039,
+  "status": "ok",
+  "result": {
+    "raw_output": "<tool_call>\n<function=select_source_video>\n<parameter=source_video_id>\n1\n</parameter>\n</function>\n</tool_call><|im_end|>",
+    "tool_calls": [
+      {
+        "name": "select_source_video",
+        "arguments": {
+          "source_video_id": 1
+        }
+      }
+    ],
+    "parse_error": null,
+    "generated_tokens": 30,
+    "hit_generation_limit": false,
+    "prepare_seconds": 0.004027233459055424,
+    "generation_seconds": 1.4773155134171247,
+    "total_seconds": 1.4814747208729386,
+    "gpu_peak_allocated_bytes": 55230769152,
+    "media": [],
+    "prompt_sha256": "9c6542b92fdea1252516901bb5f96312d24dfa9a89829a236ad832732aaf8a22",
+    "input_tokens": 1215
+  }
+}
