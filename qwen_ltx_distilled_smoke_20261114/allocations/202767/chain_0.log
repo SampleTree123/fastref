@@ -1,0 +1,4 @@
+{"event": "case_start", "id": "test_chain_12659"}
+{"chain_id":"test_chain_12659","event":"editing_turn_complete","source_video_id":0,"turn_id":1,"video_path":"/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_distilled_smoke_20261114/cases/test_chain_12659/turn_01/generation/edited.mp4"}
+{"chain_id":"test_chain_12659","event":"editing_turn_complete","source_video_id":1,"turn_id":2,"video_path":"/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_distilled_smoke_20261114/cases/test_chain_12659/turn_02/generation/edited.mp4"}
+{"id": "test_chain_12659", "status": "ok", "seconds": 141.81709927972406}

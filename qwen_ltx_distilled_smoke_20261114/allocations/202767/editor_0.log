@@ -1,0 +1,30 @@
+/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/runtime/envs/trainer/lib/python3.12/site-packages/colour/utilities/verbose.py:340: ColourUsageWarning: "Matplotlib" related API features are not available: "No module named 'matplotlib'".
+See the installation guide for more information: https://www.colour-science.org/installation-guide/
+  warn(*args, **kwargs)
+INFO     Building transformer with attention backends -- self:       model.py:84
+         SDPA[CUDNN_ATTENTION>FLASH_ATTENTION>EFFICIENT_ATTENTION>MA            
+         TH], masked:                                                           
+         SDPA[CUDNN_ATTENTION>FLASH_ATTENTION>EFFICIENT_ATTENTION>MA            
+         TH]                                                                    
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:03<00:23,  3.35s/it] 25%|██▌       | 2/8 [00:05<00:15,  2.56s/it] 38%|███▊      | 3/8 [00:08<00:13,  2.61s/it] 50%|█████     | 4/8 [00:10<00:10,  2.63s/it] 62%|██████▎   | 5/8 [00:13<00:07,  2.65s/it] 75%|███████▌  | 6/8 [00:16<00:05,  2.66s/it] 88%|████████▊ | 7/8 [00:18<00:02,  2.66s/it]100%|██████████| 8/8 [00:21<00:00,  2.67s/it]100%|██████████| 8/8 [00:21<00:00,  2.67s/it]
+INFO     Building video decoder from                        video_decoder.py:152
+         /scratch/prj0000000275/jcy/xks/DataMake/10_researc                     
+         h/model_experiments/ltx2.5/runtime/models/LTX-2.5-                     
+         native/vae/ltx-2.5-video-vae-conv-bf16.safetensors                     
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.40it/s]100%|██████████| 1/1 [00:00<00:00,  1.01it/s]
+INFO     Video saved to                                            encode.py:273
+         /scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_distilled              
+         _smoke_20261114/cases/test_chain_12659/turn_01/generation              
+         /edited.mp4                                                            
+{"request": "edit_a5cee71095eb1b0a0c6f9333", "status": "ok"}
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:03<00:25,  3.59s/it] 25%|██▌       | 2/8 [00:05<00:16,  2.78s/it] 38%|███▊      | 3/8 [00:08<00:14,  2.85s/it] 50%|█████     | 4/8 [00:11<00:11,  2.88s/it] 62%|██████▎   | 5/8 [00:14<00:08,  2.90s/it] 75%|███████▌  | 6/8 [00:17<00:05,  2.92s/it] 88%|████████▊ | 7/8 [00:20<00:02,  2.92s/it]100%|██████████| 8/8 [00:23<00:00,  2.93s/it]100%|██████████| 8/8 [00:23<00:00,  2.93s/it]
+INFO     Building video decoder from                        video_decoder.py:152
+         /scratch/prj0000000275/jcy/xks/DataMake/10_researc                     
+         h/model_experiments/ltx2.5/runtime/models/LTX-2.5-                     
+         native/vae/ltx-2.5-video-vae-conv-bf16.safetensors                     
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.55it/s]100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+INFO     Video saved to                                            encode.py:273
+         /scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_distilled              
+         _smoke_20261114/cases/test_chain_12659/turn_02/generation              
+         /edited.mp4                                                            
+{"request": "edit_33e08bdacea55fddd33855bc", "status": "ok"}
