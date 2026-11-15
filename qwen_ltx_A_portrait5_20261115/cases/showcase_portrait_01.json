@@ -1,0 +1,164 @@
+{
+  "id": "showcase_portrait_01",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": "explicit_id",
+  "root": "media/c1e6e99420c5cd02dfd248250128e19cf37be4dd03e18aaa44964a4bd17a828b.mp4",
+  "state_sha256": "5c0c5af0ec7405d92880078e904e53708ad576ea609abde6bb5189fef8035728",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": 26332,
+      "source_node_id": 6633,
+      "target_node_id": 6635,
+      "user_prompt": "Start from the original video (video 0). Using the provided source video, apply the following edit: I'd like to change the person's action to the one demonstrated in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+      "prompt_zh": "请基于输入视频进行以下编辑：我希望将人物的动作换成参考视频中的示范动作。只采用示范动作，不采用参考人物的外观，也不采用参考场景和镜头设置。当前视频中的其他内容保持不变。",
+      "editing_prompt": "Change the person's action in the source video to the action demonstrated in the motion reference. Transfer only the demonstrated action; do not adopt the reference person's appearance, the reference scene, or the reference camera setup. Preserve all other aspects of the current video, including the person's identity, appearance, scene, lighting, and camera framing.",
+      "output": "media/b1b1236e72e4af25ebe029b1772105d9d95ad1c782156ff310e49809d8e64ca6.mp4",
+      "ground_truth": "media/a435977889df7c937e48559a37a34073c2bf141bc7c6f96c97eaf490c02b3b04.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/9c53785f04e48735745b7e009c7af8a759e50adf53bc32da3e5db5ece32b52e7.mp4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 26349,
+      "source_node_id": 6635,
+      "target_node_id": 6649,
+      "user_prompt": "Continue editing the result of the action change (video 1). Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the one-piece garment and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "请基于输入视频进行以下编辑：我想将人物的整套穿搭更换为参考图中以正面和背面展示的整身服装、鞋子。仅保留属于目标搭配的衣物和鞋子，所有非服装内容保持不变。第一张参考图展示整套穿搭的正面，第二张展示背面。",
+      "editing_prompt": "Replace the person's entire outfit with the one-piece garment and footwear shown in the reference images. The first reference image shows the front view of the complete target outfit, and the second shows its back view. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects of the person and scene unchanged.",
+      "output": "media/0a300bbc8bcca533d158535c4ca50c81d0090f759847a305a9785e420822e7e1.mp4",
+      "ground_truth": "media/f08658f3f84810ac54193f69323a89b9c792b6068e7ca905abad0fb8016f5fc3.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/a3e7e3fb9737b871165b72d2ca0167532f30d30eda671c61cef9f9bfdda824e1.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/7c0830b9e3b4f2e4a480ef561fda7cae103442d65db641747a92675a19dffd11.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "explicit_id",
+      "edge_id": 26334,
+      "source_node_id": 6633,
+      "target_node_id": 6637,
+      "user_prompt": "Return to the original video (video 0), before the action and clothing edits. Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "prompt_zh": "请基于输入视频进行以下编辑：请将视频中的场景替换为参考图中的环境。只改变环境及其对人物产生的光照效果。保留人物的身份、外观、表情和动作，以及原有的镜头构图与运动。",
+      "editing_prompt": "Replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "output": "media/bedfb0696b89cfb36a317fd45355062f8a8419359dd46c624b46e861f988db73.mp4",
+      "ground_truth": "media/393314b331dc831c535c39aad8ced13e6eca107c39581a8141bfda0dc5b83625.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/9a767cf4f758eed5ae169a674287d4b1fb52d00c1082ef64ef7db29f7e694a96.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "She stands still, then walks a few steps forward and to the right while turning her head to look around.",
+      "camera": "A medium full-body shot from a slightly elevated angle that follows the character as she moves.",
+      "clothing": "She wears a white and black patterned sleeveless crop top, high-waisted teal-green wide-leg pants, brown strappy sandals, and a dark choker necklace.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Short blue hair with straight bangs and a small low ponytail at the back.",
+      "identity": "A 3D-rendered young woman with a slim build, brown skin, and a small mole on her left cheek.",
+      "scene": "An outdoor industrial area with cracked concrete ground, stacked wooden pallets, a rusty pipe, and stone walls in the background."
+    },
+    "1": {
+      "action": "The character stands still, then raises both arms overhead and sways her body in a dance-like motion before returning to a standing pose.",
+      "camera": "A static, full-body shot from a slightly elevated angle.",
+      "clothing": "A white and black patterned sleeveless crop top, high-waisted green wide-leg pants, a black choker, and dark sandals.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Short blue hair with straight bangs and a small low ponytail at the back.",
+      "identity": "A 3D-rendered female character with a slim build, dark skin, and a youthful face.",
+      "scene": "An outdoor industrial area with cracked concrete ground, wooden pallets, and rusty metal pipes in the background."
+    },
+    "2": {
+      "action": "The character stands still, then raises both arms overhead and performs a brief dance-like movement before returning to a standing pose.",
+      "camera": "A static, full-body shot from a slightly elevated angle, keeping the character centered in the frame.",
+      "clothing": "A short white dress with a colorful floral pattern, three-quarter sleeves, and a V-neckline, paired with red slip-on shoes.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Short blue hair with straight bangs and a small low ponytail at the back.",
+      "identity": "A 3D-rendered female character with dark skin, a slim build, and a neutral facial expression.",
+      "scene": "An outdoor industrial or dockside area with a cracked concrete floor, stacked wooden pallets, a rusty pipe, and a dark building entrance in the background."
+    },
+    "3": {
+      "action": "She stands on the road, then walks slowly forward and turns her head to look around, ending in a side profile.",
+      "camera": "A full-body shot at a slight high angle that slowly tracks and pans to follow her as she moves.",
+      "clothing": "She wears a black-and-white patterned sleeveless crop top, high-waisted teal-green wide-leg pants, a black choker, and dark open-toed sandals.",
+      "hair_color": "Bright blue.",
+      "hairstyle": "Short blue hair with straight bangs and a small low ponytail at the back.",
+      "identity": "A young woman with a slim build and light skin, shown in a 3D-rendered style.",
+      "scene": "An outdoor paved road or parking area beside a concrete underpass, with a metal guardrail, red-and-yellow striped bollards, and weeds along the curb in bright daylight."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

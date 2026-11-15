@@ -1,0 +1,164 @@
+{
+  "id": "showcase_portrait_02",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": "explicit_id",
+  "root": "media/134fbee23d98cb621e216bc1f2ae8637a66aee4a6aca5adb89446d09cec5c9ac.mp4",
+  "state_sha256": "9d6cf166e6282e5003b23f963aa2b17090cef300e8025bdc334c3b36021392b3",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": 28344,
+      "source_node_id": 6764,
+      "target_node_id": 6749,
+      "user_prompt": "Start from the original video (video 0). Using the provided source video, apply the following edit: Please replace the person's current action with the one demonstrated in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "prompt_zh": "请基于输入视频进行以下编辑：请替换人物当前的动作，让人物表演参考视频中展示的动作。按照参考视频中的运动进行动作，同时保留当前人物的身份、发型、发色、服装和表情。场景和镜头保持不变。",
+      "editing_prompt": "Replace the person's current action with the action demonstrated in the motion reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+      "output": "media/500ce309a0bbeb1effc6014057369cc838e54981affc8d0c32f7b831960879a9.mp4",
+      "ground_truth": "media/3ecc625d667eeae16ea5ded8e6dc1ff48705f0ffaabbf45565d4e2fe82654d5f.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/d53e9048f9836bd8a4b1e10a166ae38f4fd13c1b22ade648dacb2f8994f6c23c.mp4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 28262,
+      "source_node_id": 6749,
+      "target_node_id": 6738,
+      "user_prompt": "Continue editing the result of the action change (video 1). Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "请基于输入视频进行以下编辑：为人物换上参考图中以正面和背面展示、由整身服装、鞋子组成的完整穿搭。这是对当前穿搭的整体替换，而不是在原穿搭上添加单件。视频中的其他内容保持不变。第一张参考图展示整套穿搭的正面，第二张展示背面。",
+      "editing_prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "output": "media/f179183ea25a7388dcd045d1f76d5a545e811af69d8119487fd3fcb80f9e9e86.mp4",
+      "ground_truth": "media/92ee714723a01d93cddc142522cb34297c78f606207cf7956e10212b80b7d673.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/f339dfda15d5f465c2730bdfe9d64e52b6a9baf0cbd1ffeaca3725830e2aaa40.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/7760617c0c290ae7529d76693e846c85c0290354c681035981ba25d5d0e0aff6.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "explicit_id",
+      "edge_id": 28348,
+      "source_node_id": 6764,
+      "target_node_id": 6778,
+      "user_prompt": "Return to the original video (video 0), before the action and clothing edits. Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "prompt_zh": "请基于输入视频进行以下编辑：请将当前场景换成参考图中的环境，让人物置于该环境中。只改变环境及其对人物产生的光照效果。保留人物的身份、外观、表情和动作，以及原有的镜头构图与运动。",
+      "editing_prompt": "Change the scene to the setting shown in the reference image, placing the person in that environment. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+      "output": "media/a61b4f52474ce6dd0424118aea07b1e89211994208514366c53ea20a6d5530cc.mp4",
+      "ground_truth": "media/892d568cec142e15cfa4499225363df9140c59889b3e4809b2499c7a7e684761.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/b6a5fef2eb421c8f675ce5f99b7a4e0bd6e78f4448f25382673dee1ca993316d.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The man stands on an asphalt road, initially facing forward, then turns his body to the side and raises his hand to his chin in a thoughtful pose before turning back to face forward.",
+      "camera": "A static, full-body shot from a slightly low angle.",
+      "clothing": "A cream tank top with a pink and purple palm tree graphic and 'Los Angeles' text, pink shorts with white trim, and pink slip-on shoes.",
+      "hair_color": "White.",
+      "hairstyle": "Short, cropped hair.",
+      "identity": "A Black man with a lean, muscular build and a short beard.",
+      "scene": "An outdoor urban setting on a paved road under a concrete overpass, with a metal guardrail, green foliage, and a construction crane visible in the background under a bright sky."
+    },
+    "1": {
+      "action": "The man stands still, then raises both arms overhead and jumps, before landing and returning to a standing pose.",
+      "camera": "Static, full-body shot from a slightly low angle.",
+      "clothing": "White sleeveless tank top with a palm-tree graphic and 'Los Angeles' text, pink shorts with white trim, and pink slip-on shoes.",
+      "hair_color": "Platinum blonde.",
+      "hairstyle": "Short, cropped hair with a flat top.",
+      "identity": "A slim, light-skinned young man with a short face and visible ears.",
+      "scene": "An outdoor paved area under a concrete overpass, with a metal railing, a construction crane, and trees in the background under a bright sky."
+    },
+    "2": {
+      "action": "The man stands still, then raises both arms overhead and performs a brief dance move before returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot.",
+      "clothing": "A white double-breasted shirt with black buttons, black suspenders, a black bow tie, brown and white checkered trousers, and black slip-on shoes.",
+      "hair_color": "Platinum blonde.",
+      "hairstyle": "Short, cropped hair.",
+      "identity": "A 3D-rendered young man with a slim build, light brown skin, and a short beard.",
+      "scene": "An outdoor paved area under a concrete overpass, with a metal railing, red-and-yellow striped bollards, trees, and a construction crane in the background."
+    },
+    "3": {
+      "action": "The character stands on a cobblestone street, initially facing forward, then turns his body and head to the right while raising his right hand to his chin in a thoughtful pose, before turning back to face forward.",
+      "camera": "A static, full-body shot from a slightly low angle, keeping the character centered in the frame.",
+      "clothing": "A white tank top with a purple and black graphic on the front, light purple shorts with white trim, and bright pink slip-on sneakers.",
+      "hair_color": "White (head wrap); natural hair color is not visible.",
+      "hairstyle": "Short, curly hair covered by a white turban-style head wrap.",
+      "identity": "A 3D-rendered Black male character with a slim, athletic build and a short beard.",
+      "scene": "An outdoor urban street with cobblestone paving, flanked by old-style stone buildings with arched windows and storefronts, including one with a sign reading 'CARTER & CO'."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

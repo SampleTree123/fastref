@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_83476f02610fa437bb6775bf",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6117.mp4",
+  "prompt": "Change the person's hair color from pink to black. Preserve the person's identity, hair shape, and all other aspects of the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13284/turn_01/generation",
+  "seed": 42
+}

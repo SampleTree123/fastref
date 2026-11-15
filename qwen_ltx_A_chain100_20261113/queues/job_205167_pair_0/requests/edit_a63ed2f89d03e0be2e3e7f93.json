@@ -1,0 +1,8 @@
+{
+  "request_id": "edit_a63ed2f89d03e0be2e3e7f93",
+  "source_video": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13126/turn_01/generation/edited.mp4",
+  "prompt": "Change the person's hair color from pink to blue. Preserve the person's identity, hair shape, and all other visual details in the video.",
+  "references": [],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_chain100_20261113/cases/test_chain_13126/turn_02/generation",
+  "seed": 42
+}

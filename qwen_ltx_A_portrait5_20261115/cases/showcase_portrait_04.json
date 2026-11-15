@@ -1,0 +1,164 @@
+{
+  "id": "showcase_portrait_04",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": "explicit_id",
+  "root": "media/a2dd52ad03bae7e84f35a8bfcdc8374a5e0bd927ae276d8e00950d318ecd9c52.mp4",
+  "state_sha256": "94450fefbdfb031ce39d69c4385c454ed9341ad9b5eb9b822153fce8c280dbf0",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": 29808,
+      "source_node_id": 6940,
+      "target_node_id": 6934,
+      "user_prompt": "Start from the original video (video 0). Using the provided source video, apply the following edit: I'd like to change the person's action so that they raise both hands in celebration, then thrust one hand upward, as shown in the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+      "prompt_zh": "请基于输入视频进行以下编辑：我希望更换人物的动作，让人物像参考视频中那样先高举双手做出欢呼姿态，随后用力向上挥动一只手。参考视频仅用于确定动作。保持人物的身份、外观、表情、场景和镜头不变。",
+      "editing_prompt": "Change the person's action so that they raise both hands in celebration, then thrust one hand upward, as shown in the motion reference. Use the reference only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+      "output": "media/e40bebd25e8c9c5bb5ba1dd158f9a82a0ed430dddf1810d7709ffe0055643916.mp4",
+      "ground_truth": "media/964ac7cbd817439159b0e4e5925f95950657573ce2853df372f3d67071b9c123.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/319909658367d32d500a8196627afd4e191b2101603fa19449eb09a9c15695f9.mp4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 29774,
+      "source_node_id": 6934,
+      "target_node_id": 6942,
+      "user_prompt": "Continue editing the result of the action change (video 1). Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the top, the bottoms, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "请基于输入视频进行以下编辑：我想将人物的整套穿搭更换为参考图中以正面和背面展示的上衣、下装、鞋子。仅保留属于目标搭配的衣物和鞋子，所有非服装内容保持不变。第一张参考图展示整套穿搭的正面，第二张展示背面。",
+      "editing_prompt": "Replace the person's whole outfit with the top, bottoms, and footwear shown in the reference images. The first reference image shows the front view of the complete target outfit, and the second shows its back view. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged.",
+      "output": "media/4c3cdc73d26c3cf51e614bfa803a5d2ae3632ee2f9cb16420b4cd4c50e332360.mp4",
+      "ground_truth": "media/9d2e048ea619f32ee0f78ba859bd175256b6ba2c506d4f477c74ac8c03da2373.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/e1ab861a7476b292f7ef2338885ef3ede96e187a3d8f450f49c9b7441ab117ee.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/bdc99dc875142cc63783094830ff172ca8b18fb3db018af09e5a26cc7771272c.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "site",
+      "axis_zh": "场景",
+      "selection_kind": "explicit_id",
+      "edge_id": 29811,
+      "source_node_id": 6940,
+      "target_node_id": 6955,
+      "user_prompt": "Return to the original video (video 0), before the action and clothing edits. Using the provided source video, apply the following edit: I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "prompt_zh": "请基于输入视频进行以下编辑：我希望将视频的场景更换为参考图展示的环境。用参考图确定目标环境。保持人物、发型、发色、穿搭、表情和动作不变。维持原有的镜头构图与运动，使人物在新场景中自然受光。",
+      "editing_prompt": "Replace the video's scene with the environment shown in the reference image, using the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+      "output": "media/050bef3052710821e44652dcaabc3036d50e602317bb0eca079dafabb47c8c75.mp4",
+      "ground_truth": "media/a79f9c563237cd5c8fed3e98837a7aa1131ef9dc1c1286ccd41c1bb08a78a71f.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "scene",
+          "view": "target_camera_initial_frame",
+          "path": "media/6755c90b78c52c9a6a9e083a4b2c2a9eb6fc38da9fb286ef646cfd6035a0f888.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The man stands facing forward, then turns his body and head to the side while raising one hand to adjust his bow tie and crossing his arms, before turning back to face the camera.",
+      "camera": "A static, full-body shot that slowly zooms in to a medium shot of the man's torso and head.",
+      "clothing": "A light pink and white checkered button-up shirt with rolled sleeves, black suspenders, a black bow tie, and red-and-black checkered trousers with a black belt.",
+      "hair_color": "Dark brown or black.",
+      "hairstyle": "Short hair with a small top-knot or bun at the crown.",
+      "identity": "A Black man with a slim build, short facial hair, and a small top-knot hairstyle.",
+      "scene": "A futuristic indoor space with a large glass dome ceiling, glowing pink and teal neon rings, and a reflective floor."
+    },
+    "1": {
+      "action": "He stands still, then raises both arms overhead and dances with energetic arm swings and body turns before returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot that slowly pushes in to a medium close-up of the upper body.",
+      "clothing": "Pink-and-white checkered button-up shirt with rolled sleeves, black suspenders, a black bow tie, and red-and-black checkered trousers with black shoes.",
+      "hair_color": "Black.",
+      "hairstyle": "Short, dark, spiky hair standing up at the front.",
+      "identity": "A young Black man with a short beard and a small earring, shown from head to toe.",
+      "scene": "A futuristic stage with a glossy reflective floor, a large glass dome overhead, and glowing pink and teal neon rings and grid lines in the background."
+    },
+    "2": {
+      "action": "He begins standing still facing the camera, then raises both arms overhead and jumps, swings his arms while turning, and finally settles back into a standing pose facing forward.",
+      "camera": "A static, front-facing shot that starts as a full-body frame and later tightens to a medium shot of the upper body.",
+      "clothing": "He wears a red cable-knit sweater with an openwork diamond pattern down the front, black slim pants, and brown lace-up shoes with white laces.",
+      "hair_color": "Black.",
+      "hairstyle": "Short, dark hair with a slightly raised, spiky top.",
+      "identity": "A young man with a slim build and short dark hair, shown from head to toe at first and later in a closer medium shot.",
+      "scene": "A futuristic nighttime setting with a large glass dome, glowing pink and teal neon rings, and a reflective wet-looking floor."
+    },
+    "3": {
+      "action": "The character stands facing the camera, then turns his body to the side while adjusting his bow tie and shirt collar with his hands.",
+      "camera": "A low-angle, full-body shot that slowly zooms in to a medium shot as the character moves.",
+      "clothing": "A light green and white plaid button-up shirt with a black bow tie, black suspenders, and red and black checkered trousers.",
+      "hair_color": "Black.",
+      "hairstyle": "Short black hair with a small top-knot or bun at the crown.",
+      "identity": "A 3D-rendered male character with dark skin, a slim build, and a youthful face.",
+      "scene": "An outdoor paved area under a concrete overpass or bridge structure, with a road, guardrails, and construction signs visible in the background."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}
