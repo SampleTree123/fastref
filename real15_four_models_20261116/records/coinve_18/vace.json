@@ -1,0 +1,175 @@
+{
+  "id": "coinve_18",
+  "uid": "coinve:119547",
+  "model": "vace",
+  "status": "complete",
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "Wan-AI/Wan2.1-VACE-14B-diffusers@db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+  "code_revision_or_sha256": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2; pipeline_wan_vace.py sha256=cc88bb991d1ac337cff7620f3fdfef2520d5cb1a227c4124bb8893d58db33b83; vace_acceleration.py sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61",
+  "checkpoint_sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+  "seed": 42,
+  "parameters": {
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0,
+    "conditioning_scale": 1.0,
+    "seed": 42,
+    "max_sequence_length": 512,
+    "output_type": "pil",
+    "negative_prompt": null,
+    "lora_strength": 1.0,
+    "scheduler": "FlowMatchEulerDiscreteScheduler(shift=5) with LightX2V sigmas [1,.75,.5,.25] -> [1,0.9375,0.8333,0.625,0]",
+    "transformer_dtype": "bfloat16",
+    "vae_dtype": "float32",
+    "attention_backend": "diffusers default (SDPA)",
+    "generator": "torch.Generator('cuda').manual_seed(42)",
+    "height": 736,
+    "width": 1280,
+    "num_frames": 65
+  },
+  "original_prompt": "1. Replace the blue towel wrapping the dog with a bright orange towel.\n2. Replace the white tiled wall and sink area in the background with a dark grey brick wall texture.",
+  "adapted_prompt": "A continuous video. All of the following edits are applied throughout the video: (1) Replace the blue towel wrapping the dog with a bright orange towel. (2) Replace the white tiled wall and sink area in the background with a dark grey brick wall texture. Everything else matches the source video.\nOriginal edit specification: 1. Replace the blue towel wrapping the dog with a bright orange towel.\n2. Replace the white tiled wall and sink area in the background with a dark grey brick wall texture.",
+  "source_sha256": "7be960f5f25d7b17656ecf51a8bf49441ee76105d5baa71fa587b39729f62e4e",
+  "ordered_reference_sha256s": [],
+  "derived_condition_sha256s": {
+    "vace_video.mp4": "22d1103bcc2990480424b594317b9df0dbf8d9cea9b6b51a8d9c104571c0008b",
+    "vace_mask.npz": "bdb5455b7fcde2545778c595a23eda99e5b634227378953e01c1e60d5680c54d"
+  },
+  "num_frames": 65,
+  "fps": 12.0,
+  "canvas_wh": [
+    1280,
+    736
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    5.333333333333333
+  ],
+  "native_alignment_tail_seconds": null,
+  "elapsed_seconds": 87.88,
+  "peak_memory_bytes": 69817980416,
+  "memory_measurement": "torch.cuda.max_memory_allocated (PyTorch allocations, not board total)",
+  "gpu_model": "NVIDIA L20Y (CUDA sm_90, 80GB)",
+  "parallelism": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)",
+  "failure_reason": null,
+  "model_identity": {
+    "model": "Wan-AI/Wan2.1-VACE-14B-diffusers",
+    "weights_revision": "db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+    "lora": {
+      "repo": "Kijai/WanVideo_comfy",
+      "revision": "8260d429d19fd7a72304cad059160b95d843913f",
+      "file": "Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors",
+      "sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+      "loader": "accelerated_editors_portable_20261114/vace_acceleration.py apply_lightx2v (sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61)"
+    },
+    "code": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2",
+    "helpers": {
+      "grounding_dino": "IDEA-Research/grounding-dino-base@12bdfa3120f3e7ec7b434d90674b3396eccf88eb",
+      "sam2": "facebook/sam2.1-hiera-base-plus@b7320756a13354e7530a63935656d35b2f91a290 sam2.1_hiera_base_plus.pt sha256=a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5 (SAM2 _C post-processing unavailable on glibc 2.28)",
+      "pose": "ali-vilab/VACE-Annotators@63512cbb pose/{yolox_l,dw-ll_ucoco_384}.onnx via ali-vilab/VACE@48eb44f1 PoseBodyFaceVideoAnnotator (pose.py sha256=1046bf5d...)",
+      "segformer": "mattmdjaga/segformer_b2_clothes@584abc1e1d260e23c0fc627c5217a09b2b461046"
+    },
+    "parallel": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)"
+  },
+  "lora_load": {
+    "original_tensors": 1457,
+    "official_lora_tensors": 1215,
+    "additional_vectors": 242,
+    "all_loaded_values_checked": true
+  },
+  "started_at_utc": "2026-11-14T12:36:55.748852+00:00",
+  "gpu": "gpu-h800-sz-56c-48cr7f45-0064 CUDA_VISIBLE_DEVICES=3",
+  "adapted_prompt_tokens": 113,
+  "conditions": {
+    "mode": "masked_inpaint",
+    "canvas_geometry": {
+      "content_w": 1280,
+      "content_h": 720,
+      "left": 0,
+      "top": 8,
+      "scale": 0.6666666666666666
+    },
+    "mask_area_frac_mean": 0.7774,
+    "video": "/root/frozen300_infer/work/vace/coinve_18/vace_video.mp4",
+    "video_sha256": "22d1103bcc2990480424b594317b9df0dbf8d9cea9b6b51a8d9c104571c0008b",
+    "mask": "/root/frozen300_infer/work/vace/coinve_18/vace_mask.npz",
+    "mask_sha256": "bdb5455b7fcde2545778c595a23eda99e5b634227378953e01c1e60d5680c54d",
+    "source_sha256": "7be960f5f25d7b17656ecf51a8bf49441ee76105d5baa71fa587b39729f62e4e",
+    "references": [],
+    "reference_images_in_order": [],
+    "reference_image_sha256": []
+  },
+  "condition_log": {
+    "instructions": [
+      {
+        "parse": {
+          "verb": "replace",
+          "target": "blue towel wrapping the dog",
+          "new": "bright orange towel"
+        },
+        "instruction": "Replace the blue towel wrapping the dog with a bright orange towel.",
+        "mode": "tracked_target",
+        "seed": {
+          "frame": 16,
+          "box": [
+            544.6599731445312,
+            290.0557861328125,
+            1028.8883056640625,
+            715.9196166992188
+          ],
+          "score": 0.467725545167923
+        },
+        "mask_area_frac": 0.0972
+      },
+      {
+        "parse": {
+          "verb": "replace",
+          "target": "white tiled wall and sink area in the background",
+          "new": "dark grey brick wall texture"
+        },
+        "instruction": "Replace the white tiled wall and sink area in the background with a dark grey brick wall texture.",
+        "mode": "tracked_target",
+        "seed": {
+          "frame": 16,
+          "box": [
+            3.2903289794921875,
+            3.4438705444335938,
+            1275.61865234375,
+            713.1068725585938
+          ],
+          "score": 0.37751758098602295
+        },
+        "mask_area_frac": 0.7298
+      }
+    ],
+    "empty_mask_frames": 0
+  },
+  "reference_order_note": "reference_images passed in manifest index order (then SOURCE appearance frames for action); diffusers prepends each reference latent in turn, so the internal latent time order is reversed: refs[-1], ..., refs[0], video",
+  "output_video": "results/vace/coinve_18.mp4",
+  "output_sha256": "5965b38e4dc1f8980be6f15239e92113f68bb18922ba486e9d7c74c091051a82",
+  "native": {
+    "codec": "h264",
+    "width": 1280,
+    "height": 736,
+    "fps": 12.0,
+    "fps_fraction": "12/1",
+    "num_frames": 65,
+    "duration_seconds": 5.416667,
+    "pix_fmt": "yuv420p"
+  },
+  "scheduler_sigmas_used": [
+    1.0,
+    0.9375,
+    0.833333,
+    0.625,
+    0.0
+  ],
+  "timing_seconds": {
+    "load_conditions": 1.07,
+    "pipeline": 82.42,
+    "total": 87.88
+  },
+  "finished_at_utc": "2026-11-14T12:38:24.118251+00:00",
+  "schema": "frozen300_result_v1",
+  "output_video_local": "/root/frozen300_infer/results/vace/coinve_18.mp4",
+  "output_bytes": 19106175
+}

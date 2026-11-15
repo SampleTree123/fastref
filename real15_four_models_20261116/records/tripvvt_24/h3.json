@@ -1,0 +1,142 @@
+{
+  "id": "tripvvt_24",
+  "uid": "tripvvt:4500",
+  "model": "h3",
+  "status": "complete",
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "MiniMaxAI/MiniMax-H3@0919fb684102ef115126612f3fbb84d1027e7317 (Ref2VA)",
+  "code_revision_or_sha256": "sgl-project/sglang@fa179312e94c764f8637724ea2a364d302888906 + sglang_build_portability.patch sha256=4fdc816df3e4ecf62c95e2dba53bf0c0815ca7a72c9b18ca2b0f163972acf4b9 (identical to model_interfaces.h3.local_patch)",
+  "checkpoint_sha256": "111c82e669f6e20e628228172edf39395f1a9fc3ad049793895e542c0f55b18c",
+  "seed": 42,
+  "parameters": {
+    "model": "MiniMaxAI/MiniMax-H3",
+    "task": "ref2va",
+    "num_inference_steps": 8,
+    "seed": 42,
+    "flow_shift": 12,
+    "audio_flow_shift": 3,
+    "quality": "lossless",
+    "reference_resize_mode": "max",
+    "num_outputs_per_prompt": 1,
+    "target": {
+      "short_edge": 768,
+      "aspect_ratio": "9:16",
+      "duration_seconds": 4.666666666666667
+    },
+    "server_flags": "--encoder-parallel auto --performance-mode speed --enable-torch-compile false --warmup-mode off --batching-max-size 1",
+    "reference_order": [
+      "<Video 1> SOURCE",
+      "<Picture 1> reference[0]"
+    ],
+    "condition_timeline": "12 fps frozen frames mapped to 24 fps by min(N-1,(j+1)//2); endpoint held after the common valid interval",
+    "expected_native_frames": 124,
+    "server_url": "http://127.0.0.1:24121"
+  },
+  "original_prompt": "Replace the target person's garment/outfit with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.",
+  "adapted_prompt": "subject_definitions:\n<Video 1> is the source video to edit. <Subject 1> is its target person.\n<Picture 1> is the supplied garment reference, view: official. Transfer only the attributes requested in the original edit specification.\n\nsummary:\nEdit <Video 1> according to the original edit specification.\n\nretention_analysis:\nPreserve source content, people, motion, camera, lighting and appearance except explicitly requested changes. Multiple reference views describe the same item. Preserve the ordering of all requested edits.\n\ndetailed_description:\nOriginal edit specification (complete):\nReplace the target person's garment/outfit with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.\nPreserve the full source timeline from 0 to 4.67 seconds without time compression. Frames after 4.67 seconds hold the endpoint solely for native temporal alignment.\n\noverall_soundscape:\nNo dialogue requested. Audio is outside this visual evaluation.\n\nnon_diegetic_music:\nNone.",
+  "source_sha256": "64e19c40df741fef0f26d7c8595050b61673ca139d68a3322fa63e481f7e458b",
+  "ordered_reference_sha256s": [
+    "61b1f3d199e02238f7bad4c27f790a3369a19419aee97c82a42919550d7dd01c"
+  ],
+  "derived_condition_sha256s": {
+    "source_h3.mp4": "499793d33107ad5d76a620846acf8ae7fade722c2a22b6fbc61472ff8b68ab33"
+  },
+  "num_frames": 124,
+  "fps": 24.0,
+  "canvas_wh": [
+    768,
+    1344
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    4.666666666666667
+  ],
+  "native_alignment_tail_seconds": [
+    4.666666666666667,
+    5.125
+  ],
+  "elapsed_seconds": 53.7,
+  "peak_memory_bytes": 69432508416,
+  "memory_measurement": "SGLang per-request peak_memory_mb = torch max_memory_reserved (MiB), max over the 4 ranks of one server; converted to bytes",
+  "gpu_model": "NVIDIA L20Y (CUDA sm_90, 132 SMs, 80GB) x4 per server",
+  "parallelism": "2 independent SGLang servers on 4x NVIDIA L20Y each (sm_90, 80GB): --num-gpus 4 --tp-size 2 --ulysses-degree 2, batching_max_size 1",
+  "failure_reason": null,
+  "model_identity": {
+    "model": "MiniMaxAI/MiniMax-H3 Ref2VA (H3-Base, no Context-IR) + alibaba-pai PDD 8-step",
+    "weights_repo": "MiniMaxAI/MiniMax-H3",
+    "weights_revision": "0919fb684102ef115126612f3fbb84d1027e7317",
+    "lora": {
+      "repo": "alibaba-pai/MiniMax-H3-Acc-LoRAs",
+      "revision": "335001fb9e5455d68a0caa18ec2e319072150328",
+      "file": "MiniMax-H3-Ref2VA-Acc-8Step.safetensors",
+      "sha256": "111c82e669f6e20e628228172edf39395f1a9fc3ad049793895e542c0f55b18c",
+      "derived": "sglang build_minimax_h3_pdd_weights (merged 258/258) + fuse_minimax_h3_pdd_heads (32 -> 8, video_shift 12, audio_shift 3); --transformer-weights-path h3_pdd8/transformer, SGLANG_DIFFUSION_MINIMAX_H3_PDD_HEADS=h3_pdd8/pdd_fused_heads.safetensors"
+    },
+    "code": "sgl-project/sglang@fa179312e94c764f8637724ea2a364d302888906",
+    "local_patch": "sglang_build_portability.patch sha256=4fdc816df3e4ecf62c95e2dba53bf0c0815ca7a72c9b18ca2b0f163972acf4b9 (identical to model_interfaces.h3.local_patch)",
+    "runtime": "torch 2.14.1+cu130 via CUDA 13.0 forward-compat libcuda 580.196.07 on driver 570.172.08",
+    "parallel": "2 independent SGLang servers on 4x NVIDIA L20Y each (sm_90, 80GB): --num-gpus 4 --tp-size 2 --ulysses-degree 2, batching_max_size 1",
+    "server_flags": "--encoder-parallel auto --performance-mode speed --enable-torch-compile false --warmup-mode off --batching-max-size 1"
+  },
+  "started_at_utc": "2026-11-14T18:58:02.994563+00:00",
+  "conditions": [
+    {
+      "role": "SOURCE",
+      "tag": "<Video 1>",
+      "media": "media/64e19c40df741fef0f26d7c8595050b61673ca139d68a3322fa63e481f7e458b.mp4",
+      "media_sha256": "64e19c40df741fef0f26d7c8595050b61673ca139d68a3322fa63e481f7e458b",
+      "condition_file": "/root/frozen300_infer/work/h3/tripvvt_24/source_h3.mp4",
+      "condition_sha256": "499793d33107ad5d76a620846acf8ae7fade722c2a22b6fbc61472ff8b68ab33",
+      "num_frames": 124,
+      "fps": 24,
+      "canvas_wh": [
+        768,
+        1344
+      ],
+      "frozen_12fps_frames": 57,
+      "h3_frame_map": "min(N-1,(j+1)//2)",
+      "endpoint_hold_frames": 11,
+      "encoding": "libx264rgb crf 0 (lossless RGB)"
+    },
+    {
+      "role": "reference[0]",
+      "tag": "<Picture 1>",
+      "type": "garment",
+      "view": "official",
+      "media": "media/61b1f3d199e02238f7bad4c27f790a3369a19419aee97c82a42919550d7dd01c.png",
+      "media_sha256": "61b1f3d199e02238f7bad4c27f790a3369a19419aee97c82a42919550d7dd01c",
+      "condition_file": "/root/frozen300_infer/data/frozen300/media/61b1f3d199e02238f7bad4c27f790a3369a19419aee97c82a42919550d7dd01c.png",
+      "condition_sha256": "61b1f3d199e02238f7bad4c27f790a3369a19419aee97c82a42919550d7dd01c"
+    }
+  ],
+  "frozen_num_frames_12fps": 57,
+  "server_job_id": "8e320de7-b386-4deb-8938-96be523d05a6",
+  "output_video": "results/h3/tripvvt_24.mp4",
+  "output_sha256": "cf72912b90f0eedb1297f12fa6771a2cf765003c1eab6a4aed98088e0d666c74",
+  "native": {
+    "codec": "h264",
+    "width": 768,
+    "height": 1344,
+    "fps": 24.0,
+    "fps_fraction": "24/1",
+    "num_frames": 124,
+    "duration_seconds": 5.166667,
+    "pix_fmt": "yuv420p"
+  },
+  "server_denoise_steps_evidence": "8/8",
+  "h3_native_frame_time_span_seconds": [
+    0.0,
+    5.125
+  ],
+  "h3_covers_frozen_end": true,
+  "timing_seconds": {
+    "prepare": 3.54,
+    "server_inference": 47.79340416472405,
+    "request_wall": 50.16,
+    "total": 53.7
+  },
+  "finished_at_utc": "2026-11-14T18:58:57.156974+00:00",
+  "schema": "frozen300_result_v1",
+  "output_video_local": "/root/frozen300_infer/results/h3/tripvvt_24.mp4",
+  "output_bytes": 1505454
+}

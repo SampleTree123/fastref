@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "cases": 15,
+  "coinve": 10,
+  "tripvvt": 5,
+  "model_outputs": 60,
+  "reused_inference_outputs": 60,
+  "new_inference_outputs": 0,
+  "source_and_gt_display_clips": 30,
+  "reference_images": 5,
+  "full_video_decode_verified": 90,
+  "all_model_input_identities_match": true,
+  "all_model_video_sha256_match": true,
+  "all_media_regular_files": true
+}

@@ -1,0 +1,197 @@
+{
+  "id": "coinve_57",
+  "uid": "coinve:143922",
+  "model": "vace",
+  "status": "complete",
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "Wan-AI/Wan2.1-VACE-14B-diffusers@db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+  "code_revision_or_sha256": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2; pipeline_wan_vace.py sha256=cc88bb991d1ac337cff7620f3fdfef2520d5cb1a227c4124bb8893d58db33b83; vace_acceleration.py sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61",
+  "checkpoint_sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+  "seed": 42,
+  "parameters": {
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0,
+    "conditioning_scale": 1.0,
+    "seed": 42,
+    "max_sequence_length": 512,
+    "output_type": "pil",
+    "negative_prompt": null,
+    "lora_strength": 1.0,
+    "scheduler": "FlowMatchEulerDiscreteScheduler(shift=5) with LightX2V sigmas [1,.75,.5,.25] -> [1,0.9375,0.8333,0.625,0]",
+    "transformer_dtype": "bfloat16",
+    "vae_dtype": "float32",
+    "attention_backend": "diffusers default (SDPA)",
+    "generator": "torch.Generator('cuda').manual_seed(42)",
+    "height": 736,
+    "width": 1280,
+    "num_frames": 89
+  },
+  "original_prompt": "1. Remove the black-rimmed glasses worn by the man with the long beard.\n2. Add a potted succulent plant on the wooden table to the right of the black mug.\n3. Replace the grid of orange lights in the background with a grid of blue neon lights.",
+  "adapted_prompt": "A continuous video. All of the following edits are applied throughout the video: (1) Remove the black-rimmed glasses worn by the man with the long beard. (2) Add a potted succulent plant on the wooden table to the right of the black mug. (3) Replace the grid of orange lights in the background with a grid of blue neon lights. Everything else matches the source video.\nOriginal edit specification: 1. Remove the black-rimmed glasses worn by the man with the long beard.\n2. Add a potted succulent plant on the wooden table to the right of the black mug.\n3. Replace the grid of orange lights in the background with a grid of blue neon lights.",
+  "source_sha256": "6dc094eaad4e2aebba6f4bbebcbee94fe28eefb1058912d11f93243772e68240",
+  "ordered_reference_sha256s": [],
+  "derived_condition_sha256s": {
+    "vace_video.mp4": "7438d853740d47a98705942c300de6974559d859679a3e46222b251ef52f38a7",
+    "vace_mask.npz": "b519a647ce2674deef07a7fb6482d35824fe8807c8cf6037c188b89429c22856"
+  },
+  "num_frames": 89,
+  "fps": 12.0,
+  "canvas_wh": [
+    1280,
+    736
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    7.333333333333333
+  ],
+  "native_alignment_tail_seconds": null,
+  "elapsed_seconds": 141.17,
+  "peak_memory_bytes": 70417143296,
+  "memory_measurement": "torch.cuda.max_memory_allocated (PyTorch allocations, not board total)",
+  "gpu_model": "NVIDIA L20Y (CUDA sm_90, 80GB)",
+  "parallelism": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)",
+  "failure_reason": null,
+  "model_identity": {
+    "model": "Wan-AI/Wan2.1-VACE-14B-diffusers",
+    "weights_revision": "db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+    "lora": {
+      "repo": "Kijai/WanVideo_comfy",
+      "revision": "8260d429d19fd7a72304cad059160b95d843913f",
+      "file": "Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors",
+      "sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+      "loader": "accelerated_editors_portable_20261114/vace_acceleration.py apply_lightx2v (sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61)"
+    },
+    "code": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2",
+    "helpers": {
+      "grounding_dino": "IDEA-Research/grounding-dino-base@12bdfa3120f3e7ec7b434d90674b3396eccf88eb",
+      "sam2": "facebook/sam2.1-hiera-base-plus@b7320756a13354e7530a63935656d35b2f91a290 sam2.1_hiera_base_plus.pt sha256=a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5 (SAM2 _C post-processing unavailable on glibc 2.28)",
+      "pose": "ali-vilab/VACE-Annotators@63512cbb pose/{yolox_l,dw-ll_ucoco_384}.onnx via ali-vilab/VACE@48eb44f1 PoseBodyFaceVideoAnnotator (pose.py sha256=1046bf5d...)",
+      "segformer": "mattmdjaga/segformer_b2_clothes@584abc1e1d260e23c0fc627c5217a09b2b461046"
+    },
+    "parallel": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)"
+  },
+  "lora_load": {
+    "original_tensors": 1457,
+    "official_lora_tensors": 1215,
+    "additional_vectors": 242,
+    "all_loaded_values_checked": true
+  },
+  "started_at_utc": "2026-11-14T12:45:34.680503+00:00",
+  "gpu": "gpu-h800-sz-56c-48cr7f45-0064 CUDA_VISIBLE_DEVICES=2",
+  "adapted_prompt_tokens": 155,
+  "conditions": {
+    "mode": "masked_inpaint",
+    "canvas_geometry": {
+      "content_w": 1280,
+      "content_h": 720,
+      "left": 0,
+      "top": 8,
+      "scale": 0.6666666666666666
+    },
+    "mask_area_frac_mean": 0.147,
+    "video": "/root/frozen300_infer/work/vace/coinve_57/vace_video.mp4",
+    "video_sha256": "7438d853740d47a98705942c300de6974559d859679a3e46222b251ef52f38a7",
+    "mask": "/root/frozen300_infer/work/vace/coinve_57/vace_mask.npz",
+    "mask_sha256": "b519a647ce2674deef07a7fb6482d35824fe8807c8cf6037c188b89429c22856",
+    "source_sha256": "6dc094eaad4e2aebba6f4bbebcbee94fe28eefb1058912d11f93243772e68240",
+    "references": [],
+    "reference_images_in_order": [],
+    "reference_image_sha256": []
+  },
+  "condition_log": {
+    "instructions": [
+      {
+        "parse": {
+          "verb": "remove",
+          "target": "black-rimmed glasses worn by the man with the long beard"
+        },
+        "instruction": "Remove the black-rimmed glasses worn by the man with the long beard.",
+        "mode": "tracked_target",
+        "seed": {
+          "frame": 22,
+          "box": [
+            457.37664794921875,
+            135.85447692871094,
+            653.9599609375,
+            204.7362823486328
+          ],
+          "score": 0.9051310420036316
+        },
+        "mask_area_frac": 0.0173
+      },
+      {
+        "parse": {
+          "verb": "add",
+          "object": "potted succulent plant",
+          "surface": "wooden table",
+          "relation": "right of",
+          "relative_to": "black mug"
+        },
+        "instruction": "Add a potted succulent plant on the wooden table to the right of the black mug.",
+        "mode": "add_roi_from_anchor",
+        "anchor": "black mug",
+        "seed": {
+          "frame": 22,
+          "box": [
+            1095.6005859375,
+            506.8250732421875,
+            1249.7041015625,
+            651.5947265625
+          ],
+          "score": 0.944047212600708
+        },
+        "mask_area_frac": 0.0052
+      },
+      {
+        "parse": {
+          "verb": "replace",
+          "target": "grid of orange lights in the background",
+          "new": "grid of blue neon lights"
+        },
+        "instruction": "Replace the grid of orange lights in the background with a grid of blue neon lights.",
+        "mode": "tracked_target",
+        "seed": {
+          "frame": 66,
+          "box": [
+            521.8465576171875,
+            1.8148791790008545,
+            1273.5543212890625,
+            273.2887268066406
+          ],
+          "score": 0.3904542326927185
+        },
+        "mask_area_frac": 0.1278
+      }
+    ],
+    "empty_mask_frames": 0
+  },
+  "reference_order_note": "reference_images passed in manifest index order (then SOURCE appearance frames for action); diffusers prepends each reference latent in turn, so the internal latent time order is reversed: refs[-1], ..., refs[0], video",
+  "output_video": "results/vace/coinve_57.mp4",
+  "output_sha256": "23bc03ae6fefaf84a202cd903889c26f9cce51eb63bdaa1d7c43fb15ef276331",
+  "native": {
+    "codec": "h264",
+    "width": 1280,
+    "height": 736,
+    "fps": 12.0,
+    "fps_fraction": "12/1",
+    "num_frames": 89,
+    "duration_seconds": 7.416667,
+    "pix_fmt": "yuv420p"
+  },
+  "scheduler_sigmas_used": [
+    1.0,
+    0.9375,
+    0.833333,
+    0.625,
+    0.0
+  ],
+  "timing_seconds": {
+    "load_conditions": 3.72,
+    "pipeline": 131.77,
+    "total": 141.17
+  },
+  "finished_at_utc": "2026-11-14T12:47:56.228032+00:00",
+  "schema": "frozen300_result_v1",
+  "output_video_local": "/root/frozen300_infer/results/vace/coinve_57.mp4",
+  "output_bytes": 24964202
+}

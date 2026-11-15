@@ -1,0 +1,129 @@
+{
+  "id": "coinve_71",
+  "uid": "coinve:10595",
+  "model": "h3",
+  "status": "complete",
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "MiniMaxAI/MiniMax-H3@0919fb684102ef115126612f3fbb84d1027e7317 (Ref2VA)",
+  "code_revision_or_sha256": "sgl-project/sglang@fa179312e94c764f8637724ea2a364d302888906 + sglang_build_portability.patch sha256=4fdc816df3e4ecf62c95e2dba53bf0c0815ca7a72c9b18ca2b0f163972acf4b9 (identical to model_interfaces.h3.local_patch)",
+  "checkpoint_sha256": "111c82e669f6e20e628228172edf39395f1a9fc3ad049793895e542c0f55b18c",
+  "seed": 42,
+  "parameters": {
+    "model": "MiniMaxAI/MiniMax-H3",
+    "task": "ref2va",
+    "num_inference_steps": 8,
+    "seed": 42,
+    "flow_shift": 12,
+    "audio_flow_shift": 3,
+    "quality": "lossless",
+    "reference_resize_mode": "max",
+    "num_outputs_per_prompt": 1,
+    "target": {
+      "short_edge": 768,
+      "aspect_ratio": "16:9",
+      "duration_seconds": 4.0
+    },
+    "server_flags": "--encoder-parallel auto --performance-mode speed --enable-torch-compile false --warmup-mode off --batching-max-size 1",
+    "reference_order": [
+      "<Video 1> SOURCE"
+    ],
+    "condition_timeline": "12 fps frozen frames mapped to 24 fps by min(N-1,(j+1)//2); endpoint held after the common valid interval",
+    "expected_native_frames": 107,
+    "server_url": "http://127.0.0.1:24121"
+  },
+  "original_prompt": "1. Replace the matte black finish of the motorcycle helmet with a glossy bright red finish.\n2. Replace the white table surface in the foreground with a dark wooden workbench surface.\n3. Replace the blurred indoor studio background with a solid light grey wall.",
+  "adapted_prompt": "subject_definitions:\n<Video 1> is the source video to edit. <Subject 1> is its target person.\n\nsummary:\nEdit <Video 1> according to the original edit specification.\n\nretention_analysis:\nPreserve source content, people, motion, camera, lighting and appearance except explicitly requested changes. Multiple reference views describe the same item. Preserve the ordering of all requested edits.\n\ndetailed_description:\nOriginal edit specification (complete):\n1. Replace the matte black finish of the motorcycle helmet with a glossy bright red finish.\n2. Replace the white table surface in the foreground with a dark wooden workbench surface.\n3. Replace the blurred indoor studio background with a solid light grey wall.\nPreserve the full source timeline from 0 to 4 seconds without time compression. Frames after 4 seconds hold the endpoint solely for native temporal alignment.\n\noverall_soundscape:\nNo dialogue requested. Audio is outside this visual evaluation.\n\nnon_diegetic_music:\nNone.",
+  "source_sha256": "02aff5814f42aaf02002b956d90890fc5b48ddf8a00b8092d4ad54b5b1936686",
+  "ordered_reference_sha256s": [],
+  "derived_condition_sha256s": {
+    "source_h3.mp4": "0b5e3aeb65655b467affe98384555c4f2933e96d185e211e4e55b4f383d63d57"
+  },
+  "num_frames": 107,
+  "fps": 24.0,
+  "canvas_wh": [
+    1344,
+    768
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    4.0
+  ],
+  "native_alignment_tail_seconds": [
+    4.0,
+    4.416666666666667
+  ],
+  "elapsed_seconds": 43.87,
+  "peak_memory_bytes": 68119691264,
+  "memory_measurement": "SGLang per-request peak_memory_mb = torch max_memory_reserved (MiB), max over the 4 ranks of one server; converted to bytes",
+  "gpu_model": "NVIDIA L20Y (CUDA sm_90, 132 SMs, 80GB) x4 per server",
+  "parallelism": "2 independent SGLang servers on 4x NVIDIA L20Y each (sm_90, 80GB): --num-gpus 4 --tp-size 2 --ulysses-degree 2, batching_max_size 1",
+  "failure_reason": null,
+  "model_identity": {
+    "model": "MiniMaxAI/MiniMax-H3 Ref2VA (H3-Base, no Context-IR) + alibaba-pai PDD 8-step",
+    "weights_repo": "MiniMaxAI/MiniMax-H3",
+    "weights_revision": "0919fb684102ef115126612f3fbb84d1027e7317",
+    "lora": {
+      "repo": "alibaba-pai/MiniMax-H3-Acc-LoRAs",
+      "revision": "335001fb9e5455d68a0caa18ec2e319072150328",
+      "file": "MiniMax-H3-Ref2VA-Acc-8Step.safetensors",
+      "sha256": "111c82e669f6e20e628228172edf39395f1a9fc3ad049793895e542c0f55b18c",
+      "derived": "sglang build_minimax_h3_pdd_weights (merged 258/258) + fuse_minimax_h3_pdd_heads (32 -> 8, video_shift 12, audio_shift 3); --transformer-weights-path h3_pdd8/transformer, SGLANG_DIFFUSION_MINIMAX_H3_PDD_HEADS=h3_pdd8/pdd_fused_heads.safetensors"
+    },
+    "code": "sgl-project/sglang@fa179312e94c764f8637724ea2a364d302888906",
+    "local_patch": "sglang_build_portability.patch sha256=4fdc816df3e4ecf62c95e2dba53bf0c0815ca7a72c9b18ca2b0f163972acf4b9 (identical to model_interfaces.h3.local_patch)",
+    "runtime": "torch 2.14.1+cu130 via CUDA 13.0 forward-compat libcuda 580.196.07 on driver 570.172.08",
+    "parallel": "2 independent SGLang servers on 4x NVIDIA L20Y each (sm_90, 80GB): --num-gpus 4 --tp-size 2 --ulysses-degree 2, batching_max_size 1",
+    "server_flags": "--encoder-parallel auto --performance-mode speed --enable-torch-compile false --warmup-mode off --batching-max-size 1"
+  },
+  "started_at_utc": "2026-11-14T18:48:50.268365+00:00",
+  "conditions": [
+    {
+      "role": "SOURCE",
+      "tag": "<Video 1>",
+      "media": "media/02aff5814f42aaf02002b956d90890fc5b48ddf8a00b8092d4ad54b5b1936686.mp4",
+      "media_sha256": "02aff5814f42aaf02002b956d90890fc5b48ddf8a00b8092d4ad54b5b1936686",
+      "condition_file": "/root/frozen300_infer/work/h3/coinve_71/source_h3.mp4",
+      "condition_sha256": "0b5e3aeb65655b467affe98384555c4f2933e96d185e211e4e55b4f383d63d57",
+      "num_frames": 107,
+      "fps": 24,
+      "canvas_wh": [
+        1344,
+        768
+      ],
+      "frozen_12fps_frames": 49,
+      "h3_frame_map": "min(N-1,(j+1)//2)",
+      "endpoint_hold_frames": 10,
+      "encoding": "libx264rgb crf 0 (lossless RGB)"
+    }
+  ],
+  "frozen_num_frames_12fps": 49,
+  "server_job_id": "0fa52c14-bfc4-4d93-afd4-9803ff17608f",
+  "output_video": "results/h3/coinve_71.mp4",
+  "output_sha256": "9ef1d671e7d02991015bf9c2cb72eb30d4dc32785baba42049af2958df43b3c3",
+  "native": {
+    "codec": "h264",
+    "width": 1344,
+    "height": 768,
+    "fps": 24.0,
+    "fps_fraction": "24/1",
+    "num_frames": 107,
+    "duration_seconds": 4.458333,
+    "pix_fmt": "yuv420p"
+  },
+  "server_denoise_steps_evidence": "8/8",
+  "h3_native_frame_time_span_seconds": [
+    0.0,
+    4.416666666666667
+  ],
+  "h3_covers_frozen_end": true,
+  "timing_seconds": {
+    "prepare": 3.75,
+    "server_inference": 36.0326379314065,
+    "request_wall": 40.11,
+    "total": 43.87
+  },
+  "finished_at_utc": "2026-11-14T18:49:34.432068+00:00",
+  "schema": "frozen300_result_v1",
+  "output_video_local": "/root/frozen300_infer/results/h3/coinve_71.mp4",
+  "output_bytes": 754897
+}

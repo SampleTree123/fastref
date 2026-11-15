@@ -1,0 +1,177 @@
+{
+  "id": "coinve_40",
+  "uid": "coinve:100474",
+  "model": "vace",
+  "status": "complete",
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "Wan-AI/Wan2.1-VACE-14B-diffusers@db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+  "code_revision_or_sha256": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2; pipeline_wan_vace.py sha256=cc88bb991d1ac337cff7620f3fdfef2520d5cb1a227c4124bb8893d58db33b83; vace_acceleration.py sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61",
+  "checkpoint_sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+  "seed": 42,
+  "parameters": {
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0,
+    "conditioning_scale": 1.0,
+    "seed": 42,
+    "max_sequence_length": 512,
+    "output_type": "pil",
+    "negative_prompt": null,
+    "lora_strength": 1.0,
+    "scheduler": "FlowMatchEulerDiscreteScheduler(shift=5) with LightX2V sigmas [1,.75,.5,.25] -> [1,0.9375,0.8333,0.625,0]",
+    "transformer_dtype": "bfloat16",
+    "vae_dtype": "float32",
+    "attention_backend": "diffusers default (SDPA)",
+    "generator": "torch.Generator('cuda').manual_seed(42)",
+    "height": 736,
+    "width": 1280,
+    "num_frames": 81
+  },
+  "original_prompt": "1. Remove the blue metallic accents from the humanoid robot's joints and body.\n2. Replace the plain white background with a dark charcoal gray studio backdrop.",
+  "adapted_prompt": "A continuous video. All of the following edits are applied throughout the video: (1) Remove the blue metallic accents from the humanoid robot's joints and body. (2) Replace the plain white background with a dark charcoal gray studio backdrop. Everything else matches the source video.\nOriginal edit specification: 1. Remove the blue metallic accents from the humanoid robot's joints and body.\n2. Replace the plain white background with a dark charcoal gray studio backdrop.",
+  "source_sha256": "3e3e0f5371a7ea2e79481fd9396c9226785192e2444d56bc9cce99b068abe837",
+  "ordered_reference_sha256s": [],
+  "derived_condition_sha256s": {
+    "vace_video.mp4": "fbe23d481a6ef33a1c4bfc16a46b8d21e14f333c707af9a98b5a3bcf5bf7ea29",
+    "vace_mask.npz": "091c8ea97e3069a1ec3e67f92a7698bb74dfc2befdf1cd6164ca8f6172d5dbe5"
+  },
+  "num_frames": 81,
+  "fps": 12.0,
+  "canvas_wh": [
+    1280,
+    736
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    6.666666666666667
+  ],
+  "native_alignment_tail_seconds": null,
+  "elapsed_seconds": 119.76,
+  "peak_memory_bytes": 70217422336,
+  "memory_measurement": "torch.cuda.max_memory_allocated (PyTorch allocations, not board total)",
+  "gpu_model": "NVIDIA L20Y (CUDA sm_90, 80GB)",
+  "parallelism": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)",
+  "failure_reason": null,
+  "model_identity": {
+    "model": "Wan-AI/Wan2.1-VACE-14B-diffusers",
+    "weights_revision": "db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+    "lora": {
+      "repo": "Kijai/WanVideo_comfy",
+      "revision": "8260d429d19fd7a72304cad059160b95d843913f",
+      "file": "Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors",
+      "sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+      "loader": "accelerated_editors_portable_20261114/vace_acceleration.py apply_lightx2v (sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61)"
+    },
+    "code": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2",
+    "helpers": {
+      "grounding_dino": "IDEA-Research/grounding-dino-base@12bdfa3120f3e7ec7b434d90674b3396eccf88eb",
+      "sam2": "facebook/sam2.1-hiera-base-plus@b7320756a13354e7530a63935656d35b2f91a290 sam2.1_hiera_base_plus.pt sha256=a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5 (SAM2 _C post-processing unavailable on glibc 2.28)",
+      "pose": "ali-vilab/VACE-Annotators@63512cbb pose/{yolox_l,dw-ll_ucoco_384}.onnx via ali-vilab/VACE@48eb44f1 PoseBodyFaceVideoAnnotator (pose.py sha256=1046bf5d...)",
+      "segformer": "mattmdjaga/segformer_b2_clothes@584abc1e1d260e23c0fc627c5217a09b2b461046"
+    },
+    "parallel": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)"
+  },
+  "lora_load": {
+    "original_tensors": 1457,
+    "official_lora_tensors": 1215,
+    "additional_vectors": 242,
+    "all_loaded_values_checked": true
+  },
+  "started_at_utc": "2026-11-14T12:40:12.542697+00:00",
+  "gpu": "gpu-h800-sz-56c-48cr7f45-0064 CUDA_VISIBLE_DEVICES=1",
+  "adapted_prompt_tokens": 105,
+  "conditions": {
+    "mode": "masked_inpaint",
+    "canvas_geometry": {
+      "content_w": 1280,
+      "content_h": 720,
+      "left": 0,
+      "top": 8,
+      "scale": 0.6666666666666666
+    },
+    "mask_area_frac_mean": 0.9783,
+    "video": "/root/frozen300_infer/work/vace/coinve_40/vace_video.mp4",
+    "video_sha256": "fbe23d481a6ef33a1c4bfc16a46b8d21e14f333c707af9a98b5a3bcf5bf7ea29",
+    "mask": "/root/frozen300_infer/work/vace/coinve_40/vace_mask.npz",
+    "mask_sha256": "091c8ea97e3069a1ec3e67f92a7698bb74dfc2befdf1cd6164ca8f6172d5dbe5",
+    "source_sha256": "3e3e0f5371a7ea2e79481fd9396c9226785192e2444d56bc9cce99b068abe837",
+    "references": [],
+    "reference_images_in_order": [],
+    "reference_image_sha256": []
+  },
+  "condition_log": {
+    "instructions": [
+      {
+        "parse": {
+          "verb": "remove",
+          "target": "blue metallic accents from the humanoid robot's joints and body"
+        },
+        "instruction": "Remove the blue metallic accents from the humanoid robot's joints and body.",
+        "mode": "tracked_target",
+        "seed": {
+          "frame": 80,
+          "box": [
+            8.60107421875,
+            4.50739860534668,
+            1243.343994140625,
+            714.6115112304688
+          ],
+          "score": 0.39885368943214417
+        },
+        "mask_area_frac": 0.5571
+      },
+      {
+        "parse": {
+          "verb": "replace",
+          "target": "plain white background",
+          "new": "dark charcoal gray studio backdrop"
+        },
+        "instruction": "Replace the plain white background with a dark charcoal gray studio backdrop.",
+        "mode": "background_inverse_of_foreground",
+        "foreground_seeds": [
+          {
+            "phrase": "person",
+            "frame": 60,
+            "box": [
+              375.6541748046875,
+              0.4085969924926758,
+              1275.4873046875,
+              718.15576171875
+            ],
+            "score": 0.3707662522792816
+          }
+        ],
+        "mask_area_frac": 0.7034
+      }
+    ],
+    "empty_mask_frames": 0
+  },
+  "reference_order_note": "reference_images passed in manifest index order (then SOURCE appearance frames for action); diffusers prepends each reference latent in turn, so the internal latent time order is reversed: refs[-1], ..., refs[0], video",
+  "output_video": "results/vace/coinve_40.mp4",
+  "output_sha256": "cec6b8c4bbd169182ef414c34642a5f8557f2825e982459f994cef0aed4e8598",
+  "native": {
+    "codec": "h264",
+    "width": 1280,
+    "height": 736,
+    "fps": 12.0,
+    "fps_fraction": "12/1",
+    "num_frames": 81,
+    "duration_seconds": 6.75,
+    "pix_fmt": "yuv420p"
+  },
+  "scheduler_sigmas_used": [
+    1.0,
+    0.9375,
+    0.833333,
+    0.625,
+    0.0
+  ],
+  "timing_seconds": {
+    "load_conditions": 0.41,
+    "pipeline": 115.56,
+    "total": 119.76
+  },
+  "finished_at_utc": "2026-11-14T12:42:13.186340+00:00",
+  "schema": "frozen300_result_v1",
+  "output_video_local": "/root/frozen300_infer/results/vace/coinve_40.mp4",
+  "output_bytes": 16210024
+}

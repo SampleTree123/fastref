@@ -1,0 +1,180 @@
+{
+  "media": [
+    {
+      "path": "media/1a4c7557ac86a20ad804ad2ec0b470930b91b8bedf71cb607e1f092f8fb4b723.mp4",
+      "sha256": "1a4c7557ac86a20ad804ad2ec0b470930b91b8bedf71cb607e1f092f8fb4b723",
+      "bytes": 15575410,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6375.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6375.mp4"
+      ]
+    },
+    {
+      "path": "media/c59d31c1574af7012c260811f165cbe9cdfb3979c7b2924d808d95af072c0226.png",
+      "sha256": "c59d31c1574af7012c260811f165cbe9cdfb3979c7b2924d808d95af072c0226",
+      "bytes": 1051614,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_723.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_723.png"
+      ]
+    },
+    {
+      "path": "media/2146e2126aee7fcf2f01daf9e920f7ae7c99de5932d3aa1eab4d2240607530f6.png",
+      "sha256": "2146e2126aee7fcf2f01daf9e920f7ae7c99de5932d3aa1eab4d2240607530f6",
+      "bytes": 1060561,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_724.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_724.png"
+      ]
+    },
+    {
+      "path": "media/3885df97c41ffcb01f1955a03055f2c0d554d9d5178646aa841655f177229433.mp4",
+      "sha256": "3885df97c41ffcb01f1955a03055f2c0d554d9d5178646aa841655f177229433",
+      "bytes": 5251312,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_outfit_camera_scene_20261116_run/cases/showcase_outfit_camera_scene_01/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_outfit_camera_scene_20261116_run/cases/showcase_outfit_camera_scene_01/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/21904fda34dbed7effa60cde465858efaad7f9e9ed20395c68e73036757e9ba5.mp4",
+      "sha256": "21904fda34dbed7effa60cde465858efaad7f9e9ed20395c68e73036757e9ba5",
+      "bytes": 15712661,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6373.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6373.mp4"
+      ]
+    },
+    {
+      "path": "media/98886eec386d479b22c5f74b629b5e623a6d41c7c14afd052cf73946209399fa.png",
+      "sha256": "98886eec386d479b22c5f74b629b5e623a6d41c7c14afd052cf73946209399fa",
+      "bytes": 2764222,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/camera/images/camera_b9cdc79caee9c8cbd57779fd1bce8f7a511399bf8480f0c1c80d29d8de664ea9.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/camera/images/camera_b9cdc79caee9c8cbd57779fd1bce8f7a511399bf8480f0c1c80d29d8de664ea9.png"
+      ]
+    },
+    {
+      "path": "media/c9ef392ecd2e8733c9553861aa601481291625027a9c1e5e7a95da3313da09ea.mp4",
+      "sha256": "c9ef392ecd2e8733c9553861aa601481291625027a9c1e5e7a95da3313da09ea",
+      "bytes": 5702659,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_outfit_camera_scene_20261116_run/cases/showcase_outfit_camera_scene_01/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_outfit_camera_scene_20261116_run/cases/showcase_outfit_camera_scene_01/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/f92aad6117cb97928ae43b887e69cdecfe4f07b22ccea5bcc4a59d9a797f2870.mp4",
+      "sha256": "f92aad6117cb97928ae43b887e69cdecfe4f07b22ccea5bcc4a59d9a797f2870",
+      "bytes": 16149448,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6391.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6391.mp4"
+      ]
+    },
+    {
+      "path": "media/45c82a1f9738f65880e6c65c7a7a94f9eeb6d0317be4defeedd013d6a95ce860.png",
+      "sha256": "45c82a1f9738f65880e6c65c7a7a94f9eeb6d0317be4defeedd013d6a95ce860",
+      "bytes": 4071667,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_789.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_789.png"
+      ]
+    },
+    {
+      "path": "media/40ef274bf8633f808877fc6cc3dcca836cc65a67f5d966afbc744274f5ca55ac.mp4",
+      "sha256": "40ef274bf8633f808877fc6cc3dcca836cc65a67f5d966afbc744274f5ca55ac",
+      "bytes": 9551815,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_outfit_camera_scene_20261116_run/cases/showcase_outfit_camera_scene_01/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_outfit_camera_scene_20261116_run/cases/showcase_outfit_camera_scene_01/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/921641d5e1c7234beca73f6b26621266399d30844be564c91830073d240410ab.mp4",
+      "sha256": "921641d5e1c7234beca73f6b26621266399d30844be564c91830073d240410ab",
+      "bytes": 20722081,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6392.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6392.mp4"
+      ]
+    }
+  ],
+  "inspection": {
+    "media/1a4c7557ac86a20ad804ad2ec0b470930b91b8bedf71cb607e1f092f8fb4b723.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/c59d31c1574af7012c260811f165cbe9cdfb3979c7b2924d808d95af072c0226.png": {
+      "kind": "image"
+    },
+    "media/2146e2126aee7fcf2f01daf9e920f7ae7c99de5932d3aa1eab4d2240607530f6.png": {
+      "kind": "image"
+    },
+    "media/3885df97c41ffcb01f1955a03055f2c0d554d9d5178646aa841655f177229433.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1280,
+      "height": 736,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/21904fda34dbed7effa60cde465858efaad7f9e9ed20395c68e73036757e9ba5.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/98886eec386d479b22c5f74b629b5e623a6d41c7c14afd052cf73946209399fa.png": {
+      "kind": "image"
+    },
+    "media/c9ef392ecd2e8733c9553861aa601481291625027a9c1e5e7a95da3313da09ea.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1280,
+      "height": 736,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/f92aad6117cb97928ae43b887e69cdecfe4f07b22ccea5bcc4a59d9a797f2870.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/45c82a1f9738f65880e6c65c7a7a94f9eeb6d0317be4defeedd013d6a95ce860.png": {
+      "kind": "image"
+    },
+    "media/40ef274bf8633f808877fc6cc3dcca836cc65a67f5d966afbc744274f5ca55ac.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1280,
+      "height": 736,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/921641d5e1c7234beca73f6b26621266399d30844be564c91830073d240410ab.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "frames": 300,
+      "fps": 30.0
+    }
+  }
+}

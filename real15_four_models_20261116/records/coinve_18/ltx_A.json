@@ -1,0 +1,119 @@
+{
+  "id": "coinve_18",
+  "model": "a849",
+  "status": "complete",
+  "contract": {
+    "model_repo": "Lightricks/LTX-2.5",
+    "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+    "weights_record_sha256": "811cb6629fbcec770d86e2349b19455032a3a80a448df017cf776b77da4418d1",
+    "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+    "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+    "config_sha256": "7c46f9e5724f1801ca92c2fe0c6a7a4e442457867cd6c072fa78dea3d1b0a2be",
+    "worker_sha256": "3355d6db26d8be19990fb3fcc256349932009e408e9195dd59d271fd8faaf306",
+    "native_inference_sha256": "bb6a3f8e3730fbbb5c39f8af264bb4b3773f5074f48023c6fc395b3297ba4856",
+    "reference_protocol": "reference_positions_v7_refs_source_target",
+    "steps": 40,
+    "seed": 42,
+    "cfg": 3,
+    "stg": 1,
+    "stg_blocks": [
+      28
+    ],
+    "rescale": 0.7,
+    "ref_cfg": 1,
+    "fps": 12,
+    "num_frames": 65,
+    "canvas_wh": [
+      1280,
+      736
+    ]
+  },
+  "model_load_seconds": 152.098579719197,
+  "started_unix": 1794658097.9989016,
+  "protocol_audit": {
+    "segments": [
+      {
+        "role": "source",
+        "slot": null,
+        "shape": [
+          1,
+          128,
+          9,
+          23,
+          40
+        ]
+      }
+    ],
+    "optional_reference_count": 0,
+    "reference_order": [],
+    "packed_tokens": 16560,
+    "target_tokens": 8280,
+    "target_last": true,
+    "no_gt": true,
+    "time_position_min": 0.0,
+    "time_position_max": 10.833333969116211
+  },
+  "denoise_seconds": 183.33043127134442,
+  "denoise_peak_allocated_bytes": 46052514304,
+  "fps": 12,
+  "canvas_wh": [
+    1280,
+    736
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    5.333333333333333
+  ],
+  "elapsed_seconds": 185.052885055542,
+  "decode_seconds": 1.6535535650327802,
+  "decode_peak_allocated_bytes": 46367306752,
+  "output_sha256": "170b1e5d15585931cdebcb396f85d7912344874c0bc40d0141e1369d53ce4cb9",
+  "output": "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/frozen300_20261113/outputs/a849/coinve_18.mp4",
+  "full_decode_frames": 65,
+  "completed_unix": 1794658283.0582473,
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+  "code_revision_or_sha256": "bb6a3f8e3730fbbb5c39f8af264bb4b3773f5074f48023c6fc395b3297ba4856",
+  "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+  "seed": 42,
+  "parameters": {
+    "model_repo": "Lightricks/LTX-2.5",
+    "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+    "weights_record_sha256": "811cb6629fbcec770d86e2349b19455032a3a80a448df017cf776b77da4418d1",
+    "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+    "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+    "config_sha256": "7c46f9e5724f1801ca92c2fe0c6a7a4e442457867cd6c072fa78dea3d1b0a2be",
+    "worker_sha256": "3355d6db26d8be19990fb3fcc256349932009e408e9195dd59d271fd8faaf306",
+    "native_inference_sha256": "bb6a3f8e3730fbbb5c39f8af264bb4b3773f5074f48023c6fc395b3297ba4856",
+    "reference_protocol": "reference_positions_v7_refs_source_target",
+    "steps": 40,
+    "seed": 42,
+    "cfg": 3,
+    "stg": 1,
+    "stg_blocks": [
+      28
+    ],
+    "rescale": 0.7,
+    "ref_cfg": 1,
+    "fps": 12,
+    "num_frames": 65,
+    "canvas_wh": [
+      1280,
+      736
+    ]
+  },
+  "original_prompt": "1. Replace the blue towel wrapping the dog with a bright orange towel.\n2. Replace the white tiled wall and sink area in the background with a dark grey brick wall texture.",
+  "adapted_prompt": "1. Replace the blue towel wrapping the dog with a bright orange towel.\n2. Replace the white tiled wall and sink area in the background with a dark grey brick wall texture.",
+  "source_sha256": "7be960f5f25d7b17656ecf51a8bf49441ee76105d5baa71fa587b39729f62e4e",
+  "ordered_reference_sha256s": [],
+  "derived_condition_sha256s": [],
+  "num_frames": 65,
+  "native_alignment_tail_seconds": null,
+  "peak_memory_bytes": 46367306752,
+  "memory_measurement": "PyTorch CUDA peak allocated bytes",
+  "gpu_model": "NVIDIA H200",
+  "parallelism": "one GPU per sample; four independent shards",
+  "failure_reason": null
+}

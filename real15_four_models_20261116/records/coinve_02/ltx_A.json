@@ -1,0 +1,119 @@
+{
+  "id": "coinve_02",
+  "model": "a849",
+  "status": "complete",
+  "contract": {
+    "model_repo": "Lightricks/LTX-2.5",
+    "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+    "weights_record_sha256": "811cb6629fbcec770d86e2349b19455032a3a80a448df017cf776b77da4418d1",
+    "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+    "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+    "config_sha256": "7c46f9e5724f1801ca92c2fe0c6a7a4e442457867cd6c072fa78dea3d1b0a2be",
+    "worker_sha256": "3355d6db26d8be19990fb3fcc256349932009e408e9195dd59d271fd8faaf306",
+    "native_inference_sha256": "bb6a3f8e3730fbbb5c39f8af264bb4b3773f5074f48023c6fc395b3297ba4856",
+    "reference_protocol": "reference_positions_v7_refs_source_target",
+    "steps": 40,
+    "seed": 42,
+    "cfg": 3,
+    "stg": 1,
+    "stg_blocks": [
+      28
+    ],
+    "rescale": 0.7,
+    "ref_cfg": 1,
+    "fps": 12,
+    "num_frames": 81,
+    "canvas_wh": [
+      1280,
+      736
+    ]
+  },
+  "model_load_seconds": 154.6488376520574,
+  "started_unix": 1794643254.5806224,
+  "protocol_audit": {
+    "segments": [
+      {
+        "role": "source",
+        "slot": null,
+        "shape": [
+          1,
+          128,
+          11,
+          23,
+          40
+        ]
+      }
+    ],
+    "optional_reference_count": 0,
+    "reference_order": [],
+    "packed_tokens": 20240,
+    "target_tokens": 10120,
+    "target_last": true,
+    "no_gt": true,
+    "time_position_min": 0.0,
+    "time_position_max": 13.5
+  },
+  "denoise_seconds": 233.1425348590128,
+  "denoise_peak_allocated_bytes": 46815408128,
+  "fps": 12,
+  "canvas_wh": [
+    1280,
+    736
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    6.666666666666667
+  ],
+  "elapsed_seconds": 235.1214554309845,
+  "decode_seconds": 1.933491291012615,
+  "decode_peak_allocated_bytes": 47093732352,
+  "output_sha256": "c59e3590b28a7e852664464c46de20a0d6e77528797483668b6132200a6afacf",
+  "output": "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/frozen300_20261113/outputs/a849/coinve_02.mp4",
+  "full_decode_frames": 81,
+  "completed_unix": 1794643489.710644,
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+  "code_revision_or_sha256": "bb6a3f8e3730fbbb5c39f8af264bb4b3773f5074f48023c6fc395b3297ba4856",
+  "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+  "seed": 42,
+  "parameters": {
+    "model_repo": "Lightricks/LTX-2.5",
+    "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+    "weights_record_sha256": "811cb6629fbcec770d86e2349b19455032a3a80a448df017cf776b77da4418d1",
+    "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+    "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+    "config_sha256": "7c46f9e5724f1801ca92c2fe0c6a7a4e442457867cd6c072fa78dea3d1b0a2be",
+    "worker_sha256": "3355d6db26d8be19990fb3fcc256349932009e408e9195dd59d271fd8faaf306",
+    "native_inference_sha256": "bb6a3f8e3730fbbb5c39f8af264bb4b3773f5074f48023c6fc395b3297ba4856",
+    "reference_protocol": "reference_positions_v7_refs_source_target",
+    "steps": 40,
+    "seed": 42,
+    "cfg": 3,
+    "stg": 1,
+    "stg_blocks": [
+      28
+    ],
+    "rescale": 0.7,
+    "ref_cfg": 1,
+    "fps": 12,
+    "num_frames": 81,
+    "canvas_wh": [
+      1280,
+      736
+    ]
+  },
+  "original_prompt": "1. Replace the yellow Lakers jersey worn by the man with a red Chicago Bulls basketball jersey.\n2. Add a thick silver chain necklace around the man's neck.",
+  "adapted_prompt": "1. Replace the yellow Lakers jersey worn by the man with a red Chicago Bulls basketball jersey.\n2. Add a thick silver chain necklace around the man's neck.",
+  "source_sha256": "4ee973fa99c74b0125151f57b8fe1134a616e776d1bd138babc0b17f01a39ce9",
+  "ordered_reference_sha256s": [],
+  "derived_condition_sha256s": [],
+  "num_frames": 81,
+  "native_alignment_tail_seconds": null,
+  "peak_memory_bytes": 47093732352,
+  "memory_measurement": "PyTorch CUDA peak allocated bytes",
+  "gpu_model": "NVIDIA H200",
+  "parallelism": "one GPU per sample; four independent shards",
+  "failure_reason": null
+}

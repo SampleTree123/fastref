@@ -1,0 +1,137 @@
+{
+  "id": "tripvvt_24",
+  "model": "a849",
+  "status": "complete",
+  "contract": {
+    "model_repo": "Lightricks/LTX-2.5",
+    "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+    "weights_record_sha256": "811cb6629fbcec770d86e2349b19455032a3a80a448df017cf776b77da4418d1",
+    "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+    "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+    "config_sha256": "7c46f9e5724f1801ca92c2fe0c6a7a4e442457867cd6c072fa78dea3d1b0a2be",
+    "worker_sha256": "3355d6db26d8be19990fb3fcc256349932009e408e9195dd59d271fd8faaf306",
+    "native_inference_sha256": "bb6a3f8e3730fbbb5c39f8af264bb4b3773f5074f48023c6fc395b3297ba4856",
+    "reference_protocol": "reference_positions_v7_refs_source_target",
+    "steps": 40,
+    "seed": 42,
+    "cfg": 3,
+    "stg": 1,
+    "stg_blocks": [
+      28
+    ],
+    "rescale": 0.7,
+    "ref_cfg": 1,
+    "fps": 12,
+    "num_frames": 57,
+    "canvas_wh": [
+      736,
+      1280
+    ]
+  },
+  "model_load_seconds": 154.51882392680272,
+  "started_unix": 1794661873.6486454,
+  "protocol_audit": {
+    "segments": [
+      {
+        "role": "image",
+        "slot": 0,
+        "shape": [
+          1,
+          128,
+          1,
+          42,
+          24
+        ]
+      },
+      {
+        "role": "source",
+        "slot": null,
+        "shape": [
+          1,
+          128,
+          8,
+          40,
+          23
+        ]
+      }
+    ],
+    "optional_reference_count": 1,
+    "reference_order": [
+      [
+        "garment",
+        "official"
+      ]
+    ],
+    "packed_tokens": 15728,
+    "target_tokens": 7360,
+    "target_last": true,
+    "no_gt": true,
+    "time_position_min": 0.0,
+    "time_position_max": 9.583333969116211
+  },
+  "denoise_seconds": 170.14525244524702,
+  "denoise_peak_allocated_bytes": 45876153344,
+  "fps": 12,
+  "canvas_wh": [
+    736,
+    1280
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    4.666666666666667
+  ],
+  "elapsed_seconds": 172.2860677242279,
+  "decode_seconds": 2.082150738220662,
+  "decode_peak_allocated_bytes": 46006055424,
+  "output_sha256": "c6df930f950e2c7e159a56fc543559af4397681d758d1cd844e5800287e38b54",
+  "output": "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/frozen300_20261113/outputs/a849/tripvvt_24.mp4",
+  "full_decode_frames": 57,
+  "completed_unix": 1794662045.9458578,
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+  "code_revision_or_sha256": "bb6a3f8e3730fbbb5c39f8af264bb4b3773f5074f48023c6fc395b3297ba4856",
+  "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+  "seed": 42,
+  "parameters": {
+    "model_repo": "Lightricks/LTX-2.5",
+    "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+    "weights_record_sha256": "811cb6629fbcec770d86e2349b19455032a3a80a448df017cf776b77da4418d1",
+    "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+    "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+    "checkpoint_sha256": "01ad84f3a3cd2877a55e23c08f86b2f17b6d4f23d3d67c2a806f918006b62eb3",
+    "config_sha256": "7c46f9e5724f1801ca92c2fe0c6a7a4e442457867cd6c072fa78dea3d1b0a2be",
+    "worker_sha256": "3355d6db26d8be19990fb3fcc256349932009e408e9195dd59d271fd8faaf306",
+    "native_inference_sha256": "bb6a3f8e3730fbbb5c39f8af264bb4b3773f5074f48023c6fc395b3297ba4856",
+    "reference_protocol": "reference_positions_v7_refs_source_target",
+    "steps": 40,
+    "seed": 42,
+    "cfg": 3,
+    "stg": 1,
+    "stg_blocks": [
+      28
+    ],
+    "rescale": 0.7,
+    "ref_cfg": 1,
+    "fps": 12,
+    "num_frames": 57,
+    "canvas_wh": [
+      736,
+      1280
+    ]
+  },
+  "original_prompt": "Replace the target person's garment/outfit with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.",
+  "adapted_prompt": "Replace the target person's garment/outfit with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.",
+  "source_sha256": "64e19c40df741fef0f26d7c8595050b61673ca139d68a3322fa63e481f7e458b",
+  "ordered_reference_sha256s": [
+    "61b1f3d199e02238f7bad4c27f790a3369a19419aee97c82a42919550d7dd01c"
+  ],
+  "derived_condition_sha256s": [],
+  "num_frames": 57,
+  "native_alignment_tail_seconds": null,
+  "peak_memory_bytes": 46006055424,
+  "memory_measurement": "PyTorch CUDA peak allocated bytes",
+  "gpu_model": "NVIDIA H200",
+  "parallelism": "one GPU per sample; four independent shards",
+  "failure_reason": null
+}

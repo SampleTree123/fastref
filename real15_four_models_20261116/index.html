@@ -1,0 +1,195 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>真实数据15例 · 四模型对比</title><style>
+body{font:16px/1.6 system-ui,sans-serif;background:#10141c;color:#e8edf5;margin:0 auto;max-width:1550px;padding:24px}a{color:#9dc7ff}h1{margin-bottom:8px}small{color:#adc0d6;font-size:14px}section{background:#1b2330;padding:22px;margin:30px 0;border-radius:12px}pre{white-space:pre-wrap;font:inherit;background:#111923;padding:14px;border-radius:8px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.inputs{margin-bottom:16px}figure{margin:0;min-width:0}figcaption{padding:5px 0;font-weight:600}video{width:100%;max-height:450px;background:#000}button,select{font:inherit;padding:6px 13px;cursor:pointer;border-radius:6px;margin:3px}input[type=range]{width:240px;max-width:90%}.refs img{height:180px;max-width:100%;object-fit:contain;background:#fff}.refs{display:flex;gap:10px}details{margin-top:15px}@media(max-width:700px){.grid{grid-template-columns:1fr}body{padding:10px}section{padding:12px}}
+</style><h1>真实数据：15例 × 四模型</h1>
+<p>10个CoinVE、5个TripVVT，全部来自正式测试集，源视频互不重复。按编辑类型选例，未根据模型效果筛选。</p>
+<p>四组结果均复用此前同一冻结输入的已完成推理。本页未重新生成；原推理参数、来源和校验值在records及manifest.json中。</p>
+<p>主配置A：849步LoRA，40步生成，文本CFG=3、参考CFG=1。H3：PDD 8步；VACE：LightX2V 4步；LTX-base：蒸馏8步、不加载训练LoRA。</p>
+<p>H3保留原生24fps、1344×768（竖屏交换）；其他模型12fps、1280×736（竖屏交换）。同步播放在共同片段末尾暂停，不播放H3额外对齐尾帧。原视频与真值按测试清单取帧，展示时另存为浏览器可播副本。</p>
+<label>显示：<select onchange="filterCases(this.value)"><option value="all">全部15例</option><option value="coinve">CoinVE 10例</option><option value="tripvvt">TripVVT 5例</option></select></label>
+<button onclick="document.querySelectorAll('video').forEach(v=>v.pause())">暂停全部</button>
+<p><a href="README.md">使用说明</a> · <a href="manifest.json">样本与文件清单</a></p>
+<section data-group="coinve" data-end="6.666666666666667">
+<h2>coinve_02 · 篮球球衣与项链 <small>coinve:41506</small></h2>
+<pre>1. Replace the yellow Lakers jersey worn by the man with a red Chicago Bulls basketball jersey.
+2. Add a thick silver chain necklace around the man&#x27;s neck.</pre>
+<p>81帧 / 12 fps · 共同观察时段 0–6.67秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="6.666666666666667" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_02/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_02/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_02/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_02/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_02/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_02/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_02/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_02/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_02/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_02/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="coinve" data-end="6.666666666666667">
+<h2>coinve_03 · 汽车内饰与耳机 <small>coinve:61549</small></h2>
+<pre>1. Add a pair of black over-ear headphones resting on top of the central infotainment touchscreen.
+2. Replace the brown leather-like dashboard panel above the center console with a matte grey carbon fiber texture.</pre>
+<p>81帧 / 12 fps · 共同观察时段 0–6.67秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="6.666666666666667" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_03/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_03/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_03/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_03/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_03/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_03/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_03/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_03/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_03/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_03/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="coinve" data-end="4.666666666666667">
+<h2>coinve_14 · 女装与演讲背景 <small>coinve:34636</small></h2>
+<pre>1. Replace the woman&#x27;s dark blue sleeveless dress with a bright red formal blazer.
+2. Replace the textured curtain backdrop behind the speaker with a blurred outdoor garden scene featuring green trees and sunlight.</pre>
+<p>57帧 / 12 fps · 共同观察时段 0–4.67秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="4.666666666666667" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_14/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_14/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_14/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_14/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_14/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_14/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_14/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_14/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_14/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_14/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="coinve" data-end="5.333333333333333">
+<h2>coinve_18 · 宠物毛巾与背景 <small>coinve:119547</small></h2>
+<pre>1. Replace the blue towel wrapping the dog with a bright orange towel.
+2. Replace the white tiled wall and sink area in the background with a dark grey brick wall texture.</pre>
+<p>65帧 / 12 fps · 共同观察时段 0–5.33秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="5.333333333333333" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_18/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_18/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_18/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_18/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_18/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_18/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_18/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_18/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_18/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_18/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="coinve" data-end="4.0">
+<h2>coinve_25 · 驯鹿鹿角与围巾 <small>coinve:27708</small></h2>
+<pre>1. Remove the reindeer&#x27;s large antlers covered in snow.
+2. Add a thick red scarf wrapped around the reindeer&#x27;s neck.</pre>
+<p>49帧 / 12 fps · 共同观察时段 0–4.00秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="4.0" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_25/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_25/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_25/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_25/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_25/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_25/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_25/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_25/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_25/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_25/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="coinve" data-end="6.0">
+<h2>coinve_28 · 桥上灯饰与昼夜环境 <small>coinve:158488</small></h2>
+<pre>1. Add a string of warm yellow fairy lights draped along the railing of the stone bridge in the foreground.
+2. Replace the dark night sky above the resort building with a bright blue daytime sky with white clouds.</pre>
+<p>73帧 / 12 fps · 共同观察时段 0–6.00秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="6.0" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_28/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_28/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_28/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_28/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_28/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_28/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_28/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_28/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_28/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_28/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="coinve" data-end="6.666666666666667">
+<h2>coinve_40 · 机器人配色与背景 <small>coinve:100474</small></h2>
+<pre>1. Remove the blue metallic accents from the humanoid robot&#x27;s joints and body.
+2. Replace the plain white background with a dark charcoal gray studio backdrop.</pre>
+<p>81帧 / 12 fps · 共同观察时段 0–6.67秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="6.666666666666667" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_40/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_40/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_40/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_40/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_40/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_40/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_40/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_40/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_40/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_40/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="coinve" data-end="7.333333333333333">
+<h2>coinve_57 · 眼镜、桌面物品与灯光 <small>coinve:143922</small></h2>
+<pre>1. Remove the black-rimmed glasses worn by the man with the long beard.
+2. Add a potted succulent plant on the wooden table to the right of the black mug.
+3. Replace the grid of orange lights in the background with a grid of blue neon lights.</pre>
+<p>89帧 / 12 fps · 共同观察时段 0–7.33秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="7.333333333333333" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_57/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_57/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_57/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_57/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_57/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_57/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_57/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_57/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_57/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_57/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="coinve" data-end="5.333333333333333">
+<h2>coinve_66 · 礼服、头饰与麦克风 <small>coinve:111425</small></h2>
+<pre>1. Replace the woman&#x27;s gold halter dress with a red velvet evening gown.
+2. Add a large black bow headpiece to the side of the woman&#x27;s blonde vintage hairstyle.
+3. Remove the microphone held by the woman.</pre>
+<p>65帧 / 12 fps · 共同观察时段 0–5.33秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="5.333333333333333" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_66/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_66/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_66/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_66/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_66/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_66/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_66/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_66/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_66/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_66/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="coinve" data-end="4.0">
+<h2>coinve_71 · 头盔、桌面与背景 <small>coinve:10595</small></h2>
+<pre>1. Replace the matte black finish of the motorcycle helmet with a glossy bright red finish.
+2. Replace the white table surface in the foreground with a dark wooden workbench surface.
+3. Replace the blurred indoor studio background with a solid light grey wall.</pre>
+<p>49帧 / 12 fps · 共同观察时段 0–4.00秒</p>
+<div class="refs"></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="4.0" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_71/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_71/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_71/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_71/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_71/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/coinve_71/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/coinve_71/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/coinve_71/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/coinve_71/vace.json">VACE · LightX2V 4步</a> · <a href="records/coinve_71/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="tripvvt" data-end="4.666666666666667">
+<h2>tripvvt_11 · 上装替换 · 1 <small>tripvvt:7117</small></h2>
+<pre>Replace the target person&#x27;s upper-body garment with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.</pre>
+<p>57帧 / 12 fps · 共同观察时段 0–4.67秒</p>
+<div class="refs"><a href="media/tripvvt_11/reference_0.png"><img alt="服装参考图" src="media/tripvvt_11/reference_0.png"></a></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="4.666666666666667" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_11/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_11/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_11/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_11/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_11/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_11/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/tripvvt_11/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/tripvvt_11/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/tripvvt_11/vace.json">VACE · LightX2V 4步</a> · <a href="records/tripvvt_11/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="tripvvt" data-end="4.666666666666667">
+<h2>tripvvt_13 · 上装替换 · 2 <small>tripvvt:752</small></h2>
+<pre>Replace the target person&#x27;s upper-body garment with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.</pre>
+<p>57帧 / 12 fps · 共同观察时段 0–4.67秒</p>
+<div class="refs"><a href="media/tripvvt_13/reference_0.png"><img alt="服装参考图" src="media/tripvvt_13/reference_0.png"></a></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="4.666666666666667" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_13/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_13/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_13/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_13/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_13/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_13/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/tripvvt_13/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/tripvvt_13/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/tripvvt_13/vace.json">VACE · LightX2V 4步</a> · <a href="records/tripvvt_13/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="tripvvt" data-end="4.666666666666667">
+<h2>tripvvt_16 · 下装替换 <small>tripvvt:428</small></h2>
+<pre>Replace the target person&#x27;s lower-body garment with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.</pre>
+<p>57帧 / 12 fps · 共同观察时段 0–4.67秒</p>
+<div class="refs"><a href="media/tripvvt_16/reference_0.png"><img alt="服装参考图" src="media/tripvvt_16/reference_0.png"></a></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="4.666666666666667" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_16/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_16/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_16/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_16/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_16/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_16/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/tripvvt_16/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/tripvvt_16/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/tripvvt_16/vace.json">VACE · LightX2V 4步</a> · <a href="records/tripvvt_16/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="tripvvt" data-end="4.666666666666667">
+<h2>tripvvt_21 · 连衣裙替换 · 1 <small>tripvvt:2391</small></h2>
+<pre>Replace the target person&#x27;s garment/outfit with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.</pre>
+<p>57帧 / 12 fps · 共同观察时段 0–4.67秒</p>
+<div class="refs"><a href="media/tripvvt_21/reference_0.png"><img alt="服装参考图" src="media/tripvvt_21/reference_0.png"></a></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="4.666666666666667" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_21/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_21/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_21/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_21/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_21/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_21/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/tripvvt_21/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/tripvvt_21/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/tripvvt_21/vace.json">VACE · LightX2V 4步</a> · <a href="records/tripvvt_21/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section>
+<section data-group="tripvvt" data-end="4.666666666666667">
+<h2>tripvvt_24 · 连衣裙替换 · 2 <small>tripvvt:4500</small></h2>
+<pre>Replace the target person&#x27;s garment/outfit with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.</pre>
+<p>57帧 / 12 fps · 共同观察时段 0–4.67秒</p>
+<div class="refs"><a href="media/tripvvt_24/reference_0.png"><img alt="服装参考图" src="media/tripvvt_24/reference_0.png"></a></div>
+<p><button onclick="playCase(this)">从头同步播放这组</button> <button onclick="pauseCase(this)">暂停这组</button> <button onclick="seekCase(this,0)">回到开头</button>
+<input aria-label="本组播放位置" type="range" min="0" max="4.666666666666667" step="0.083333" value="0" oninput="seekCase(this,Number(this.value))"></p>
+<div class="grid inputs"><figure><figcaption>原视频：实际取用的片段</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_24/source.mp4"></video></figure><figure><figcaption>真值视频</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_24/gt.mp4"></video></figure></div>
+<div class="grid"><figure><figcaption>LTX 主配置 A · 40步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_24/ltx_A.mp4"></video></figure><figure><figcaption>MiniMax H3 · PDD 8步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_24/h3.mp4"></video></figure><figure><figcaption>VACE · LightX2V 4步</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_24/vace.mp4"></video></figure><figure><figcaption>LTX 蒸馏基座 · 8步，无训练LoRA</figcaption><video controls muted playsinline preload="metadata" src="media/tripvvt_24/ltx_base.mp4"></video></figure></div>
+<details><summary>各模型推理记录</summary><a href="records/tripvvt_24/ltx_A.json">LTX 主配置 A · 40步</a> · <a href="records/tripvvt_24/h3.json">MiniMax H3 · PDD 8步</a> · <a href="records/tripvvt_24/vace.json">VACE · LightX2V 4步</a> · <a href="records/tripvvt_24/ltx_base.json">LTX 蒸馏基座 · 8步，无训练LoRA</a></details>
+</section><script>
+function pauseCase(el){el.closest('section').querySelectorAll('video').forEach(v=>v.pause())}
+function seekCase(el,t){el.closest('section').querySelectorAll('video').forEach(v=>{v.pause();v.currentTime=t})}
+async function playCase(el){document.querySelectorAll('video').forEach(v=>v.pause());const s=el.closest('section'),vs=[...s.querySelectorAll('video')];await Promise.all(vs.map(v=>new Promise(resolve=>{v.currentTime=0;if(v.readyState>=3)resolve();else{v.addEventListener('canplay',resolve,{once:true});v.load()}})));vs.forEach(v=>v.play().catch(()=>{}))}
+function filterCases(group){document.querySelectorAll('section').forEach(s=>{s.hidden=group!=='all'&&s.dataset.group!==group;if(s.hidden)s.querySelectorAll('video').forEach(v=>v.pause())})}
+document.querySelectorAll('section').forEach(s=>s.querySelectorAll('video').forEach(v=>v.addEventListener('timeupdate',()=>{if(!v.paused&&v.currentTime>=Number(s.dataset.end))s.querySelectorAll('video').forEach(x=>{x.pause();x.currentTime=Number(s.dataset.end)})})))
+</script></html>

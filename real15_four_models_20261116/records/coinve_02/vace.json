@@ -1,0 +1,179 @@
+{
+  "id": "coinve_02",
+  "uid": "coinve:41506",
+  "model": "vace",
+  "status": "complete",
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "Wan-AI/Wan2.1-VACE-14B-diffusers@db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+  "code_revision_or_sha256": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2; pipeline_wan_vace.py sha256=cc88bb991d1ac337cff7620f3fdfef2520d5cb1a227c4124bb8893d58db33b83; vace_acceleration.py sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61",
+  "checkpoint_sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+  "seed": 42,
+  "parameters": {
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0,
+    "conditioning_scale": 1.0,
+    "seed": 42,
+    "max_sequence_length": 512,
+    "output_type": "pil",
+    "negative_prompt": null,
+    "lora_strength": 1.0,
+    "scheduler": "FlowMatchEulerDiscreteScheduler(shift=5) with LightX2V sigmas [1,.75,.5,.25] -> [1,0.9375,0.8333,0.625,0]",
+    "transformer_dtype": "bfloat16",
+    "vae_dtype": "float32",
+    "attention_backend": "diffusers default (SDPA)",
+    "generator": "torch.Generator('cuda').manual_seed(42)",
+    "height": 736,
+    "width": 1280,
+    "num_frames": 81
+  },
+  "original_prompt": "1. Replace the yellow Lakers jersey worn by the man with a red Chicago Bulls basketball jersey.\n2. Add a thick silver chain necklace around the man's neck.",
+  "adapted_prompt": "A continuous video. All of the following edits are applied throughout the video: (1) Replace the yellow Lakers jersey worn by the man with a red Chicago Bulls basketball jersey. (2) Add a thick silver chain necklace around the man's neck. Everything else matches the source video.\nOriginal edit specification: 1. Replace the yellow Lakers jersey worn by the man with a red Chicago Bulls basketball jersey.\n2. Add a thick silver chain necklace around the man's neck.",
+  "source_sha256": "4ee973fa99c74b0125151f57b8fe1134a616e776d1bd138babc0b17f01a39ce9",
+  "ordered_reference_sha256s": [],
+  "derived_condition_sha256s": {
+    "vace_video.mp4": "aa4bdd7458690553ba30967d21403c15caf09efe59a9265067063a6ebd7456f8",
+    "vace_mask.npz": "2e9d2303302de8fe5e56fd80cf89910d422b51b2115432b24d539a92cc3bd53a"
+  },
+  "num_frames": 81,
+  "fps": 12.0,
+  "canvas_wh": [
+    1280,
+    736
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    6.666666666666667
+  ],
+  "native_alignment_tail_seconds": null,
+  "elapsed_seconds": 123.54,
+  "peak_memory_bytes": 70217422336,
+  "memory_measurement": "torch.cuda.max_memory_allocated (PyTorch allocations, not board total)",
+  "gpu_model": "NVIDIA L20Y (CUDA sm_90, 80GB)",
+  "parallelism": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)",
+  "failure_reason": null,
+  "model_identity": {
+    "model": "Wan-AI/Wan2.1-VACE-14B-diffusers",
+    "weights_revision": "db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+    "lora": {
+      "repo": "Kijai/WanVideo_comfy",
+      "revision": "8260d429d19fd7a72304cad059160b95d843913f",
+      "file": "Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors",
+      "sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+      "loader": "accelerated_editors_portable_20261114/vace_acceleration.py apply_lightx2v (sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61)"
+    },
+    "code": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2",
+    "helpers": {
+      "grounding_dino": "IDEA-Research/grounding-dino-base@12bdfa3120f3e7ec7b434d90674b3396eccf88eb",
+      "sam2": "facebook/sam2.1-hiera-base-plus@b7320756a13354e7530a63935656d35b2f91a290 sam2.1_hiera_base_plus.pt sha256=a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5 (SAM2 _C post-processing unavailable on glibc 2.28)",
+      "pose": "ali-vilab/VACE-Annotators@63512cbb pose/{yolox_l,dw-ll_ucoco_384}.onnx via ali-vilab/VACE@48eb44f1 PoseBodyFaceVideoAnnotator (pose.py sha256=1046bf5d...)",
+      "segformer": "mattmdjaga/segformer_b2_clothes@584abc1e1d260e23c0fc627c5217a09b2b461046"
+    },
+    "parallel": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)"
+  },
+  "lora_load": {
+    "original_tensors": 1457,
+    "official_lora_tensors": 1215,
+    "additional_vectors": 242,
+    "all_loaded_values_checked": true
+  },
+  "started_at_utc": "2026-11-14T11:28:41.743864+00:00",
+  "gpu": "gpu-h800-sz-56c-48cr7f45-0064 CUDA_VISIBLE_DEVICES=1",
+  "adapted_prompt_tokens": 105,
+  "conditions": {
+    "mode": "masked_inpaint",
+    "canvas_geometry": {
+      "content_w": 1280,
+      "content_h": 720,
+      "left": 0,
+      "top": 8,
+      "scale": 0.6666666666666666
+    },
+    "mask_area_frac_mean": 0.1869,
+    "video": "/root/frozen300_infer/work/vace/coinve_02/vace_video.mp4",
+    "video_sha256": "aa4bdd7458690553ba30967d21403c15caf09efe59a9265067063a6ebd7456f8",
+    "mask": "/root/frozen300_infer/work/vace/coinve_02/vace_mask.npz",
+    "mask_sha256": "2e9d2303302de8fe5e56fd80cf89910d422b51b2115432b24d539a92cc3bd53a",
+    "source_sha256": "4ee973fa99c74b0125151f57b8fe1134a616e776d1bd138babc0b17f01a39ce9",
+    "references": [],
+    "reference_images_in_order": [],
+    "reference_image_sha256": []
+  },
+  "condition_log": {
+    "instructions": [
+      {
+        "parse": {
+          "verb": "replace",
+          "target": "yellow Lakers jersey worn by the man",
+          "new": "red Chicago Bulls basketball jersey"
+        },
+        "instruction": "Replace the yellow Lakers jersey worn by the man with a red Chicago Bulls basketball jersey.",
+        "mode": "tracked_target",
+        "seed": {
+          "frame": 40,
+          "box": [
+            437.8334045410156,
+            385.2897644042969,
+            892.97802734375,
+            716.4047241210938
+          ],
+          "score": 0.7843586802482605
+        },
+        "mask_area_frac": 0.1388
+      },
+      {
+        "parse": {
+          "verb": "add",
+          "object": "thick silver chain necklace",
+          "surface": "man's neck",
+          "relation": null,
+          "relative_to": null
+        },
+        "instruction": "Add a thick silver chain necklace around the man's neck.",
+        "mode": "add_roi_body_part",
+        "body_part": "neck",
+        "person": "man",
+        "seed": {
+          "frame": 20,
+          "box": [
+            314.4298095703125,
+            35.51405715942383,
+            1004.9566650390625,
+            716.859130859375
+          ],
+          "score": 0.9314306378364563
+        },
+        "mask_area_frac": 0.1506
+      }
+    ],
+    "empty_mask_frames": 0
+  },
+  "reference_order_note": "reference_images passed in manifest index order (then SOURCE appearance frames for action); diffusers prepends each reference latent in turn, so the internal latent time order is reversed: refs[-1], ..., refs[0], video",
+  "output_video": "results/vace/coinve_02.mp4",
+  "output_sha256": "46ce0909614897a451a6abf2ecf8deceee5fd729b8ab471cd23839c4d31efc87",
+  "native": {
+    "codec": "h264",
+    "width": 1280,
+    "height": 736,
+    "fps": 12.0,
+    "fps_fraction": "12/1",
+    "num_frames": 81,
+    "duration_seconds": 6.75,
+    "pix_fmt": "yuv420p"
+  },
+  "scheduler_sigmas_used": [
+    1.0,
+    0.9375,
+    0.833333,
+    0.625,
+    0.0
+  ],
+  "timing_seconds": {
+    "load_conditions": 2.86,
+    "pipeline": 115.74,
+    "total": 123.54
+  },
+  "finished_at_utc": "2026-11-14T11:30:45.964915+00:00",
+  "schema": "frozen300_result_v1",
+  "output_video_local": "/root/frozen300_infer/results/vace/coinve_02.mp4",
+  "output_bytes": 21632533
+}

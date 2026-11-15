@@ -1,0 +1,157 @@
+{
+  "id": "tripvvt_16",
+  "uid": "tripvvt:428",
+  "model": "vace",
+  "status": "complete",
+  "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+  "model_revision": "Wan-AI/Wan2.1-VACE-14B-diffusers@db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+  "code_revision_or_sha256": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2; pipeline_wan_vace.py sha256=cc88bb991d1ac337cff7620f3fdfef2520d5cb1a227c4124bb8893d58db33b83; vace_acceleration.py sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61",
+  "checkpoint_sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+  "seed": 42,
+  "parameters": {
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0,
+    "conditioning_scale": 1.0,
+    "seed": 42,
+    "max_sequence_length": 512,
+    "output_type": "pil",
+    "negative_prompt": null,
+    "lora_strength": 1.0,
+    "scheduler": "FlowMatchEulerDiscreteScheduler(shift=5) with LightX2V sigmas [1,.75,.5,.25] -> [1,0.9375,0.8333,0.625,0]",
+    "transformer_dtype": "bfloat16",
+    "vae_dtype": "float32",
+    "attention_backend": "diffusers default (SDPA)",
+    "generator": "torch.Generator('cuda').manual_seed(42)",
+    "height": 1280,
+    "width": 736,
+    "num_frames": 57
+  },
+  "original_prompt": "Replace the target person's lower-body garment with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.",
+  "adapted_prompt": "A continuous video. The target person wears the lower-body garment shown in the reference image. Identity, motion, other clothing, other people, background and camera match the source video.\nOriginal edit specification: Replace the target person's lower-body garment with the garment shown in the reference image. Preserve identity, motion, other clothing, other people, background, and camera.",
+  "source_sha256": "7fcdaf171bcb5e96a3c80afdbe008312b1c5432cdad0bb6cb70400e920fd02bf",
+  "ordered_reference_sha256s": [
+    "a3195a60e01f3970690ec76f49aadefbfc4542fd55495ba9d2051a3e64af4c03"
+  ],
+  "derived_condition_sha256s": {
+    "vace_video.mp4": "c6d583c4a1fc5cfdd6398308621a99cc7d5b6fd1c6edf7ff5b21cc6bc8f2bb76",
+    "vace_mask.npz": "59cd708e19c352ddefc98ea6d9cc450f9d6c1ddb4db2f7c801c34827dc3461b0"
+  },
+  "num_frames": 57,
+  "fps": 12.0,
+  "canvas_wh": [
+    736,
+    1280
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    4.666666666666667
+  ],
+  "native_alignment_tail_seconds": null,
+  "elapsed_seconds": 81.86,
+  "peak_memory_bytes": 69637101056,
+  "memory_measurement": "torch.cuda.max_memory_allocated (PyTorch allocations, not board total)",
+  "gpu_model": "NVIDIA L20Y (CUDA sm_90, 80GB)",
+  "parallelism": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)",
+  "failure_reason": null,
+  "model_identity": {
+    "model": "Wan-AI/Wan2.1-VACE-14B-diffusers",
+    "weights_revision": "db79b90c60bbb45ceec9e41b9d5a4df934538ac4",
+    "lora": {
+      "repo": "Kijai/WanVideo_comfy",
+      "revision": "8260d429d19fd7a72304cad059160b95d843913f",
+      "file": "Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32.safetensors",
+      "sha256": "914fafa5dded72e6c470d6f764b97fe4d71567dae7cc01d1181b310efd5c37a6",
+      "loader": "accelerated_editors_portable_20261114/vace_acceleration.py apply_lightx2v (sha256=be5ad9267fbd4aeea6d82c829403ee6287b9c4e08b2daeefb02ab58212579d61)"
+    },
+    "code": "diffusers 0.35.2 WanVACEPipeline, torch 2.10.0+cu126, transformers 4.57.1, peft 0.21.2",
+    "helpers": {
+      "grounding_dino": "IDEA-Research/grounding-dino-base@12bdfa3120f3e7ec7b434d90674b3396eccf88eb",
+      "sam2": "facebook/sam2.1-hiera-base-plus@b7320756a13354e7530a63935656d35b2f91a290 sam2.1_hiera_base_plus.pt sha256=a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5 (SAM2 _C post-processing unavailable on glibc 2.28)",
+      "pose": "ali-vilab/VACE-Annotators@63512cbb pose/{yolox_l,dw-ll_ucoco_384}.onnx via ali-vilab/VACE@48eb44f1 PoseBodyFaceVideoAnnotator (pose.py sha256=1046bf5d...)",
+      "segformer": "mattmdjaga/segformer_b2_clothes@584abc1e1d260e23c0fc627c5217a09b2b461046"
+    },
+    "parallel": "one process per GPU, NVIDIA L20Y (sm_90, 80GB)"
+  },
+  "lora_load": {
+    "original_tensors": 1457,
+    "official_lora_tensors": 1215,
+    "additional_vectors": 242,
+    "all_loaded_values_checked": true
+  },
+  "started_at_utc": "2026-11-14T12:52:23.733741+00:00",
+  "gpu": "gpu-h800-sz-56c-48cr7f45-0064 CUDA_VISIBLE_DEVICES=2",
+  "adapted_prompt_tokens": 83,
+  "conditions": {
+    "mode": "masked_inpaint",
+    "canvas_geometry": {
+      "content_w": 720,
+      "content_h": 1280,
+      "left": 8,
+      "top": 0,
+      "scale": 1.0
+    },
+    "mask_area_frac_mean": 0.1159,
+    "video": "/root/frozen300_infer/work/vace/tripvvt_16/vace_video.mp4",
+    "video_sha256": "c6d583c4a1fc5cfdd6398308621a99cc7d5b6fd1c6edf7ff5b21cc6bc8f2bb76",
+    "mask": "/root/frozen300_infer/work/vace/tripvvt_16/vace_mask.npz",
+    "mask_sha256": "59cd708e19c352ddefc98ea6d9cc450f9d6c1ddb4db2f7c801c34827dc3461b0",
+    "source_sha256": "7fcdaf171bcb5e96a3c80afdbe008312b1c5432cdad0bb6cb70400e920fd02bf",
+    "references": [
+      {
+        "index": 0,
+        "type": "garment",
+        "view": "official",
+        "path": "media/a3195a60e01f3970690ec76f49aadefbfc4542fd55495ba9d2051a3e64af4c03.png",
+        "sha256": "a3195a60e01f3970690ec76f49aadefbfc4542fd55495ba9d2051a3e64af4c03"
+      }
+    ],
+    "reference_images_in_order": [
+      "/root/frozen300_infer/data/frozen300/media/a3195a60e01f3970690ec76f49aadefbfc4542fd55495ba9d2051a3e64af4c03.png"
+    ],
+    "reference_image_sha256": [
+      "a3195a60e01f3970690ec76f49aadefbfc4542fd55495ba9d2051a3e64af4c03"
+    ]
+  },
+  "condition_log": {
+    "target_person": {
+      "frame": 0,
+      "box": [
+        92.91912078857422,
+        104.43229675292969,
+        643.5653686523438,
+        1162.6634521484375
+      ],
+      "score": 0.7186504006385803
+    },
+    "empty_mask_frames": 0
+  },
+  "reference_order_note": "reference_images passed in manifest index order (then SOURCE appearance frames for action); diffusers prepends each reference latent in turn, so the internal latent time order is reversed: refs[-1], ..., refs[0], video",
+  "output_video": "results/vace/tripvvt_16.mp4",
+  "output_sha256": "cd958e88d937129f556530c4447eacf0c9cc5108188989c565c6218c50c63b2d",
+  "native": {
+    "codec": "h264",
+    "width": 736,
+    "height": 1280,
+    "fps": 12.0,
+    "fps_fraction": "12/1",
+    "num_frames": 57,
+    "duration_seconds": 4.75,
+    "pix_fmt": "yuv420p"
+  },
+  "scheduler_sigmas_used": [
+    1.0,
+    0.9375,
+    0.833333,
+    0.625,
+    0.0
+  ],
+  "timing_seconds": {
+    "load_conditions": 3.95,
+    "pipeline": 73.95,
+    "total": 81.86
+  },
+  "finished_at_utc": "2026-11-14T12:53:46.240645+00:00",
+  "schema": "frozen300_result_v1",
+  "output_video_local": "/root/frozen300_infer/results/vace/tripvvt_16.mp4",
+  "output_bytes": 19970070
+}

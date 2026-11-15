@@ -1,0 +1,131 @@
+{
+  "id": "coinve_14",
+  "status": "complete",
+  "started_unix": 1794664096.0999877,
+  "model_load_seconds": 13.36373689211905,
+  "contract": {
+    "experiment": "LTX2.5 Base（distilled DiT）＋DataMake V7",
+    "model_revision": "49b093a39c19169a8a81721dcc541e07e945232f",
+    "dit_sha256": "31eb3cad89b9e54e99dd3baf286f70825ac4f6c660a70d9184d895be76d7bff4",
+    "input_manifest_sha256": "386caf3ca11ff5ad59b59ceac16088e24864c913fb844015cc3a08e8f33614c0",
+    "protocol": "reference_positions_v7_refs_source_target",
+    "sigmas": [
+      1.0,
+      0.99375,
+      0.9875,
+      0.98125,
+      0.975,
+      0.909375,
+      0.725,
+      0.421875,
+      0.0
+    ],
+    "steps": 8,
+    "cfg": 1,
+    "stg": 0,
+    "rescale": 0,
+    "ref_cfg": 1,
+    "seed": 42,
+    "noise_seed": 10042,
+    "decode_seed": 42,
+    "eta": 1,
+    "s_noise": 1,
+    "sampler": "official euler_ancestral_denoising_loop",
+    "lora": null,
+    "dtype": "BF16",
+    "fps": 12,
+    "num_frames": 57,
+    "canvas_wh": [
+      1280,
+      736
+    ],
+    "stages": 1,
+    "implementation_sha256": "2fcdaf48ff0cea581ad447281cec353860f10e9793a6be337bd42512002933ee"
+  },
+  "gpu_model": "NVIDIA H200",
+  "software": {
+    "torch": "2.10.0+cu126",
+    "transformers": "5.14.1",
+    "accelerate": "1.15.0",
+    "peft": "0.21.2",
+    "safetensors": "0.8.0",
+    "av": "19.0.2",
+    "numpy": "2.5.4"
+  },
+  "cache_load_seconds": 0.017343010753393173,
+  "step_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "denoise_seconds": 9.318701555021107,
+  "protocol_audit": {
+    "actual_updates": 8,
+    "step_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "condition_tokens_unchanged": true,
+    "finite_each_step": true,
+    "packed_shape": [
+      1,
+      14720,
+      128
+    ],
+    "condition_tokens": 7360,
+    "target_last": true,
+    "target_tokens": 7360,
+    "latent_shape": [
+      1,
+      128,
+      8,
+      23,
+      40
+    ],
+    "no_gt": true,
+    "reference_order": []
+  },
+  "denoise_peak_allocated_bytes": 43227789824,
+  "vae_decode_seconds": 0.9736626027151942,
+  "write_seconds": 0.5485360203310847,
+  "decode_seconds": 1.786767654120922,
+  "validation_seconds": 0.26456903107464314,
+  "vae_write_seconds": 1.522198623046279,
+  "full_decode_frames": 57,
+  "output": "/scratch/prj0000000275/jcy/ljy/video_collection/model_evaluation/ltx25_distilled_v7_300/outputs/coinve_14.mp4",
+  "output_sha256": "c6cc1c0410c70f933285f9a1bc9fac16686fa8e80b68bdaf119c24e6f35954be",
+  "completed_unix": 1794664107.2398388,
+  "decode_peak_allocated_bytes": 44688046080,
+  "elapsed_seconds": 11.140053510665894,
+  "uid": "coinve:34636",
+  "dataset": "coinve",
+  "group": "coinve",
+  "original_prompt": "1. Replace the woman's dark blue sleeveless dress with a bright red formal blazer.\n2. Replace the textured curtain backdrop behind the speaker with a blurred outdoor garden scene featuring green trees and sunlight.",
+  "adapted_prompt": "1. Replace the woman's dark blue sleeveless dress with a bright red formal blazer.\n2. Replace the textured curtain backdrop behind the speaker with a blurred outdoor garden scene featuring green trees and sunlight.",
+  "source_sha256": "7cd181232a6e8edfc9593fbac1f7934aa1b70eabc05300b13acfa6b7221cfc1c",
+  "ordered_reference_sha256s": [],
+  "fps": 12,
+  "num_frames": 57,
+  "canvas_wh": [
+    1280,
+    736
+  ],
+  "comparison_interval_seconds": [
+    0.0,
+    4.666666666666667
+  ],
+  "parallelism": "four independent workers; one H200 per worker",
+  "shard": 3,
+  "new_run": true
+}
