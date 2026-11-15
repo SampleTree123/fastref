@@ -1,0 +1,138 @@
+{
+  "media": [
+    {
+      "path": "media/c1e6e99420c5cd02dfd248250128e19cf37be4dd03e18aaa44964a4bd17a828b.mp4",
+      "sha256": "c1e6e99420c5cd02dfd248250128e19cf37be4dd03e18aaa44964a4bd17a828b",
+      "bytes": 17617564,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6633.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6633.mp4"
+      ]
+    },
+    {
+      "path": "media/06eae956cdcaee366971c93933347bf17e0b07e8c574628062503b786ead6993.mp4",
+      "sha256": "06eae956cdcaee366971c93933347bf17e0b07e8c574628062503b786ead6993",
+      "bytes": 5540991,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_17.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_17.mp4"
+      ]
+    },
+    {
+      "path": "media/61fc7b954e331b28a1b9df769eec27cd7b2e489f27e826ba3f496f285eb4e385.mp4",
+      "sha256": "61fc7b954e331b28a1b9df769eec27cd7b2e489f27e826ba3f496f285eb4e385",
+      "bytes": 6127236,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_pose_pink_outfit_20261116_run/cases/showcase_portrait_01_pose_pink_outfit/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_pose_pink_outfit_20261116_run/cases/showcase_portrait_01_pose_pink_outfit/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/d9ba5ac9605a9df508bfda031b5eb7014ab46cdd3b5f19fa8048a2f17bfdd363.mp4",
+      "sha256": "d9ba5ac9605a9df508bfda031b5eb7014ab46cdd3b5f19fa8048a2f17bfdd363",
+      "bytes": 4425026,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_pose_pink_outfit_20261116_run/cases/showcase_portrait_01_pose_pink_outfit/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_pose_pink_outfit_20261116_run/cases/showcase_portrait_01_pose_pink_outfit/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/a3e7e3fb9737b871165b72d2ca0167532f30d30eda671c61cef9f9bfdda824e1.png",
+      "sha256": "a3e7e3fb9737b871165b72d2ca0167532f30d30eda671c61cef9f9bfdda824e1",
+      "bytes": 1000621,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_701.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_701.png"
+      ]
+    },
+    {
+      "path": "media/7c0830b9e3b4f2e4a480ef561fda7cae103442d65db641747a92675a19dffd11.png",
+      "sha256": "7c0830b9e3b4f2e4a480ef561fda7cae103442d65db641747a92675a19dffd11",
+      "bytes": 1010304,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_702.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_702.png"
+      ]
+    },
+    {
+      "path": "media/f0bcde582374a49960d73cbb6f8e8fbba28617c1ff51d2c1c8e85a563296eaaa.mp4",
+      "sha256": "f0bcde582374a49960d73cbb6f8e8fbba28617c1ff51d2c1c8e85a563296eaaa",
+      "bytes": 8293440,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_pose_pink_outfit_20261116_run/cases/showcase_portrait_01_pose_pink_outfit/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_pose_pink_outfit_20261116_run/cases/showcase_portrait_01_pose_pink_outfit/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/690b6a6e43a211c156b4c78d97f0f8057ef0167dea3457e4667c82b0684fa89f.mp4",
+      "sha256": "690b6a6e43a211c156b4c78d97f0f8057ef0167dea3457e4667c82b0684fa89f",
+      "bytes": 16931168,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6641.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6641.mp4"
+      ]
+    }
+  ],
+  "inspection": {
+    "media/c1e6e99420c5cd02dfd248250128e19cf37be4dd03e18aaa44964a4bd17a828b.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/06eae956cdcaee366971c93933347bf17e0b07e8c574628062503b786ead6993.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/61fc7b954e331b28a1b9df769eec27cd7b2e489f27e826ba3f496f285eb4e385.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/d9ba5ac9605a9df508bfda031b5eb7014ab46cdd3b5f19fa8048a2f17bfdd363.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/a3e7e3fb9737b871165b72d2ca0167532f30d30eda671c61cef9f9bfdda824e1.png": {
+      "kind": "image"
+    },
+    "media/7c0830b9e3b4f2e4a480ef561fda7cae103442d65db641747a92675a19dffd11.png": {
+      "kind": "image"
+    },
+    "media/f0bcde582374a49960d73cbb6f8e8fbba28617c1ff51d2c1c8e85a563296eaaa.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/690b6a6e43a211c156b4c78d97f0f8057ef0167dea3457e4667c82b0684fa89f.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    }
+  }
+}
