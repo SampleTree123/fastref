@@ -1,0 +1,170 @@
+{
+  "id": "showcase_japan_outfit_hair_camera_01",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": "explicit_id",
+  "root": "media/ac786d959827bc1bb2918201ba98ba7ca6c3f2dd19732205697f303d13c5277f.mp4",
+  "state_sha256": "94b9042b684ef0cb6607bceb64a5d6749091d1a97428448d47f2aab312f88796",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "normal_continue",
+      "edge_id": 29330,
+      "source_node_id": 6362,
+      "target_node_id": 6350,
+      "user_prompt": "Start from the original video (video 0). Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "请基于输入视频进行以下编辑：为人物换上参考图中以正面和背面展示、由上衣、下装、鞋子组成的完整穿搭。这是对当前穿搭的整体替换，而不是在原穿搭上添加单件。视频中的其他内容保持不变。第一张参考图展示整套穿搭的正面，第二张展示背面。",
+      "editing_prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "output": "media/fe9dee6c20233ea79cbc606b44154b7b997bdca5465d3283f84e872ddd20cacc.mp4",
+      "ground_truth": "media/1c656b04886f3f3d04de89c055378e6651382add4afdc7cbfb867f81e52244fa.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/a4d51572b4824c020340d08aed1fe0783e4b747c53884f104bda178f25e64af7.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/6eb7be671b2e2210db3f6176895e900161b32bc5eab19cddbe7a9255695ac46f.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair",
+      "axis_zh": "发型",
+      "selection_kind": "normal_continue",
+      "edge_id": 29269,
+      "source_node_id": 6350,
+      "target_node_id": 6359,
+      "user_prompt": "Continue editing the outfit-change result (video 1). Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+      "prompt_zh": "请基于输入视频进行以下编辑：请将人物的发型改为参考图中的发型。采用参考图中头发的形状和造型，同时保留当前人物的面部特征、发色和服装。视频中的其余内容保持不变。",
+      "editing_prompt": "Change the person's hairstyle to match the reference images. Match the shape and styling of the hair in the reference images, while retaining the current person's facial features, hair color, and clothing. Leave the rest of the video unchanged.",
+      "output": "media/de03cd9df504b153e567f90d533d65b4e235af49f1f026c1c2440313f8ec9813.mp4",
+      "ground_truth": "media/2ec47d6f7907c6fd4a2752f427db17b1795bfc91fc2c7c870416f5ca065863a4.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "hair",
+          "view": "front",
+          "path": "media/5096259085e62779433983a67a2792d5e7d22389613f60bdaa41abeb05c921ea.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "hair",
+          "view": "back",
+          "path": "media/12c4366984dc7960e2edc2ee458ef46529fcbfcfb81b3e57b0adede1dc481bfa.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "camera",
+      "axis_zh": "镜头",
+      "selection_kind": "explicit_id",
+      "edge_id": 29334,
+      "source_node_id": 6362,
+      "target_node_id": 6369,
+      "user_prompt": "Return to the original video (video 0), before the outfit and hairstyle edits. Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+      "prompt_zh": "请基于输入视频进行以下编辑：请更换拍摄人物的镜头，改用从人物正面拍摄的上半身镜头。保持人物的身份、发型、发色、服装、表情、动作和场景不变。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。",
+      "editing_prompt": "Switch the camera setup to an upper-body shot from the front. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged.",
+      "output": "media/bf1ae7045fa2afd8650a0403f2aabc95f0b0a7ffb18c03c3e79c8c74c79506ea.mp4",
+      "ground_truth": "media/d3573fa3b6050bcb3bbbd33a5ec39717127619da4b916a3f44aac2510c7c0e19.mp4",
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "camera",
+          "view": "first_frame",
+          "path": "media/56fc775429e41db70cb5fa4c6eb7f6a88e82b7469d3a10baf9166e4ae090cc20.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands facing the camera, then performs a short dance move by swinging his arms and head before returning to a standing pose.",
+      "camera": "A static, low-angle full-body shot from a slightly frontal perspective.",
+      "clothing": "A bright yellow long-sleeved button-up shirt with a white pattern, red flared trousers, a brown belt, and dark shoes.",
+      "hair_color": "Greenish-yellow.",
+      "hairstyle": "Short, cropped hair with a distinct greenish-yellow tint.",
+      "identity": "A 3D-rendered male character with a slim build, brown skin, and a short beard.",
+      "scene": "An outdoor urban plaza with tiled and pebbled ground, surrounded by tall buildings, construction cranes, and illuminated signs with Japanese text."
+    },
+    "1": {
+      "action": "The character stands facing the camera, then raises his right arm to scratch his head and neck area before lowering it back to his side.",
+      "camera": "A static, full-body, eye-level shot from the front.",
+      "clothing": "A light blue, long-sleeved cardigan with a white diamond and grid pattern, worn over a white top, paired with blue jeans and brown lace-up shoes.",
+      "hair_color": "Bright green.",
+      "hairstyle": "Short, cropped hair with a flat top.",
+      "identity": "A 3D-rendered male character with a slim build, light skin, and a short beard.",
+      "scene": "An outdoor urban plaza with tiled and pebbled ground, surrounded by tall buildings, construction cranes, and illuminated signs with Japanese and Chinese text."
+    },
+    "2": {
+      "action": "The figure stands facing the camera, then briefly raises a hand to the face before returning to a standing pose.",
+      "camera": "A static, eye-level full-body shot from the front.",
+      "clothing": "A light-blue patterned cardigan over a matching top, blue jeans, and brown lace-up shoes.",
+      "hair_color": "Black.",
+      "hairstyle": "Short black hair with a small top-knot bun.",
+      "identity": "A 3D-rendered adult figure with a medium-brown complexion, slim build, and short facial hair.",
+      "scene": "An outdoor city plaza with tiled pavement, tall buildings, construction cranes, and illuminated storefront signs in the background."
+    },
+    "3": {
+      "action": "The man stands still, then briefly bows his head and raises his right hand to his face before returning to an upright, neutral stance.",
+      "camera": "A static, eye-level medium shot framing the man from the thighs up.",
+      "clothing": "A yellow long-sleeved button-up shirt with a white floral pattern, red trousers, and a brown leather belt with a silver buckle.",
+      "hair_color": "Bright green.",
+      "hairstyle": "Short, flat-top style hair with a straight-cut top.",
+      "identity": "A Black man with a slim build and short facial stubble stands facing the camera.",
+      "scene": "An outdoor urban plaza at dusk, with tall buildings, neon signs with Japanese text, construction cranes, and a large white container-like structure on the right."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}
