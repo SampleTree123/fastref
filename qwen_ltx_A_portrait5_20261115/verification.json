@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "statistics": {
+    "complete_chains": 5,
+    "partial_chains": 0,
+    "complete_chain_turns": 15,
+    "partial_chain_turns": 0,
+    "saved_turns": 15,
+    "route_errors": 0,
+    "unique_media": 55,
+    "media_bytes": 618630391,
+    "transfer_methods": {
+      "hardlink": 55
+    }
+  },
+  "all_media_sha256_verified": true,
+  "all_media_regular_files": true,
+  "video_first_frame_decoded": 40,
+  "video_browser_format": "h264/yuv420p",
+  "all_images_decoded": 15,
+  "full_video_decode_performed": false,
+  "relations_checked": "actual parent matches saved video card; output ID matches turn; GT by chain and turn",
+  "inputs_untouched": true,
+  "offline_embedded_data": true,
+  "generated_videos_full_decode": [
+    {
+      "chain": "showcase_portrait_01",
+      "turn": 1,
+      "file": "media/b1b1236e72e4af25ebe029b1772105d9d95ad1c782156ff310e49809d8e64ca6.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_01",
+      "turn": 2,
+      "file": "media/0a300bbc8bcca533d158535c4ca50c81d0090f759847a305a9785e420822e7e1.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_01",
+      "turn": 3,
+      "file": "media/bedfb0696b89cfb36a317fd45355062f8a8419359dd46c624b46e861f988db73.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_02",
+      "turn": 1,
+      "file": "media/500ce309a0bbeb1effc6014057369cc838e54981affc8d0c32f7b831960879a9.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_02",
+      "turn": 2,
+      "file": "media/f179183ea25a7388dcd045d1f76d5a545e811af69d8119487fd3fcb80f9e9e86.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_02",
+      "turn": 3,
+      "file": "media/a61b4f52474ce6dd0424118aea07b1e89211994208514366c53ea20a6d5530cc.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_03",
+      "turn": 1,
+      "file": "media/2a476060b9afbdef139f7930b05c8b16caee082d49b49cb59e7da35304a3bbac.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_03",
+      "turn": 2,
+      "file": "media/8d6d1a6fe3341cee439ed6f23e65f41821b754fb13658cc520f04b6dc928c39b.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_03",
+      "turn": 3,
+      "file": "media/020a2091142d6fed4d9688b74bc2d05017a07256e08a39c72cfe8e9acdebd7f6.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_04",
+      "turn": 1,
+      "file": "media/e40bebd25e8c9c5bb5ba1dd158f9a82a0ed430dddf1810d7709ffe0055643916.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_04",
+      "turn": 2,
+      "file": "media/4c3cdc73d26c3cf51e614bfa803a5d2ae3632ee2f9cb16420b4cd4c50e332360.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_04",
+      "turn": 3,
+      "file": "media/050bef3052710821e44652dcaabc3036d50e602317bb0eca079dafabb47c8c75.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_05",
+      "turn": 1,
+      "file": "media/a6009550d6efe92c0eaf83c502c47ea766e34a61b783e3e01dad457d658401c2.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_05",
+      "turn": 2,
+      "file": "media/60b5eafc3a8a552f8c9f92f5cd53002a3832dd0ebe6393e1a9fd0c28626b63a2.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    },
+    {
+      "chain": "showcase_portrait_05",
+      "turn": 3,
+      "file": "media/065bb560021cf3aeee13542000fb98e2bab59fe60409291ff79d0eb7a507b6a3.mp4",
+      "frames": 121,
+      "width": 736,
+      "height": 1280
+    }
+  ],
+  "generated_video_count": 15
+}

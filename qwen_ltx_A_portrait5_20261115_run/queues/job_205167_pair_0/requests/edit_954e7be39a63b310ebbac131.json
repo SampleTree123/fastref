@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_954e7be39a63b310ebbac131",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6633.mp4",
+  "prompt": "Change the person's action in the source video to the action demonstrated in the motion reference. Transfer only the demonstrated action; do not adopt the reference person's appearance, the reference scene, or the reference camera setup. Preserve all other aspects of the current video, including the person's identity, appearance, scene, lighting, and camera framing.",
+  "references": [
+    {
+      "reference_id": "ref_1",
+      "type": "motion",
+      "view": "",
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_532.mp4"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait5_20261115_run/cases/showcase_portrait_01/turn_01/generation",
+  "seed": 42
+}

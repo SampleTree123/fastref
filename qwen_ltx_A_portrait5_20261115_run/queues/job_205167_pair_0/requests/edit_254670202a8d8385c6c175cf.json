@@ -1,0 +1,15 @@
+{
+  "request_id": "edit_254670202a8d8385c6c175cf",
+  "source_video": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_7055.mp4",
+  "prompt": "Replace the scene in the video with the environment shown in the reference image. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+  "references": [
+    {
+      "reference_id": "ref_1",
+      "type": "scene",
+      "view": "target_camera_initial_frame",
+      "path": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_628.png"
+    }
+  ],
+  "output_dir": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait5_20261115_run/cases/showcase_portrait_05/turn_03/generation",
+  "seed": 42
+}

@@ -1,0 +1,70 @@
+{
+  "chains": [
+    {
+      "chain_id": "showcase_portrait_01",
+      "topology": "fork",
+      "planned_turns": 3,
+      "completed_turns": 3,
+      "completed": true,
+      "selection_errors": [],
+      "selection_attempts": 3,
+      "selection_error_count": 0,
+      "failure": null,
+      "group": "complete_correct_route"
+    },
+    {
+      "chain_id": "showcase_portrait_02",
+      "topology": "fork",
+      "planned_turns": 3,
+      "completed_turns": 3,
+      "completed": true,
+      "selection_errors": [],
+      "selection_attempts": 3,
+      "selection_error_count": 0,
+      "failure": null,
+      "group": "complete_correct_route"
+    },
+    {
+      "chain_id": "showcase_portrait_03",
+      "topology": "fork",
+      "planned_turns": 3,
+      "completed_turns": 3,
+      "completed": true,
+      "selection_errors": [],
+      "selection_attempts": 3,
+      "selection_error_count": 0,
+      "failure": null,
+      "group": "complete_correct_route"
+    },
+    {
+      "chain_id": "showcase_portrait_04",
+      "topology": "fork",
+      "planned_turns": 3,
+      "completed_turns": 3,
+      "completed": true,
+      "selection_errors": [],
+      "selection_attempts": 3,
+      "selection_error_count": 0,
+      "failure": null,
+      "group": "complete_correct_route"
+    },
+    {
+      "chain_id": "showcase_portrait_05",
+      "topology": "fork",
+      "planned_turns": 3,
+      "completed_turns": 3,
+      "completed": true,
+      "selection_errors": [],
+      "selection_attempts": 3,
+      "selection_error_count": 0,
+      "failure": null,
+      "group": "complete_correct_route"
+    }
+  ],
+  "groups": {
+    "complete_correct_route": 5
+  },
+  "planned_chains": 5,
+  "completed_chains": 5,
+  "note": "Wrong-source complete chains remain eligible for quality scoring against original targets. Incomplete chains retain all records but are not counted as complete-chain quality samples. No semantic regeneration."
+}

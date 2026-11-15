@@ -1,0 +1,114 @@
+{
+  "mode": "closed_loop",
+  "job": "205167",
+  "started_unix": 1794743149.9445407,
+  "status": "finished_workers",
+  "dataset": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/showcase_portrait_action_outfit_scene_20261115/chains.jsonl",
+  "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/memory_comparison/closed_loop_A.json",
+  "gpus": 4,
+  "limit": null,
+  "children": [
+    {
+      "kind": "ltx",
+      "rank": 0,
+      "device": "1",
+      "pid": 2942240,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait5_20261115_run/queues/job_205167_pair_0",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+        "--steps",
+        "40",
+        "--ref-cfg",
+        "1.0"
+      ]
+    },
+    {
+      "kind": "ltx",
+      "rank": 1,
+      "device": "3",
+      "pid": 2942241,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/common/run_trainer_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/scripts/inference/editing_tool_worker.py",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait5_20261115_run/queues/job_205167_pair_1",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+        "--checkpoint",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+        "--steps",
+        "40",
+        "--ref-cfg",
+        "1.0"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 0,
+      "device": "0",
+      "pid": 2942244,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "closed_loop",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/showcase_portrait_action_outfit_scene_20261115/chains.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/memory_comparison/closed_loop_A.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait5_20261115_run",
+        "--rank",
+        "0",
+        "--world-size",
+        "2",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait5_20261115_run/queues/job_205167_pair_0"
+      ]
+    },
+    {
+      "kind": "qwen",
+      "rank": 1,
+      "device": "2",
+      "pid": 2942245,
+      "command": [
+        "bash",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/run_gpu_python.sh",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/scripts/editing_agent/run_worker.py",
+        "--mode",
+        "closed_loop",
+        "--dataset",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/showcase_portrait_action_outfit_scene_20261115/chains.jsonl",
+        "--config",
+        "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/memory_comparison/closed_loop_A.json",
+        "--output",
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait5_20261115_run",
+        "--rank",
+        "1",
+        "--world-size",
+        "2",
+        "--queue",
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait5_20261115_run/queues/job_205167_pair_1"
+      ]
+    }
+  ],
+  "qwen_exit_codes": [
+    0,
+    0
+  ],
+  "case_counts": {
+    "selected": 5,
+    "ok": 5,
+    "errors": 0
+  },
+  "ended_unix": 1794748101.3894062
+}
