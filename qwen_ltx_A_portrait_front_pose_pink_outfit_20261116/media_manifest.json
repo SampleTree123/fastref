@@ -1,0 +1,156 @@
+{
+  "media": [
+    {
+      "path": "media/b023a498814d38bb5986f381df2c09a8f46f9dc1ee1447f38c5de3330ce8acb8.mp4",
+      "sha256": "b023a498814d38bb5986f381df2c09a8f46f9dc1ee1447f38c5de3330ce8acb8",
+      "bytes": 23584937,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6793.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6793.mp4"
+      ]
+    },
+    {
+      "path": "media/8a4e51a6be49ffb3eb595e53b4c185a5c723cb13a411c070b0d35adebae648c7.mp4",
+      "sha256": "8a4e51a6be49ffb3eb595e53b4c185a5c723cb13a411c070b0d35adebae648c7",
+      "bytes": 4205059,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_612.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_612.mp4"
+      ]
+    },
+    {
+      "path": "media/a9062b80b1bfbdc2dac5113e3b252dc41bf2c3332d68a3dfbe0c813e2f5ff868.mp4",
+      "sha256": "a9062b80b1bfbdc2dac5113e3b252dc41bf2c3332d68a3dfbe0c813e2f5ff868",
+      "bytes": 4517055,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_front_pose_pink_outfit_20261116_run/cases/showcase_portrait_front_pose_pink_outfit/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_front_pose_pink_outfit_20261116_run/cases/showcase_portrait_front_pose_pink_outfit/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/af4c1b2fcb091bc64546e8e6f1ba14e449cc030e6b6cb756bf029fa2174b54a5.mp4",
+      "sha256": "af4c1b2fcb091bc64546e8e6f1ba14e449cc030e6b6cb756bf029fa2174b54a5",
+      "bytes": 19951379,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6796.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6796.mp4"
+      ]
+    },
+    {
+      "path": "media/9a82f9c12117094a780bf3df3216f2d25b35be9b1a8ca0edad937de54e4c7d5f.mp4",
+      "sha256": "9a82f9c12117094a780bf3df3216f2d25b35be9b1a8ca0edad937de54e4c7d5f",
+      "bytes": 3762137,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_front_pose_pink_outfit_20261116_run/cases/showcase_portrait_front_pose_pink_outfit/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_front_pose_pink_outfit_20261116_run/cases/showcase_portrait_front_pose_pink_outfit/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/ce91212c28eb9c13baeafff4939ec7b5cc6fb6d21cd0ac92f490fe88cea52215.png",
+      "sha256": "ce91212c28eb9c13baeafff4939ec7b5cc6fb6d21cd0ac92f490fe88cea52215",
+      "bytes": 876061,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_855.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_855.png"
+      ]
+    },
+    {
+      "path": "media/cd5a9ec72a83b09c827e1c5ff6935ce88c440e9f562c3571cddb2ac4ef686b56.png",
+      "sha256": "cd5a9ec72a83b09c827e1c5ff6935ce88c440e9f562c3571cddb2ac4ef686b56",
+      "bytes": 868338,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_856.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_856.png"
+      ]
+    },
+    {
+      "path": "media/7c96ec12ca9ad4f4bfb65bba2ecef4e0f7f1433c406820056ec9b58f53cbcbc0.mp4",
+      "sha256": "7c96ec12ca9ad4f4bfb65bba2ecef4e0f7f1433c406820056ec9b58f53cbcbc0",
+      "bytes": 4943265,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_front_pose_pink_outfit_20261116_run/cases/showcase_portrait_front_pose_pink_outfit/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_front_pose_pink_outfit_20261116_run/cases/showcase_portrait_front_pose_pink_outfit/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/818a2ef184b574ece54100ab1ba75b73162d7bc48ea4aa72b1101a70430da0fb.mp4",
+      "sha256": "818a2ef184b574ece54100ab1ba75b73162d7bc48ea4aa72b1101a70430da0fb",
+      "bytes": 20573302,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6798.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6798.mp4"
+      ]
+    }
+  ],
+  "inspection": {
+    "media/b023a498814d38bb5986f381df2c09a8f46f9dc1ee1447f38c5de3330ce8acb8.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/8a4e51a6be49ffb3eb595e53b4c185a5c723cb13a411c070b0d35adebae648c7.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/a9062b80b1bfbdc2dac5113e3b252dc41bf2c3332d68a3dfbe0c813e2f5ff868.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/af4c1b2fcb091bc64546e8e6f1ba14e449cc030e6b6cb756bf029fa2174b54a5.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/9a82f9c12117094a780bf3df3216f2d25b35be9b1a8ca0edad937de54e4c7d5f.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/ce91212c28eb9c13baeafff4939ec7b5cc6fb6d21cd0ac92f490fe88cea52215.png": {
+      "kind": "image"
+    },
+    "media/cd5a9ec72a83b09c827e1c5ff6935ce88c440e9f562c3571cddb2ac4ef686b56.png": {
+      "kind": "image"
+    },
+    "media/7c96ec12ca9ad4f4bfb65bba2ecef4e0f7f1433c406820056ec9b58f53cbcbc0.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/818a2ef184b574ece54100ab1ba75b73162d7bc48ea4aa72b1101a70430da0fb.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    }
+  }
+}

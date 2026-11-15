@@ -1,0 +1,189 @@
+{
+  "schema": "qwen_ltx_fork_gallery_v1",
+  "created_at": "2026-11-16T06:24:01.481812+08:00",
+  "source_run": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_portrait_front_pose_pink_outfit_20261116_run",
+  "dataset": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/showcase_portrait_front_pose_pink_outfit_20261116/chains.jsonl",
+  "dataset_sha256": "b4b21061249b63e40b5779151506725260f33e07f1bbd8f2f912c95db1507534",
+  "labels_sha256": "d7ca771ec4d2531a5aaa238fc50b5933297b3abc06851de21e4cb007f1bd8aeb",
+  "statistics": {
+    "complete_chains": 1,
+    "partial_chains": 0,
+    "complete_chain_turns": 3,
+    "partial_chain_turns": 0,
+    "saved_turns": 3,
+    "route_errors": 0,
+    "unique_media": 9,
+    "media_bytes": 83281533,
+    "transfer_methods": {
+      "hardlink": 9
+    }
+  },
+  "chains": [
+    {
+      "id": "showcase_portrait_front_pose_pink_outfit",
+      "status": "complete",
+      "saved_status": "completed",
+      "planned_turns": 3,
+      "completed_turns": 3,
+      "selection_kind": "explicit_id",
+      "root": "media/b023a498814d38bb5986f381df2c09a8f46f9dc1ee1447f38c5de3330ce8acb8.mp4",
+      "state_sha256": "734af2ff96f2293b01ff5df7bb83db04a62c0aa7ddc4a68bf4e168b86cc794b7",
+      "turns": [
+        {
+          "id": 1,
+          "parent": 0,
+          "expected_parent": 0,
+          "axis": "action",
+          "axis_zh": "动作",
+          "selection_kind": "normal_continue",
+          "edge_id": 28453,
+          "source_node_id": 6793,
+          "target_node_id": 6796,
+          "user_prompt": "Start from the original video (video 0). Change the person's action to the posing motion demonstrated in the reference video. Transfer only the demonstrated movement and poses. Preserve the person's identity, hairstyle, chestnut-brown hair color, outfit, scene, and front full-body camera framing.",
+          "prompt_zh": "从原视频开始，把动作改为同镜头参考中的摆姿势，其他保持。",
+          "editing_prompt": "Change the person's action to the posing motion demonstrated in the reference video. Transfer only the demonstrated movement and poses. Preserve the person's identity, hairstyle, chestnut-brown hair color, outfit, scene, and front full-body camera framing.",
+          "output": "media/a9062b80b1bfbdc2dac5113e3b252dc41bf2c3332d68a3dfbe0c813e2f5ff868.mp4",
+          "ground_truth": "media/af4c1b2fcb091bc64546e8e6f1ba14e449cc030e6b6cb756bf029fa2174b54a5.mp4",
+          "references": [
+            {
+              "reference_id": "ref_1",
+              "type": "motion",
+              "view": "",
+              "path": "media/8a4e51a6be49ffb3eb595e53b4c185a5c723cb13a411c070b0d35adebae648c7.mp4"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "expected_parent": 1,
+          "axis": "hair_color",
+          "axis_zh": "发色",
+          "selection_kind": "normal_continue",
+          "edge_id": null,
+          "source_node_id": 6796,
+          "target_node_id": null,
+          "user_prompt": "Continue from the result of the action edit (video 1). Change the person's hair color to pink. Preserve the hairstyle and posing action, along with the person's identity, outfit, scene, and camera.",
+          "prompt_zh": "在第一次实际生成结果上把栗色头发改成粉色，保留摆姿势及其他内容。",
+          "editing_prompt": "Change the person's hair color to pink. Preserve the hairstyle, posing action, the person's identity, outfit, scene, and camera exactly as in the source video.",
+          "output": "media/9a82f9c12117094a780bf3df3216f2d25b35be9b1a8ca0edad937de54e4c7d5f.mp4",
+          "ground_truth": null,
+          "references": []
+        },
+        {
+          "id": 3,
+          "parent": 0,
+          "expected_parent": 0,
+          "axis": "wardrobe",
+          "axis_zh": "服装",
+          "selection_kind": "explicit_id",
+          "edge_id": 28455,
+          "source_node_id": 6793,
+          "target_node_id": 6798,
+          "user_prompt": "Return to the original video (video 0), before the posing and pink-hair edits. Replace the person's complete outfit with the top, skirt, and boots shown in the reference images. The first image shows the front and the second shows the back of the same outfit. Replace the existing outfit rather than layering new clothes over it. Preserve all non-clothing aspects of the original video, including the chestnut-brown hair, walking action, scene, and front full-body camera framing.",
+          "prompt_zh": "回到原视频，更换参考图中的上衣、半身裙和靴子；保留原来的栗发、行走动作和正面全身镜头。",
+          "editing_prompt": "Replace the person's complete outfit with the top, skirt, and boots shown in the reference images. The first image shows the front and the second shows the back of the same outfit. Replace the existing outfit rather than layering new clothes over it. Preserve all non-clothing aspects of the original video, including the chestnut-brown hair, walking action, scene, and front full-body camera framing.",
+          "output": "media/7c96ec12ca9ad4f4bfb65bba2ecef4e0f7f1433c406820056ec9b58f53cbcbc0.mp4",
+          "ground_truth": "media/818a2ef184b574ece54100ab1ba75b73162d7bc48ea4aa72b1101a70430da0fb.mp4",
+          "references": [
+            {
+              "reference_id": "ref_1",
+              "type": "outfit",
+              "view": "front",
+              "path": "media/ce91212c28eb9c13baeafff4939ec7b5cc6fb6d21cd0ac92f490fe88cea52215.png"
+            },
+            {
+              "reference_id": "ref_2",
+              "type": "outfit",
+              "view": "back",
+              "path": "media/cd5a9ec72a83b09c827e1c5ff6935ce88c440e9f562c3571cddb2ac4ef686b56.png"
+            }
+          ]
+        }
+      ],
+      "observations": {
+        "0": {
+          "action": "She stands facing forward, then walks slowly toward the camera and stops, turning her head to the side at the end.",
+          "camera": "A static, low-angle full-body shot that keeps the subject centered throughout the clip.",
+          "clothing": "A short purple dress with a white abstract pattern, three-quarter sleeves, and cutouts at the shoulders, paired with red sneakers.",
+          "hair_color": "Light brown to blonde, appearing lighter under the scene lighting.",
+          "hairstyle": "Short hair with two small buns or puffs on top of the head.",
+          "identity": "A slender woman with dark skin and a neutral expression, shown in a full-body view.",
+          "scene": "A futuristic setting with a large glass dome, glowing teal ring lights, pink structural framing, and a reflective wet-looking floor under a blue sky."
+        },
+        "1": {
+          "action": "She stands and turns slowly, shifting her weight, placing a hand on her hip, and raising one arm near her head in a posed, dance-like motion.",
+          "camera": "A static full-body shot from a low angle, keeping the figure centered against the background.",
+          "clothing": "She wears a short, form-fitting romper with a blue and white abstract pattern and red sneakers.",
+          "hair_color": "Dark brown to black hair.",
+          "hairstyle": "Her hair is pulled up into a high bun or topknot.",
+          "identity": "A slender woman with dark skin, shown mostly from the back and side, with a slim build and long legs.",
+          "scene": "A futuristic setting with a large glass dome, glowing green circular light rings, pink neon framing, and a reflective dark floor."
+        },
+        "2": {
+          "action": "She stands on a reflective floor, slowly turning her body and raising one arm to touch her hair while posing.",
+          "camera": "Full-body, eye-level shot with a static camera framing the figure from head to toe.",
+          "clothing": "She wears a short, form-fitting dress with a blue and white abstract pattern and red sneakers.",
+          "hair_color": "Bright pink hair.",
+          "hairstyle": "Hair is pulled up into a high bun with short bangs framing the face.",
+          "identity": "A 3D-rendered woman with dark skin and a slim build, shown mostly from behind and in profile.",
+          "scene": "A futuristic setting at night with a large glass dome, glowing green circular light rings, and pink neon accents behind her."
+        },
+        "3": {
+          "action": "She stands facing the camera, then walks forward a few steps toward the viewer before stopping and turning her head to her left.",
+          "camera": "A static, low-angle full-body shot that keeps the character centered from head to toe.",
+          "clothing": "She wears a bright pink long-sleeved top with a square neckline, a matching pink pleated mini skirt with a white waistband and hem, and dark lace-up platform boots.",
+          "hair_color": "Light brown.",
+          "hairstyle": "Her hair is pulled up into two small buns on top of her head with straight bangs across her forehead.",
+          "identity": "A 3D-rendered young woman with a slim build and light brown skin, shown in a full-body view.",
+          "scene": "A futuristic outdoor plaza at dusk with a glossy reflective floor, a large glass dome structure behind her, and glowing teal and pink neon rings and lines."
+        }
+      },
+      "run_config": {
+        "evaluation": {
+          "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+          "maximum_generation_attempts_per_turn": 1,
+          "quality_failure_policy": "save_actual_output_and_continue",
+          "qwen_training": false,
+          "scope_selection": "launcher_dataset_argument",
+          "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+        },
+        "generation_acceptance": "completed_media",
+        "include_review_in_selection": false,
+        "ltx": {
+          "cfg_scale": 3.0,
+          "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+          "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+          "guidance_rescale": 0.7,
+          "ref_cfg": 1.0,
+          "steps": 40,
+          "stg_blocks": [
+            28
+          ],
+          "stg_scale": 1.0
+        },
+        "max_corrections": 1,
+        "max_generation_retries": 0,
+        "max_inspect_calls": 1,
+        "max_inspect_videos": 3,
+        "observe_edit_references": false,
+        "observe_review_references": false,
+        "qwen_max_new_tokens": 1536,
+        "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+        "schema": "datamake_editing_agent_v1",
+        "seed": 42,
+        "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+      },
+      "route_errors": 0
+    }
+  ],
+  "posters": {
+    "media/b023a498814d38bb5986f381df2c09a8f46f9dc1ee1447f38c5de3330ce8acb8.mp4": "posters/b023a498814d38bb5986f381df2c09a8f46f9dc1ee1447f38c5de3330ce8acb8.jpg",
+    "media/8a4e51a6be49ffb3eb595e53b4c185a5c723cb13a411c070b0d35adebae648c7.mp4": "posters/8a4e51a6be49ffb3eb595e53b4c185a5c723cb13a411c070b0d35adebae648c7.jpg",
+    "media/a9062b80b1bfbdc2dac5113e3b252dc41bf2c3332d68a3dfbe0c813e2f5ff868.mp4": "posters/a9062b80b1bfbdc2dac5113e3b252dc41bf2c3332d68a3dfbe0c813e2f5ff868.jpg",
+    "media/af4c1b2fcb091bc64546e8e6f1ba14e449cc030e6b6cb756bf029fa2174b54a5.mp4": "posters/af4c1b2fcb091bc64546e8e6f1ba14e449cc030e6b6cb756bf029fa2174b54a5.jpg",
+    "media/9a82f9c12117094a780bf3df3216f2d25b35be9b1a8ca0edad937de54e4c7d5f.mp4": "posters/9a82f9c12117094a780bf3df3216f2d25b35be9b1a8ca0edad937de54e4c7d5f.jpg",
+    "media/7c96ec12ca9ad4f4bfb65bba2ecef4e0f7f1433c406820056ec9b58f53cbcbc0.mp4": "posters/7c96ec12ca9ad4f4bfb65bba2ecef4e0f7f1433c406820056ec9b58f53cbcbc0.jpg",
+    "media/818a2ef184b574ece54100ab1ba75b73162d7bc48ea4aa72b1101a70430da0fb.mp4": "posters/818a2ef184b574ece54100ab1ba75b73162d7bc48ea4aa72b1101a70430da0fb.jpg"
+  }
+}
