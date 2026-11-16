@@ -1,0 +1,436 @@
+{
+  "updated": "2026-11-16T20:08:17.929776+08:00",
+  "chain_id": "showcase_outfit_camera_scene_01",
+  "models": {
+    "ltx_A": {
+      "status": "completed",
+      "completed_turns": 3,
+      "turns": [
+        {
+          "video_id": 1,
+          "parent_id": 0,
+          "expected_parent_id": 0,
+          "video": "media/3885df97c41ffcb01f19.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+            "output_video_id": 1,
+            "reference_ids": [
+              "ref_1",
+              "ref_2"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 0,
+            "user_prompt": "Start from the original video (video 0). Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view."
+          }
+        },
+        {
+          "video_id": 2,
+          "parent_id": 1,
+          "expected_parent_id": 1,
+          "video": "media/c9ef392ecd2e8733c955.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+            "output_video_id": 2,
+            "reference_ids": [
+              "ref_1"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 1,
+            "user_prompt": "Continue editing the outfit-change result (video 1). Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video."
+          }
+        },
+        {
+          "video_id": 3,
+          "parent_id": 1,
+          "expected_parent_id": 1,
+          "video": "media/40ef274bf8633f808877.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+            "output_video_id": 3,
+            "reference_ids": [
+              "ref_1"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 1,
+            "user_prompt": "Return to the outfit-change result (video 1), before the camera edit. Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement."
+          }
+        }
+      ]
+    },
+    "ltx_base": {
+      "status": "completed",
+      "completed_turns": 3,
+      "turns": [
+        {
+          "video_id": 1,
+          "parent_id": 0,
+          "expected_parent_id": 0,
+          "video": "media/9d95937bd11bf28f95c5.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+            "output_video_id": 1,
+            "reference_ids": [
+              "ref_1",
+              "ref_2"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 0,
+            "user_prompt": "Start from the original video (video 0). Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view."
+          }
+        },
+        {
+          "video_id": 2,
+          "parent_id": 1,
+          "expected_parent_id": 1,
+          "video": "media/2aab8fc9aed92e287cb6.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+            "output_video_id": 2,
+            "reference_ids": [
+              "ref_1"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 1,
+            "user_prompt": "Continue editing the outfit-change result (video 1). Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video."
+          }
+        },
+        {
+          "video_id": 3,
+          "parent_id": 1,
+          "expected_parent_id": 1,
+          "video": "media/c4d6b7c1abe937edeef1.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+            "output_video_id": 3,
+            "reference_ids": [
+              "ref_1"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 1,
+            "user_prompt": "Return to the outfit-change result (video 1), before the camera edit. Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement."
+          }
+        }
+      ]
+    },
+    "vace": {
+      "status": "completed",
+      "completed_turns": 3,
+      "turns": [
+        {
+          "video_id": 1,
+          "parent_id": 0,
+          "expected_parent_id": 0,
+          "video": "media/8952a14c45b8d824b2c0.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+            "output_video_id": 1,
+            "reference_ids": [
+              "ref_1",
+              "ref_2"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 0,
+            "user_prompt": "Start from the original video (video 0). Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view."
+          }
+        },
+        {
+          "video_id": 2,
+          "parent_id": 1,
+          "expected_parent_id": 1,
+          "video": "media/c1b6be0d3a8c14d88309.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+            "output_video_id": 2,
+            "reference_ids": [
+              "ref_1"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 1,
+            "user_prompt": "Continue editing the outfit-change result (video 1). Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video."
+          }
+        },
+        {
+          "video_id": 3,
+          "parent_id": 1,
+          "expected_parent_id": 1,
+          "video": "media/bbfd0a037d13472b8ad5.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+            "output_video_id": 3,
+            "reference_ids": [
+              "ref_1"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 1,
+            "user_prompt": "Return to the outfit-change result (video 1), before the camera edit. Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement."
+          }
+        }
+      ]
+    },
+    "h3": {
+      "status": "completed",
+      "completed_turns": 3,
+      "turns": [
+        {
+          "video_id": 1,
+          "parent_id": 0,
+          "expected_parent_id": 0,
+          "video": "media/14cf6555041380a6b836.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+            "output_video_id": 1,
+            "reference_ids": [
+              "ref_1",
+              "ref_2"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 0,
+            "user_prompt": "Start from the original video (video 0). Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, and the footwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view."
+          }
+        },
+        {
+          "video_id": 2,
+          "parent_id": 1,
+          "expected_parent_id": 1,
+          "video": "media/cadcb1dbb02735ebbb12.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+            "output_video_id": 2,
+            "reference_ids": [
+              "ref_1"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 1,
+            "user_prompt": "Continue editing the outfit-change result (video 1). Using the provided source video, apply the following edit: Please switch the camera setup to an upper-body shot from the front. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video."
+          }
+        },
+        {
+          "video_id": 3,
+          "parent_id": 1,
+          "expected_parent_id": 1,
+          "video": "media/1fa2d29b9831b1dd390a.mp4",
+          "edit": {
+            "accepted_retry": 0,
+            "editing_prompt": "Replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+            "output_video_id": 3,
+            "reference_ids": [
+              "ref_1"
+            ],
+            "review": {
+              "fulfillment": "uncertain",
+              "observed_change": "Recorded independently in video card.",
+              "requested_change": "Replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+              "uncertain": [
+                "Editing quality not judged during this evaluation."
+              ],
+              "unexpected_changes": []
+            },
+            "source_video_id": 1,
+            "user_prompt": "Return to the outfit-change result (video 1), before the camera edit. Using the provided source video, apply the following edit: Please replace the scene in the video with the environment shown in the reference image. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement."
+          }
+        }
+      ]
+    }
+  },
+  "assets": {
+    "media/1a4c7557ac86a20ad804.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6375.mp4",
+      "sha256": "1a4c7557ac86a20ad804ad2ec0b470930b91b8bedf71cb607e1f092f8fb4b723",
+      "bytes": 15575410
+    },
+    "media/3885df97c41ffcb01f19.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_outfit_camera_scene_20261116_run/cases/showcase_outfit_camera_scene_01/turn_01/generation/edited.mp4",
+      "sha256": "3885df97c41ffcb01f1955a03055f2c0d554d9d5178646aa841655f177229433",
+      "bytes": 5251312
+    },
+    "media/c9ef392ecd2e8733c955.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_outfit_camera_scene_20261116_run/cases/showcase_outfit_camera_scene_01/turn_02/generation/edited.mp4",
+      "sha256": "c9ef392ecd2e8733c9553861aa601481291625027a9c1e5e7a95da3313da09ea",
+      "bytes": 5702659
+    },
+    "media/40ef274bf8633f808877.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_outfit_camera_scene_20261116_run/cases/showcase_outfit_camera_scene_01/turn_03/generation/edited.mp4",
+      "sha256": "40ef274bf8633f808877fc6cc3dcca836cc65a67f5d966afbc744274f5ca55ac",
+      "bytes": 9551815
+    },
+    "media/9d95937bd11bf28f95c5.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/outfit_camera_scene_four_models_20261116/ltx_base/cases/showcase_outfit_camera_scene_01/turn_01/generation/edited.mp4",
+      "sha256": "9d95937bd11bf28f95c5ee00ca54974d75b6f95f3adf40a5aa4ea607ef12cc18",
+      "bytes": 5662753
+    },
+    "media/2aab8fc9aed92e287cb6.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/outfit_camera_scene_four_models_20261116/ltx_base/cases/showcase_outfit_camera_scene_01/turn_02/generation/edited.mp4",
+      "sha256": "2aab8fc9aed92e287cb60ce601008c9caede7de45e5904735af10a2027642cac",
+      "bytes": 4355146
+    },
+    "media/c4d6b7c1abe937edeef1.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/outfit_camera_scene_four_models_20261116/ltx_base/cases/showcase_outfit_camera_scene_01/turn_03/generation/edited.mp4",
+      "sha256": "c4d6b7c1abe937edeef15c9cac6100bcf8f5b4561953b785278bf02fa80a2cd0",
+      "bytes": 4302259
+    },
+    "media/8952a14c45b8d824b2c0.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/outfit_camera_scene_four_models_20261116/vace/cases/showcase_outfit_camera_scene_01/turn_01/generation/output.mp4",
+      "sha256": "8952a14c45b8d824b2c0e42dd0f2597bc09ddf4533cbaaeaa725c56de30146e2",
+      "bytes": 5244776
+    },
+    "media/c1b6be0d3a8c14d88309.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/outfit_camera_scene_four_models_20261116/vace/cases/showcase_outfit_camera_scene_01/turn_02/generation/output.mp4",
+      "sha256": "c1b6be0d3a8c14d8830997276a013ee9837408bc73a956b1dd0fc5d5e0d610e2",
+      "bytes": 5052528
+    },
+    "media/bbfd0a037d13472b8ad5.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/outfit_camera_scene_four_models_20261116/vace/cases/showcase_outfit_camera_scene_01/turn_03/generation/output.mp4",
+      "sha256": "bbfd0a037d13472b8ad58af9c3abd48f821a6157df286bdd94220d382f68ccff",
+      "bytes": 11012714
+    },
+    "media/14cf6555041380a6b836.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/outfit_camera_scene_four_models_20261116/h3/cases/showcase_outfit_camera_scene_01/turn_01/generation/output.mp4",
+      "sha256": "14cf6555041380a6b8366e4197d419f89dd599b829dbb45a59df72e6838f270c",
+      "bytes": 2841993
+    },
+    "media/cadcb1dbb02735ebbb12.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/outfit_camera_scene_four_models_20261116/h3/cases/showcase_outfit_camera_scene_01/turn_02/generation/output.mp4",
+      "sha256": "cadcb1dbb02735ebbb12ab60a60b2604bca3590c32e3162dd5927709ba003285",
+      "bytes": 2547677
+    },
+    "media/1fa2d29b9831b1dd390a.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/outfit_camera_scene_four_models_20261116/h3/cases/showcase_outfit_camera_scene_01/turn_03/generation/output.mp4",
+      "sha256": "1fa2d29b9831b1dd390ab26b5973c98152ee0a72c336484f97c3b70b6b783635",
+      "bytes": 3457767
+    },
+    "media/21904fda34dbed7effa6.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6373.mp4",
+      "sha256": "21904fda34dbed7effa60cde465858efaad7f9e9ed20395c68e73036757e9ba5",
+      "bytes": 15712661
+    },
+    "media/f92aad6117cb97928ae4.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6391.mp4",
+      "sha256": "f92aad6117cb97928ae43b887e69cdecfe4f07b22ccea5bcc4a59d9a797f2870",
+      "bytes": 16149448
+    },
+    "media/921641d5e1c7234beca7.mp4": {
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_6392.mp4",
+      "sha256": "921641d5e1c7234beca73f6b26621266399d30844be564c91830073d240410ab",
+      "bytes": 20722081
+    },
+    "media/c59d31c1574af7012c26.png": {
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_723.png",
+      "sha256": "c59d31c1574af7012c260811f165cbe9cdfb3979c7b2924d808d95af072c0226",
+      "bytes": 1051614
+    },
+    "media/2146e2126aee7fcf2f01.png": {
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_724.png",
+      "sha256": "2146e2126aee7fcf2f01daf9e920f7ae7c99de5932d3aa1eab4d2240607530f6",
+      "bytes": 1060561
+    },
+    "media/98886eec386d479b22c5.png": {
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/camera/images/camera_b9cdc79caee9c8cbd57779fd1bce8f7a511399bf8480f0c1c80d29d8de664ea9.png",
+      "sha256": "98886eec386d479b22c5f74b629b5e623a6d41c7c14afd052cf73946209399fa",
+      "bytes": 2764222
+    },
+    "media/45c82a1f9738f65880e6.png": {
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/scene/scenes/scene_789.png",
+      "sha256": "45c82a1f9738f65880e6c65c7a7a94f9eeb6d0317be4defeedd013d6a95ce860",
+      "bytes": 4071667
+    }
+  }
+}
