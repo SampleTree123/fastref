@@ -1,0 +1,157 @@
+{
+  "id": "showcase_bright_portrait_04",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": "explicit_id",
+  "root": "media/5037369dc40a975acbbecb29ff1d66f3b9f81ea25fa38b222ef1c5721c4e22a9.mp4",
+  "state_sha256": "2bb79f32da9be8dfe797414de182487ed56e0e69a6b0f2ebfccc864b9488b310",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": null,
+      "source_node_id": 4663,
+      "target_node_id": null,
+      "user_prompt": "Start from the original video (video 0). Change the person's action to the posing motion demonstrated in the reference video. Transfer only the demonstrated movement and poses. Keep the person's identity, hairstyle, hair color, outfit, scene, and camera framing and movement unchanged.",
+      "prompt_zh": "从原视频改为参考中的摆姿势，保留其他内容。",
+      "editing_prompt": "Change the person's action to the posing motion demonstrated in the reference video. Transfer only the demonstrated movement and poses. Keep the person's identity, hairstyle, hair color, outfit, scene, and camera framing and movement unchanged.",
+      "output": "media/d9c8015e317e65374cd9d3a89fe1da1084949a8188bc17fff8332f62cb61f123.mp4",
+      "ground_truth": null,
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/06eae956cdcaee366971c93933347bf17e0b07e8c574628062503b786ead6993.mp4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": null,
+      "source_node_id": null,
+      "target_node_id": null,
+      "user_prompt": "Continue from the result of the action edit (video 1). Change the person's hair color to pink. Preserve the hairstyle and posing action, along with the person's identity, outfit, scene, and camera.",
+      "prompt_zh": "在第一次实际生成结果上把头发改成粉色，保留摆姿势。",
+      "editing_prompt": "Change the person's hair color to pink. Preserve the hairstyle, posing action, the person's identity, outfit, scene, and camera exactly as in the source video.",
+      "output": "media/05b5c7434520d4989e1c26a20dedbd5725fdb4c55718198f9ceb87847156c1fe.mp4",
+      "ground_truth": null,
+      "references": []
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "explicit_id",
+      "edge_id": null,
+      "source_node_id": 4663,
+      "target_node_id": null,
+      "user_prompt": "Return to the original video (video 0), before the posing and pink-hair edits. Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the bottoms and the top, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. Remove the current footwear and leave the person barefoot. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "回到原视频再换参考中的整套穿搭，保留原发色和原动作。",
+      "editing_prompt": "Replace the person's entire outfit with the complete target outfit shown in the reference images: the first reference image shows the front view of the complete outfit, and the second shows its back view. Apply the matching top and bottoms from these references, preserving their design, fit, and details from both the front and back views. Keep only the clothing belonging to this target outfit. Remove the current footwear and leave the person barefoot. Leave all non-clothing aspects of the person and the scene unchanged.",
+      "output": "media/a8035d137cccca5240eca722691a120ce24c12315d0d23dca9aaaccc923502c1.mp4",
+      "ground_truth": null,
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/8f4f73aa150a05eeeb685da004322ea395e17b1414c7dad3e0618a8b51755236.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/9248e2a8ef1958c885cdca862e8d08faa5a58d7c47ce238e4de9f0ceaf748410.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands facing the camera, then raises both arms with clenched fists, lifts one leg, and finally spreads her arms wide before returning to a standing pose.",
+      "camera": "A static, medium-full shot that frames the character from the head to the feet against the background.",
+      "clothing": "A blue floral-patterned bra top with pink flowers and pink metallic shorts; she is barefoot.",
+      "hair_color": "White",
+      "hairstyle": "White hair styled in a high side ponytail with straight bangs across the forehead.",
+      "identity": "A 3D-rendered female character with a fair complexion, slender build, and visible facial features including eyes, nose, and lips.",
+      "scene": "An outdoor cobblestone area in a fantasy setting, with wooden buildings, hanging triangular flags, and a large stone castle on a misty cliff in the background."
+    },
+    "1": {
+      "action": "The character turns from a side profile to face away, then rotates to face the camera while posing with hands on hips and touching her hair.",
+      "camera": "A static medium-full shot at eye level that keeps the character centered against the background.",
+      "clothing": "A teal and black cutout crop top, shiny pink shorts, and one pink sneaker on the left foot while the right foot is bare.",
+      "hair_color": "White.",
+      "hairstyle": "White hair in a short bob with a small bun at the back of the head.",
+      "identity": "A slender 3D-rendered female character with pale skin, shown from the side and back.",
+      "scene": "A cobblestone courtyard in a fantasy setting with wooden buildings, hanging pennant flags, and a large stone fortress on a cliff in the hazy distance."
+    },
+    "2": {
+      "action": "The character stands on a cobblestone surface, turning from a side view to face away, then rotating to face the camera while posing with hands on hips and adjusting her hair.",
+      "camera": "A static medium-full shot at roughly waist-to-head height, keeping the character centered against the background.",
+      "clothing": "A teal and black strappy crop top with a floral pattern on the front, shiny pink shorts, and one white sneaker on the left foot while the right foot is bare.",
+      "hair_color": "Bright pink.",
+      "hairstyle": "Short pink hair with a small bun or topknot at the back and a long side strand.",
+      "identity": "A slender 3D-rendered female character with fair skin, shown in profile and then from behind and front.",
+      "scene": "An outdoor fantasy village with wooden buildings, pennant banners, and a large stone fortress on a misty hillside behind the character."
+    },
+    "3": {
+      "action": "The character stands still, then raises both arms with clenched fists and begins to dance, kicking one leg up and spreading her arms wide before returning to a standing pose.",
+      "camera": "A static, medium-full shot that frames the character from the head down to the ankles, keeping her centered in the frame.",
+      "clothing": "A tight-fitting, long-sleeved jumpsuit with a high collar, featuring a vibrant, abstract pattern in orange, blue, yellow, pink, and green.",
+      "hair_color": "White.",
+      "hairstyle": "Long, straight hair styled in a high side ponytail with straight bangs across the forehead.",
+      "identity": "A 3D-rendered female character with a fair complexion, slender build, and a neutral facial expression.",
+      "scene": "An outdoor, cobblestone courtyard in a fantasy setting, with stone buildings, a large castle on a cliff in the background, and a tree branch visible in the upper right corner."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

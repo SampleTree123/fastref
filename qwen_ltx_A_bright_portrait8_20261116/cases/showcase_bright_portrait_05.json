@@ -1,0 +1,157 @@
+{
+  "id": "showcase_bright_portrait_05",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": "explicit_id",
+  "root": "media/bb263573c41141e836d60ba7eb0b7d818b5852755da87dd1a12d89f31034cac8.mp4",
+  "state_sha256": "b86ab964c421e040a821fd86bd9f683607c8a56324ae923468cc668b8277ae63",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": null,
+      "source_node_id": 3828,
+      "target_node_id": null,
+      "user_prompt": "Start from the original video (video 0). Change the person's action to the posing motion demonstrated in the reference video. Transfer only the demonstrated movement and poses. Keep the person's identity, hairstyle, hair color, outfit, scene, and camera framing and movement unchanged.",
+      "prompt_zh": "从原视频改为参考中的摆姿势，保留其他内容。",
+      "editing_prompt": "Change the person's action to the posing motion demonstrated in the reference video. Transfer only the demonstrated movement and poses. Keep the person's identity, hairstyle, hair color, outfit, scene, and camera framing and movement unchanged.",
+      "output": "media/f400acee8cad6cc1b5d6772553e102f41a79a16cb832c26d9fd12fa46c534c23.mp4",
+      "ground_truth": null,
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/a526ec3673474f6f415bb0cd78227f6c3eb6492073d0b0a64daf1fde2ce10901.mp4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": null,
+      "source_node_id": null,
+      "target_node_id": null,
+      "user_prompt": "Continue from the result of the action edit (video 1). Change the person's hair color to pink. Preserve the hairstyle and posing action, along with the person's identity, outfit, scene, and camera.",
+      "prompt_zh": "在第一次实际生成结果上把头发改成粉色，保留摆姿势。",
+      "editing_prompt": "Change the person's hair color to pink. Preserve the hairstyle, posing action, the person's identity, outfit, scene, and camera exactly as in the source video.",
+      "output": "media/d5d62ce986c4d7265f2bdab89915c40b48d629b36b99652e9d35d55ba0c280c9.mp4",
+      "ground_truth": null,
+      "references": []
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "explicit_id",
+      "edge_id": null,
+      "source_node_id": 3828,
+      "target_node_id": null,
+      "user_prompt": "Return to the original video (video 0), before the posing and pink-hair edits. Using the provided source video, apply the following edit: I'd like to replace the person's whole outfit with the top, the bottoms, and the footwear, as shown from the front and back in the reference images. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "回到原视频再换参考中的整套穿搭，保留原发色和原动作。",
+      "editing_prompt": "Replace the person's whole outfit with the top, bottoms, and footwear shown in the reference images. The first reference image shows the front view of the complete target outfit, and the second shows its back view. Keep only the clothing and footwear belonging to this target outfit, and leave all non-clothing aspects unchanged.",
+      "output": "media/6a416d6bb1c5a94266e0c4db02f5486eca7a33329ae2e01ad3ea19bdcc9e6f5b.mp4",
+      "ground_truth": null,
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/2a67dd7750a574125214b3931e604262791d3577d1a656755dbfd6dbb6f2fb10.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/86a20c24e1e02467bbbd699a0e6e63b18c49cddf7eb88d6810dc9029e2f5eee9.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The man stands still in the center of the frame, initially looking forward, then turning his head to his left and then to his right, with a slight smile.",
+      "camera": "The camera starts with a full-body shot and slowly zooms in to a medium shot, focusing on the man's upper body and face.",
+      "clothing": "A black tuxedo with a white dress shirt, black bow tie, and black vest; the jacket and vest have several white, jagged holes or tears in the fabric.",
+      "hair_color": "Dark brown or black.",
+      "hairstyle": "Short, dark hair styled with a slight quiff at the front.",
+      "identity": "A young adult man with a fair complexion, short dark hair, and a clean-shaven face.",
+      "scene": "A cobblestone street in a European-style town, with brick and stone buildings, a Union Jack flag, and vintage-style street lamps and signs in the background."
+    },
+    "1": {
+      "action": "The man stands in profile, then turns his back to the camera while raising one arm to touch his hair. He then rotates to face forward, adjusting his jacket and bow tie with his hands.",
+      "camera": "A static, medium-full shot from a slightly low angle, keeping the character centered in the frame.",
+      "clothing": "A black tuxedo jacket with silver buttons, a black vest, a white dress shirt, a black bow tie, and black trousers.",
+      "hair_color": "Dark brown or black.",
+      "hairstyle": "Short, dark hair swept upward and back in a quiff style.",
+      "identity": "A 3D-rendered young man with a slim build, light skin, and short dark hair styled upward.",
+      "scene": "A cobblestone street in a European-style town with brick and stone buildings, including a red brick building with a Union Jack flag and a sign reading 'MURDO'S TATTOO SALON'."
+    },
+    "2": {
+      "action": "The character stands in profile, then turns his back to the camera while raising one arm to scratch his head. He then turns back to face forward, adjusting his jacket and bow tie.",
+      "camera": "A static, medium-full shot from a slightly low angle, keeping the character centered in the frame.",
+      "clothing": "A black suit jacket, a black vest, a white dress shirt, a black bow tie, and black trousers.",
+      "hair_color": "Bright pink or magenta.",
+      "hairstyle": "Short, swept-back hair.",
+      "identity": "A 3D-rendered male character with a slim build, pale skin, and a short beard.",
+      "scene": "A cobblestone street in a European-style town, featuring brick and stone buildings, street lamps, and a large Union Jack flag hanging on the left."
+    },
+    "3": {
+      "action": "The man stands still in the center of the frame with his hands clasped in front of him, occasionally shifting his gaze slightly to the side.",
+      "camera": "The camera starts with a full-body shot and slowly zooms in to a medium shot, focusing on the man's upper body and face.",
+      "clothing": "He wears a short-sleeved, open button-up shirt with a yellow-to-orange gradient, over a matching orange turtleneck. He also wears green shorts and black-and-white slip-on shoes.",
+      "hair_color": "Dark brown or black.",
+      "hairstyle": "Short, dark hair styled with a side part and a slight quiff at the front.",
+      "identity": "A young adult man with a fair complexion, short dark hair, and a neutral facial expression.",
+      "scene": "The setting is a cobblestone street in a European-style town, featuring historic stone buildings, a Union Jack flag, and vintage street lamps."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

@@ -1,0 +1,467 @@
+[
+  {
+    "chain_id": "showcase_bright_portrait_01",
+    "root_node_id": 3238,
+    "root_split": "train",
+    "identity": "CFD40_WF_005",
+    "camera": "正面拉远",
+    "scene": "京都小巷",
+    "hairstyle": "Side curly ponytail_long",
+    "hair_color": "黑色",
+    "action": "喘气恢复",
+    "source_attributes": {
+      "sex_id": 1,
+      "identity_id": 35,
+      "hair_id": 15,
+      "hair_color_id": 1,
+      "scene_id": 16,
+      "aspect_id": 2,
+      "action_id": 2,
+      "camera_id": 7,
+      "clothing": {
+        "family_id": 10,
+        "group_id": 15,
+        "skirts": {
+          "clothing_id": 131,
+          "slot": "skirts"
+        },
+        "shirts": {
+          "clothing_id": 135,
+          "slot": "shirts"
+        }
+      }
+    },
+    "motion_reference_id": 17,
+    "motion_attributes": {
+      "action_id": 13,
+      "camera_id": 7,
+      "sex_id": 1,
+      "aspect_id": 2
+    },
+    "target_outfit": "青蓝色上衣与短裤",
+    "outfit_references": [
+      691,
+      692
+    ],
+    "target_clothing_ids": [
+      154,
+      159
+    ],
+    "target_clothing_ids_absent_from_test": true,
+    "planned_gt": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "chain_id": "showcase_bright_portrait_02",
+    "root_node_id": 3251,
+    "root_split": "train",
+    "identity": "CFD40_WF_005",
+    "camera": "正面拉远",
+    "scene": "京都小巷",
+    "hairstyle": "Side curly ponytail_long",
+    "hair_color": "黑色",
+    "action": "喘气恢复",
+    "source_attributes": {
+      "sex_id": 1,
+      "identity_id": 35,
+      "hair_id": 15,
+      "hair_color_id": 1,
+      "scene_id": 16,
+      "aspect_id": 2,
+      "action_id": 2,
+      "camera_id": 7,
+      "clothing": {
+        "family_id": 10,
+        "group_id": 15,
+        "skirts": {
+          "clothing_id": 136,
+          "slot": "skirts"
+        },
+        "shirts": {
+          "clothing_id": 135,
+          "slot": "shirts"
+        }
+      }
+    },
+    "motion_reference_id": 17,
+    "motion_attributes": {
+      "action_id": 13,
+      "camera_id": 7,
+      "sex_id": 1,
+      "aspect_id": 2
+    },
+    "target_outfit": "黑白上衣与白色长裤",
+    "outfit_references": [
+      679,
+      680
+    ],
+    "target_clothing_ids": [
+      112,
+      123
+    ],
+    "target_clothing_ids_absent_from_test": true,
+    "planned_gt": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "chain_id": "showcase_bright_portrait_03",
+    "root_node_id": 4649,
+    "root_split": "train",
+    "identity": "CFD40_WF_004",
+    "camera": "正面拉远",
+    "scene": "中世纪城堡",
+    "hairstyle": "Side straight ponytail",
+    "hair_color": "白色",
+    "action": "打招呼B",
+    "source_attributes": {
+      "sex_id": 1,
+      "identity_id": 34,
+      "hair_id": 16,
+      "hair_color_id": 7,
+      "scene_id": 17,
+      "aspect_id": 2,
+      "action_id": 7,
+      "camera_id": 7,
+      "clothing": {
+        "family_id": 9,
+        "group_id": 13,
+        "shirts": {
+          "clothing_id": 127,
+          "slot": "shirts"
+        },
+        "pants": {
+          "clothing_id": 117,
+          "slot": "pants"
+        }
+      }
+    },
+    "motion_reference_id": 17,
+    "motion_attributes": {
+      "action_id": 13,
+      "camera_id": 7,
+      "sex_id": 1,
+      "aspect_id": 2
+    },
+    "target_outfit": "金色上衣与蓝色长裤",
+    "outfit_references": [
+      575,
+      576
+    ],
+    "target_clothing_ids": [
+      126,
+      129
+    ],
+    "target_clothing_ids_absent_from_test": true,
+    "planned_gt": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "chain_id": "showcase_bright_portrait_04",
+    "root_node_id": 4663,
+    "root_split": "train",
+    "identity": "CFD40_WF_004",
+    "camera": "正面拉远",
+    "scene": "中世纪城堡",
+    "hairstyle": "Side straight ponytail",
+    "hair_color": "白色",
+    "action": "欢呼跳跃",
+    "source_attributes": {
+      "sex_id": 1,
+      "identity_id": 34,
+      "hair_id": 16,
+      "hair_color_id": 7,
+      "scene_id": 17,
+      "aspect_id": 2,
+      "action_id": 23,
+      "camera_id": 7,
+      "clothing": {
+        "family_id": 11,
+        "group_id": 16,
+        "shirts": {
+          "clothing_id": 156,
+          "slot": "shirts"
+        },
+        "pants": {
+          "clothing_id": 158,
+          "slot": "pants"
+        }
+      }
+    },
+    "motion_reference_id": 17,
+    "motion_attributes": {
+      "action_id": 13,
+      "camera_id": 7,
+      "sex_id": 1,
+      "aspect_id": 2
+    },
+    "target_outfit": "彩色上衣与印花长裤",
+    "outfit_references": [
+      657,
+      658
+    ],
+    "target_clothing_ids": [
+      36,
+      44
+    ],
+    "target_clothing_ids_absent_from_test": true,
+    "planned_gt": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "chain_id": "showcase_bright_portrait_05",
+    "root_node_id": 3828,
+    "root_split": "train",
+    "identity": "CFD40_WM_005",
+    "camera": "正面推进",
+    "scene": "维多利亚街道",
+    "hairstyle": "Top knot samurai",
+    "hair_color": "蓝色",
+    "action": "打招呼A",
+    "source_attributes": {
+      "sex_id": 2,
+      "identity_id": 40,
+      "hair_id": 5,
+      "hair_color_id": 2,
+      "scene_id": 8,
+      "aspect_id": 2,
+      "action_id": 5,
+      "camera_id": 4,
+      "clothing": {
+        "family_id": 13,
+        "group_id": 19,
+        "pants": {
+          "clothing_id": 166,
+          "slot": "pants"
+        },
+        "shirts": {
+          "clothing_id": 175,
+          "slot": "shirts"
+        },
+        "shoes": {
+          "clothing_id": 169,
+          "slot": "shoes"
+        },
+        "coats": {
+          "clothing_id": 177,
+          "slot": "coats"
+        }
+      }
+    },
+    "motion_reference_id": 651,
+    "motion_attributes": {
+      "action_id": 13,
+      "camera_id": 4,
+      "sex_id": 2,
+      "aspect_id": 2
+    },
+    "target_outfit": "橙色衬衫与绿色短裤",
+    "outfit_references": [
+      567,
+      568
+    ],
+    "target_clothing_ids": [
+      211,
+      212,
+      213
+    ],
+    "target_clothing_ids_absent_from_test": true,
+    "planned_gt": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "chain_id": "showcase_bright_portrait_06",
+    "root_node_id": 3850,
+    "root_split": "train",
+    "identity": "CFD40_WM_004",
+    "camera": "正面推进",
+    "scene": "维多利亚街道",
+    "hairstyle": "Top knot samurai",
+    "hair_color": "蓝色",
+    "action": "打招呼A",
+    "source_attributes": {
+      "sex_id": 2,
+      "identity_id": 39,
+      "hair_id": 5,
+      "hair_color_id": 2,
+      "scene_id": 8,
+      "aspect_id": 2,
+      "action_id": 5,
+      "camera_id": 4,
+      "clothing": {
+        "family_id": 36,
+        "group_id": 44,
+        "shirts": {
+          "clothing_id": 313,
+          "slot": "shirts"
+        },
+        "pants": {
+          "clothing_id": 309,
+          "slot": "pants"
+        },
+        "shoes": {
+          "clothing_id": 316,
+          "slot": "shoes"
+        }
+      }
+    },
+    "motion_reference_id": 651,
+    "motion_attributes": {
+      "action_id": 13,
+      "camera_id": 4,
+      "sex_id": 2,
+      "aspect_id": 2
+    },
+    "target_outfit": "深色正装套装",
+    "outfit_references": [
+      877,
+      878
+    ],
+    "target_clothing_ids": [
+      214,
+      215,
+      216
+    ],
+    "target_clothing_ids_absent_from_test": true,
+    "planned_gt": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "chain_id": "showcase_bright_portrait_07",
+    "root_node_id": 5626,
+    "root_split": "train",
+    "identity": "CFD40_WM_002",
+    "camera": "前侧全身",
+    "scene": "日本城市街区",
+    "hairstyle": "Wavy medium ponytail",
+    "hair_color": "黑色",
+    "action": "随乐舞动",
+    "source_attributes": {
+      "sex_id": 2,
+      "identity_id": 37,
+      "hair_id": 8,
+      "hair_color_id": 1,
+      "scene_id": 5,
+      "aspect_id": 2,
+      "action_id": 22,
+      "camera_id": 11,
+      "clothing": {
+        "family_id": 19,
+        "group_id": 27,
+        "shirts": {
+          "clothing_id": 217,
+          "slot": "shirts"
+        },
+        "pants": {
+          "clothing_id": 218,
+          "slot": "pants"
+        },
+        "shoes": {
+          "clothing_id": 219,
+          "slot": "shoes"
+        }
+      }
+    },
+    "motion_reference_id": 615,
+    "motion_attributes": {
+      "action_id": 13,
+      "camera_id": 11,
+      "sex_id": 2,
+      "aspect_id": 2
+    },
+    "target_outfit": "白蓝色休闲套装",
+    "outfit_references": [
+      699,
+      700
+    ],
+    "target_clothing_ids": [
+      199,
+      201,
+      203
+    ],
+    "target_clothing_ids_absent_from_test": true,
+    "planned_gt": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "chain_id": "showcase_bright_portrait_08",
+    "root_node_id": 5645,
+    "root_split": "train",
+    "identity": "CFD40_WM_002",
+    "camera": "前侧全身",
+    "scene": "红色沙漠",
+    "hairstyle": "Wavy medium ponytail",
+    "hair_color": "黑色",
+    "action": "鞠躬",
+    "source_attributes": {
+      "sex_id": 2,
+      "identity_id": 37,
+      "hair_id": 8,
+      "hair_color_id": 1,
+      "scene_id": 2,
+      "aspect_id": 2,
+      "action_id": 19,
+      "camera_id": 11,
+      "clothing": {
+        "family_id": 19,
+        "group_id": 27,
+        "shirts": {
+          "clothing_id": 217,
+          "slot": "shirts"
+        },
+        "pants": {
+          "clothing_id": 218,
+          "slot": "pants"
+        },
+        "shoes": {
+          "clothing_id": 219,
+          "slot": "shoes"
+        }
+      }
+    },
+    "motion_reference_id": 615,
+    "motion_attributes": {
+      "action_id": 13,
+      "camera_id": 11,
+      "sex_id": 2,
+      "aspect_id": 2
+    },
+    "target_outfit": "蓝色格纹衬衫与浅色长裤",
+    "outfit_references": [
+      609,
+      610
+    ],
+    "target_clothing_ids": [
+      233,
+      234,
+      235,
+      236
+    ],
+    "target_clothing_ids_absent_from_test": true,
+    "planned_gt": [
+      null,
+      null,
+      null
+    ]
+  }
+]

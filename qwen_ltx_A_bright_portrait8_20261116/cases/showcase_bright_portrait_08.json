@@ -1,0 +1,157 @@
+{
+  "id": "showcase_bright_portrait_08",
+  "status": "complete",
+  "saved_status": "completed",
+  "planned_turns": 3,
+  "completed_turns": 3,
+  "selection_kind": "explicit_id",
+  "root": "media/7b9f6eacb11cf9a5641f1a3a4b26ecf7959502bc3cd9bfe773040060c1508812.mp4",
+  "state_sha256": "a22642d3dda4e0ebc99c03076f1cf563d51295abc1518d7ee58886b954522af2",
+  "turns": [
+    {
+      "id": 1,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "action",
+      "axis_zh": "动作",
+      "selection_kind": "normal_continue",
+      "edge_id": null,
+      "source_node_id": 5645,
+      "target_node_id": null,
+      "user_prompt": "Start from the original video (video 0). Change the person's action to the posing motion demonstrated in the reference video. Transfer only the demonstrated movement and poses. Keep the person's identity, hairstyle, hair color, outfit, scene, and camera framing and movement unchanged.",
+      "prompt_zh": "从原视频改为参考中的摆姿势，保留其他内容。",
+      "editing_prompt": "Change the person's action to the posing motion demonstrated in the reference video. Transfer only the demonstrated movement and poses. Keep the person's identity, hairstyle, hair color, outfit, scene, and camera framing and movement unchanged.",
+      "output": "media/55060baf758a4e0eaebb8d9bd0201cf1bb1964400978f82c476785d576f62998.mp4",
+      "ground_truth": null,
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "motion",
+          "view": "",
+          "path": "media/f03371d401fd9319e88e07a4e4b4f1cc6b82a56341cc65f34f1801f029bd8ed4.mp4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "expected_parent": 1,
+      "axis": "hair_color",
+      "axis_zh": "发色",
+      "selection_kind": "normal_continue",
+      "edge_id": null,
+      "source_node_id": null,
+      "target_node_id": null,
+      "user_prompt": "Continue from the result of the action edit (video 1). Change the person's hair color to pink. Preserve the hairstyle and posing action, along with the person's identity, outfit, scene, and camera.",
+      "prompt_zh": "在第一次实际生成结果上把头发改成粉色，保留摆姿势。",
+      "editing_prompt": "Change the person's hair color to pink. Preserve the hairstyle, posing action, the person's identity, outfit, scene, and camera exactly as in the source video.",
+      "output": "media/e401aef1e9d5995a74ad7af2f098dd18c6332eded01c6d117bb08f22e6d295d7.mp4",
+      "ground_truth": null,
+      "references": []
+    },
+    {
+      "id": 3,
+      "parent": 0,
+      "expected_parent": 0,
+      "axis": "wardrobe",
+      "axis_zh": "服装",
+      "selection_kind": "explicit_id",
+      "edge_id": null,
+      "source_node_id": 5645,
+      "target_node_id": null,
+      "user_prompt": "Return to the original video (video 0), before the posing and pink-hair edits. Using the provided source video, apply the following edit: Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, the footwear, and the accessory. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "prompt_zh": "回到原视频再换参考中的整套穿搭，保留原发色和原动作。",
+      "editing_prompt": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the top, the bottoms, the footwear, and the accessory. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+      "output": "media/2de423d80b26124200b00256e1d8cacca63ac6fde7bc9feb4de21e889349dbb8.mp4",
+      "ground_truth": null,
+      "references": [
+        {
+          "reference_id": "ref_1",
+          "type": "outfit",
+          "view": "front",
+          "path": "media/a1f6b40709a026bc35e3d4c0abb19d7ed216dbfef05b01969cdde2c66e63f07d.png"
+        },
+        {
+          "reference_id": "ref_2",
+          "type": "outfit",
+          "view": "back",
+          "path": "media/30e21da9e73afe136ad8f2c5947972713c637ef349079f3427ac1e7ddb5f668c.png"
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "0": {
+      "action": "The character stands mostly still, then briefly bends forward at the waist before straightening back up.",
+      "camera": "A static, low-angle full-body shot keeps the character centered in the frame.",
+      "clothing": "He wears a black long-sleeved shirt with white raglan sleeves and white text on the chest, black slim pants, and black sneakers with white soles.",
+      "hair_color": "Black.",
+      "hairstyle": "Dark hair is pulled back into a small ponytail at the back of the head, with loose strands framing the face.",
+      "identity": "A 3D-rendered young adult male character with a slim build and light skin.",
+      "scene": "The setting is a sunny desert with sandy ground, red rock formations, and several tall green cacti in the background."
+    },
+    "1": {
+      "action": "The character stands in the desert, raises her right hand to her head, and then turns her body to the left into a profile view.",
+      "camera": "A static, low-angle medium shot from behind the character.",
+      "clothing": "A dark gray, long-sleeved tunic top, black leggings, and black sneakers with white soles.",
+      "hair_color": "Black.",
+      "hairstyle": "Dark hair pulled back into a high, slightly messy ponytail.",
+      "identity": "A slim, 3D-rendered female character with a fair complexion, seen mostly from behind and in profile.",
+      "scene": "A bright, sunlit desert environment featuring red rock formations, tall green cacti, dry grass, and scattered rocks on sandy ground."
+    },
+    "2": {
+      "action": "The character stands in the desert, raises one hand to their head, and slowly turns from a back view toward a side/front view.",
+      "camera": "Static medium-full shot at roughly waist-to-head height, keeping the character centered.",
+      "clothing": "Black long-sleeved top, black leggings, and black sneakers with white soles.",
+      "hair_color": "Bright pink.",
+      "hairstyle": "Short, spiky hair with a small ponytail or tuft at the back.",
+      "identity": "A 3D-rendered humanoid character with a slim build, seen mostly from behind and in profile.",
+      "scene": "A sunny desert with sandy ground, red rock formations, cacti, dry grass, and scattered rocks under a blue sky."
+    },
+    "3": {
+      "action": "The character stands mostly still, then briefly bends forward at the waist before straightening back up.",
+      "camera": "Static full-body shot from a slightly low angle, keeping the character centered.",
+      "clothing": "Short-sleeved blue, green, and white plaid button-up shirt, light tan trousers, brown shoes, and a dark patterned bandana around the neck.",
+      "hair_color": "Dark brown to black.",
+      "hairstyle": "Dark hair tied back in a low ponytail with loose strands framing the face.",
+      "identity": "A 3D-rendered young adult male character with a slim build and light skin.",
+      "scene": "A sunny desert environment with red rock formations, tall saguaro cacti, dry grass, and scattered rocks on sandy ground."
+    }
+  },
+  "run_config": {
+    "evaluation": {
+      "failed_chain_policy": "stop_unexecutable_chain_continue_other_cases",
+      "maximum_generation_attempts_per_turn": 1,
+      "quality_failure_policy": "save_actual_output_and_continue",
+      "qwen_training": false,
+      "scope_selection": "launcher_dataset_argument",
+      "source_pool": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/datasets/multiturn_test_200/chains.jsonl"
+    },
+    "generation_acceptance": "completed_media",
+    "include_review_in_selection": false,
+    "ltx": {
+      "cfg_scale": 3.0,
+      "checkpoint": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/experiments/training/mixed720p_sequential_visual_dropout/job_197731/checkpoints/lora_weights_step_00849.safetensors",
+      "config": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/ltx2.5/configs/training/mixed720p_sequential_visual_dropout/train.yaml",
+      "guidance_rescale": 0.7,
+      "ref_cfg": 1.0,
+      "steps": 40,
+      "stg_blocks": [
+        28
+      ],
+      "stg_scale": 1.0
+    },
+    "max_corrections": 1,
+    "max_generation_retries": 0,
+    "max_inspect_calls": 1,
+    "max_inspect_videos": 3,
+    "observe_edit_references": false,
+    "observe_review_references": false,
+    "qwen_max_new_tokens": 1536,
+    "qwen_profile": "/scratch/prj0000000275/jcy/xks/DataMake/10_research/model_experiments/qwen3.8/configs/evaluation/actual_id/high.json",
+    "schema": "datamake_editing_agent_v1",
+    "seed": 42,
+    "version": "editing_agent_fixed_pool_no_semantic_retry_v1"
+  },
+  "route_errors": 0
+}

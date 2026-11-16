@@ -1,0 +1,828 @@
+{
+  "media": [
+    {
+      "path": "media/6817d8a091d0e14d11d836dad232095842fa9d7b96a5d96b339b599c91ea6b3b.mp4",
+      "sha256": "6817d8a091d0e14d11d836dad232095842fa9d7b96a5d96b339b599c91ea6b3b",
+      "bytes": 15848775,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3238.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3238.mp4"
+      ]
+    },
+    {
+      "path": "media/06eae956cdcaee366971c93933347bf17e0b07e8c574628062503b786ead6993.mp4",
+      "sha256": "06eae956cdcaee366971c93933347bf17e0b07e8c574628062503b786ead6993",
+      "bytes": 5540991,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_17.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_17.mp4"
+      ]
+    },
+    {
+      "path": "media/2b948aaf815895b0f313adb70a0be5f915f452a101dd65a5f15cbc754477ae49.mp4",
+      "sha256": "2b948aaf815895b0f313adb70a0be5f915f452a101dd65a5f15cbc754477ae49",
+      "bytes": 7951176,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_01/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_01/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/0c1983e6a6c19f8407f6a8384395ac6930af75928cb5a80eb214e1d6483e9bf8.mp4",
+      "sha256": "0c1983e6a6c19f8407f6a8384395ac6930af75928cb5a80eb214e1d6483e9bf8",
+      "bytes": 5731134,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_01/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_01/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/3016b8c319a163a308c2021951c131b7479f9ae9e3c7ebb079a2d3f8a91af074.png",
+      "sha256": "3016b8c319a163a308c2021951c131b7479f9ae9e3c7ebb079a2d3f8a91af074",
+      "bytes": 1261012,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_691.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_691.png"
+      ]
+    },
+    {
+      "path": "media/4fcdee3f7697b361eb35be8f8bc7ce2cea31443f145ea1abf7fb0e9894c3cd47.png",
+      "sha256": "4fcdee3f7697b361eb35be8f8bc7ce2cea31443f145ea1abf7fb0e9894c3cd47",
+      "bytes": 1292006,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_692.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_692.png"
+      ]
+    },
+    {
+      "path": "media/5c9613eb624ea43f0f7421f58507341b1e67c4c8ef1ab50229cae632eef691c6.mp4",
+      "sha256": "5c9613eb624ea43f0f7421f58507341b1e67c4c8ef1ab50229cae632eef691c6",
+      "bytes": 7500801,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_01/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_01/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/3664a1376e19e533719f67fa7c770d427f420115bda907c88633bdb815a403a5.mp4",
+      "sha256": "3664a1376e19e533719f67fa7c770d427f420115bda907c88633bdb815a403a5",
+      "bytes": 16426436,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3251.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3251.mp4"
+      ]
+    },
+    {
+      "path": "media/c5f45ebd5c5e49e4a13fdab350faa289585bfcb981b44005c0d78e8d492fbb19.mp4",
+      "sha256": "c5f45ebd5c5e49e4a13fdab350faa289585bfcb981b44005c0d78e8d492fbb19",
+      "bytes": 8359862,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_02/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_02/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/cc3f2f2ab49bffe929e34ffe7621f73f15844393ac07ba1687dae6750fbb157c.mp4",
+      "sha256": "cc3f2f2ab49bffe929e34ffe7621f73f15844393ac07ba1687dae6750fbb157c",
+      "bytes": 5998294,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_02/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_02/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/2019f2f98a063c3d12db78a4f9bd10618bd3d33484de6805fd9a734bc028b88d.png",
+      "sha256": "2019f2f98a063c3d12db78a4f9bd10618bd3d33484de6805fd9a734bc028b88d",
+      "bytes": 1024907,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_679.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_679.png"
+      ]
+    },
+    {
+      "path": "media/9fe328c45e66cb1bf16ca8be2fefdca1dda1e27948559aa8e75f366e4c569cfe.png",
+      "sha256": "9fe328c45e66cb1bf16ca8be2fefdca1dda1e27948559aa8e75f366e4c569cfe",
+      "bytes": 1034291,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_680.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_680.png"
+      ]
+    },
+    {
+      "path": "media/5fdd101fe53e958a8818291b50c14acdb5f1a2e6cf51bd8aa7dded779e05887f.mp4",
+      "sha256": "5fdd101fe53e958a8818291b50c14acdb5f1a2e6cf51bd8aa7dded779e05887f",
+      "bytes": 6999174,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_02/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_02/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/59edbba82c2710eebb390d503ffe014c21ef20c7695df27841280f24ad4a8bee.mp4",
+      "sha256": "59edbba82c2710eebb390d503ffe014c21ef20c7695df27841280f24ad4a8bee",
+      "bytes": 38857808,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_4649.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_4649.mp4"
+      ]
+    },
+    {
+      "path": "media/b72bacec3643266535df61679d1be7c4797c72599dc753b693af81a42be539c4.mp4",
+      "sha256": "b72bacec3643266535df61679d1be7c4797c72599dc753b693af81a42be539c4",
+      "bytes": 14180634,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_03/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_03/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/d210a6628f37f2779fb4d3ca4a02e769c0030e16626f6d5e2f9e2c172029102c.mp4",
+      "sha256": "d210a6628f37f2779fb4d3ca4a02e769c0030e16626f6d5e2f9e2c172029102c",
+      "bytes": 10977377,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_03/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_03/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/ab4fec1e7315ea4a5787b30a0e960e266cf6dddeccfad30815ae707390dc0463.png",
+      "sha256": "ab4fec1e7315ea4a5787b30a0e960e266cf6dddeccfad30815ae707390dc0463",
+      "bytes": 1052623,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_575.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_575.png"
+      ]
+    },
+    {
+      "path": "media/26ac476c8e156a79e1a0100ce0224e3cbe3081d55b655d1b4c26e4137a1463c5.png",
+      "sha256": "26ac476c8e156a79e1a0100ce0224e3cbe3081d55b655d1b4c26e4137a1463c5",
+      "bytes": 1059184,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_576.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_576.png"
+      ]
+    },
+    {
+      "path": "media/fe0e533e247b2f0e0b46cc450231762032e3257fea8b88ac6b0be8610aad48a1.mp4",
+      "sha256": "fe0e533e247b2f0e0b46cc450231762032e3257fea8b88ac6b0be8610aad48a1",
+      "bytes": 9990974,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_03/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_03/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/5037369dc40a975acbbecb29ff1d66f3b9f81ea25fa38b222ef1c5721c4e22a9.mp4",
+      "sha256": "5037369dc40a975acbbecb29ff1d66f3b9f81ea25fa38b222ef1c5721c4e22a9",
+      "bytes": 34855237,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_4663.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_4663.mp4"
+      ]
+    },
+    {
+      "path": "media/d9c8015e317e65374cd9d3a89fe1da1084949a8188bc17fff8332f62cb61f123.mp4",
+      "sha256": "d9c8015e317e65374cd9d3a89fe1da1084949a8188bc17fff8332f62cb61f123",
+      "bytes": 12063751,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_04/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_04/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/05b5c7434520d4989e1c26a20dedbd5725fdb4c55718198f9ceb87847156c1fe.mp4",
+      "sha256": "05b5c7434520d4989e1c26a20dedbd5725fdb4c55718198f9ceb87847156c1fe",
+      "bytes": 9339549,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_04/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_04/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/8f4f73aa150a05eeeb685da004322ea395e17b1414c7dad3e0618a8b51755236.png",
+      "sha256": "8f4f73aa150a05eeeb685da004322ea395e17b1414c7dad3e0618a8b51755236",
+      "bytes": 1203317,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_657.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_657.png"
+      ]
+    },
+    {
+      "path": "media/9248e2a8ef1958c885cdca862e8d08faa5a58d7c47ce238e4de9f0ceaf748410.png",
+      "sha256": "9248e2a8ef1958c885cdca862e8d08faa5a58d7c47ce238e4de9f0ceaf748410",
+      "bytes": 1212324,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_658.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_658.png"
+      ]
+    },
+    {
+      "path": "media/a8035d137cccca5240eca722691a120ce24c12315d0d23dca9aaaccc923502c1.mp4",
+      "sha256": "a8035d137cccca5240eca722691a120ce24c12315d0d23dca9aaaccc923502c1",
+      "bytes": 15067851,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_04/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_04/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/bb263573c41141e836d60ba7eb0b7d818b5852755da87dd1a12d89f31034cac8.mp4",
+      "sha256": "bb263573c41141e836d60ba7eb0b7d818b5852755da87dd1a12d89f31034cac8",
+      "bytes": 16033263,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3828.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3828.mp4"
+      ]
+    },
+    {
+      "path": "media/a526ec3673474f6f415bb0cd78227f6c3eb6492073d0b0a64daf1fde2ce10901.mp4",
+      "sha256": "a526ec3673474f6f415bb0cd78227f6c3eb6492073d0b0a64daf1fde2ce10901",
+      "bytes": 7257328,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_651.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_651.mp4"
+      ]
+    },
+    {
+      "path": "media/f400acee8cad6cc1b5d6772553e102f41a79a16cb832c26d9fd12fa46c534c23.mp4",
+      "sha256": "f400acee8cad6cc1b5d6772553e102f41a79a16cb832c26d9fd12fa46c534c23",
+      "bytes": 6903445,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_05/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_05/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/d5d62ce986c4d7265f2bdab89915c40b48d629b36b99652e9d35d55ba0c280c9.mp4",
+      "sha256": "d5d62ce986c4d7265f2bdab89915c40b48d629b36b99652e9d35d55ba0c280c9",
+      "bytes": 5161409,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_05/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_05/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/2a67dd7750a574125214b3931e604262791d3577d1a656755dbfd6dbb6f2fb10.png",
+      "sha256": "2a67dd7750a574125214b3931e604262791d3577d1a656755dbfd6dbb6f2fb10",
+      "bytes": 902989,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_567.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_567.png"
+      ]
+    },
+    {
+      "path": "media/86a20c24e1e02467bbbd699a0e6e63b18c49cddf7eb88d6810dc9029e2f5eee9.png",
+      "sha256": "86a20c24e1e02467bbbd699a0e6e63b18c49cddf7eb88d6810dc9029e2f5eee9",
+      "bytes": 886585,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_568.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_568.png"
+      ]
+    },
+    {
+      "path": "media/6a416d6bb1c5a94266e0c4db02f5486eca7a33329ae2e01ad3ea19bdcc9e6f5b.mp4",
+      "sha256": "6a416d6bb1c5a94266e0c4db02f5486eca7a33329ae2e01ad3ea19bdcc9e6f5b",
+      "bytes": 5602267,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_05/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_05/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/0c25a0ad110a235979062a8a2dc13a09c6e84f230bae6c339a245c061c167269.mp4",
+      "sha256": "0c25a0ad110a235979062a8a2dc13a09c6e84f230bae6c339a245c061c167269",
+      "bytes": 17016810,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3850.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_3850.mp4"
+      ]
+    },
+    {
+      "path": "media/995e7fe1bce28117fab9e46aa00fd6912ab7071509a2eb03ed6f5e4ca06b4e88.mp4",
+      "sha256": "995e7fe1bce28117fab9e46aa00fd6912ab7071509a2eb03ed6f5e4ca06b4e88",
+      "bytes": 7298439,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_06/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_06/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/01807330e969ceb9d8772e741faf561c06666781960e619c362242727cd8a7a4.mp4",
+      "sha256": "01807330e969ceb9d8772e741faf561c06666781960e619c362242727cd8a7a4",
+      "bytes": 5734957,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_06/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_06/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/2294a5391e74765ed6d7293c20e795fb2d14c51f2c98343bf59607217b7114e9.png",
+      "sha256": "2294a5391e74765ed6d7293c20e795fb2d14c51f2c98343bf59607217b7114e9",
+      "bytes": 923517,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_877.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_877.png"
+      ]
+    },
+    {
+      "path": "media/0858c2aad555a6ab3594fb891b3e4e9dc7adbb191689a5c63781b1a62b36128d.png",
+      "sha256": "0858c2aad555a6ab3594fb891b3e4e9dc7adbb191689a5c63781b1a62b36128d",
+      "bytes": 898689,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_878.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_878.png"
+      ]
+    },
+    {
+      "path": "media/8b46300de947b1150501a99143787c0a9ad7dea167dacb68906d4b606a06a6a6.mp4",
+      "sha256": "8b46300de947b1150501a99143787c0a9ad7dea167dacb68906d4b606a06a6a6",
+      "bytes": 5643816,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_06/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_06/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/5447da48ac3ec6a9bc5ea192a118335023cfee80dc776f842264d4904eb0f8a0.mp4",
+      "sha256": "5447da48ac3ec6a9bc5ea192a118335023cfee80dc776f842264d4904eb0f8a0",
+      "bytes": 14172853,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5626.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5626.mp4"
+      ]
+    },
+    {
+      "path": "media/f03371d401fd9319e88e07a4e4b4f1cc6b82a56341cc65f34f1801f029bd8ed4.mp4",
+      "sha256": "f03371d401fd9319e88e07a4e4b4f1cc6b82a56341cc65f34f1801f029bd8ed4",
+      "bytes": 3836701,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_615.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/motion/motions/motion_615.mp4"
+      ]
+    },
+    {
+      "path": "media/a339744639120f4ede2e1ebc74bfcd6882911a5cfcaf63a715b1716700d6573b.mp4",
+      "sha256": "a339744639120f4ede2e1ebc74bfcd6882911a5cfcaf63a715b1716700d6573b",
+      "bytes": 2702948,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_07/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_07/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/95d1ed34f5feb02c0af36b305c718c342bd0d64565e3223a3ee9f2bb4659860a.mp4",
+      "sha256": "95d1ed34f5feb02c0af36b305c718c342bd0d64565e3223a3ee9f2bb4659860a",
+      "bytes": 2191022,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_07/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_07/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/ce14bc39e161c52013deddbbdd87e32ccc8a2d97d06be15bdf10edef61d59d0a.png",
+      "sha256": "ce14bc39e161c52013deddbbdd87e32ccc8a2d97d06be15bdf10edef61d59d0a",
+      "bytes": 868328,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_699.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_699.png"
+      ]
+    },
+    {
+      "path": "media/b1bc8c052ec43a5a3c77d93d23a1fd713a31e2d841bf6f66e5ffbcda15ecd117.png",
+      "sha256": "b1bc8c052ec43a5a3c77d93d23a1fd713a31e2d841bf6f66e5ffbcda15ecd117",
+      "bytes": 843811,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_700.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_700.png"
+      ]
+    },
+    {
+      "path": "media/226f65a856fe786158b4edd1acf4ad0225f89af2ca79bfd77ea1ca245a4c6e2e.mp4",
+      "sha256": "226f65a856fe786158b4edd1acf4ad0225f89af2ca79bfd77ea1ca245a4c6e2e",
+      "bytes": 4816392,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_07/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_07/turn_03/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/7b9f6eacb11cf9a5641f1a3a4b26ecf7959502bc3cd9bfe773040060c1508812.mp4",
+      "sha256": "7b9f6eacb11cf9a5641f1a3a4b26ecf7959502bc3cd9bfe773040060c1508812",
+      "bytes": 9206517,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5645.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/nodes/nodes/node_5645.mp4"
+      ]
+    },
+    {
+      "path": "media/55060baf758a4e0eaebb8d9bd0201cf1bb1964400978f82c476785d576f62998.mp4",
+      "sha256": "55060baf758a4e0eaebb8d9bd0201cf1bb1964400978f82c476785d576f62998",
+      "bytes": 3549281,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_08/turn_01/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_08/turn_01/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/e401aef1e9d5995a74ad7af2f098dd18c6332eded01c6d117bb08f22e6d295d7.mp4",
+      "sha256": "e401aef1e9d5995a74ad7af2f098dd18c6332eded01c6d117bb08f22e6d295d7",
+      "bytes": 2669683,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_08/turn_02/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_08/turn_02/generation/edited.mp4"
+      ]
+    },
+    {
+      "path": "media/a1f6b40709a026bc35e3d4c0abb19d7ed216dbfef05b01969cdde2c66e63f07d.png",
+      "sha256": "a1f6b40709a026bc35e3d4c0abb19d7ed216dbfef05b01969cdde2c66e63f07d",
+      "bytes": 1018189,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_609.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_609.png"
+      ]
+    },
+    {
+      "path": "media/30e21da9e73afe136ad8f2c5947972713c637ef349079f3427ac1e7ddb5f668c.png",
+      "sha256": "30e21da9e73afe136ad8f2c5947972713c637ef349079f3427ac1e7ddb5f668c",
+      "bytes": 1023439,
+      "source": "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_610.png",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/DataMake/00_engine/outputs/dataset_package_v1/dataset_v1/conditions/garment/garments/garment_610.png"
+      ]
+    },
+    {
+      "path": "media/2de423d80b26124200b00256e1d8cacca63ac6fde7bc9feb4de21e889349dbb8.mp4",
+      "sha256": "2de423d80b26124200b00256e1d8cacca63ac6fde7bc9feb4de21e889349dbb8",
+      "bytes": 2600313,
+      "source": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_08/turn_03/generation/edited.mp4",
+      "sources": [
+        "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116_run/cases/showcase_bright_portrait_08/turn_03/generation/edited.mp4"
+      ]
+    }
+  ],
+  "inspection": {
+    "media/6817d8a091d0e14d11d836dad232095842fa9d7b96a5d96b339b599c91ea6b3b.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/06eae956cdcaee366971c93933347bf17e0b07e8c574628062503b786ead6993.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/2b948aaf815895b0f313adb70a0be5f915f452a101dd65a5f15cbc754477ae49.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/0c1983e6a6c19f8407f6a8384395ac6930af75928cb5a80eb214e1d6483e9bf8.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/3016b8c319a163a308c2021951c131b7479f9ae9e3c7ebb079a2d3f8a91af074.png": {
+      "kind": "image"
+    },
+    "media/4fcdee3f7697b361eb35be8f8bc7ce2cea31443f145ea1abf7fb0e9894c3cd47.png": {
+      "kind": "image"
+    },
+    "media/5c9613eb624ea43f0f7421f58507341b1e67c4c8ef1ab50229cae632eef691c6.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/3664a1376e19e533719f67fa7c770d427f420115bda907c88633bdb815a403a5.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/c5f45ebd5c5e49e4a13fdab350faa289585bfcb981b44005c0d78e8d492fbb19.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/cc3f2f2ab49bffe929e34ffe7621f73f15844393ac07ba1687dae6750fbb157c.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/2019f2f98a063c3d12db78a4f9bd10618bd3d33484de6805fd9a734bc028b88d.png": {
+      "kind": "image"
+    },
+    "media/9fe328c45e66cb1bf16ca8be2fefdca1dda1e27948559aa8e75f366e4c569cfe.png": {
+      "kind": "image"
+    },
+    "media/5fdd101fe53e958a8818291b50c14acdb5f1a2e6cf51bd8aa7dded779e05887f.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/59edbba82c2710eebb390d503ffe014c21ef20c7695df27841280f24ad4a8bee.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/b72bacec3643266535df61679d1be7c4797c72599dc753b693af81a42be539c4.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/d210a6628f37f2779fb4d3ca4a02e769c0030e16626f6d5e2f9e2c172029102c.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/ab4fec1e7315ea4a5787b30a0e960e266cf6dddeccfad30815ae707390dc0463.png": {
+      "kind": "image"
+    },
+    "media/26ac476c8e156a79e1a0100ce0224e3cbe3081d55b655d1b4c26e4137a1463c5.png": {
+      "kind": "image"
+    },
+    "media/fe0e533e247b2f0e0b46cc450231762032e3257fea8b88ac6b0be8610aad48a1.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/5037369dc40a975acbbecb29ff1d66f3b9f81ea25fa38b222ef1c5721c4e22a9.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/d9c8015e317e65374cd9d3a89fe1da1084949a8188bc17fff8332f62cb61f123.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/05b5c7434520d4989e1c26a20dedbd5725fdb4c55718198f9ceb87847156c1fe.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/8f4f73aa150a05eeeb685da004322ea395e17b1414c7dad3e0618a8b51755236.png": {
+      "kind": "image"
+    },
+    "media/9248e2a8ef1958c885cdca862e8d08faa5a58d7c47ce238e4de9f0ceaf748410.png": {
+      "kind": "image"
+    },
+    "media/a8035d137cccca5240eca722691a120ce24c12315d0d23dca9aaaccc923502c1.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/bb263573c41141e836d60ba7eb0b7d818b5852755da87dd1a12d89f31034cac8.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/a526ec3673474f6f415bb0cd78227f6c3eb6492073d0b0a64daf1fde2ce10901.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/f400acee8cad6cc1b5d6772553e102f41a79a16cb832c26d9fd12fa46c534c23.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/d5d62ce986c4d7265f2bdab89915c40b48d629b36b99652e9d35d55ba0c280c9.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/2a67dd7750a574125214b3931e604262791d3577d1a656755dbfd6dbb6f2fb10.png": {
+      "kind": "image"
+    },
+    "media/86a20c24e1e02467bbbd699a0e6e63b18c49cddf7eb88d6810dc9029e2f5eee9.png": {
+      "kind": "image"
+    },
+    "media/6a416d6bb1c5a94266e0c4db02f5486eca7a33329ae2e01ad3ea19bdcc9e6f5b.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/0c25a0ad110a235979062a8a2dc13a09c6e84f230bae6c339a245c061c167269.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/995e7fe1bce28117fab9e46aa00fd6912ab7071509a2eb03ed6f5e4ca06b4e88.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/01807330e969ceb9d8772e741faf561c06666781960e619c362242727cd8a7a4.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/2294a5391e74765ed6d7293c20e795fb2d14c51f2c98343bf59607217b7114e9.png": {
+      "kind": "image"
+    },
+    "media/0858c2aad555a6ab3594fb891b3e4e9dc7adbb191689a5c63781b1a62b36128d.png": {
+      "kind": "image"
+    },
+    "media/8b46300de947b1150501a99143787c0a9ad7dea167dacb68906d4b606a06a6a6.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/5447da48ac3ec6a9bc5ea192a118335023cfee80dc776f842264d4904eb0f8a0.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/f03371d401fd9319e88e07a4e4b4f1cc6b82a56341cc65f34f1801f029bd8ed4.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/a339744639120f4ede2e1ebc74bfcd6882911a5cfcaf63a715b1716700d6573b.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/95d1ed34f5feb02c0af36b305c718c342bd0d64565e3223a3ee9f2bb4659860a.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/ce14bc39e161c52013deddbbdd87e32ccc8a2d97d06be15bdf10edef61d59d0a.png": {
+      "kind": "image"
+    },
+    "media/b1bc8c052ec43a5a3c77d93d23a1fd713a31e2d841bf6f66e5ffbcda15ecd117.png": {
+      "kind": "image"
+    },
+    "media/226f65a856fe786158b4edd1acf4ad0225f89af2ca79bfd77ea1ca245a4c6e2e.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/7b9f6eacb11cf9a5641f1a3a4b26ecf7959502bc3cd9bfe773040060c1508812.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "frames": 300,
+      "fps": 30.0
+    },
+    "media/55060baf758a4e0eaebb8d9bd0201cf1bb1964400978f82c476785d576f62998.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/e401aef1e9d5995a74ad7af2f098dd18c6332eded01c6d117bb08f22e6d295d7.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    },
+    "media/a1f6b40709a026bc35e3d4c0abb19d7ed216dbfef05b01969cdde2c66e63f07d.png": {
+      "kind": "image"
+    },
+    "media/30e21da9e73afe136ad8f2c5947972713c637ef349079f3427ac1e7ddb5f668c.png": {
+      "kind": "image"
+    },
+    "media/2de423d80b26124200b00256e1d8cacca63ac6fde7bc9feb4de21e889349dbb8.mp4": {
+      "kind": "video",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 736,
+      "height": 1280,
+      "frames": 121,
+      "fps": 12.0
+    }
+  }
+}

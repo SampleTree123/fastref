@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "statistics": {
+    "complete_chains": 8,
+    "partial_chains": 0,
+    "complete_chain_turns": 24,
+    "partial_chain_turns": 0,
+    "saved_turns": 24,
+    "route_errors": 0,
+    "unique_media": 51,
+    "media_bytes": 364592479,
+    "transfer_methods": {
+      "hardlink": 51
+    }
+  },
+  "all_media_sha256_verified": true,
+  "all_media_regular_files": true,
+  "video_first_frame_decoded": 35,
+  "video_browser_format": "h264/yuv420p",
+  "all_images_decoded": 16,
+  "full_video_decode_performed": false,
+  "relations_checked": "actual parent matches saved video card; output ID matches turn; GT by chain and turn",
+  "inputs_untouched": true,
+  "offline_embedded_data": true
+}

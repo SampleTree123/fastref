@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "chains": 8,
+  "complete_chains": 8,
+  "saved_turns": 24,
+  "gallery": "/scratch/prj0000000275/jcy/xks/fastref/qwen_ltx_A_bright_portrait8_20261116/index.html",
+  "formal_evaluation": false,
+  "finished_at": "2026-11-16T08:31:47.995284+08:00"
+}
