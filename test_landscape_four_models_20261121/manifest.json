@@ -1,0 +1,112 @@
+[
+  {
+    "chain_id": "test_chain_13342",
+    "root": "media/80e555ff176b4b_node_6508.mp4",
+    "turns": [
+      {
+        "turn": 1,
+        "source": 0,
+        "user_prompt": "Using the provided source video, apply the following edit: I'd like to change the person's hairstyle to the one shown in the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+        "references": [
+          "media/4e5e65a01088e3_hair_9.png",
+          "media/d4957f6d6f831c_hair_61.png"
+        ],
+        "ground_truth": "media/56808273db4135_node_6526.mp4"
+      },
+      {
+        "turn": 2,
+        "source": 1,
+        "user_prompt": "Using the provided source video, apply the following edit: Please replace the person's current white hair color with blonde.",
+        "references": [],
+        "ground_truth": "media/0787e0de04ec81_node_6509.mp4"
+      },
+      {
+        "turn": 3,
+        "source": 2,
+        "user_prompt": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Keep the person's identity, hairstyle, hair color, clothing, expression, and action unchanged. Preserve the camera framing and movement, while adapting the lighting on the person to the target environment.",
+        "references": [
+          "media/c1b60769e30974_scene_68.png"
+        ],
+        "ground_truth": "media/abc04b6e803b76_node_6525.mp4"
+      }
+    ],
+    "models": {
+      "ltx_A": [
+        "media/b220eaeaceae39_edited.mp4",
+        "media/8ad0d0354b8cf2_edited.mp4",
+        "media/3bdb806a7a45aa_edited.mp4"
+      ],
+      "ltx_base": [
+        "media/1c64a4410e121c_edited.mp4",
+        "media/921bfd4426e391_edited.mp4",
+        "media/e23d881e3d530a_edited.mp4"
+      ],
+      "vace": [
+        "media/94ec579a3a3044_output.mp4",
+        "media/327d6a8ca24ca8_output.mp4",
+        "media/3c7f55296176c6_output.mp4"
+      ],
+      "h3": [
+        "media/ec04e7ba8cc39a_output.mp4",
+        "media/76636331793370_output.mp4",
+        "media/c8b9717bbdb4f0_output.mp4"
+      ]
+    }
+  },
+  {
+    "chain_id": "test_chain_12078",
+    "root": "media/8718e5b812c618_node_6362.mp4",
+    "turns": [
+      {
+        "turn": 1,
+        "source": 0,
+        "user_prompt": "Using the provided source video, apply the following edit: I'd like to replace the person's top with the item shown in the reference images. Preserve the other clothing items, footwear, and all non-clothing aspects of the current video.",
+        "references": [
+          "media/986f1fb6eadb36_garment_91.png",
+          "media/404825decca2f0_garment_33.png"
+        ],
+        "ground_truth": "media/555e605124429a_node_6361.mp4"
+      },
+      {
+        "turn": 2,
+        "source": 1,
+        "user_prompt": "Using the provided source video, apply the following edit: Please switch the camera setup to a full-body shot from the side. Retain the same person, hairstyle, hair color, outfit, expression, and action in the same environment. Only change how the camera captures the scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+        "references": [
+          "media/0ccb42872cad54_camera_6fcc7f9586faed38db58a4416afb6f60caf79574a1d4653bc36fdbc31178d3cd.png"
+        ],
+        "ground_truth": "media/bdb4516337c561_node_6354.mp4"
+      },
+      {
+        "turn": 3,
+        "source": 1,
+        "user_prompt": "Please return to the version produced by the first clothing change, then apply the following change to that version: Using the provided source video, apply the following edit: I'd like to change the person's action so that they stand in a thoughtful pose, as shown in the reference video. Follow the movement shown in the reference video while retaining the current person's identity, hairstyle, hair color, clothing, and expression. Leave the scene and camera unchanged.",
+        "references": [
+          "media/ced53f4881720d_motion_179.mp4"
+        ],
+        "ground_truth": "media/17ea60554c29b5_node_6374.mp4"
+      }
+    ],
+    "models": {
+      "ltx_A": [
+        "media/d7e329d3f33876_edited.mp4",
+        "media/19207baa018c02_edited.mp4",
+        "media/66cf10c28c6ac0_edited.mp4"
+      ],
+      "ltx_base": [
+        "media/05db2addc48eb2_edited.mp4",
+        "media/a78ea259e772e8_edited.mp4",
+        "media/d191900833ddae_edited.mp4"
+      ],
+      "vace": [
+        "media/dcaac60bbab44e_output.mp4",
+        "media/8e4ff83b24269a_output.mp4",
+        "media/0f8fa300353f34_output.mp4"
+      ],
+      "h3": [
+        "media/2036a99745b2bc_output.mp4",
+        "media/3e8df50b5cbd07_output.mp4",
+        "media/aa08f176b58cf9_output.mp4"
+      ]
+    }
+  }
+]

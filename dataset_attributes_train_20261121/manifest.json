@@ -1,0 +1,1178 @@
+{
+  "cases": [
+    {
+      "id": 5266,
+      "axis": "身份",
+      "split": "train",
+      "source": {
+        "node": 684,
+        "video": "media/node_684.mp4",
+        "attributes": {
+          "身份": "CFD40_WM_001",
+          "发型": "Side-swept Mullet",
+          "发色": "白色",
+          "服装": "Dash · Shirt 02, Shoes 01, Shorts 01",
+          "动作": "随乐舞动",
+          "镜头": "面部近景（柔和跟随头部位置）",
+          "场景": "红色沙漠"
+        }
+      },
+      "target": {
+        "node": 685,
+        "video": "media/node_685.mp4",
+        "attributes": {
+          "身份": "CFD40_BM_005",
+          "发型": "Side-swept Mullet",
+          "发色": "白色",
+          "服装": "Dash · Shirt 02, Shoes 01, Shorts 01",
+          "动作": "随乐舞动",
+          "镜头": "面部近景（柔和跟随头部位置）",
+          "场景": "红色沙漠"
+        }
+      },
+      "prompt": {
+        "en": "Using the provided source video, apply the following edit: Please replace the person in the video with the person shown in the reference photo. Only use the reference photo to determine the target person's facial identity and skin tone. Apply that skin tone consistently to the face and body, while retaining the current hairstyle, hair color, clothing, expression, action, scene, and camera.",
+        "zh": "请基于输入视频进行以下编辑：请将视频中的人物替换为参考照片中的人物。参考照片仅用于确定目标人物的面部身份特征和肤色。使面部与身体的肤色协调一致，同时保留当前的发型、发色、服装、表情、动作、场景和镜头。"
+      },
+      "actual_edit_inputs": [
+        "media/identity_9.png"
+      ]
+    },
+    {
+      "id": 13383,
+      "axis": "发型",
+      "split": "train",
+      "source": {
+        "node": 4533,
+        "video": "media/node_4533.mp4",
+        "attributes": {
+          "身份": "CFD40_BF_001",
+          "发型": "Two high space buns",
+          "发色": "红色",
+          "服装": "Streetwear Collection · Shoes 01, PolkaDress_C",
+          "动作": "向前行走",
+          "镜头": "侧面上半身",
+          "场景": "日式村落"
+        }
+      },
+      "target": {
+        "node": 4548,
+        "video": "media/node_4548.mp4",
+        "attributes": {
+          "身份": "CFD40_BF_001",
+          "发型": "Deep Side Part with Braids",
+          "发色": "红色",
+          "服装": "Streetwear Collection · Shoes 01, PolkaDress_C",
+          "动作": "向前行走",
+          "镜头": "侧面上半身",
+          "场景": "日式村落"
+        }
+      },
+      "prompt": {
+        "en": "Using the provided source video, apply the following edit: Please change the person's hairstyle to match the reference images. Use the reference images only for the hairstyle. Keep the person's identity, hair color, clothing, and all other aspects of the current video unchanged.",
+        "zh": "请基于输入视频进行以下编辑：请将人物的发型改为参考图中的发型。参考图仅用于确定发型。保持当前视频中人物的身份、发色、服装及其他内容不变。"
+      },
+      "actual_edit_inputs": [
+        "media/hair_22.png",
+        "media/hair_47.png"
+      ]
+    },
+    {
+      "id": 10019,
+      "axis": "发色",
+      "split": "train",
+      "source": {
+        "node": 4239,
+        "video": "media/node_4239.mp4",
+        "attributes": {
+          "身份": "CFD40_BF_002",
+          "发型": "Side curly ponytail_long",
+          "发色": "黑色",
+          "服装": "Streetwear Collection · Shoes 01, BathingRobe_B",
+          "动作": "调整站姿",
+          "镜头": "后侧面上半身",
+          "场景": "傍晚公路"
+        }
+      },
+      "target": {
+        "node": 4255,
+        "video": "media/node_4255.mp4",
+        "attributes": {
+          "身份": "CFD40_BF_002",
+          "发型": "Side curly ponytail_long",
+          "发色": "粉色",
+          "服装": "Streetwear Collection · Shoes 01, BathingRobe_B",
+          "动作": "调整站姿",
+          "镜头": "后侧面上半身",
+          "场景": "傍晚公路"
+        }
+      },
+      "prompt": {
+        "en": "Using the provided source video, apply the following edit: Please change the person's hair color to pink.",
+        "zh": "请基于输入视频进行以下编辑：请把人物的发色改成粉色。"
+      },
+      "actual_edit_inputs": []
+    },
+    {
+      "id": 1853,
+      "axis": "服装",
+      "split": "train",
+      "source": {
+        "node": 239,
+        "video": "media/node_239.mp4",
+        "attributes": {
+          "身份": "CFD40_BF_003",
+          "发型": "Half up short",
+          "发色": "金色",
+          "服装": "Summer Girl Four Colors · Shorts4, Top4",
+          "动作": "挥手",
+          "镜头": "正面全身",
+          "场景": "游乐园"
+        }
+      },
+      "target": {
+        "node": 253,
+        "video": "media/node_253.mp4",
+        "attributes": {
+          "身份": "CFD40_BF_003",
+          "发型": "Half up short",
+          "发色": "金色",
+          "服装": "Streetwear Collection · Shoes 01, TrenchCoat_E",
+          "动作": "挥手",
+          "镜头": "正面全身",
+          "场景": "游乐园"
+        }
+      },
+      "prompt": {
+        "en": "Using the provided source video, apply the following edit: Please replace the person's entire outfit with the complete outfit shown from the front and back in the reference images, consisting of the one-piece garment and the footwear. Remove any original clothing or footwear that is not part of this target outfit. Keep all non-clothing attributes unchanged. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+        "zh": "请基于输入视频进行以下编辑：请将人物的整套穿搭替换为参考图中以正面和背面展示的完整穿搭，包含以下部件：整身服装、鞋子。移除原穿搭中不属于目标搭配的衣物或鞋子。保持所有非服装属性不变。第一张参考图展示整套穿搭的正面，第二张展示背面。"
+      },
+      "actual_edit_inputs": [
+        "media/garment_725.png",
+        "media/garment_726.png"
+      ]
+    },
+    {
+      "id": 25479,
+      "axis": "动作",
+      "split": "train",
+      "source": {
+        "node": 3095,
+        "video": "media/node_3095.mp4",
+        "attributes": {
+          "身份": "CFD40_WF_005",
+          "发型": "Double half up",
+          "发色": "黑色",
+          "服装": "Shirts Pants A I · Pants_D, Shirt_D",
+          "动作": "扶额",
+          "镜头": "前侧全身",
+          "场景": "沙丘"
+        }
+      },
+      "target": {
+        "node": 3099,
+        "video": "media/node_3099.mp4",
+        "attributes": {
+          "身份": "CFD40_WF_005",
+          "发型": "Double half up",
+          "发色": "黑色",
+          "服装": "Shirts Pants A I · Pants_D, Shirt_D",
+          "动作": "举拳庆祝",
+          "镜头": "前侧全身",
+          "场景": "沙丘"
+        }
+      },
+      "prompt": {
+        "en": "Using the provided source video, apply the following edit: Please change the person's current action to raising both hands in celebration, then thrusting one hand upward, following the demonstration in the reference video. Transfer only the demonstrated action, not the reference person's appearance or the reference scene and camera setup. Preserve all other aspects of the current video.",
+        "zh": "请基于输入视频进行以下编辑：请将人物当前的动作改为先高举双手做出欢呼姿态，随后用力向上挥动一只手，具体动作参照参考视频中的示范。只采用示范动作，不采用参考人物的外观，也不采用参考场景和镜头设置。当前视频中的其他内容保持不变。"
+      },
+      "actual_edit_inputs": [
+        "media/motion_322.mp4"
+      ]
+    },
+    {
+      "id": 10898,
+      "axis": "镜头",
+      "split": "train",
+      "source": {
+        "node": 4279,
+        "video": "media/node_4279.mp4",
+        "attributes": {
+          "身份": "CFD40_AF_001",
+          "发型": "Top knot long ponytail",
+          "发色": "蓝色",
+          "服装": "African Casual · Shoes 01, anita 4 pants, anita 4 jacket, anita 4 bra",
+          "动作": "舒展舞蹈",
+          "镜头": "正面全身",
+          "场景": "沙漠加油站"
+        }
+      },
+      "target": {
+        "node": 4291,
+        "video": "media/node_4291.mp4",
+        "attributes": {
+          "身份": "CFD40_AF_001",
+          "发型": "Top knot long ponytail",
+          "发色": "蓝色",
+          "服装": "African Casual · Shoes 01, anita 4 pants, anita 4 jacket, anita 4 bra",
+          "动作": "舒展舞蹈",
+          "镜头": "正面上半身",
+          "场景": "沙漠加油站"
+        }
+      },
+      "prompt": {
+        "en": "Using the provided source video, apply the following edit: Please change the video's camera setup to an upper-body shot from the front. Keep the person's identity, hairstyle, hair color, clothing, expression, action, and scene unchanged. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+        "zh": "请基于输入视频进行以下编辑：请将视频的镜头设置改为从人物正面拍摄的上半身镜头。保持人物的身份、发型、发色、服装、表情、动作和场景不变。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。"
+      },
+      "actual_edit_inputs": [
+        "media/camera_b091ae9c2e67ca637a721cd0088ecd167a67bc066f814d36d3dd351c876555cd.png"
+      ]
+    },
+    {
+      "id": 16367,
+      "axis": "场景",
+      "split": "train",
+      "source": {
+        "node": 4772,
+        "video": "media/node_4772.mp4",
+        "attributes": {
+          "身份": "CFD40_BF_003",
+          "发型": "Side curly ponytail_long",
+          "发色": "黑色",
+          "服装": "Shirts Pants A I · Pants_G, Shirt_G",
+          "动作": "向前行走",
+          "镜头": "前侧全身",
+          "场景": "日本城市街区"
+        }
+      },
+      "target": {
+        "node": 4787,
+        "video": "media/node_4787.mp4",
+        "attributes": {
+          "身份": "CFD40_BF_003",
+          "发型": "Side curly ponytail_long",
+          "发色": "黑色",
+          "服装": "Shirts Pants A I · Pants_G, Shirt_G",
+          "动作": "向前行走",
+          "镜头": "前侧全身",
+          "场景": "红色沙漠"
+        }
+      },
+      "prompt": {
+        "en": "Using the provided source video, apply the following edit: Please change the scene to the setting shown in the reference image, placing the person in that environment. Change only the environment and its lighting effects on the person. Retain the person's identity, appearance, expression, and action, along with the existing camera framing and movement.",
+        "zh": "请基于输入视频进行以下编辑：请将当前场景换成参考图中的环境，让人物置于该环境中。只改变环境及其对人物产生的光照效果。保留人物的身份、外观、表情和动作，以及原有的镜头构图与运动。"
+      },
+      "actual_edit_inputs": [
+        "media/scene_577.png"
+      ]
+    }
+  ],
+  "materials": {
+    "身份": [
+      {
+        "label": "男 · CFD40_BM_005",
+        "edit_endpoint": "编辑后",
+        "media": [
+          "media/identity_9.png"
+        ]
+      },
+      {
+        "label": "男 · CFD40_LM_003",
+        "edit_endpoint": "",
+        "media": [
+          "media/identity_6.png"
+        ]
+      },
+      {
+        "label": "男 · CFD40_AM_002",
+        "edit_endpoint": "",
+        "media": [
+          "media/identity_47.png"
+        ]
+      },
+      {
+        "label": "男 · CFD40_WM_001",
+        "edit_endpoint": "编辑前",
+        "media": [
+          "media/identity_51.png"
+        ]
+      },
+      {
+        "label": "男 · CFD40_WM_005",
+        "edit_endpoint": "",
+        "media": [
+          "media/identity_23.png"
+        ]
+      },
+      {
+        "label": "女 · CFD40_BF_003",
+        "edit_endpoint": "",
+        "media": [
+          "media/identity_15.png"
+        ]
+      },
+      {
+        "label": "女 · CFD40_BF_004",
+        "edit_endpoint": "",
+        "media": [
+          "media/identity_56.png"
+        ]
+      },
+      {
+        "label": "女 · CFD40_AF_003",
+        "edit_endpoint": "",
+        "media": [
+          "media/identity_39.png"
+        ]
+      },
+      {
+        "label": "女 · CFD40_LF_002",
+        "edit_endpoint": "",
+        "media": [
+          "media/identity_50.png"
+        ]
+      },
+      {
+        "label": "女 · CFD40_WF_002",
+        "edit_endpoint": "",
+        "media": [
+          "media/identity_1.png"
+        ]
+      }
+    ],
+    "发型": [
+      {
+        "label": "女 · Two high space buns",
+        "edit_endpoint": "编辑前",
+        "media": [
+          "media/hair_35.png",
+          "media/hair_16.png"
+        ]
+      },
+      {
+        "label": "女 · Deep Side Part with Braids",
+        "edit_endpoint": "编辑后",
+        "media": [
+          "media/hair_22.png",
+          "media/hair_47.png"
+        ]
+      },
+      {
+        "label": "女 · Wavy medium ponytail",
+        "edit_endpoint": "",
+        "media": [
+          "media/hair_18.png",
+          "media/hair_111.png"
+        ]
+      },
+      {
+        "label": "女 · Double bubble braids",
+        "edit_endpoint": "",
+        "media": [
+          "media/hair_29.png",
+          "media/hair_106.png"
+        ]
+      },
+      {
+        "label": "女 · Long middle part",
+        "edit_endpoint": "",
+        "media": [
+          "media/hair_46.png",
+          "media/hair_80.png"
+        ]
+      },
+      {
+        "label": "男 · Curly long ponytail",
+        "edit_endpoint": "",
+        "media": [
+          "media/hair_32.png",
+          "media/hair_68.png"
+        ]
+      },
+      {
+        "label": "男 · Large bun",
+        "edit_endpoint": "",
+        "media": [
+          "media/hair_31.png",
+          "media/hair_53.png"
+        ]
+      },
+      {
+        "label": "男 · Back-swept Top",
+        "edit_endpoint": "",
+        "media": [
+          "media/hair_37.png",
+          "media/hair_84.png"
+        ]
+      },
+      {
+        "label": "男 · Modern Mullet",
+        "edit_endpoint": "",
+        "media": [
+          "media/hair_2.png",
+          "media/hair_63.png"
+        ]
+      },
+      {
+        "label": "男 · Spiky Fringe",
+        "edit_endpoint": "",
+        "media": [
+          "media/hair_17.png",
+          "media/hair_70.png"
+        ]
+      }
+    ],
+    "发色": [
+      "黑色",
+      "蓝色",
+      "金色",
+      "栗色",
+      "粉色",
+      "红色",
+      "白色"
+    ],
+    "服装": [
+      {
+        "label": "Summer Girl Four Colors · Shorts4, Top4",
+        "edit_endpoint": "编辑前",
+        "media": [
+          "media/garment_715.png",
+          "media/garment_716.png"
+        ]
+      },
+      {
+        "label": "Streetwear Collection · Shoes 01, TrenchCoat_E",
+        "edit_endpoint": "编辑后",
+        "media": [
+          "media/garment_725.png",
+          "media/garment_726.png"
+        ]
+      },
+      {
+        "label": "裹身裙 · Dress Collection",
+        "edit_endpoint": "",
+        "media": [
+          "media/garment_565.png",
+          "media/garment_566.png"
+        ],
+        "family_id": 3,
+        "clothing_ids": [
+          9,
+          61,
+          64,
+          75
+        ]
+      },
+      {
+        "label": "分层短裙造型 · Misaki",
+        "edit_endpoint": "",
+        "media": [
+          "media/garment_729.png",
+          "media/garment_730.png"
+        ],
+        "family_id": 6,
+        "clothing_ids": [
+          6,
+          90,
+          91,
+          92,
+          93,
+          94
+        ]
+      },
+      {
+        "label": "连身裤 · Jumpsuits & Accessories",
+        "edit_endpoint": "",
+        "media": [
+          "media/garment_623.png",
+          "media/garment_624.png"
+        ],
+        "family_id": 5,
+        "clothing_ids": [
+          4,
+          87,
+          88
+        ]
+      },
+      {
+        "label": "运动紧身套装 · Workout Color Outfits",
+        "edit_endpoint": "",
+        "media": [
+          "media/garment_837.png",
+          "media/garment_838.png"
+        ],
+        "family_id": 12,
+        "clothing_ids": [
+          6,
+          162
+        ]
+      },
+      {
+        "label": "赛博朋克装备 · Cyberpunk Locked",
+        "edit_endpoint": "",
+        "media": [
+          "media/garment_863.png",
+          "media/garment_864.png"
+        ],
+        "family_id": 16,
+        "clothing_ids": [
+          206,
+          207,
+          208,
+          209
+        ]
+      },
+      {
+        "label": "背带皮裤 · Lederhosen",
+        "edit_endpoint": "",
+        "media": [
+          "media/garment_909.png",
+          "media/garment_910.png"
+        ],
+        "family_id": 21,
+        "clothing_ids": [
+          227,
+          228,
+          229
+        ]
+      },
+      {
+        "label": "燕尾礼服 · White Tie",
+        "edit_endpoint": "",
+        "media": [
+          "media/garment_579.png",
+          "media/garment_580.png"
+        ],
+        "family_id": 35,
+        "clothing_ids": [
+          301,
+          305,
+          306,
+          307,
+          308
+        ]
+      },
+      {
+        "label": "睡衣 · Pyjamas",
+        "edit_endpoint": "",
+        "media": [
+          "media/garment_667.png",
+          "media/garment_668.png"
+        ],
+        "family_id": 28,
+        "clothing_ids": [
+          10,
+          264,
+          267
+        ]
+      }
+    ],
+    "动作": [
+      {
+        "label": "扶额",
+        "edit_endpoint": "编辑前",
+        "media": [
+          "media/motion_439.mp4"
+        ]
+      },
+      {
+        "label": "举拳庆祝",
+        "edit_endpoint": "编辑后",
+        "media": [
+          "media/motion_322.mp4"
+        ]
+      },
+      {
+        "label": "系鞋带",
+        "edit_endpoint": "",
+        "media": [
+          "media/motion_1.mp4"
+        ]
+      },
+      {
+        "label": "摇摆舞",
+        "edit_endpoint": "",
+        "media": [
+          "media/motion_13.mp4"
+        ]
+      },
+      {
+        "label": "打喷嚏",
+        "edit_endpoint": "",
+        "media": [
+          "media/motion_351.mp4"
+        ]
+      },
+      {
+        "label": "向前行走",
+        "edit_endpoint": "",
+        "media": [
+          "media/motion_71.mp4"
+        ]
+      }
+    ],
+    "镜头": [
+      {
+        "label": "正面全身",
+        "edit_endpoint": "",
+        "media": [
+          "media/node_3772.mp4"
+        ],
+        "first_frame": "media/camera_29a98ee3844b120e6c187de945d05c25f84a68e54234867592d6d36a646c517a.png",
+        "poster_origin": "dataset_camera_first_frame",
+        "node_id": 3772,
+        "camera_id": 9,
+        "split": "train",
+        "attributes": {
+          "sex_id": 1,
+          "identity_id": 14,
+          "hair_id": 14,
+          "hair_color_id": 1,
+          "scene_id": 16,
+          "aspect_id": 2,
+          "action_id": 24,
+          "camera_id": 9,
+          "clothing": {
+            "family_id": 3,
+            "group_id": 6,
+            "shirts": {
+              "clothing_id": 63,
+              "slot": "shirts"
+            },
+            "skirts": {
+              "clothing_id": 72,
+              "slot": "skirts"
+            },
+            "family_accessory": [
+              {
+                "clothing_id": 69,
+                "slot": "family_accessory"
+              },
+              {
+                "clothing_id": 64,
+                "slot": "family_accessory"
+              }
+            ],
+            "shared_shoes": {
+              "clothing_id": 7,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      {
+        "label": "正面上半身",
+        "edit_endpoint": "编辑后",
+        "media": [
+          "media/node_4291.mp4"
+        ],
+        "first_frame": "media/camera_b091ae9c2e67ca637a721cd0088ecd167a67bc066f814d36d3dd351c876555cd.png",
+        "poster_origin": "dataset_camera_first_frame",
+        "node_id": 4291,
+        "camera_id": 13,
+        "split": "train",
+        "attributes": {
+          "sex_id": 1,
+          "identity_id": 1,
+          "hair_id": 4,
+          "hair_color_id": 2,
+          "scene_id": 19,
+          "aspect_id": 2,
+          "action_id": 1,
+          "camera_id": 13,
+          "clothing": {
+            "family_id": 1,
+            "group_id": 2,
+            "pants": {
+              "clothing_id": 35,
+              "slot": "pants"
+            },
+            "shirts": {
+              "clothing_id": 45,
+              "slot": "shirts"
+            },
+            "coats": {
+              "clothing_id": 40,
+              "slot": "coats"
+            },
+            "shared_shoes": {
+              "clothing_id": 4,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      {
+        "label": "面部近景（柔和跟随头部位置）",
+        "edit_endpoint": "",
+        "media": [
+          "media/node_5704.mp4"
+        ],
+        "first_frame": "media/camera_13f7b09ef829ae7fa9515eff31ab9fecf301a459de1c9db686da6d5dc9b8b09a.png",
+        "poster_origin": "dataset_camera_first_frame",
+        "node_id": 5704,
+        "camera_id": 10,
+        "split": "train",
+        "attributes": {
+          "sex_id": 1,
+          "identity_id": 33,
+          "hair_id": 17,
+          "hair_color_id": 3,
+          "scene_id": 7,
+          "aspect_id": 2,
+          "action_id": 20,
+          "camera_id": 10,
+          "clothing": {
+            "family_id": 11,
+            "group_id": 16,
+            "shirts": {
+              "clothing_id": 157,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 155,
+              "slot": "pants"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      {
+        "label": "正面拉远",
+        "edit_endpoint": "",
+        "media": [
+          "media/node_4900.mp4"
+        ],
+        "first_frame": "media/node_4900_poster.jpg",
+        "poster_origin": "preview_from_frame_0",
+        "node_id": 4900,
+        "camera_id": 7,
+        "split": "train",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 20,
+          "hair_id": 8,
+          "hair_color_id": 5,
+          "scene_id": 21,
+          "aspect_id": 2,
+          "action_id": 19,
+          "camera_id": 7,
+          "clothing": {
+            "family_id": 22,
+            "group_id": 30,
+            "shirts": {
+              "clothing_id": 230,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 232,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 231,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      {
+        "label": "背面全身",
+        "edit_endpoint": "",
+        "media": [
+          "media/node_3488.mp4"
+        ],
+        "first_frame": "media/camera_02d733190ef5d616d8e605057e2b75bb0f473bbd068dbd47519e9e424a42183b.png",
+        "poster_origin": "dataset_camera_first_frame",
+        "node_id": 3488,
+        "camera_id": 1,
+        "split": "train",
+        "attributes": {
+          "sex_id": 1,
+          "identity_id": 1,
+          "hair_id": 10,
+          "hair_color_id": 2,
+          "scene_id": 17,
+          "aspect_id": 2,
+          "action_id": 9,
+          "camera_id": 1,
+          "clothing": {
+            "family_id": 9,
+            "group_id": 13,
+            "shirts": {
+              "clothing_id": 118,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 119,
+              "slot": "pants"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      {
+        "label": "正面推进",
+        "edit_endpoint": "",
+        "media": [
+          "media/node_3489.mp4"
+        ],
+        "first_frame": "media/camera_33f481bc461462310e280fec11c5832f8090681c50909592b995c8ae90cc0c52.png",
+        "poster_origin": "dataset_camera_first_frame",
+        "node_id": 3489,
+        "camera_id": 4,
+        "split": "train",
+        "attributes": {
+          "sex_id": 1,
+          "identity_id": 1,
+          "hair_id": 10,
+          "hair_color_id": 2,
+          "scene_id": 17,
+          "aspect_id": 2,
+          "action_id": 9,
+          "camera_id": 4,
+          "clothing": {
+            "family_id": 9,
+            "group_id": 13,
+            "shirts": {
+              "clothing_id": 118,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 119,
+              "slot": "pants"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      {
+        "label": "侧面全身",
+        "edit_endpoint": "",
+        "media": [
+          "media/node_3750.mp4"
+        ],
+        "first_frame": "media/node_3750_poster.jpg",
+        "poster_origin": "preview_from_frame_0",
+        "node_id": 3750,
+        "camera_id": 20,
+        "split": "train",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 29,
+          "hair_id": 21,
+          "hair_color_id": 6,
+          "scene_id": 19,
+          "aspect_id": 2,
+          "action_id": 6,
+          "camera_id": 20,
+          "clothing": {
+            "family_id": 28,
+            "group_id": 36,
+            "shirts": {
+              "clothing_id": 264,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 265,
+              "slot": "pants"
+            },
+            "shared_shoes": {
+              "clothing_id": 10,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      {
+        "label": "360°全身环绕",
+        "edit_endpoint": "",
+        "media": [
+          "media/node_3757.mp4"
+        ],
+        "first_frame": "media/node_3757_poster.jpg",
+        "poster_origin": "preview_from_frame_0",
+        "node_id": 3757,
+        "camera_id": 17,
+        "split": "train",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 29,
+          "hair_id": 21,
+          "hair_color_id": 6,
+          "scene_id": 19,
+          "aspect_id": 2,
+          "action_id": 7,
+          "camera_id": 17,
+          "clothing": {
+            "family_id": 28,
+            "group_id": 36,
+            "shirts": {
+              "clothing_id": 264,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 267,
+              "slot": "pants"
+            },
+            "shared_shoes": {
+              "clothing_id": 10,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      {
+        "label": "仰视全身",
+        "edit_endpoint": "",
+        "media": [
+          "media/node_5863.mp4"
+        ],
+        "first_frame": "media/camera_89e25e32aba85e3af69c1321e90d0e66dbe6ac33cc76c7f8876162912ee160a8.png",
+        "poster_origin": "dataset_camera_first_frame",
+        "node_id": 5863,
+        "camera_id": 15,
+        "split": "train",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 10,
+          "hair_id": 3,
+          "hair_color_id": 3,
+          "scene_id": 19,
+          "aspect_id": 2,
+          "action_id": 5,
+          "camera_id": 15,
+          "clothing": {
+            "family_id": 37,
+            "group_id": 45,
+            "shirts": {
+              "clothing_id": 319,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 318,
+              "slot": "pants"
+            },
+            "shared_shoes": {
+              "clothing_id": 10,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      },
+      {
+        "label": "俯视全身",
+        "edit_endpoint": "",
+        "media": [
+          "media/node_5252.mp4"
+        ],
+        "first_frame": "media/node_5252_poster.jpg",
+        "poster_origin": "preview_from_frame_0",
+        "node_id": 5252,
+        "camera_id": 14,
+        "split": "train",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 30,
+          "hair_id": 26,
+          "hair_color_id": 1,
+          "scene_id": 4,
+          "aspect_id": 2,
+          "action_id": 2,
+          "camera_id": 14,
+          "clothing": {
+            "family_id": 24,
+            "group_id": 32,
+            "shirts": {
+              "clothing_id": 240,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 238,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 243,
+              "slot": "shoes"
+            }
+          }
+        },
+        "expression_id": 2
+      }
+    ],
+    "场景": [
+      {
+        "label": "日本城市街区",
+        "edit_endpoint": "编辑前",
+        "media": [
+          "media/scene_156.png"
+        ]
+      },
+      {
+        "label": "红色沙漠",
+        "edit_endpoint": "编辑后",
+        "media": [
+          "media/scene_577.png"
+        ]
+      },
+      {
+        "label": "未来都市",
+        "edit_endpoint": "",
+        "media": [
+          "media/scene_328.png"
+        ]
+      },
+      {
+        "label": "游乐园",
+        "edit_endpoint": "",
+        "media": [
+          "media/scene_623.png"
+        ]
+      },
+      {
+        "label": "日式村落",
+        "edit_endpoint": "",
+        "media": [
+          "media/scene_381.png"
+        ]
+      },
+      {
+        "label": "维多利亚街道",
+        "edit_endpoint": "",
+        "media": [
+          "media/scene_501.png"
+        ]
+      },
+      {
+        "label": "傍晚公路",
+        "edit_endpoint": "",
+        "media": [
+          "media/scene_216.png"
+        ]
+      },
+      {
+        "label": "海滨小镇",
+        "edit_endpoint": "",
+        "media": [
+          "media/scene_616.png"
+        ]
+      },
+      {
+        "label": "中世纪城堡",
+        "edit_endpoint": "",
+        "media": [
+          "media/scene_10.png"
+        ]
+      },
+      {
+        "label": "樱花庭院",
+        "edit_endpoint": "",
+        "media": [
+          "media/scene_58.png"
+        ]
+      }
+    ]
+  },
+  "media_sources": {
+    "media/node_684.mp4": "nodes/nodes/node_684.mp4",
+    "media/node_685.mp4": "nodes/nodes/node_685.mp4",
+    "media/identity_9.png": "conditions/identity/identities/identity_9.png",
+    "media/node_4533.mp4": "nodes/nodes/node_4533.mp4",
+    "media/node_4548.mp4": "nodes/nodes/node_4548.mp4",
+    "media/hair_22.png": "conditions/hair/hairs/hair_22.png",
+    "media/hair_47.png": "conditions/hair/hairs/hair_47.png",
+    "media/node_4239.mp4": "nodes/nodes/node_4239.mp4",
+    "media/node_4255.mp4": "nodes/nodes/node_4255.mp4",
+    "media/node_239.mp4": "nodes/nodes/node_239.mp4",
+    "media/node_253.mp4": "nodes/nodes/node_253.mp4",
+    "media/garment_725.png": "conditions/garment/garments/garment_725.png",
+    "media/garment_726.png": "conditions/garment/garments/garment_726.png",
+    "media/node_3095.mp4": "nodes/nodes/node_3095.mp4",
+    "media/node_3099.mp4": "nodes/nodes/node_3099.mp4",
+    "media/motion_322.mp4": "conditions/motion/motions/motion_322.mp4",
+    "media/node_4279.mp4": "nodes/nodes/node_4279.mp4",
+    "media/node_4291.mp4": "nodes/nodes/node_4291.mp4",
+    "media/camera_b091ae9c2e67ca637a721cd0088ecd167a67bc066f814d36d3dd351c876555cd.png": "conditions/camera/images/camera_b091ae9c2e67ca637a721cd0088ecd167a67bc066f814d36d3dd351c876555cd.png",
+    "media/node_4772.mp4": "nodes/nodes/node_4772.mp4",
+    "media/node_4787.mp4": "nodes/nodes/node_4787.mp4",
+    "media/scene_577.png": "conditions/scene/scenes/scene_577.png",
+    "media/identity_51.png": "conditions/identity/identities/identity_51.png",
+    "media/hair_35.png": "conditions/hair/hairs/hair_35.png",
+    "media/hair_16.png": "conditions/hair/hairs/hair_16.png",
+    "media/hair_18.png": "conditions/hair/hairs/hair_18.png",
+    "media/hair_111.png": "conditions/hair/hairs/hair_111.png",
+    "media/hair_29.png": "conditions/hair/hairs/hair_29.png",
+    "media/hair_106.png": "conditions/hair/hairs/hair_106.png",
+    "media/hair_46.png": "conditions/hair/hairs/hair_46.png",
+    "media/hair_80.png": "conditions/hair/hairs/hair_80.png",
+    "media/hair_32.png": "conditions/hair/hairs/hair_32.png",
+    "media/hair_68.png": "conditions/hair/hairs/hair_68.png",
+    "media/hair_31.png": "conditions/hair/hairs/hair_31.png",
+    "media/hair_53.png": "conditions/hair/hairs/hair_53.png",
+    "media/hair_37.png": "conditions/hair/hairs/hair_37.png",
+    "media/hair_84.png": "conditions/hair/hairs/hair_84.png",
+    "media/hair_2.png": "conditions/hair/hairs/hair_2.png",
+    "media/hair_63.png": "conditions/hair/hairs/hair_63.png",
+    "media/hair_17.png": "conditions/hair/hairs/hair_17.png",
+    "media/hair_70.png": "conditions/hair/hairs/hair_70.png",
+    "media/garment_715.png": "conditions/garment/garments/garment_715.png",
+    "media/garment_716.png": "conditions/garment/garments/garment_716.png",
+    "media/garment_565.png": "conditions/garment/garments/garment_565.png",
+    "media/garment_566.png": "conditions/garment/garments/garment_566.png",
+    "media/garment_579.png": "conditions/garment/garments/garment_579.png",
+    "media/garment_580.png": "conditions/garment/garments/garment_580.png",
+    "media/motion_439.mp4": "conditions/motion/motions/motion_439.mp4",
+    "media/motion_1.mp4": "conditions/motion/motions/motion_1.mp4",
+    "media/motion_13.mp4": "conditions/motion/motions/motion_13.mp4",
+    "media/motion_351.mp4": "conditions/motion/motions/motion_351.mp4",
+    "media/motion_71.mp4": "conditions/motion/motions/motion_71.mp4",
+    "media/scene_156.png": "conditions/scene/scenes/scene_156.png",
+    "media/scene_328.png": "conditions/scene/scenes/scene_328.png",
+    "media/scene_623.png": "conditions/scene/scenes/scene_623.png",
+    "media/scene_381.png": "conditions/scene/scenes/scene_381.png",
+    "media/scene_501.png": "conditions/scene/scenes/scene_501.png",
+    "media/scene_216.png": "conditions/scene/scenes/scene_216.png",
+    "media/scene_616.png": "conditions/scene/scenes/scene_616.png",
+    "media/scene_10.png": "conditions/scene/scenes/scene_10.png",
+    "media/scene_58.png": "conditions/scene/scenes/scene_58.png",
+    "media/node_3488.mp4": "nodes/nodes/node_3488.mp4",
+    "media/camera_02d733190ef5d616d8e605057e2b75bb0f473bbd068dbd47519e9e424a42183b.png": "conditions/camera/images/camera_02d733190ef5d616d8e605057e2b75bb0f473bbd068dbd47519e9e424a42183b.png",
+    "media/node_3489.mp4": "nodes/nodes/node_3489.mp4",
+    "media/camera_33f481bc461462310e280fec11c5832f8090681c50909592b995c8ae90cc0c52.png": "conditions/camera/images/camera_33f481bc461462310e280fec11c5832f8090681c50909592b995c8ae90cc0c52.png",
+    "media/node_3750.mp4": "nodes/nodes/node_3750.mp4",
+    "media/node_3757.mp4": "nodes/nodes/node_3757.mp4",
+    "media/node_5863.mp4": "nodes/nodes/node_5863.mp4",
+    "media/camera_89e25e32aba85e3af69c1321e90d0e66dbe6ac33cc76c7f8876162912ee160a8.png": "conditions/camera/images/camera_89e25e32aba85e3af69c1321e90d0e66dbe6ac33cc76c7f8876162912ee160a8.png",
+    "media/node_5252.mp4": "nodes/nodes/node_5252.mp4",
+    "media/node_3772.mp4": "nodes/nodes/node_3772.mp4",
+    "media/camera_29a98ee3844b120e6c187de945d05c25f84a68e54234867592d6d36a646c517a.png": "conditions/camera/images/camera_29a98ee3844b120e6c187de945d05c25f84a68e54234867592d6d36a646c517a.png",
+    "media/node_5704.mp4": "nodes/nodes/node_5704.mp4",
+    "media/camera_13f7b09ef829ae7fa9515eff31ab9fecf301a459de1c9db686da6d5dc9b8b09a.png": "conditions/camera/images/camera_13f7b09ef829ae7fa9515eff31ab9fecf301a459de1c9db686da6d5dc9b8b09a.png",
+    "media/node_4900.mp4": "nodes/nodes/node_4900.mp4",
+    "media/identity_6.png": "conditions/identity/identities/identity_6.png",
+    "media/identity_47.png": "conditions/identity/identities/identity_47.png",
+    "media/identity_23.png": "conditions/identity/identities/identity_23.png",
+    "media/identity_15.png": "conditions/identity/identities/identity_15.png",
+    "media/identity_56.png": "conditions/identity/identities/identity_56.png",
+    "media/identity_39.png": "conditions/identity/identities/identity_39.png",
+    "media/identity_50.png": "conditions/identity/identities/identity_50.png",
+    "media/identity_1.png": "conditions/identity/identities/identity_1.png",
+    "media/garment_729.png": "conditions/garment/garments/garment_729.png",
+    "media/garment_730.png": "conditions/garment/garments/garment_730.png",
+    "media/garment_623.png": "conditions/garment/garments/garment_623.png",
+    "media/garment_624.png": "conditions/garment/garments/garment_624.png",
+    "media/garment_837.png": "conditions/garment/garments/garment_837.png",
+    "media/garment_838.png": "conditions/garment/garments/garment_838.png",
+    "media/garment_863.png": "conditions/garment/garments/garment_863.png",
+    "media/garment_864.png": "conditions/garment/garments/garment_864.png",
+    "media/garment_909.png": "conditions/garment/garments/garment_909.png",
+    "media/garment_910.png": "conditions/garment/garments/garment_910.png",
+    "media/garment_667.png": "conditions/garment/garments/garment_667.png",
+    "media/garment_668.png": "conditions/garment/garments/garment_668.png"
+  }
+}

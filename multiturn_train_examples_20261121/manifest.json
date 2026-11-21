@@ -1,0 +1,475 @@
+[
+  {
+    "chain_id": 5554,
+    "type": "linear",
+    "parent_versions": [
+      0,
+      1,
+      2
+    ],
+    "split": "train",
+    "versions": [
+      {
+        "version": 0,
+        "node_id": 2324,
+        "video": "media/node_2324.mp4",
+        "preview": "media/node_2324_preview.jpg",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 38,
+          "hair_id": 21,
+          "hair_color_id": 4,
+          "scene_id": 2,
+          "aspect_id": 1,
+          "action_id": 12,
+          "camera_id": 7,
+          "clothing": {
+            "family_id": 15,
+            "group_id": 23,
+            "shirts": {
+              "clothing_id": 201,
+              "slot": "shirts"
+            },
+            "pants": {
+              "clothing_id": 203,
+              "slot": "pants"
+            },
+            "shoes": {
+              "clothing_id": 199,
+              "slot": "shoes"
+            }
+          }
+        },
+        "edit": null,
+        "reference_media": []
+      },
+      {
+        "version": 1,
+        "node_id": 2333,
+        "video": "media/node_2333.mp4",
+        "preview": "media/node_2333_preview.jpg",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 38,
+          "hair_id": 21,
+          "hair_color_id": 4,
+          "scene_id": 2,
+          "aspect_id": 1,
+          "action_id": 12,
+          "camera_id": 7,
+          "clothing": {
+            "family_id": 13,
+            "group_id": 19,
+            "pants": {
+              "clothing_id": 168,
+              "slot": "pants"
+            },
+            "shirts": {
+              "clothing_id": 175,
+              "slot": "shirts"
+            },
+            "shoes": {
+              "clothing_id": 169,
+              "slot": "shoes"
+            },
+            "coats": {
+              "clothing_id": 170,
+              "slot": "coats"
+            }
+          }
+        },
+        "edit": {
+          "edit_round": 1,
+          "edge_id": 18354,
+          "axis": "wardrobe",
+          "mode": "whole_outfit",
+          "source_history_index": 0,
+          "source_node_id": 2324,
+          "target_node_id": 2333,
+          "prompt": {
+            "en": "Dress the person in the complete outfit shown from the front and back in the reference images, consisting of the bottoms, the top, the footwear, and the outerwear. This replaces the current outfit entirely, rather than adding items to it. Preserve everything else in the video. The first reference image shows the front view of the complete outfit, and the second shows its back view.",
+            "zh": "为人物换上参考图中以正面和背面展示、由下装、上衣、鞋子、外套组成的完整穿搭。这是对当前穿搭的整体替换，而不是在原穿搭上添加单件。视频中的其他内容保持不变。第一张参考图展示整套穿搭的正面，第二张展示背面。"
+          },
+          "references": [
+            {
+              "type": "garment",
+              "path": "conditions/garment/garments/garment_803.png",
+              "view": "front",
+              "reference_scope": "complete_outfit"
+            },
+            {
+              "type": "garment",
+              "path": "conditions/garment/garments/garment_804.png",
+              "view": "back",
+              "reference_scope": "complete_outfit"
+            }
+          ]
+        },
+        "reference_media": [
+          {
+            "type": "garment",
+            "path": "conditions/garment/garments/garment_803.png",
+            "view": "front",
+            "reference_scope": "complete_outfit",
+            "local": "media/garment_803.png"
+          },
+          {
+            "type": "garment",
+            "path": "conditions/garment/garments/garment_804.png",
+            "view": "back",
+            "reference_scope": "complete_outfit",
+            "local": "media/garment_804.png"
+          }
+        ]
+      },
+      {
+        "version": 2,
+        "node_id": 2343,
+        "video": "media/node_2343.mp4",
+        "preview": "media/node_2343_preview.jpg",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 38,
+          "hair_id": 21,
+          "hair_color_id": 4,
+          "scene_id": 2,
+          "aspect_id": 1,
+          "action_id": 12,
+          "camera_id": 6,
+          "clothing": {
+            "family_id": 13,
+            "group_id": 19,
+            "pants": {
+              "clothing_id": 168,
+              "slot": "pants"
+            },
+            "shirts": {
+              "clothing_id": 175,
+              "slot": "shirts"
+            },
+            "shoes": {
+              "clothing_id": 169,
+              "slot": "shoes"
+            },
+            "coats": {
+              "clothing_id": 170,
+              "slot": "coats"
+            }
+          }
+        },
+        "edit": {
+          "edit_round": 2,
+          "edge_id": 18398,
+          "axis": "camera",
+          "mode": "attribute",
+          "source_history_index": 1,
+          "source_node_id": 2333,
+          "target_node_id": 2343,
+          "prompt": {
+            "en": "Please change the video's camera setup to a rear-view dolly-out shot that moves from upper-body to full-body framing. Change only the camera setup. Preserve the person's appearance, expression, and action, along with the existing scene. Use the provided reference image to determine the viewing direction, subject placement, and framing at the start of the edited video. Follow the camera setup and movement described above, and preserve the timing and progression of the action in the source video.",
+            "zh": "请将视频的镜头设置改为从人物背面逐渐远离，由上半身过渡到全身的镜头。仅改变镜头设置。保留人物的外观、表情和动作，以及现有场景。请参考提供的图片确定编辑后视频开始时的观察方向、人物位置和取景范围。镜头设置及之后的运动按前述要求执行，并保留输入视频中人物动作的时间顺序和过程。"
+          },
+          "references": [
+            {
+              "type": "camera",
+              "path": "conditions/camera/images/camera_ab050dc70b0178c5896ed636508f2f05059dc3bf30fed0aa3738abd19815417b.png",
+              "view": "first_frame"
+            }
+          ]
+        },
+        "reference_media": [
+          {
+            "type": "camera",
+            "path": "conditions/camera/images/camera_ab050dc70b0178c5896ed636508f2f05059dc3bf30fed0aa3738abd19815417b.png",
+            "view": "first_frame",
+            "local": "media/camera_ab050dc70b0178c5896ed636508f2f05059dc3bf30fed0aa3738abd19815417b.png"
+          }
+        ]
+      },
+      {
+        "version": 3,
+        "node_id": 2350,
+        "video": "media/node_2350.mp4",
+        "preview": "media/node_2350_preview.jpg",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 38,
+          "hair_id": 21,
+          "hair_color_id": 4,
+          "scene_id": 2,
+          "aspect_id": 1,
+          "action_id": 17,
+          "camera_id": 6,
+          "clothing": {
+            "family_id": 13,
+            "group_id": 19,
+            "pants": {
+              "clothing_id": 168,
+              "slot": "pants"
+            },
+            "shirts": {
+              "clothing_id": 175,
+              "slot": "shirts"
+            },
+            "shoes": {
+              "clothing_id": 169,
+              "slot": "shoes"
+            },
+            "coats": {
+              "clothing_id": 170,
+              "slot": "coats"
+            }
+          }
+        },
+        "edit": {
+          "edit_round": 3,
+          "edge_id": 18459,
+          "axis": "action",
+          "mode": "attribute",
+          "source_history_index": 2,
+          "source_node_id": 2343,
+          "target_node_id": 2350,
+          "prompt": {
+            "en": "Please change the person's action to match the reference video. Use the reference video only for the action. Keep the person's identity, appearance, expression, scene, and camera unchanged.",
+            "zh": "请将人物的动作改为参考视频中展示的动作。参考视频仅用于确定动作。保持人物的身份、外观、表情、场景和镜头不变。"
+          },
+          "references": [
+            {
+              "type": "motion",
+              "path": "conditions/motion/motions/motion_499.mp4"
+            }
+          ]
+        },
+        "reference_media": [
+          {
+            "type": "motion",
+            "path": "conditions/motion/motions/motion_499.mp4",
+            "local": "media/motion_499.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chain_id": 6398,
+    "type": "fork",
+    "parent_versions": [
+      0,
+      1,
+      1
+    ],
+    "split": "train",
+    "versions": [
+      {
+        "version": 0,
+        "node_id": 1162,
+        "video": "media/node_1162.mp4",
+        "preview": "media/node_1162_preview.jpg",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 17,
+          "hair_id": 26,
+          "hair_color_id": 1,
+          "scene_id": 9,
+          "aspect_id": 1,
+          "action_id": 3,
+          "camera_id": 3,
+          "clothing": {
+            "family_id": 20,
+            "group_id": 28,
+            "pants": {
+              "clothing_id": 226,
+              "slot": "pants"
+            },
+            "shirts": {
+              "clothing_id": 224,
+              "slot": "shirts"
+            },
+            "shared_shoes": {
+              "clothing_id": 10,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "edit": null,
+        "reference_media": []
+      },
+      {
+        "version": 1,
+        "node_id": 1167,
+        "video": "media/node_1167.mp4",
+        "preview": "media/node_1167_preview.jpg",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 17,
+          "hair_id": 5,
+          "hair_color_id": 1,
+          "scene_id": 9,
+          "aspect_id": 1,
+          "action_id": 3,
+          "camera_id": 3,
+          "clothing": {
+            "family_id": 20,
+            "group_id": 28,
+            "pants": {
+              "clothing_id": 226,
+              "slot": "pants"
+            },
+            "shirts": {
+              "clothing_id": 224,
+              "slot": "shirts"
+            },
+            "shared_shoes": {
+              "clothing_id": 10,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "edit": {
+          "edit_round": 1,
+          "edge_id": 8279,
+          "axis": "hair",
+          "mode": "attribute",
+          "source_history_index": 0,
+          "source_node_id": 1162,
+          "target_node_id": 1167,
+          "prompt": {
+            "en": "I'd like to change the person's hairstyle to the one shown in the reference images. Only transfer the hairstyle from the reference images, not the reference person's facial features, hair color, or clothing. Preserve everything else in the current video.",
+            "zh": "我想将人物的发型更换为参考图中展示的发型。只采用参考图中的发型，不采用参考人物的面部特征、发色或服装。当前视频中的其他内容保持不变。"
+          },
+          "references": [
+            {
+              "type": "hair",
+              "path": "conditions/hair/hairs/hair_90.png",
+              "view": "front"
+            },
+            {
+              "type": "hair",
+              "path": "conditions/hair/hairs/hair_6.png",
+              "view": "back"
+            }
+          ]
+        },
+        "reference_media": [
+          {
+            "type": "hair",
+            "path": "conditions/hair/hairs/hair_90.png",
+            "view": "front",
+            "local": "media/hair_90.png"
+          },
+          {
+            "type": "hair",
+            "path": "conditions/hair/hairs/hair_6.png",
+            "view": "back",
+            "local": "media/hair_6.png"
+          }
+        ]
+      },
+      {
+        "version": 2,
+        "node_id": 1164,
+        "video": "media/node_1164.mp4",
+        "preview": "media/node_1164_preview.jpg",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 17,
+          "hair_id": 5,
+          "hair_color_id": 1,
+          "scene_id": 1,
+          "aspect_id": 1,
+          "action_id": 3,
+          "camera_id": 3,
+          "clothing": {
+            "family_id": 20,
+            "group_id": 28,
+            "pants": {
+              "clothing_id": 226,
+              "slot": "pants"
+            },
+            "shirts": {
+              "clothing_id": 224,
+              "slot": "shirts"
+            },
+            "shared_shoes": {
+              "clothing_id": 10,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "edit": {
+          "edit_round": 2,
+          "edge_id": 8294,
+          "axis": "site",
+          "mode": "attribute",
+          "source_history_index": 1,
+          "source_node_id": 1167,
+          "target_node_id": 1164,
+          "prompt": {
+            "en": "I'd like to replace the video's scene with the environment shown in the reference image. Use the reference image to define the target environment. Keep the same person, hairstyle, hair color, outfit, expression, and action. Maintain the existing camera framing and movement, and light the person naturally within the new scene.",
+            "zh": "我希望将视频的场景更换为参考图展示的环境。用参考图确定目标环境。保持人物、发型、发色、穿搭、表情和动作不变。维持原有的镜头构图与运动，使人物在新场景中自然受光。"
+          },
+          "references": [
+            {
+              "type": "scene",
+              "path": "conditions/scene/scenes/scene_615.png"
+            }
+          ]
+        },
+        "reference_media": [
+          {
+            "type": "scene",
+            "path": "conditions/scene/scenes/scene_615.png",
+            "local": "media/scene_615.png"
+          }
+        ]
+      },
+      {
+        "version": 3,
+        "node_id": 1163,
+        "video": "media/node_1163.mp4",
+        "preview": "media/node_1163_preview.jpg",
+        "attributes": {
+          "sex_id": 2,
+          "identity_id": 17,
+          "hair_id": 5,
+          "hair_color_id": 6,
+          "scene_id": 9,
+          "aspect_id": 1,
+          "action_id": 3,
+          "camera_id": 3,
+          "clothing": {
+            "family_id": 20,
+            "group_id": 28,
+            "pants": {
+              "clothing_id": 226,
+              "slot": "pants"
+            },
+            "shirts": {
+              "clothing_id": 224,
+              "slot": "shirts"
+            },
+            "shared_shoes": {
+              "clothing_id": 10,
+              "slot": "shared_shoes"
+            }
+          }
+        },
+        "edit": {
+          "edit_round": 3,
+          "edge_id": 8293,
+          "axis": "hair_color",
+          "mode": "attribute",
+          "source_history_index": 1,
+          "source_node_id": 1167,
+          "target_node_id": 1163,
+          "prompt": {
+            "en": "Please use the result of edit 1 as the starting point and apply the following edit to that video: the person currently has black hair; change it to red.",
+            "zh": "请以第1轮编辑的结果为基础，在该视频上进行以下编辑：人物目前是黑色头发，将其改为红色。"
+          },
+          "references": []
+        },
+        "reference_media": []
+      }
+    ]
+  }
+]
